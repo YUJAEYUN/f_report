@@ -1,0 +1,37 @@
+name: daily-pipeline
+
+on:
+  workflow_dispatch: {}
+  # NOTE: 실제 정기 스케줄링은 사내 정책 확인 후 아래 주석을 해제할 것.
+  # 대상 사이트(hanaw.com)의 robots.txt가 자동화 접근을 명시적으로 막고 있어,
+  # 개인/구조 검증 단계를 넘어 상시 자동 실행으로 넘어가기 전에 반드시
+  # 사내 정책 확인이 필요하다.
+  # schedule:
+  #   - cron: "0 0,3,6,9 * * 1-5"  # 예시: 평일 KST 09/12/15/18시 (UTC 기준으로 조정 필요)
+
+permissions:
+  contents: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run collect + extract pipeline
+        run: python scripts/run_pipeline.py --max-pages 3
+
+      - name: Commit updated data
+        run: |
+          git config user.name "research-tracker-bot"
+          git config user.email "research-tracker-bot@users.noreply.github.com"
+          git add data/ digest/
+          git diff --cached --quiet || git commit -m "chore: update research data $(date -u +%Y-%m-%d)"
+          git push

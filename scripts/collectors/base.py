@@ -1,0 +1,79 @@
+"""Collector 공통 인터페이스.
+
+증권사별 리서치 리스트 수집기가 구현해야 하는 최소 계약을 정의한다.
+지금은 hana.py 하나만 이 인터페이스를 구현하지만, 다른 증권사를 추가할 때
+run_pipeline.py가 소스별 차이를 몰라도 되도록 이 형태를 유지한다.
+
+PDF 원문 파일은 어떤 구현체도 디스크에 남기면 안 된다 (메모리에서만 처리).
+"""
+from __future__ import annotations
+
+from abc import ABC, abstractmethod
+from dataclasses import dataclass, asdict
+from enum import Enum
+from typing import Iterator, Optional
+
+
+class ReportType(str, Enum):
+    """개별 리포트 vs 데일리 종합 코멘트 구분.
+
+    데일리 시리즈물(예: Hana Guru Eye, 하루에 하나)은 그날의 개별 리포트를
+    이미 bullet로 요약해 담고 있어 개별 리포트와 내용이 겹친다. 산업 브리핑
+    합성 재료로는 individual만 쓰고, daily_series는 다이제스트의 별도
+    섹션으로만 사용해 이중 카운트를 막는다.
+    """
+
+    INDIVIDUAL = "individual"
+    DAILY_SERIES = "daily_series"
+
+
+@dataclass
+class RawReportItem:
+    source: str  # 예: "hana"
+    bbs_cd: str  # 원본 게시판/카테고리 식별자 (예: pid 값)
+    bbs_seq: str  # 소스 내에서 유일한 게시글 번호
+    report_type: ReportType
+    title: str
+    analyst: Optional[str]
+    published_date: str  # ISO 8601 (YYYY-MM-DD)
+    category: str  # breadcrumb 최하위 항목 (예: "기업분석")
+    breadcrumb: str  # 원본 breadcrumb 전체 문자열 (판별 근거 보존용)
+    preview_text: str
+    pdf_url: Optional[str]
+    pdf_filename: Optional[str]
+    source_url: str
+
+    @property
+    def report_id(self) -> str:
+        return f"{self.source}_{self.bbs_seq}"
+
+    def to_dict(self) -> dict:
+        d = asdict(self)
+        d["report_type"] = self.report_type.value
+        d["report_id"] = self.report_id
+        return d
+
+
+class ReportCollector(ABC):
+    """소스(증권사) 하나당 인스턴스 하나. PDF는 절대 디스크에 쓰지 않는다."""
+
+    source_name: str
+
+    @abstractmethod
+    def iter_recent_reports(
+        self,
+        max_pages: int,
+        stop_before_seq: Optional[str] = None,
+    ) -> Iterator[RawReportItem]:
+        """최신순으로 RawReportItem을 yield한다.
+
+        stop_before_seq가 주어지면 해당 bbs_seq에 도달하는 즉시 순회를
+        중단해서(그 항목 자체는 yield하지 않음) 전체 재수집을 방지한다.
+        max_pages는 안전장치: stop_before_seq 없이 무한정 도는 것을 막는다.
+        """
+        raise NotImplementedError
+
+    @abstractmethod
+    def download_pdf_text(self, pdf_url: str) -> str:
+        """PDF를 메모리에서만 열어 텍스트를 추출한다. 디스크에 파일로 남기지 않는다."""
+        raise NotImplementedError

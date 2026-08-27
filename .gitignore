@@ -1,0 +1,14 @@
+# PDF 원문은 절대 커밋하지 않는다 (다운로드 -> 텍스트 추출 -> 즉시 폐기)
+*.pdf
+tmp/
+tmp/**
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+*.swp
