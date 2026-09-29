@@ -1,61 +1,61 @@
 """하나증권 리서치 리스트(list.cmd) 수집기.
 
-상태: BLOCKED — 실제 파싱 로직 미구현.
-
-이 세션의 네트워크 egress 정책이 www.hanaw.com CONNECT를 403으로 거부해서
-(robots.txt 얘기가 아니라 이 실행 환경 자체의 아웃바운드 정책), 실제 페이지의
-DOM/응답을 라이브로 열어보지 못한 상태다. 추측으로 파싱 규칙을 채우면 나중에
-전부 갈아엎어야 할 가능성이 높아서, 아래 항목이 실측으로 확인되기 전까지는
-셀렉터/파라미터를 채우지 않는다:
-
-  - list.cmd가 순수 HTML인지 JS 렌더링인지
-  - pid 값별 카테고리 매핑 (기업분석/산업분석/채권분석/Daily 등)
-  - breadcrumb 문자열로 report_type(individual vs daily_series)을 가르는 규칙
-  - 페이지네이션 파라미터명과 안정적으로 넘어가는 페이지 수
-  - 리포트 리스트 아이템 하나의 HTML 구조 (제목/애널리스트/발행일/미리보기/PDF 링크)
-  - PDF 다운로드가 직접 GET인지 별도 토큰/세션이 필요한지
-  - 헤더 없이 접근했을 때의 응답, 과다 요청 시 차단 패턴
-
-이 파일은 base.ReportCollector 인터페이스에 맞춘 뼈대만 잡아둔 것이다.
-실사용 전 확인 방법(둘 중 하나):
-  1) 이 환경의 네트워크 정책에서 www.hanaw.com 아웃바운드를 허용한 뒤 세션 재시작
-  2) list.cmd 페이지의 view-source와 리포트 항목 하나의 HTML을 직접 붙여넣기
-
-실측이 들어오면 _parse_list_page / _parse_item / _resolve_report_type /
-download_pdf_text 안의 TODO를 채우면 된다.
+2026-09-29 실측 결과:
+  - list.cmd는 서버 렌더링된 순수 HTML (JS 렌더링 아님)
+  - pid=0&cid=0 이 "전체" 피드. 카테고리별로 돌 필요 없이 전체 피드 하나만 순회한다.
+  - 페이지네이션: curPage=N, 페이지당 10건 고정
+  - 항목 구조: div.daily_bbs > ul > li (리포트 1건)
+      제목       h3 > a.more_btn.title   (id="{bbsCd}_{bbsSeq}")
+      애널리스트  li.info > span.m-name
+      발행일시    li.info > span.txtbasic (날짜 "YYYY.MM.DD", 시간 "오후 3:52:43")
+      breadcrumb li.info 의 마지막 텍스트 노드 (예: "산업/기업 > 기업분석", "Daily > Daily")
+      미리보기    li.j_bbsContn
+      PDF        a.j_fileLink (download.cmd?bbsSeq=..&attachFileSeq=1&bbsCd=..)
+  - PDF는 쿠키/토큰/Referer 없이 직접 GET으로 받아진다 (application/pdf)
+  - 목록은 게시 시각순이라 bbsSeq가 엄격히 단조감소하지 않는다
+    (예: 1288899가 1288894보다 뒤 페이지에 나옴). 그래서 "특정 seq에서 멈춤"
+    대신 "이미 본 항목만 있는 페이지가 나오면 멈춤"으로 증분 수집한다.
 """
 from __future__ import annotations
 
+import re
 import time
+from datetime import datetime
 from typing import Iterator, Optional
+from urllib.parse import urljoin
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString, Tag
 
 from .base import ReportCollector, RawReportItem, ReportType
 from ..pdf_extract import extract_text_from_pdf_bytes
 
-BASE_URL = "https://www.hanaw.com/main/research/research/list.cmd"
+SITE_ROOT = "https://www.hanaw.com"
+BASE_URL = f"{SITE_ROOT}/main/research/research/list.cmd"
 
-# 내부 트래킹 목적임을 밝히는 User-Agent. contact는 실제 담당자 계정으로 교체할 것.
-USER_AGENT = (
-    "HanaResearchTracker/0.1 (+internal research tracking; "
-    "contact: research-tracker-admin@hanaw.com)"
-)
+USER_AGENT = "HanaResearchTracker/0.1 (+personal research tracking)"
 
-REQUEST_DELAY_SECONDS = 1.5  # 요청 간 최소 딜레이. 실측 후 필요하면 상향.
+REQUEST_DELAY_SECONDS = 1.5  # 요청 간 최소 딜레이
 
-# pid -> 카테고리 매핑표 (실측 전까지 비워둠). 예:
-# PID_CATEGORY_MAP = {"01": "기업분석", "02": "산업분석", "03": "채권분석", "99": "Daily"}
-PID_CATEGORY_MAP: dict[str, str] = {}
+# pid=0, cid=0 = 전체 리포트 피드
+FEED_PARAMS = {"pid": "0", "cid": "0"}
 
-# breadcrumb에 이 토큰들이 포함되면 daily_series로 분류 (실측 후 확정).
+# breadcrumb에 이 토큰들이 포함되면 daily_series로 분류.
+# 실측 breadcrumb 예: "Daily > Daily" (Hana Guru Eye, Hana Global Guru Eye 등)
 DAILY_SERIES_BREADCRUMB_HINTS: tuple[str, ...] = (
     "Daily",
     "Hana Guru Eye",
     "Hana Global Guru Eye",
     "하루에 하나",
 )
+
+_ITEM_ID_RE = re.compile(r"^(\w+)_(\d+)$")
+_DATE_RE = re.compile(r"(\d{4})\.(\d{2})\.(\d{2})")
+_TIME_RE = re.compile(r"(오전|오후)\s*(\d{1,2}):(\d{2}):(\d{2})")
+
+
+def _clean(text: str) -> str:
+    return re.sub(r"\s+", " ", text.replace("\xa0", " ")).strip()
 
 
 class HanaCollector(ReportCollector):
@@ -65,21 +65,96 @@ class HanaCollector(ReportCollector):
         self.session = session or requests.Session()
         self.session.headers.update({"User-Agent": USER_AGENT})
 
-    def fetch_list_page(self, pid: str, cur_page: int) -> str:
-        """리스트 페이지 1장을 요청해서 raw HTML을 반환한다."""
-        # TODO(live-verify): 실제 쿼리 파라미터명(pid/curPage 여부, 페이지 크기 등) 확인 필요.
-        params = {"pid": pid, "curPage": cur_page}
-        resp = self.session.get(BASE_URL, params=params, timeout=15)
+    def fetch_list_page(self, cur_page: int) -> str:
+        """전체 피드의 리스트 페이지 1장을 요청해서 raw HTML을 반환한다."""
+        params = {**FEED_PARAMS, "curPage": cur_page}
+        resp = self.session.get(BASE_URL, params=params, timeout=20)
         resp.raise_for_status()
+        resp.encoding = "utf-8"
         time.sleep(REQUEST_DELAY_SECONDS)
         return resp.text
 
     def _parse_list_page(self, html: str) -> list[RawReportItem]:
         """리스트 페이지 HTML을 RawReportItem 목록으로 파싱한다."""
-        # TODO(live-verify): 실제 DOM 구조 확인 후 셀렉터 채우기.
-        raise NotImplementedError(
-            "hana.py: list.cmd DOM 구조가 실측되지 않아 파싱 로직이 비어있습니다. "
-            "모듈 docstring의 확인 절차를 먼저 진행하세요."
+        soup = BeautifulSoup(html, "lxml")
+        container = soup.select_one("div.daily_bbs > ul")
+        if container is None:
+            return []
+
+        items: list[RawReportItem] = []
+        for li in container.find_all("li", recursive=False):
+            item = self._parse_item(li)
+            if item is not None:
+                items.append(item)
+        return items
+
+    def _parse_item(self, li: Tag) -> Optional[RawReportItem]:
+        title_a = li.select_one("h3 a.title")
+        if title_a is None:
+            return None
+        m = _ITEM_ID_RE.match(title_a.get("id", ""))
+        if not m:
+            return None
+        bbs_cd, bbs_seq = m.group(1), m.group(2)
+
+        info = li.select_one("li.info")
+        analyst: Optional[str] = None
+        published_date = ""
+        published_time: Optional[str] = None
+        breadcrumb = ""
+        if info is not None:
+            name_el = info.select_one("span.m-name")
+            if name_el is not None:
+                analyst = _clean(name_el.get_text()) or None
+
+            info_text = info.get_text(" ")
+            dm = _DATE_RE.search(info_text)
+            if dm:
+                published_date = f"{dm.group(1)}-{dm.group(2)}-{dm.group(3)}"
+            tm = _TIME_RE.search(info_text)
+            if tm:
+                hour = int(tm.group(2)) % 12 + (12 if tm.group(1) == "오후" else 0)
+                published_time = f"{hour:02d}:{tm.group(3)}:{tm.group(4)}"
+
+            # breadcrumb는 span들 뒤에 붙은 맨 마지막 텍스트 노드
+            tail = [
+                _clean(str(node))
+                for node in info.children
+                if isinstance(node, NavigableString) and _clean(str(node))
+            ]
+            if tail:
+                breadcrumb = tail[-1]
+
+        category = breadcrumb.split(">")[-1].strip() if breadcrumb else ""
+
+        preview_el = li.select_one("li.j_bbsContn")
+        preview_text = preview_el.get_text("\n").strip() if preview_el is not None else ""
+
+        pdf_a = li.select_one("a.j_fileLink")
+        pdf_url: Optional[str] = None
+        pdf_filename: Optional[str] = None
+        if pdf_a is not None and pdf_a.get("href"):
+            pdf_url = urljoin(SITE_ROOT, pdf_a["href"])
+            pdf_filename = _clean(pdf_a.get_text()) or None
+
+        source_url = f"{BASE_URL}?pid=0&cid=0&bbsCd={bbs_cd}&bbsSeq={bbs_seq}"
+
+        return RawReportItem(
+            source=self.source_name,
+            bbs_cd=bbs_cd,
+            bbs_seq=bbs_seq,
+            report_type=self._resolve_report_type(breadcrumb),
+            title=_clean(title_a.get_text()),
+            analyst=analyst,
+            published_date=published_date,
+            published_time=published_time,
+            category=category,
+            breadcrumb=breadcrumb,
+            preview_text=preview_text,
+            pdf_url=pdf_url,
+            pdf_filename=pdf_filename,
+            source_url=source_url,
+            collected_at=datetime.now().astimezone().isoformat(timespec="seconds"),
         )
 
     def _resolve_report_type(self, breadcrumb: str) -> ReportType:
@@ -90,24 +165,35 @@ class HanaCollector(ReportCollector):
     def iter_recent_reports(
         self,
         max_pages: int,
-        stop_before_seq: Optional[str] = None,
+        seen_ids: Optional[set[str]] = None,
     ) -> Iterator[RawReportItem]:
-        for pid in PID_CATEGORY_MAP or ():
-            for cur_page in range(1, max_pages + 1):
-                html = self.fetch_list_page(pid, cur_page)
-                items = self._parse_list_page(html)
-                if not items:
-                    break
-                for item in items:
-                    if stop_before_seq is not None and item.bbs_seq == stop_before_seq:
-                        return
-                    yield item
+        seen_ids = seen_ids or set()
+        for cur_page in range(1, max_pages + 1):
+            html = self.fetch_list_page(cur_page)
+            items = self._parse_list_page(html)
+            if not items:
+                if cur_page == 1:
+                    # 첫 페이지에서 0건이면 사이트 구조 변경/차단 가능성이 높다.
+                    # 조용히 0건으로 끝내지 말고 워크플로를 실패시켜 알아채게 한다.
+                    raise RuntimeError(
+                        "하나증권 리스트 1페이지에서 리포트를 하나도 파싱하지 못했습니다. "
+                        "사이트 구조 변경 또는 접속 차단 여부를 확인하세요."
+                    )
+                break
+
+            new_items = [it for it in items if it.report_id not in seen_ids]
+            yield from new_items
+            if not new_items:
+                # 한 페이지 전체가 이미 수집된 항목이면 그 뒤는 볼 필요 없다.
+                break
 
     def download_pdf_text(self, pdf_url: str) -> str:
         """PDF를 메모리에서만 열어 텍스트를 추출한다 (디스크 미저장)."""
-        # TODO(live-verify): pdf_url이 직접 GET으로 열리는지, 별도 토큰/Referer가
-        # 필요한지 확인되지 않았다. 지금은 단순 GET만 시도한다.
-        resp = self.session.get(pdf_url, timeout=30)
+        resp = self.session.get(pdf_url, timeout=60, headers={"Referer": BASE_URL})
         resp.raise_for_status()
         time.sleep(REQUEST_DELAY_SECONDS)
+        if not resp.content.startswith(b"%PDF"):
+            raise ValueError(
+                f"PDF가 아닌 응답 (Content-Type: {resp.headers.get('Content-Type')})"
+            )
         return extract_text_from_pdf_bytes(resp.content)
