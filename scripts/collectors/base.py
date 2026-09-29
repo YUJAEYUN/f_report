@@ -36,12 +36,14 @@ class RawReportItem:
     title: str
     analyst: Optional[str]
     published_date: str  # ISO 8601 (YYYY-MM-DD)
+    published_time: Optional[str]  # HH:MM:SS (KST)
     category: str  # breadcrumb 최하위 항목 (예: "기업분석")
     breadcrumb: str  # 원본 breadcrumb 전체 문자열 (판별 근거 보존용)
     preview_text: str
     pdf_url: Optional[str]
     pdf_filename: Optional[str]
     source_url: str
+    collected_at: str  # 수집 시각 (ISO 8601)
 
     @property
     def report_id(self) -> str:
@@ -63,13 +65,13 @@ class ReportCollector(ABC):
     def iter_recent_reports(
         self,
         max_pages: int,
-        stop_before_seq: Optional[str] = None,
+        seen_ids: Optional[set[str]] = None,
     ) -> Iterator[RawReportItem]:
-        """최신순으로 RawReportItem을 yield한다.
+        """최신순으로 아직 수집하지 않은 RawReportItem만 yield한다.
 
-        stop_before_seq가 주어지면 해당 bbs_seq에 도달하는 즉시 순회를
-        중단해서(그 항목 자체는 yield하지 않음) 전체 재수집을 방지한다.
-        max_pages는 안전장치: stop_before_seq 없이 무한정 도는 것을 막는다.
+        seen_ids에 있는 report_id는 건너뛰고, 한 페이지 전체가 이미 본
+        항목이면 순회를 중단해서 전체 재수집을 방지한다.
+        max_pages는 안전장치: 첫 실행 시 무한정 과거로 도는 것을 막는다.
         """
         raise NotImplementedError
 
