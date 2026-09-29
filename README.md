@@ -17,31 +17,39 @@
   인터페이스로 어댑터를 분리한다. 지금 실제로 구현/실행하는 소스는
   하나증권(`hana.py`) 하나뿐이다.
 
-## 현재 상태 (중요)
-`scripts/collectors/hana.py`는 아직 실제 파싱 로직이 없다. 이 세션의
-네트워크 egress 정책이 `www.hanaw.com`으로의 아웃바운드를 차단하고 있어
-list.cmd 페이지의 실제 DOM/응답을 라이브로 확인하지 못했다 (robots.txt
-얘기와는 별개로, 이 실행 환경 자체의 네트워크 정책 문제). `hana.py`
-상단 docstring에 확인이 필요한 항목과 확인 방법이 정리되어 있다.
+## 현재 상태
+수집(collect) + PDF 텍스트 추출(extract)이 동작한다. GitHub Actions가 평일
+KST 09/12/18시에 하나증권 전체 리서치 피드를 훑어 신규 리포트만 저장하고
+커밋한다. 요약/태깅/브리핑 등 가공 단계는 이 저장소 밖에서 처리한다.
 
-## 사내 정책 관련 유의사항
-대상 사이트의 robots.txt가 자동화 접근을 명시적으로 막고 있다. 지금 단계
-(구조 설계, 개인 테스트)는 진행 가능하지만, 실제 정기 스케줄링(운영 배포)에
-들어가기 전에는 반드시 사내 정책 확인을 거칠 것. `.github/workflows/daily-pipeline.yml`의
-`schedule:` 트리거는 그때까지 주석 처리해둔다.
+수집 결과: `data/reports/{발행일}/hana_{bbsSeq}.json`
+```
+report_id, report_type(individual|daily_series), title, analyst,
+published_date, published_time, category, breadcrumb, preview_text,
+pdf_url, pdf_filename, source_url, collected_at, pdf_text, (pdf_error)
+```
+PDF 추출에 실패한 리포트는 `pdf_error`와 함께 저장되고, seen 인덱스에
+들어가지 않으므로 다음 실행에서 재시도된다.
+
+## 유의사항
+- 대상 사이트의 robots.txt는 Googlebot/Yeti 외 자동화 접근을 Disallow 한다.
+  요청 간 1.5초 딜레이를 두고 있으며, 정기 실행을 멈추려면 워크플로의
+  `schedule:` 블록을 주석 처리한다.
+- `pdf_text`에는 리포트 원문 텍스트가 들어간다. 저장소가 public이면
+  원문이 공개 재배포되므로 저장소를 private으로 두는 것을 권장한다.
 
 ## 디렉터리 구조
 ```
 skills/                 각 파이프라인 단계의 SKILL.md (언제/입력/처리절차/출력형식/주의사항)
 scripts/
   collectors/base.py    공통 수집기 인터페이스
-  collectors/hana.py    하나증권 어댑터 (파싱 로직 라이브 검증 대기)
+  collectors/hana.py    하나증권 어댑터 (전체 피드 list.cmd 파싱)
   pdf_extract.py        PDF 바이트 -> 텍스트 (메모리 전용)
   report_index.py       seen_reports.json 기반 중복 방지
   run_pipeline.py        collect -> extract 오케스트레이션
 data/
   index/seen_reports.json   수집 완료 report_id 마스터 인덱스
-  reports/{date}/{id}.json  리포트별 구조화 데이터 (원문 텍스트 미보관 원칙)
+  reports/{date}/{id}.json  리포트별 메타데이터 + PDF 추출 텍스트 (date = 발행일)
   industries/{industry}/    산업별 이력 + 주간 브리핑
 digest/{date}.md         오늘의 다이제스트
 ```
@@ -49,6 +57,8 @@ digest/{date}.md         오늘의 다이제스트
 ## 로컬 실행
 ```
 pip install -r requirements.txt
-python scripts/run_pipeline.py --max-pages 3
+python scripts/run_pipeline.py --max-pages 3            # 최근 30건까지
+python scripts/run_pipeline.py --max-pages 3 --skip-pdf # 메타데이터만
 ```
-`hana.py`가 아직 스텁이라 지금은 신규 리포트 0건으로 정상 종료된다.
+첫 실행은 `--max-pages` 만큼 과거로 거슬러 올라가고, 이후 실행은 이미
+본 리포트만 있는 페이지가 나오면 멈춘다.
