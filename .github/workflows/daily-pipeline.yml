@@ -1,37 +1,52 @@
 name: daily-pipeline
 
 on:
-  workflow_dispatch: {}
-  # NOTE: 실제 정기 스케줄링은 사내 정책 확인 후 아래 주석을 해제할 것.
-  # 대상 사이트(hanaw.com)의 robots.txt가 자동화 접근을 명시적으로 막고 있어,
-  # 개인/구조 검증 단계를 넘어 상시 자동 실행으로 넘어가기 전에 반드시
-  # 사내 정책 확인이 필요하다.
-  # schedule:
-  #   - cron: "0 0,3,6,9 * * 1-5"  # 예시: 평일 KST 09/12/15/18시 (UTC 기준으로 조정 필요)
+  workflow_dispatch:
+    inputs:
+      max_pages:
+        description: "최대 조회 페이지 수 (페이지당 10건)"
+        required: false
+        default: "10"
+  schedule:
+    # 평일 KST 09:00 / 12:00 / 18:00 (UTC 00/03/09시)
+    # 대상 사이트 robots.txt는 Googlebot/Yeti 외 자동화 접근을 Disallow 하고 있다.
+    # 정기 실행을 멈추려면 이 schedule 블록을 주석 처리할 것.
+    - cron: "0 0,3,9 * * 1-5"
 
 permissions:
   contents: write
 
+concurrency:
+  group: daily-pipeline
+  cancel-in-progress: false
+
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Run collect + extract pipeline
-        run: python scripts/run_pipeline.py --max-pages 3
+        run: python scripts/run_pipeline.py --max-pages "${{ github.event.inputs.max_pages || '10' }}"
 
       - name: Commit updated data
         run: |
           git config user.name "research-tracker-bot"
           git config user.email "research-tracker-bot@users.noreply.github.com"
-          git add data/ digest/
-          git diff --cached --quiet || git commit -m "chore: update research data $(date -u +%Y-%m-%d)"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "변경 사항 없음"
+            exit 0
+          fi
+          git commit -m "chore: collect research reports $(TZ=Asia/Seoul date +%Y-%m-%dT%H:%M)"
+          git pull --rebase
           git push
