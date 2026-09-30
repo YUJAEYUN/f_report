@@ -370,7 +370,8 @@ def consolidate_themes(reports: list[tuple[Path, dict]]) -> bool:
         "너는 증권사 리서치 태깅 결과를 정리하는 파이프라인의 한 단계다. 아래 SKILL 명세를 따른다.",
         "=== SKILL: consolidate-themes ===\n" + skill("consolidate-themes"),
         "=== 최근 테마 (이름 (리포트 수): 대표 리포트 제목) ===\n" + listing,
-        '=== 출력 형식 ===\n다른 말 없이 JSON 객체 하나만 출력한다.\n{"merge": {"합쳐질 테마": "대표 테마"}}',
+        '=== 출력 형식 ===\n다른 말 없이 JSON 객체 하나만 출력한다.\n'
+        '{"merge": {"합쳐질 테마": {"to": "대표 테마", "reason": "같은 이슈라고 본 근거"}}}',
     ])
     try:
         merge = ask_json(prompt).get("merge") or {}
@@ -379,7 +380,11 @@ def consolidate_themes(reports: list[tuple[Path, dict]]) -> bool:
         return True
     aliases = load_aliases()
     applied = {}
+    reasons = {}
     for src, dst in merge.items():
+        if isinstance(dst, dict):
+            reasons[src] = dst.get("reason") or ""
+            dst = dst.get("to")
         if src in members and dst in members and src != dst and resolve_theme(dst, {**aliases, **applied}) != src:
             applied[src] = dst
     if not applied:
@@ -389,7 +394,7 @@ def consolidate_themes(reports: list[tuple[Path, dict]]) -> bool:
     aliases = {k: resolve_theme(v, aliases) for k, v in aliases.items()}
     write_json(THEME_ALIASES, dict(sorted(aliases.items())))
     for src, dst in sorted(applied.items()):
-        print(f"[themes] {src} -> {aliases[src]}")
+        print(f"[themes] {src} -> {aliases[src]}  ({reasons.get(src, '')})")
     for path, r in reports:
         if not r.get("themes"):
             continue

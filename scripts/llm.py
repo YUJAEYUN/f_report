@@ -57,17 +57,27 @@ def ask(prompt: str) -> str:
 
 
 def ask_json(prompt: str) -> dict:
-    """JSON 객체 하나를 응답으로 기대하는 호출. 코드펜스/앞뒤 잡담은 걷어낸다."""
+    """JSON 객체 하나를 응답으로 기대하는 호출.
+
+    코드펜스/앞뒤 잡담을 걷어낸다. 모델이 JSON을 낸 뒤 "Wait..."처럼 스스로 고쳐
+    두 번째 JSON을 내는 경우가 있어, 응답 안의 최상위 JSON 객체 중 마지막 것을 쓴다.
+    """
     text = ask(prompt)
-    m = re.search(r"```(?:json)?\s*(\{.*\})\s*```", text, re.S)
-    candidate = m.group(1) if m else text[text.find("{") : text.rfind("}") + 1]
-    try:
-        obj = json.loads(candidate)
-    except json.JSONDecodeError as e:
-        raise LLMError(f"응답 JSON 파싱 실패: {text[:300]}") from e
-    if not isinstance(obj, dict):
-        raise LLMError("응답이 JSON 객체가 아님")
-    return obj
+    decoder = json.JSONDecoder()
+    found = None
+    i = text.find("{")
+    while i != -1:
+        try:
+            obj, end = decoder.raw_decode(text, i)
+        except json.JSONDecodeError:
+            i = text.find("{", i + 1)
+            continue
+        if isinstance(obj, dict):
+            found = obj
+        i = text.find("{", end)
+    if found is None:
+        raise LLMError(f"응답 JSON 파싱 실패: {text[:300]}")
+    return found
 
 
 def strip_fences(text: str) -> str:
