@@ -1,0 +1,65 @@
+{
+  "week": "2026-W38",
+  "report_count": 25,
+  "themes": [
+    {
+      "name": "3분기 어닝시즌",
+      "report_ids": [
+        "hana_1288821",
+        "hana_1288825"
+      ]
+    },
+    {
+      "name": "AI 데이터센터 전력",
+      "report_ids": [
+        "hana_1288817",
+        "hana_1288823"
+      ]
+    },
+    {
+      "name": "AI 보안 지출 확대",
+      "report_ids": [
+        "hana_1288806",
+        "hana_1288814"
+      ]
+    },
+    {
+      "name": "ESS 수요",
+      "report_ids": [
+        "hana_1288817",
+        "hana_1288824"
+      ]
+    },
+    {
+      "name": "앤트로픽 IPO",
+      "report_ids": [
+        "hana_1288814",
+        "hana_1288830"
+      ]
+    }
+  ],
+  "industries": [
+    {
+      "name": "소프트웨어·AI",
+      "report_ids": [
+        "hana_1288806",
+        "hana_1288814"
+      ]
+    },
+    {
+      "name": "에너지·가스",
+      "report_ids": [
+        "hana_1288827",
+        "hana_1288828"
+      ]
+    },
+    {
+      "name": "화장품",
+      "report_ids": [
+        "hana_1288808",
+        "hana_1288832"
+      ]
+    }
+  ],
+  "generated_at": "2026-09-30T15:55:55+09:00"
+}
