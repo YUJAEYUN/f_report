@@ -17,7 +17,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: daily-pipeline
+  group: repo-data-writes  # process-reports와 공유: data/ push 직렬화
   cancel-in-progress: false
 
 jobs:

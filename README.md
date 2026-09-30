@@ -18,15 +18,38 @@
   하나증권(`hana.py`) 하나뿐이다.
 
 ## 현재 상태
-수집(collect) + PDF 텍스트 추출(extract)이 동작한다. GitHub Actions가 평일
-KST 09/12/18시에 하나증권 전체 리서치 피드를 훑어 신규 리포트만 저장하고
-커밋한다. 요약/태깅/브리핑 등 가공 단계는 이 저장소 밖에서 처리한다.
+두 개의 GitHub Actions 워크플로가 이어서 돈다.
+
+1. `daily-pipeline` (평일 KST 09/12/18시): 수집(collect) + PDF 텍스트
+   추출(extract). 하나증권 전체 리서치 피드에서 신규 리포트만 저장하고 커밋한다.
+2. `process-reports` (1번이 성공하면 자동 실행, 수동 실행도 가능):
+   `scripts/process_reports.py`가 아직 `summary`가 없는 리포트를 골라
+   요약 → 산업 태깅 → 이번 실행에서 영향받은 (산업, ISO주차) 브리핑 재생성 →
+   해당 발행일 다이제스트 재생성까지 하고 커밋한다. 각 단계 규칙은
+   `skills/*/SKILL.md`를 프롬프트에 그대로 넣어 따르게 한다.
+
+LLM은 Claude Code CLI(`claude -p`, 도구 비활성화)를 로그인 토큰으로 호출한다.
+파일 입출력은 파이썬 스크립트가 결정적으로 처리하고, LLM에는 텍스트만 주고받는다.
+
+### 가공 단계 설정
+1. 로컬에서 `claude setup-token` 실행 → 출력된 토큰을 저장소
+   Settings → Secrets and variables → Actions → Secret
+   `CLAUDE_CODE_OAUTH_TOKEN`으로 등록.
+2. (선택) 모델을 고정하려면 Variable `CLAUDE_MODEL`을 등록 (비우면 계정 기본값).
+3. 밀린 리포트는 실행당 최대 30건(`limit`)씩 처리된다. 한 번에 더 처리하려면
+   Actions에서 `process-reports`를 수동 실행하며 `limit`을 키운다.
+   브리핑/다이제스트만 다시 만들려면 `limit=0`, `redo_date=YYYY-MM-DD`.
+
+요약 도중 연속 3회 실패(토큰 만료, 사용량 한도 등)하면 그때까지 결과만 커밋하고
+잡을 실패로 표시한다. 남은 리포트는 다음 실행에서 이어서 처리된다.
 
 수집 결과: `data/reports/{발행일}/hana_{bbsSeq}.json`
 ```
 report_id, report_type(individual|daily_series), title, analyst,
 published_date, published_time, category, breadcrumb, preview_text,
 pdf_url, pdf_filename, source_url, collected_at, pdf_text, (pdf_error)
+# process-reports가 덧붙이는 필드
+summary, industry_tags(individual만), summarized_at
 ```
 PDF 추출에 실패한 리포트는 `pdf_error`와 함께 저장되고, seen 인덱스에
 들어가지 않으므로 다음 실행에서 재시도된다.
@@ -47,6 +70,8 @@ scripts/
   pdf_extract.py        PDF 바이트 -> 텍스트 (메모리 전용)
   report_index.py       seen_reports.json 기반 중복 방지
   run_pipeline.py        collect -> extract 오케스트레이션
+  process_reports.py     summarize -> tag -> brief -> digest 오케스트레이션
+  llm.py                 Claude Code CLI(headless) 호출 래퍼
 data/
   index/seen_reports.json   수집 완료 report_id 마스터 인덱스
   reports/{date}/{id}.json  리포트별 메타데이터 + PDF 추출 텍스트 (date = 발행일)
@@ -59,6 +84,7 @@ digest/{date}.md         오늘의 다이제스트
 pip install -r requirements.txt
 python scripts/run_pipeline.py --max-pages 3            # 최근 30건까지
 python scripts/run_pipeline.py --max-pages 3 --skip-pdf # 메타데이터만
+python scripts/process_reports.py --limit 5             # 로그인된 claude CLI 필요
 ```
 첫 실행은 `--max-pages` 만큼 과거로 거슬러 올라가고, 이후 실행은 이미
 본 리포트만 있는 페이지가 나오면 멈춘다.
