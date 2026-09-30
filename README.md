@@ -14,7 +14,7 @@
 1. 수집·원문 추출 (완료)
 2. 요약 + 분류(desk / 산업 / 테마) (완료)
 3. 일간·주간 인사이트 (주간 테마 Top + 산업 흐름, 일간 핵심 3줄) (완료)
-4. 대시보드 (목록·필터·요약 보기·원문 링크)
+4. 대시보드 (목록·필터·요약 보기·원문) — `web/`, Vercel 배포
 
 ## 설계 원칙
 - 상시 서버 없음: GitHub Actions 스케줄 트리거로 배치 실행, 상태는 전부 git
@@ -87,12 +87,36 @@ summary, summarized_at, desk, industries(individual만), themes(individual만), 
 PDF 추출에 실패한 리포트는 `pdf_error`와 함께 저장되고, seen 인덱스에
 들어가지 않으므로 다음 실행에서 재시도된다.
 
+## 대시보드 (web/)
+Next.js 앱. 빌드할 때 저장소의 `data/`, `insights/`, `digest/`, `config/`를 읽어 모든
+페이지를 정적으로 생성하고, 사이트 전체를 비밀번호(HTTP Basic 인증)로 보호한다.
+`main`에 커밋이 올라올 때마다(수집·가공 워크플로 포함) Vercel이 다시 빌드하므로
+별도 배포 작업은 없다.
+
+페이지: 홈(이번 주 한눈에·최근 발행일 핵심·최근 리포트) / 주간 인사이트 / 일간
+다이제스트 / 리포트 목록(데스크·산업·테마 필터, 검색) / 리포트 상세(요약·원문 링크·
+추출 원문) / 테마별 / 산업별(주간 브리핑 포함)
+
+### Vercel 연결
+1. Vercel → Add New → Project → 이 저장소 Import
+2. **Root Directory: `web`** (Framework Preset은 Next.js로 자동 인식)
+3. Root Directory 설정 아래 **"Include files outside of the Root Directory in the
+   Build Step"이 켜져 있는지 확인** (빌드가 `../data` 등을 읽는다)
+4. Environment Variables
+   - `DASHBOARD_PASSWORD` (필수): 접속 비밀번호. 없으면 사이트가 503을 낸다
+   - `DASHBOARD_USER` (선택): 접속 아이디, 기본값 `me`
+5. Deploy → 접속하면 브라우저 로그인 창이 뜬다
+
+로컬 확인: `cd web && npm install && npm run build && DASHBOARD_PASSWORD=... npm start`
+(개발 모드 `npm run dev`는 비밀번호 없이 열린다)
+
 ## 유의사항
 - 대상 사이트의 robots.txt는 Googlebot/Yeti 외 자동화 접근을 Disallow 한다.
   요청 간 1.5초 딜레이를 두고 있으며, 정기 실행을 멈추려면 워크플로의
   `schedule:` 블록을 주석 처리한다.
 - `pdf_text`에는 리포트 원문 텍스트가 들어간다. 저장소가 public이면
   원문이 공개 재배포되므로 저장소를 private으로 두는 것을 권장한다.
+  대시보드도 원문을 보여주므로 `DASHBOARD_PASSWORD` 없이 공개 배포하지 않는다.
 
 ## 디렉터리 구조
 ```

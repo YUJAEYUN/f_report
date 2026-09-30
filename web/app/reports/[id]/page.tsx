@@ -1,0 +1,78 @@
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { allReports, decodeParam, getReport, isoWeek, toCard } from "@/lib/data";
+import { Chips } from "@/components/ReportList";
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return allReports().map((r) => ({ id: r.report_id }));
+}
+
+export default async function ReportPage({ params }: { params: Promise<{ id: string }> }) {
+  const r = getReport(decodeParam((await params).id));
+  if (!r) notFound();
+  const card = toCard(r);
+  const s = r.summary;
+  const week = isoWeek(r.published_date);
+  return (
+    <>
+      <p className="sub">
+        <Link href={`/daily/${r.published_date}`}>{r.published_date}</Link> {r.published_time?.slice(0, 5)} ·{" "}
+        {r.analyst ?? "-"} · {r.breadcrumb} · <Link href={`/weekly/${week}`}>{week}</Link>
+      </p>
+      <h1>{r.title}</h1>
+      <div className="chips"><Chips card={card} /></div>
+
+      {!s && <p className="warn">아직 요약되지 않은 리포트입니다.</p>}
+
+      {s?.one_liner && (
+        <section className="card">
+          <p style={{ fontWeight: 600, margin: 0 }}>{s.one_liner}</p>
+          {(s.ticker || s.rating || s.target_price) && (
+            <dl className="kv" style={{ marginTop: 12 }}>
+              {s.ticker && (<><dt>종목</dt><dd>{s.ticker}</dd></>)}
+              {s.rating && (<><dt>투자의견</dt><dd>{s.rating}{s.rating_change ? ` (${s.rating_change})` : ""}</dd></>)}
+              {s.target_price != null && s.target_price !== "" && (<><dt>목표주가</dt><dd>{Number(s.target_price).toLocaleString("ko-KR")}</dd></>)}
+            </dl>
+          )}
+        </section>
+      )}
+
+      {s?.key_points && s.key_points.length > 0 && (
+        <section className="card prose">
+          <h2>핵심 포인트</h2>
+          <ul>{s.key_points.map((p, i) => <li key={i}>{p}</li>)}</ul>
+          {s.risk_factors && s.risk_factors.length > 0 && (
+            <>
+              <h3>리스크</h3>
+              <ul>{s.risk_factors.map((p, i) => <li key={i}>{p}</li>)}</ul>
+            </>
+          )}
+        </section>
+      )}
+
+      {s?.items && s.items.length > 0 && (
+        <section className="card prose">
+          <h2>항목별 요약</h2>
+          <ul>{s.items.map((it, i) => <li key={i}><strong>{it.topic}</strong> — {it.note}</li>)}</ul>
+        </section>
+      )}
+
+      <section className="card">
+        <h2 style={{ marginTop: 0 }}>원문</h2>
+        <p className="chips">
+          <a className="chip" href={r.source_url} target="_blank" rel="noreferrer">하나증권 페이지</a>
+          {r.pdf_url && <a className="chip" href={r.pdf_url} target="_blank" rel="noreferrer">PDF</a>}
+        </p>
+        {r.pdf_error && <p className="warn">PDF 추출 실패: {r.pdf_error}</p>}
+        {r.pdf_text && (
+          <details className="raw">
+            <summary>추출된 원문 텍스트 보기 ({r.pdf_text.length.toLocaleString("ko-KR")}자)</summary>
+            <div className="raw-text">{r.pdf_text}</div>
+          </details>
+        )}
+      </section>
+    </>
+  );
+}
