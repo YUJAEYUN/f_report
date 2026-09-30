@@ -21,6 +21,10 @@ class LLMError(RuntimeError):
     pass
 
 
+class LLMAuthError(LLMError):
+    """인증 실패(401/403). 재시도해도 소용없으므로 호출 측에서 즉시 중단한다."""
+
+
 def ask(prompt: str) -> str:
     """프롬프트를 stdin으로 넘기고 최종 응답 텍스트를 반환한다."""
     cmd = [CLAUDE_BIN, "-p", "--output-format", "json", "--tools", ""]
@@ -32,14 +36,17 @@ def ask(prompt: str) -> str:
         )
     except subprocess.TimeoutExpired as e:
         raise LLMError(f"timeout after {TIMEOUT_SEC}s") from e
-    if proc.returncode != 0:
-        raise LLMError(f"exit {proc.returncode}: {(proc.stderr or proc.stdout)[-500:]}")
     try:
         out = json.loads(proc.stdout)
-    except json.JSONDecodeError as e:
-        raise LLMError(f"CLI 출력 파싱 실패: {proc.stdout[-500:]}") from e
-    if out.get("is_error"):
-        raise LLMError(f"CLI error: {str(out.get('result'))[-500:]}")
+    except json.JSONDecodeError:
+        out = None
+    if out is None or proc.returncode != 0 or out.get("is_error"):
+        if out is None:
+            raise LLMError(f"exit {proc.returncode}: {(proc.stderr or proc.stdout)[-500:]}")
+        msg = f"{out.get('api_error_status') or ''} {str(out.get('result'))[-500:]}".strip()
+        if out.get("api_error_status") in (401, 403):
+            raise LLMAuthError(msg)
+        raise LLMError(msg)
     return out.get("result") or ""
 
 
