@@ -89,7 +89,8 @@ PDF 추출에 실패한 리포트는 `pdf_error`와 함께 저장되고, seen �
 
 ## 대시보드 (web/)
 Next.js 앱. 빌드할 때 저장소의 `data/`, `insights/`, `digest/`, `config/`를 읽어 모든
-페이지를 정적으로 생성하고, 사이트 전체를 비밀번호(HTTP Basic 인증)로 보호한다.
+페이지를 정적으로 생성하고, 사이트 전체를 로그인 페이지(`/login`) 뒤에 둔다.
+로그인하면 서명된 HttpOnly 쿠키로 30일간 유지되고, 비밀번호를 바꾸면 기존 세션은 모두 끊긴다.
 `main`에 커밋이 올라올 때마다(수집·가공 워크플로 포함) Vercel이 다시 빌드하므로
 별도 배포 작업은 없다.
 
@@ -105,7 +106,8 @@ Next.js 앱. 빌드할 때 저장소의 `data/`, `insights/`, `digest/`, `config
 4. Environment Variables
    - `DASHBOARD_PASSWORD` (필수): 접속 비밀번호. 없으면 사이트가 503을 낸다
    - `DASHBOARD_USER` (선택): 접속 아이디, 기본값 `me`
-5. Deploy → 접속하면 브라우저 로그인 창이 뜬다
+   - `DASHBOARD_SECRET` (선택): 세션 서명 키. 없으면 아이디·비밀번호에서 만든다
+5. Deploy → 접속하면 로그인 페이지로 이동한다
 
 로컬 확인: `cd web && npm install && npm run build && DASHBOARD_PASSWORD=... npm start`
 (개발 모드 `npm run dev`는 비밀번호 없이 열린다)

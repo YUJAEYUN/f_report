@@ -21,6 +21,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/reports">리포트</Link>
               <Link href="/themes">테마</Link>
               <Link href="/industries">산업</Link>
+              <form method="post" action="/api/logout">
+                <button type="submit" className="linklike">로그아웃</button>
+              </form>
             </nav>
           </div>
         </header>

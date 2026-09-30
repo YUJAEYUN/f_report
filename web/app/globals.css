@@ -40,8 +40,11 @@ a:hover { text-decoration: underline; }
 .wrap { max-width: 920px; margin: 0 auto; padding: 0 16px; }
 .site-header { background: var(--surface); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 10; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 12px; height: 52px; }
-.brand { font-weight: 700; color: var(--text); }
-nav { display: flex; gap: 14px; overflow-x: auto; }
+.brand { font-weight: 700; color: var(--text); white-space: nowrap; flex-shrink: 0; }
+nav { display: flex; align-items: center; gap: 14px; overflow-x: auto; min-width: 0; scrollbar-width: none; }
+nav::-webkit-scrollbar { display: none; }
+nav form { display: flex; }
+.linklike { white-space: nowrap; }
 nav a { color: var(--muted); font-size: 15px; white-space: nowrap; }
 nav a:hover { color: var(--text); text-decoration: none; }
 main { padding-top: 24px; padding-bottom: 40px; }
@@ -104,3 +107,15 @@ details.raw summary { cursor: pointer; color: var(--accent); }
 .list-plain { list-style: none; padding: 0; margin: 0; }
 .list-plain li { padding: 7px 0; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; gap: 12px; }
 .list-plain li:last-child { border-bottom: 0; }
+
+.login { min-height: 60vh; display: flex; align-items: center; justify-content: center; }
+.login-card { width: 100%; max-width: 360px; padding: 24px; }
+.login-card h1 { font-size: 22px; }
+.login-card label { display: block; font-size: 14px; color: var(--muted); margin: 12px 0 0; }
+.login-card input { display: block; width: 100%; margin-top: 4px; font: inherit; font-size: 16px; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text); }
+.login-card input:focus { outline: 2px solid var(--accent); outline-offset: 0; border-color: transparent; }
+.btn { display: block; width: 100%; margin-top: 18px; font: inherit; font-weight: 600; padding: 11px; border: 0; border-radius: 8px; background: var(--accent); color: #fff; cursor: pointer; }
+@media (prefers-color-scheme: dark) { .btn { color: #0f1320; } }
+.btn:hover { filter: brightness(1.05); }
+.linklike { background: none; border: 0; padding: 0; font: inherit; color: var(--muted); cursor: pointer; font-size: 15px; }
+.linklike:hover { color: var(--text); }
