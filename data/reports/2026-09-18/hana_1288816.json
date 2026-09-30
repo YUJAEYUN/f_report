@@ -31,8 +31,13 @@
     ],
     "risk_factors": []
   },
-  "industry_tags": [
-    "콘텐츠"
+  "summarized_at": "2026-09-30T10:52:23+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "미디어·콘텐츠"
   ],
-  "summarized_at": "2026-09-30T10:52:23+09:00"
+  "themes": [
+    "K팝·콘텐츠 일정"
+  ],
+  "tagged_at": "2026-09-30T14:18:07+09:00"
 }

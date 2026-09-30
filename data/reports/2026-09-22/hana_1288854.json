@@ -31,8 +31,13 @@
     ],
     "risk_factors": []
   },
-  "industry_tags": [
+  "summarized_at": "2026-09-30T11:05:27+09:00",
+  "desk": "산업·기업",
+  "industries": [
     "통신장비"
   ],
-  "summarized_at": "2026-09-30T11:05:27+09:00"
+  "themes": [
+    "양자암호 수혜"
+  ],
+  "tagged_at": "2026-09-30T14:18:23+09:00"
 }
