@@ -1,0 +1,91 @@
+name: process-reports
+
+# 수집(daily-pipeline)이 끝나면 이어서 요약 -> 산업 태깅 -> 주간 산업 브리핑 -> 다이제스트를 만든다.
+# LLM은 Claude Code CLI를 로그인 토큰으로 호출한다:
+#   로컬에서 `claude setup-token` 실행 -> 출력된 토큰을 저장소 Secret `CLAUDE_CODE_OAUTH_TOKEN`에 등록.
+# 모델을 고정하려면 저장소 Variable `CLAUDE_MODEL`에 모델 이름을 넣는다 (비우면 계정 기본값).
+
+on:
+  workflow_run:
+    workflows: [daily-pipeline]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "이번 실행에서 요약할 최대 리포트 수"
+        required: false
+        default: "30"
+      redo_date:
+        description: "브리핑/다이제스트를 강제로 재생성할 발행일 (YYYY-MM-DD, 선택)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  # daily-pipeline과 같은 그룹: data/ 에 쓰는 워크플로가 동시에 push 하지 않도록 직렬화
+  group: repo-data-writes
+  cancel-in-progress: false
+
+jobs:
+  process:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # workflow_run은 트리거 시점 커밋을 받으므로, 수집 커밋이 포함된 최신 기본 브랜치를 명시
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Summarize / tag / brief / digest
+        id: process
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          LIMIT: ${{ github.event.inputs.limit || '30' }}
+          REDO_DATE: ${{ github.event.inputs.redo_date }}
+        run: |
+          if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
+            echo "::error::Secret CLAUDE_CODE_OAUTH_TOKEN 이 없습니다. 'claude setup-token'으로 발급해 등록하세요."
+            exit 1
+          fi
+          args=(--limit "$LIMIT")
+          if [ -n "$REDO_DATE" ]; then
+            args+=(--redo-date "$REDO_DATE")
+          fi
+          # 중간 실패(사용량 한도 등)가 나도 그때까지의 결과는 커밋하고, 잡은 마지막에 실패로 표시
+          set +e
+          python scripts/process_reports.py "${args[@]}"
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Commit processed data
+        run: |
+          git config user.name "YUJAEYUN"
+          git config user.email "86181002+YUJAEYUN@users.noreply.github.com"
+          git add data/ digest/
+          if git diff --cached --quiet; then
+            echo "변경 사항 없음"
+            exit 0
+          fi
+          git commit -m "chore: process research reports $(TZ=Asia/Seoul date +%Y-%m-%dT%H:%M)"
+          git pull --rebase
+          git push
+
+      - name: Fail if processing aborted
+        if: steps.process.outputs.code != '0'
+        run: |
+          echo "::error::요약 단계가 연속 실패로 중단되었습니다 (토큰 만료/사용량 한도 확인). 남은 리포트는 다음 실행에서 이어서 처리합니다."
+          exit 1
