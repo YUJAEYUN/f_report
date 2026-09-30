@@ -62,6 +62,15 @@ jobs:
             echo "::error::Secret CLAUDE_CODE_OAUTH_TOKEN 이 없습니다. 'claude setup-token'으로 발급해 등록하세요."
             exit 1
           fi
+          # 복사 중 섞인 공백/개행/따옴표 제거 후, 값은 노출하지 않고 형식만 점검
+          raw_len=${#CLAUDE_CODE_OAUTH_TOKEN}
+          CLAUDE_CODE_OAUTH_TOKEN="$(printf '%s' "$CLAUDE_CODE_OAUTH_TOKEN" | tr -d "[:space:]\"'")"
+          export CLAUDE_CODE_OAUTH_TOKEN
+          echo "token: 길이 ${raw_len} -> 정리 후 ${#CLAUDE_CODE_OAUTH_TOKEN}"
+          if [[ "$CLAUDE_CODE_OAUTH_TOKEN" != sk-ant-oat01-* ]]; then
+            echo "::error::토큰이 'sk-ant-oat01-'로 시작하지 않습니다. 'claude setup-token' 출력값을 넣어야 합니다 (credentials.json의 accessToken이나 API 키가 아님)."
+            exit 1
+          fi
           args=(--limit "$LIMIT")
           if [ -n "$REDO_DATE" ]; then
             args+=(--redo-date "$REDO_DATE")

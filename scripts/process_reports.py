@@ -22,7 +22,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from scripts.llm import LLMError, ask, ask_json, strip_fences
+from scripts.llm import LLMAuthError, LLMError, ask, ask_json, strip_fences
 
 ROOT = Path(__file__).resolve().parent.parent
 REPORTS_DIR = ROOT / "data" / "reports"
@@ -172,6 +172,9 @@ def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set
         except LLMError as e:
             failures += 1
             print(f"  ! {r['report_id']} 실패: {e}", flush=True)
+            if isinstance(e, LLMAuthError):
+                print("[summarize] 인증 실패로 중단 (CLAUDE_CODE_OAUTH_TOKEN 확인)")
+                return touched_dates, True
             if failures >= MAX_CONSECUTIVE_FAILURES:
                 print("[summarize] 연속 실패로 중단 (토큰 만료/사용량 한도 확인)")
                 return touched_dates, True
