@@ -25,6 +25,10 @@ class LLMAuthError(LLMError):
     """인증 실패(401/403). 재시도해도 소용없으므로 호출 측에서 즉시 중단한다."""
 
 
+class LLMRateLimitError(LLMError):
+    """구독 사용량 한도(429). 한도가 풀릴 때까지 재시도해도 소용없으므로 즉시 중단한다."""
+
+
 def ask(prompt: str) -> str:
     """프롬프트를 stdin으로 넘기고 최종 응답 텍스트를 반환한다."""
     cmd = [CLAUDE_BIN, "-p", "--output-format", "json", "--tools", ""]
@@ -46,6 +50,8 @@ def ask(prompt: str) -> str:
         msg = f"{out.get('api_error_status') or ''} {str(out.get('result'))[-500:]}".strip()
         if out.get("api_error_status") in (401, 403):
             raise LLMAuthError(msg)
+        if out.get("api_error_status") == 429:
+            raise LLMRateLimitError(msg)
         raise LLMError(msg)
     return out.get("result") or ""
 

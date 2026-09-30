@@ -29,7 +29,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from scripts.llm import LLMAuthError, LLMError, ask, ask_json, strip_fences
+from scripts.llm import LLMAuthError, LLMError, LLMRateLimitError, ask, ask_json, strip_fences
 
 ROOT = Path(__file__).resolve().parent.parent
 REPORTS_DIR = ROOT / "data" / "reports"
@@ -169,6 +169,14 @@ def meta_block(r: dict) -> str:
     return "\n".join(f"{k}: {r.get(k)}" for k in keys) + f"\ndesk: {desk_of(r)}"
 
 
+def abort_reason(e: LLMError) -> str:
+    if isinstance(e, LLMAuthError):
+        return "인증 실패 (CLAUDE_CODE_OAUTH_TOKEN 확인)"
+    if isinstance(e, LLMRateLimitError):
+        return "구독 사용량 한도 도달 (한도 해제 후 다시 실행)"
+    return "연속 실패"
+
+
 # ---------- 1) summarize + tag ----------
 
 INDIVIDUAL_SCHEMA = """{
@@ -234,6 +242,7 @@ def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set
     print(f"[summarize] 대기 {len(pending)}건, 이번 실행 최대 {limit}건")
     touched_dates: set[str] = set()
     failures = 0
+    any_failure = False
     for path, r in pending[:limit]:
         try:
             obj = ask_json(build_summary_prompt(r))
@@ -241,12 +250,10 @@ def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set
         except LLMError as e:
             failures += 1
             print(f"  ! {r['report_id']} 실패: {e}", flush=True)
-            if isinstance(e, LLMAuthError):
-                print("[summarize] 인증 실패로 중단 (CLAUDE_CODE_OAUTH_TOKEN 확인)")
+            if isinstance(e, (LLMAuthError, LLMRateLimitError)) or failures >= MAX_CONSECUTIVE_FAILURES:
+                print(f"[summarize] 중단: {abort_reason(e)}")
                 return touched_dates, True
-            if failures >= MAX_CONSECUTIVE_FAILURES:
-                print("[summarize] 연속 실패로 중단 (토큰 만료/사용량 한도 확인)")
-                return touched_dates, True
+            any_failure = True
             continue
         failures = 0
         r["summary"] = summary
@@ -260,7 +267,7 @@ def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set
         touched_dates.add(r["published_date"])
         print(f"  [{r['published_date']}] {r['report_id']} {r['title'][:40]} -> "
               f"{r['desk']} {r.get('industries', '')} {r.get('themes', '')}", flush=True)
-    return touched_dates, False
+    return touched_dates, any_failure
 
 
 # ---------- 1-b) retag (요약 기반 재태깅) ----------
@@ -290,7 +297,8 @@ def retag_all(reports: list[tuple[Path, dict]]) -> tuple[set[str], bool]:
         except LLMError as e:
             failures += 1
             print(f"  ! 배치 {i // RETAG_BATCH + 1} 실패: {e}", flush=True)
-            if isinstance(e, LLMAuthError) or failures >= MAX_CONSECUTIVE_FAILURES:
+            if isinstance(e, (LLMAuthError, LLMRateLimitError)) or failures >= MAX_CONSECUTIVE_FAILURES:
+                print(f"[retag] 중단: {abort_reason(e)}")
                 return touched, True
             continue
         failures = 0

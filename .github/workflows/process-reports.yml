@@ -84,7 +84,7 @@ jobs:
           if [ "$RETAG" = "true" ]; then
             args+=(--retag)
           fi
-          # 중간 실패(사용량 한도 등)가 나도 그때까지의 결과는 커밋하고, 잡은 마지막에 실패로 표시
+          # 실패(사용량 한도 등)가 한 건이라도 나면 그때까지의 결과는 커밋하고, 잡은 마지막에 실패로 표시
           set +e
           python scripts/process_reports.py "${args[@]}"
           echo "code=$?" >> "$GITHUB_OUTPUT"
@@ -105,5 +105,5 @@ jobs:
       - name: Fail if processing aborted
         if: steps.process.outputs.code != '0'
         run: |
-          echo "::error::요약 단계가 연속 실패로 중단되었습니다 (토큰 만료/사용량 한도 확인). 남은 리포트는 다음 실행에서 이어서 처리합니다."
+          echo "::error::일부 리포트 처리에 실패했습니다 (원인은 위 Summarize 단계 로그의 '중단:'/'실패:' 줄 참고). 처리된 결과는 커밋됐고, 남은 리포트는 다음 실행에서 이어서 처리합니다."
           exit 1
