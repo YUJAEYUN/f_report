@@ -12,8 +12,8 @@
 
 ### 로드맵
 1. 수집·원문 추출 (완료)
-2. 요약 + 분류(desk / 산업 / 테마) (진행 중)
-3. 일간·주간 인사이트 (산업 브리핑 + 이번 주 테마)
+2. 요약 + 분류(desk / 산업 / 테마) (완료)
+3. 일간·주간 인사이트 (주간 테마 Top + 산업 흐름, 일간 핵심 3줄) (완료)
 4. 대시보드 (목록·필터·요약 보기·원문 링크)
 
 ## 설계 원칙
@@ -36,8 +36,8 @@
    추출(extract). 하나증권 전체 리서치 피드에서 신규 리포트만 저장하고 커밋한다.
 2. `process-reports` (1번이 성공하면 자동 실행, 수동 실행도 가능):
    `scripts/process_reports.py`가 아직 `summary`가 없는 리포트를 골라
-   요약 → 산업 태깅 → 이번 실행에서 영향받은 (산업, ISO주차) 브리핑 재생성 →
-   해당 발행일 다이제스트 재생성까지 하고 커밋한다. 각 단계 규칙은
+   요약·태깅 → 테마 병합 → 영향받은 주의 산업 브리핑(주 2건 이상 산업만)과
+   주간 인사이트 → 해당 발행일 다이제스트까지 다시 만들고 커밋한다. 각 단계 규칙은
    `skills/*/SKILL.md`를 프롬프트에 그대로 넣어 따르게 한다.
 
 LLM은 Claude Code CLI(`claude -p`, 도구 비활성화)를 로그인 토큰으로 호출한다.
@@ -53,6 +53,15 @@ LLM은 Claude Code CLI(`claude -p`, 도구 비활성화)를 로그인 토큰으�
    브리핑/다이제스트만 다시 만들려면 `limit=0`, `redo_date=YYYY-MM-DD`.
 4. 분류 체계(`config/taxonomy.json`)를 바꿨으면 `retag`를 체크해 수동 실행한다.
    요약만 입력으로 전체를 10건씩 다시 태깅하고 모든 브리핑/다이제스트를 재생성한다.
+5. 프롬프트나 인사이트 형식(`skills/*`)만 바꿨으면 `redo_all`로 재태깅 없이 전체를 다시 만든다.
+
+### 산출물
+- `insights/weekly/{ISO주차}.md` — **주간 인사이트** (이번 주 한눈에 / 테마 Top 3~5 /
+  산업 흐름 / 다음 주 체크포인트). 같은 이름의 `.json`에 테마·산업별 report_id 목록.
+- `digest/{발행일}.md` — **일간 다이제스트** (오늘의 핵심 3줄 / 데일리 코멘트 /
+  산업 브리핑 업데이트 / 개별 리포트 목록)
+- `data/industries/{산업}/briefs/{ISO주차}.md` — 그 주 리포트 2건 이상인 산업의 브리핑
+- `data/themes/aliases.json` — 병합된 테마 이름 → 대표 이름 (`consolidate-themes`)
 
 ### 분류 체계
 - **desk**: 리포트 성격. breadcrumb 카테고리로 결정적으로 매핑 (산업·기업 /
@@ -101,6 +110,8 @@ data/
   reports/{date}/{id}.json  리포트별 메타데이터 + PDF 추출 텍스트 (date = 발행일)
   industries/{industry}/    산업별 이력 + 주간 브리핑
   themes/index.json         테마별 report_id 목록
+  themes/aliases.json       병합된 테마 이름 -> 대표 이름
+insights/weekly/{week}.md  주간 인사이트 (+ .json)
 config/taxonomy.json       desk 매핑 + 산업 목록
 digest/{date}.md         오늘의 다이제스트
 ```

@@ -8,6 +8,9 @@ collect/extract(run_pipeline.py)가 저장한 data/reports/{date}/{id}.json 중
 - desk: breadcrumb 카테고리로 결정적으로 매핑 (LLM 사용 안 함)
 - industries: 고정 목록 안에서 리포트의 '주제'인 산업 0~2개 (LLM)
 - themes: 산업을 가로지르는 이슈 1~3개, 기존 테마명 재사용 유도 (LLM)
+  같은 이슈가 다른 이름으로 갈라지면 consolidate 단계가 대표 이름으로 합친다.
+
+산출물: 산업 브리핑(주 2건 이상 산업만), 주간 인사이트(insights/weekly), 일간 다이제스트(digest/).
 
 LLM에는 텍스트만 주고 받는다. 어떤 파일을 읽고 어디에 쓰는지는 전부 이 스크립트가
 결정한다 — 각 단계의 규칙은 skills/*/SKILL.md를 프롬프트에 그대로 넣어 따르게 한다.
@@ -15,6 +18,7 @@ LLM에는 텍스트만 주고 받는다. 어떤 파일을 읽고 어디에 쓰�
     python scripts/process_reports.py --limit 30
     python scripts/process_reports.py --limit 0 --redo-date 2026-09-29   # 요약 없이 브리핑/다이제스트만 재생성
     python scripts/process_reports.py --limit 0 --retag                  # 분류 체계 변경 후 전체 재태깅 + 전체 재생성
+    python scripts/process_reports.py --limit 0 --redo-all               # 재태깅 없이 테마 병합 + 전체 재생성
 """
 from __future__ import annotations
 
@@ -35,6 +39,8 @@ ROOT = Path(__file__).resolve().parent.parent
 REPORTS_DIR = ROOT / "data" / "reports"
 INDUSTRIES_DIR = ROOT / "data" / "industries"
 THEMES_INDEX = ROOT / "data" / "themes" / "index.json"
+THEME_ALIASES = ROOT / "data" / "themes" / "aliases.json"
+WEEKLY_DIR = ROOT / "insights" / "weekly"
 DIGEST_DIR = ROOT / "digest"
 SKILLS_DIR = ROOT / "skills"
 TAXONOMY = json.loads((ROOT / "config" / "taxonomy.json").read_text(encoding="utf-8"))
@@ -44,6 +50,10 @@ MAX_CONSECUTIVE_FAILURES = 3  # 연속 실패 시 사용량 한도 등으로 보
 BRIEF_EXCERPT_CHARS = 1_200
 RETAG_BATCH = 10  # 재태깅은 요약만 넣으므로 여러 건을 한 번에 묻는다
 MAX_THEMES_IN_PROMPT = 60
+MIN_REPORTS_FOR_BRIEF = 2  # 한 주에 이만큼 리포트가 모인 산업만 브리핑을 만든다
+TOP_THEMES = 5  # 주간 인사이트에 올리는 테마 수
+MIN_THEME_REPORTS = 2  # 주간 테마 후보가 되려면 그 주에 이만큼 리포트가 필요
+CONSOLIDATE_WINDOW_DAYS = 28  # 테마 병합 때 보는 최근 기간
 
 
 # ---------- 공통 유틸 ----------
@@ -96,6 +106,20 @@ def clean_label(name) -> str:
     return re.sub(r"\s*[/\\]\s*", "·", str(name)).strip().strip(".")
 
 
+def load_aliases() -> dict[str, str]:
+    if not THEME_ALIASES.exists():
+        return {}
+    return json.loads(THEME_ALIASES.read_text(encoding="utf-8"))
+
+
+def resolve_theme(name: str, aliases: dict[str, str]) -> str:
+    for _ in range(10):  # 체인(a->b->c) 따라가기, 순환 방지
+        if name not in aliases:
+            break
+        name = aliases[name]
+    return name
+
+
 def taxonomy_block() -> str:
     lines = [f"- {name}: {desc}" for name, desc in TAXONOMY["industries"].items()]
     return "\n".join(lines)
@@ -128,7 +152,10 @@ def validate_tags(r: dict, obj: dict) -> tuple[list[str], list[str]]:
             industries.append(name)
         elif name not in allowed:
             print(f"    (목록 밖 산업 무시: {r['report_id']} -> {name})")
-    themes = list(dict.fromkeys(clean_label(t) for t in (obj.get("themes") or []) if str(t).strip()))
+    aliases = load_aliases()
+    themes = list(dict.fromkeys(
+        resolve_theme(clean_label(t), aliases) for t in (obj.get("themes") or []) if str(t).strip()
+    ))
     if desk_of(r) in TAXONOMY["desks_requiring_industry"] and not industries:
         print(f"    (경고: {r['report_id']} 산업·기업 리포트인데 산업 없음)")
     return industries[:2], themes[:3]
@@ -319,6 +346,60 @@ def retag_all(reports: list[tuple[Path, dict]]) -> tuple[set[str], bool]:
     return touched, False
 
 
+# ---------- 1-c) consolidate-themes ----------
+
+def consolidate_themes(reports: list[tuple[Path, dict]]) -> bool:
+    """같은 이슈인데 이름이 갈라진 테마를 합친다. 실패하면 True."""
+    dated = [r for _, r in reports if r.get("themes")]
+    if not dated:
+        return False
+    latest = max(dt.date.fromisoformat(r["published_date"]) for r in dated)
+    since = (latest - dt.timedelta(days=CONSOLIDATE_WINDOW_DAYS)).isoformat()
+    members: dict[str, list[str]] = defaultdict(list)
+    for r in dated:
+        if r["published_date"] >= since:
+            for t in r["themes"]:
+                members[t].append(r["title"])
+    if len(members) < 2:
+        return False
+    listing = "\n".join(
+        f"- {name} ({len(titles)}건): " + " / ".join(t[:40] for t in titles[:3])
+        for name, titles in sorted(members.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+    )
+    prompt = "\n\n".join([
+        "너는 증권사 리서치 태깅 결과를 정리하는 파이프라인의 한 단계다. 아래 SKILL 명세를 따른다.",
+        "=== SKILL: consolidate-themes ===\n" + skill("consolidate-themes"),
+        "=== 최근 테마 (이름 (리포트 수): 대표 리포트 제목) ===\n" + listing,
+        '=== 출력 형식 ===\n다른 말 없이 JSON 객체 하나만 출력한다.\n{"merge": {"합쳐질 테마": "대표 테마"}}',
+    ])
+    try:
+        merge = ask_json(prompt).get("merge") or {}
+    except LLMError as e:
+        print(f"[themes] 병합 실패: {e}", flush=True)
+        return True
+    aliases = load_aliases()
+    applied = {}
+    for src, dst in merge.items():
+        if src in members and dst in members and src != dst and resolve_theme(dst, {**aliases, **applied}) != src:
+            applied[src] = dst
+    if not applied:
+        print("[themes] 합칠 테마 없음")
+        return False
+    aliases.update(applied)
+    aliases = {k: resolve_theme(v, aliases) for k, v in aliases.items()}
+    write_json(THEME_ALIASES, dict(sorted(aliases.items())))
+    for src, dst in sorted(applied.items()):
+        print(f"[themes] {src} -> {aliases[src]}")
+    for path, r in reports:
+        if not r.get("themes"):
+            continue
+        merged = list(dict.fromkeys(resolve_theme(t, aliases) for t in r["themes"]))
+        if merged != r["themes"]:
+            r["themes"] = merged
+            save_report(path, r)
+    return False
+
+
 # ---------- 2) synthesize-industry-brief ----------
 
 def brief_path(industry: str, week: str) -> Path:
@@ -330,7 +411,7 @@ def summary_card(r: dict) -> dict:
     return {k: r.get(k) for k in keys}
 
 
-def build_briefs(reports: list[tuple[Path, dict]], dates: set[str]) -> None:
+def build_briefs(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
     weeks = {iso_week(d) for d in dates}
     groups: dict[tuple[str, str], list[dict]] = defaultdict(list)
     for _, r in reports:
@@ -340,6 +421,7 @@ def build_briefs(reports: list[tuple[Path, dict]], dates: set[str]) -> None:
         if w in weeks:
             for name in r.get("industries") or []:
                 groups[(name, w)].append(r)
+    groups = {k: v for k, v in groups.items() if len(v) >= MIN_REPORTS_FOR_BRIEF}
     # 재태깅으로 근거 리포트가 사라진 (산업, 주차) 브리핑은 지운다
     for d in INDUSTRIES_DIR.iterdir() if INDUSTRIES_DIR.exists() else []:
         for w in weeks:
@@ -347,7 +429,8 @@ def build_briefs(reports: list[tuple[Path, dict]], dates: set[str]) -> None:
             if stale.exists() and (d.name, w) not in groups:
                 stale.unlink()
                 print(f"  (근거 없어진 브리핑 삭제: {d.name} {w})")
-    print(f"[brief] 대상 {len(groups)}개 (산업, 주차)")
+    print(f"[brief] 대상 {len(groups)}개 (산업, 주차; 주 {MIN_REPORTS_FOR_BRIEF}건 이상)")
+    failed = 0
     for (industry, week), rs in sorted(groups.items()):
         prompt = "\n\n".join([
             "너는 증권사 리서치를 산업 단위로 종합하는 파이프라인의 한 단계다. 아래 SKILL 명세를 따른다.",
@@ -361,16 +444,81 @@ def build_briefs(reports: list[tuple[Path, dict]], dates: set[str]) -> None:
             md = strip_fences(ask(prompt))
         except LLMError as e:
             print(f"  ! {industry} {week} 실패: {e}", flush=True)
+            failed += 1
             continue
         out = brief_path(industry, week)
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(md, encoding="utf-8")
         print(f"  {industry} {week} ({len(rs)}건)", flush=True)
+    return failed
+
+
+# ---------- 2-b) synthesize-weekly-insight ----------
+
+def weekly_path(week: str) -> Path:
+    return WEEKLY_DIR / f"{week}.md"
+
+
+def build_weekly(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
+    failed = 0
+    for week in sorted({iso_week(d) for d in dates}):
+        rs = [r for _, r in reports
+              if r["report_type"] == "individual" and "summary" in r and iso_week(r["published_date"]) == week]
+        if not rs:
+            continue
+        by_theme: dict[str, list[dict]] = defaultdict(list)
+        for r in rs:
+            for t in r.get("themes") or []:
+                by_theme[t].append(r)
+        top = [(t, v) for t, v in sorted(by_theme.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+               if len(v) >= MIN_THEME_REPORTS][:TOP_THEMES]
+        industries = []
+        for d in sorted(INDUSTRIES_DIR.iterdir()) if INDUSTRIES_DIR.exists() else []:
+            bp = brief_path(d.name, week)
+            if bp.exists():
+                ids = [r["report_id"] for r in rs if d.name in (r.get("industries") or [])]
+                industries.append({
+                    "industry": d.name, "report_ids": ids,
+                    "link": f"../../data/industries/{d.name}/briefs/{week}.md",
+                    "excerpt": bp.read_text(encoding="utf-8")[:BRIEF_EXCERPT_CHARS],
+                })
+        in_top = {r["report_id"] for _, v in top for r in v}
+        others = [{"report_id": r["report_id"], "title": r["title"], "desk": r.get("desk")}
+                  for r in rs if r["report_id"] not in in_top]
+        prompt = "\n\n".join([
+            "너는 증권사 리서치로 주간 인사이트를 쓰는 파이프라인의 한 단계다. 아래 SKILL 명세를 따른다.",
+            "=== SKILL: synthesize-weekly-insight ===\n" + skill("synthesize-weekly-insight"),
+            f"=== 대상 ===\n주차: {week}\nindividual 리포트 수: {len(rs)}",
+            "=== 이번 주 테마 Top (이 순서대로 다룬다) ===\n" + json.dumps(
+                [{"theme": t, "report_count": len(v), "reports": [summary_card(r) | {"industries": r.get("industries")} for r in v]}
+                 for t, v in top], ensure_ascii=False, indent=1),
+            "=== 산업 흐름 (link는 인사이트 파일 기준 상대경로) ===\n" + json.dumps(industries, ensure_ascii=False, indent=1),
+            "=== 기타 리포트 ===\n" + json.dumps(others, ensure_ascii=False, indent=1),
+            f"=== 출력 형식 ===\n`# 주간 인사이트 {week}` 제목으로 시작하는 마크다운 본문만 출력한다. 코드펜스로 감싸지 않는다.",
+        ])
+        try:
+            md = strip_fences(ask(prompt))
+        except LLMError as e:
+            print(f"  ! weekly {week} 실패: {e}", flush=True)
+            failed += 1
+            continue
+        WEEKLY_DIR.mkdir(parents=True, exist_ok=True)
+        weekly_path(week).write_text(md, encoding="utf-8")
+        write_json(WEEKLY_DIR / f"{week}.json", {
+            "week": week,
+            "report_count": len(rs),
+            "themes": [{"name": t, "report_ids": [r["report_id"] for r in v]} for t, v in top],
+            "industries": [{"name": i["industry"], "report_ids": i["report_ids"]} for i in industries],
+            "generated_at": now_kst(),
+        })
+        print(f"[weekly] {week} (리포트 {len(rs)}, 테마 {len(top)}, 산업 {len(industries)})", flush=True)
+    return failed
 
 
 # ---------- 3) build-digest ----------
 
-def build_digests(reports: list[tuple[Path, dict]], dates: set[str]) -> None:
+def build_digests(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
+    failed = 0
     for date in sorted(dates):
         day = [r for _, r in reports if r.get("published_date") == date and "summary" in r]
         if not day:
@@ -398,18 +546,22 @@ def build_digests(reports: list[tuple[Path, dict]], dates: set[str]) -> None:
             "=== daily_series 요약 ===\n" + json.dumps(daily, ensure_ascii=False, indent=1),
             "=== 오늘 갱신된 산업 브리핑 (link는 다이제스트 파일 기준 상대경로) ===\n"
             + json.dumps(briefs, ensure_ascii=False, indent=1),
+            "=== 이번 주 주간 인사이트 링크 ===\n"
+            + (f"../insights/weekly/{week}.md" if weekly_path(week).exists() else "(없음)"),
             "=== individual 리포트 ===\n" + json.dumps(individual, ensure_ascii=False, indent=1),
             f"=== 출력 형식 ===\n`# 리서치 다이제스트 {date}` 제목으로 시작하는 마크다운 본문만 출력한다. "
-            "코드펜스로 감싸지 않는다. 처리절차 4번(GitHub Discussions 포스팅)은 하지 않는다.",
+            "코드펜스로 감싸지 않는다.",
         ])
         try:
             md = strip_fences(ask(prompt))
         except LLMError as e:
             print(f"  ! digest {date} 실패: {e}", flush=True)
+            failed += 1
             continue
         DIGEST_DIR.mkdir(parents=True, exist_ok=True)
         (DIGEST_DIR / f"{date}.md").write_text(md, encoding="utf-8")
         print(f"[digest] {date} (daily {len(daily)}, individual {len(individual)})", flush=True)
+    return failed
 
 
 def main() -> int:
@@ -417,25 +569,38 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=30, help="이번 실행에서 요약할 최대 리포트 수")
     parser.add_argument("--redo-date", action="append", default=[], help="브리핑/다이제스트를 강제로 재생성할 발행일 (반복 가능)")
     parser.add_argument("--retag", action="store_true", help="요약된 전체 리포트를 현재 분류 체계로 재태깅하고 모든 날짜를 재생성")
+    parser.add_argument("--redo-all", action="store_true", help="재태깅 없이 테마 병합 + 모든 날짜의 브리핑/인사이트/다이제스트 재생성")
     args = parser.parse_args()
 
     reports = load_reports()
     aborted = False
+    tagged = False
     dates: set[str] = set(args.redo_date)
+    if args.redo_all:
+        tagged = True  # 테마 병합도 다시 돌린다
+        dates |= {r["published_date"] for _, r in reports if "summary" in r}
     if args.retag:
         _, aborted = retag_all(reports)
+        tagged = True
         if not aborted:
             dates |= {r["published_date"] for _, r in reports if "summary" in r}
     if not aborted:
         touched, aborted = summarize_pending(reports, args.limit)
         dates |= touched
+        tagged |= bool(touched)
+    failed = 0
+    if tagged:
+        failed += consolidate_themes(reports)
     rebuild_indexes(reports)
     if dates:
-        build_briefs(reports, dates)
-        build_digests(reports, dates)
+        failed += build_briefs(reports, dates)
+        failed += build_weekly(reports, dates)
+        failed += build_digests(reports, dates)
     else:
-        print("새로 요약된 리포트 없음 -> 브리핑/다이제스트 생략")
-    return 1 if aborted else 0
+        print("새로 요약된 리포트 없음 -> 브리핑/인사이트/다이제스트 생략")
+    if failed:
+        print(f"[summary] 브리핑/인사이트/다이제스트 생성 실패 {failed}건")
+    return 1 if aborted or failed else 0
 
 
 if __name__ == "__main__":
