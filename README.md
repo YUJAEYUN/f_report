@@ -1,8 +1,20 @@
 # 하나증권 리서치 트래킹 에이전트
 
-하나증권 그룹포탈(hanaw.com)에 매일 올라오는 산업분석·기업분석·채권분석
-리포트를 수집해, 개별 리포트 요약이 아니라 산업 단위로 묶은 "이번 주 이
-산업은 이렇게 흘러가고 있다" 수준의 브리핑을 만드는 것이 목표.
+## 목적
+리서치 리포트를 직접 다 읽지 않아도 시장과 산업의 흐름을 쉽게 따라갈 수 있게
+해주는 **개인용 트래킹 도구**.
+
+하나증권 그룹포탈(hanaw.com)에 매일 올라오는 리서치를 자동으로 모아 요약하고,
+산업·테마별로 묶어 **일 단위·주 단위 인사이트**로 정리한다. 대시보드에서
+한눈에 훑어보고, 관심 가는 건 요약 → 원문 순서로 깊이 들어갈 수 있게 한다.
+투자 판단용이 아니라 **흐름을 이해하고 공부하는 용도**이므로, 숫자·목표주가보다
+"왜 그렇게 보는지"의 논리와 그 변화를 우선한다.
+
+### 로드맵
+1. 수집·원문 추출 (완료)
+2. 요약 + 분류(desk / 산업 / 테마) (진행 중)
+3. 일간·주간 인사이트 (산업 브리핑 + 이번 주 테마)
+4. 대시보드 (목록·필터·요약 보기·원문 링크)
 
 ## 설계 원칙
 - 상시 서버 없음: GitHub Actions 스케줄 트리거로 배치 실행, 상태는 전부 git
@@ -39,6 +51,16 @@ LLM은 Claude Code CLI(`claude -p`, 도구 비활성화)를 로그인 토큰으�
 3. 밀린 리포트는 실행당 최대 30건(`limit`)씩 처리된다. 한 번에 더 처리하려면
    Actions에서 `process-reports`를 수동 실행하며 `limit`을 키운다.
    브리핑/다이제스트만 다시 만들려면 `limit=0`, `redo_date=YYYY-MM-DD`.
+4. 분류 체계(`config/taxonomy.json`)를 바꿨으면 `retag`를 체크해 수동 실행한다.
+   요약만 입력으로 전체를 10건씩 다시 태깅하고 모든 브리핑/다이제스트를 재생성한다.
+
+### 분류 체계
+- **desk**: 리포트 성격. breadcrumb 카테고리로 결정적으로 매핑 (산업·기업 /
+  시황·전략 / 퀀트 / 포트폴리오 / 채권·금리 / 크레딧 / 디지털자산 / 데일리)
+- **industries**: 리포트가 주제로 다루는 산업 0~2개, 고정 목록 안에서만
+- **themes**: 산업을 가로지르는 이슈 1~3개 (예: "FOMC 금리 인상", "미중 정상회담")
+
+규칙은 `skills/tag-industry/SKILL.md`, 목록은 `config/taxonomy.json`.
 
 요약 도중 연속 3회 실패(토큰 만료, 사용량 한도 등)하면 그때까지 결과만 커밋하고
 잡을 실패로 표시한다. 남은 리포트는 다음 실행에서 이어서 처리된다.
@@ -49,7 +71,7 @@ report_id, report_type(individual|daily_series), title, analyst,
 published_date, published_time, category, breadcrumb, preview_text,
 pdf_url, pdf_filename, source_url, collected_at, pdf_text, (pdf_error)
 # process-reports가 덧붙이는 필드
-summary, industry_tags(individual만), summarized_at
+summary, summarized_at, desk, industries(individual만), themes(individual만), tagged_at
 ```
 PDF 추출에 실패한 리포트는 `pdf_error`와 함께 저장되고, seen 인덱스에
 들어가지 않으므로 다음 실행에서 재시도된다.
@@ -76,6 +98,8 @@ data/
   index/seen_reports.json   수집 완료 report_id 마스터 인덱스
   reports/{date}/{id}.json  리포트별 메타데이터 + PDF 추출 텍스트 (date = 발행일)
   industries/{industry}/    산업별 이력 + 주간 브리핑
+  themes/index.json         테마별 report_id 목록
+config/taxonomy.json       desk 매핑 + 산업 목록
 digest/{date}.md         오늘의 다이제스트
 ```
 
