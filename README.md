@@ -105,6 +105,8 @@ Next.js 앱. 빌드할 때 저장소의 `data/`, `insights/`, `digest/`, `config
 [`docs/dashboard-benchmark.md`](docs/dashboard-benchmark.md)에 정리되어 있다.
 개발 시 적용할 데이터 계약, 화면 요구사항, 테스트와 완료 조건은
 [`spec.md`](spec.md)를 기준으로 한다.
+리포트별 인사이트의 다음 구현 단계와 코딩 에이전트용 작업 프롬프트는
+[`docs/report-insight-next-step-prompt.md`](docs/report-insight-next-step-prompt.md)에 정리되어 있다.
 
 ### Vercel 연결
 1. Vercel → Add New → Project → 이 저장소 Import
