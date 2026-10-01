@@ -37,6 +37,8 @@ export type Report = {
   industries?: string[];
   themes?: string[];
   summary?: IndividualSummary & DailySummary;
+  summarized_at?: string;
+  tagged_at?: string;
 };
 
 /** 목록 화면용 경량 레코드 (원문 제외) */
@@ -106,6 +108,18 @@ export function toCard(r: Report): ReportCard {
 
 export function allCards(): ReportCard[] {
   return allReports().map(toCard);
+}
+
+// ---------- 대시보드 ----------
+import { buildDashboardSnapshot } from "./dashboard";
+let dashboardCache: ReturnType<typeof buildDashboardSnapshot> | null = null;
+export function dashboardSnapshot() {
+  if (!dashboardCache) {
+    const reports = allReports();
+    const generatedAt = reports.map((r) => r.summarized_at ?? r.tagged_at ?? "").sort().at(-1) || new Date().toISOString();
+    dashboardCache = buildDashboardSnapshot(reports, generatedAt);
+  }
+  return dashboardCache;
 }
 
 // ---------- 주간 인사이트 ----------
