@@ -108,6 +108,17 @@ a.chip:hover { text-decoration: none; background: var(--accent-soft); }
 .kv { display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; font-size: 14.5px; }
 .kv dt { color: var(--muted); }
 .kv dd { margin: 0; }
+.insight-card { border-color: color-mix(in srgb, var(--accent) 28%, var(--border)); background: color-mix(in srgb, var(--accent-soft) 38%, var(--surface)); }
+.insight-heading { display: flex; align-items: start; justify-content: space-between; gap: 16px; }
+.insight-heading h2 { margin: 0; }
+.insight-perspective { flex: 0 0 auto; border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border)); border-radius: 999px; padding: 3px 9px; color: var(--accent); font-size: 12px; font-weight: 700; }
+.insight-note { color: var(--muted); font-size: 13px; margin: 5px 0 15px; }
+.insight-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin: 0; border-top: 1px solid var(--border); }
+.insight-grid > div { padding: 14px 16px 0; border-left: 1px solid var(--border); }
+.insight-grid > div:first-child { padding-left: 0; border-left: 0; }
+.insight-grid dt { color: var(--accent); font-size: 13px; font-weight: 800; }
+.insight-grid dd { margin: 5px 0 0; font-size: 14.5px; }
+.insight-grid ul { margin: 0; padding-left: 18px; }
 details.raw summary { cursor: pointer; color: var(--accent); }
 .raw-text { white-space: pre-wrap; font-size: 14px; line-height: 1.7; max-height: 70vh; overflow: auto; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 12px; margin-top: 10px; }
 .warn { color: var(--warn); font-size: 14px; }
@@ -183,6 +194,11 @@ details.raw summary { cursor: pointer; color: var(--accent); }
   .statusbar > div:nth-child(2) { border-right: 0; }
   .statusbar > div:nth-child(-n+2) { border-bottom: 1px solid var(--border); }
   .industry-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 720px) {
+  .insight-grid { grid-template-columns: 1fr; }
+  .insight-grid > div, .insight-grid > div:first-child { padding: 12px 0; border-left: 0; border-bottom: 1px solid var(--border); }
+  .insight-grid > div:last-child { border-bottom: 0; padding-bottom: 0; }
 }
 @media (max-width: 520px) {
   .wrap { padding-left: 14px; padding-right: 14px; }
