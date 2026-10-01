@@ -19,6 +19,11 @@ export type IndividualSummary = {
   risk_factors?: string[];
 };
 export type DailySummary = { items?: { topic: string; note: string }[] };
+export type ReportInsight = {
+  change: string;
+  implication: string;
+  watch_points: string[];
+};
 
 export type Report = {
   report_id: string;
@@ -37,6 +42,7 @@ export type Report = {
   industries?: string[];
   themes?: string[];
   summary?: IndividualSummary & DailySummary;
+  insight?: ReportInsight;
   summarized_at?: string;
   tagged_at?: string;
 };

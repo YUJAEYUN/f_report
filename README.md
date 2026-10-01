@@ -36,7 +36,7 @@
    추출(extract). 하나증권 전체 리서치 피드에서 신규 리포트만 저장하고 커밋한다.
 2. `process-reports` (1번이 성공하면 자동 실행, 수동 실행도 가능):
    `scripts/process_reports.py`가 아직 `summary`가 없는 리포트를 골라
-   요약·태깅 → 테마 병합 → 영향받은 주의 산업 브리핑(주 2건 이상 산업만)과
+  요약·리포트별 인사이트·태깅 → 테마 병합 → 영향받은 주의 산업 브리핑(주 2건 이상 산업만)과
    주간 인사이트 → 해당 발행일 다이제스트까지 다시 만들고 커밋한다. 각 단계 규칙은
    `skills/*/SKILL.md`를 프롬프트에 그대로 넣어 따르게 한다.
 
@@ -82,7 +82,8 @@ report_id, report_type(individual|daily_series), title, analyst,
 published_date, published_time, category, breadcrumb, preview_text,
 pdf_url, pdf_filename, source_url, collected_at, pdf_text, (pdf_error)
 # process-reports가 덧붙이는 필드
-summary, summarized_at, desk, industries(individual만), themes(individual만), tagged_at
+summary, insight(individual만: 변화·의미·확인 포인트), summarized_at, desk,
+industries(individual만), themes(individual만), tagged_at
 ```
 PDF 추출에 실패한 리포트는 `pdf_error`와 함께 저장되고, seen 인덱스에
 들어가지 않으므로 다음 실행에서 재시도된다.
@@ -104,6 +105,8 @@ Next.js 앱. 빌드할 때 저장소의 `data/`, `insights/`, `digest/`, `config
 [`docs/dashboard-benchmark.md`](docs/dashboard-benchmark.md)에 정리되어 있다.
 개발 시 적용할 데이터 계약, 화면 요구사항, 테스트와 완료 조건은
 [`spec.md`](spec.md)를 기준으로 한다.
+리포트별 인사이트의 다음 구현 단계와 코딩 에이전트용 작업 프롬프트는
+[`docs/report-insight-next-step-prompt.md`](docs/report-insight-next-step-prompt.md)에 정리되어 있다.
 
 ### Vercel 연결
 1. Vercel → Add New → Project → 이 저장소 Import

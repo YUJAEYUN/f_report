@@ -52,6 +52,35 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
         </section>
       )}
 
+      {r.insight && (
+        <section className="card insight-card" aria-labelledby="report-insight-title">
+          <div className="insight-heading">
+            <div>
+              <p className="eyebrow">DECISION LENS</p>
+              <h2 id="report-insight-title">이 리포트에서 읽어낼 점</h2>
+            </div>
+            <span className="insight-perspective">판단 보조 관점</span>
+          </div>
+          <p className="insight-note">투자 추천이 아니라, 리포트의 논리를 변화 → 의미 → 확인 순서로 해석합니다.</p>
+          <dl className="insight-grid">
+            <div>
+              <dt>무엇이 달라졌나</dt>
+              <dd>{r.insight.change}</dd>
+            </div>
+            <div>
+              <dt>왜 중요한가</dt>
+              <dd>{r.insight.implication}</dd>
+            </div>
+            <div>
+              <dt>무엇을 확인할까</dt>
+              <dd>
+                <ul>{r.insight.watch_points.map((point, i) => <li key={i}>{point}</li>)}</ul>
+              </dd>
+            </div>
+          </dl>
+        </section>
+      )}
+
       {s?.items && s.items.length > 0 && (
         <section className="card prose">
           <h2>항목별 요약</h2>

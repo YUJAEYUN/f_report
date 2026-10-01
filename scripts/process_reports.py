@@ -216,6 +216,11 @@ INDIVIDUAL_SCHEMA = """{
     "key_points": ["3~5개"],
     "risk_factors": ["..."]
   },
+  "insight": {
+    "change": "기존 전제와 비교해 달라진 점",
+    "implication": "기업·산업·시장 흐름에서의 의미",
+    "watch_points": ["해석을 확인할 지표나 사건 1~3개"]
+  },
   "industries": ["산업 목록 중 0~2개"],
   "themes": ["1~3개"]
 }"""
@@ -249,7 +254,7 @@ def build_summary_prompt(r: dict) -> str:
     return "\n\n".join(parts)
 
 
-def validate_summary(r: dict, obj: dict) -> dict:
+def validate_summary(r: dict, obj: dict) -> tuple[dict, dict | None]:
     summary = obj.get("summary")
     if not isinstance(summary, dict):
         raise LLMError("summary 누락")
@@ -258,14 +263,33 @@ def validate_summary(r: dict, obj: dict) -> dict:
             raise LLMError("one_liner 누락")
         for k in ("key_points", "risk_factors"):
             summary[k] = [str(x) for x in (summary.get(k) or [])]
+        insight = obj.get("insight")
+        if not isinstance(insight, dict):
+            raise LLMError("insight 누락")
+        for key in ("change", "implication"):
+            if not str(insight.get(key) or "").strip():
+                raise LLMError(f"insight.{key} 누락")
+            insight[key] = str(insight[key]).strip()
+        watch_points = insight.get("watch_points")
+        if not isinstance(watch_points, list):
+            raise LLMError("insight.watch_points 형식 오류")
+        insight["watch_points"] = [str(x).strip() for x in watch_points if str(x).strip()][:3]
+        if not insight["watch_points"]:
+            raise LLMError("insight.watch_points 누락")
     elif not isinstance(summary.get("items"), list):
         raise LLMError("daily_series summary.items 누락")
-    return summary
+    else:
+        insight = None
+    return summary, insight
 
 
 def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set[str], bool]:
-    """요약 안 된 리포트를 limit건까지 처리. (영향받은 발행일 집합, 중단 여부) 반환."""
-    pending = [(p, r) for p, r in reports if "summary" not in r and not r.get("pdf_error")]
+    """요약 또는 인사이트가 없는 리포트를 limit건까지 처리."""
+    pending = [
+        (p, r) for p, r in reports
+        if ("summary" not in r or (r["report_type"] == "individual" and "insight" not in r))
+        and not r.get("pdf_error")
+    ]
     print(f"[summarize] 대기 {len(pending)}건, 이번 실행 최대 {limit}건")
     touched_dates: set[str] = set()
     failures = 0
@@ -273,7 +297,7 @@ def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set
     for path, r in pending[:limit]:
         try:
             obj = ask_json(build_summary_prompt(r))
-            summary = validate_summary(r, obj)
+            summary, insight = validate_summary(r, obj)
         except LLMError as e:
             failures += 1
             print(f"  ! {r['report_id']} 실패: {e}", flush=True)
@@ -284,6 +308,8 @@ def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set
             continue
         failures = 0
         r["summary"] = summary
+        if insight is not None:
+            r["insight"] = insight
         r["summarized_at"] = now_kst()
         if r["report_type"] == "individual":
             apply_tags(r, *validate_tags(r, obj))
