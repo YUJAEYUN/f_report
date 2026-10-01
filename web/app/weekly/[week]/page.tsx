@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { decodeParam, weeklyMarkdown, weeklyMeta, weeks } from "@/lib/data";
+import { dashboardSnapshot, decodeParam, weeklyMarkdown, weeklyMeta, weeks } from "@/lib/data";
+import { themeChanges } from "@/lib/dashboard";
+import { ThemeChangeList } from "@/components/dashboard/ThemeChangeList";
 import { renderMarkdown } from "@/lib/md";
 
 export const dynamicParams = false;
@@ -18,10 +20,15 @@ export default async function WeeklyPage({ params }: { params: Promise<{ week: s
   const i = all.indexOf(week);
   const newer = i > 0 ? all[i - 1] : null;
   const older = i < all.length - 1 ? all[i + 1] : null;
+  const changes = themeChanges(dashboardSnapshot(), week);
   return (
     <>
       <h1>주간 인사이트 {week}</h1>
       {meta && <p className="sub">individual 리포트 {meta.report_count}건 기준</p>}
+      <section className="card dashboard-card">
+        <div className="card-head"><h2>직전 주 대비 테마 변화</h2><span className="count">개별 리포트 언급량 기준</span></div>
+        <ThemeChangeList changes={changes} week={week} />
+      </section>
       <article className="card prose" dangerouslySetInnerHTML={{ __html: renderMarkdown(md, { dropTitle: true }) }} />
       <div className="pager">
         {older ? <Link href={`/weekly/${older}`}>← {older}</Link> : <span />}

@@ -1,27 +1,18 @@
 import Link from "next/link";
-import { allCards, countBy, taxonomy } from "@/lib/data";
+import { dashboardSnapshot, taxonomy } from "@/lib/data";
 
 export default function IndustriesIndex() {
-  const counts = new Map(countBy(allCards(), "industries"));
-  const tax = taxonomy().industries;
-  return (
-    <>
-      <h1>산업</h1>
-      <p className="sub">리포트가 주제로 다룬 산업. 한 주에 2건 이상 모이면 브리핑이 생긴다</p>
-      <ul className="list-plain">
-        {Object.entries(tax).map(([name, desc]) => {
-          const n = counts.get(name) ?? 0;
-          return (
-            <li key={name}>
-              <span>
-                {n > 0 ? <Link href={`/industries/${encodeURIComponent(name)}`}>{name}</Link> : <span className="count">{name}</span>}
-                <span className="count"> · {desc}</span>
-              </span>
-              <span className="count">{n}건</span>
-            </li>
-          );
-        })}
-      </ul>
-    </>
-  );
+  const snapshot = dashboardSnapshot();
+  const current = snapshot.weeks[0]; const previous = snapshot.weeks[1];
+  const now = new Map(current?.industries.map((i) => [i.name, i])); const before = new Map(previous?.industries.map((i) => [i.name, i.count]));
+  return <>
+    <div className="hero-head"><div><p className="eyebrow">INDUSTRY MONITOR</p><h1>산업 관심도</h1></div>{current && <p className="asof">{current.week} · {current.throughDate}까지</p>}</div>
+    <p className="sub">리포트가 주제로 다룬 횟수입니다. 산업 전망이나 투자 매력도를 뜻하지 않습니다.</p>
+    <div className="industry-grid">{Object.entries(taxonomy().industries).map(([name, desc]) => {
+      const stat = now.get(name); const count = stat?.count ?? 0; const prev = before.get(name) ?? 0; const delta = count - prev;
+      return <Link className={`industry-card ${count ? "" : "is-empty"}`} href={count ? `/industries/${encodeURIComponent(name)}` : "#"} key={name} aria-disabled={!count}>
+        <div><strong>{name}</strong><span>{desc}</span></div><div className="industry-metric"><strong>{count}</strong><span className={delta > 0 ? "positive" : ""}>{delta > 0 ? "+" : ""}{delta}</span></div>
+      </Link>;
+    })}</div>
+  </>;
 }

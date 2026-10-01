@@ -98,6 +98,13 @@ Next.js 앱. 빌드할 때 저장소의 `data/`, `insights/`, `digest/`, `config
 다이제스트 / 리포트 목록(데스크·산업·테마 필터, 검색) / 리포트 상세(요약·원문 링크·
 추출 원문) / 테마별 / 산업별(주간 브리핑 포함)
 
+시각화 확장 방향과 화면·집계·단계별 구현 기준은
+[`docs/dashboard-visualization-plan.md`](docs/dashboard-visualization-plan.md)에 정리되어 있다.
+유사 서비스에서 차용한 패턴과 제외한 패턴은
+[`docs/dashboard-benchmark.md`](docs/dashboard-benchmark.md)에 정리되어 있다.
+개발 시 적용할 데이터 계약, 화면 요구사항, 테스트와 완료 조건은
+[`spec.md`](spec.md)를 기준으로 한다.
+
 ### Vercel 연결
 1. Vercel → Add New → Project → 이 저장소 Import
 2. **Root Directory: `web`** (Framework Preset은 Next.js로 자동 인식)
