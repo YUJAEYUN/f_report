@@ -55,6 +55,35 @@ LLM은 Claude Code CLI(`claude -p`, 도구 비활성화)를 로그인 토큰으�
    요약만 입력으로 전체를 10건씩 다시 태깅하고 모든 브리핑/다이제스트를 재생성한다.
 5. 프롬프트나 인사이트 형식(`skills/*`)만 바꿨으면 `redo_all`로 재태깅 없이 전체를 다시 만든다.
 
+### 기존 리포트 인사이트 백필
+
+기존 요약과 분류를 보존한 채 누락된 개별 리포트 인사이트만 생성하려면 전용
+모드를 명시적으로 실행한다. 먼저 5건만 생성해 품질을 검수한다.
+
+GitHub의 **Actions → process-reports → Run workflow**에서 `limit`을 `5`로
+입력하고 `backfill_insights`를 체크해 실행한다. 등록된
+`CLAUDE_CODE_OAUTH_TOKEN` Secret을 사용하며, 실행 결과는 워크플로가 자동으로
+커밋한다. `backfill_insights`를 체크하지 않으면 평소 요약 파이프라인으로 실행된다.
+
+동일한 작업을 인증된 로컬 환경에서 실행할 때는 다음 명령을 사용한다.
+
+```bash
+git diff -- data/reports data/industries data/themes insights digest
+python scripts/process_reports.py --limit 5 --backfill-insights
+git diff -- data/reports data/industries data/themes insights digest
+```
+
+두 번째 diff에서 대상 리포트의 `insight`, `insight_generated_at` 외 필드가
+바뀌지 않았고 인사이트 품질이 적절한지 확인한다. 검토를 통과한 뒤 남은 전체
+대상보다 큰 limit으로 확대한다(0은 처리하지 않으므로 충분히 큰 양수를 쓴다).
+
+```bash
+python scripts/process_reports.py --limit 10000 --backfill-insights
+```
+
+백필 모드는 `daily_series`, 요약이 없거나 PDF 추출 오류가 있는 레코드를 제외하며,
+산업·테마 인덱스와 브리핑·주간 인사이트·다이제스트를 재생성하지 않는다.
+
 ### 산출물
 - `insights/weekly/{ISO주차}.md` — **주간 인사이트** (이번 주 한눈에 / 테마 Top 3~5 /
   산업 흐름 / 다음 주 체크포인트). 같은 이름의 `.json`에 테마·산업별 report_id 목록.
@@ -82,7 +111,8 @@ report_id, report_type(individual|daily_series), title, analyst,
 published_date, published_time, category, breadcrumb, preview_text,
 pdf_url, pdf_filename, source_url, collected_at, pdf_text, (pdf_error)
 # process-reports가 덧붙이는 필드
-summary, insight(individual만: 변화·의미·확인 포인트), summarized_at, desk,
+summary, insight(individual만: 변화·의미·확인 포인트), summarized_at, insight_generated_at,
+desk,
 industries(individual만), themes(individual만), tagged_at
 ```
 PDF 추출에 실패한 리포트는 `pdf_error`와 함께 저장되고, seen 인덱스에

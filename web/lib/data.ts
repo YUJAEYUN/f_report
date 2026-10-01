@@ -43,6 +43,7 @@ export type Report = {
   themes?: string[];
   summary?: IndividualSummary & DailySummary;
   insight?: ReportInsight;
+  insight_generated_at?: string;
   summarized_at?: string;
   tagged_at?: string;
 };

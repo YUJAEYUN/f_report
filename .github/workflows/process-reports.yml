@@ -12,9 +12,14 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: "이번 실행에서 요약할 최대 리포트 수"
+        description: "이번 실행에서 요약하거나 인사이트를 백필할 최대 리포트 수"
         required: false
         default: "30"
+      backfill_insights:
+        description: "기존 요약·태그를 유지하고 누락된 개별 리포트 인사이트만 백필"
+        type: boolean
+        required: false
+        default: false
       redo_date:
         description: "브리핑/다이제스트를 강제로 재생성할 발행일 (YYYY-MM-DD, 선택)"
         required: false
@@ -66,6 +71,7 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
           LIMIT: ${{ github.event.inputs.limit || '30' }}
+          BACKFILL_INSIGHTS: ${{ github.event.inputs.backfill_insights }}
           REDO_DATE: ${{ github.event.inputs.redo_date }}
           RETAG: ${{ github.event.inputs.retag }}
           REDO_ALL: ${{ github.event.inputs.redo_all }}
@@ -84,6 +90,9 @@ jobs:
             exit 1
           fi
           args=(--limit "$LIMIT")
+          if [ "$BACKFILL_INSIGHTS" = "true" ]; then
+            args+=(--backfill-insights)
+          fi
           if [ -n "$REDO_DATE" ]; then
             args+=(--redo-date "$REDO_DATE")
           fi
