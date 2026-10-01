@@ -16,6 +16,7 @@ LLM에는 텍스트만 주고 받는다. 어떤 파일을 읽고 어디에 쓰�
 결정한다 — 각 단계의 규칙은 skills/*/SKILL.md를 프롬프트에 그대로 넣어 따르게 한다.
 
     python scripts/process_reports.py --limit 30
+    python scripts/process_reports.py --limit 5 --backfill-insights  # 기존 리포트 인사이트만 백필
     python scripts/process_reports.py --limit 0 --redo-date 2026-09-29   # 요약 없이 브리핑/다이제스트만 재생성
     python scripts/process_reports.py --limit 0 --retag                  # 분류 체계 변경 후 전체 재태깅 + 전체 재생성
     python scripts/process_reports.py --limit 0 --redo-all               # 재태깅 없이 테마 병합 + 전체 재생성
@@ -231,6 +232,14 @@ DAILY_SCHEMA = """{
   }
 }"""
 
+INSIGHT_SCHEMA = """{
+  "insight": {
+    "change": "기존 전제와 비교해 달라진 점",
+    "implication": "기업·산업·시장 흐름에서의 의미",
+    "watch_points": ["해석을 확인할 지표나 사건 1~3개"]
+  }
+}"""
+
 
 def build_summary_prompt(r: dict) -> str:
     text = r.get("pdf_text") or r.get("preview_text") or ""
@@ -283,11 +292,79 @@ def validate_summary(r: dict, obj: dict) -> tuple[dict, dict | None]:
     return summary, insight
 
 
+def validate_insight(obj: dict) -> dict:
+    """인사이트 전용 응답을 검증하고 저장 가능한 형태로 정규화한다."""
+    insight = obj.get("insight")
+    if not isinstance(insight, dict):
+        raise LLMError("insight 누락")
+    for key in ("change", "implication"):
+        value = str(insight.get(key) or "").strip()
+        if not value:
+            raise LLMError(f"insight.{key} 누락")
+        insight[key] = value
+    watch_points = insight.get("watch_points")
+    if not isinstance(watch_points, list):
+        raise LLMError("insight.watch_points 형식 오류")
+    insight["watch_points"] = [str(x).strip() for x in watch_points if str(x).strip()][:3]
+    if not insight["watch_points"]:
+        raise LLMError("insight.watch_points 누락")
+    return insight
+
+
+def insight_backfill_targets(reports: list[tuple[Path, dict]]) -> list[tuple[Path, dict]]:
+    """요약은 있지만 인사이트가 없는 정상 개별 리포트만 선택한다."""
+    return [
+        (path, report) for path, report in reports
+        if report.get("report_type") == "individual"
+        and isinstance(report.get("summary"), dict)
+        and "insight" not in report
+        and not report.get("pdf_error")
+    ]
+
+
+def build_insight_prompt(r: dict) -> str:
+    text = r.get("pdf_text") or r.get("preview_text") or ""
+    truncated = len(text) > MAX_PDF_CHARS
+    return "\n\n".join([
+        "너는 기존 리포트에 판단 보조 인사이트만 추가하는 파이프라인의 한 단계다. 요약이나 분류는 만들지 않는다.",
+        "=== SKILL: generate-report-insight ===\n" + skill("generate-report-insight"),
+        "=== 출력 형식 ===\n다른 말 없이 아래 JSON 객체 하나만 출력한다.\n" + INSIGHT_SCHEMA,
+        "=== 리포트 메타데이터 ===\n" + meta_block(r),
+        "=== 기존 요약 ===\n" + json.dumps(r["summary"], ensure_ascii=False, indent=2),
+        "=== 리포트 본문" + (" (길어서 앞부분만)" if truncated else "") + " ===\n" + text[:MAX_PDF_CHARS],
+    ])
+
+
+def backfill_insights(reports: list[tuple[Path, dict]], limit: int) -> bool:
+    """기존 레코드에서 insight와 생성 시각만 추가한다. 실패/중단 여부를 반환한다."""
+    pending = insight_backfill_targets(reports)
+    print(f"[insight-backfill] 대기 {len(pending)}건, 이번 실행 최대 {limit}건")
+    failures = 0
+    any_failure = False
+    for path, r in pending[:limit]:
+        try:
+            insight = validate_insight(ask_json(build_insight_prompt(r)))
+        except LLMError as e:
+            failures += 1
+            any_failure = True
+            print(f"  ! {r['report_id']} 실패: {e}", flush=True)
+            if isinstance(e, (LLMAuthError, LLMRateLimitError)) or failures >= MAX_CONSECUTIVE_FAILURES:
+                print(f"[insight-backfill] 중단: {abort_reason(e)}")
+                return True
+            continue
+        failures = 0
+        r["insight"] = insight
+        r["insight_generated_at"] = now_kst()
+        save_report(path, r)
+        print(f"  [{r['published_date']}] {r['report_id']} {r['title'][:40]}", flush=True)
+    return any_failure
+
+
 def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set[str], bool]:
-    """요약 또는 인사이트가 없는 리포트를 limit건까지 처리."""
+    """요약이 없는 리포트를 limit건까지 처리."""
     pending = [
         (p, r) for p, r in reports
-        if ("summary" not in r or (r["report_type"] == "individual" and "insight" not in r))
+        if "summary" not in r
         and not r.get("pdf_error")
     ]
     print(f"[summarize] 대기 {len(pending)}건, 이번 실행 최대 {limit}건")
@@ -597,13 +674,17 @@ def build_digests(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--limit", type=int, default=30, help="이번 실행에서 요약할 최대 리포트 수")
+    parser.add_argument("--limit", type=int, default=30, help="이번 실행에서 요약하거나 백필할 최대 리포트 수")
+    parser.add_argument("--backfill-insights", action="store_true", help="요약된 개별 리포트의 누락 인사이트만 --limit건 백필")
     parser.add_argument("--redo-date", action="append", default=[], help="브리핑/다이제스트를 강제로 재생성할 발행일 (반복 가능)")
     parser.add_argument("--retag", action="store_true", help="요약된 전체 리포트를 현재 분류 체계로 재태깅하고 모든 날짜를 재생성")
     parser.add_argument("--redo-all", action="store_true", help="재태깅 없이 테마 병합 + 모든 날짜의 브리핑/인사이트/다이제스트 재생성")
     args = parser.parse_args()
 
     reports = load_reports()
+    if args.backfill_insights:
+        # 전용 모드: 요약·태그·인덱스·파생 산출물 생성 경로에 진입하지 않는다.
+        return 1 if backfill_insights(reports, args.limit) else 0
     aborted = False
     tagged = False
     dates: set[str] = set(args.redo_date)
