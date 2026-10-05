@@ -1,0 +1,67 @@
+{
+  "week": "2026-W41",
+  "report_count": 18,
+  "themes": [
+    {
+      "name": "3분기 어닝시즌",
+      "report_ids": [
+        "hana_1288964",
+        "hana_1288965",
+        "hana_1288969",
+        "hana_1288971",
+        "hana_1288974",
+        "hana_1288977",
+        "hana_1288978"
+      ]
+    },
+    {
+      "name": "원재료·환율 부담",
+      "report_ids": [
+        "hana_1288966",
+        "hana_1288969",
+        "hana_1288971",
+        "hana_1288977"
+      ]
+    },
+    {
+      "name": "AI 데이터센터 전력",
+      "report_ids": [
+        "hana_1288962",
+        "hana_1288963",
+        "hana_1288970"
+      ]
+    },
+    {
+      "name": "AI 인프라 투자 사이클",
+      "report_ids": [
+        "hana_1288963",
+        "hana_1288975"
+      ]
+    },
+    {
+      "name": "메모리 업황 호조",
+      "report_ids": [
+        "hana_1288975",
+        "hana_1288978"
+      ]
+    }
+  ],
+  "industries": [
+    {
+      "name": "은행",
+      "report_ids": [
+        "hana_1288964",
+        "hana_1288965"
+      ]
+    },
+    {
+      "name": "철강·금속",
+      "report_ids": [
+        "hana_1288969",
+        "hana_1288971",
+        "hana_1288976"
+      ]
+    }
+  ],
+  "generated_at": "2026-10-06T03:02:37+09:00"
+}
