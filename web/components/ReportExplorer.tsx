@@ -58,7 +58,7 @@ export default function ReportExplorer({ cards, initial = {} }: { cards: ReportC
 
   return (
     <>
-      <div className="filters">
+      <div className="filters panel">
         <input placeholder="제목·요약·애널리스트 검색" value={q} onChange={reset(setQ)} />
         <select value={desk} onChange={reset(setDesk)} aria-label="데스크">
           <option value="">전체 데스크</option>
@@ -75,9 +75,11 @@ export default function ReportExplorer({ cards, initial = {} }: { cards: ReportC
         {week && <span className="active-filter">{weekLabel(week).label}<button onClick={clearWeek} aria-label="주차 필터 해제">×</button></span>}
       </div>
       <div className="result-head"><p className="count">{filtered.length}건</p>{(q || desk || industry || theme || week) && <button className="text-button" onClick={clear}>필터 초기화</button>}</div>
-      <ul className="report-list">
-        {filtered.slice(0, shown).map((c) => <ReportItem key={c.id} card={c} />)}
-      </ul>
+      <section className="panel">
+        <ul className="report-list">
+          {filtered.slice(0, shown).map((c) => <ReportItem key={c.id} card={c} />)}
+        </ul>
+      </section>
       {filtered.length === 0 && <div className="empty"><strong>조건에 맞는 리포트가 없습니다.</strong><button className="text-button" onClick={clear}>전체 리포트 보기</button></div>}
       {shown < filtered.length && (
         <p><button className="chip" onClick={() => setShown(shown + PAGE)}>더 보기</button></p>

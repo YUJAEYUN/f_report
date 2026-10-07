@@ -69,6 +69,8 @@ export type ReportCard = {
   industries: string[];
   themes: string[];
   oneLiner: string;
+  /** "매수 · TP 270,000" 같은 투자의견·목표주가 요약 (단일 종목 리포트) */
+  badge: string;
 };
 
 function readJson<T>(file: string): T {
@@ -119,6 +121,8 @@ export function toCard(r: Report): ReportCard {
     industries: r.industries ?? [],
     themes: r.themes ?? [],
     oneLiner: oneLiner || "",
+    badge: [r.summary?.rating, r.summary?.target_price != null && r.summary?.target_price !== "" ? `TP ${Number(r.summary.target_price).toLocaleString("ko-KR")}` : null]
+      .filter(Boolean).join(" · "),
   };
 }
 

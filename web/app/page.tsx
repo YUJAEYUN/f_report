@@ -34,7 +34,6 @@ export default function Home() {
   const heatThemes = topThemes.map((t) => t.name);
   const heatIndustries = cmp.industries.filter((i) => i.current > 0).slice(0, 7).map((i) => i.name);
   const recent = cards.filter((c) => c.type === "individual").slice(0, 6);
-  const byId = new Map(reports.map((r) => [r.report_id, r]));
   const digestDate = digestDates().find((d) => cards.some((c) => c.date === d && c.type === "individual"));
 
   return <>
@@ -86,13 +85,11 @@ export default function Home() {
       <span>{digestDate && <Link href={`/daily/${digestDate}`}>{digestDate} 다이제스트</Link>} · <Link href="/reports">전체 리포트 →</Link></span></div>
     <div className="report-cards">
       {recent.map((c) => {
-        const s = byId.get(c.id)?.summary;
-        const badge = [s?.rating, s?.target_price ? `TP ${Number(s.target_price).toLocaleString("ko-KR")}` : null].filter(Boolean).join(" · ");
         return <Link key={c.id} href={`/reports/${c.id}`} className="report-card">
           <span className="rc-meta">{c.date.slice(5).replace("-", ".")} · {c.analyst ?? ""}{c.industries.length ? ` · ${c.industries.join(", ")}` : ""}</span>
           <b>{c.title}</b>
           <span className="rc-one">{c.oneLiner}</span>
-          {badge && <span className="rc-badge">{badge}</span>}
+          {c.badge && <span className="rc-badge">{c.badge}</span>}
         </Link>;
       })}
     </div>

@@ -22,6 +22,7 @@ export function ReportItem({ card, showDate = true }: { card: ReportCard; showDa
         {showDate && <span>{card.date}</span>}
         {card.analyst && <span>{card.analyst}</span>}
         <Chips card={card} />
+        {card.badge && <span className="rc-badge">{card.badge}</span>}
       </div>
       <Link className="title" href={`/reports/${card.id}`}>{card.title}</Link>
       {card.oneLiner && <p className="one">{card.oneLiner}</p>}
