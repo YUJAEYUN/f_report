@@ -77,6 +77,7 @@ PDF는 내려받아 메모리에서 텍스트만 추출하고 버린다. 수집�
 ## 디렉터리 구조
 
 ```
+docs/archive/               과거 개발 명세·계획·검토 자료
 skills/                     파이프라인 단계별 규칙 (SKILL.md)
 scripts/
   collectors/base.py        수집기 공통 인터페이스

@@ -1,9 +1,11 @@
 # 리서치 트래커 대시보드 개발 명세
 
-> 상태: 개발 착수 가능  
+> 과거 설계·검토 자료다. 본문의 상태, 구현 지시, 다음 단계는 작성 당시 기준이며 현재 개발 요구사항이 아니다.
+> 고도화 작업에서는 현재 코드·테스트와 새 요구사항을 확인한 뒤 필요한 내용만 참고한다.
+
 > 대상: `web/` Next.js 애플리케이션  
-> 기준 문서: [`docs/dashboard-visualization-plan.md`](docs/dashboard-visualization-plan.md)  
-> 벤치마크: [`docs/dashboard-benchmark.md`](docs/dashboard-benchmark.md)
+> 기준 문서: [시각화 계획](dashboard-visualization-plan.md)  
+> 벤치마크: [벤치마크](dashboard-benchmark.md)
 > 범위: 대시보드 시각화 MVP(데이터 집계, 홈, 주간 변화표, 테마×산업 관계, 산업 추세)
 
 ## 1. 목적
