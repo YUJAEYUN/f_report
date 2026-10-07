@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allCards, countBy, decodeParam, industryBriefs, taxonomy } from "@/lib/data";
 import { renderMarkdown } from "@/lib/md";
+import { weekLabel } from "@/lib/dashboard";
 import { ReportList } from "@/components/ReportList";
 
 export const dynamicParams = false;
@@ -30,7 +31,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ name:
       )}
       {briefs.map((b) => (
         <details key={b.week} id={b.week} className="card" open={b === briefs[0]}>
-          <summary><strong>{b.week} 브리핑</strong></summary>
+          <summary><strong>{weekLabel(b.week).label} 브리핑</strong> <span className="count">{weekLabel(b.week).range}</span></summary>
           <div className="prose" dangerouslySetInnerHTML={{ __html: renderMarkdown(b.markdown, { dropTitle: true }) }} />
         </details>
       ))}

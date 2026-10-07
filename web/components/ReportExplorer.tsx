@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { ReportCard } from "@/lib/data";
-import { isoWeek } from "@/lib/dashboard";
+import { isoWeek, weekLabel } from "@/lib/dashboard";
 import { ReportItem } from "./ReportList";
 
 const PAGE = 50;
@@ -72,7 +72,7 @@ export default function ReportExplorer({ cards, initial = {} }: { cards: ReportC
           <option value="">전체 테마</option>
           {options.themes.map((d) => <option key={d}>{d}</option>)}
         </select>
-        {week && <span className="active-filter">주차 {week}<button onClick={clearWeek} aria-label="주차 필터 해제">×</button></span>}
+        {week && <span className="active-filter">{weekLabel(week).label}<button onClick={clearWeek} aria-label="주차 필터 해제">×</button></span>}
       </div>
       <div className="result-head"><p className="count">{filtered.length}건</p>{(q || desk || industry || theme || week) && <button className="text-button" onClick={clear}>필터 초기화</button>}</div>
       <ul className="report-list">

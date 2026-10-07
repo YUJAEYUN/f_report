@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allCards, countBy, decodeParam, isoWeek, weeklyMeta } from "@/lib/data";
+import { weekLabel } from "@/lib/dashboard";
 import { ReportList } from "@/components/ReportList";
 
 export const dynamicParams = false;
@@ -36,7 +37,7 @@ export default async function ThemePage({ params }: { params: Promise<{ name: st
         return (
           <section key={week} className="card">
             <div className="card-head">
-              <h2>{week}</h2>
+              <h2>{weekLabel(week).label} <span className="count">{weekLabel(week).range}</span></h2>
               {inTop && <Link href={`/weekly/${week}`}>이 주 인사이트에서 다룸 →</Link>}
             </div>
             <ReportList cards={list} />

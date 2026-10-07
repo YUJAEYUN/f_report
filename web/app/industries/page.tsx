@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { weekLabel } from "@/lib/dashboard";
 import { dashboardSnapshot, taxonomy } from "@/lib/data";
 
 export default function IndustriesIndex() {
@@ -6,7 +7,7 @@ export default function IndustriesIndex() {
   const current = snapshot.weeks[0]; const previous = snapshot.weeks[1];
   const now = new Map(current?.industries.map((i) => [i.name, i])); const before = new Map(previous?.industries.map((i) => [i.name, i.count]));
   return <>
-    <div className="hero-head"><div><p className="eyebrow">INDUSTRY MONITOR</p><h1>산업 관심도</h1></div>{current && <p className="asof">{current.week} · {current.throughDate}까지</p>}</div>
+    <div className="hero-head"><div><p className="eyebrow">INDUSTRY MONITOR</p><h1>산업 관심도</h1></div>{current && <p className="asof">{weekLabel(current.week).label} · {current.throughDate}까지</p>}</div>
     <p className="sub">리포트가 주제로 다룬 횟수입니다. 산업 전망이나 투자 매력도를 뜻하지 않습니다.</p>
     <div className="industry-grid">{Object.entries(taxonomy().industries).map(([name, desc]) => {
       const stat = now.get(name); const count = stat?.count ?? 0; const prev = before.get(name) ?? 0; const delta = count - prev;

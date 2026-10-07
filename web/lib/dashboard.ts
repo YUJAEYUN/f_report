@@ -22,7 +22,7 @@ export function isoWeek(date: string): string {
   return `${d.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
 }
 
-function weekBounds(week: string): [string, string] {
+export function weekBounds(week: string): [string, string] {
   const [year, n] = week.split("-W").map(Number);
   const jan4 = new Date(Date.UTC(year, 0, 4));
   const monday = new Date(jan4);
@@ -30,6 +30,32 @@ function weekBounds(week: string): [string, string] {
   const sunday = new Date(monday);
   sunday.setUTCDate(monday.getUTCDate() + 6);
   return [monday.toISOString().slice(0, 10), sunday.toISOString().slice(0, 10)];
+}
+
+const WEEKDAYS = ["일", "월", "화", "수", "목", "금", "토"];
+
+/**
+ * "2026-W41" -> 사람이 읽는 주차 표기.
+ * 월 귀속은 그 주 목요일이 속한 달 기준 (ISO와 같은 규칙): 10/5(월)~10/11(일)이면 "10월 1주차".
+ */
+export function weekLabel(week: string): { month: string; label: string; range: string; full: string } {
+  if (!/^\d{4}-W\d{2}$/.test(week)) return { month: week, label: week, range: "", full: week };
+  const [start, end] = weekBounds(week);
+  const thu = new Date(`${start}T00:00:00Z`);
+  thu.setUTCDate(thu.getUTCDate() + 3);
+  const nth = Math.ceil(thu.getUTCDate() / 7);
+  const md = (iso: string) => {
+    const d = new Date(`${iso}T00:00:00Z`);
+    return `${d.getUTCMonth() + 1}.${d.getUTCDate()}(${WEEKDAYS[d.getUTCDay()]})`;
+  };
+  const label = `${thu.getUTCMonth() + 1}월 ${nth}주차`;
+  const range = `${md(start)} – ${md(end)}`;
+  return {
+    month: `${thu.getUTCFullYear()}년 ${thu.getUTCMonth() + 1}월`,
+    label,
+    range,
+    full: `${label} (${range})`,
+  };
 }
 
 export function buildDashboardSnapshot(reports: Report[], generatedAt = new Date().toISOString()): DashboardSnapshot {

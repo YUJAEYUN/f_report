@@ -4,6 +4,7 @@ import { allReports, decodeParam, getReport, isoWeek, toCard } from "@/lib/data"
 import { Chips } from "@/components/ReportList";
 import EvaluateButton from "@/components/EvaluateButton";
 import { renderMarkdown } from "@/lib/md";
+import { weekLabel } from "@/lib/dashboard";
 
 export const dynamicParams = false;
 
@@ -23,7 +24,7 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
     <>
       <p className="sub">
         <Link href={`/daily/${r.published_date}`}>{r.published_date}</Link> {r.published_time?.slice(0, 5)} ·{" "}
-        {r.analyst ?? "-"} · {r.breadcrumb} · <Link href={`/weekly/${week}`}>{week}</Link>
+        {r.analyst ?? "-"} · {r.breadcrumb} · <Link href={`/weekly/${week}`}>{weekLabel(week).label}</Link>
       </p>
       <h1>{r.title}</h1>
       <div className="chips"><Chips card={card} /></div>

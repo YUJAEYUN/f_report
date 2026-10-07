@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { allCards, dashboardSnapshot, digestDates, digestMarkdown, section, weeklyMarkdown, weeklyMeta, weeks } from "@/lib/data";
-import { themeChanges, themeIndustryMatrix } from "@/lib/dashboard";
+import { themeChanges, themeIndustryMatrix, weekLabel } from "@/lib/dashboard";
 import { renderMarkdown } from "@/lib/md";
 import { ReportList } from "@/components/ReportList";
 import { DataStatus } from "@/components/dashboard/DataStatus";
@@ -27,7 +27,7 @@ export default function Home() {
   return <>
     <div className="hero-head">
       <div><p className="eyebrow">RESEARCH MONITOR</p><h1>이번 주, 무엇이 달라졌나</h1></div>
-      {selectedWeek && <p className="asof">{selectedWeek.week} · {selectedWeek.throughDate}까지 집계</p>}
+      {selectedWeek && <p className="asof">{weekLabel(selectedWeek.week).label} · {selectedWeek.throughDate}까지 집계</p>}
     </div>
     <DataStatus snapshot={snapshot} />
 

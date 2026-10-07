@@ -221,3 +221,22 @@ details.raw summary { cursor: pointer; color: var(--accent); }
   .industry-grid { grid-template-columns: 1fr; }
   .dashboard-card { padding: 16px; }
 }
+
+/* 주간 인사이트 목록: 달별로 묶고 주차마다 리포트 수 막대 */
+.week-month { margin: 18px 0 8px; }
+.week-month h2 { font-size: 14px; color: var(--muted); font-weight: 700; margin: 0 0 6px; }
+.week-list { list-style: none; padding: 0; margin: 0; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
+.week-list li + li { border-top: 1px solid var(--border); }
+.week-row { display: grid; grid-template-columns: minmax(150px, 220px) 1fr 84px; grid-template-areas: "when bar count" "when themes themes"; align-items: center; gap: 4px 14px; padding: 12px 16px; color: var(--text); }
+.week-row:hover { text-decoration: none; background: color-mix(in srgb, var(--accent-soft) 45%, transparent); }
+.week-when { grid-area: when; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; }
+.week-when strong { font-size: 16px; }
+.week-range { color: var(--muted); font-size: 13px; width: 100%; }
+.week-latest { font-size: 11px; font-weight: 700; color: var(--accent); background: var(--accent-soft); border-radius: 999px; padding: 1px 7px; }
+.week-bar { grid-area: bar; height: 8px; border-radius: 999px; background: var(--chip); overflow: hidden; }
+.week-bar span { display: block; height: 100%; border-radius: 999px; background: var(--chart); }
+.week-count { grid-area: count; color: var(--muted); font-size: 13px; text-align: right; white-space: nowrap; }
+.week-themes { grid-area: themes; color: var(--muted); font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+@media (max-width: 520px) {
+  .week-row { grid-template-columns: 1fr 72px; grid-template-areas: "when count" "bar bar" "themes themes"; }
+}
