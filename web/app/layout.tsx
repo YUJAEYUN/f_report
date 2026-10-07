@@ -16,11 +16,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="wrap header-inner">
             <Link href="/" className="brand">리서치 트래커</Link>
             <nav>
+              {/* 탑다운 순서: 주간 흐름 → 테마·산업 관점 → 원문 리포트. 일간은 홈·리포트에서 연결 */}
               <Link href="/weekly">주간</Link>
-              <Link href="/daily">일간</Link>
-              <Link href="/reports">리포트</Link>
               <Link href="/themes">테마</Link>
               <Link href="/industries">산업</Link>
+              <Link href="/reports">리포트</Link>
               <form method="post" action="/api/logout">
                 <button type="submit" className="linklike">로그아웃</button>
               </form>

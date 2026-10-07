@@ -13,7 +13,7 @@ export function ThemeIndustryHeatmap({ cells, week, themes, industries }: { cell
           const count = map.get(`${theme}\0${industry}`) ?? 0;
           const strength = Math.round(25 + (count / max) * 75);
           return count ? <Link key={`${theme}-${industry}`} className="heat-cell" style={{ background: `color-mix(in srgb, var(--chart) ${strength}%, var(--surface))` }} title={`${theme} × ${industry}: ${count}건`} href={`/reports?week=${week}&theme=${encodeURIComponent(theme)}&industry=${encodeURIComponent(industry)}`}>{count}</Link>
-            : <span key={`${theme}-${industry}`} className="heat-cell heat-empty">0</span>;
+            : <span key={`${theme}-${industry}`} className="heat-cell heat-empty" aria-label="0건" />;
         }),
       ])}
     </div>

@@ -121,3 +121,48 @@ export function themeIndustryMatrix(snapshot: DashboardSnapshot, week: string): 
   if (!selected) return [];
   return selected.themes.flatMap((t) => Object.entries(t.industries).map(([industry, count]) => ({ theme: t.name, industry, count, reportIds: t.industryReportIds[industry] ?? [] })));
 }
+
+export type PeriodRow = { name: string; current: number; previous: number; delta: number };
+export type PeriodComparison = {
+  week: string;
+  throughDate: string;
+  /** 직전 주의 같은 요일까지 (진행 중인 주를 지난주 전체와 비교하면 모든 게 줄어 보이므로) */
+  previousThrough: string;
+  reports: { current: number; previous: number };
+  themes: PeriodRow[];
+  industries: PeriodRow[];
+};
+
+function shiftDate(iso: string, days: number): string {
+  const d = new Date(`${iso}T00:00:00Z`);
+  d.setUTCDate(d.getUTCDate() + days);
+  return d.toISOString().slice(0, 10);
+}
+
+/** 이번 주(throughDate까지)와 직전 주 같은 기간의 개별 리포트 테마·산업 언급량 비교 */
+export function comparePeriods(reports: Report[], week: string, throughDate: string): PeriodComparison {
+  const [start] = weekBounds(week);
+  const prevStart = shiftDate(start, -7);
+  const previousThrough = shiftDate(throughDate, -7);
+  const individuals = reports.filter((r) => r.report_type === "individual" && r.summary);
+  const cur = individuals.filter((r) => r.published_date >= start && r.published_date <= throughDate);
+  const prev = individuals.filter((r) => r.published_date >= prevStart && r.published_date <= previousThrough);
+  const rows = (key: "themes" | "industries"): PeriodRow[] => {
+    const count = (list: Report[]) => {
+      const m = new Map<string, number>();
+      for (const r of list) for (const v of new Set(r[key] ?? [])) m.set(v, (m.get(v) ?? 0) + 1);
+      return m;
+    };
+    const a = count(cur), b = count(prev);
+    return [...new Set([...a.keys(), ...b.keys()])]
+      .filter((name) => name !== "미분류")
+      .map((name) => ({ name, current: a.get(name) ?? 0, previous: b.get(name) ?? 0, delta: (a.get(name) ?? 0) - (b.get(name) ?? 0) }))
+      .sort((x, y) => y.current - x.current || y.delta - x.delta || x.name.localeCompare(y.name, "ko"));
+  };
+  return {
+    week, throughDate, previousThrough,
+    reports: { current: cur.length, previous: prev.length },
+    themes: rows("themes"),
+    industries: rows("industries"),
+  };
+}
