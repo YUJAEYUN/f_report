@@ -94,11 +94,10 @@ python scripts/process_reports.py --limit 10000 --backfill-insights
 
 - **모델**: 이 단계에서만 Opus를 쓴다. 기본 `claude-opus-5-5`, 바꾸려면 저장소 Variable
   `CLAUDE_REVIEW_MODEL`. 요약·태깅 등 나머지 단계는 기존 `CLAUDE_MODEL`을 그대로 쓴다.
-- **자동 실행**: `process-reports`가 끝나면 평가가 없는 개별 리포트를 최신순으로
-  실행당 10건씩 평가한다. 인증은 같은 `CLAUDE_CODE_OAUTH_TOKEN`을 쓰므로 구독 사용량을
-  나눠 쓴다. 한도(429)에 걸리면 그때까지 결과만 커밋하고 다음 실행에서 이어간다.
-- **수동 실행**: Actions → evaluate-reports → Run workflow. `report_ids`(쉼표 구분),
-  `date`, `redo`(이미 있어도 다시 생성), `limit`.
+- **실행 방식**: 자동으로 전체를 평가하지 않는다. 대시보드 버튼이나 수동 실행으로 지정한
+  리포트만 평가한다. 인증은 같은 `CLAUDE_CODE_OAUTH_TOKEN`(구독 사용량 공유)을 쓴다.
+- **수동 실행**: Actions → evaluate-reports → Run workflow. `report_ids`(쉼표 구분) 또는
+  `date` 중 하나는 필수, `redo`(이미 있어도 다시 생성), `limit`.
 - **대시보드 버튼**: 리포트 상세의 "AI 평가 생성 / 다시 평가" 버튼이 같은 워크플로를
   그 리포트만 대상으로 실행한다. 평가(1~3분) → 커밋 → Vercel 재빌드 후 반영된다.
   Vercel 환경변수 `GITHUB_DISPATCH_TOKEN`이 필요하다 (아래 Vercel 연결 참고).

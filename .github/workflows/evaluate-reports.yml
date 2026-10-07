@@ -1,21 +1,18 @@
 name: evaluate-reports
 # 웹 대시보드가 실행 목록에서 리포트별 진행 상태를 찾을 수 있도록 report_ids를 실행 이름에 넣는다.
-run-name: "evaluate-reports ${{ inputs.report_ids || inputs.date || '(auto)' }}"
+run-name: "evaluate-reports ${{ inputs.report_ids || inputs.date }}"
 
 # 개별 리포트의 논리를 평가해 data/reports/**.json 의 claim_review 에 붙인다.
-# 요약 파이프라인(process-reports)이 끝나면 아직 평가가 없는 리포트를 최신순으로 이어서 평가하고,
-# 대시보드의 "AI 평가 생성/다시 생성" 버튼이나 수동 실행으로 특정 리포트만 다시 평가할 수도 있다.
+# 자동 실행은 하지 않는다: 대시보드의 "AI 평가 생성/다시 평가" 버튼(또는 수동 실행)으로
+# 지정한 리포트만 평가한다.
 # 인증은 process-reports와 같은 Secret CLAUDE_CODE_OAUTH_TOKEN을 쓰고,
 # 모델은 이 단계에서만 Variable CLAUDE_REVIEW_MODEL(비우면 claude-opus-5-5)을 쓴다.
 
 on:
-  workflow_run:
-    workflows: [process-reports]
-    types: [completed]
   workflow_dispatch:
     inputs:
       report_ids:
-        description: "평가할 report_id (쉼표 구분, 비우면 평가가 없는 리포트 최신순)"
+        description: "평가할 report_id (쉼표 구분). report_ids나 date 중 하나는 필요"
         required: false
         default: ""
       date:
@@ -38,13 +35,11 @@ permissions:
 concurrency:
   # repo-data-writes 그룹에 넣지 않는다: 그룹당 대기 실행은 1개라, 버튼으로 쌓인 평가가 대기 중인
   # 수집/가공 실행을 취소시킬 수 있다. 대신 리포트별로 직렬화하고 push 충돌은 아래에서 재시도한다.
-  group: evaluate-reports-${{ github.event.inputs.report_ids || github.event.inputs.date || 'auto' }}
+  group: evaluate-reports-${{ inputs.report_ids || inputs.date }}
   cancel-in-progress: false
 
 jobs:
   evaluate:
-    # process-reports는 일부 실패해도 처리분을 커밋하므로 취소/건너뜀만 제외한다
-    if: github.event_name == 'workflow_dispatch' || contains(fromJSON('["success","failure"]'), github.event.workflow_run.conclusion)
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
@@ -81,6 +76,10 @@ jobs:
           export CLAUDE_CODE_OAUTH_TOKEN
           if [[ "$CLAUDE_CODE_OAUTH_TOKEN" != sk-ant-oat01-* ]]; then
             echo "::error::토큰이 'sk-ant-oat01-'로 시작하지 않습니다. 'claude setup-token' 출력값을 넣어야 합니다."
+            exit 1
+          fi
+          if [ -z "$REPORT_IDS" ] && [ -z "$REPORT_DATE" ]; then
+            echo "::error::report_ids 또는 date를 지정하세요 (전체 자동 평가는 하지 않습니다)."
             exit 1
           fi
           args=(--limit "$LIMIT")
