@@ -61,7 +61,6 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
         <section className="card insight-card" aria-labelledby="report-insight-title">
           <div className="insight-heading">
             <div>
-              <p className="eyebrow">DECISION LENS</p>
               <h2 id="report-insight-title">이 리포트에서 읽어낼 점</h2>
             </div>
             <span className="insight-perspective">판단 보조 관점</span>
@@ -90,7 +89,6 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
         <section className="card review-card" aria-labelledby="report-review-title">
           <div className="insight-heading">
             <div>
-              <p className="eyebrow">LOGIC CHECK</p>
               <h2 id="report-review-title">AI 논리 평가</h2>
             </div>
             {review && <span className={`strength strength-${review.strength}`}>논리 강도 · {review.strength}</span>}

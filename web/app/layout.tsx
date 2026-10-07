@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "리서치 트래커",
+  title: "리서치 맵",
   description: "하나증권 리서치 요약·주간 인사이트",
   robots: { index: false, follow: false },
 };
@@ -11,10 +11,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
+      <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/pretendard.min.css" />
+      </head>
       <body>
         <header className="site-header">
           <div className="wrap header-inner">
-            <Link href="/" className="brand">리서치 트래커</Link>
+            <Link href="/" className="brand">리서치 맵</Link>
             <nav>
               {/* 탑다운 순서: 주간 흐름 → 테마·산업 관점 → 원문 리포트. 일간은 홈·리포트에서 연결 */}
               <Link href="/weekly">주간</Link>

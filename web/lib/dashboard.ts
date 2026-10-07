@@ -166,3 +166,14 @@ export function comparePeriods(reports: Report[], week: string, throughDate: str
     industries: rows("industries"),
   };
 }
+
+/** 평일(월~금) 요일별 개별 리포트 건수. 이번 주는 throughDate 이후 요일을 null로 둔다. */
+export function weekdayCounts(reports: Report[], week: string, throughDate: string): { current: (number | null)[]; previous: number[] } {
+  const [start] = weekBounds(week);
+  const count = (date: string) => reports.filter((r) => r.report_type === "individual" && r.published_date === date).length;
+  const days = [0, 1, 2, 3, 4].map((i) => shiftDate(start, i));
+  return {
+    current: days.map((d) => (d <= throughDate ? count(d) : null)),
+    previous: days.map((d) => count(shiftDate(d, -7))),
+  };
+}

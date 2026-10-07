@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { safeNext } from "@/lib/auth";
 
-export const metadata: Metadata = { title: "로그인 · 리서치 트래커" };
+export const metadata: Metadata = { title: "로그인 · 리서치 맵" };
 
 export default async function LoginPage({
   searchParams,
@@ -14,7 +14,7 @@ export default async function LoginPage({
   return (
     <div className="login">
       <form className="card login-card" method="post" action="/api/login">
-        <h1>리서치 트래커</h1>
+        <h1>리서치 맵</h1>
         <p className="sub">개인용 페이지입니다. 로그인해 주세요.</p>
         <input type="hidden" name="next" value={next} />
         <label>

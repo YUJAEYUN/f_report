@@ -25,7 +25,6 @@ export default async function WeeklyPage({ params }: { params: Promise<{ week: s
   const year = week.slice(0, 4);
   return (
     <>
-      <p className="eyebrow">WEEKLY INSIGHT</p>
       <h1>{wl.label} 주간 인사이트</h1>
       <p className="sub">
         {year}. {wl.range}
