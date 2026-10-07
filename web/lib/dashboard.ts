@@ -177,3 +177,19 @@ export function weekdayCounts(reports: Report[], week: string, throughDate: stri
     previous: days.map((d) => count(shiftDate(d, -7))),
   };
 }
+
+/** 전체 주(오래된 순)와 이름별 주간 건수 */
+export function weeklySeries(snapshot: DashboardSnapshot, key: "themes" | "industries"): { weeks: string[]; series: Map<string, number[]> } {
+  const weeks = snapshot.weeks.map((w) => w.week).reverse();
+  const series = new Map<string, number[]>();
+  weeks.forEach((week, i) => {
+    const w = snapshot.weeks.find((x) => x.week === week)!;
+    for (const item of w[key]) {
+      if (item.name === "미분류") continue;
+      const arr = series.get(item.name) ?? Array(weeks.length).fill(0);
+      arr[i] = item.count;
+      series.set(item.name, arr);
+    }
+  });
+  return { weeks, series };
+}
