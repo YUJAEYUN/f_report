@@ -70,84 +70,6 @@ evaluate-reports (그 리포트만) → Opus로 논리 평가 → 커밋 → 재
 PDF는 내려받아 메모리에서 텍스트만 추출하고 버린다. 수집·가공 결과는 데이터베이스 대신
 저장소의 JSON·Markdown 파일로 관리한다. 증권사별 수집기는 `scripts/collectors/`에서 분리한다.
 
-## 설정
-
-### GitHub (Settings → Secrets and variables → Actions)
-
-| 종류 | 이름 | 설명 |
-|---|---|---|
-| Secret | `CLAUDE_CODE_OAUTH_TOKEN` | 필수. 로컬에서 `claude setup-token` 실행 결과 (`sk-ant-oat01-…`) |
-| Variable | `CLAUDE_MODEL` | 선택. 요약·태깅·브리핑 모델. 비우면 계정 기본값 |
-| Variable | `CLAUDE_REVIEW_MODEL` | 선택. AI 논리 평가 모델. 비우면 `claude-opus-5-5` |
-
-### Vercel
-
-1. Add New → Project → 이 저장소 Import
-2. **Root Directory: `web`**, 그 아래 **"Include files outside of the Root Directory in the
-   Build Step"** 켜기 (빌드가 `../data` 등을 읽는다)
-3. Environment Variables
-
-| 이름 | 설명 |
-|---|---|
-| `DASHBOARD_PASSWORD` | 필수. 접속 비밀번호. 없으면 사이트가 503을 낸다 |
-| `DASHBOARD_USER` | 선택. 접속 아이디, 기본 `me` |
-| `DASHBOARD_SECRET` | 선택. 세션 서명 키. 없으면 아이디·비밀번호에서 만든다 (비밀번호를 바꾸면 세션이 모두 끊김) |
-| `GITHUB_DISPATCH_TOKEN` | 선택. "AI 평가" 버튼용 Fine-grained PAT. **이 저장소만, Actions: Read and write**. 없으면 버튼이 비활성화된다 |
-| `GITHUB_REPO`, `GITHUB_REF` | 선택. 기본 `YUJAEYUN/f_report`, `main` |
-
-환경변수를 바꾼 뒤에는 Deployments에서 Redeploy해야 반영된다.
-
-## 운영
-
-### process-reports 수동 실행 (Actions → process-reports → Run workflow)
-
-| 입력 | 쓰는 때 |
-|---|---|
-| `limit` | 한 번에 처리할 리포트 수 (기본 30). 밀린 리포트가 많을 때 키운다 |
-| `redo_date` | 그 발행일의 브리핑·주간 인사이트·다이제스트만 다시 만들 때 (`limit=0`과 함께) |
-| `retag` | 분류 체계(`config/taxonomy.json`)를 바꿨을 때. 전체 재태깅 + 전체 재생성 |
-| `redo_all` | 프롬프트(`skills/*`)만 바꿨을 때. 재태깅 없이 테마 병합 + 전체 재생성 |
-| `backfill_insights` | 기존 요약·분류는 두고 빠진 리포트별 인사이트만 채울 때. 먼저 `limit=5`로 품질 확인 |
-
-인증 실패(401)나 사용량 한도(429)면 바로, 그 외 오류는 연속 3회면 멈춘다. 그때까지의 결과는
-커밋하고 잡은 실패로 표시하며, 남은 리포트는 다음 실행에서 이어서 처리한다.
-
-### AI 논리 평가 (evaluate-reports)
-
-- 리포트 상세의 **AI 평가 생성 / 다시 평가** 버튼이 그 리포트만 대상으로 워크플로를 실행한다.
-  평가(1~3분) → 커밋 → Vercel 재빌드 후 반영된다.
-- 자동으로 전체를 평가하지 않는다. Actions에서 직접 실행할 때도 `report_ids`나 `date`가 필요하다.
-- 평가 기준은 `skills/evaluate-report-claims/SKILL.md`이고, 파일 전체가 시스템 프롬프트로 들어간다.
-- 로컬: `python scripts/evaluate_reports.py --ids hana_1288828 --redo` (로그인된 claude CLI 필요)
-
-## 데이터
-
-### 산출물
-
-| 경로 | 내용 |
-|---|---|
-| `data/reports/{발행일}/hana_{번호}.json` | 리포트 1건 (메타데이터, 원문 텍스트, 요약, 인사이트, 분류, AI 평가) |
-| `insights/weekly/{ISO주차}.md` (+`.json`) | 주간 인사이트: 이번 주 한 줄 / 한눈에 / 테마 Top 3~5 / 산업 흐름 / 다음 주 체크포인트 |
-| `digest/{발행일}.md` | 일간 다이제스트 (쉬운 말): 오늘 한 줄 / 핵심 3개 / 용어 풀이 / 데일리 코멘트 / 산업별 브리핑 |
-| `data/industries/{산업}/briefs/{ISO주차}.md` | 그 주 리포트 2건 이상인 산업의 브리핑 |
-| `data/themes/index.json`, `aliases.json` | 테마별 report_id, 병합된 테마 이름 → 대표 이름 |
-
-리포트 데이터에는 수집 메타데이터와 원문 텍스트, 요약·인사이트·분류, AI 논리 평가가
-담긴다. PDF 추출에 실패하면 `pdf_error`를 남기고 다음 실행에서 다시 시도한다.
-`daily_series`(Hana Guru Eye 등)는 개별 이슈를 이미 종합한 자료이므로, 개별 리포트와
-섞어 집계하지 않는다.
-
-분류 체계는 `config/taxonomy.json`에 있다. `desk`는 리포트 성격, `industries`는 주제로
-다룬 산업 0~2개, `themes`는 산업을 가로지르는 이슈 1~3개다. 같은 이슈의 다른 이름은
-테마 병합 단계에서 하나로 묶는다.
-
-## 주의사항
-
-- 대상 사이트의 robots.txt는 Googlebot·Yeti 외 자동 접근을 막고 있다. 요청 사이에는
-  1.5초 간격을 둔다. 정기 실행을 멈추려면 `daily-pipeline.yml`의 `schedule:` 블록을 주석 처리한다.
-- `pdf_text`에 리포트 원문이 들어간다. **저장소는 private으로 두고**, 대시보드도
-  `DASHBOARD_PASSWORD` 없이 공개 배포하지 않는다.
-
 ## 디렉터리 구조
 
 ```
@@ -168,24 +90,3 @@ config/taxonomy.json        desk 매핑 + 산업 목록
 web/                        대시보드 (Next.js, Vercel)
 .github/workflows/          daily-pipeline, process-reports, evaluate-reports
 ```
-
-## 로컬 실행
-
-```bash
-pip install -r requirements.txt
-python scripts/run_pipeline.py --max-pages 3              # 최근 30건까지 수집
-python scripts/run_pipeline.py --max-pages 3 --skip-pdf   # 메타데이터만
-python scripts/process_reports.py --limit 5               # 가공 (로그인된 claude CLI 필요)
-python -m unittest discover -s tests                      # 테스트
-
-cd web && npm install && npm run dev                      # 대시보드 (개발 모드는 비밀번호 없이 열림)
-```
-첫 수집은 `--max-pages`만큼 과거로 거슬러 올라가고, 이후에는 이미 본 리포트만 있는 페이지가
-나오면 멈춘다.
-
-## 참고 문서
-
-- [`spec.md`](spec.md): 데이터 계약, 화면 요구사항, 테스트·완료 조건
-- [`docs/dashboard-visualization-plan.md`](docs/dashboard-visualization-plan.md): 시각화 확장 방향
-- [`docs/dashboard-benchmark.md`](docs/dashboard-benchmark.md): 유사 서비스에서 차용·제외한 패턴
-- [`docs/report-insight-next-step-prompt.md`](docs/report-insight-next-step-prompt.md): 리포트별 인사이트 작업 프롬프트
