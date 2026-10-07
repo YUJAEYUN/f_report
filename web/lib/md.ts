@@ -59,3 +59,13 @@ export function subsections(md: string): { title: string; body: string }[] {
   }
   return out;
 }
+
+/** 렌더링된 HTML의 report_id 링크(hana_123)를 짧은 리포트 제목으로 바꾼다. 근거 표시를 읽기 쉽게 하려는 용도 */
+export function withReportTitles(html: string, titles: Map<string, string>): string {
+  return html.replace(/<a class="rid" href="\/reports\/([^"]+)">[^<]*<\/a>/g, (m, id: string) => {
+    const t = titles.get(id);
+    if (!t) return m;
+    const short = t.length > 22 ? `${t.slice(0, 21)}…` : t;
+    return `<a class="ref" href="/reports/${id}" title="${t.replace(/"/g, "&quot;")}">${short.replace(/</g, "&lt;")}</a>`;
+  }).replace(/\(((?:<a class="ref"[^>]*>[^<]*<\/a>(?:,\s*)?)+)\)/g, "$1"); // "(근거1, 근거2)"의 괄호는 뗀다
+}

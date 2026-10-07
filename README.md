@@ -105,10 +105,11 @@ python scripts/process_reports.py --limit 10000 --backfill-insights
 로컬 실행: `python scripts/evaluate_reports.py --ids hana_1288828 --redo` (로그인된 claude CLI 필요)
 
 ### 산출물
-- `insights/weekly/{ISO주차}.md` — **주간 인사이트** (이번 주 한눈에 / 테마 Top 3~5 /
-  산업 흐름 / 다음 주 체크포인트). 같은 이름의 `.json`에 테마·산업별 report_id 목록.
-- `digest/{발행일}.md` — **일간 다이제스트** (오늘의 핵심 3줄 / 데일리 코멘트 /
-  산업 브리핑 업데이트 / 개별 리포트 목록)
+- `insights/weekly/{ISO주차}.md` — **주간 인사이트** (이번 주 한 줄 헤드라인 / 이번 주 한눈에 /
+  테마 Top 3~5 / 산업 흐름 / 다음 주 체크포인트). 같은 이름의 `.json`에 테마·산업별 report_id 목록.
+- `digest/{발행일}.md` — **일간 다이제스트**. 주식 용어에 익숙하지 않은 독자 기준의 쉬운 말로
+  (오늘 한 줄 / 오늘의 핵심 3개 / 용어 풀이 / 데일리 코멘트 / 산업별 브리핑 업데이트).
+  그날 개별 리포트 목록은 대시보드가 따로 보여주므로 다이제스트에 쓰지 않는다.
 - `data/industries/{산업}/briefs/{ISO주차}.md` — 그 주 리포트 2건 이상인 산업의 브리핑
 - `data/themes/aliases.json` — 병합된 테마 이름 → 대표 이름 (`consolidate-themes`)
 

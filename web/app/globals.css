@@ -360,3 +360,19 @@ a.hb-row:hover { text-decoration: none; background: color-mix(in srgb, var(--cha
   .report-title { font-size: 24px; }
   .report-lead { font-size: 16px; }
 }
+
+/* 일간 다이제스트 */
+.core ul { padding-left: 18px; margin: 4px 0 0; }
+.core li { margin-bottom: 12px; font-size: 15.5px; line-height: 1.75; }
+.core li strong { display: block; font-size: 16px; }
+.terms ul { list-style: none; padding: 0; margin: 0; }
+.terms li { padding: 10px 0; border-top: 1px solid var(--border); font-size: 14px; line-height: 1.65; }
+.terms li:first-child { border-top: 0; padding-top: 0; }
+.terms li strong { display: block; font-size: 14.5px; }
+.prose.compact { font-size: 14.5px; }
+.prose.compact h3 { font-size: 14px; margin: 16px 0 4px; }
+.prose.compact > h3:first-child { margin-top: 0; }
+.prose.compact ul { padding-left: 18px; margin: 0; }
+.prose a.ref { font-size: 12px; background: var(--cell); color: var(--muted); border-radius: 5px; padding: 1px 6px; white-space: nowrap; text-decoration: none; }
+.prose a.ref:hover { color: var(--text); }
+@media (max-width: 900px) { .daily-hero > .panel:last-child { order: 0; } }
