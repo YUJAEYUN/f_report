@@ -29,11 +29,17 @@ class LLMRateLimitError(LLMError):
     """구독 사용량 한도(429). 한도가 풀릴 때까지 재시도해도 소용없으므로 즉시 중단한다."""
 
 
-def ask(prompt: str) -> str:
-    """프롬프트를 stdin으로 넘기고 최종 응답 텍스트를 반환한다."""
+def ask(prompt: str, *, model: str | None = None, system_prompt: str | None = None) -> str:
+    """프롬프트를 stdin으로 넘기고 최종 응답 텍스트를 반환한다.
+
+    model을 주면 CLAUDE_MODEL 대신 그 모델을 쓴다. system_prompt를 주면 Claude Code의
+    기본 시스템 프롬프트를 통째로 대체한다.
+    """
     cmd = [CLAUDE_BIN, "-p", "--output-format", "json", "--tools", ""]
-    if CLAUDE_MODEL:
-        cmd += ["--model", CLAUDE_MODEL]
+    if model or CLAUDE_MODEL:
+        cmd += ["--model", model or CLAUDE_MODEL]
+    if system_prompt:
+        cmd += ["--system-prompt", system_prompt]
     try:
         proc = subprocess.run(
             cmd, input=prompt, capture_output=True, text=True, timeout=TIMEOUT_SEC

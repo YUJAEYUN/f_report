@@ -25,6 +25,14 @@ export type ReportInsight = {
   watch_points: string[];
 };
 
+export type ClaimReview = {
+  strength: "탄탄함" | "보통" | "약함";
+  markdown: string;
+  input: "pdf" | "preview";
+  model: string;
+  generated_at: string;
+};
+
 export type Report = {
   report_id: string;
   report_type: "individual" | "daily_series";
@@ -44,6 +52,7 @@ export type Report = {
   summary?: IndividualSummary & DailySummary;
   insight?: ReportInsight;
   insight_generated_at?: string;
+  claim_review?: ClaimReview;
   summarized_at?: string;
   tagged_at?: string;
 };

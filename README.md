@@ -84,6 +84,27 @@ python scripts/process_reports.py --limit 10000 --backfill-insights
 백필 모드는 `daily_series`, 요약이 없거나 PDF 추출 오류가 있는 레코드를 제외하며,
 산업·테마 인덱스와 브리핑·주간 인사이트·다이제스트를 재생성하지 않는다.
 
+### AI 논리 평가 (evaluate-reports)
+
+개별 리포트마다 "근거에서 결론까지의 논리가 얼마나 튼튼한가"를 평가해 리포트 JSON의
+`claim_review`에 붙이고, 대시보드 리포트 상세에 **AI 논리 평가** 카드로 보여준다.
+결론의 정답 여부나 투자 의견이 아니라 논리 사슬(약한 고리 / 설득력 있는 부분 /
+더 설득력 있으려면)을 평가한다. 평가 기준은 `skills/evaluate-report-claims/SKILL.md`이며,
+이 파일 전체가 시스템 프롬프트로 들어간다.
+
+- **모델**: 이 단계에서만 Opus를 쓴다. 기본 `claude-opus-5-5`, 바꾸려면 저장소 Variable
+  `CLAUDE_REVIEW_MODEL`. 요약·태깅 등 나머지 단계는 기존 `CLAUDE_MODEL`을 그대로 쓴다.
+- **자동 실행**: `process-reports`가 끝나면 평가가 없는 개별 리포트를 최신순으로
+  실행당 10건씩 평가한다. 인증은 같은 `CLAUDE_CODE_OAUTH_TOKEN`을 쓰므로 구독 사용량을
+  나눠 쓴다. 한도(429)에 걸리면 그때까지 결과만 커밋하고 다음 실행에서 이어간다.
+- **수동 실행**: Actions → evaluate-reports → Run workflow. `report_ids`(쉼표 구분),
+  `date`, `redo`(이미 있어도 다시 생성), `limit`.
+- **대시보드 버튼**: 리포트 상세의 "AI 평가 생성 / 다시 평가" 버튼이 같은 워크플로를
+  그 리포트만 대상으로 실행한다. 평가(1~3분) → 커밋 → Vercel 재빌드 후 반영된다.
+  Vercel 환경변수 `GITHUB_DISPATCH_TOKEN`이 필요하다 (아래 Vercel 연결 참고).
+
+로컬 실행: `python scripts/evaluate_reports.py --ids hana_1288828 --redo` (로그인된 claude CLI 필요)
+
 ### 산출물
 - `insights/weekly/{ISO주차}.md` — **주간 인사이트** (이번 주 한눈에 / 테마 Top 3~5 /
   산업 흐름 / 다음 주 체크포인트). 같은 이름의 `.json`에 테마·산업별 report_id 목록.
@@ -112,6 +133,8 @@ published_date, published_time, category, breadcrumb, preview_text,
 pdf_url, pdf_filename, source_url, collected_at, pdf_text, (pdf_error)
 # process-reports가 덧붙이는 필드
 summary, insight(individual만: 변화·의미·확인 포인트), summarized_at, insight_generated_at,
+# evaluate-reports가 덧붙이는 필드 (individual만)
+claim_review { strength(탄탄함|보통|약함), markdown, input(pdf|preview), model, generated_at }
 desk,
 industries(individual만), themes(individual만), tagged_at
 ```
@@ -147,6 +170,10 @@ Next.js 앱. 빌드할 때 저장소의 `data/`, `insights/`, `digest/`, `config
    - `DASHBOARD_PASSWORD` (필수): 접속 비밀번호. 없으면 사이트가 503을 낸다
    - `DASHBOARD_USER` (선택): 접속 아이디, 기본값 `me`
    - `DASHBOARD_SECRET` (선택): 세션 서명 키. 없으면 아이디·비밀번호에서 만든다
+   - `GITHUB_DISPATCH_TOKEN` (선택): "AI 평가" 버튼용. GitHub → Settings → Developer settings
+     → Fine-grained tokens에서 **이 저장소만, Repository permissions → Actions: Read and write**로
+     발급한다. 없으면 버튼이 비활성화된다. 다른 저장소라면 `GITHUB_REPO`(기본 `YUJAEYUN/f_report`),
+     기본 브랜치가 다르면 `GITHUB_REF`(기본 `main`)도 지정
 5. Deploy → 접속하면 로그인 페이지로 이동한다
 
 로컬 확인: `cd web && npm install && npm run build && DASHBOARD_PASSWORD=... npm start`
@@ -170,6 +197,7 @@ scripts/
   report_index.py       seen_reports.json 기반 중복 방지
   run_pipeline.py        collect -> extract 오케스트레이션
   process_reports.py     summarize -> tag -> brief -> digest 오케스트레이션
+  evaluate_reports.py    개별 리포트 논리 평가 (claim_review, Opus)
   llm.py                 Claude Code CLI(headless) 호출 래퍼
 data/
   index/seen_reports.json   수집 완료 report_id 마스터 인덱스

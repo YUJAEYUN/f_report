@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allReports, decodeParam, getReport, isoWeek, toCard } from "@/lib/data";
 import { Chips } from "@/components/ReportList";
+import EvaluateButton from "@/components/EvaluateButton";
+import { renderMarkdown } from "@/lib/md";
 
 export const dynamicParams = false;
 
@@ -15,6 +17,8 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
   const card = toCard(r);
   const s = r.summary;
   const week = isoWeek(r.published_date);
+  const review = r.claim_review;
+  const canReview = r.report_type === "individual" && !!s;
   return (
     <>
       <p className="sub">
@@ -78,6 +82,34 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
               </dd>
             </div>
           </dl>
+        </section>
+      )}
+
+      {canReview && (
+        <section className="card review-card" aria-labelledby="report-review-title">
+          <div className="insight-heading">
+            <div>
+              <p className="eyebrow">LOGIC CHECK</p>
+              <h2 id="report-review-title">AI 논리 평가</h2>
+            </div>
+            {review && <span className={`strength strength-${review.strength}`}>논리 강도 · {review.strength}</span>}
+          </div>
+          <p className="insight-note">
+            결론이 맞을지가 아니라 근거에서 결론까지의 논리가 얼마나 튼튼한지를 봅니다.
+            {review && (
+              <>
+                {" "}
+                {review.input === "preview" ? "미리보기 발췌 기준 · " : ""}
+                {review.generated_at.slice(0, 16).replace("T", " ")} 생성
+              </>
+            )}
+          </p>
+          {review ? (
+            <div className="prose review-body" dangerouslySetInnerHTML={{ __html: renderMarkdown(review.markdown, { escapeHtml: true }) }} />
+          ) : (
+            <p className="sub" style={{ margin: 0 }}>아직 평가가 없습니다.</p>
+          )}
+          <EvaluateButton id={r.report_id} generatedAt={review?.generated_at} />
         </section>
       )}
 

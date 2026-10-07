@@ -119,6 +119,19 @@ a.chip:hover { text-decoration: none; background: var(--accent-soft); }
 .insight-grid dt { color: var(--accent); font-size: 13px; font-weight: 800; }
 .insight-grid dd { margin: 5px 0 0; font-size: 14.5px; }
 .insight-grid ul { margin: 0; padding-left: 18px; }
+.review-body { font-size: 14.5px; }
+.review-body h2 { font-size: 15px; border-top: 1px solid var(--border); padding-top: 14px; margin: 16px 0 6px; }
+.review-body > :first-child { margin-top: 0; }
+.review-body > :last-child { color: var(--muted); font-size: 13px; }
+.strength { flex: 0 0 auto; border-radius: 999px; padding: 3px 10px; font-size: 12px; font-weight: 700; background: var(--chip); color: var(--text); }
+.strength-탄탄함 { color: var(--status-up); background: color-mix(in srgb, var(--status-up) 14%, transparent); }
+.strength-보통 { color: var(--accent); background: var(--accent-soft); }
+.strength-약함 { color: var(--warn); background: color-mix(in srgb, var(--warn) 14%, transparent); }
+.review-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border); }
+.btn-sm { font: inherit; font-size: 13px; font-weight: 600; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--accent); cursor: pointer; }
+.btn-sm:hover:not(:disabled) { background: var(--accent-soft); }
+.btn-sm:disabled { color: var(--muted); cursor: default; }
+.review-status { color: var(--muted); font-size: 13px; }
 details.raw summary { cursor: pointer; color: var(--accent); }
 .raw-text { white-space: pre-wrap; font-size: 14px; line-height: 1.7; max-height: 70vh; overflow: auto; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 12px; margin-top: 10px; }
 .warn { color: var(--warn); font-size: 14px; }

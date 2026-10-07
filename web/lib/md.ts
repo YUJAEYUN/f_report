@@ -29,8 +29,10 @@ function linkReportIds(html: string): string {
     .join("");
 }
 
-export function renderMarkdown(md: string, opts: { dropTitle?: boolean } = {}): string {
+export function renderMarkdown(md: string, opts: { dropTitle?: boolean; escapeHtml?: boolean } = {}): string {
   let source = opts.dropTitle ? md.replace(/^#\s[^\n]*\n/, "") : md;
+  // 외부 원문을 읽고 쓴 LLM 출력은 날 HTML이 섞여 들어오지 않게 글자로 취급한다
+  if (opts.escapeHtml) source = source.replace(/&/g, "&amp;").replace(/</g, "&lt;");
   // "3.75~4.00%", "9/23~25" 같은 범위 표기가 GFM 취소선(~...~)으로 렌더링되지 않게 이스케이프
   source = source.replace(/(?<!\\)~/g, "\\~");
   const html = marked.parse(source, { async: false, gfm: true }) as string;
