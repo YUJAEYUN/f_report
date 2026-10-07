@@ -70,12 +70,8 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
           <ul>{s.items.map((it, i) => <li key={i}><strong>{it.topic}</strong> — {it.note}</li>)}</ul>
         </section>}
 
-        {(r.pdf_text || r.pdf_error) && <section className="panel">
-          {r.pdf_error && <p className="warn">PDF 추출 실패: {r.pdf_error}</p>}
-          {r.pdf_text && <details className="raw">
-            <summary>추출된 원문 텍스트 ({r.pdf_text.length.toLocaleString("ko-KR")}자)</summary>
-            <div className="raw-text">{r.pdf_text}</div>
-          </details>}
+        {r.pdf_error && <section className="panel">
+          <p className="warn">PDF 추출 실패: {r.pdf_error}</p>
         </section>}
       </article>
 

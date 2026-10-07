@@ -126,8 +126,6 @@ a.chip:hover { text-decoration: none; background: var(--accent-soft); }
 .btn-sm:hover:not(:disabled) { background: var(--accent-soft); }
 .btn-sm:disabled { color: var(--muted); cursor: default; }
 .review-status { color: var(--muted); font-size: 13px; }
-details.raw summary { cursor: pointer; color: var(--accent); }
-.raw-text { white-space: pre-wrap; font-size: 14px; line-height: 1.7; max-height: 70vh; overflow: auto; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 12px; margin-top: 10px; }
 .warn { color: var(--warn); font-size: 14px; }
 .pager { display: flex; justify-content: space-between; gap: 12px; margin-top: 20px; font-size: 14px; }
 .list-plain { list-style: none; padding: 0; margin: 0; }

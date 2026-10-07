@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { SESSION_COOKIE, credentials, verifySession } from "@/lib/auth";
 
-// 사이트 전체를 로그인 뒤에 둔다 (리포트 원문 텍스트가 포함되어 있으므로).
+// 리서치 자료를 다루는 개인용 대시보드 전체에 로그인을 적용한다.
 // Vercel 환경변수: DASHBOARD_PASSWORD(필수), DASHBOARD_USER(선택, 기본 "me")
 export async function proxy(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
