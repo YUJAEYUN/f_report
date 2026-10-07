@@ -221,7 +221,7 @@ details.raw summary { cursor: pointer; color: var(--accent); }
 /* 주간 인사이트 목록: 달별로 묶고 주차마다 리포트 수 막대 */
 .week-month { margin: 18px 0 8px; }
 .week-month h2 { font-size: 14px; color: var(--muted); font-weight: 700; margin: 0 0 6px; }
-.week-list { list-style: none; padding: 0; margin: 0; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
+.week-list { list-style: none; padding: 0; margin: 0; background: var(--surface); border: 0; border-radius: var(--radius); }
 .week-list li + li { border-top: 1px solid var(--border); }
 .week-row { display: grid; grid-template-columns: minmax(150px, 220px) 1fr 84px; grid-template-areas: "when bar count" "when themes themes"; align-items: center; gap: 4px 14px; padding: 12px 16px; color: var(--text); }
 .week-row:hover { text-decoration: none; background: color-mix(in srgb, var(--accent-soft) 45%, transparent); }
@@ -232,7 +232,7 @@ details.raw summary { cursor: pointer; color: var(--accent); }
 .week-bar { grid-area: bar; height: 8px; border-radius: 999px; background: var(--chip); overflow: hidden; }
 .week-bar span { display: block; height: 100%; border-radius: 999px; background: var(--chart); }
 .week-count { grid-area: count; color: var(--muted); font-size: 13px; text-align: right; white-space: nowrap; }
-.week-themes { grid-area: themes; color: var(--muted); font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.week-themes { grid-area: themes; color: var(--text); font-size: 14px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 @media (max-width: 520px) {
   .week-row { grid-template-columns: 1fr 72px; grid-template-areas: "when count" "bar bar" "themes themes"; }
 }
@@ -307,3 +307,33 @@ svg text { font-family: inherit; }
   .panel { padding: 18px 16px; }
 }
 .delta-badge { font-size: 12px; font-weight: 700; color: var(--muted); } .delta-badge.up { color: var(--up); } .delta-badge.down { color: var(--down); }
+
+/* 주간 인사이트 */
+.page-when { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; }
+.week-jump { display: flex; gap: 14px; }
+.checklist ul { margin: 6px 0 0; padding-left: 18px; font-size: 14px; }
+.checklist li { margin-bottom: 4px; }
+.theme-story { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 28px; }
+.theme-story aside { min-width: 0; }
+.story-rank { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--text); color: var(--bg); font-size: 13px; font-weight: 800; }
+.theme-story h3 { font-size: 19px; line-height: 1.35; margin: 10px 0 2px; letter-spacing: -.02em; }
+.theme-story h3 a { color: var(--text); }
+.story-count { margin: 0 0 10px; font-size: 14px; color: var(--muted); }
+.theme-story aside svg { width: 100%; height: auto; display: block; }
+.theme-story .prose { font-size: 15px; }
+.theme-story .prose > :first-child { margin-top: 0; }
+.industry-story { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 32px; }
+.industry-story h2 { margin-bottom: 8px; }
+.industry-story .prose { font-size: 14.5px; }
+.week-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; }
+.week-nav a { background: var(--surface); border-radius: var(--radius); padding: 16px 20px; color: var(--text); display: flex; flex-direction: column; gap: 4px; }
+.week-nav a:hover { text-decoration: none; outline: 2px solid var(--chart); }
+.week-nav span { font-size: 12.5px; color: var(--muted); }
+.week-nav b { font-size: 15px; line-height: 1.45; }
+.week-nav-newer { text-align: right; }
+@media (max-width: 900px) {
+  .theme-story, .industry-story, .week-nav { grid-template-columns: minmax(0, 1fr); }
+  .theme-story { gap: 12px; }
+  .theme-story aside svg { max-width: 320px; }
+}
+.prose p.sources { font-size: 12.5px; color: var(--muted); line-height: 1.7; }

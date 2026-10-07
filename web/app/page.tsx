@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { allCards, allReports, dashboardSnapshot, digestDates, section, weeklyMarkdown, weeks } from "@/lib/data";
+import { allCards, allReports, dashboardSnapshot, digestDates, headlineOf, weeklyMarkdown, weeks } from "@/lib/data";
 import { comparePeriods, themeIndustryMatrix, weekdayCounts, weekLabel } from "@/lib/dashboard";
 import ChartTooltip from "@/components/charts/ChartTooltip";
 import { DailyVolume } from "@/components/charts/DailyVolume";
@@ -8,16 +8,6 @@ import { ThemeTreemap } from "@/components/charts/ThemeTreemap";
 import { ThemeTrends } from "@/components/charts/ThemeTrends";
 import { Delta } from "@/components/dashboard/Delta";
 import { ThemeIndustryHeatmap } from "@/components/dashboard/ThemeIndustryHeatmap";
-
-/** 주간 인사이트의 "이번 주 한 줄". 예전 주차처럼 없으면 "한눈에" 첫 문장으로 대신한다. */
-function headlineOf(md: string | null): { headline: string | null; lead: string | null } {
-  if (!md) return { headline: null, lead: null };
-  const glance = section(md, /한눈에/);
-  const line = section(md, /한 줄/);
-  if (line) return { headline: line.replace(/^[-*>\s]+/, "").trim(), lead: glance };
-  const first = glance?.match(/^.+?[다요]\./)?.[0] ?? null;
-  return { headline: first, lead: first && glance ? glance.slice(first.length).trim() : glance };
-}
 
 export default function Home() {
   const snapshot = dashboardSnapshot();

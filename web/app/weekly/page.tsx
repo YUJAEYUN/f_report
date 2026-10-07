@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { weeklyMeta, weeks } from "@/lib/data";
+import { headlineOf, weeklyMarkdown, weeklyMeta, weeks } from "@/lib/data";
 import { weekLabel } from "@/lib/dashboard";
 
 export default function WeeklyIndex() {
-  const rows = weeks().map((w) => ({ week: w, meta: weeklyMeta(w), ...weekLabel(w) }));
+  const rows = weeks().map((w) => ({ week: w, meta: weeklyMeta(w), headline: headlineOf(weeklyMarkdown(w)).headline, ...weekLabel(w) }));
   const max = Math.max(1, ...rows.map((r) => r.meta?.report_count ?? 0));
   // 최신순 목록을 달 단위로 묶는다
   const months: { month: string; rows: typeof rows }[] = [];
@@ -32,8 +32,8 @@ export default function WeeklyIndex() {
                     <span style={{ width: `${((r.meta?.report_count ?? 0) / max) * 100}%` }} />
                   </span>
                   <span className="week-count">{r.meta ? `리포트 ${r.meta.report_count}건` : ""}</span>
-                  {r.meta && r.meta.themes.length > 0 && (
-                    <span className="week-themes">{r.meta.themes.map((t) => t.name).slice(0, 3).join(" · ")}</span>
+                  {(r.headline || (r.meta && r.meta.themes.length > 0)) && (
+                    <span className="week-themes">{r.headline ?? r.meta!.themes.map((t) => t.name).slice(0, 3).join(" · ")}</span>
                   )}
                 </Link>
               </li>

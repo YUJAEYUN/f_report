@@ -48,3 +48,14 @@ export function renderMarkdown(md: string, opts: { dropTitle?: boolean; escapeHt
   });
   return linkReportIds(rewritten);
 }
+
+/** "## 제목" 섹션 안의 "### 소제목" 단위로 나눈다. 소제목 앞 번호("1. ")와 뒤 건수("(9건)")는 뗀다. */
+export function subsections(md: string): { title: string; body: string }[] {
+  const out: { title: string; body: string }[] = [];
+  for (const chunk of md.split(/^### /m).slice(1)) {
+    const nl = chunk.indexOf("\n");
+    const title = (nl < 0 ? chunk : chunk.slice(0, nl)).replace(/^\d+\.\s*/, "").replace(/\s*\(\d+건\)\s*$/, "").trim();
+    out.push({ title, body: nl < 0 ? "" : chunk.slice(nl + 1).trim() });
+  }
+  return out;
+}

@@ -230,3 +230,21 @@ export function decodeParam(v: string): string {
     return v;
   }
 }
+
+/** 주간 인사이트의 "이번 주 한 줄". 예전 주차처럼 없으면 "한눈에" 첫 문장으로 대신한다. */
+export function headlineOf(md: string | null): { headline: string | null; lead: string | null } {
+  if (!md) return { headline: null, lead: null };
+  const glance = section(md, /한눈에/);
+  const line = section(md, /한 줄/);
+  if (line) return { headline: line.replace(/^[-*>\s]+/, "").trim(), lead: glance };
+  const first = glance?.match(/^.+?[다요]\./)?.[0] ?? null;
+  return { headline: first, lead: first && glance ? glance.slice(first.length).trim() : glance };
+}
+
+/** 병합된 테마 이름 -> 대표 이름 (consolidate-themes). 예전 주간 인사이트의 옛 테마명을 현재 이름으로 찾을 때 쓴다. */
+export function resolveTheme(name: string): string {
+  const file = path.join(REPO, "data", "themes", "aliases.json");
+  const aliases: Record<string, string> = fs.existsSync(file) ? readJson(file) : {};
+  for (let i = 0; i < 10 && aliases[name]; i++) name = aliases[name];
+  return name;
+}
