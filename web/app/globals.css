@@ -56,7 +56,6 @@ nav form { display: flex; }
 nav a { color: var(--muted); font-size: 15px; white-space: nowrap; }
 nav a:hover { color: var(--text); text-decoration: none; }
 main { padding-top: 24px; padding-bottom: 40px; }
-.site-footer { color: var(--muted); font-size: 13px; padding-bottom: 32px; }
 
 h1 { font-size: 24px; line-height: 1.35; margin: 0 0 8px; }
 h2 { font-size: 19px; margin: 28px 0 10px; }
@@ -252,7 +251,6 @@ a.kpi:hover { text-decoration: none; border-color: color-mix(in srgb, var(--acce
 .rank-delta.is-new { color: var(--status-new); }
 .mini-head { font-size: 13px; color: var(--muted); margin: 14px 0 6px; }
 .more-link { margin: 8px 0 0; font-size: 14px; }
-.data-status { color: var(--muted); font-size: 12.5px; margin: 20px 0 0; }
-.data-status .warn { font-size: inherit; }
 @media (max-width: 800px) { .kpi-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 520px) { .rank-row { grid-template-columns: minmax(0, 1fr) 70px 40px 36px; gap: 8px; } }
+main.wrap { padding-bottom: 48px; }

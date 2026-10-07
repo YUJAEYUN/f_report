@@ -3,7 +3,6 @@ import { allCards, allReports, dashboardSnapshot, digestDates, digestMarkdown, s
 import { comparePeriods, themeIndustryMatrix, weekLabel } from "@/lib/dashboard";
 import { renderMarkdown } from "@/lib/md";
 import { ReportList } from "@/components/ReportList";
-import { DataStatus } from "@/components/dashboard/DataStatus";
 import { Delta, RankBars } from "@/components/dashboard/RankBars";
 import { ThemeIndustryHeatmap } from "@/components/dashboard/ThemeIndustryHeatmap";
 
@@ -19,7 +18,6 @@ export default function Home() {
     return <>
       <h1>리서치 트래커</h1>
       <p className="sub">아직 집계된 리포트가 없습니다.</p>
-      <DataStatus snapshot={snapshot} />
     </>;
   }
 
@@ -120,6 +118,5 @@ export default function Home() {
       <ReportList cards={recent} />
     </section>
 
-    <DataStatus snapshot={snapshot} />
   </>;
 }

@@ -28,9 +28,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
         <main className="wrap">{children}</main>
-        <footer className="wrap site-footer">
-          하나증권 리서치를 자동 요약한 개인 학습용 페이지입니다. 투자 판단의 근거로 쓰지 마세요.
-        </footer>
       </body>
     </html>
   );
