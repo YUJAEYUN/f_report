@@ -1,4 +1,5 @@
 import { marked } from "marked";
+import { weekLabel } from "./dashboard";
 
 // 파이프라인이 만든 마크다운은 저장소 파일 기준 상대경로로 서로를 링크한다.
 // 대시보드 경로로 바꾸고, 본문의 report_id(hana_1288839)는 리포트 상세로 연결한다.
@@ -13,7 +14,7 @@ function rewriteHref(href: string): string {
 }
 
 function linkReportIds(html: string): string {
-  // 태그 밖 텍스트에서만, 그리고 이미 <a> 안인 경우는 건드리지 않는다
+  // 태그 밖 텍스트에서만, 그리고 이미 <a> 안인 경우는 report_id 링크를 걸지 않는다
   let inAnchor = 0;
   return html
     .split(/(<[^>]+>)/)
@@ -23,6 +24,8 @@ function linkReportIds(html: string): string {
         else if (/^<\/a>/i.test(part)) inAnchor = Math.max(0, inAnchor - 1);
         return part;
       }
+      // 본문의 ISO 주차(2026-W41)는 읽기 쉬운 "10월 2주차"로 바꾼다 (링크 주소는 태그 안이라 그대로)
+      part = part.replace(/\b(\d{4}-W\d{2})\b/g, (w) => weekLabel(w).label);
       if (inAnchor) return part;
       return part.replace(/\b(hana_\d{5,})\b/g, '<a class="rid" href="/reports/$1">$1</a>');
     })
