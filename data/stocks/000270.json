@@ -1,0 +1,183 @@
+{
+ "id": "000270",
+ "code": "000270",
+ "name": "기아",
+ "industry": "자동차·부품",
+ "timeline": [
+  {
+   "date": "2024-07-11",
+   "rating": "매수",
+   "target_price": 150000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-10",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-04-25",
+   "rating": "매수",
+   "target_price": 125000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-30",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-13",
+   "rating": "매수",
+   "target_price": 150000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-29",
+   "rating": "매수",
+   "target_price": 210000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-26",
+   "rating": "매수",
+   "target_price": 220000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-27",
+   "rating": "매수",
+   "target_price": 190000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 170000.0,
+   "source": "table",
+   "report_id": "hana_1288996",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-10-10",
+   "prev_date": "2024-07-11",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 150000.0,
+   "tp_to": 140000.0,
+   "tp_pct": -6.7,
+   "tp_speed30": -2.2,
+   "report_id": null
+  },
+  {
+   "date": "2025-04-25",
+   "prev_date": "2024-10-10",
+   "days": 197,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 140000.0,
+   "tp_to": 125000.0,
+   "tp_pct": -10.7,
+   "tp_speed30": -1.6,
+   "report_id": null
+  },
+  {
+   "date": "2025-10-30",
+   "prev_date": "2025-04-25",
+   "days": 188,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 125000.0,
+   "tp_to": 140000.0,
+   "tp_pct": 12.0,
+   "tp_speed30": 1.9,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-13",
+   "prev_date": "2025-10-30",
+   "days": 75,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 140000.0,
+   "tp_to": 150000.0,
+   "tp_pct": 7.1,
+   "tp_speed30": 2.8,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-29",
+   "prev_date": "2026-01-13",
+   "days": 16,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 150000.0,
+   "tp_to": 210000.0,
+   "tp_pct": 40.0,
+   "tp_speed30": 75.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-26",
+   "prev_date": "2026-01-29",
+   "days": 117,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 210000.0,
+   "tp_to": 220000.0,
+   "tp_pct": 4.8,
+   "tp_speed30": 1.2,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-27",
+   "prev_date": "2026-05-26",
+   "days": 62,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 220000.0,
+   "tp_to": 190000.0,
+   "tp_pct": -13.6,
+   "tp_speed30": -6.6,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-07",
+   "prev_date": "2026-07-27",
+   "days": 72,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 190000.0,
+   "tp_to": 170000.0,
+   "tp_pct": -10.5,
+   "tp_speed30": -4.4,
+   "report_id": "hana_1288996"
+  }
+ ],
+ "events": []
+}

@@ -1,0 +1,348 @@
+{
+ "id": "030200",
+ "code": "030200",
+ "name": "KT",
+ "industry": "통신서비스",
+ "timeline": [
+  {
+   "date": "2024-08-09",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-29",
+   "rating": "매수",
+   "target_price": 60000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-02-27",
+   "rating": "매수",
+   "target_price": 70000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-09-25",
+   "rating": "매수",
+   "target_price": 65000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-12-03",
+   "rating": "매수",
+   "target_price": 70000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-06",
+   "rating": "매수",
+   "target_price": 76000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-29",
+   "rating": "매수",
+   "target_price": 76000.0,
+   "source": "report",
+   "report_id": "hana_1288907",
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-12",
+   "rating": "매수",
+   "target_price": 76000.0,
+   "source": "report",
+   "report_id": "hana_1289074",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-29",
+   "report_id": "hana_1288907",
+   "title": "KT(030200.KS/매수): 10월 전략 - 매도보단 장기 매수 전략이 유리할 듯",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 76000.0,
+   "tp_status": null,
+   "price": 52900.0,
+   "upside_pct": 43.7,
+   "estimates": {
+    "2026": {
+     "revenue": 27767.0,
+     "op": 2049.7,
+     "net": 1447.7,
+     "eps": 5745.0
+    },
+    "2027": {
+     "revenue": 29466.9,
+     "op": 2088.5,
+     "net": 1521.1,
+     "eps": 6035.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 27384.0,
+     "op": 2120.4,
+     "net": 1568.4,
+     "eps": 5750.0
+    },
+    "2027": {
+     "revenue": 28010.4,
+     "op": 2264.2,
+     "net": 1674.4,
+     "eps": 6241.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 2049.7,
+    "consensus": 2120.4,
+    "gap_pct": -3.3
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "report_id": "hana_1289074",
+   "title": "KT(030200.KS/매수): 3Q 프리뷰 - 2027년도 내다본 매수 추천",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 76000.0,
+   "tp_status": null,
+   "price": 49900.0,
+   "upside_pct": 52.3,
+   "estimates": {
+    "2026": {
+     "revenue": 27767.0,
+     "op": 2050.0,
+     "net": 1448.0,
+     "eps": 5745.0
+    },
+    "2027": {
+     "revenue": 29466.9,
+     "op": 2088.5,
+     "net": 1521.1,
+     "eps": 6035.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 27381.1,
+     "op": 2120.1,
+     "net": 1568.4,
+     "eps": 5750.0
+    },
+    "2027": {
+     "revenue": 28017.3,
+     "op": 2263.7,
+     "net": 1674.1,
+     "eps": 6240.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 2050.0,
+    "consensus": 2120.1,
+    "gap_pct": -3.3
+   }
+  }
+ ],
+ "estimate_revisions": [
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "op",
+   "from": 2049.7,
+   "to": 2050.0,
+   "pct": 0.0,
+   "speed30": 0.0,
+   "turn": null,
+   "report_id": "hana_1289074",
+   "prev_report_id": "hana_1288907"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "net",
+   "from": 1447.7,
+   "to": 1448.0,
+   "pct": 0.0,
+   "speed30": 0.0,
+   "turn": null,
+   "report_id": "hana_1289074",
+   "prev_report_id": "hana_1288907"
+  }
+ ],
+ "consensus_changes": [
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 27384.0,
+   "to": 27381.1,
+   "pct": -0.0,
+   "speed30": -0.0,
+   "turn": null,
+   "report_id": "hana_1289074",
+   "prev_report_id": "hana_1288907"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "op",
+   "from": 2120.4,
+   "to": 2120.1,
+   "pct": -0.0,
+   "speed30": -0.0,
+   "turn": null,
+   "report_id": "hana_1289074",
+   "prev_report_id": "hana_1288907"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 28010.4,
+   "to": 28017.3,
+   "pct": 0.0,
+   "speed30": 0.0,
+   "turn": null,
+   "report_id": "hana_1289074",
+   "prev_report_id": "hana_1288907"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2027",
+   "metric": "op",
+   "from": 2264.2,
+   "to": 2263.7,
+   "pct": -0.0,
+   "speed30": -0.0,
+   "turn": null,
+   "report_id": "hana_1289074",
+   "prev_report_id": "hana_1288907"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2027",
+   "metric": "net",
+   "from": 1674.4,
+   "to": 1674.1,
+   "pct": -0.0,
+   "speed30": -0.0,
+   "turn": null,
+   "report_id": "hana_1289074",
+   "prev_report_id": "hana_1288907"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2027",
+   "metric": "eps",
+   "from": 6241.0,
+   "to": 6240.0,
+   "pct": -0.0,
+   "speed30": -0.0,
+   "turn": null,
+   "report_id": "hana_1289074",
+   "prev_report_id": "hana_1288907"
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2024-10-29",
+   "prev_date": "2024-08-09",
+   "days": 81,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 60000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": 7.4,
+   "report_id": null
+  },
+  {
+   "date": "2025-02-27",
+   "prev_date": "2024-10-29",
+   "days": 121,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 60000.0,
+   "tp_to": 70000.0,
+   "tp_pct": 16.7,
+   "tp_speed30": 4.1,
+   "report_id": null
+  },
+  {
+   "date": "2025-09-25",
+   "prev_date": "2025-02-27",
+   "days": 210,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 70000.0,
+   "tp_to": 65000.0,
+   "tp_pct": -7.1,
+   "tp_speed30": -1.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-12-03",
+   "prev_date": "2025-09-25",
+   "days": 69,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 65000.0,
+   "tp_to": 70000.0,
+   "tp_pct": 7.7,
+   "tp_speed30": 3.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-06",
+   "prev_date": "2025-12-03",
+   "days": 34,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 70000.0,
+   "tp_to": 76000.0,
+   "tp_pct": 8.6,
+   "tp_speed30": 7.6,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

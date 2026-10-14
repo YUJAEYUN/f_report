@@ -1,0 +1,279 @@
+{
+ "id": "375500",
+ "code": "375500",
+ "name": "DL이앤씨",
+ "industry": "건설",
+ "timeline": [
+  {
+   "date": "2024-07-03",
+   "rating": "중립",
+   "target_price": 35000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-09-30",
+   "rating": "매수",
+   "target_price": 35000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-11-01",
+   "rating": "매수",
+   "target_price": 39000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-02-07",
+   "rating": "매수",
+   "target_price": 43000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-03-27",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-08-01",
+   "rating": "매수",
+   "target_price": 55000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-08",
+   "rating": "매수",
+   "target_price": 100000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-04",
+   "rating": "매수",
+   "target_price": 120000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-31",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-14",
+   "rating": "매수",
+   "target_price": 100000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-06",
+   "rating": "매수",
+   "target_price": 90000.0,
+   "source": "report",
+   "report_id": "hana_1288992",
+   "tp_status": "하향"
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 90000.0,
+   "source": "table",
+   "report_id": "hana_1288991",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-06",
+   "report_id": "hana_1288992",
+   "title": "DL이앤씨(375500.KS/매수): 다소 아쉬운 3분기",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 90000.0,
+   "tp_status": "하향",
+   "price": 74000.0,
+   "upside_pct": 21.6,
+   "estimates": {
+    "2026": {
+     "revenue": 6881.4,
+     "op": 524.6,
+     "net": 453.9,
+     "eps": 10576.0
+    },
+    "2027": {
+     "revenue": 6783.2,
+     "op": 512.2,
+     "net": 397.6,
+     "eps": 9264.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 7058.7,
+     "op": 575.6,
+     "net": 496.2,
+     "eps": 11530.0
+    },
+    "2027": {
+     "revenue": 7164.4,
+     "op": 577.5,
+     "net": 474.3,
+     "eps": 11016.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 524.6,
+    "consensus": 575.6,
+    "gap_pct": -8.9
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-09-30",
+   "prev_date": "2024-07-03",
+   "days": 89,
+   "rating_from": "중립",
+   "rating_to": "매수",
+   "tp_from": 35000.0,
+   "tp_to": 35000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null
+  },
+  {
+   "date": "2024-11-01",
+   "prev_date": "2024-09-30",
+   "days": 32,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 35000.0,
+   "tp_to": 39000.0,
+   "tp_pct": 11.4,
+   "tp_speed30": 10.7,
+   "report_id": null
+  },
+  {
+   "date": "2025-02-07",
+   "prev_date": "2024-11-01",
+   "days": 98,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 39000.0,
+   "tp_to": 43000.0,
+   "tp_pct": 10.3,
+   "tp_speed30": 3.2,
+   "report_id": null
+  },
+  {
+   "date": "2025-03-27",
+   "prev_date": "2025-02-07",
+   "days": 48,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 43000.0,
+   "tp_to": 50000.0,
+   "tp_pct": 16.3,
+   "tp_speed30": 10.2,
+   "report_id": null
+  },
+  {
+   "date": "2025-08-01",
+   "prev_date": "2025-03-27",
+   "days": 127,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 55000.0,
+   "tp_pct": 10.0,
+   "tp_speed30": 2.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-08",
+   "prev_date": "2025-08-01",
+   "days": 250,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 55000.0,
+   "tp_to": 100000.0,
+   "tp_pct": 81.8,
+   "tp_speed30": 9.8,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-04",
+   "prev_date": "2026-04-08",
+   "days": 26,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 100000.0,
+   "tp_to": 120000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": 23.1,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-31",
+   "prev_date": "2026-05-04",
+   "days": 88,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 120000.0,
+   "tp_to": 80000.0,
+   "tp_pct": -33.3,
+   "tp_speed30": -11.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-09-14",
+   "prev_date": "2026-07-31",
+   "days": 45,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 80000.0,
+   "tp_to": 100000.0,
+   "tp_pct": 25.0,
+   "tp_speed30": 16.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-06",
+   "prev_date": "2026-09-14",
+   "days": 22,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 100000.0,
+   "tp_to": 90000.0,
+   "tp_pct": -10.0,
+   "tp_speed30": -13.6,
+   "report_id": "hana_1288992"
+  }
+ ],
+ "events": []
+}

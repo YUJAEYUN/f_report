@@ -1,0 +1,22 @@
+{
+ "id": "194700",
+ "code": "194700",
+ "name": "노바렉스",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2026-10-01",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1288929",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

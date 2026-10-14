@@ -1,0 +1,129 @@
+{
+ "id": "호텔신라",
+ "code": null,
+ "name": "호텔신라",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2024-07-29",
+   "rating": "매수",
+   "target_price": 61000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-11-04",
+   "rating": "중립",
+   "target_price": 49000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-31",
+   "rating": "중립",
+   "target_price": 43000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-04-10",
+   "rating": "매수",
+   "target_price": 45000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-06-10",
+   "rating": "매수",
+   "target_price": 60000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-29",
+   "rating": "매수",
+   "target_price": 57000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-06-09",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-11-04",
+   "prev_date": "2024-07-29",
+   "days": 98,
+   "rating_from": "매수",
+   "rating_to": "중립",
+   "tp_from": 61000.0,
+   "tp_to": 49000.0,
+   "tp_pct": -19.7,
+   "tp_speed30": -6.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-01-31",
+   "prev_date": "2024-11-04",
+   "days": 88,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 49000.0,
+   "tp_to": 43000.0,
+   "tp_pct": -12.2,
+   "tp_speed30": -4.2,
+   "report_id": null
+  },
+  {
+   "date": "2025-04-10",
+   "prev_date": "2025-01-31",
+   "days": 69,
+   "rating_from": "중립",
+   "rating_to": "매수",
+   "tp_from": 43000.0,
+   "tp_to": 45000.0,
+   "tp_pct": 4.7,
+   "tp_speed30": 2.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-06-10",
+   "prev_date": "2025-04-10",
+   "days": 61,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 45000.0,
+   "tp_to": 60000.0,
+   "tp_pct": 33.3,
+   "tp_speed30": 16.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-29",
+   "prev_date": "2025-06-10",
+   "days": 414,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 60000.0,
+   "tp_to": 57000.0,
+   "tp_pct": -5.0,
+   "tp_speed30": -0.4,
+   "report_id": null,
+   "note": "담당자 변경"
+  }
+ ],
+ "events": []
+}

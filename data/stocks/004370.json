@@ -1,0 +1,78 @@
+{
+ "id": "004370",
+ "code": "004370",
+ "name": "농심",
+ "industry": "음식료·담배",
+ "timeline": [
+  {
+   "date": "2023-10-10",
+   "rating": "매수",
+   "target_price": 540000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 540000.0,
+   "source": "report",
+   "report_id": "hana_1289014",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-07",
+   "report_id": "hana_1289014",
+   "title": "농심(004370.KS/매수): 3Q26 Pre: 시장 기대 부합 예상 + Capa 확대 기대감",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 540000.0,
+   "tp_status": null,
+   "price": 400000.0,
+   "upside_pct": 35.0,
+   "estimates": {
+    "2026": {
+     "revenue": 3759.3,
+     "op": 221.7,
+     "net": 195.5,
+     "eps": 32147.0
+    },
+    "2027": {
+     "revenue": 3988.4,
+     "op": 245.5,
+     "net": 211.3,
+     "eps": 34746.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3757.5,
+     "op": 232.3,
+     "net": 208.2,
+     "eps": 34201.0
+    },
+    "2027": {
+     "revenue": 3961.0,
+     "op": 249.0,
+     "net": 218.8,
+     "eps": 35864.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 221.7,
+    "consensus": 232.3,
+    "gap_pct": -4.6
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

@@ -1,0 +1,28 @@
+[
+ {
+  "id": "2026-09-28:018290:coverage_end:",
+  "date": "2026-09-28",
+  "type": "coverage_end",
+  "severity": 1.0,
+  "stock_id": "018290",
+  "code": "018290",
+  "name": "브이티",
+  "industry": "화장품",
+  "report_id": "hana_1288896",
+  "headline": "투자의견 매수 → NR (1년 경과, 담당자 변경)",
+  "data": {
+   "date": "2026-09-28",
+   "prev_date": "2025-05-14",
+   "days": 502,
+   "rating_from": "매수",
+   "rating_to": "NR",
+   "tp_from": 49000.0,
+   "tp_to": null,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": "hana_1288896",
+   "note": "1년 경과, 담당자 변경"
+  },
+  "title": "브이티(018290.KQ/NR): 미국/유럽 진출 사업성 확보 중"
+ }
+]

@@ -1,0 +1,123 @@
+{
+ "id": "272450",
+ "code": "272450",
+ "name": "진에어",
+ "industry": "운송",
+ "timeline": [
+  {
+   "date": "2024-08-15",
+   "rating": "매수",
+   "target_price": 12000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-11-14",
+   "rating": "매수",
+   "target_price": 14000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-03-30",
+   "rating": "매수",
+   "target_price": 12000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-08-10",
+   "rating": "매수",
+   "target_price": 10000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-04",
+   "rating": "매수",
+   "target_price": 8500.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-13",
+   "rating": "매수",
+   "target_price": 7000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-11-14",
+   "prev_date": "2024-08-15",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 12000.0,
+   "tp_to": 14000.0,
+   "tp_pct": 16.7,
+   "tp_speed30": 5.5,
+   "report_id": null
+  },
+  {
+   "date": "2025-03-30",
+   "prev_date": "2024-11-14",
+   "days": 136,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 14000.0,
+   "tp_to": 12000.0,
+   "tp_pct": -14.3,
+   "tp_speed30": -3.2,
+   "report_id": null
+  },
+  {
+   "date": "2025-08-10",
+   "prev_date": "2025-03-30",
+   "days": 133,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 12000.0,
+   "tp_to": 10000.0,
+   "tp_pct": -16.7,
+   "tp_speed30": -3.8,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-04",
+   "prev_date": "2025-08-10",
+   "days": 86,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 10000.0,
+   "tp_to": 8500.0,
+   "tp_pct": -15.0,
+   "tp_speed30": -5.2,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-13",
+   "prev_date": "2025-11-04",
+   "days": 190,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 8500.0,
+   "tp_to": 7000.0,
+   "tp_pct": -17.6,
+   "tp_speed30": -2.8,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

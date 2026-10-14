@@ -1,0 +1,139 @@
+{
+ "id": "005090",
+ "code": "005090",
+ "name": "SGC에너지",
+ "industry": "에너지·가스",
+ "timeline": [
+  {
+   "date": "2024-02-01",
+   "rating": "매수",
+   "target_price": 42000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-21",
+   "rating": "매수",
+   "target_price": 38000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-04",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-03-24",
+   "rating": "매수",
+   "target_price": 76000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-05",
+   "rating": "매수",
+   "target_price": 76000.0,
+   "source": "report",
+   "report_id": "hana_1288970",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-05",
+   "report_id": "hana_1288970",
+   "title": "SGC에너지(005090.KS/매수): AI DC 1차 사업 매각 가치에 주목",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 76000.0,
+   "tp_status": null,
+   "price": 47700.0,
+   "upside_pct": 59.3,
+   "estimates": {
+    "2026": {
+     "revenue": 2477.6,
+     "op": 178.4,
+     "net": 36.3,
+     "eps": 2517.0
+    },
+    "2027": {
+     "revenue": 2578.6,
+     "op": 198.1,
+     "net": 50.9,
+     "eps": 3535.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2546.6,
+     "op": 164.5,
+     "net": 19.3,
+     "eps": 1145.0
+    },
+    "2027": {
+     "revenue": 2596.6,
+     "op": 174.7,
+     "net": 28.4,
+     "eps": 1605.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 178.4,
+    "consensus": 164.5,
+    "gap_pct": 8.4
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-01-21",
+   "prev_date": "2024-02-01",
+   "days": 355,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 42000.0,
+   "tp_to": 38000.0,
+   "tp_pct": -9.5,
+   "tp_speed30": -0.8,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-04",
+   "prev_date": "2025-01-21",
+   "days": 379,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 38000.0,
+   "tp_to": 40000.0,
+   "tp_pct": 5.3,
+   "tp_speed30": 0.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-03-24",
+   "prev_date": "2026-02-04",
+   "days": 48,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 40000.0,
+   "tp_to": 76000.0,
+   "tp_pct": 90.0,
+   "tp_speed30": 56.2,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

@@ -1,0 +1,49 @@
+[
+ {
+  "id": "2026-10-13:192820:cons_up:2027eps",
+  "date": "2026-10-13",
+  "type": "cons_up",
+  "severity": 1.42,
+  "stock_id": "192820",
+  "code": "192820",
+  "name": "코스맥스",
+  "industry": "화장품",
+  "report_id": "hana_1289107",
+  "headline": "컨센서스 2027년 EPS +7.1% (18,188원 → 19,482원)",
+  "data": {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-06",
+   "days": 7,
+   "year": "2027",
+   "metric": "eps",
+   "from": 18188.0,
+   "to": 19482.0,
+   "pct": 7.1,
+   "speed30": 30.4,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1288995"
+  },
+  "title": "화장품(Overweight): 계절성이 깨지다"
+ },
+ {
+  "id": "2026-10-13:128940:gap_above:",
+  "date": "2026-10-13",
+  "type": "gap_above",
+  "severity": 1.31,
+  "stock_id": "128940",
+  "code": "128940",
+  "name": "한미약품",
+  "industry": "제약·바이오",
+  "report_id": "hana_1289104",
+  "headline": "2026년 영업이익 추정이 컨센서스보다 26% 높음",
+  "data": {
+   "year": "2026",
+   "metric": "op",
+   "estimate": 494.6,
+   "consensus": 391.9,
+   "gap_pct": 26.2
+  },
+  "title": "한미약품(128940.KS/BUY): 더 안정적인 성장을 위한 정비 작업(3Q26 Pre)"
+ }
+]

@@ -1,0 +1,115 @@
+{
+ "id": "018250",
+ "code": "018250",
+ "name": "애경산업",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2024-01-28",
+   "rating": "매수",
+   "target_price": 29000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-25",
+   "rating": "매수",
+   "target_price": 20000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-12-27",
+   "rating": "매수",
+   "target_price": 18000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-31",
+   "rating": "매수",
+   "target_price": 16000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-01",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1288929",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-01-31",
+   "note": "년 경과"
+  },
+  {
+   "date": "2026-09-29",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-10-25",
+   "prev_date": "2024-01-28",
+   "days": 271,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 29000.0,
+   "tp_to": 20000.0,
+   "tp_pct": -31.0,
+   "tp_speed30": -3.4,
+   "report_id": null
+  },
+  {
+   "date": "2024-12-27",
+   "prev_date": "2024-10-25",
+   "days": 63,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 20000.0,
+   "tp_to": 18000.0,
+   "tp_pct": -10.0,
+   "tp_speed30": -4.8,
+   "report_id": null
+  },
+  {
+   "date": "2025-01-31",
+   "prev_date": "2024-12-27",
+   "days": 35,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 18000.0,
+   "tp_to": 16000.0,
+   "tp_pct": -11.1,
+   "tp_speed30": -9.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2025-01-31",
+   "days": 608,
+   "rating_from": "매수",
+   "rating_to": "NR",
+   "tp_from": 16000.0,
+   "tp_to": null,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": "hana_1288929",
+   "note": "1년 경과, 담당자 변경"
+  }
+ ],
+ "events": [
+  "2026-10-01:018250:coverage_end:"
+ ]
+}

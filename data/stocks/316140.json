@@ -1,0 +1,143 @@
+{
+ "id": "316140",
+ "code": "316140",
+ "name": "우리금융",
+ "industry": "은행",
+ "timeline": [
+  {
+   "date": "2024-08-29",
+   "rating": "매수",
+   "target_price": 20500.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-29",
+   "rating": "매수",
+   "target_price": 22500.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-06-30",
+   "rating": "매수",
+   "target_price": 28500.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-28",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-07",
+   "rating": "매수",
+   "target_price": 35000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-07",
+   "rating": "매수",
+   "target_price": 37500.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-11",
+   "rating": "매수",
+   "target_price": 43000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-05-29",
+   "prev_date": "2024-08-29",
+   "days": 273,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 20500.0,
+   "tp_to": 22500.0,
+   "tp_pct": 9.8,
+   "tp_speed30": 1.1,
+   "report_id": null
+  },
+  {
+   "date": "2025-06-30",
+   "prev_date": "2025-05-29",
+   "days": 32,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 22500.0,
+   "tp_to": 28500.0,
+   "tp_pct": 26.7,
+   "tp_speed30": 25.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-28",
+   "prev_date": "2025-06-30",
+   "days": 28,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 28500.0,
+   "tp_to": 30000.0,
+   "tp_pct": 5.3,
+   "tp_speed30": 5.7,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-07",
+   "prev_date": "2025-07-28",
+   "days": 102,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 30000.0,
+   "tp_to": 35000.0,
+   "tp_pct": 16.7,
+   "tp_speed30": 4.9,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-07",
+   "prev_date": "2025-11-07",
+   "days": 92,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 35000.0,
+   "tp_to": 37500.0,
+   "tp_pct": 7.1,
+   "tp_speed30": 2.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-11",
+   "prev_date": "2026-02-07",
+   "days": 4,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 37500.0,
+   "tp_to": 43000.0,
+   "tp_pct": 14.7,
+   "tp_speed30": 110.2,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

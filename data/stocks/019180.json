@@ -1,0 +1,22 @@
+{
+ "id": "019180",
+ "code": "019180",
+ "name": "티에이치엔",
+ "industry": "자동차·부품",
+ "timeline": [
+  {
+   "date": "2026-03-18",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

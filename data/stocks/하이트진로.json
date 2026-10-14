@@ -1,0 +1,22 @@
+{
+ "id": "하이트진로",
+ "code": null,
+ "name": "하이트진로",
+ "industry": "음식료·담배",
+ "timeline": [
+  {
+   "date": "2023-10-16",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

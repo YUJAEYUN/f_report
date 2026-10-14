@@ -1,0 +1,22 @@
+{
+ "id": "025540",
+ "code": "025540",
+ "name": "한국단자",
+ "industry": "자동차·부품",
+ "timeline": [
+  {
+   "date": "2023-12-26",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

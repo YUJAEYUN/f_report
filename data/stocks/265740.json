@@ -1,0 +1,172 @@
+{
+ "id": "265740",
+ "code": "265740",
+ "name": "엔에프씨",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2026-06-18",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-17",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hana_1288808",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-17",
+   "report_id": "hana_1288808",
+   "title": "엔에프씨(265740.KQ/NR): 거침없는 ODM 사업 확장",
+   "primary": true,
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 99.0,
+     "op": 18.0,
+     "net": 15.0,
+     "eps": 826.0
+    },
+    "2027": {
+     "revenue": 123.0,
+     "op": 22.0,
+     "net": 19.0,
+     "eps": 1036.0
+    }
+   }
+  },
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288929",
+   "title": "화장품(Overweight): K-뷰티 중소형주 31",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 100.0,
+     "op": 18.0,
+     "net": 15.0,
+     "eps": 834.0
+    },
+    "2027": {
+     "revenue": 134.0,
+     "op": 24.0,
+     "net": 21.0,
+     "eps": 1159.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 99.0,
+   "to": 100.0,
+   "pct": 1.0,
+   "speed30": 2.1,
+   "turn": null,
+   "report_id": "hana_1288929",
+   "prev_report_id": "hana_1288808"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2026",
+   "metric": "eps",
+   "from": 826.0,
+   "to": 834.0,
+   "pct": 1.0,
+   "speed30": 2.1,
+   "turn": null,
+   "report_id": "hana_1288929",
+   "prev_report_id": "hana_1288808"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 123.0,
+   "to": 134.0,
+   "pct": 8.9,
+   "speed30": 19.1,
+   "turn": null,
+   "report_id": "hana_1288929",
+   "prev_report_id": "hana_1288808"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2027",
+   "metric": "op",
+   "from": 22.0,
+   "to": 24.0,
+   "pct": 9.1,
+   "speed30": 19.5,
+   "turn": null,
+   "report_id": "hana_1288929",
+   "prev_report_id": "hana_1288808"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2027",
+   "metric": "net",
+   "from": 19.0,
+   "to": 21.0,
+   "pct": 10.5,
+   "speed30": 22.5,
+   "turn": null,
+   "report_id": "hana_1288929",
+   "prev_report_id": "hana_1288808"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2027",
+   "metric": "eps",
+   "from": 1036.0,
+   "to": 1159.0,
+   "pct": 11.9,
+   "speed30": 25.5,
+   "turn": null,
+   "report_id": "hana_1288929",
+   "prev_report_id": "hana_1288808"
+  }
+ ],
+ "rating_changes": [],
+ "events": [
+  "2026-10-01:265740:cons_up:2027eps"
+ ]
+}

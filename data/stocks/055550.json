@@ -1,0 +1,215 @@
+{
+ "id": "055550",
+ "code": "055550",
+ "name": "신한지주",
+ "industry": "은행",
+ "timeline": [
+  {
+   "date": "2024-03-21",
+   "rating": "매수",
+   "target_price": 62000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-07-29",
+   "rating": "매수",
+   "target_price": 72000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-29",
+   "rating": "매수",
+   "target_price": 75000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-06-30",
+   "rating": "매수",
+   "target_price": 81000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-28",
+   "rating": "매수",
+   "target_price": 90000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-07",
+   "rating": "매수",
+   "target_price": 112000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-11",
+   "rating": "매수",
+   "target_price": 126000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-06-15",
+   "rating": "매수",
+   "target_price": 135000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 135000.0,
+   "source": "report",
+   "report_id": "hana_1289016",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-07",
+   "report_id": "hana_1289016",
+   "title": "신한지주(055550.KS/매수) : 증권계열사 부진 등으로 3분기는 전분기대비 감익 예상",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 135000.0,
+   "tp_status": null,
+   "price": 103300.0,
+   "upside_pct": 30.7,
+   "estimates": {
+    "2026": {
+     "net": 5722.0,
+     "eps": 11297.0
+    },
+    "2027": {
+     "net": 5976.0,
+     "eps": 11800.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": null,
+     "op": 8043.0,
+     "net": 5984.0,
+     "eps": 12454.0
+    },
+    "2027": {
+     "revenue": null,
+     "op": 8481.0,
+     "net": 6239.0,
+     "eps": 13275.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "net",
+    "estimate": 5722.0,
+    "consensus": 5984.0,
+    "gap_pct": -4.4
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-07-29",
+   "prev_date": "2024-03-21",
+   "days": 130,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 62000.0,
+   "tp_to": 72000.0,
+   "tp_pct": 16.1,
+   "tp_speed30": 3.7,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-29",
+   "prev_date": "2024-07-29",
+   "days": 304,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 72000.0,
+   "tp_to": 75000.0,
+   "tp_pct": 4.2,
+   "tp_speed30": 0.4,
+   "report_id": null
+  },
+  {
+   "date": "2025-06-30",
+   "prev_date": "2025-05-29",
+   "days": 32,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 75000.0,
+   "tp_to": 81000.0,
+   "tp_pct": 8.0,
+   "tp_speed30": 7.5,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-28",
+   "prev_date": "2025-06-30",
+   "days": 28,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 81000.0,
+   "tp_to": 90000.0,
+   "tp_pct": 11.1,
+   "tp_speed30": 11.9,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-07",
+   "prev_date": "2025-07-28",
+   "days": 102,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 90000.0,
+   "tp_to": 112000.0,
+   "tp_pct": 24.4,
+   "tp_speed30": 7.2,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-11",
+   "prev_date": "2025-11-07",
+   "days": 96,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 112000.0,
+   "tp_to": 126000.0,
+   "tp_pct": 12.5,
+   "tp_speed30": 3.9,
+   "report_id": null
+  },
+  {
+   "date": "2026-06-15",
+   "prev_date": "2026-02-11",
+   "days": 124,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 126000.0,
+   "tp_to": 135000.0,
+   "tp_pct": 7.1,
+   "tp_speed30": 1.7,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

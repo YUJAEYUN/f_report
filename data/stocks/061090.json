@@ -1,0 +1,154 @@
+{
+ "id": "061090",
+ "code": "061090",
+ "name": "세나테크놀로지",
+ "industry": "통신장비",
+ "timeline": [
+  {
+   "date": "2026-05-08",
+   "rating": "매수",
+   "target_price": 70000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-29",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-30",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "report",
+   "report_id": "hana_1288924",
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-01",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "report",
+   "report_id": "hana_1288931",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-30",
+   "report_id": "hana_1288924",
+   "title": "세나테크놀로지(061090.KQ/매수): 세나가 피지컬 AI 통신 기술의 주축이 될 것입니다",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 80000.0,
+   "tp_status": null,
+   "price": 36200.0,
+   "upside_pct": 121.0,
+   "estimates": {
+    "2026": {
+     "revenue": 233.2,
+     "op": 40.3,
+     "net": 31.5,
+     "eps": 5700.0
+    },
+    "2027": {
+     "revenue": 272.8,
+     "op": 54.4,
+     "net": 37.0,
+     "eps": 6769.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 233.2,
+     "op": 40.3,
+     "net": 31.5,
+     "eps": 5706.0
+    },
+    "2027": {
+     "revenue": 272.8,
+     "op": 54.4,
+     "net": 37.0,
+     "eps": 6767.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 40.3,
+    "consensus": 40.3,
+    "gap_pct": 0.0
+   }
+  },
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288931",
+   "title": "하루에 하나 1001",
+   "primary": false,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 80000.0,
+   "tp_status": null,
+   "price": 36200.0,
+   "upside_pct": 121.0,
+   "estimates": {
+    "2026": {
+     "revenue": 233.2,
+     "op": 40.3,
+     "net": 31.5,
+     "eps": 5700.0
+    },
+    "2027": {
+     "revenue": 272.8,
+     "op": 54.4,
+     "net": 37.0,
+     "eps": 6769.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 233.2,
+     "op": 40.3,
+     "net": 31.5,
+     "eps": 5706.0
+    },
+    "2027": {
+     "revenue": 272.8,
+     "op": 54.4,
+     "net": 37.0,
+     "eps": 6767.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 40.3,
+    "consensus": 40.3,
+    "gap_pct": 0.0
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-05-29",
+   "prev_date": "2026-05-08",
+   "days": 21,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 70000.0,
+   "tp_to": 80000.0,
+   "tp_pct": 14.3,
+   "tp_speed30": 20.4,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

@@ -1,0 +1,89 @@
+{
+ "id": "006730",
+ "code": "006730",
+ "name": "서부T&D",
+ "industry": "호텔·레저",
+ "timeline": [
+  {
+   "date": "2025-09-03",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-15",
+   "rating": "매수",
+   "target_price": 17500.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-23",
+   "rating": "매수",
+   "target_price": 21000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-02",
+   "rating": "매수",
+   "target_price": 18000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-01-13",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-01-15",
+   "prev_date": "2025-09-03",
+   "days": 134,
+   "rating_from": "NR",
+   "rating_to": "매수",
+   "tp_from": null,
+   "tp_to": 17500.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null,
+   "note": "담당자 변경"
+  },
+  {
+   "date": "2026-02-23",
+   "prev_date": "2026-01-15",
+   "days": 39,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 17500.0,
+   "tp_to": 21000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": 15.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-02",
+   "prev_date": "2026-02-23",
+   "days": 129,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 21000.0,
+   "tp_to": 18000.0,
+   "tp_pct": -14.3,
+   "tp_speed30": -3.3,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

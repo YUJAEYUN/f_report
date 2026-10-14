@@ -1,0 +1,77 @@
+[
+ {
+  "id": "2026-10-14:086450:tp_up:",
+  "date": "2026-10-14",
+  "type": "tp_up",
+  "severity": 1.39,
+  "stock_id": "086450",
+  "code": "086450",
+  "name": "동국제약",
+  "industry": "화장품",
+  "report_id": "hana_1289107",
+  "headline": "목표주가 24,000원 → 29,000원 (+20.8%)",
+  "data": {
+   "date": "2026-10-14",
+   "prev_date": "2026-08-20",
+   "days": 55,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 24000.0,
+   "tp_to": 29000.0,
+   "tp_pct": 20.8,
+   "tp_speed30": 11.3,
+   "report_id": "hana_1289107"
+  },
+  "title": "화장품(Overweight): 계절성이 깨지다"
+ },
+ {
+  "id": "2026-10-14:278470:tp_down:",
+  "date": "2026-10-14",
+  "type": "tp_down",
+  "severity": 1.31,
+  "stock_id": "278470",
+  "code": "278470",
+  "name": "에이피알",
+  "industry": "화장품",
+  "report_id": "hana_1289107",
+  "headline": "목표주가 510,000원 → 410,000원 (-19.6%)",
+  "data": {
+   "date": "2026-10-14",
+   "prev_date": "2026-06-09",
+   "days": 127,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 510000.0,
+   "tp_to": 410000.0,
+   "tp_pct": -19.6,
+   "tp_speed30": -4.6,
+   "report_id": "hana_1289107"
+  },
+  "title": "화장품(Overweight): 계절성이 깨지다"
+ },
+ {
+  "id": "2026-10-14:483650:tp_down:",
+  "date": "2026-10-14",
+  "type": "tp_down",
+  "severity": 1.03,
+  "stock_id": "483650",
+  "code": "483650",
+  "name": "달바글로벌",
+  "industry": "화장품",
+  "report_id": "hana_1289107",
+  "headline": "목표주가 260,000원 → 220,000원 (-15.4%)",
+  "data": {
+   "date": "2026-10-14",
+   "prev_date": "2026-08-20",
+   "days": 55,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 260000.0,
+   "tp_to": 220000.0,
+   "tp_pct": -15.4,
+   "tp_speed30": -8.4,
+   "report_id": "hana_1289107"
+  },
+  "title": "화장품(Overweight): 계절성이 깨지다"
+ }
+]

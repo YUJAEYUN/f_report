@@ -1,0 +1,205 @@
+{
+ "id": "207940",
+ "code": "207940",
+ "name": "삼성바이오로직스",
+ "industry": "제약·바이오",
+ "timeline": [
+  {
+   "date": "2024-07-25",
+   "rating": "매수",
+   "target_price": 1545331.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-04",
+   "rating": "매수",
+   "target_price": 1692506.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-13",
+   "rating": "매수",
+   "target_price": 1927985.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-24",
+   "rating": "매수",
+   "target_price": 2134029.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-12-03",
+   "rating": "매수",
+   "target_price": 1860000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-07",
+   "rating": "매수",
+   "target_price": 2050000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-05",
+   "rating": "매수",
+   "target_price": 1950000.0,
+   "source": "report",
+   "report_id": "hana_1288977",
+   "tp_status": "하향"
+  },
+  {
+   "date": "2026-10-06",
+   "rating": "매수",
+   "target_price": 1950000.0,
+   "source": "table",
+   "report_id": "hana_1288977",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-04-16",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-05",
+   "report_id": "hana_1288977",
+   "title": "삼성바이오로직스 (207940.KS/BUY): 환율도 꺾지 못한 성장세 (3Q26 Preview)",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 1950000.0,
+   "tp_status": "하향",
+   "price": 1354000.0,
+   "upside_pct": 44.0,
+   "estimates": {
+    "2026": {
+     "revenue": 5508.5,
+     "op": 2490.4,
+     "net": 1953.0,
+     "eps": 41634.0
+    },
+    "2027": {
+     "revenue": 6476.7,
+     "op": 2868.3,
+     "net": 2252.5,
+     "eps": 46385.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 5433.7,
+     "op": 2430.8,
+     "net": 1908.6,
+     "eps": 40686.0
+    },
+    "2027": {
+     "revenue": 6482.6,
+     "op": 2988.6,
+     "net": 2364.8,
+     "eps": 48697.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 2490.4,
+    "consensus": 2430.8,
+    "gap_pct": 2.5
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-10-04",
+   "prev_date": "2024-07-25",
+   "days": 71,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1545331.0,
+   "tp_to": 1692506.0,
+   "tp_pct": 9.5,
+   "tp_speed30": 4.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-13",
+   "prev_date": "2024-10-04",
+   "days": 221,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1692506.0,
+   "tp_to": 1927985.0,
+   "tp_pct": 13.9,
+   "tp_speed30": 1.9,
+   "report_id": null,
+   "note": "담당자 변경"
+  },
+  {
+   "date": "2025-07-24",
+   "prev_date": "2025-05-13",
+   "days": 72,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1927985.0,
+   "tp_to": 2134029.0,
+   "tp_pct": 10.7,
+   "tp_speed30": 4.5,
+   "report_id": null
+  },
+  {
+   "date": "2025-12-03",
+   "prev_date": "2025-07-24",
+   "days": 132,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 2134029.0,
+   "tp_to": 1860000.0,
+   "tp_pct": -12.8,
+   "tp_speed30": -2.9,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-07",
+   "prev_date": "2025-12-03",
+   "days": 35,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1860000.0,
+   "tp_to": 2050000.0,
+   "tp_pct": 10.2,
+   "tp_speed30": 8.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-05",
+   "prev_date": "2026-01-07",
+   "days": 271,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 2050000.0,
+   "tp_to": 1950000.0,
+   "tp_pct": -4.9,
+   "tp_speed30": -0.5,
+   "report_id": "hana_1288977"
+  }
+ ],
+ "events": []
+}

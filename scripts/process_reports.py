@@ -11,6 +11,8 @@ collect/extract(run_pipeline.py)가 저장한 data/reports/{date}/{id}.json 중
   같은 이슈가 다른 이름으로 갈라지면 consolidate 단계가 대표 이름으로 합친다.
 
 산출물: 산업 브리핑(주 2건 이상 산업만), 주간 인사이트(insights/weekly), 일간 다이제스트(digest/).
+요약이 끝나면 scripts/signals.py로 투자의견·목표주가·추정치 변화 이벤트를 다시 계산하고
+(LLM 없음), 새 이벤트에만 변경 이유를 붙인 뒤 그날 이벤트를 다이제스트 재료로 넘긴다.
 
 LLM에는 텍스트만 주고 받는다. 어떤 파일을 읽고 어디에 쓰는지는 전부 이 스크립트가
 결정한다 — 각 단계의 규칙은 skills/*/SKILL.md를 프롬프트에 그대로 넣어 따르게 한다.
@@ -35,6 +37,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scripts.llm import LLMAuthError, LLMError, LLMRateLimitError, ask, ask_json, strip_fences
+from scripts import signals
 
 ROOT = Path(__file__).resolve().parent.parent
 REPORTS_DIR = ROOT / "data" / "reports"
@@ -625,6 +628,18 @@ def build_weekly(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
 
 # ---------- 3) build-digest ----------
 
+DIGEST_MAX_EVENTS = 8
+
+
+def digest_events(date: str) -> list[dict]:
+    """다이제스트에 넘길 그날 이벤트 (signals.build가 쓴 data/events/{date}.json)."""
+    path = signals.EVENTS_DIR / f"{date}.json"
+    if not path.exists():
+        return []
+    keys = ("name", "type", "headline", "reason", "report_id")
+    return [{k: e.get(k) for k in keys} for e in json.loads(path.read_text(encoding="utf-8"))[:DIGEST_MAX_EVENTS]]
+
+
 def build_digests(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
     failed = 0
     for date in sorted(dates):
@@ -657,6 +672,8 @@ def build_digests(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
             "=== 이번 주 주간 인사이트 링크 ===\n"
             + (f"../insights/weekly/{week}.md" if weekly_path(week).exists() else "(없음)"),
             "=== individual 리포트 ===\n" + json.dumps(individual, ensure_ascii=False, indent=1),
+            "=== 오늘의 숫자 변화 이벤트 (코드가 판정, severity 큰 순) ===\n"
+            + json.dumps(digest_events(date), ensure_ascii=False, indent=1),
             f"=== 출력 형식 ===\n`# 리서치 다이제스트 {date}` 제목으로 시작하는 마크다운 본문만 출력한다. "
             "코드펜스로 감싸지 않는다.",
         ])
@@ -701,9 +718,16 @@ def main() -> int:
         dates |= touched
         tagged |= bool(touched)
     failed = 0
+    failed_explain = False
     if tagged:
         failed += consolidate_themes(reports)
     rebuild_indexes(reports)
+    # 숫자 변화 이벤트: 결정적 재계산은 매번, 이유 붙이기는 사용량 한도에 걸리지 않았을 때만
+    signals.build([r for _, r in reports])
+    if not aborted:
+        _, failed_explain = signals.explain_events(signals.load_config()["explain_max_reports"])
+        if failed_explain:
+            print("[explain] 이유 생성 중단 -> 남은 이벤트는 다음 실행에서 이어서", flush=True)
     if dates:
         failed += build_briefs(reports, dates)
         failed += build_weekly(reports, dates)
@@ -712,7 +736,7 @@ def main() -> int:
         print("새로 요약된 리포트 없음 -> 브리핑/인사이트/다이제스트 생략")
     if failed:
         print(f"[summary] 브리핑/인사이트/다이제스트 생성 실패 {failed}건")
-    return 1 if aborted or failed else 0
+    return 1 if aborted or failed or failed_explain else 0
 
 
 if __name__ == "__main__":

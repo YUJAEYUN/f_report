@@ -1,0 +1,206 @@
+{
+ "id": "032350",
+ "code": "032350",
+ "name": "롯데관광개발",
+ "industry": "호텔·레저",
+ "timeline": [
+  {
+   "date": "2025-06-19",
+   "rating": "매수",
+   "target_price": 19000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-04",
+   "rating": "매수",
+   "target_price": 21000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-08-06",
+   "rating": "매수",
+   "target_price": 23000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-10",
+   "rating": "매수",
+   "target_price": 26000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-06",
+   "rating": "매수",
+   "target_price": 29000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-07",
+   "rating": "매수",
+   "target_price": 31000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-03",
+   "rating": "매수",
+   "target_price": 28000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-03",
+   "rating": "매수",
+   "target_price": 26000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-16",
+   "rating": "매수",
+   "target_price": 21000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-06",
+   "rating": "매수",
+   "target_price": 16000.0,
+   "source": "table",
+   "report_id": "hana_1288979",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-07-04",
+   "prev_date": "2025-06-19",
+   "days": 15,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 19000.0,
+   "tp_to": 21000.0,
+   "tp_pct": 10.5,
+   "tp_speed30": 21.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-08-06",
+   "prev_date": "2025-07-04",
+   "days": 33,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 21000.0,
+   "tp_to": 23000.0,
+   "tp_pct": 9.5,
+   "tp_speed30": 8.6,
+   "report_id": null
+  },
+  {
+   "date": "2025-10-10",
+   "prev_date": "2025-08-06",
+   "days": 65,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 23000.0,
+   "tp_to": 26000.0,
+   "tp_pct": 13.0,
+   "tp_speed30": 6.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-06",
+   "prev_date": "2025-10-10",
+   "days": 27,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 26000.0,
+   "tp_to": 29000.0,
+   "tp_pct": 11.5,
+   "tp_speed30": 12.8,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-07",
+   "prev_date": "2025-11-06",
+   "days": 62,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 29000.0,
+   "tp_to": 31000.0,
+   "tp_pct": 6.9,
+   "tp_speed30": 3.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-03",
+   "prev_date": "2026-01-07",
+   "days": 86,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 31000.0,
+   "tp_to": 28000.0,
+   "tp_pct": -9.7,
+   "tp_speed30": -3.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-03",
+   "prev_date": "2026-04-03",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 28000.0,
+   "tp_to": 26000.0,
+   "tp_pct": -7.1,
+   "tp_speed30": -2.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-16",
+   "prev_date": "2026-07-03",
+   "days": 13,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 26000.0,
+   "tp_to": 21000.0,
+   "tp_pct": -19.2,
+   "tp_speed30": -44.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-06",
+   "prev_date": "2026-07-16",
+   "days": 82,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 21000.0,
+   "tp_to": 16000.0,
+   "tp_pct": -23.8,
+   "tp_speed30": -8.7,
+   "report_id": "hana_1288979"
+  }
+ ],
+ "events": [
+  "2026-10-06:032350:tp_down:",
+  "2026-10-06:032350:tp_streak:"
+ ]
+}

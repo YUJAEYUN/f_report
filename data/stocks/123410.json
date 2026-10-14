@@ -1,0 +1,22 @@
+{
+ "id": "123410",
+ "code": "123410",
+ "name": "코리아에프티",
+ "industry": "자동차·부품",
+ "timeline": [
+  {
+   "date": "2024-08-26",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

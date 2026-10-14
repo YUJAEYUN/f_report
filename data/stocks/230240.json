@@ -1,0 +1,69 @@
+{
+ "id": "230240",
+ "code": "230240",
+ "name": "에치에프알",
+ "industry": "통신장비",
+ "timeline": [
+  {
+   "date": "2023-05-03",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2023-06-21",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-29",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2023-11-16",
+   "note": "커버리지 제외"
+  }
+ ],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2023-06-21",
+   "prev_date": "2023-05-03",
+   "days": 49,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 30000.0,
+   "tp_pct": -40.0,
+   "tp_speed30": -24.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-29",
+   "prev_date": "2023-06-21",
+   "days": 1043,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 30000.0,
+   "tp_to": 50000.0,
+   "tp_pct": 66.7,
+   "tp_speed30": 1.9,
+   "report_id": null,
+   "note": "커버리지 제외"
+  }
+ ],
+ "events": []
+}

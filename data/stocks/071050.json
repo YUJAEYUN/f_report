@@ -1,0 +1,163 @@
+{
+ "id": "071050",
+ "code": "071050",
+ "name": "한국금융지주",
+ "industry": "증권",
+ "timeline": [
+  {
+   "date": "2024-02-16",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-15",
+   "rating": "매수",
+   "target_price": 190000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-16",
+   "rating": "매수",
+   "target_price": 200000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-03-03",
+   "rating": "매수",
+   "target_price": 330000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-12",
+   "rating": "매수",
+   "target_price": 318000.0,
+   "source": "report",
+   "report_id": "hana_1289087",
+   "tp_status": "하향"
+  },
+  {
+   "date": "2026-10-13",
+   "rating": "매수",
+   "target_price": 318000.0,
+   "source": "table",
+   "report_id": "hana_1289087",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-06-18",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-12",
+   "report_id": "hana_1289087",
+   "title": "한국금융지주(071050.KS/매수): 3Q26 Pre - 실적 눈높이 조정 구간",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 318000.0,
+   "tp_status": "하향",
+   "price": 165600.0,
+   "upside_pct": 92.0,
+   "estimates": {
+    "2026": {
+     "revenue": 5393.9,
+     "op": 3300.3,
+     "net": 2554.2
+    },
+    "2027": {
+     "revenue": 4753.7,
+     "op": 2652.8,
+     "net": 2042.6
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 46180.0,
+     "op": 3957.0,
+     "net": 3054.0,
+     "eps": 48365.0
+    },
+    "2027": {
+     "revenue": 46650.0,
+     "op": 3156.0,
+     "net": 2548.0,
+     "eps": 40660.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 3300.3,
+    "consensus": 3957.0,
+    "gap_pct": -16.6
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-07-15",
+   "prev_date": "2024-02-16",
+   "days": 515,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 80000.0,
+   "tp_to": 190000.0,
+   "tp_pct": 137.5,
+   "tp_speed30": 8.0,
+   "report_id": null,
+   "note": "담당자 변경"
+  },
+  {
+   "date": "2025-10-16",
+   "prev_date": "2025-07-15",
+   "days": 93,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 190000.0,
+   "tp_to": 200000.0,
+   "tp_pct": 5.3,
+   "tp_speed30": 1.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-03-03",
+   "prev_date": "2025-10-16",
+   "days": 138,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 200000.0,
+   "tp_to": 330000.0,
+   "tp_pct": 65.0,
+   "tp_speed30": 14.1,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-03-03",
+   "days": 223,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 330000.0,
+   "tp_to": 318000.0,
+   "tp_pct": -3.6,
+   "tp_speed30": -0.5,
+   "report_id": "hana_1289087"
+  }
+ ],
+ "events": []
+}

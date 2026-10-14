@@ -1,0 +1,103 @@
+{
+ "id": "327260",
+ "code": "327260",
+ "name": "RF머트리얼즈",
+ "industry": "통신장비",
+ "timeline": [
+  {
+   "date": "2025-10-14",
+   "rating": "매수",
+   "target_price": 15000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-07",
+   "rating": "매수",
+   "target_price": 25000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-03-03",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-03",
+   "rating": "매수",
+   "target_price": 60000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-30",
+   "rating": "매수",
+   "target_price": 75000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-01-07",
+   "prev_date": "2025-10-14",
+   "days": 85,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 15000.0,
+   "tp_to": 25000.0,
+   "tp_pct": 66.7,
+   "tp_speed30": 23.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-03-03",
+   "prev_date": "2026-01-07",
+   "days": 55,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 25000.0,
+   "tp_to": 40000.0,
+   "tp_pct": 60.0,
+   "tp_speed30": 32.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-03",
+   "prev_date": "2026-03-03",
+   "days": 31,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 40000.0,
+   "tp_to": 60000.0,
+   "tp_pct": 50.0,
+   "tp_speed30": 48.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-30",
+   "prev_date": "2026-04-03",
+   "days": 27,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 60000.0,
+   "tp_to": 75000.0,
+   "tp_pct": 25.0,
+   "tp_speed30": 27.8,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

@@ -1,0 +1,109 @@
+{
+ "id": "대우건설",
+ "code": null,
+ "name": "대우건설",
+ "industry": "건설",
+ "timeline": [
+  {
+   "date": "2024-07-31",
+   "rating": "매수",
+   "target_price": 5000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-31",
+   "rating": "매수",
+   "target_price": 4500.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-10",
+   "rating": "매수",
+   "target_price": 8000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-29",
+   "rating": "매수",
+   "target_price": 49000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-08-05",
+   "rating": "매수",
+   "target_price": 20000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-10-31",
+   "note": "년 경과"
+  }
+ ],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-10-31",
+   "prev_date": "2024-07-31",
+   "days": 92,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 5000.0,
+   "tp_to": 4500.0,
+   "tp_pct": -10.0,
+   "tp_speed30": -3.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-10",
+   "prev_date": "2024-10-31",
+   "days": 467,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 4500.0,
+   "tp_to": 8000.0,
+   "tp_pct": 77.8,
+   "tp_speed30": 5.0,
+   "report_id": null,
+   "note": "1년 경과"
+  },
+  {
+   "date": "2026-04-29",
+   "prev_date": "2026-02-10",
+   "days": 78,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 8000.0,
+   "tp_to": 49000.0,
+   "tp_pct": 512.5,
+   "tp_speed30": 197.1,
+   "report_id": null
+  },
+  {
+   "date": "2026-08-05",
+   "prev_date": "2026-04-29",
+   "days": 98,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 49000.0,
+   "tp_to": 20000.0,
+   "tp_pct": -59.2,
+   "tp_speed30": -18.1,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

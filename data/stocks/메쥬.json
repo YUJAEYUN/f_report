@@ -1,0 +1,22 @@
+{
+ "id": "메쥬",
+ "code": null,
+ "name": "메쥬",
+ "industry": "제약·바이오",
+ "timeline": [
+  {
+   "date": "2026-05-21",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

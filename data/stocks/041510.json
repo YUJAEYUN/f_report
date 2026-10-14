@@ -1,0 +1,259 @@
+{
+ "id": "041510",
+ "code": "041510",
+ "name": "에스엠",
+ "industry": "미디어·콘텐츠",
+ "timeline": [
+  {
+   "date": "2024-02-08",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-08-08",
+   "rating": "매수",
+   "target_price": 100000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-02-11",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-03-19",
+   "rating": "매수",
+   "target_price": 130000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-08",
+   "rating": "매수",
+   "target_price": 150000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-28",
+   "rating": "매수",
+   "target_price": 170000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-08-07",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-27",
+   "rating": "매수",
+   "target_price": 160000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-09",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-06-10",
+   "rating": "매수",
+   "target_price": 124000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 124000.0,
+   "source": "report",
+   "report_id": "hana_1289005",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-07",
+   "report_id": "hana_1289005",
+   "title": "엔터테인먼트(Overweight) : 남자 아이돌에게 세계관은 필요한 것인가?",
+   "primary": false,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 124000.0,
+   "tp_status": null,
+   "price": 78200.0,
+   "upside_pct": 58.6,
+   "estimates": {
+    "2026": {
+     "revenue": 1199.9,
+     "op": 173.4,
+     "net": 116.0,
+     "eps": 5067.0
+    },
+    "2027": {
+     "revenue": 1309.6,
+     "op": 200.0,
+     "net": 139.2,
+     "eps": 6082.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1255.5,
+     "op": 187.7,
+     "net": 130.8,
+     "eps": 5333.0
+    },
+    "2027": {
+     "revenue": 1365.1,
+     "op": 215.9,
+     "net": 156.5,
+     "eps": 6415.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 173.4,
+    "consensus": 187.7,
+    "gap_pct": -7.6
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-08-08",
+   "prev_date": "2024-02-08",
+   "days": 182,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 110000.0,
+   "tp_to": 100000.0,
+   "tp_pct": -9.1,
+   "tp_speed30": -1.5,
+   "report_id": null
+  },
+  {
+   "date": "2025-02-11",
+   "prev_date": "2024-08-08",
+   "days": 187,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 100000.0,
+   "tp_to": 110000.0,
+   "tp_pct": 10.0,
+   "tp_speed30": 1.6,
+   "report_id": null
+  },
+  {
+   "date": "2025-03-19",
+   "prev_date": "2025-02-11",
+   "days": 36,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 110000.0,
+   "tp_to": 130000.0,
+   "tp_pct": 18.2,
+   "tp_speed30": 15.2,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-08",
+   "prev_date": "2025-03-19",
+   "days": 50,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 130000.0,
+   "tp_to": 150000.0,
+   "tp_pct": 15.4,
+   "tp_speed30": 9.2,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-28",
+   "prev_date": "2025-05-08",
+   "days": 20,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 150000.0,
+   "tp_to": 170000.0,
+   "tp_pct": 13.3,
+   "tp_speed30": 20.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-08-07",
+   "prev_date": "2025-05-28",
+   "days": 71,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 170000.0,
+   "tp_to": 180000.0,
+   "tp_pct": 5.9,
+   "tp_speed30": 2.5,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-27",
+   "prev_date": "2025-08-07",
+   "days": 112,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 180000.0,
+   "tp_to": 160000.0,
+   "tp_pct": -11.1,
+   "tp_speed30": -3.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-09",
+   "prev_date": "2025-11-27",
+   "days": 133,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 160000.0,
+   "tp_to": 140000.0,
+   "tp_pct": -12.5,
+   "tp_speed30": -2.8,
+   "report_id": null
+  },
+  {
+   "date": "2026-06-10",
+   "prev_date": "2026-04-09",
+   "days": 62,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 140000.0,
+   "tp_to": 124000.0,
+   "tp_pct": -11.4,
+   "tp_speed30": -5.5,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

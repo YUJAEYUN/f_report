@@ -1,0 +1,22 @@
+{
+ "id": "004490",
+ "code": "004490",
+ "name": "세방전지",
+ "industry": "자동차·부품",
+ "timeline": [
+  {
+   "date": "2023-12-19",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

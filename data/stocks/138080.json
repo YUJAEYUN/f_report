@@ -1,0 +1,63 @@
+{
+ "id": "138080",
+ "code": "138080",
+ "name": "오이솔루션",
+ "industry": "통신장비",
+ "timeline": [
+  {
+   "date": "2026-01-14",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-03-12",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-03-26",
+   "rating": "매수",
+   "target_price": 60000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-03-12",
+   "prev_date": "2026-01-14",
+   "days": 57,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 30000.0,
+   "tp_to": 50000.0,
+   "tp_pct": 66.7,
+   "tp_speed30": 35.1,
+   "report_id": null
+  },
+  {
+   "date": "2026-03-26",
+   "prev_date": "2026-03-12",
+   "days": 14,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 60000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": 42.9,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

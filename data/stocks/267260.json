@@ -1,0 +1,201 @@
+{
+ "id": "267260",
+ "code": "267260",
+ "name": "HD현대일렉트릭",
+ "industry": "기계·전력기기",
+ "timeline": [
+  {
+   "date": "2024-07-24",
+   "rating": "매수",
+   "target_price": 420000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-21",
+   "rating": "매수",
+   "target_price": 500000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-23",
+   "rating": "매수",
+   "target_price": 560000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-24",
+   "rating": "매수",
+   "target_price": 900000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-09",
+   "rating": "매수",
+   "target_price": 1080000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-29",
+   "rating": "매수",
+   "target_price": 1440000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-06",
+   "rating": "매수",
+   "target_price": 1150000.0,
+   "source": "report",
+   "report_id": "hana_1289001",
+   "tp_status": "하향"
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 1150000.0,
+   "source": "table",
+   "report_id": "hana_1289001",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-06",
+   "report_id": "hana_1289001",
+   "title": "HD현대일렉트릭(267260.KS/매수): 환율 영향은 피할 수 없지만",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 1150000.0,
+   "tp_status": "하향",
+   "price": 683000.0,
+   "upside_pct": 68.4,
+   "estimates": {
+    "2026": {
+     "revenue": 4443.3,
+     "op": 1157.4,
+     "net": 877.4,
+     "eps": 24341.0
+    },
+    "2027": {
+     "revenue": 4846.5,
+     "op": 1356.4,
+     "net": 1011.1,
+     "eps": 28048.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 4691.5,
+     "op": 1230.3,
+     "net": 946.5,
+     "eps": 26284.0
+    },
+    "2027": {
+     "revenue": 5542.3,
+     "op": 1553.1,
+     "net": 1192.7,
+     "eps": 33114.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1157.4,
+    "consensus": 1230.3,
+    "gap_pct": -5.9
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-01-21",
+   "prev_date": "2024-07-24",
+   "days": 181,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 420000.0,
+   "tp_to": 500000.0,
+   "tp_pct": 19.0,
+   "tp_speed30": 3.1,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-23",
+   "prev_date": "2025-01-21",
+   "days": 183,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 500000.0,
+   "tp_to": 560000.0,
+   "tp_pct": 12.0,
+   "tp_speed30": 2.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-10-24",
+   "prev_date": "2025-07-23",
+   "days": 93,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 560000.0,
+   "tp_to": 900000.0,
+   "tp_pct": 60.7,
+   "tp_speed30": 19.6,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-09",
+   "prev_date": "2025-10-24",
+   "days": 108,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 900000.0,
+   "tp_to": 1080000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": 5.6,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-29",
+   "prev_date": "2026-02-09",
+   "days": 79,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1080000.0,
+   "tp_to": 1440000.0,
+   "tp_pct": 33.3,
+   "tp_speed30": 12.6,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-06",
+   "prev_date": "2026-04-29",
+   "days": 160,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1440000.0,
+   "tp_to": 1150000.0,
+   "tp_pct": -20.1,
+   "tp_speed30": -3.8,
+   "report_id": "hana_1289001"
+  }
+ ],
+ "events": [
+  "2026-10-06:267260:tp_down:"
+ ]
+}

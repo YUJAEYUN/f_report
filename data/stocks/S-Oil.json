@@ -1,0 +1,183 @@
+{
+ "id": "S-Oil",
+ "code": null,
+ "name": "S-Oil",
+ "industry": "정유·화학",
+ "timeline": [
+  {
+   "date": "2024-07-12",
+   "rating": "매수",
+   "target_price": 85000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-09",
+   "rating": "매수",
+   "target_price": 95000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-04-15",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-16",
+   "rating": "매수",
+   "target_price": 90000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-04",
+   "rating": "매수",
+   "target_price": 100000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-12-15",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-27",
+   "rating": "매수",
+   "target_price": 130000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-07",
+   "rating": "매수",
+   "target_price": 200000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-08-04",
+   "rating": "매수",
+   "target_price": 220000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-01-09",
+   "prev_date": "2024-07-12",
+   "days": 181,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 85000.0,
+   "tp_to": 95000.0,
+   "tp_pct": 11.8,
+   "tp_speed30": 2.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-04-15",
+   "prev_date": "2025-01-09",
+   "days": 96,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 95000.0,
+   "tp_to": 80000.0,
+   "tp_pct": -15.8,
+   "tp_speed30": -4.9,
+   "report_id": null
+  },
+  {
+   "date": "2025-10-16",
+   "prev_date": "2025-04-15",
+   "days": 184,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 80000.0,
+   "tp_to": 90000.0,
+   "tp_pct": 12.5,
+   "tp_speed30": 2.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-04",
+   "prev_date": "2025-10-16",
+   "days": 19,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 90000.0,
+   "tp_to": 100000.0,
+   "tp_pct": 11.1,
+   "tp_speed30": 17.5,
+   "report_id": null
+  },
+  {
+   "date": "2025-12-15",
+   "prev_date": "2025-11-04",
+   "days": 41,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 100000.0,
+   "tp_to": 110000.0,
+   "tp_pct": 10.0,
+   "tp_speed30": 7.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-27",
+   "prev_date": "2025-12-15",
+   "days": 43,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 110000.0,
+   "tp_to": 130000.0,
+   "tp_pct": 18.2,
+   "tp_speed30": 12.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-07",
+   "prev_date": "2026-01-27",
+   "days": 161,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 130000.0,
+   "tp_to": 200000.0,
+   "tp_pct": 53.8,
+   "tp_speed30": 10.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-08-04",
+   "prev_date": "2026-07-07",
+   "days": 28,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 200000.0,
+   "tp_to": 220000.0,
+   "tp_pct": 10.0,
+   "tp_speed30": 10.7,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

@@ -1,0 +1,214 @@
+{
+ "id": "000150",
+ "code": "000150",
+ "name": "두산",
+ "industry": "IT하드웨어·전자부품",
+ "timeline": [
+  {
+   "date": "2025-05-21",
+   "rating": "매수",
+   "target_price": 570000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-27",
+   "rating": "매수",
+   "target_price": 846000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-10",
+   "rating": "매수",
+   "target_price": 1330000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-03-16",
+   "rating": "매수",
+   "target_price": 1670000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-30",
+   "rating": "매수",
+   "target_price": 2420000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-27",
+   "rating": "매수",
+   "target_price": 2420000.0,
+   "source": "report",
+   "report_id": "hana_1288878",
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-28",
+   "rating": "매수",
+   "target_price": 2420000.0,
+   "source": "report",
+   "report_id": "hana_1288899",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-27",
+   "report_id": "hana_1288878",
+   "title": "두산 (000150.KS/매수): 전방 수요 지속 상향조정 중",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 2420000.0,
+   "tp_status": null,
+   "price": 1512000.0,
+   "upside_pct": 60.1,
+   "estimates": {
+    "2026": {
+     "revenue": 21424.9,
+     "op": 1717.3,
+     "net": 697.2,
+     "eps": 33309.0
+    },
+    "2027": {
+     "revenue": 23458.9,
+     "op": 2226.1,
+     "net": 950.0,
+     "eps": 45060.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 21853.0,
+     "op": 1794.7,
+     "net": 919.6,
+     "eps": 23291.0
+    },
+    "2027": {
+     "revenue": 25245.2,
+     "op": 2509.5,
+     "net": 1312.7,
+     "eps": 36197.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1717.3,
+    "consensus": 1794.7,
+    "gap_pct": -4.3
+   }
+  },
+  {
+   "date": "2026-09-28",
+   "report_id": "hana_1288899",
+   "title": "하루에 하나 0929",
+   "primary": false,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 2420000.0,
+   "tp_status": null,
+   "price": 1512000.0,
+   "upside_pct": 60.1,
+   "estimates": {
+    "2026": {
+     "revenue": 21424.9,
+     "op": 1717.3,
+     "net": 697.2,
+     "eps": 33309.0
+    },
+    "2027": {
+     "revenue": 23458.9,
+     "op": 2226.1,
+     "net": 950.0,
+     "eps": 45060.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 21853.0,
+     "op": 1794.7,
+     "net": 919.6,
+     "eps": 23291.0
+    },
+    "2027": {
+     "revenue": 25245.2,
+     "op": 2509.5,
+     "net": 1312.7,
+     "eps": 36197.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1717.3,
+    "consensus": 1794.7,
+    "gap_pct": -4.3
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-07-27",
+   "prev_date": "2025-05-21",
+   "days": 67,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 570000.0,
+   "tp_to": 846000.0,
+   "tp_pct": 48.4,
+   "tp_speed30": 21.7,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-10",
+   "prev_date": "2025-07-27",
+   "days": 106,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 846000.0,
+   "tp_to": 1330000.0,
+   "tp_pct": 57.2,
+   "tp_speed30": 16.2,
+   "report_id": null
+  },
+  {
+   "date": "2026-03-16",
+   "prev_date": "2025-11-10",
+   "days": 126,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1330000.0,
+   "tp_to": 1670000.0,
+   "tp_pct": 25.6,
+   "tp_speed30": 6.1,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-30",
+   "prev_date": "2026-03-16",
+   "days": 45,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1670000.0,
+   "tp_to": 2420000.0,
+   "tp_pct": 44.9,
+   "tp_speed30": 29.9,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

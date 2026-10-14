@@ -1,0 +1,166 @@
+{
+ "id": "105630",
+ "code": "105630",
+ "name": "한세실업",
+ "industry": "유통·소비재",
+ "timeline": [
+  {
+   "date": "2023-11-01",
+   "rating": "매수",
+   "target_price": 29000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-25",
+   "rating": "매수",
+   "target_price": 23000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-02-25",
+   "rating": "매수",
+   "target_price": 17000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-08-18",
+   "rating": "매수",
+   "target_price": 12000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-12",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1289086",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-08-18",
+   "note": "년 경과"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-08",
+   "report_id": "hana_1289036",
+   "title": "중소형주 소비업종(Overweight) : 중소형주 소비주의 미래: Covid-19 이전에 봤던 Deja Vu",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 2120.0,
+     "op": 101.0,
+     "net": 57.0,
+     "eps": 1416.0
+    },
+    "2027": {
+     "revenue": 2209.0,
+     "op": 106.0,
+     "net": 70.0,
+     "eps": 1739.0
+    }
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "report_id": "hana_1289086",
+   "title": "한세실업 (105630.KS): 높은 경쟁 강도 속 경쟁력도 강화되는 중",
+   "primary": true,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 2120.0,
+     "op": 101.0,
+     "net": 57.0,
+     "eps": 1416.0
+    },
+    "2027": {
+     "revenue": 2209.0,
+     "op": 106.0,
+     "net": 70.0,
+     "eps": 1739.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-10-25",
+   "prev_date": "2023-11-01",
+   "days": 359,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 29000.0,
+   "tp_to": 23000.0,
+   "tp_pct": -20.7,
+   "tp_speed30": -1.7,
+   "report_id": null
+  },
+  {
+   "date": "2025-02-25",
+   "prev_date": "2024-10-25",
+   "days": 123,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 23000.0,
+   "tp_to": 17000.0,
+   "tp_pct": -26.1,
+   "tp_speed30": -6.4,
+   "report_id": null
+  },
+  {
+   "date": "2025-08-18",
+   "prev_date": "2025-02-25",
+   "days": 174,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 17000.0,
+   "tp_to": 12000.0,
+   "tp_pct": -29.4,
+   "tp_speed30": -5.1,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2025-08-18",
+   "days": 420,
+   "rating_from": "매수",
+   "rating_to": "NR",
+   "tp_from": 12000.0,
+   "tp_to": null,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": "hana_1289086",
+   "note": "1년 경과"
+  }
+ ],
+ "events": [
+  "2026-10-12:105630:coverage_end:"
+ ]
+}

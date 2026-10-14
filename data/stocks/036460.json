@@ -1,0 +1,86 @@
+{
+ "id": "036460",
+ "code": "036460",
+ "name": "한국가스공사",
+ "industry": "에너지·가스",
+ "timeline": [
+  {
+   "date": "2024-09-06",
+   "rating": "매수",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-18",
+   "rating": "매수",
+   "target_price": 55000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-20",
+   "rating": "매수",
+   "target_price": 55000.0,
+   "source": "report",
+   "report_id": "hana_1288828",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-20",
+   "report_id": "hana_1288828",
+   "title": "에너지(Overweight): 올겨울 패딩 대신 LNG",
+   "primary": false,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 55000.0,
+   "tp_status": null,
+   "price": 35250.0,
+   "upside_pct": 56.0,
+   "estimates": {
+    "2026": {
+     "revenue": 36238.6,
+     "op": 2650.9,
+     "net": 1313.5,
+     "eps": 14229.0
+    },
+    "2027": {
+     "revenue": 37275.5,
+     "op": 2343.6,
+     "net": 1082.4,
+     "eps": 11725.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 37172.3,
+     "op": 2538.0,
+     "net": 1164.3,
+     "eps": 12569.0
+    },
+    "2027": {
+     "revenue": 38720.6,
+     "op": 2403.4,
+     "net": 1043.8,
+     "eps": 11268.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 2650.9,
+    "consensus": 2538.0,
+    "gap_pct": 4.4
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

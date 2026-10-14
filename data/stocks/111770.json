@@ -1,0 +1,77 @@
+{
+ "id": "111770",
+ "code": "111770",
+ "name": "영원무역",
+ "industry": "유통·소비재",
+ "timeline": [
+  {
+   "date": "2026-10-12",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1289083",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-08",
+   "report_id": "hana_1289036",
+   "title": "중소형주 소비업종(Overweight) : 중소형주 소비주의 미래: Covid-19 이전에 봤던 Deja Vu",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 4500.0,
+     "op": 637.0,
+     "net": 554.0,
+     "eps": 13485.0
+    },
+    "2027": {
+     "revenue": 4681.0,
+     "op": 706.0,
+     "net": 584.0,
+     "eps": 14302.0
+    }
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "report_id": "hana_1289083",
+   "title": "영원무역 (111770.KS): 스캇의 성장을 기다리며",
+   "primary": true,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 4500.0,
+     "op": 637.0,
+     "net": 554.0,
+     "eps": 13485.0
+    },
+    "2027": {
+     "revenue": 4681.0,
+     "op": 706.0,
+     "net": 584.0,
+     "eps": 14302.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

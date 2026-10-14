@@ -1,0 +1,65 @@
+{
+ "id": "489460",
+ "code": "489460",
+ "name": "바이오비쥬",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2026-07-30",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-08",
+   "report_id": "hana_1289036",
+   "title": "중소형주 소비업종(Overweight) : 중소형주 소비주의 미래: Covid-19 이전에 봤던 Deja Vu",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 380.0,
+     "op": 100.0,
+     "net": 100.0,
+     "eps": null
+    }
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "report_id": "hana_1289076",
+   "title": "바이오비쥬(489460.KQ): ECM 셀리비온 분기 성장 순항 중",
+   "primary": true,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 380.0,
+     "op": 100.0,
+     "net": 100.0,
+     "eps": null
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

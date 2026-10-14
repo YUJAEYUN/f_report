@@ -1,0 +1,22 @@
+{
+ "id": "005710",
+ "code": "005710",
+ "name": "대원산업",
+ "industry": "자동차·부품",
+ "timeline": [
+  {
+   "date": "2024-04-02",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

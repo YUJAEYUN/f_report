@@ -1,0 +1,125 @@
+{
+ "id": "001120",
+ "code": "001120",
+ "name": "LX인터내셔널",
+ "industry": "지주·상사",
+ "timeline": [
+  {
+   "date": "2023-11-08",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-02",
+   "rating": "매수",
+   "target_price": 46000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-01",
+   "rating": "매수",
+   "target_price": 66000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-29",
+   "rating": "매수",
+   "target_price": 66000.0,
+   "source": "report",
+   "report_id": "hana_1288913",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2024-11-08",
+   "note": "년 경과"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-09-29",
+   "report_id": "hana_1288913",
+   "title": "LX인터내셔널(001120.KS/매수): 물류가 큰일 한다",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 66000.0,
+   "tp_status": null,
+   "price": 40400.0,
+   "upside_pct": 63.4,
+   "estimates": {
+    "2026": {
+     "revenue": 18883.8,
+     "op": 529.2,
+     "net": 309.3,
+     "eps": 7980.0
+    },
+    "2027": {
+     "revenue": 19045.0,
+     "op": 596.3,
+     "net": 361.8,
+     "eps": 9336.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 18823.0,
+     "op": 465.7,
+     "net": 310.7,
+     "eps": 6992.0
+    },
+    "2027": {
+     "revenue": 18653.4,
+     "op": 462.6,
+     "net": 326.3,
+     "eps": 7414.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 529.2,
+    "consensus": 465.7,
+    "gap_pct": 13.6
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-02-02",
+   "prev_date": "2023-11-08",
+   "days": 817,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 40000.0,
+   "tp_to": 46000.0,
+   "tp_pct": 15.0,
+   "tp_speed30": 0.6,
+   "report_id": null,
+   "note": "1년 경과"
+  },
+  {
+   "date": "2026-04-01",
+   "prev_date": "2026-02-02",
+   "days": 58,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 46000.0,
+   "tp_to": 66000.0,
+   "tp_pct": 43.5,
+   "tp_speed30": 22.5,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

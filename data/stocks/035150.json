@@ -1,0 +1,100 @@
+{
+ "id": "035150",
+ "code": "035150",
+ "name": "백산",
+ "industry": "자동차·부품",
+ "timeline": [
+  {
+   "date": "2024-05-17",
+   "rating": "매수",
+   "target_price": 23000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-12",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1289085",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-08",
+   "report_id": "hana_1289036",
+   "title": "중소형주 소비업종(Overweight) : 중소형주 소비주의 미래: Covid-19 이전에 봤던 Deja Vu",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 537.0,
+     "op": 65.0,
+     "net": 49.0,
+     "eps": 2456.0
+    },
+    "2027": {
+     "revenue": 566.0,
+     "op": 70.0,
+     "net": 55.0,
+     "eps": 2772.0
+    }
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "report_id": "hana_1289085",
+   "title": "백산 (035150.KS): 새로운 돌파구를 찾아서",
+   "primary": true,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 537.0,
+     "op": 65.0,
+     "net": 49.0,
+     "eps": 2456.0
+    },
+    "2027": {
+     "revenue": 566.0,
+     "op": 70.0,
+     "net": 55.0,
+     "eps": 2772.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-10-12",
+   "prev_date": "2024-05-17",
+   "days": 878,
+   "rating_from": "매수",
+   "rating_to": "NR",
+   "tp_from": 23000.0,
+   "tp_to": null,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": "hana_1289085"
+  }
+ ],
+ "events": [
+  "2026-10-12:035150:coverage_end:"
+ ]
+}

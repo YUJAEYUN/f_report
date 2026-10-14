@@ -1,0 +1,199 @@
+{
+ "id": "035420",
+ "code": "035420",
+ "name": "NAVER",
+ "industry": "인터넷·플랫폼",
+ "timeline": [
+  {
+   "date": "2024-04-16",
+   "rating": "매수",
+   "target_price": 260000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-07-03",
+   "rating": "매수",
+   "target_price": 240000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-11-11",
+   "rating": "매수",
+   "target_price": 250000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-02-10",
+   "rating": "매수",
+   "target_price": 270000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-06-23",
+   "rating": "매수",
+   "target_price": 320000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-05",
+   "rating": "매수",
+   "target_price": 350000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-06-09",
+   "rating": "매수",
+   "target_price": 400000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-01",
+   "rating": "매수",
+   "target_price": 400000.0,
+   "source": "report",
+   "report_id": "hana_1288939",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288939",
+   "title": "NAVER (035420.KS/매수): 모든 우려가 반영된 주가, 기회로 삼자",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 400000.0,
+   "tp_status": null,
+   "price": 191200.0,
+   "upside_pct": 109.2,
+   "estimates": {
+    "2026": {
+     "revenue": 13731.3,
+     "op": 2041.9,
+     "net": 1997.9,
+     "eps": 12829.0
+    },
+    "2027": {
+     "revenue": 16587.3,
+     "op": 2640.0,
+     "net": 2615.0,
+     "eps": 16412.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 13796.1,
+     "op": 2196.0,
+     "net": 1967.1,
+     "eps": 12552.0
+    },
+    "2027": {
+     "revenue": 15761.8,
+     "op": 2576.1,
+     "net": 2251.4,
+     "eps": 14130.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 2041.9,
+    "consensus": 2196.0,
+    "gap_pct": -7.0
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-07-03",
+   "prev_date": "2024-04-16",
+   "days": 78,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 260000.0,
+   "tp_to": 240000.0,
+   "tp_pct": -7.7,
+   "tp_speed30": -3.0,
+   "report_id": null
+  },
+  {
+   "date": "2024-11-11",
+   "prev_date": "2024-07-03",
+   "days": 131,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 240000.0,
+   "tp_to": 250000.0,
+   "tp_pct": 4.2,
+   "tp_speed30": 1.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-02-10",
+   "prev_date": "2024-11-11",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 250000.0,
+   "tp_to": 270000.0,
+   "tp_pct": 8.0,
+   "tp_speed30": 2.6,
+   "report_id": null
+  },
+  {
+   "date": "2025-06-23",
+   "prev_date": "2025-02-10",
+   "days": 133,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 270000.0,
+   "tp_to": 320000.0,
+   "tp_pct": 18.5,
+   "tp_speed30": 4.2,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-05",
+   "prev_date": "2025-06-23",
+   "days": 135,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 320000.0,
+   "tp_to": 350000.0,
+   "tp_pct": 9.4,
+   "tp_speed30": 2.1,
+   "report_id": null
+  },
+  {
+   "date": "2026-06-09",
+   "prev_date": "2025-11-05",
+   "days": 216,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 350000.0,
+   "tp_to": 400000.0,
+   "tp_pct": 14.3,
+   "tp_speed30": 2.0,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

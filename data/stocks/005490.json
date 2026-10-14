@@ -1,0 +1,78 @@
+{
+ "id": "005490",
+ "code": "005490",
+ "name": "POSCO홀딩스",
+ "industry": "철강·금속",
+ "timeline": [
+  {
+   "date": "2023-10-06",
+   "rating": "매수",
+   "target_price": 740000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-05",
+   "rating": "매수",
+   "target_price": 740000.0,
+   "source": "report",
+   "report_id": "hana_1288969",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-05",
+   "report_id": "hana_1288969",
+   "title": "POSCO홀딩스(005490.KS/매수): 안정적인 영업실적 달성 중",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 740000.0,
+   "tp_status": null,
+   "price": 311000.0,
+   "upside_pct": 137.9,
+   "estimates": {
+    "2026": {
+     "revenue": 75816.2,
+     "op": 3150.9,
+     "net": 1875.7,
+     "eps": 23549.0
+    },
+    "2027": {
+     "revenue": 77563.2,
+     "op": 4029.9,
+     "net": 2363.5,
+     "eps": 29827.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 73661.5,
+     "op": 3060.0,
+     "net": 2096.2,
+     "eps": 23607.0
+    },
+    "2027": {
+     "revenue": 76195.3,
+     "op": 3771.4,
+     "net": 2534.6,
+     "eps": 28946.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 3150.9,
+    "consensus": 3060.0,
+    "gap_pct": 3.0
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

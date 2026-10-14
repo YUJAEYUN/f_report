@@ -1,0 +1,149 @@
+{
+ "id": "241710",
+ "code": "241710",
+ "name": "코스메카코리아",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2024-08-13",
+   "rating": "매수",
+   "target_price": 120000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-07",
+   "rating": "매수",
+   "target_price": 93000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-02-24",
+   "rating": "매수",
+   "target_price": 77000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-13",
+   "rating": "매수",
+   "target_price": 65000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-14",
+   "rating": "매수",
+   "target_price": 78000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-02",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-08-20",
+   "rating": "매수",
+   "target_price": 147000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-06-04",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-01-07",
+   "prev_date": "2024-08-13",
+   "days": 147,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 120000.0,
+   "tp_to": 93000.0,
+   "tp_pct": -22.5,
+   "tp_speed30": -4.6,
+   "report_id": null
+  },
+  {
+   "date": "2025-02-24",
+   "prev_date": "2025-01-07",
+   "days": 48,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 93000.0,
+   "tp_to": 77000.0,
+   "tp_pct": -17.2,
+   "tp_speed30": -10.8,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-13",
+   "prev_date": "2025-02-24",
+   "days": 78,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 77000.0,
+   "tp_to": 65000.0,
+   "tp_pct": -15.6,
+   "tp_speed30": -6.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-14",
+   "prev_date": "2025-05-13",
+   "days": 62,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 65000.0,
+   "tp_to": 78000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": 9.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-02",
+   "prev_date": "2025-07-14",
+   "days": 353,
+   "rating_from": "매수",
+   "rating_to": "NR",
+   "tp_from": 78000.0,
+   "tp_to": null,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null,
+   "note": "담당자 변경"
+  },
+  {
+   "date": "2026-08-20",
+   "prev_date": "2026-07-02",
+   "days": 49,
+   "rating_from": "NR",
+   "rating_to": "매수",
+   "tp_from": null,
+   "tp_to": 147000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

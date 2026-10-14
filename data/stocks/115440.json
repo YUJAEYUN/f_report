@@ -1,0 +1,119 @@
+{
+ "id": "115440",
+ "code": "115440",
+ "name": "우리넷",
+ "industry": "통신장비",
+ "timeline": [
+  {
+   "date": "2025-02-17",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-31",
+   "rating": "매수",
+   "target_price": 10000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-03-25",
+   "rating": "매수",
+   "target_price": 15000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-14",
+   "rating": "매수",
+   "target_price": 25000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-22",
+   "rating": "매수",
+   "target_price": 25000.0,
+   "source": "report",
+   "report_id": "hana_1288854",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-22",
+   "report_id": "hana_1288854",
+   "title": "우리넷(115440.KQ/매수): 양자암호 주도주로서 진가가 드러날 것입니다",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 25000.0,
+   "tp_status": null,
+   "price": 9330.0,
+   "upside_pct": 168.0,
+   "estimates": {
+    "2026": {
+     "revenue": 81.1,
+     "op": 3.1,
+     "net": 5.6,
+     "eps": 520.0
+    },
+    "2027": {
+     "revenue": 135.3,
+     "op": 18.7,
+     "net": 23.8,
+     "eps": 2206.0
+    }
+   },
+   "consensus": {}
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-07-31",
+   "prev_date": "2025-02-17",
+   "days": 164,
+   "rating_from": "NR",
+   "rating_to": "매수",
+   "tp_from": null,
+   "tp_to": 10000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null
+  },
+  {
+   "date": "2026-03-25",
+   "prev_date": "2025-07-31",
+   "days": 237,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 10000.0,
+   "tp_to": 15000.0,
+   "tp_pct": 50.0,
+   "tp_speed30": 6.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-14",
+   "prev_date": "2026-03-25",
+   "days": 20,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 15000.0,
+   "tp_to": 25000.0,
+   "tp_pct": 66.7,
+   "tp_speed30": 100.0,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

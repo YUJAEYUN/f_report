@@ -1,0 +1,22 @@
+{
+ "id": "013990",
+ "code": "013990",
+ "name": "아가방컴퍼니",
+ "industry": "유통·소비재",
+ "timeline": [
+  {
+   "date": "2026-10-12",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1289080",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

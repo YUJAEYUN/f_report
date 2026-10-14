@@ -1,0 +1,99 @@
+{
+ "id": "004020",
+ "code": "004020",
+ "name": "현대제철",
+ "industry": "철강·금속",
+ "timeline": [
+  {
+   "date": "2024-07-04",
+   "rating": "매수",
+   "target_price": 43000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-04",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-05",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "report",
+   "report_id": "hana_1288971",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-05",
+   "report_id": "hana_1288971",
+   "title": "현대제철 (004020.KS/매수): 예상보다 더딘 영업실적 회복",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 50000.0,
+   "tp_status": null,
+   "price": 30000.0,
+   "upside_pct": 66.7,
+   "estimates": {
+    "2026": {
+     "revenue": 23858.8,
+     "op": 305.0,
+     "net": 41.4,
+     "eps": 310.0
+    },
+    "2027": {
+     "revenue": 25046.0,
+     "op": 702.8,
+     "net": 324.3,
+     "eps": 2430.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 24014.7,
+     "op": 359.5,
+     "net": 117.8,
+     "eps": 729.0
+    },
+    "2027": {
+     "revenue": 24968.8,
+     "op": 671.4,
+     "net": 355.6,
+     "eps": 2469.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 305.0,
+    "consensus": 359.5,
+    "gap_pct": -15.2
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-07-04",
+   "prev_date": "2024-07-04",
+   "days": 365,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 43000.0,
+   "tp_to": 50000.0,
+   "tp_pct": 16.3,
+   "tp_speed30": 1.3,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

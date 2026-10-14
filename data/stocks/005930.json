@@ -1,0 +1,504 @@
+{
+ "id": "005930",
+ "code": "005930",
+ "name": "삼성전자",
+ "industry": "반도체",
+ "timeline": [
+  {
+   "date": "2024-07-08",
+   "rating": "매수",
+   "target_price": 117000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-15",
+   "rating": "매수",
+   "target_price": 115000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-31",
+   "rating": "매수",
+   "target_price": 133000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-14",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-12-17",
+   "rating": "매수",
+   "target_price": 155000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-30",
+   "rating": "매수",
+   "target_price": 222000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-24",
+   "rating": "매수",
+   "target_price": 250000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-03-13",
+   "rating": "매수",
+   "target_price": 300000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-04",
+   "rating": "매수",
+   "target_price": 330000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-15",
+   "rating": "매수",
+   "target_price": 430000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-06-18",
+   "rating": "매수",
+   "target_price": 480000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-01",
+   "rating": "매수",
+   "target_price": 480000.0,
+   "source": "report",
+   "report_id": "hana_1288933",
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-08",
+   "rating": "매수",
+   "target_price": 480000.0,
+   "source": "report",
+   "report_id": "hana_1289035",
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-11",
+   "rating": "매수",
+   "target_price": 480000.0,
+   "source": "report",
+   "report_id": "hana_1289059",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288933",
+   "title": "삼성전자(005930.KS/매수) : 견조한 실적에 HBM이 가세",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 480000.0,
+   "tp_status": null,
+   "price": 268500.0,
+   "upside_pct": 78.8,
+   "estimates": {
+    "2026": {
+     "revenue": 696427.0,
+     "op": 368123.3,
+     "net": 297226.1,
+     "eps": 44558.0
+    },
+    "2027": {
+     "revenue": 875004.8,
+     "op": 519419.9,
+     "net": 418802.7,
+     "eps": 62991.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 735581.5,
+     "op": 385720.4,
+     "net": 322113.1,
+     "eps": 47736.0
+    },
+    "2027": {
+     "revenue": 960729.0,
+     "op": 554818.5,
+     "net": 457265.9,
+     "eps": 67962.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 368123.3,
+    "consensus": 385720.4,
+    "gap_pct": -4.6
+   }
+  },
+  {
+   "date": "2026-10-08",
+   "report_id": "hana_1289035",
+   "title": "삼성전자(005930.KS/매수) : 강한 DRAM 가격. LPDDR 공급 부족 심화",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 480000.0,
+   "tp_status": null,
+   "price": 262000.0,
+   "upside_pct": 83.2,
+   "estimates": {
+    "2026": {
+     "revenue": 696427.0,
+     "op": 368123.3,
+     "net": 297226.1,
+     "eps": 44558.0
+    },
+    "2027": {
+     "revenue": 875004.8,
+     "op": 519419.9,
+     "net": 418802.7,
+     "eps": 62991.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 715546.6,
+     "op": 369739.5,
+     "net": 305793.8,
+     "eps": 45340.0
+    },
+    "2027": {
+     "revenue": 957080.2,
+     "op": 554111.3,
+     "net": 454891.3,
+     "eps": 67565.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 368123.3,
+    "consensus": 369739.5,
+    "gap_pct": -0.4
+   }
+  },
+  {
+   "date": "2026-10-11",
+   "report_id": "hana_1289059",
+   "title": "하루에 하나 1012",
+   "primary": false,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 480000.0,
+   "tp_status": null,
+   "price": 262000.0,
+   "upside_pct": 83.2,
+   "estimates": {
+    "2026": {
+     "revenue": 696427.0,
+     "op": 368123.3,
+     "net": 297226.1,
+     "eps": 44558.0
+    },
+    "2027": {
+     "revenue": 875004.8,
+     "op": 519419.9,
+     "net": 418802.7,
+     "eps": 62991.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 715546.6,
+     "op": 369739.5,
+     "net": 305793.8,
+     "eps": 45340.0
+    },
+    "2027": {
+     "revenue": 957080.2,
+     "op": 554111.3,
+     "net": 454891.3,
+     "eps": 67565.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 368123.3,
+    "consensus": 369739.5,
+    "gap_pct": -0.4
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [
+  {
+   "date": "2026-10-08",
+   "prev_date": "2026-10-01",
+   "days": 7,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 735581.5,
+   "to": 715546.6,
+   "pct": -2.7,
+   "speed30": -11.6,
+   "turn": null,
+   "report_id": "hana_1289035",
+   "prev_report_id": "hana_1288933"
+  },
+  {
+   "date": "2026-10-08",
+   "prev_date": "2026-10-01",
+   "days": 7,
+   "year": "2026",
+   "metric": "op",
+   "from": 385720.4,
+   "to": 369739.5,
+   "pct": -4.1,
+   "speed30": -17.6,
+   "turn": null,
+   "report_id": "hana_1289035",
+   "prev_report_id": "hana_1288933"
+  },
+  {
+   "date": "2026-10-08",
+   "prev_date": "2026-10-01",
+   "days": 7,
+   "year": "2026",
+   "metric": "net",
+   "from": 322113.1,
+   "to": 305793.8,
+   "pct": -5.1,
+   "speed30": -21.9,
+   "turn": null,
+   "report_id": "hana_1289035",
+   "prev_report_id": "hana_1288933"
+  },
+  {
+   "date": "2026-10-08",
+   "prev_date": "2026-10-01",
+   "days": 7,
+   "year": "2026",
+   "metric": "eps",
+   "from": 47736.0,
+   "to": 45340.0,
+   "pct": -5.0,
+   "speed30": -21.4,
+   "turn": null,
+   "report_id": "hana_1289035",
+   "prev_report_id": "hana_1288933"
+  },
+  {
+   "date": "2026-10-08",
+   "prev_date": "2026-10-01",
+   "days": 7,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 960729.0,
+   "to": 957080.2,
+   "pct": -0.4,
+   "speed30": -1.7,
+   "turn": null,
+   "report_id": "hana_1289035",
+   "prev_report_id": "hana_1288933"
+  },
+  {
+   "date": "2026-10-08",
+   "prev_date": "2026-10-01",
+   "days": 7,
+   "year": "2027",
+   "metric": "op",
+   "from": 554818.5,
+   "to": 554111.3,
+   "pct": -0.1,
+   "speed30": -0.4,
+   "turn": null,
+   "report_id": "hana_1289035",
+   "prev_report_id": "hana_1288933"
+  },
+  {
+   "date": "2026-10-08",
+   "prev_date": "2026-10-01",
+   "days": 7,
+   "year": "2027",
+   "metric": "net",
+   "from": 457265.9,
+   "to": 454891.3,
+   "pct": -0.5,
+   "speed30": -2.1,
+   "turn": null,
+   "report_id": "hana_1289035",
+   "prev_report_id": "hana_1288933"
+  },
+  {
+   "date": "2026-10-08",
+   "prev_date": "2026-10-01",
+   "days": 7,
+   "year": "2027",
+   "metric": "eps",
+   "from": 67962.0,
+   "to": 67565.0,
+   "pct": -0.6,
+   "speed30": -2.6,
+   "turn": null,
+   "report_id": "hana_1289035",
+   "prev_report_id": "hana_1288933"
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2025-10-15",
+   "prev_date": "2024-07-08",
+   "days": 464,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 117000.0,
+   "tp_to": 115000.0,
+   "tp_pct": -1.7,
+   "tp_speed30": -0.1,
+   "report_id": null
+  },
+  {
+   "date": "2025-10-31",
+   "prev_date": "2025-10-15",
+   "days": 16,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 115000.0,
+   "tp_to": 133000.0,
+   "tp_pct": 15.7,
+   "tp_speed30": 29.4,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-14",
+   "prev_date": "2025-10-31",
+   "days": 14,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 133000.0,
+   "tp_to": 140000.0,
+   "tp_pct": 5.3,
+   "tp_speed30": 11.4,
+   "report_id": null
+  },
+  {
+   "date": "2025-12-17",
+   "prev_date": "2025-11-14",
+   "days": 33,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 140000.0,
+   "tp_to": 155000.0,
+   "tp_pct": 10.7,
+   "tp_speed30": 9.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-30",
+   "prev_date": "2025-12-17",
+   "days": 44,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 155000.0,
+   "tp_to": 222000.0,
+   "tp_pct": 43.2,
+   "tp_speed30": 29.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-24",
+   "prev_date": "2026-01-30",
+   "days": 25,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 222000.0,
+   "tp_to": 250000.0,
+   "tp_pct": 12.6,
+   "tp_speed30": 15.1,
+   "report_id": null
+  },
+  {
+   "date": "2026-03-13",
+   "prev_date": "2026-02-24",
+   "days": 17,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 250000.0,
+   "tp_to": 300000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": 35.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-04",
+   "prev_date": "2026-03-13",
+   "days": 52,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 300000.0,
+   "tp_to": 330000.0,
+   "tp_pct": 10.0,
+   "tp_speed30": 5.8,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-15",
+   "prev_date": "2026-05-04",
+   "days": 11,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 330000.0,
+   "tp_to": 430000.0,
+   "tp_pct": 30.3,
+   "tp_speed30": 82.6,
+   "report_id": null
+  },
+  {
+   "date": "2026-06-18",
+   "prev_date": "2026-05-15",
+   "days": 34,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 430000.0,
+   "tp_to": 480000.0,
+   "tp_pct": 11.6,
+   "tp_speed30": 10.2,
+   "report_id": null
+  }
+ ],
+ "events": [
+  "2026-10-08:005930:cons_down:2026eps"
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "id": "018260",
+ "code": "018260",
+ "name": "삼성에스디에스",
+ "industry": "소프트웨어·AI",
+ "timeline": [
+  {
+   "date": "2024-05-21",
+   "rating": "매수",
+   "target_price": 220000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-05",
+   "rating": "매수",
+   "target_price": 190000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-13",
+   "rating": "매수",
+   "target_price": 220000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-07",
+   "rating": "매수",
+   "target_price": 240000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-11",
+   "rating": "매수",
+   "target_price": 240000.0,
+   "source": "report",
+   "report_id": "hana_1289051",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-11",
+   "report_id": "hana_1289051",
+   "title": "삼성에스디에스 (018260.KS/매수): AI DC 추가 확보, 글로벌 사업 추진 기대",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 240000.0,
+   "tp_status": null,
+   "price": 195300.0,
+   "upside_pct": 22.9,
+   "estimates": {
+    "2026": {
+     "revenue": 14607.3,
+     "op": 818.4,
+     "net": 664.3,
+     "eps": 8586.0
+    },
+    "2027": {
+     "revenue": 15295.6,
+     "op": 1068.7,
+     "net": 854.0,
+     "eps": 11037.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 14427.2,
+     "op": 820.8,
+     "net": 702.8,
+     "eps": 8939.0
+    },
+    "2027": {
+     "revenue": 15158.2,
+     "op": 1063.1,
+     "net": 893.0,
+     "eps": 11351.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 818.4,
+    "consensus": 820.8,
+    "gap_pct": -0.3
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-01-05",
+   "prev_date": "2024-05-21",
+   "days": 229,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 220000.0,
+   "tp_to": 190000.0,
+   "tp_pct": -13.6,
+   "tp_speed30": -1.8,
+   "report_id": null
+  },
+  {
+   "date": "2025-10-13",
+   "prev_date": "2025-01-05",
+   "days": 281,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 190000.0,
+   "tp_to": 220000.0,
+   "tp_pct": 15.8,
+   "tp_speed30": 1.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-07",
+   "prev_date": "2025-10-13",
+   "days": 267,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 220000.0,
+   "tp_to": 240000.0,
+   "tp_pct": 9.1,
+   "tp_speed30": 1.0,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

@@ -1,0 +1,43 @@
+{
+ "id": "에스티팜",
+ "code": null,
+ "name": "에스티팜",
+ "industry": "제약·바이오",
+ "timeline": [
+  {
+   "date": "2026-03-09",
+   "rating": "매수",
+   "target_price": 210000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-29",
+   "rating": "매수",
+   "target_price": 190000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-07-29",
+   "prev_date": "2026-03-09",
+   "days": 142,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 210000.0,
+   "tp_to": 190000.0,
+   "tp_pct": -9.5,
+   "tp_speed30": -2.0,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

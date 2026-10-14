@@ -1,0 +1,123 @@
+{
+ "id": "114840",
+ "code": "114840",
+ "name": "아이패밀리에스씨",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2024-08-11",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-28",
+   "rating": "매수",
+   "target_price": 35000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-09",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-01",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1288929",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-05-09",
+   "note": "년 경과"
+  },
+  {
+   "date": "2026-09-29",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288929",
+   "title": "화장품(Overweight): K-뷰티 중소형주 31",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 245.0,
+     "op": 23.0,
+     "net": 19.0,
+     "eps": 1119.0
+    },
+    "2027": {
+     "revenue": 264.0,
+     "op": 25.0,
+     "net": 22.0,
+     "eps": 1319.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-10-28",
+   "prev_date": "2024-08-11",
+   "days": 78,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 40000.0,
+   "tp_to": 35000.0,
+   "tp_pct": -12.5,
+   "tp_speed30": -4.8,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-09",
+   "prev_date": "2024-10-28",
+   "days": 193,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 35000.0,
+   "tp_to": 30000.0,
+   "tp_pct": -14.3,
+   "tp_speed30": -2.2,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2025-05-09",
+   "days": 510,
+   "rating_from": "매수",
+   "rating_to": "NR",
+   "tp_from": 30000.0,
+   "tp_to": null,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": "hana_1288929",
+   "note": "1년 경과, 담당자 변경"
+  }
+ ],
+ "events": [
+  "2026-10-01:114840:coverage_end:"
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "id": "064960",
+ "code": "064960",
+ "name": "SNT모티브",
+ "industry": "자동차·부품",
+ "timeline": [
+  {
+   "date": "2024-04-25",
+   "rating": "매수",
+   "target_price": 29753.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-03-13",
+   "rating": "매수",
+   "target_price": 31000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-25",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-28",
+   "rating": "매수",
+   "target_price": 44000.0,
+   "source": "report",
+   "report_id": "hana_1288892",
+   "tp_status": "상향"
+  },
+  {
+   "date": "2026-09-29",
+   "rating": "매수",
+   "target_price": 44000.0,
+   "source": "table",
+   "report_id": "hana_1288892",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-07-25",
+   "note": "년 경과"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-09-28",
+   "report_id": "hana_1288892",
+   "title": "SNT모티브(064960.KS/매수): 자기주식 10% 소각",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 44000.0,
+   "tp_status": "상향",
+   "price": 27400.0,
+   "upside_pct": 60.6,
+   "estimates": {
+    "2026": {
+     "revenue": 1030.1,
+     "op": 104.4,
+     "net": 91.0,
+     "eps": 3430.0
+    },
+    "2027": {
+     "revenue": 1120.2,
+     "op": 114.2,
+     "net": 99.2,
+     "eps": 4163.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1033.9,
+     "op": 106.3,
+     "net": 93.3,
+     "eps": 3520.0
+    },
+    "2027": {
+     "revenue": 1139.5,
+     "op": 119.7,
+     "net": 103.1,
+     "eps": 3889.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 104.4,
+    "consensus": 106.3,
+    "gap_pct": -1.8
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-03-13",
+   "prev_date": "2024-04-25",
+   "days": 322,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 29753.0,
+   "tp_to": 31000.0,
+   "tp_pct": 4.2,
+   "tp_speed30": 0.4,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-25",
+   "prev_date": "2025-03-13",
+   "days": 134,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 31000.0,
+   "tp_to": 40000.0,
+   "tp_pct": 29.0,
+   "tp_speed30": 6.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-09-28",
+   "prev_date": "2025-07-25",
+   "days": 430,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 40000.0,
+   "tp_to": 44000.0,
+   "tp_pct": 10.0,
+   "tp_speed30": 0.7,
+   "report_id": "hana_1288892",
+   "note": "1년 경과"
+  }
+ ],
+ "events": []
+}

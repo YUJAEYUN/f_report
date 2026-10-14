@@ -1,0 +1,49 @@
+[
+ {
+  "id": "2026-10-08:373220:gap_below:",
+  "date": "2026-10-08",
+  "type": "gap_below",
+  "severity": 5.0,
+  "stock_id": "373220",
+  "code": "373220",
+  "name": "LG에너지솔루션",
+  "industry": "2차전지",
+  "report_id": "hana_1289033",
+  "headline": "2026년 영업이익 추정 적자(-167억원), 컨센서스는 흑자(8,647억원)",
+  "data": {
+   "year": "2026",
+   "metric": "op",
+   "estimate": -16.7,
+   "consensus": 864.7,
+   "gap_pct": -101.9
+  },
+  "title": "LG에너지솔루션(373220.KS/매수) : 북미 ESS 물량 증가 지속"
+ },
+ {
+  "id": "2026-10-08:005930:cons_down:2026eps",
+  "date": "2026-10-08",
+  "type": "cons_down",
+  "severity": 1.0,
+  "stock_id": "005930",
+  "code": "005930",
+  "name": "삼성전자",
+  "industry": "반도체",
+  "report_id": "hana_1289035",
+  "headline": "컨센서스 2026년 EPS -5.0% (47,736원 → 45,340원)",
+  "data": {
+   "date": "2026-10-08",
+   "prev_date": "2026-10-01",
+   "days": 7,
+   "year": "2026",
+   "metric": "eps",
+   "from": 47736.0,
+   "to": 45340.0,
+   "pct": -5.0,
+   "speed30": -21.4,
+   "turn": null,
+   "report_id": "hana_1289035",
+   "prev_report_id": "hana_1288933"
+  },
+  "title": "삼성전자(005930.KS/매수) : 강한 DRAM 가격. LPDDR 공급 부족 심화"
+ }
+]

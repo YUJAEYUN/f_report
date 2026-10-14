@@ -1,0 +1,185 @@
+{
+ "id": "097950",
+ "code": "097950",
+ "name": "CJ제일제당",
+ "industry": "음식료·담배",
+ "timeline": [
+  {
+   "date": "2023-10-10",
+   "rating": "매수",
+   "target_price": 480000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-02-12",
+   "rating": "매수",
+   "target_price": 420000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-14",
+   "rating": "매수",
+   "target_price": 380000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-09-30",
+   "rating": "매수",
+   "target_price": 350000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-14",
+   "rating": "매수",
+   "target_price": 300000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-19",
+   "rating": "매수",
+   "target_price": 370000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-01",
+   "rating": "매수",
+   "target_price": 370000.0,
+   "source": "report",
+   "report_id": "hana_1288936",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2024-10-10",
+   "note": "년 경과"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288936",
+   "title": "CJ제일제당(097950.KS/매수): 3Q26 Pre: 바이오 견조 VS. 식품 부진",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 370000.0,
+   "tp_status": null,
+   "price": 178000.0,
+   "upside_pct": 107.9,
+   "estimates": {
+    "2026": {
+     "revenue": 28996.3,
+     "op": 1220.5,
+     "net": 292.2,
+     "eps": 17836.0
+    },
+    "2027": {
+     "revenue": 30614.8,
+     "op": 1430.7,
+     "net": 456.9,
+     "eps": 27889.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 29304.5,
+     "op": 1207.8,
+     "net": 416.2,
+     "eps": 18560.0
+    },
+    "2027": {
+     "revenue": 30501.2,
+     "op": 1397.9,
+     "net": 569.1,
+     "eps": 26419.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1220.5,
+    "consensus": 1207.8,
+    "gap_pct": 1.1
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-02-12",
+   "prev_date": "2023-10-10",
+   "days": 491,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 480000.0,
+   "tp_to": 420000.0,
+   "tp_pct": -12.5,
+   "tp_speed30": -0.8,
+   "report_id": null,
+   "note": "1년 경과"
+  },
+  {
+   "date": "2025-05-14",
+   "prev_date": "2025-02-12",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 420000.0,
+   "tp_to": 380000.0,
+   "tp_pct": -9.5,
+   "tp_speed30": -3.1,
+   "report_id": null
+  },
+  {
+   "date": "2025-09-30",
+   "prev_date": "2025-05-14",
+   "days": 139,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 380000.0,
+   "tp_to": 350000.0,
+   "tp_pct": -7.9,
+   "tp_speed30": -1.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-14",
+   "prev_date": "2025-09-30",
+   "days": 106,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 350000.0,
+   "tp_to": 300000.0,
+   "tp_pct": -14.3,
+   "tp_speed30": -4.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-19",
+   "prev_date": "2026-01-14",
+   "days": 125,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 300000.0,
+   "tp_to": 370000.0,
+   "tp_pct": 23.3,
+   "tp_speed30": 5.6,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

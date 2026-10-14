@@ -1,0 +1,50 @@
+{
+ "id": "318160",
+ "code": "318160",
+ "name": "셀바이오휴먼텍",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2026-09-10",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288929",
+   "title": "화장품(Overweight): K-뷰티 중소형주 31",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 67.0,
+     "op": 10.0,
+     "net": 8.0,
+     "eps": 858.0
+    },
+    "2027": {
+     "revenue": 84.0,
+     "op": 13.0,
+     "net": 11.0,
+     "eps": 1164.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

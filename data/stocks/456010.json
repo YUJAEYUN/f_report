@@ -1,0 +1,352 @@
+{
+ "id": "456010",
+ "code": "456010",
+ "name": "아이씨티케이",
+ "industry": "통신장비",
+ "timeline": [
+  {
+   "date": "2025-02-18",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-15",
+   "rating": "매수",
+   "target_price": 28000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-17",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-27",
+   "rating": "매수",
+   "target_price": 60000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-17",
+   "rating": "매수",
+   "target_price": 60000.0,
+   "source": "report",
+   "report_id": "hana_1288806",
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-01",
+   "rating": "매수",
+   "target_price": 60000.0,
+   "source": "report",
+   "report_id": "hana_1288940",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-17",
+   "report_id": "hana_1288806",
+   "title": "ICTK(456010.KQ/매수): AI가 발전할수록 ICTK의 PUF가 필요합니다",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 60000.0,
+   "tp_status": null,
+   "price": 20500.0,
+   "upside_pct": 192.7,
+   "estimates": {
+    "2026": {
+     "revenue": 6.5,
+     "op": null,
+     "net": null,
+     "eps": -1085.0
+    },
+    "2027": {
+     "revenue": 16.9,
+     "op": 0.2,
+     "net": 0.8,
+     "eps": 54.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 12.8,
+     "op": -2.0,
+     "net": 0.1,
+     "eps": 7.0
+    },
+    "2027": {
+     "revenue": 25.3,
+     "op": 8.4,
+     "net": 7.3,
+     "eps": 503.0
+    }
+   }
+  },
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288940",
+   "title": "ICTK(456010.KQ/매수): 위드네트웍스 인수는 큰 호재입니다",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 60000.0,
+   "tp_status": null,
+   "price": 23550.0,
+   "upside_pct": 154.8,
+   "estimates": {
+    "2026": {
+     "revenue": 13.5,
+     "op": -7.0,
+     "net": null,
+     "eps": -1068.0
+    },
+    "2027": {
+     "revenue": 44.9,
+     "op": 1.2,
+     "net": 1.6,
+     "eps": 109.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 6.5,
+     "op": null,
+     "net": null,
+     "eps": -1086.0
+    },
+    "2027": {
+     "revenue": 16.9,
+     "op": 0.2,
+     "net": 0.8,
+     "eps": 55.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 6.5,
+   "to": 13.5,
+   "pct": null,
+   "speed30": null,
+   "turn": null,
+   "report_id": "hana_1288940",
+   "prev_report_id": "hana_1288806"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2026",
+   "metric": "eps",
+   "from": -1085.0,
+   "to": -1068.0,
+   "pct": 1.6,
+   "speed30": 3.4,
+   "turn": null,
+   "report_id": "hana_1288940",
+   "prev_report_id": "hana_1288806"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 16.9,
+   "to": 44.9,
+   "pct": 165.7,
+   "speed30": 355.1,
+   "turn": null,
+   "report_id": "hana_1288940",
+   "prev_report_id": "hana_1288806"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2027",
+   "metric": "op",
+   "from": 0.2,
+   "to": 1.2,
+   "pct": null,
+   "speed30": null,
+   "turn": null,
+   "report_id": "hana_1288940",
+   "prev_report_id": "hana_1288806"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2027",
+   "metric": "net",
+   "from": 0.8,
+   "to": 1.6,
+   "pct": null,
+   "speed30": null,
+   "turn": null,
+   "report_id": "hana_1288940",
+   "prev_report_id": "hana_1288806"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2027",
+   "metric": "eps",
+   "from": 54.0,
+   "to": 109.0,
+   "pct": null,
+   "speed30": null,
+   "turn": null,
+   "report_id": "hana_1288940",
+   "prev_report_id": "hana_1288806"
+  }
+ ],
+ "consensus_changes": [
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 12.8,
+   "to": 6.5,
+   "pct": -49.2,
+   "speed30": -105.4,
+   "turn": null,
+   "report_id": "hana_1288940",
+   "prev_report_id": "hana_1288806"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2026",
+   "metric": "eps",
+   "from": 7.0,
+   "to": -1086.0,
+   "pct": null,
+   "speed30": null,
+   "turn": "적자전환",
+   "report_id": "hana_1288940",
+   "prev_report_id": "hana_1288806"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 25.3,
+   "to": 16.9,
+   "pct": -33.2,
+   "speed30": -71.1,
+   "turn": null,
+   "report_id": "hana_1288940",
+   "prev_report_id": "hana_1288806"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2027",
+   "metric": "op",
+   "from": 8.4,
+   "to": 0.2,
+   "pct": null,
+   "speed30": null,
+   "turn": null,
+   "report_id": "hana_1288940",
+   "prev_report_id": "hana_1288806"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2027",
+   "metric": "net",
+   "from": 7.3,
+   "to": 0.8,
+   "pct": null,
+   "speed30": null,
+   "turn": null,
+   "report_id": "hana_1288940",
+   "prev_report_id": "hana_1288806"
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2026-09-17",
+   "days": 14,
+   "year": "2027",
+   "metric": "eps",
+   "from": 503.0,
+   "to": 55.0,
+   "pct": -89.1,
+   "speed30": -190.9,
+   "turn": null,
+   "report_id": "hana_1288940",
+   "prev_report_id": "hana_1288806"
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2025-05-15",
+   "prev_date": "2025-02-18",
+   "days": 86,
+   "rating_from": "NR",
+   "rating_to": "매수",
+   "tp_from": null,
+   "tp_to": 28000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-17",
+   "prev_date": "2025-05-15",
+   "days": 337,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 28000.0,
+   "tp_to": 40000.0,
+   "tp_pct": 42.9,
+   "tp_speed30": 3.8,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-27",
+   "prev_date": "2026-04-17",
+   "days": 40,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 40000.0,
+   "tp_to": 60000.0,
+   "tp_pct": 50.0,
+   "tp_speed30": 37.5,
+   "report_id": null
+  }
+ ],
+ "events": [
+  "2026-10-01:456010:cons_turn:2026eps"
+ ]
+}
