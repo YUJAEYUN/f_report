@@ -3,6 +3,9 @@
 tmp/
 tmp/**
 
+# 원문 텍스트는 raw-text 브랜치에 따로 둔다 (Actions가 이 폴더로 체크아웃)
+raw-text/
+
 # Python
 __pycache__/
 *.pyc

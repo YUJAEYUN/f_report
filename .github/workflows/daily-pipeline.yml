@@ -28,6 +28,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # 원문 텍스트 (scripts/textstore.py). main과 히스토리를 공유하지 않는 별도 브랜치
+      - uses: actions/checkout@v4
+        with:
+          ref: raw-text
+          path: raw-text
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -38,6 +44,21 @@ jobs:
 
       - name: Run collect + extract pipeline
         run: python scripts/run_pipeline.py --max-pages "${{ github.event.inputs.max_pages || '10' }}"
+
+      # 원문을 먼저 올린다: main 커밋이 올라가면 process-reports가 바로 원문을 읽기 때문
+      - name: Commit raw text
+        working-directory: raw-text
+        run: |
+          git config user.name "YUJAEYUN"
+          git config user.email "86181002+YUJAEYUN@users.noreply.github.com"
+          git add text/
+          if git diff --cached --quiet; then
+            echo "새 원문 없음"
+            exit 0
+          fi
+          git commit -m "chore: raw text $(TZ=Asia/Seoul date +%Y-%m-%dT%H:%M)"
+          git pull --rebase
+          git push
 
       - name: Commit updated data
         run: |

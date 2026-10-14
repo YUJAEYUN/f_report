@@ -47,6 +47,12 @@ jobs:
         with:
           ref: ${{ github.event.repository.default_branch }}
 
+      # 원문 텍스트 (scripts/textstore.py). main과 히스토리를 공유하지 않는 별도 브랜치
+      - uses: actions/checkout@v4
+        with:
+          ref: raw-text
+          path: raw-text
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"

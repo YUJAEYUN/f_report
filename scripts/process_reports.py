@@ -37,7 +37,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scripts.llm import LLMAuthError, LLMError, LLMRateLimitError, ask, ask_json, strip_fences
-from scripts import signals
+from scripts import signals, textstore
+from scripts.textprep import focus_text
 
 ROOT = Path(__file__).resolve().parent.parent
 REPORTS_DIR = ROOT / "data" / "reports"
@@ -49,7 +50,7 @@ DIGEST_DIR = ROOT / "digest"
 SKILLS_DIR = ROOT / "skills"
 TAXONOMY = json.loads((ROOT / "config" / "taxonomy.json").read_text(encoding="utf-8"))
 
-MAX_PDF_CHARS = 40_000  # 프롬프트 1회에 넣는 원문 상한
+MAX_PDF_CHARS = 40_000  # 원문이 없어 미리보기를 넣을 때와 AI 논리 평가의 상한 (요약은 textprep 상한)
 MAX_CONSECUTIVE_FAILURES = 3  # 연속 실패 시 사용량 한도 등으로 보고 중단
 BRIEF_EXCERPT_CHARS = 1_200
 RETAG_BATCH = 10  # 재태깅은 요약만 넣으므로 여러 건을 한 번에 묻는다
@@ -58,6 +59,10 @@ MIN_REPORTS_FOR_BRIEF = 2  # 한 주에 이만큼 리포트가 모인 산업만 
 TOP_THEMES = 5  # 주간 인사이트에 올리는 테마 수
 MIN_THEME_REPORTS = 2  # 주간 테마 후보가 되려면 그 주에 이만큼 리포트가 필요
 CONSOLIDATE_WINDOW_DAYS = 28  # 테마 병합 때 보는 최근 기간
+# 브리핑·주간 인사이트·다이제스트는 하루 한 번만 만든다. 낮 실행은 날짜만 모아 두고(PUBLISH_PENDING),
+# 이 시각(KST) 이후 실행이나, 지난 날짜가 밀려 있을 때(전날 저녁 실행 실패 등) 한꺼번에 만든다.
+PUBLISH_HOUR_KST = 17
+PUBLISH_PENDING = ROOT / "data" / "index" / "publish_pending.json"
 
 
 # ---------- 공통 유틸 ----------
@@ -250,10 +255,16 @@ INSIGHT_SCHEMA = """{
 }"""
 
 
+def prompt_text(r: dict) -> tuple[str, bool]:
+    """LLM에 넣을 본문: 원문에서 차트 눈금·재무제표 표·고지문을 걷어 내고 길이 상한으로 자른 것."""
+    text = textstore.load_text(r)
+    if not text:
+        return (r.get("preview_text") or "")[:MAX_PDF_CHARS], False
+    return focus_text(text, r.get("report_type", "individual"))
+
+
 def build_summary_prompt(r: dict) -> str:
-    text = r.get("pdf_text") or r.get("preview_text") or ""
-    truncated = len(text) > MAX_PDF_CHARS
-    text = text[:MAX_PDF_CHARS]
+    text, truncated = prompt_text(r)
     parts = [
         "너는 증권사 리서치 리포트를 구조화하는 파이프라인의 한 단계다. 아래 SKILL 명세를 따른다.",
         "=== SKILL: summarize-report ===\n" + skill("summarize-report"),
@@ -332,15 +343,14 @@ def insight_backfill_targets(reports: list[tuple[Path, dict]]) -> list[tuple[Pat
 
 
 def build_insight_prompt(r: dict) -> str:
-    text = r.get("pdf_text") or r.get("preview_text") or ""
-    truncated = len(text) > MAX_PDF_CHARS
+    text, truncated = prompt_text(r)
     return "\n\n".join([
         "너는 기존 리포트에 판단 보조 인사이트만 추가하는 파이프라인의 한 단계다. 요약이나 분류는 만들지 않는다.",
         "=== SKILL: generate-report-insight ===\n" + skill("generate-report-insight"),
         "=== 출력 형식 ===\n다른 말 없이 아래 JSON 객체 하나만 출력한다.\n" + INSIGHT_SCHEMA,
         "=== 리포트 메타데이터 ===\n" + meta_block(r),
         "=== 기존 요약 ===\n" + json.dumps(r["summary"], ensure_ascii=False, indent=2),
-        "=== 리포트 본문" + (" (길어서 앞부분만)" if truncated else "") + " ===\n" + text[:MAX_PDF_CHARS],
+        "=== 리포트 본문" + (" (길어서 앞부분만)" if truncated else "") + " ===\n" + text,
     ])
 
 
@@ -695,6 +705,23 @@ def build_digests(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
     return failed
 
 
+def load_pending() -> set[str]:
+    if not PUBLISH_PENDING.exists():
+        return set()
+    return set(json.loads(PUBLISH_PENDING.read_text(encoding="utf-8")).get("dates", []))
+
+
+def save_pending(dates: set[str]) -> None:
+    PUBLISH_PENDING.parent.mkdir(parents=True, exist_ok=True)
+    PUBLISH_PENDING.write_text(json.dumps({"dates": sorted(dates)}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def should_publish(pending: set[str], now: dt.datetime | None = None) -> bool:
+    now = now or dt.datetime.now(dt.timezone(dt.timedelta(hours=9)))
+    today = now.date().isoformat()
+    return now.hour >= PUBLISH_HOUR_KST or any(d < today for d in pending)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--limit", type=int, default=30, help="이번 실행에서 요약하거나 백필할 최대 리포트 수")
@@ -702,8 +729,13 @@ def main() -> int:
     parser.add_argument("--redo-date", action="append", default=[], help="브리핑/다이제스트를 강제로 재생성할 발행일 (반복 가능)")
     parser.add_argument("--retag", action="store_true", help="요약된 전체 리포트를 현재 분류 체계로 재태깅하고 모든 날짜를 재생성")
     parser.add_argument("--redo-all", action="store_true", help="재태깅 없이 테마 병합 + 모든 날짜의 브리핑/인사이트/다이제스트 재생성")
+    parser.add_argument("--publish-now", action="store_true", help="시각과 상관없이 밀린 브리핑/인사이트/다이제스트를 지금 만든다")
     args = parser.parse_args()
 
+    if not textstore.available():
+        # 원문 없이 돌면 요약이 미리보기만 보고 만들어지고 숫자 추출도 비어 버린다
+        print(f"::error::원문 폴더가 없습니다 ({textstore.base_dir()}). raw-text 브랜치를 체크아웃하세요.")
+        return 1
     reports = load_reports()
     if args.backfill_insights:
         # 전용 모드: 요약·태그·인덱스·파생 산출물 생성 경로에 진입하지 않는다.
@@ -734,12 +766,19 @@ def main() -> int:
         _, failed_explain = signals.explain_events(signals.load_config()["explain_max_reports"])
         if failed_explain:
             print("[explain] 이유 생성 중단 -> 남은 이벤트는 다음 실행에서 이어서", flush=True)
-    if dates:
-        failed += build_briefs(reports, dates)
-        failed += build_weekly(reports, dates)
-        failed += build_digests(reports, dates)
-    else:
+    forced = bool(args.publish_now or args.redo_date or args.redo_all or args.retag)
+    pending = load_pending() | dates
+    if not pending:
         print("새로 요약된 리포트 없음 -> 브리핑/인사이트/다이제스트 생략")
+    elif forced or should_publish(pending):
+        print(f"[publish] {', '.join(sorted(pending))} 브리핑/인사이트/다이제스트 생성", flush=True)
+        published_failed = build_briefs(reports, pending) + build_weekly(reports, pending) + build_digests(reports, pending)
+        failed += published_failed
+        # 하나라도 실패하면 날짜를 남겨 두고 다음 실행에서 다시 만든다
+        save_pending(pending if published_failed else set())
+    else:
+        save_pending(pending)
+        print(f"[publish] {', '.join(sorted(pending))} 대기 (KST {PUBLISH_HOUR_KST}시 이후 실행에서 한 번에 생성)")
     if failed:
         print(f"[summary] 브리핑/인사이트/다이제스트 생성 실패 {failed}건")
     return 1 if aborted or failed or failed_explain else 0

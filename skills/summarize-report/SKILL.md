@@ -26,8 +26,9 @@ tag-industry보다 먼저 실행한다. `report_type`이 `individual`인지 `dai
    나열된 개별 이슈들을 그대로 항목별 리스트로 보존한다(각 bullet의 종목/이슈명
    + 한 줄). 이 결과는 산업 브리핑 합성 재료로 넘기지 않고, build-digest의
    "오늘의 데일리 코멘트" 섹션 전용으로만 쓴다.
-3. 원문 `pdf_text`는 지우지 않고 남긴다 — 프롬프트나 산업 분류 체계를 바꿨을 때
-   원문 기준으로 다시 요약/태깅할 수 있어야 한다. 요약 결과는 같은 레코드에
+3. 원문은 지우지 않고 raw-text 브랜치에 남는다(`scripts/textstore.py`) — 프롬프트나 산업 분류
+   체계를 바꿨을 때 원문 기준으로 다시 요약/태깅할 수 있어야 한다. 프롬프트에는 차트 눈금·뒤쪽
+   재무제표·고지문을 걷어 낸 본문이 들어간다(`scripts/textprep.py`). 요약 결과는 같은 레코드에
    `summary`와 `insight`(+ individual은 `industry_tags`, 공통으로 `summarized_at`)로 덧붙인다.
    daily_series는 `summary`, individual은 `summary`와 `insight`가 모두 있어야 가공 완료다.
 

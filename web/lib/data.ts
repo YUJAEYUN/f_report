@@ -46,7 +46,8 @@ export type Report = {
   breadcrumb: string;
   source_url: string;
   pdf_url: string | null;
-  pdf_text: string | null;
+  /** 원문은 raw-text 브랜치에 있다 (화면으로 보내지 않음). 글자 수만 */
+  text_chars?: number;
   pdf_error?: string;
   desk?: string;
   industries?: string[];

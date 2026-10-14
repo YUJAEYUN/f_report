@@ -25,6 +25,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from scripts import textstore  # noqa: E402
 from scripts.estimates import (  # noqa: E402
     RATING_RANK,
     Observation,
@@ -103,8 +104,14 @@ def load_reports() -> list[dict]:
     return out
 
 
+def with_text(reports: list[dict]) -> list[dict]:
+    """원문이 필요한 파싱용 사본. 원문은 raw-text 브랜치(textstore)에서 읽는다."""
+    return [{**r, "pdf_text": textstore.load_text(r)} for r in reports]
+
+
 def collect(reports: list[dict]):
     """리포트 전체 -> 종목별 관측·이력표 행·이름·산업."""
+    reports = with_text(reports)
     name_map = build_name_map(reports)
     by_id = {r["report_id"]: r for r in reports}
     observations: dict[str, list[Observation]] = defaultdict(list)
@@ -114,7 +121,7 @@ def collect(reports: list[dict]):
     industries: dict[str, Counter] = defaultdict(Counter)
 
     for r in reports:
-        obs, tables = extract(r, name_map)
+        obs, tables = extract(r, name_map)  # r에는 load_reports_with_text가 원문을 붙여 둔다
         tags = r.get("industries") or []
         for o in obs:
             sid = stock_id(o.code, o.name)
@@ -760,7 +767,7 @@ def explain_events(max_reports: int) -> tuple[int, bool]:
             "=== 이벤트 ===\n" + json.dumps(
                 [{"id": e["id"], "name": e["name"], "headline": e["headline"]} for e in evs],
                 ensure_ascii=False, indent=1),
-            "=== 원문 발췌 ===\n" + reason_excerpt(r.get("pdf_text") or r.get("preview_text") or ""),
+            "=== 원문 발췌 ===\n" + reason_excerpt(textstore.load_text(r) or r.get("preview_text") or ""),
         ])
         try:
             obj = ask_json(prompt)
