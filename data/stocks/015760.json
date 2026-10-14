@@ -1,0 +1,281 @@
+{
+ "id": "015760",
+ "code": "015760",
+ "name": "한국전력",
+ "industry": "유틸리티",
+ "timeline": [
+  {
+   "date": "2024-10-22",
+   "rating": "매수",
+   "target_price": 25000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-11-01",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-26",
+   "rating": "매수",
+   "target_price": 36000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-22",
+   "rating": "매수",
+   "target_price": 45000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-22",
+   "rating": "매수",
+   "target_price": 55000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-14",
+   "rating": "매수",
+   "target_price": 65000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-27",
+   "rating": "매수",
+   "target_price": 73000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-15",
+   "rating": "매수",
+   "target_price": 55000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-07",
+   "rating": "중립",
+   "target_price": 45000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-14",
+   "rating": "매수",
+   "target_price": 45000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-11",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "report",
+   "report_id": "hana_1289057",
+   "tp_status": "하향"
+  },
+  {
+   "date": "2026-10-12",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "table",
+   "report_id": "hana_1289057",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-11",
+   "report_id": "hana_1289057",
+   "title": "한국전력(015760.KS/매수): 좋아도 좋은 것이 아닌",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 40000.0,
+   "tp_status": "하향",
+   "price": 29100.0,
+   "upside_pct": 37.5,
+   "estimates": {
+    "2026": {
+     "revenue": 97285.7,
+     "op": 7245.8,
+     "net": 3425.1,
+     "eps": 5335.0
+    },
+    "2027": {
+     "revenue": 97449.8,
+     "op": 4753.3,
+     "net": 1698.6,
+     "eps": 2646.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 97605.3,
+     "op": 7765.1,
+     "net": 4300.2,
+     "eps": 6296.0
+    },
+    "2027": {
+     "revenue": 98907.0,
+     "op": 11150.1,
+     "net": 6793.5,
+     "eps": 10032.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 7245.8,
+    "consensus": 7765.1,
+    "gap_pct": -6.7
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-11-01",
+   "prev_date": "2024-10-22",
+   "days": 10,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 25000.0,
+   "tp_to": 30000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": 60.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-26",
+   "prev_date": "2024-11-01",
+   "days": 206,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 30000.0,
+   "tp_to": 36000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": 2.9,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-22",
+   "prev_date": "2025-05-26",
+   "days": 57,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 36000.0,
+   "tp_to": 45000.0,
+   "tp_pct": 25.0,
+   "tp_speed30": 13.2,
+   "report_id": null
+  },
+  {
+   "date": "2025-10-22",
+   "prev_date": "2025-07-22",
+   "days": 92,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 45000.0,
+   "tp_to": 55000.0,
+   "tp_pct": 22.2,
+   "tp_speed30": 7.2,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-14",
+   "prev_date": "2025-10-22",
+   "days": 23,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 55000.0,
+   "tp_to": 65000.0,
+   "tp_pct": 18.2,
+   "tp_speed30": 23.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-27",
+   "prev_date": "2025-11-14",
+   "days": 105,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 65000.0,
+   "tp_to": 73000.0,
+   "tp_pct": 12.3,
+   "tp_speed30": 3.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-15",
+   "prev_date": "2026-02-27",
+   "days": 47,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 73000.0,
+   "tp_to": 55000.0,
+   "tp_pct": -24.7,
+   "tp_speed30": -15.8,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-07",
+   "prev_date": "2026-04-15",
+   "days": 22,
+   "rating_from": "매수",
+   "rating_to": "중립",
+   "tp_from": 55000.0,
+   "tp_to": 45000.0,
+   "tp_pct": -18.2,
+   "tp_speed30": -24.8,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-14",
+   "prev_date": "2026-05-07",
+   "days": 68,
+   "rating_from": "중립",
+   "rating_to": "매수",
+   "tp_from": 45000.0,
+   "tp_to": 45000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-11",
+   "prev_date": "2026-07-14",
+   "days": 89,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 45000.0,
+   "tp_to": 40000.0,
+   "tp_pct": -11.1,
+   "tp_speed30": -3.7,
+   "report_id": "hana_1289057"
+  }
+ ],
+ "events": [
+  "2026-10-11:015760:tp_streak:"
+ ]
+}

@@ -1,0 +1,203 @@
+{
+ "id": "iM금융",
+ "code": null,
+ "name": "iM금융",
+ "industry": "은행",
+ "timeline": [
+  {
+   "date": "2024-06-25",
+   "rating": "매수",
+   "target_price": 9500.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-08",
+   "rating": "매수",
+   "target_price": 10500.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-02-10",
+   "rating": "매수",
+   "target_price": 11500.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-04-29",
+   "rating": "매수",
+   "target_price": 13000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-29",
+   "rating": "매수",
+   "target_price": 14000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-06-30",
+   "rating": "매수",
+   "target_price": 16000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-29",
+   "rating": "매수",
+   "target_price": 17500.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-07",
+   "rating": "매수",
+   "target_price": 19000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-11",
+   "rating": "매수",
+   "target_price": 23000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-29",
+   "rating": "매수",
+   "target_price": 24500.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-01-08",
+   "prev_date": "2024-06-25",
+   "days": 197,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 9500.0,
+   "tp_to": 10500.0,
+   "tp_pct": 10.5,
+   "tp_speed30": 1.6,
+   "report_id": null
+  },
+  {
+   "date": "2025-02-10",
+   "prev_date": "2025-01-08",
+   "days": 33,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 10500.0,
+   "tp_to": 11500.0,
+   "tp_pct": 9.5,
+   "tp_speed30": 8.6,
+   "report_id": null
+  },
+  {
+   "date": "2025-04-29",
+   "prev_date": "2025-02-10",
+   "days": 78,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 11500.0,
+   "tp_to": 13000.0,
+   "tp_pct": 13.0,
+   "tp_speed30": 5.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-29",
+   "prev_date": "2025-04-29",
+   "days": 30,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 13000.0,
+   "tp_to": 14000.0,
+   "tp_pct": 7.7,
+   "tp_speed30": 7.7,
+   "report_id": null
+  },
+  {
+   "date": "2025-06-30",
+   "prev_date": "2025-05-29",
+   "days": 32,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 14000.0,
+   "tp_to": 16000.0,
+   "tp_pct": 14.3,
+   "tp_speed30": 13.4,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-29",
+   "prev_date": "2025-06-30",
+   "days": 29,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 16000.0,
+   "tp_to": 17500.0,
+   "tp_pct": 9.4,
+   "tp_speed30": 9.7,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-07",
+   "prev_date": "2025-07-29",
+   "days": 101,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 17500.0,
+   "tp_to": 19000.0,
+   "tp_pct": 8.6,
+   "tp_speed30": 2.6,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-11",
+   "prev_date": "2025-11-07",
+   "days": 96,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 19000.0,
+   "tp_to": 23000.0,
+   "tp_pct": 21.1,
+   "tp_speed30": 6.6,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-29",
+   "prev_date": "2026-02-11",
+   "days": 77,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 23000.0,
+   "tp_to": 24500.0,
+   "tp_pct": 6.5,
+   "tp_speed30": 2.5,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

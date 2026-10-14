@@ -1,0 +1,119 @@
+{
+ "id": "443060",
+ "code": "443060",
+ "name": "HD현대마린솔루션",
+ "industry": "조선",
+ "timeline": [
+  {
+   "date": "2025-07-08",
+   "rating": "매수",
+   "target_price": 230000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-31",
+   "rating": "매수",
+   "target_price": 285000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-27",
+   "rating": "매수",
+   "target_price": 330000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-11",
+   "rating": "매수",
+   "target_price": 330000.0,
+   "source": "report",
+   "report_id": "hana_1289055",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-11",
+   "report_id": "hana_1289055",
+   "title": "HD현대마린솔루션(443060.KS/매수): 기술서비스 플랫폼 업체 Goltens 인수",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 330000.0,
+   "tp_status": null,
+   "price": 219500.0,
+   "upside_pct": 50.3,
+   "estimates": {
+    "2026": {
+     "revenue": 2433.0,
+     "op": 405.6,
+     "net": 355.6,
+     "eps": 7932.0
+    },
+    "2027": {
+     "revenue": 2616.2,
+     "op": 461.8,
+     "net": 386.6,
+     "eps": 8624.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2370.3,
+     "op": 413.4,
+     "net": 351.6,
+     "eps": 7842.0
+    },
+    "2027": {
+     "revenue": 2634.6,
+     "op": 523.9,
+     "net": 417.7,
+     "eps": 9318.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 405.6,
+    "consensus": 413.4,
+    "gap_pct": -1.9
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-10-31",
+   "prev_date": "2025-07-08",
+   "days": 115,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 230000.0,
+   "tp_to": 285000.0,
+   "tp_pct": 23.9,
+   "tp_speed30": 6.2,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-27",
+   "prev_date": "2025-10-31",
+   "days": 178,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 285000.0,
+   "tp_to": 330000.0,
+   "tp_pct": 15.8,
+   "tp_speed30": 2.7,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

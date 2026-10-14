@@ -1,0 +1,89 @@
+{
+ "id": "파크시스템스",
+ "code": null,
+ "name": "파크시스템스",
+ "industry": "반도체",
+ "timeline": [
+  {
+   "date": "2024-09-10",
+   "rating": "매수",
+   "target_price": 250000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-19",
+   "rating": "매수",
+   "target_price": 310000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-20",
+   "rating": "매수",
+   "target_price": 282000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-10",
+   "rating": "매수",
+   "target_price": 315000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-05-16",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-10-19",
+   "prev_date": "2024-09-10",
+   "days": 39,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 250000.0,
+   "tp_to": 310000.0,
+   "tp_pct": 24.0,
+   "tp_speed30": 18.5,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-20",
+   "prev_date": "2024-10-19",
+   "days": 213,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 310000.0,
+   "tp_to": 282000.0,
+   "tp_pct": -9.0,
+   "tp_speed30": -1.3,
+   "report_id": null,
+   "note": "담당자 변경"
+  },
+  {
+   "date": "2026-02-10",
+   "prev_date": "2025-05-20",
+   "days": 266,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 282000.0,
+   "tp_to": 315000.0,
+   "tp_pct": 11.7,
+   "tp_speed30": 1.3,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

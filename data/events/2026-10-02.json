@@ -1,0 +1,39 @@
+[
+ {
+  "id": "2026-10-02:033780:tp_accel:",
+  "date": "2026-10-02",
+  "type": "tp_accel",
+  "severity": 1.8,
+  "stock_id": "033780",
+  "code": "033780",
+  "name": "KT&G",
+  "industry": "음식료·담배",
+  "report_id": "hana_1288957",
+  "headline": "목표주가 상향 속도 가속 (30일 환산 +1.5% → +5.4%)",
+  "data": {
+   "date": "2026-10-02",
+   "prev_date": "2026-07-15",
+   "days": 79,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 210000.0,
+   "tp_to": 240000.0,
+   "tp_pct": 14.3,
+   "tp_speed30": 5.4,
+   "report_id": "hana_1288957",
+   "prev": {
+    "date": "2026-07-15",
+    "prev_date": "2025-08-11",
+    "days": 338,
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 180000.0,
+    "tp_to": 210000.0,
+    "tp_pct": 16.7,
+    "tp_speed30": 1.5,
+    "report_id": null
+   }
+  },
+  "title": "KT&G(033780.KS/매수): 해외 생산 확대가 가져올 배당 재원 증가"
+ }
+]

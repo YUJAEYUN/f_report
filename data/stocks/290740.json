@@ -1,0 +1,22 @@
+{
+ "id": "290740",
+ "code": "290740",
+ "name": "액트로",
+ "industry": "IT하드웨어·전자부품",
+ "timeline": [
+  {
+   "date": "2026-03-03",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

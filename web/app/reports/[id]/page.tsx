@@ -4,6 +4,8 @@ import { allCards, allReports, decodeParam, getReport, isoWeek } from "@/lib/dat
 import EvaluateButton from "@/components/EvaluateButton";
 import { renderMarkdown } from "@/lib/md";
 import { weekLabel } from "@/lib/dashboard";
+import { allEvents, METRIC_LABEL, money, reportSignals, signedPct, stockHref, won } from "@/lib/signals";
+import { EventList } from "@/components/EventList";
 
 export const dynamicParams = false;
 
@@ -22,6 +24,12 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
   // 같은 테마를 다룬 다른 최근 리포트
   const mainTheme = r.themes?.[0];
   const related = mainTheme ? allCards().filter((c) => c.id !== r.report_id && c.themes.includes(mainTheme)).slice(0, 5) : [];
+  // 코드가 원문에서 읽은 숫자 (scripts/signals.py). 주인공 종목은 사이드 박스에, 나머지는 본문 표에
+  const sigs = reportSignals(r.report_id);
+  const main = sigs.find((x) => x.primary) ?? (sigs.length === 1 ? sigs[0] : undefined);
+  const others = sigs.filter((x) => x !== main && (x.rating_change || x.estimate_revisions.length));
+  const reportEvents = allEvents().filter((e) => e.report_id === r.report_id);
+  const mc = main?.rating_change;
 
   return <>
     <p className="crumb"><Link href="/reports">리포트</Link> · {r.desk ?? r.category} · {r.category}</p>
@@ -48,6 +56,22 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
             <li><b>왜 중요한가</b><p>{r.insight.implication}</p></li>
             <li><b>무엇을 확인할까</b><ul>{r.insight.watch_points.map((p, i) => <li key={i}>{p}</li>)}</ul></li>
           </ol>
+        </section>}
+
+        {(reportEvents.length > 0 || others.length > 0) && <section className="panel">
+          <h2>이 리포트의 숫자 변화</h2>
+          <p className="hint">원문의 투자의견·목표주가·추정치를 직전 기록과 비교한 결과입니다.</p>
+          {reportEvents.length > 0 && <EventList events={reportEvents} />}
+          {others.length > 0 && <div className="table-scroll"><table className="stock-table">
+            <thead><tr><th>종목</th><th>투자의견</th><th className="num">목표주가</th><th className="num">변화</th></tr></thead>
+            <tbody>{others.map((x) => <tr key={x.stock_id}>
+              <td><Link href={stockHref(x.stock_id)!}>{x.name}</Link></td>
+              <td>{x.rating_change && x.rating_change.rating_from !== x.rating_change.rating_to ? `${x.rating_change.rating_from} → ${x.rating_change.rating_to}` : x.rating ?? "-"}</td>
+              <td className="num">{x.rating_change?.tp_from && x.rating_change.tp_from !== x.rating_change.tp_to ? `${x.rating_change.tp_from.toLocaleString("ko-KR")} → ` : ""}{won(x.target_price)}</td>
+              <td className={`num ${(x.rating_change?.tp_pct ?? 0) > 0 ? "up" : (x.rating_change?.tp_pct ?? 0) < 0 ? "down" : ""}`}>
+                {x.rating_change?.tp_pct != null ? signedPct(x.rating_change.tp_pct) : x.estimate_revisions.length ? "추정치 조정" : "-"}</td>
+            </tr>)}</tbody>
+          </table></div>}
         </section>}
 
         {canReview && <section className="panel review" aria-labelledby="review-title">
@@ -78,9 +102,18 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
       <aside className="report-side">
         <section className="panel factbox">
           <dl>
-            {s?.ticker && <><dt>종목</dt><dd>{s.ticker}</dd></>}
-            {s?.rating && <><dt>투자의견</dt><dd className="strong">{s.rating}{s.rating_change && s.rating_change !== "유지" ? ` (${s.rating_change})` : ""}</dd></>}
-            {tp && <><dt>목표주가</dt><dd className="strong">{tp}</dd></>}
+            {main ? <>
+              <dt>종목</dt><dd><Link href={stockHref(main.stock_id)!}>{main.name}</Link> <span className="muted">{main.code}</span></dd>
+              <dt>투자의견</dt><dd className="strong">{mc && mc.rating_from !== mc.rating_to ? `${mc.rating_from} → ${mc.rating_to}` : main.rating ?? "-"}</dd>
+              {main.target_price != null && <><dt>목표주가</dt><dd className="strong">{won(main.target_price)}
+                {mc?.tp_pct != null && <span className={`tp-delta ${mc.tp_pct > 0 ? "up" : "down"}`}>{signedPct(mc.tp_pct)} <span className="muted">(이전 {mc.tp_from!.toLocaleString("ko-KR")})</span></span>}</dd></>}
+              {main.upside_pct != null && <><dt>상승여력</dt><dd>{signedPct(main.upside_pct)} <span className="muted">(주가 {won(main.price)})</span></dd></>}
+              {main.gap && <><dt>컨센 대비</dt><dd>{main.gap.year}년 {METRIC_LABEL[main.gap.metric]} {signedPct(main.gap.gap_pct, 0)} <span className="muted">({money(main.gap.estimate, main.gap.metric)} vs {money(main.gap.consensus, main.gap.metric)})</span></dd></>}
+            </> : <>
+              {s?.ticker && <><dt>종목</dt><dd>{s.ticker}</dd></>}
+              {s?.rating && <><dt>투자의견</dt><dd className="strong">{s.rating}</dd></>}
+              {tp && <><dt>목표주가</dt><dd className="strong">{tp}</dd></>}
+            </>}
             <dt>애널리스트</dt><dd>{r.analyst ?? "-"}</dd>
             <dt>발행</dt><dd><Link href={`/daily/${r.published_date}`}>{r.published_date}</Link> {r.published_time?.slice(0, 5)}</dd>
             <dt>주차</dt><dd><Link href={`/weekly/${week}`}>{weekLabel(week).label}</Link></dd>

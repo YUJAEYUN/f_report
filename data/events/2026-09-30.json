@@ -1,0 +1,28 @@
+[
+ {
+  "id": "2026-09-30:039130:tp_streak:",
+  "date": "2026-09-30",
+  "type": "tp_streak",
+  "severity": 1.33,
+  "stock_id": "039130",
+  "code": "039130",
+  "name": "하나투어",
+  "industry": "호텔·레저",
+  "report_id": "hana_1288930",
+  "headline": "목표주가 4회 연속 하향",
+  "data": {
+   "date": "2026-09-30",
+   "prev_date": "2026-07-10",
+   "days": 82,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 53000.0,
+   "tp_to": 48000.0,
+   "tp_pct": -9.4,
+   "tp_speed30": -3.4,
+   "report_id": "hana_1288930",
+   "streak": 4
+  },
+  "title": "여행(Overweight): 연말에 바닥을 고민해봐야 하는 이유"
+ }
+]

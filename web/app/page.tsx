@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { allCards, allReports, dashboardSnapshot, digestDates, headlineOf, weeklyMarkdown, weeks } from "@/lib/data";
-import { comparePeriods, themeIndustryMatrix, weekdayCounts, weekLabel } from "@/lib/dashboard";
+import { comparePeriods, themeIndustryMatrix, weekBounds, weekdayCounts, weekLabel } from "@/lib/dashboard";
 import ChartTooltip from "@/components/charts/ChartTooltip";
 import { DailyVolume } from "@/components/charts/DailyVolume";
 import { IndustryDumbbell } from "@/components/charts/IndustryDumbbell";
@@ -8,6 +8,8 @@ import { ThemeTreemap } from "@/components/charts/ThemeTreemap";
 import { ThemeTrends } from "@/components/charts/ThemeTrends";
 import { Delta } from "@/components/dashboard/Delta";
 import { ThemeIndustryHeatmap } from "@/components/dashboard/ThemeIndustryHeatmap";
+import { EventList } from "@/components/EventList";
+import { allEvents } from "@/lib/signals";
 
 export default function Home() {
   const snapshot = dashboardSnapshot();
@@ -35,6 +37,10 @@ export default function Home() {
   const heatIndustries = cmp.industries.filter((i) => i.current > 0).slice(0, 7).map((i) => i.name);
   const recent = cards.filter((c) => c.type === "individual").slice(0, 6);
   const digestDate = digestDates().find((d) => cards.some((c) => c.date === d && c.type === "individual"));
+  // 이번 주(없으면 최근) 숫자 변화 이벤트, 중요도 순
+  const evs = allEvents();
+  const weekEvents = evs.filter((e) => e.date >= weekBounds(current.week)[0]);
+  const shownEvents = (weekEvents.length ? weekEvents : evs.slice(0, 6)).slice().sort((a, b) => b.severity - a.severity).slice(0, 6);
 
   return <>
     <p className="page-when">{wl.label} · {wl.range} · {current.throughDate}까지 집계</p>
@@ -74,6 +80,12 @@ export default function Home() {
         <IndustryDumbbell rows={dumbbell} />
       </section>
     </div>
+
+    {shownEvents.length > 0 && <section className="panel">
+      <div className="review-head"><h2>{weekEvents.length ? "이번 주 숫자 변화" : "최근 숫자 변화"}</h2><Link href="/signals" className="more">전체 →</Link></div>
+      <p className="hint">목표주가·투자의견·실적 추정치·컨센서스가 크게 바뀐 종목 · 변화 폭이 큰 순</p>
+      <EventList events={shownEvents} showDate />
+    </section>}
 
     {heatThemes.length > 0 && heatIndustries.length > 0 && <section className="panel">
       <h2>테마는 어느 산업에서 나왔나</h2>

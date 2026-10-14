@@ -1,0 +1,396 @@
+{
+ "id": "192820",
+ "code": "192820",
+ "name": "코스맥스",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2024-09-23",
+   "rating": "매수",
+   "target_price": 190000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-13",
+   "rating": "매수",
+   "target_price": 200000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-02-25",
+   "rating": "매수",
+   "target_price": 220000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-14",
+   "rating": "매수",
+   "target_price": 240000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-06-13",
+   "rating": "매수",
+   "target_price": 300000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-06-09",
+   "rating": "매수",
+   "target_price": 240000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-08-12",
+   "rating": "매수",
+   "target_price": 305000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-06",
+   "rating": "매수",
+   "target_price": 380000.0,
+   "source": "report",
+   "report_id": "hana_1288995",
+   "tp_status": "상향"
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 380000.0,
+   "source": "table",
+   "report_id": "hana_1288995",
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-13",
+   "rating": "매수",
+   "target_price": 380000.0,
+   "source": "report",
+   "report_id": "hana_1289107",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-06-04",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-06",
+   "report_id": "hana_1288995",
+   "title": "코스맥스(192920.KS/매수): 계절성을 깨트리다",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 380000.0,
+   "tp_status": "상향",
+   "price": 298000.0,
+   "upside_pct": 27.5,
+   "estimates": {
+    "2026": {
+     "revenue": 3107.8,
+     "op": 269.0,
+     "net": 181.5,
+     "eps": 15989.0
+    },
+    "2027": {
+     "revenue": 3847.3,
+     "op": 352.1,
+     "net": 251.6,
+     "eps": 22170.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2970.7,
+     "op": 257.0,
+     "net": 176.8,
+     "eps": 14924.0
+    },
+    "2027": {
+     "revenue": 3461.7,
+     "op": 315.8,
+     "net": 215.5,
+     "eps": 18188.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 269.0,
+    "consensus": 257.0,
+    "gap_pct": 4.7
+   }
+  },
+  {
+   "date": "2026-10-13",
+   "report_id": "hana_1289107",
+   "title": "화장품(Overweight): 계절성이 깨지다",
+   "primary": false,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 380000.0,
+   "tp_status": null,
+   "price": 284500.0,
+   "upside_pct": 33.6,
+   "estimates": {
+    "2026": {
+     "revenue": 3107.8,
+     "op": 269.0,
+     "net": 181.5,
+     "eps": 15989.0
+    },
+    "2027": {
+     "revenue": 3847.3,
+     "op": 352.1,
+     "net": 251.6,
+     "eps": 22170.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3053.9,
+     "op": 267.9,
+     "net": 182.9,
+     "eps": 15520.0
+    },
+    "2027": {
+     "revenue": 3606.9,
+     "op": 334.9,
+     "net": 229.1,
+     "eps": 19482.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 269.0,
+    "consensus": 267.9,
+    "gap_pct": 0.4
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-06",
+   "days": 7,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 2970.7,
+   "to": 3053.9,
+   "pct": 2.8,
+   "speed30": 12.0,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1288995"
+  },
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-06",
+   "days": 7,
+   "year": "2026",
+   "metric": "op",
+   "from": 257.0,
+   "to": 267.9,
+   "pct": 4.2,
+   "speed30": 18.0,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1288995"
+  },
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-06",
+   "days": 7,
+   "year": "2026",
+   "metric": "net",
+   "from": 176.8,
+   "to": 182.9,
+   "pct": 3.5,
+   "speed30": 15.0,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1288995"
+  },
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-06",
+   "days": 7,
+   "year": "2026",
+   "metric": "eps",
+   "from": 14924.0,
+   "to": 15520.0,
+   "pct": 4.0,
+   "speed30": 17.1,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1288995"
+  },
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-06",
+   "days": 7,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 3461.7,
+   "to": 3606.9,
+   "pct": 4.2,
+   "speed30": 18.0,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1288995"
+  },
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-06",
+   "days": 7,
+   "year": "2027",
+   "metric": "op",
+   "from": 315.8,
+   "to": 334.9,
+   "pct": 6.0,
+   "speed30": 25.7,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1288995"
+  },
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-06",
+   "days": 7,
+   "year": "2027",
+   "metric": "net",
+   "from": 215.5,
+   "to": 229.1,
+   "pct": 6.3,
+   "speed30": 27.0,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1288995"
+  },
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-06",
+   "days": 7,
+   "year": "2027",
+   "metric": "eps",
+   "from": 18188.0,
+   "to": 19482.0,
+   "pct": 7.1,
+   "speed30": 30.4,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1288995"
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2025-01-13",
+   "prev_date": "2024-09-23",
+   "days": 112,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 190000.0,
+   "tp_to": 200000.0,
+   "tp_pct": 5.3,
+   "tp_speed30": 1.4,
+   "report_id": null
+  },
+  {
+   "date": "2025-02-25",
+   "prev_date": "2025-01-13",
+   "days": 43,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 200000.0,
+   "tp_to": 220000.0,
+   "tp_pct": 10.0,
+   "tp_speed30": 7.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-14",
+   "prev_date": "2025-02-25",
+   "days": 78,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 220000.0,
+   "tp_to": 240000.0,
+   "tp_pct": 9.1,
+   "tp_speed30": 3.5,
+   "report_id": null
+  },
+  {
+   "date": "2025-06-13",
+   "prev_date": "2025-05-14",
+   "days": 30,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 240000.0,
+   "tp_to": 300000.0,
+   "tp_pct": 25.0,
+   "tp_speed30": 25.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-06-09",
+   "prev_date": "2025-06-13",
+   "days": 361,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 300000.0,
+   "tp_to": 240000.0,
+   "tp_pct": -20.0,
+   "tp_speed30": -1.7,
+   "report_id": null,
+   "note": "담당자 변경"
+  },
+  {
+   "date": "2026-08-12",
+   "prev_date": "2026-06-09",
+   "days": 64,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 240000.0,
+   "tp_to": 305000.0,
+   "tp_pct": 27.1,
+   "tp_speed30": 12.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-06",
+   "prev_date": "2026-08-12",
+   "days": 55,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 305000.0,
+   "tp_to": 380000.0,
+   "tp_pct": 24.6,
+   "tp_speed30": 13.4,
+   "report_id": "hana_1288995"
+  }
+ ],
+ "events": [
+  "2026-10-06:192820:tp_up:",
+  "2026-10-13:192820:cons_up:2027eps"
+ ]
+}

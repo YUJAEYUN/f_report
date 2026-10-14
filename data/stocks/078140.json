@@ -1,0 +1,50 @@
+{
+ "id": "078140",
+ "code": "078140",
+ "name": "대봉엘에스",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2026-09-28",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1288875",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288929",
+   "title": "화장품(Overweight): K-뷰티 중소형주 31",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 99.0,
+     "op": 8.0,
+     "net": 3.0,
+     "eps": 313.0
+    },
+    "2027": {
+     "revenue": 115.0,
+     "op": 12.0,
+     "net": 8.0,
+     "eps": 727.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

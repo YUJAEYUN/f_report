@@ -1,0 +1,179 @@
+{
+ "id": "018670",
+ "code": "018670",
+ "name": "SK가스",
+ "industry": "유틸리티",
+ "timeline": [
+  {
+   "date": "2024-07-23",
+   "rating": "매수",
+   "target_price": 220000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-11-04",
+   "rating": "매수",
+   "target_price": 240000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-16",
+   "rating": "매수",
+   "target_price": 270000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-08-05",
+   "rating": "매수",
+   "target_price": 300000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-04",
+   "rating": "매수",
+   "target_price": 330000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-18",
+   "rating": "매수",
+   "target_price": 365000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-20",
+   "rating": "매수",
+   "target_price": 365000.0,
+   "source": "report",
+   "report_id": "hana_1288828",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-20",
+   "report_id": "hana_1288828",
+   "title": "에너지(Overweight): 올겨울 패딩 대신 LNG",
+   "primary": false,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 365000.0,
+   "tp_status": null,
+   "price": 240500.0,
+   "upside_pct": 51.8,
+   "estimates": {
+    "2026": {
+     "revenue": 9865.3,
+     "op": 492.9,
+     "net": 351.9,
+     "eps": 38023.0
+    },
+    "2027": {
+     "revenue": 8981.3,
+     "op": 512.0,
+     "net": 278.4,
+     "eps": 30076.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 10088.1,
+     "op": 457.0,
+     "net": 349.6,
+     "eps": 32152.0
+    },
+    "2027": {
+     "revenue": 9494.9,
+     "op": 513.0,
+     "net": 353.5,
+     "eps": 31108.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 492.9,
+    "consensus": 457.0,
+    "gap_pct": 7.9
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-11-04",
+   "prev_date": "2024-07-23",
+   "days": 104,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 220000.0,
+   "tp_to": 240000.0,
+   "tp_pct": 9.1,
+   "tp_speed30": 2.6,
+   "report_id": null
+  },
+  {
+   "date": "2025-01-16",
+   "prev_date": "2024-11-04",
+   "days": 73,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 240000.0,
+   "tp_to": 270000.0,
+   "tp_pct": 12.5,
+   "tp_speed30": 5.1,
+   "report_id": null
+  },
+  {
+   "date": "2025-08-05",
+   "prev_date": "2025-01-16",
+   "days": 201,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 270000.0,
+   "tp_to": 300000.0,
+   "tp_pct": 11.1,
+   "tp_speed30": 1.7,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-04",
+   "prev_date": "2025-08-05",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 300000.0,
+   "tp_to": 330000.0,
+   "tp_pct": 10.0,
+   "tp_speed30": 3.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-18",
+   "prev_date": "2025-11-04",
+   "days": 195,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 330000.0,
+   "tp_to": 365000.0,
+   "tp_pct": 10.6,
+   "tp_speed30": 1.6,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

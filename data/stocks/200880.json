@@ -1,0 +1,22 @@
+{
+ "id": "200880",
+ "code": "200880",
+ "name": "서연이화",
+ "industry": "자동차·부품",
+ "timeline": [
+  {
+   "date": "2023-11-14",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

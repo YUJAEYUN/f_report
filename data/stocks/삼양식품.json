@@ -1,0 +1,103 @@
+{
+ "id": "삼양식품",
+ "code": null,
+ "name": "삼양식품",
+ "industry": "음식료·담배",
+ "timeline": [
+  {
+   "date": "2024-07-22",
+   "rating": "매수",
+   "target_price": 750000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-16",
+   "rating": "매수",
+   "target_price": 900000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-03-13",
+   "rating": "매수",
+   "target_price": 1100000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-16",
+   "rating": "매수",
+   "target_price": 1350000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-30",
+   "rating": "매수",
+   "target_price": 1800000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-01-16",
+   "prev_date": "2024-07-22",
+   "days": 178,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 750000.0,
+   "tp_to": 900000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": 3.4,
+   "report_id": null
+  },
+  {
+   "date": "2025-03-13",
+   "prev_date": "2025-01-16",
+   "days": 56,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 900000.0,
+   "tp_to": 1100000.0,
+   "tp_pct": 22.2,
+   "tp_speed30": 11.9,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-16",
+   "prev_date": "2025-03-13",
+   "days": 64,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1100000.0,
+   "tp_to": 1350000.0,
+   "tp_pct": 22.7,
+   "tp_speed30": 10.6,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-30",
+   "prev_date": "2025-05-16",
+   "days": 75,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1350000.0,
+   "tp_to": 1800000.0,
+   "tp_pct": 33.3,
+   "tp_speed30": 13.3,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

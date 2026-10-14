@@ -1,0 +1,73 @@
+{
+ "id": "주성엔지니어링",
+ "code": null,
+ "name": "주성엔지니어링",
+ "industry": "반도체",
+ "timeline": [
+  {
+   "date": "2024-04-24",
+   "rating": "매수",
+   "target_price": 46000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-20",
+   "rating": "매수",
+   "target_price": 45000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-31",
+   "rating": "매수",
+   "target_price": 42000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-04-24",
+   "note": "년 경과"
+  },
+  {
+   "date": "2025-05-16",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-05-20",
+   "prev_date": "2024-04-24",
+   "days": 391,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 46000.0,
+   "tp_to": 45000.0,
+   "tp_pct": -2.2,
+   "tp_speed30": -0.2,
+   "report_id": null,
+   "note": "1년 경과, 담당자 변경"
+  },
+  {
+   "date": "2025-07-31",
+   "prev_date": "2025-05-20",
+   "days": 72,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 45000.0,
+   "tp_to": 42000.0,
+   "tp_pct": -6.7,
+   "tp_speed30": -2.8,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

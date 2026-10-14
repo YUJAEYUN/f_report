@@ -1,0 +1,44 @@
+{
+ "id": "141000",
+ "code": "141000",
+ "name": "비아트론",
+ "industry": "반도체",
+ "timeline": [
+  {
+   "date": "2026-09-29",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1288912",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-29",
+   "report_id": "hana_1288912",
+   "title": "비아트론 (141000.KQ): 반도체 전/후공정 밸류체인 진입 목전",
+   "primary": true,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 716.0,
+     "op": 55.0,
+     "net": 66.0,
+     "eps": 561.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

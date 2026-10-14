@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { allCards, decodeParam, digestDates, digestMarkdown, section } from "@/lib/data";
 import { isoWeek, weekLabel } from "@/lib/dashboard";
 import { renderMarkdown, withReportTitles } from "@/lib/md";
+import { eventsOn } from "@/lib/signals";
+import { EventList } from "@/components/EventList";
 
 export const dynamicParams = false;
 
@@ -32,6 +34,7 @@ export default async function DailyPage({ params }: { params: Promise<{ date: st
   const terms = section(md, /용어/);
   const dailyComment = section(md, /데일리 코멘트/);
   const briefs = section(md, /산업별 브리핑/);
+  const events = eventsOn(date);
   const isNew = !!headline; // 쉬운 말 형식 이전의 다이제스트는 원문 그대로 보여준다
 
   return <>
@@ -56,6 +59,11 @@ export default async function DailyPage({ params }: { params: Promise<{ date: st
           <div className="prose terms" dangerouslySetInnerHTML={{ __html: html(terms).replace(/<\/strong>\s*[:：]\s*/g, "</strong>") }} />
         </section>}
       </div>
+      {events.length > 0 && <section className="panel">
+        <div className="review-head"><h2>숫자 변화 {events.length}건</h2><Link href="/signals" className="more">전체 →</Link></div>
+        <p className="hint">목표주가·투자의견·실적 추정치·컨센서스가 크게 바뀐 종목</p>
+        <EventList events={events} />
+      </section>}
       {(dailyComment || briefs) && <div className="split">
         {dailyComment && <section className="panel">
           <h2>데일리 코멘트</h2>

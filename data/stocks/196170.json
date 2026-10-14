@@ -1,0 +1,234 @@
+{
+ "id": "196170",
+ "code": "196170",
+ "name": "알테오젠",
+ "industry": "제약·바이오",
+ "timeline": [
+  {
+   "date": "2025-05-13",
+   "rating": "매수",
+   "target_price": 340000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-08-01",
+   "rating": "매수",
+   "target_price": 420000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-20",
+   "rating": "매수",
+   "target_price": 490000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-22",
+   "rating": "매수",
+   "target_price": 450000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-08-06",
+   "rating": "매수",
+   "target_price": 580000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-08-18",
+   "rating": "매수",
+   "target_price": 450000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-09",
+   "rating": "매수",
+   "target_price": 450000.0,
+   "source": "report",
+   "report_id": "hana_1289037",
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-11",
+   "rating": "매수",
+   "target_price": 450000.0,
+   "source": "report",
+   "report_id": "hana_1289059",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-09",
+   "report_id": "hana_1289037",
+   "title": "알테오젠(196170.KQ/BUY): 네덜란드 법원의 가처분 결정은 충분히 뒤집힐 수 있다",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 450000.0,
+   "tp_status": null,
+   "price": 241000.0,
+   "upside_pct": 86.7,
+   "estimates": {
+    "2026": {
+     "revenue": 580.7,
+     "op": 368.2,
+     "net": 367.0,
+     "eps": 5231.0
+    },
+    "2027": {
+     "revenue": 829.5,
+     "op": 494.9,
+     "net": 461.5,
+     "eps": 6576.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 492.4,
+     "op": 312.7,
+     "net": 312.9,
+     "eps": 4346.0
+    },
+    "2027": {
+     "revenue": 663.5,
+     "op": 422.6,
+     "net": 380.6,
+     "eps": 5180.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 368.2,
+    "consensus": 312.7,
+    "gap_pct": 17.7
+   }
+  },
+  {
+   "date": "2026-10-11",
+   "report_id": "hana_1289059",
+   "title": "하루에 하나 1012",
+   "primary": false,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 450000.0,
+   "tp_status": null,
+   "price": 241000.0,
+   "upside_pct": 86.7,
+   "estimates": {
+    "2026": {
+     "revenue": 580.7,
+     "op": 368.2,
+     "net": 367.0,
+     "eps": 5231.0
+    },
+    "2027": {
+     "revenue": 829.5,
+     "op": 494.9,
+     "net": 461.5,
+     "eps": 6576.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 492.4,
+     "op": 312.7,
+     "net": 312.9,
+     "eps": 4346.0
+    },
+    "2027": {
+     "revenue": 663.5,
+     "op": 422.6,
+     "net": 380.6,
+     "eps": 5180.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 368.2,
+    "consensus": 312.7,
+    "gap_pct": 17.7
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-08-01",
+   "prev_date": "2025-05-13",
+   "days": 80,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 340000.0,
+   "tp_to": 420000.0,
+   "tp_pct": 23.5,
+   "tp_speed30": 8.8,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-20",
+   "prev_date": "2025-08-01",
+   "days": 111,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 420000.0,
+   "tp_to": 490000.0,
+   "tp_pct": 16.7,
+   "tp_speed30": 4.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-22",
+   "prev_date": "2025-11-20",
+   "days": 63,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 490000.0,
+   "tp_to": 450000.0,
+   "tp_pct": -8.2,
+   "tp_speed30": -3.9,
+   "report_id": null
+  },
+  {
+   "date": "2026-08-06",
+   "prev_date": "2026-01-22",
+   "days": 196,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 450000.0,
+   "tp_to": 580000.0,
+   "tp_pct": 28.9,
+   "tp_speed30": 4.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-08-18",
+   "prev_date": "2026-08-06",
+   "days": 12,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 580000.0,
+   "tp_to": 450000.0,
+   "tp_pct": -22.4,
+   "tp_speed30": -56.0,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

@@ -23,6 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/weekly">주간</Link>
               <Link href="/themes">테마</Link>
               <Link href="/industries">산업</Link>
+              <Link href="/signals">숫자 변화</Link>
               <Link href="/reports">리포트</Link>
               <form method="post" action="/api/logout">
                 <button type="submit" className="linklike">로그아웃</button>

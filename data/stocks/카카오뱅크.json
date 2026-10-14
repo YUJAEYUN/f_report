@@ -1,0 +1,123 @@
+{
+ "id": "카카오뱅크",
+ "code": null,
+ "name": "카카오뱅크",
+ "industry": "은행",
+ "timeline": [
+  {
+   "date": "2024-08-08",
+   "rating": "매수",
+   "target_price": 28000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-29",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-06-30",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-08-07",
+   "rating": "매수",
+   "target_price": 36000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-06",
+   "rating": "매수",
+   "target_price": 32000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-11",
+   "rating": "매수",
+   "target_price": 35000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-05-29",
+   "prev_date": "2024-08-08",
+   "days": 294,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 28000.0,
+   "tp_to": 30000.0,
+   "tp_pct": 7.1,
+   "tp_speed30": 0.7,
+   "report_id": null
+  },
+  {
+   "date": "2025-06-30",
+   "prev_date": "2025-05-29",
+   "days": 32,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 30000.0,
+   "tp_to": 40000.0,
+   "tp_pct": 33.3,
+   "tp_speed30": 31.2,
+   "report_id": null
+  },
+  {
+   "date": "2025-08-07",
+   "prev_date": "2025-06-30",
+   "days": 38,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 40000.0,
+   "tp_to": 36000.0,
+   "tp_pct": -10.0,
+   "tp_speed30": -7.9,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-06",
+   "prev_date": "2025-08-07",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 36000.0,
+   "tp_to": 32000.0,
+   "tp_pct": -11.1,
+   "tp_speed30": -3.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-11",
+   "prev_date": "2025-11-06",
+   "days": 97,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 32000.0,
+   "tp_to": 35000.0,
+   "tp_pct": 9.4,
+   "tp_speed30": 2.9,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

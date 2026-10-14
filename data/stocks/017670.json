@@ -1,0 +1,390 @@
+{
+ "id": "017670",
+ "code": "017670",
+ "name": "SK텔레콤",
+ "industry": "통신서비스",
+ "timeline": [
+  {
+   "date": "2024-03-28",
+   "rating": "매수",
+   "target_price": 70000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-31",
+   "rating": "매수",
+   "target_price": 55000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-27",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-03",
+   "rating": "매수",
+   "target_price": 100000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-17",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-29",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "report",
+   "report_id": "hana_1288910",
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-12",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "report",
+   "report_id": "hana_1289072",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-03-28",
+   "note": "년 경과"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-09-29",
+   "report_id": "hana_1288910",
+   "title": "SKT(017670.KS/매수): 10월 전략 - 재료 많아 주가 상승 시도 지속될 전망",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 140000.0,
+   "tp_status": null,
+   "price": 86200.0,
+   "upside_pct": 62.4,
+   "estimates": {
+    "2026": {
+     "revenue": 17658.9,
+     "op": 1946.6,
+     "net": 1285.2,
+     "eps": 5983.0
+    },
+    "2027": {
+     "revenue": 18217.8,
+     "op": 2013.5,
+     "net": 1273.0,
+     "eps": 5927.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 17660.6,
+     "op": 1964.4,
+     "net": 1348.8,
+     "eps": 6281.0
+    },
+    "2027": {
+     "revenue": 18016.2,
+     "op": 2092.1,
+     "net": 1414.8,
+     "eps": 6602.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1946.6,
+    "consensus": 1964.4,
+    "gap_pct": -0.9
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "report_id": "hana_1289072",
+   "title": "SK텔레콤(017670.KS/매수): 3Q 프리뷰 - DPS 증가 기대감 커지는 계기될 것",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 140000.0,
+   "tp_status": null,
+   "price": 79700.0,
+   "upside_pct": 75.7,
+   "estimates": {
+    "2026": {
+     "revenue": 17658.0,
+     "op": 1950.1,
+     "net": 1287.9,
+     "eps": 5996.0
+    },
+    "2027": {
+     "revenue": 18217.8,
+     "op": 2013.5,
+     "net": 1273.0,
+     "eps": 5927.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 17657.6,
+     "op": 1965.3,
+     "net": 1349.5,
+     "eps": 6285.0
+    },
+    "2027": {
+     "revenue": 18029.9,
+     "op": 2083.6,
+     "net": 1407.8,
+     "eps": 6569.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1950.1,
+    "consensus": 1965.3,
+    "gap_pct": -0.8
+   }
+  }
+ ],
+ "estimate_revisions": [
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 17658.9,
+   "to": 17658.0,
+   "pct": -0.0,
+   "speed30": -0.0,
+   "turn": null,
+   "report_id": "hana_1289072",
+   "prev_report_id": "hana_1288910"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "op",
+   "from": 1946.6,
+   "to": 1950.1,
+   "pct": 0.2,
+   "speed30": 0.5,
+   "turn": null,
+   "report_id": "hana_1289072",
+   "prev_report_id": "hana_1288910"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "net",
+   "from": 1285.2,
+   "to": 1287.9,
+   "pct": 0.2,
+   "speed30": 0.5,
+   "turn": null,
+   "report_id": "hana_1289072",
+   "prev_report_id": "hana_1288910"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "eps",
+   "from": 5983.0,
+   "to": 5996.0,
+   "pct": 0.2,
+   "speed30": 0.5,
+   "turn": null,
+   "report_id": "hana_1289072",
+   "prev_report_id": "hana_1288910"
+  }
+ ],
+ "consensus_changes": [
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 17660.6,
+   "to": 17657.6,
+   "pct": -0.0,
+   "speed30": -0.0,
+   "turn": null,
+   "report_id": "hana_1289072",
+   "prev_report_id": "hana_1288910"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "op",
+   "from": 1964.4,
+   "to": 1965.3,
+   "pct": 0.0,
+   "speed30": 0.0,
+   "turn": null,
+   "report_id": "hana_1289072",
+   "prev_report_id": "hana_1288910"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "net",
+   "from": 1348.8,
+   "to": 1349.5,
+   "pct": 0.1,
+   "speed30": 0.2,
+   "turn": null,
+   "report_id": "hana_1289072",
+   "prev_report_id": "hana_1288910"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "eps",
+   "from": 6281.0,
+   "to": 6285.0,
+   "pct": 0.1,
+   "speed30": 0.2,
+   "turn": null,
+   "report_id": "hana_1289072",
+   "prev_report_id": "hana_1288910"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 18016.2,
+   "to": 18029.9,
+   "pct": 0.1,
+   "speed30": 0.2,
+   "turn": null,
+   "report_id": "hana_1289072",
+   "prev_report_id": "hana_1288910"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2027",
+   "metric": "op",
+   "from": 2092.1,
+   "to": 2083.6,
+   "pct": -0.4,
+   "speed30": -0.9,
+   "turn": null,
+   "report_id": "hana_1289072",
+   "prev_report_id": "hana_1288910"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2027",
+   "metric": "net",
+   "from": 1414.8,
+   "to": 1407.8,
+   "pct": -0.5,
+   "speed30": -1.2,
+   "turn": null,
+   "report_id": "hana_1289072",
+   "prev_report_id": "hana_1288910"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2027",
+   "metric": "eps",
+   "from": 6602.0,
+   "to": 6569.0,
+   "pct": -0.5,
+   "speed30": -1.2,
+   "turn": null,
+   "report_id": "hana_1289072",
+   "prev_report_id": "hana_1288910"
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2025-10-31",
+   "prev_date": "2024-03-28",
+   "days": 582,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 70000.0,
+   "tp_to": 55000.0,
+   "tp_pct": -21.4,
+   "tp_speed30": -1.1,
+   "report_id": null,
+   "note": "1년 경과"
+  },
+  {
+   "date": "2026-01-27",
+   "prev_date": "2025-10-31",
+   "days": 88,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 55000.0,
+   "tp_to": 80000.0,
+   "tp_pct": 45.5,
+   "tp_speed30": 15.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-03",
+   "prev_date": "2026-01-27",
+   "days": 7,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 80000.0,
+   "tp_to": 100000.0,
+   "tp_pct": 25.0,
+   "tp_speed30": 107.1,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-17",
+   "prev_date": "2026-02-03",
+   "days": 73,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 100000.0,
+   "tp_to": 140000.0,
+   "tp_pct": 40.0,
+   "tp_speed30": 16.4,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

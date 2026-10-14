@@ -1,0 +1,206 @@
+{
+ "id": "006800",
+ "code": "006800",
+ "name": "미래에셋증권",
+ "industry": "증권",
+ "timeline": [
+  {
+   "date": "2024-02-07",
+   "rating": "매수",
+   "target_price": 9459.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-15",
+   "rating": "매수",
+   "target_price": 25888.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-12",
+   "rating": "매수",
+   "target_price": 35845.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-10",
+   "rating": "매수",
+   "target_price": 64719.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-08",
+   "rating": "매수",
+   "target_price": 81000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-13",
+   "rating": "매수",
+   "target_price": 95000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-06",
+   "rating": "매수",
+   "target_price": 67000.0,
+   "source": "report",
+   "report_id": "hana_1288999",
+   "tp_status": "하향"
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 67000.0,
+   "source": "table",
+   "report_id": "hana_1288999",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-06-17",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-06",
+   "report_id": "hana_1288999",
+   "title": "미래에셋증권(006800.KS/매수): 3Q26 Pre - SpaceX 평가손실로 인한 적자는 불가피",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 67000.0,
+   "tp_status": "하향",
+   "price": 31950.0,
+   "upside_pct": 109.7,
+   "estimates": {
+    "2026": {
+     "revenue": 7247.9,
+     "op": 3744.7,
+     "net": 2811.4
+    },
+    "2027": {
+     "revenue": 4308.1,
+     "op": 2119.2,
+     "net": 1573.6
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 61296.0,
+     "op": 4708.0,
+     "net": 3526.0,
+     "eps": 4914.0
+    },
+    "2027": {
+     "revenue": 55541.0,
+     "op": 2593.0,
+     "net": 2024.0,
+     "eps": 2829.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 3744.7,
+    "consensus": 4708.0,
+    "gap_pct": -20.5
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-07-15",
+   "prev_date": "2024-02-07",
+   "days": 524,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 9459.0,
+   "tp_to": 25888.0,
+   "tp_pct": 173.7,
+   "tp_speed30": 9.9,
+   "report_id": null,
+   "note": "담당자 변경"
+  },
+  {
+   "date": "2026-01-12",
+   "prev_date": "2025-07-15",
+   "days": 181,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 25888.0,
+   "tp_to": 35845.0,
+   "tp_pct": 38.5,
+   "tp_speed30": 6.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-10",
+   "prev_date": "2026-01-12",
+   "days": 29,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 35845.0,
+   "tp_to": 64719.0,
+   "tp_pct": 80.6,
+   "tp_speed30": 83.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-08",
+   "prev_date": "2026-02-10",
+   "days": 57,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 64719.0,
+   "tp_to": 81000.0,
+   "tp_pct": 25.2,
+   "tp_speed30": 13.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-13",
+   "prev_date": "2026-04-08",
+   "days": 35,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 81000.0,
+   "tp_to": 95000.0,
+   "tp_pct": 17.3,
+   "tp_speed30": 14.8,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-06",
+   "prev_date": "2026-05-13",
+   "days": 146,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 95000.0,
+   "tp_to": 67000.0,
+   "tp_pct": -29.5,
+   "tp_speed30": -6.1,
+   "report_id": "hana_1288999"
+  }
+ ],
+ "events": [
+  "2026-10-06:006800:tp_down:",
+  "2026-10-06:006800:gap_below:"
+ ]
+}

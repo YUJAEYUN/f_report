@@ -1,0 +1,145 @@
+{
+ "id": "001430",
+ "code": "001430",
+ "name": "세아베스틸지주",
+ "industry": "철강·금속",
+ "timeline": [
+  {
+   "date": "2024-02-07",
+   "rating": "매수",
+   "target_price": 31000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-04",
+   "rating": "매수",
+   "target_price": 39000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-23",
+   "rating": "매수",
+   "target_price": 89000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-09",
+   "rating": "매수",
+   "target_price": 62000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-13",
+   "rating": "매수",
+   "target_price": 62000.0,
+   "source": "report",
+   "report_id": "hana_1289102",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-02-07",
+   "note": "년 경과"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-13",
+   "report_id": "hana_1289102",
+   "title": "세아베스틸지주(001430.KS/매수): 3분기는 다소 부진하겠지만 4분기부터 회복 기대",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 62000.0,
+   "tp_status": null,
+   "price": 43150.0,
+   "upside_pct": 43.7,
+   "estimates": {
+    "2026": {
+     "revenue": 4116.0,
+     "op": 140.6,
+     "net": 81.3,
+     "eps": 2266.0
+    },
+    "2027": {
+     "revenue": 4496.9,
+     "op": 223.3,
+     "net": 143.8,
+     "eps": 4009.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 4119.4,
+     "op": 167.8,
+     "net": 103.3,
+     "eps": 2860.0
+    },
+    "2027": {
+     "revenue": 4457.6,
+     "op": 229.8,
+     "net": 145.4,
+     "eps": 4029.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 140.6,
+    "consensus": 167.8,
+    "gap_pct": -16.2
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-07-04",
+   "prev_date": "2024-02-07",
+   "days": 513,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 31000.0,
+   "tp_to": 39000.0,
+   "tp_pct": 25.8,
+   "tp_speed30": 1.5,
+   "report_id": null,
+   "note": "1년 경과"
+  },
+  {
+   "date": "2026-01-23",
+   "prev_date": "2025-07-04",
+   "days": 203,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 39000.0,
+   "tp_to": 89000.0,
+   "tp_pct": 128.2,
+   "tp_speed30": 18.9,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-09",
+   "prev_date": "2026-01-23",
+   "days": 167,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 89000.0,
+   "tp_to": 62000.0,
+   "tp_pct": -30.3,
+   "tp_speed30": -5.4,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

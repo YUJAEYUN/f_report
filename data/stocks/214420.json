@@ -1,0 +1,67 @@
+{
+ "id": "214420",
+ "code": "214420",
+ "name": "토니모리",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2024-01-09",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-01",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1288929",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-01-09",
+   "note": "년 경과"
+  },
+  {
+   "date": "2026-09-29",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288929",
+   "title": "화장품(Overweight): K-뷰티 중소형주 31",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 245.0,
+     "op": 21.0,
+     "net": 16.0,
+     "eps": 665.0
+    },
+    "2027": {
+     "revenue": 290.0,
+     "op": 29.0,
+     "net": 22.0,
+     "eps": 873.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

@@ -1,0 +1,103 @@
+{
+ "id": "넥센타이어",
+ "code": null,
+ "name": "넥센타이어",
+ "industry": "자동차·부품",
+ "timeline": [
+  {
+   "date": "2023-10-30",
+   "rating": "매수",
+   "target_price": 11000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-30",
+   "rating": "매수",
+   "target_price": 9000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-02",
+   "rating": "매수",
+   "target_price": 8000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-06",
+   "rating": "매수",
+   "target_price": 9000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-05",
+   "rating": "매수",
+   "target_price": 10500.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-10-30",
+   "prev_date": "2023-10-30",
+   "days": 366,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 11000.0,
+   "tp_to": 9000.0,
+   "tp_pct": -18.2,
+   "tp_speed30": -1.5,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-02",
+   "prev_date": "2024-10-30",
+   "days": 184,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 9000.0,
+   "tp_to": 8000.0,
+   "tp_pct": -11.1,
+   "tp_speed30": -1.8,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-06",
+   "prev_date": "2025-05-02",
+   "days": 188,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 8000.0,
+   "tp_to": 9000.0,
+   "tp_pct": 12.5,
+   "tp_speed30": 2.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-05",
+   "prev_date": "2025-11-06",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 9000.0,
+   "tp_to": 10500.0,
+   "tp_pct": 16.7,
+   "tp_speed30": 5.5,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

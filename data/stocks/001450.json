@@ -1,0 +1,69 @@
+{
+ "id": "001450",
+ "code": "001450",
+ "name": "현대해상",
+ "industry": "보험",
+ "timeline": [
+  {
+   "date": "2023-09-20",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-29",
+   "rating": "매수",
+   "target_price": 42000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-08-18",
+   "rating": "매수",
+   "target_price": 57000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-04-27",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-04-29",
+   "prev_date": "2023-09-20",
+   "days": 952,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 42000.0,
+   "tp_pct": -16.0,
+   "tp_speed30": -0.5,
+   "report_id": null,
+   "note": "담당자 변경"
+  },
+  {
+   "date": "2026-08-18",
+   "prev_date": "2026-04-29",
+   "days": 111,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 42000.0,
+   "tp_to": 57000.0,
+   "tp_pct": 35.7,
+   "tp_speed30": 9.6,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

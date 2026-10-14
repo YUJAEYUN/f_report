@@ -1,0 +1,286 @@
+{
+ "id": "032640",
+ "code": "032640",
+ "name": "LG유플러스",
+ "industry": "통신서비스",
+ "timeline": [
+  {
+   "date": "2024-03-28",
+   "rating": "중립",
+   "target_price": 13000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-11-26",
+   "rating": "매수",
+   "target_price": 13000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-12-04",
+   "rating": "매수",
+   "target_price": 14000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-06-27",
+   "rating": "매수",
+   "target_price": 16000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-27",
+   "rating": "매수",
+   "target_price": 20000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-29",
+   "rating": "매수",
+   "target_price": 20000.0,
+   "source": "report",
+   "report_id": "hana_1288908",
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-12",
+   "rating": "매수",
+   "target_price": 20000.0,
+   "source": "report",
+   "report_id": "hana_1289073",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-29",
+   "report_id": "hana_1288908",
+   "title": "LGU+(032640.KS/매수): 10월 전략 - 금리 하락 반전 시 주가 오를 것입니다",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 20000.0,
+   "tp_status": null,
+   "price": 14800.0,
+   "upside_pct": 35.1,
+   "estimates": {
+    "2026": {
+     "revenue": 15420.3,
+     "op": 1115.4,
+     "net": 714.2,
+     "eps": 1675.0
+    },
+    "2027": {
+     "revenue": 16347.1,
+     "op": 1185.5,
+     "net": 806.9,
+     "eps": 1901.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 15395.1,
+     "op": 1149.8,
+     "net": 728.4,
+     "eps": 1729.0
+    },
+    "2027": {
+     "revenue": 15811.7,
+     "op": 1236.4,
+     "net": 811.5,
+     "eps": 1937.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1115.4,
+    "consensus": 1149.8,
+    "gap_pct": -3.0
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "report_id": "hana_1289073",
+   "title": "LG유플러스(032640.KS/매수): 3Q 프리뷰 - 특별한 대안 없다면 길게 보세요",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 20000.0,
+   "tp_status": null,
+   "price": 14550.0,
+   "upside_pct": 37.5,
+   "estimates": {
+    "2026": {
+     "revenue": 15429.4,
+     "op": 1144.2,
+     "net": 737.5,
+     "eps": 1729.0
+    },
+    "2027": {
+     "revenue": 16347.1,
+     "op": 1185.5,
+     "net": 806.9,
+     "eps": 1901.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 15395.0,
+     "op": 1149.8,
+     "net": 728.4,
+     "eps": 1729.0
+    },
+    "2027": {
+     "revenue": 15811.7,
+     "op": 1236.4,
+     "net": 811.5,
+     "eps": 1937.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1144.2,
+    "consensus": 1149.8,
+    "gap_pct": -0.5
+   }
+  }
+ ],
+ "estimate_revisions": [
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 15420.3,
+   "to": 15429.4,
+   "pct": 0.1,
+   "speed30": 0.2,
+   "turn": null,
+   "report_id": "hana_1289073",
+   "prev_report_id": "hana_1288908"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "op",
+   "from": 1115.4,
+   "to": 1144.2,
+   "pct": 2.6,
+   "speed30": 6.0,
+   "turn": null,
+   "report_id": "hana_1289073",
+   "prev_report_id": "hana_1288908"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "net",
+   "from": 714.2,
+   "to": 737.5,
+   "pct": 3.3,
+   "speed30": 7.6,
+   "turn": null,
+   "report_id": "hana_1289073",
+   "prev_report_id": "hana_1288908"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "eps",
+   "from": 1675.0,
+   "to": 1729.0,
+   "pct": 3.2,
+   "speed30": 7.4,
+   "turn": null,
+   "report_id": "hana_1289073",
+   "prev_report_id": "hana_1288908"
+  }
+ ],
+ "consensus_changes": [
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-09-29",
+   "days": 13,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 15395.1,
+   "to": 15395.0,
+   "pct": -0.0,
+   "speed30": -0.0,
+   "turn": null,
+   "report_id": "hana_1289073",
+   "prev_report_id": "hana_1288908"
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2024-11-26",
+   "prev_date": "2024-03-28",
+   "days": 243,
+   "rating_from": "중립",
+   "rating_to": "매수",
+   "tp_from": 13000.0,
+   "tp_to": 13000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null
+  },
+  {
+   "date": "2024-12-04",
+   "prev_date": "2024-11-26",
+   "days": 8,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 13000.0,
+   "tp_to": 14000.0,
+   "tp_pct": 7.7,
+   "tp_speed30": 28.9,
+   "report_id": null
+  },
+  {
+   "date": "2025-06-27",
+   "prev_date": "2024-12-04",
+   "days": 205,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 14000.0,
+   "tp_to": 16000.0,
+   "tp_pct": 14.3,
+   "tp_speed30": 2.1,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-27",
+   "prev_date": "2025-06-27",
+   "days": 214,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 16000.0,
+   "tp_to": 20000.0,
+   "tp_pct": 25.0,
+   "tp_speed30": 3.5,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

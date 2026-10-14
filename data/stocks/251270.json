@@ -1,0 +1,535 @@
+{
+ "id": "251270",
+ "code": "251270",
+ "name": "넷마블",
+ "industry": "게임",
+ "timeline": [
+  {
+   "date": "2024-08-20",
+   "rating": "매수",
+   "target_price": 68000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-03-12",
+   "rating": "매수",
+   "target_price": 52000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-08",
+   "rating": "매수",
+   "target_price": 71000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-09-30",
+   "rating": "매수",
+   "target_price": 73000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-08",
+   "rating": "매수",
+   "target_price": 66000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-10",
+   "rating": "매수",
+   "target_price": 60000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-08-06",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-21",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "report",
+   "report_id": "hana_1288847",
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-30",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "report",
+   "report_id": "hana_1288926",
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-01",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "report",
+   "report_id": "hana_1288931",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-21",
+   "report_id": "hana_1288847",
+   "title": "게임(Overweight) : 도쿄게임쇼 2026: 한·일 게임사의 IP 전략과 신작 점검",
+   "primary": false,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 50000.0,
+   "tp_status": null,
+   "price": 34550.0,
+   "upside_pct": 44.7,
+   "estimates": {
+    "2026": {
+     "revenue": 2830.0,
+     "op": 289.6,
+     "net": 502.7,
+     "eps": 6051.0
+    },
+    "2027": {
+     "revenue": 2751.3,
+     "op": 290.2,
+     "net": 255.6,
+     "eps": 3060.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2919.7,
+     "op": 327.2,
+     "net": 514.0,
+     "eps": 6075.0
+    },
+    "2027": {
+     "revenue": 2975.5,
+     "op": 371.7,
+     "net": 299.3,
+     "eps": 3503.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 289.6,
+    "consensus": 327.2,
+    "gap_pct": -11.5
+   }
+  },
+  {
+   "date": "2026-09-30",
+   "report_id": "hana_1288926",
+   "title": "넷마블 (251270.KS/매수): 쉬어가는 분기, 신작 출시 확정 필요",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 50000.0,
+   "tp_status": null,
+   "price": 34400.0,
+   "upside_pct": 45.3,
+   "estimates": {
+    "2026": {
+     "revenue": 2829.3,
+     "op": 284.2,
+     "net": 511.5,
+     "eps": 6169.0
+    },
+    "2027": {
+     "revenue": 2739.6,
+     "op": 284.5,
+     "net": 278.9,
+     "eps": 3354.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2918.7,
+     "op": 327.7,
+     "net": 514.5,
+     "eps": 6074.0
+    },
+    "2027": {
+     "revenue": 2971.6,
+     "op": 371.5,
+     "net": 298.0,
+     "eps": 3493.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 284.2,
+    "consensus": 327.7,
+    "gap_pct": -13.3
+   }
+  },
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288931",
+   "title": "하루에 하나 1001",
+   "primary": false,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 50000.0,
+   "tp_status": null,
+   "price": 34400.0,
+   "upside_pct": 45.3,
+   "estimates": {
+    "2026": {
+     "revenue": 2829.3,
+     "op": 284.2,
+     "net": 511.5,
+     "eps": 6169.0
+    },
+    "2027": {
+     "revenue": 2739.6,
+     "op": 284.5,
+     "net": 278.9,
+     "eps": 3354.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2918.7,
+     "op": 327.7,
+     "net": 514.5,
+     "eps": 6074.0
+    },
+    "2027": {
+     "revenue": 2971.6,
+     "op": 371.5,
+     "net": 298.0,
+     "eps": 3493.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 284.2,
+    "consensus": 327.7,
+    "gap_pct": -13.3
+   }
+  }
+ ],
+ "estimate_revisions": [
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 2830.0,
+   "to": 2829.3,
+   "pct": -0.0,
+   "speed30": -0.0,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2026",
+   "metric": "op",
+   "from": 289.6,
+   "to": 284.2,
+   "pct": -1.9,
+   "speed30": -6.3,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2026",
+   "metric": "net",
+   "from": 502.7,
+   "to": 511.5,
+   "pct": 1.8,
+   "speed30": 6.0,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2026",
+   "metric": "eps",
+   "from": 6051.0,
+   "to": 6169.0,
+   "pct": 2.0,
+   "speed30": 6.7,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 2751.3,
+   "to": 2739.6,
+   "pct": -0.4,
+   "speed30": -1.3,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2027",
+   "metric": "op",
+   "from": 290.2,
+   "to": 284.5,
+   "pct": -2.0,
+   "speed30": -6.7,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2027",
+   "metric": "net",
+   "from": 255.6,
+   "to": 278.9,
+   "pct": 9.1,
+   "speed30": 30.3,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2027",
+   "metric": "eps",
+   "from": 3060.0,
+   "to": 3354.0,
+   "pct": 9.6,
+   "speed30": 32.0,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  }
+ ],
+ "consensus_changes": [
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 2919.7,
+   "to": 2918.7,
+   "pct": -0.0,
+   "speed30": -0.0,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2026",
+   "metric": "op",
+   "from": 327.2,
+   "to": 327.7,
+   "pct": 0.2,
+   "speed30": 0.7,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2026",
+   "metric": "net",
+   "from": 514.0,
+   "to": 514.5,
+   "pct": 0.1,
+   "speed30": 0.3,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2026",
+   "metric": "eps",
+   "from": 6075.0,
+   "to": 6074.0,
+   "pct": -0.0,
+   "speed30": -0.0,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 2975.5,
+   "to": 2971.6,
+   "pct": -0.1,
+   "speed30": -0.3,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2027",
+   "metric": "op",
+   "from": 371.7,
+   "to": 371.5,
+   "pct": -0.1,
+   "speed30": -0.3,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2027",
+   "metric": "net",
+   "from": 299.3,
+   "to": 298.0,
+   "pct": -0.4,
+   "speed30": -1.3,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-21",
+   "days": 9,
+   "year": "2027",
+   "metric": "eps",
+   "from": 3503.0,
+   "to": 3493.0,
+   "pct": -0.3,
+   "speed30": -1.0,
+   "turn": null,
+   "report_id": "hana_1288926",
+   "prev_report_id": "hana_1288847"
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2025-03-12",
+   "prev_date": "2024-08-20",
+   "days": 204,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 68000.0,
+   "tp_to": 52000.0,
+   "tp_pct": -23.5,
+   "tp_speed30": -3.5,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-08",
+   "prev_date": "2025-03-12",
+   "days": 118,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 52000.0,
+   "tp_to": 71000.0,
+   "tp_pct": 36.5,
+   "tp_speed30": 9.3,
+   "report_id": null
+  },
+  {
+   "date": "2025-09-30",
+   "prev_date": "2025-07-08",
+   "days": 84,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 71000.0,
+   "tp_to": 73000.0,
+   "tp_pct": 2.8,
+   "tp_speed30": 1.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-08",
+   "prev_date": "2025-09-30",
+   "days": 220,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 73000.0,
+   "tp_to": 66000.0,
+   "tp_pct": -9.6,
+   "tp_speed30": -1.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-10",
+   "prev_date": "2026-05-08",
+   "days": 63,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 66000.0,
+   "tp_to": 60000.0,
+   "tp_pct": -9.1,
+   "tp_speed30": -4.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-08-06",
+   "prev_date": "2026-07-10",
+   "days": 27,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 60000.0,
+   "tp_to": 50000.0,
+   "tp_pct": -16.7,
+   "tp_speed30": -18.6,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

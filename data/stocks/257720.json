@@ -1,0 +1,153 @@
+{
+ "id": "257720",
+ "code": "257720",
+ "name": "실리콘투",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2024-08-16",
+   "rating": "매수",
+   "target_price": 70000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-11-15",
+   "rating": "매수",
+   "target_price": 64000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-02-27",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-13",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-06-09",
+   "rating": "매수",
+   "target_price": 52000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-08-14",
+   "rating": "매수",
+   "target_price": 59000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-14",
+   "rating": "매수",
+   "target_price": 52000.0,
+   "source": "table",
+   "report_id": "hana_1289107",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-05-13",
+   "note": "년 경과"
+  },
+  {
+   "date": "2026-06-04",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-11-15",
+   "prev_date": "2024-08-16",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 70000.0,
+   "tp_to": 64000.0,
+   "tp_pct": -8.6,
+   "tp_speed30": -2.8,
+   "report_id": null
+  },
+  {
+   "date": "2025-02-27",
+   "prev_date": "2024-11-15",
+   "days": 104,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 64000.0,
+   "tp_to": 40000.0,
+   "tp_pct": -37.5,
+   "tp_speed30": -10.8,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-13",
+   "prev_date": "2025-02-27",
+   "days": 75,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 40000.0,
+   "tp_to": 50000.0,
+   "tp_pct": 25.0,
+   "tp_speed30": 10.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-06-09",
+   "prev_date": "2025-05-13",
+   "days": 392,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 52000.0,
+   "tp_pct": 4.0,
+   "tp_speed30": 0.3,
+   "report_id": null,
+   "note": "1년 경과, 담당자 변경"
+  },
+  {
+   "date": "2026-08-14",
+   "prev_date": "2026-06-09",
+   "days": 66,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 52000.0,
+   "tp_to": 59000.0,
+   "tp_pct": 13.5,
+   "tp_speed30": 6.1,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-14",
+   "prev_date": "2026-08-14",
+   "days": 61,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 59000.0,
+   "tp_to": 52000.0,
+   "tp_pct": -11.9,
+   "tp_speed30": -5.9,
+   "report_id": "hana_1289107"
+  }
+ ],
+ "events": []
+}

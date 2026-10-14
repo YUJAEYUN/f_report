@@ -1,0 +1,145 @@
+{
+ "id": "253450",
+ "code": "253450",
+ "name": "스튜디오드래곤",
+ "industry": "미디어·콘텐츠",
+ "timeline": [
+  {
+   "date": "2024-07-08",
+   "rating": "매수",
+   "target_price": 52000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-09",
+   "rating": "매수",
+   "target_price": 59000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-07",
+   "rating": "매수",
+   "target_price": 54000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-08",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-08",
+   "rating": "매수",
+   "target_price": 48000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-08",
+   "rating": "매수",
+   "target_price": 37000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 33000.0,
+   "source": "table",
+   "report_id": "hana_1289006",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-05-09",
+   "prev_date": "2024-07-08",
+   "days": 305,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 52000.0,
+   "tp_to": 59000.0,
+   "tp_pct": 13.5,
+   "tp_speed30": 1.3,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-07",
+   "prev_date": "2025-05-09",
+   "days": 182,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 59000.0,
+   "tp_to": 54000.0,
+   "tp_pct": -8.5,
+   "tp_speed30": -1.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-08",
+   "prev_date": "2025-11-07",
+   "days": 152,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 54000.0,
+   "tp_to": 50000.0,
+   "tp_pct": -7.4,
+   "tp_speed30": -1.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-08",
+   "prev_date": "2026-04-08",
+   "days": 30,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 48000.0,
+   "tp_pct": -4.0,
+   "tp_speed30": -4.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-08",
+   "prev_date": "2026-05-08",
+   "days": 61,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 48000.0,
+   "tp_to": 37000.0,
+   "tp_pct": -22.9,
+   "tp_speed30": -11.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-07",
+   "prev_date": "2026-07-08",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 37000.0,
+   "tp_to": 33000.0,
+   "tp_pct": -10.8,
+   "tp_speed30": -3.6,
+   "report_id": "hana_1289006"
+  }
+ ],
+ "events": [
+  "2026-10-07:253450:tp_streak:"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "005880",
+ "code": "005880",
+ "name": "대한해운",
+ "industry": "운송",
+ "timeline": [
+  {
+   "date": "2025-12-04",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-08-20",
+   "rating": "매수",
+   "target_price": 2500.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-08-20",
+   "prev_date": "2025-12-04",
+   "days": 259,
+   "rating_from": "NR",
+   "rating_to": "매수",
+   "tp_from": null,
+   "tp_to": 2500.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

@@ -1,0 +1,506 @@
+{
+ "id": "047050",
+ "code": "047050",
+ "name": "포스코인터내셔널",
+ "industry": "에너지·가스",
+ "timeline": [
+  {
+   "date": "2023-10-25",
+   "rating": "매수",
+   "target_price": 76000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-10",
+   "rating": "매수",
+   "target_price": 66000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-20",
+   "rating": "매수",
+   "target_price": 76000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-03-17",
+   "rating": "매수",
+   "target_price": 90000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-04",
+   "rating": "매수",
+   "target_price": 105000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-20",
+   "rating": "매수",
+   "target_price": 105000.0,
+   "source": "report",
+   "report_id": "hana_1288828",
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-30",
+   "rating": "매수",
+   "target_price": 105000.0,
+   "source": "report",
+   "report_id": "hana_1288928",
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-01",
+   "rating": "매수",
+   "target_price": 105000.0,
+   "source": "report",
+   "report_id": "hana_1288931",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2024-10-25",
+   "note": "년 경과"
+  },
+  {
+   "date": "2026-01-10",
+   "note": "년 경과"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-09-20",
+   "report_id": "hana_1288828",
+   "title": "에너지(Overweight): 올겨울 패딩 대신 LNG",
+   "primary": false,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 105000.0,
+   "tp_status": null,
+   "price": 57300.0,
+   "upside_pct": 83.2,
+   "estimates": {
+    "2026": {
+     "revenue": 34675.2,
+     "op": 1466.7,
+     "net": 953.8,
+     "eps": 5422.0
+    },
+    "2027": {
+     "revenue": 35391.2,
+     "op": 1591.8,
+     "net": 1053.9,
+     "eps": 5991.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 35260.9,
+     "op": 1472.9,
+     "net": 965.5,
+     "eps": 5251.0
+    },
+    "2027": {
+     "revenue": 36057.9,
+     "op": 1558.9,
+     "net": 1029.6,
+     "eps": 5616.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1466.7,
+    "consensus": 1472.9,
+    "gap_pct": -0.4
+   }
+  },
+  {
+   "date": "2026-09-30",
+   "report_id": "hana_1288928",
+   "title": "포스코인터내셔널(047050.KS/매수): 에너지 위기에서 돈을 버는 실력",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 105000.0,
+   "tp_status": null,
+   "price": 56900.0,
+   "upside_pct": 84.5,
+   "estimates": {
+    "2026": {
+     "revenue": 34364.5,
+     "op": 1475.4,
+     "net": 957.7,
+     "eps": 5444.0
+    },
+    "2027": {
+     "revenue": 35441.6,
+     "op": 1646.0,
+     "net": 1082.6,
+     "eps": 6154.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 35288.7,
+     "op": 1474.9,
+     "net": 966.6,
+     "eps": 5264.0
+    },
+    "2027": {
+     "revenue": 36145.3,
+     "op": 1559.6,
+     "net": 1031.4,
+     "eps": 5634.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1475.4,
+    "consensus": 1474.9,
+    "gap_pct": 0.0
+   }
+  },
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288931",
+   "title": "하루에 하나 1001",
+   "primary": false,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 105000.0,
+   "tp_status": null,
+   "price": 56900.0,
+   "upside_pct": 84.5,
+   "estimates": {
+    "2026": {
+     "revenue": 34364.5,
+     "op": 1475.4,
+     "net": 957.7,
+     "eps": 5444.0
+    },
+    "2027": {
+     "revenue": 35441.6,
+     "op": 1646.0,
+     "net": 1082.6,
+     "eps": 6154.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 35288.7,
+     "op": 1474.9,
+     "net": 966.6,
+     "eps": 5264.0
+    },
+    "2027": {
+     "revenue": 36145.3,
+     "op": 1559.6,
+     "net": 1031.4,
+     "eps": 5634.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1475.4,
+    "consensus": 1474.9,
+    "gap_pct": 0.0
+   }
+  }
+ ],
+ "estimate_revisions": [
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 34675.2,
+   "to": 34364.5,
+   "pct": -0.9,
+   "speed30": -2.7,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2026",
+   "metric": "op",
+   "from": 1466.7,
+   "to": 1475.4,
+   "pct": 0.6,
+   "speed30": 1.8,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2026",
+   "metric": "net",
+   "from": 953.8,
+   "to": 957.7,
+   "pct": 0.4,
+   "speed30": 1.2,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2026",
+   "metric": "eps",
+   "from": 5422.0,
+   "to": 5444.0,
+   "pct": 0.4,
+   "speed30": 1.2,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 35391.2,
+   "to": 35441.6,
+   "pct": 0.1,
+   "speed30": 0.3,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2027",
+   "metric": "op",
+   "from": 1591.8,
+   "to": 1646.0,
+   "pct": 3.4,
+   "speed30": 10.2,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2027",
+   "metric": "net",
+   "from": 1053.9,
+   "to": 1082.6,
+   "pct": 2.7,
+   "speed30": 8.1,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2027",
+   "metric": "eps",
+   "from": 5991.0,
+   "to": 6154.0,
+   "pct": 2.7,
+   "speed30": 8.1,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  }
+ ],
+ "consensus_changes": [
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 35260.9,
+   "to": 35288.7,
+   "pct": 0.1,
+   "speed30": 0.3,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2026",
+   "metric": "op",
+   "from": 1472.9,
+   "to": 1474.9,
+   "pct": 0.1,
+   "speed30": 0.3,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2026",
+   "metric": "net",
+   "from": 965.5,
+   "to": 966.6,
+   "pct": 0.1,
+   "speed30": 0.3,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2026",
+   "metric": "eps",
+   "from": 5251.0,
+   "to": 5264.0,
+   "pct": 0.2,
+   "speed30": 0.6,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 36057.9,
+   "to": 36145.3,
+   "pct": 0.2,
+   "speed30": 0.6,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2027",
+   "metric": "op",
+   "from": 1558.9,
+   "to": 1559.6,
+   "pct": 0.0,
+   "speed30": 0.0,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2027",
+   "metric": "net",
+   "from": 1029.6,
+   "to": 1031.4,
+   "pct": 0.2,
+   "speed30": 0.6,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-09-20",
+   "days": 10,
+   "year": "2027",
+   "metric": "eps",
+   "from": 5616.0,
+   "to": 5634.0,
+   "pct": 0.3,
+   "speed30": 0.9,
+   "turn": null,
+   "report_id": "hana_1288928",
+   "prev_report_id": "hana_1288828"
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2025-01-10",
+   "prev_date": "2023-10-25",
+   "days": 443,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 76000.0,
+   "tp_to": 66000.0,
+   "tp_pct": -13.2,
+   "tp_speed30": -0.9,
+   "report_id": null,
+   "note": "1년 경과"
+  },
+  {
+   "date": "2026-01-20",
+   "prev_date": "2025-01-10",
+   "days": 375,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 66000.0,
+   "tp_to": 76000.0,
+   "tp_pct": 15.2,
+   "tp_speed30": 1.2,
+   "report_id": null,
+   "note": "1년 경과"
+  },
+  {
+   "date": "2026-03-17",
+   "prev_date": "2026-01-20",
+   "days": 56,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 76000.0,
+   "tp_to": 90000.0,
+   "tp_pct": 18.4,
+   "tp_speed30": 9.9,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-04",
+   "prev_date": "2026-03-17",
+   "days": 48,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 90000.0,
+   "tp_to": 105000.0,
+   "tp_pct": 16.7,
+   "tp_speed30": 10.4,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

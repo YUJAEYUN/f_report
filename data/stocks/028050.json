@@ -1,0 +1,219 @@
+{
+ "id": "028050",
+ "code": "028050",
+ "name": "삼성E&A",
+ "industry": "건설",
+ "timeline": [
+  {
+   "date": "2024-04-26",
+   "rating": "매수",
+   "target_price": 36000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-09-27",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-25",
+   "rating": "매수",
+   "target_price": 27000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-01",
+   "rating": "매수",
+   "target_price": 31000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-25",
+   "rating": "매수",
+   "target_price": 33000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-08-13",
+   "rating": "매수",
+   "target_price": 39000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-01",
+   "rating": "매수",
+   "target_price": 46000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-24",
+   "rating": "매수",
+   "target_price": 67000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-01",
+   "rating": "매수",
+   "target_price": 67000.0,
+   "source": "report",
+   "report_id": "hana_1288937",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288937",
+   "title": "삼성E&A(028050.KS/매수): 글로벌 에너지 지도 재편의 수혜주",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 67000.0,
+   "tp_status": null,
+   "price": 47350.0,
+   "upside_pct": 41.5,
+   "estimates": {
+    "2026": {
+     "revenue": 10622.9,
+     "op": 1001.1,
+     "net": 751.2,
+     "eps": 3832.0
+    },
+    "2027": {
+     "revenue": 13207.3,
+     "op": 1183.0,
+     "net": 905.0,
+     "eps": 4618.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 10701.1,
+     "op": 980.8,
+     "net": 758.2,
+     "eps": 3760.0
+    },
+    "2027": {
+     "revenue": 12884.7,
+     "op": 1191.6,
+     "net": 943.4,
+     "eps": 4684.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1001.1,
+    "consensus": 980.8,
+    "gap_pct": 2.1
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-09-27",
+   "prev_date": "2024-04-26",
+   "days": 154,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 36000.0,
+   "tp_to": 30000.0,
+   "tp_pct": -16.7,
+   "tp_speed30": -3.3,
+   "report_id": null
+  },
+  {
+   "date": "2024-10-25",
+   "prev_date": "2024-09-27",
+   "days": 28,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 30000.0,
+   "tp_to": 27000.0,
+   "tp_pct": -10.0,
+   "tp_speed30": -10.7,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-01",
+   "prev_date": "2024-10-25",
+   "days": 249,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 27000.0,
+   "tp_to": 31000.0,
+   "tp_pct": 14.8,
+   "tp_speed30": 1.8,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-25",
+   "prev_date": "2025-07-01",
+   "days": 24,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 31000.0,
+   "tp_to": 33000.0,
+   "tp_pct": 6.5,
+   "tp_speed30": 8.1,
+   "report_id": null
+  },
+  {
+   "date": "2025-08-13",
+   "prev_date": "2025-07-25",
+   "days": 19,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 33000.0,
+   "tp_to": 39000.0,
+   "tp_pct": 18.2,
+   "tp_speed30": 28.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-01",
+   "prev_date": "2025-08-13",
+   "days": 231,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 39000.0,
+   "tp_to": 46000.0,
+   "tp_pct": 17.9,
+   "tp_speed30": 2.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-24",
+   "prev_date": "2026-04-01",
+   "days": 23,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 46000.0,
+   "tp_to": 67000.0,
+   "tp_pct": 45.7,
+   "tp_speed30": 59.6,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

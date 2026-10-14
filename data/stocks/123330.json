@@ -1,0 +1,117 @@
+{
+ "id": "123330",
+ "code": "123330",
+ "name": "제닉",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2024-10-21",
+   "rating": "매수",
+   "target_price": 35000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-04-28",
+   "rating": "매수",
+   "target_price": 31000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-06-09",
+   "rating": "매수",
+   "target_price": 42000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-06-05",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-06-02",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288929",
+   "title": "화장품(Overweight): K-뷰티 중소형주 31",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 171.0,
+     "op": 32.0,
+     "net": null,
+     "eps": 4047.0
+    },
+    "2027": {
+     "revenue": 234.0,
+     "op": 49.0,
+     "net": null,
+     "eps": 5220.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-04-28",
+   "prev_date": "2024-10-21",
+   "days": 189,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 35000.0,
+   "tp_to": 31000.0,
+   "tp_pct": -11.4,
+   "tp_speed30": -1.8,
+   "report_id": null
+  },
+  {
+   "date": "2025-06-09",
+   "prev_date": "2025-04-28",
+   "days": 42,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 31000.0,
+   "tp_to": 42000.0,
+   "tp_pct": 35.5,
+   "tp_speed30": 25.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-06-05",
+   "prev_date": "2025-06-09",
+   "days": 361,
+   "rating_from": "매수",
+   "rating_to": "NR",
+   "tp_from": 42000.0,
+   "tp_to": null,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null,
+   "note": "담당자 변경"
+  }
+ ],
+ "events": []
+}

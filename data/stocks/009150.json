@@ -1,0 +1,259 @@
+{
+ "id": "009150",
+ "code": "009150",
+ "name": "삼성전기",
+ "industry": "IT하드웨어·전자부품",
+ "timeline": [
+  {
+   "date": "2025-05-13",
+   "rating": "매수",
+   "target_price": 200000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-21",
+   "rating": "매수",
+   "target_price": 174000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-09-02",
+   "rating": "매수",
+   "target_price": 240000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-29",
+   "rating": "매수",
+   "target_price": 310000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-25",
+   "rating": "매수",
+   "target_price": 340000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-03-24",
+   "rating": "매수",
+   "target_price": 550000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-16",
+   "rating": "매수",
+   "target_price": 810000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-03",
+   "rating": "매수",
+   "target_price": 1000000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-20",
+   "rating": "매수",
+   "target_price": 1700000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-06-30",
+   "rating": "매수",
+   "target_price": 3000000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-28",
+   "rating": "매수",
+   "target_price": 3000000.0,
+   "source": "report",
+   "report_id": "hana_1288898",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-28",
+   "report_id": "hana_1288898",
+   "title": "삼성전기 (009150.KS/매수): 다시 이익 상향조정 구간 진입",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 3000000.0,
+   "tp_status": null,
+   "price": 1499000.0,
+   "upside_pct": 100.1,
+   "estimates": {
+    "2026": {
+     "revenue": 14522.5,
+     "op": 2105.3,
+     "net": 1605.5,
+     "eps": 20689.0
+    },
+    "2027": {
+     "revenue": 18200.1,
+     "op": 4753.8,
+     "net": 3700.0,
+     "eps": 47679.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 14341.9,
+     "op": 1960.7,
+     "net": 1616.5,
+     "eps": 20005.0
+    },
+    "2027": {
+     "revenue": 18351.0,
+     "op": 3766.2,
+     "net": 3086.4,
+     "eps": 38316.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 2105.3,
+    "consensus": 1960.7,
+    "gap_pct": 7.4
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-05-21",
+   "prev_date": "2025-05-13",
+   "days": 8,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 200000.0,
+   "tp_to": 174000.0,
+   "tp_pct": -13.0,
+   "tp_speed30": -48.8,
+   "report_id": null
+  },
+  {
+   "date": "2025-09-02",
+   "prev_date": "2025-05-21",
+   "days": 104,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 174000.0,
+   "tp_to": 240000.0,
+   "tp_pct": 37.9,
+   "tp_speed30": 10.9,
+   "report_id": null
+  },
+  {
+   "date": "2025-10-29",
+   "prev_date": "2025-09-02",
+   "days": 57,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 240000.0,
+   "tp_to": 310000.0,
+   "tp_pct": 29.2,
+   "tp_speed30": 15.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-25",
+   "prev_date": "2025-10-29",
+   "days": 88,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 310000.0,
+   "tp_to": 340000.0,
+   "tp_pct": 9.7,
+   "tp_speed30": 3.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-03-24",
+   "prev_date": "2026-01-25",
+   "days": 58,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 340000.0,
+   "tp_to": 550000.0,
+   "tp_pct": 61.8,
+   "tp_speed30": 32.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-16",
+   "prev_date": "2026-03-24",
+   "days": 23,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 550000.0,
+   "tp_to": 810000.0,
+   "tp_pct": 47.3,
+   "tp_speed30": 61.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-03",
+   "prev_date": "2026-04-16",
+   "days": 17,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 810000.0,
+   "tp_to": 1000000.0,
+   "tp_pct": 23.5,
+   "tp_speed30": 41.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-20",
+   "prev_date": "2026-05-03",
+   "days": 17,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1000000.0,
+   "tp_to": 1700000.0,
+   "tp_pct": 70.0,
+   "tp_speed30": 123.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-06-30",
+   "prev_date": "2026-05-20",
+   "days": 41,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1700000.0,
+   "tp_to": 3000000.0,
+   "tp_pct": 76.5,
+   "tp_speed30": 56.0,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

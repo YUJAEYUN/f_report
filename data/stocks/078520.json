@@ -1,0 +1,50 @@
+{
+ "id": "078520",
+ "code": "078520",
+ "name": "에이블씨엔씨",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2026-07-14",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288929",
+   "title": "화장품(Overweight): K-뷰티 중소형주 31",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 270.0,
+     "op": 36.0,
+     "net": null,
+     "eps": 1177.0
+    },
+    "2027": {
+     "revenue": 324.0,
+     "op": 45.0,
+     "net": null,
+     "eps": 1402.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

@@ -1,0 +1,203 @@
+{
+ "id": "039490",
+ "code": "039490",
+ "name": "키움증권",
+ "industry": "증권",
+ "timeline": [
+  {
+   "date": "2024-03-14",
+   "rating": "매수",
+   "target_price": 160000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-15",
+   "rating": "매수",
+   "target_price": 300000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-31",
+   "rating": "매수",
+   "target_price": 370000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-11",
+   "rating": "매수",
+   "target_price": 410000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-05",
+   "rating": "매수",
+   "target_price": 540000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-03-03",
+   "rating": "매수",
+   "target_price": 570000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-12",
+   "rating": "매수",
+   "target_price": 490000.0,
+   "source": "report",
+   "report_id": "hana_1289088",
+   "tp_status": "하향"
+  },
+  {
+   "date": "2026-10-13",
+   "rating": "매수",
+   "target_price": 490000.0,
+   "source": "table",
+   "report_id": "hana_1289088",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-06-17",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-12",
+   "report_id": "hana_1289088",
+   "title": "키움증권(039490.KS/매수): 3Q26 Pre - 배당을 바라보며",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 490000.0,
+   "tp_status": "하향",
+   "price": 238500.0,
+   "upside_pct": 105.5,
+   "estimates": {
+    "2026": {
+     "revenue": 3431.4,
+     "op": 2274.4,
+     "net": 1785.9
+    },
+    "2027": {
+     "revenue": 3063.9,
+     "op": 1824.0,
+     "net": 1337.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 41635.0,
+     "op": 2264.0,
+     "net": 1823.0,
+     "eps": 68574.0
+    },
+    "2027": {
+     "revenue": 39503.0,
+     "op": 1872.0,
+     "net": 1451.0,
+     "eps": 54912.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 2274.4,
+    "consensus": 2264.0,
+    "gap_pct": 0.5
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-07-15",
+   "prev_date": "2024-03-14",
+   "days": 488,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 160000.0,
+   "tp_to": 300000.0,
+   "tp_pct": 87.5,
+   "tp_speed30": 5.4,
+   "report_id": null,
+   "note": "담당자 변경"
+  },
+  {
+   "date": "2025-10-31",
+   "prev_date": "2025-07-15",
+   "days": 108,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 300000.0,
+   "tp_to": 370000.0,
+   "tp_pct": 23.3,
+   "tp_speed30": 6.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-11",
+   "prev_date": "2025-10-31",
+   "days": 72,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 370000.0,
+   "tp_to": 410000.0,
+   "tp_pct": 10.8,
+   "tp_speed30": 4.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-05",
+   "prev_date": "2026-01-11",
+   "days": 25,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 410000.0,
+   "tp_to": 540000.0,
+   "tp_pct": 31.7,
+   "tp_speed30": 38.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-03-03",
+   "prev_date": "2026-02-05",
+   "days": 26,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 540000.0,
+   "tp_to": 570000.0,
+   "tp_pct": 5.6,
+   "tp_speed30": 6.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": "2026-03-03",
+   "days": 223,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 570000.0,
+   "tp_to": 490000.0,
+   "tp_pct": -14.0,
+   "tp_speed30": -1.9,
+   "report_id": "hana_1289088"
+  }
+ ],
+ "events": []
+}

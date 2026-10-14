@@ -1,0 +1,105 @@
+{
+ "id": "051500",
+ "code": "051500",
+ "name": "CJ프레시웨이",
+ "industry": "음식료·담배",
+ "timeline": [
+  {
+   "date": "2025-02-10",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-24",
+   "rating": "매수",
+   "target_price": 48000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 48000.0,
+   "source": "report",
+   "report_id": "hana_1289015",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-02-10",
+   "note": "년 경과"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-07",
+   "report_id": "hana_1289015",
+   "title": "CJ프레시웨이(051500.KQ/매수): 3Q26 Pre: 손익은 다소 하회하나 온라인 매출은 경신",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 48000.0,
+   "tp_status": null,
+   "price": 21850.0,
+   "upside_pct": 119.7,
+   "estimates": {
+    "2026": {
+     "revenue": 3686.7,
+     "op": 90.3,
+     "net": 46.4,
+     "eps": 3906.0
+    },
+    "2027": {
+     "revenue": 3962.4,
+     "op": 106.4,
+     "net": 52.0,
+     "eps": 4383.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3714.9,
+     "op": 100.6,
+     "net": 52.8,
+     "eps": 4469.0
+    },
+    "2027": {
+     "revenue": 4007.5,
+     "op": 114.6,
+     "net": 64.8,
+     "eps": 5503.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 90.3,
+    "consensus": 100.6,
+    "gap_pct": -10.2
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-02-24",
+   "prev_date": "2025-02-10",
+   "days": 379,
+   "rating_from": "NR",
+   "rating_to": "매수",
+   "tp_from": null,
+   "tp_to": 48000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null,
+   "note": "1년 경과"
+  }
+ ],
+ "events": []
+}

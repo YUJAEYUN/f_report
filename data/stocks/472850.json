@@ -1,0 +1,67 @@
+{
+ "id": "472850",
+ "code": "472850",
+ "name": "폰드그룹",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2024-02-28",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-01",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1288929",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-02-28",
+   "note": "년 경과"
+  },
+  {
+   "date": "2026-09-29",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288929",
+   "title": "화장품(Overweight): K-뷰티 중소형주 31",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 587.0,
+     "op": 78.0,
+     "net": 55.0,
+     "eps": 723.0
+    },
+    "2027": {
+     "revenue": 666.0,
+     "op": 101.0,
+     "net": null,
+     "eps": 957.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

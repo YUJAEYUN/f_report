@@ -1,0 +1,203 @@
+{
+ "id": "005940",
+ "code": "005940",
+ "name": "NH투자증권",
+ "industry": "증권",
+ "timeline": [
+  {
+   "date": "2024-07-26",
+   "rating": "매수",
+   "target_price": 17000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-15",
+   "rating": "매수",
+   "target_price": 27000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-08-01",
+   "rating": "매수",
+   "target_price": 25000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-31",
+   "rating": "매수",
+   "target_price": 29000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-10",
+   "rating": "매수",
+   "target_price": 37000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-03-03",
+   "rating": "매수",
+   "target_price": 44000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-06",
+   "rating": "매수",
+   "target_price": 39000.0,
+   "source": "report",
+   "report_id": "hana_1289000",
+   "tp_status": "하향"
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 39000.0,
+   "source": "table",
+   "report_id": "hana_1289000",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-06-17",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-06",
+   "report_id": "hana_1289000",
+   "title": "NH투자증권(039490.KS/매수): 3Q26 Pre - 컨센 12% 하회 전망",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 39000.0,
+   "tp_status": "하향",
+   "price": 26650.0,
+   "upside_pct": 46.3,
+   "estimates": {
+    "2026": {
+     "revenue": 3941.1,
+     "op": 2230.4,
+     "net": 1584.3
+    },
+    "2027": {
+     "revenue": 3416.2,
+     "op": 1750.6,
+     "net": 1243.7
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 36268.0,
+     "op": 2303.0,
+     "net": 1706.0,
+     "eps": 4427.0
+    },
+    "2027": {
+     "revenue": 33983.0,
+     "op": 2027.0,
+     "net": 1549.0,
+     "eps": 3824.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 2230.4,
+    "consensus": 2303.0,
+    "gap_pct": -3.2
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-07-15",
+   "prev_date": "2024-07-26",
+   "days": 354,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 17000.0,
+   "tp_to": 27000.0,
+   "tp_pct": 58.8,
+   "tp_speed30": 5.0,
+   "report_id": null,
+   "note": "담당자 변경"
+  },
+  {
+   "date": "2025-08-01",
+   "prev_date": "2025-07-15",
+   "days": 17,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 27000.0,
+   "tp_to": 25000.0,
+   "tp_pct": -7.4,
+   "tp_speed30": -13.1,
+   "report_id": null
+  },
+  {
+   "date": "2025-10-31",
+   "prev_date": "2025-08-01",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 25000.0,
+   "tp_to": 29000.0,
+   "tp_pct": 16.0,
+   "tp_speed30": 5.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-10",
+   "prev_date": "2025-10-31",
+   "days": 102,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 29000.0,
+   "tp_to": 37000.0,
+   "tp_pct": 27.6,
+   "tp_speed30": 8.1,
+   "report_id": null
+  },
+  {
+   "date": "2026-03-03",
+   "prev_date": "2026-02-10",
+   "days": 21,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 37000.0,
+   "tp_to": 44000.0,
+   "tp_pct": 18.9,
+   "tp_speed30": 27.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-06",
+   "prev_date": "2026-03-03",
+   "days": 217,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 44000.0,
+   "tp_to": 39000.0,
+   "tp_pct": -11.4,
+   "tp_speed30": -1.6,
+   "report_id": "hana_1289000"
+  }
+ ],
+ "events": []
+}

@@ -1,0 +1,50 @@
+{
+ "id": "222040",
+ "code": "222040",
+ "name": "코스맥스엔비티",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2026-07-08",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-01",
+   "report_id": "hana_1288929",
+   "title": "화장품(Overweight): K-뷰티 중소형주 31",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 401.0,
+     "op": 37.0,
+     "net": 48.0,
+     "eps": 2362.0
+    },
+    "2027": {
+     "revenue": 495.0,
+     "op": 49.0,
+     "net": 24.0,
+     "eps": 1447.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

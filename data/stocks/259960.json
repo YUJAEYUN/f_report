@@ -1,0 +1,181 @@
+{
+ "id": "259960",
+ "code": "259960",
+ "name": "크래프톤",
+ "industry": "게임",
+ "timeline": [
+  {
+   "date": "2024-08-20",
+   "rating": "매수",
+   "target_price": 490000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-03-04",
+   "rating": "매수",
+   "target_price": 500000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-15",
+   "rating": "매수",
+   "target_price": 530000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-12",
+   "rating": "매수",
+   "target_price": 420000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-04",
+   "rating": "매수",
+   "target_price": 460000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-11",
+   "rating": "매수",
+   "target_price": 340000.0,
+   "source": "report",
+   "report_id": "hana_1289050",
+   "tp_status": "하향"
+  },
+  {
+   "date": "2026-10-12",
+   "rating": "매수",
+   "target_price": 340000.0,
+   "source": "table",
+   "report_id": "hana_1289050",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-11",
+   "report_id": "hana_1289050",
+   "title": "크래프톤 (259960.KS/매수): 웰메이드/UGC 모드 성과, 신작 일정 구체화 필요",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 340000.0,
+   "tp_status": "하향",
+   "price": 186900.0,
+   "upside_pct": 81.9,
+   "estimates": {
+    "2026": {
+     "revenue": 4691.8,
+     "op": 1304.9,
+     "net": 757.9,
+     "eps": 16352.0
+    },
+    "2027": {
+     "revenue": 4966.3,
+     "op": 1397.6,
+     "net": 997.9,
+     "eps": 21940.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 4826.2,
+     "op": 1428.0,
+     "net": 885.7,
+     "eps": 19095.0
+    },
+    "2027": {
+     "revenue": 5176.8,
+     "op": 1542.1,
+     "net": 1200.9,
+     "eps": 26148.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1304.9,
+    "consensus": 1428.0,
+    "gap_pct": -8.6
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-03-04",
+   "prev_date": "2024-08-20",
+   "days": 196,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 490000.0,
+   "tp_to": 500000.0,
+   "tp_pct": 2.0,
+   "tp_speed30": 0.3,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-15",
+   "prev_date": "2025-03-04",
+   "days": 72,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 500000.0,
+   "tp_to": 530000.0,
+   "tp_pct": 6.0,
+   "tp_speed30": 2.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-12",
+   "prev_date": "2025-05-15",
+   "days": 242,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 530000.0,
+   "tp_to": 420000.0,
+   "tp_pct": -20.8,
+   "tp_speed30": -2.6,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-04",
+   "prev_date": "2026-01-12",
+   "days": 112,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 420000.0,
+   "tp_to": 460000.0,
+   "tp_pct": 9.5,
+   "tp_speed30": 2.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-11",
+   "prev_date": "2026-05-04",
+   "days": 160,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 460000.0,
+   "tp_to": 340000.0,
+   "tp_pct": -26.1,
+   "tp_speed30": -4.9,
+   "report_id": "hana_1289050"
+  }
+ ],
+ "events": [
+  "2026-10-11:259960:tp_down:"
+ ]
+}

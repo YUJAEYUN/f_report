@@ -1,0 +1,143 @@
+{
+ "id": "032500",
+ "code": "032500",
+ "name": "케이엠더블유",
+ "industry": "통신장비",
+ "timeline": [
+  {
+   "date": "2024-03-20",
+   "rating": "매수",
+   "target_price": 25000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-16",
+   "rating": "매수",
+   "target_price": 20000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-12-18",
+   "rating": "매수",
+   "target_price": 15000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-03",
+   "rating": "매수",
+   "target_price": 25000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-03",
+   "rating": "매수",
+   "target_price": 35000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-03-17",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-19",
+   "rating": "매수",
+   "target_price": 70000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-10-16",
+   "prev_date": "2024-03-20",
+   "days": 210,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 25000.0,
+   "tp_to": 20000.0,
+   "tp_pct": -20.0,
+   "tp_speed30": -2.9,
+   "report_id": null
+  },
+  {
+   "date": "2024-12-18",
+   "prev_date": "2024-10-16",
+   "days": 63,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 20000.0,
+   "tp_to": 15000.0,
+   "tp_pct": -25.0,
+   "tp_speed30": -11.9,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-03",
+   "prev_date": "2024-12-18",
+   "days": 197,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 15000.0,
+   "tp_to": 25000.0,
+   "tp_pct": 66.7,
+   "tp_speed30": 10.2,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-03",
+   "prev_date": "2025-07-03",
+   "days": 215,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 25000.0,
+   "tp_to": 35000.0,
+   "tp_pct": 40.0,
+   "tp_speed30": 5.6,
+   "report_id": null
+  },
+  {
+   "date": "2026-03-17",
+   "prev_date": "2026-02-03",
+   "days": 42,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 35000.0,
+   "tp_to": 50000.0,
+   "tp_pct": 42.9,
+   "tp_speed30": 30.6,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-19",
+   "prev_date": "2026-03-17",
+   "days": 63,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 70000.0,
+   "tp_pct": 40.0,
+   "tp_speed30": 19.0,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

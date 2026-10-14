@@ -1,0 +1,83 @@
+{
+ "id": "삼성카드",
+ "code": null,
+ "name": "삼성카드",
+ "industry": "은행",
+ "timeline": [
+  {
+   "date": "2024-07-29",
+   "rating": "매수",
+   "target_price": 49000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-06-30",
+   "rating": "매수",
+   "target_price": 60000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-11",
+   "rating": "매수",
+   "target_price": 72000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-28",
+   "rating": "매수",
+   "target_price": 66000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-06-30",
+   "prev_date": "2024-07-29",
+   "days": 336,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 49000.0,
+   "tp_to": 60000.0,
+   "tp_pct": 22.4,
+   "tp_speed30": 2.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-11",
+   "prev_date": "2025-06-30",
+   "days": 226,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 60000.0,
+   "tp_to": 72000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": 2.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-28",
+   "prev_date": "2026-02-11",
+   "days": 167,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 72000.0,
+   "tp_to": 66000.0,
+   "tp_pct": -8.3,
+   "tp_speed30": -1.5,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

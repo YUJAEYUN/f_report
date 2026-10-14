@@ -1,0 +1,77 @@
+{
+ "id": "039840",
+ "code": "039840",
+ "name": "디오",
+ "industry": "제약·바이오",
+ "timeline": [
+  {
+   "date": "2025-05-07",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-08",
+   "report_id": "hana_1289036",
+   "title": "중소형주 소비업종(Overweight) : 중소형주 소비주의 미래: Covid-19 이전에 봤던 Deja Vu",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 1815.0,
+     "op": 211.0,
+     "net": 213.0,
+     "eps": 1583.0
+    },
+    "2027": {
+     "revenue": 2159.0,
+     "op": 264.0,
+     "net": 205.0,
+     "eps": 1536.0
+    }
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "report_id": "hana_1289077",
+   "title": "디오 (039840.KQ): 출혈경쟁 방지, 물량배분 중심의 2차 VBP",
+   "primary": true,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 1815.0,
+     "op": 211.0,
+     "net": 213.0,
+     "eps": 1583.0
+    },
+    "2027": {
+     "revenue": 2159.0,
+     "op": 264.0,
+     "net": 205.0,
+     "eps": 1536.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

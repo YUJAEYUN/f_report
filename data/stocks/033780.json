@@ -1,0 +1,256 @@
+{
+ "id": "033780",
+ "code": "033780",
+ "name": "KT&G",
+ "industry": "음식료·담배",
+ "timeline": [
+  {
+   "date": "2024-04-09",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-11-08",
+   "rating": "매수",
+   "target_price": 125000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-04-15",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-09",
+   "rating": "매수",
+   "target_price": 165000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-08-11",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-15",
+   "rating": "매수",
+   "target_price": 210000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-02",
+   "rating": "매수",
+   "target_price": 240000.0,
+   "source": "report",
+   "report_id": "hana_1288957",
+   "tp_status": "상향"
+  },
+  {
+   "date": "2026-10-05",
+   "rating": "매수",
+   "target_price": 240000.0,
+   "source": "report",
+   "report_id": "hana_1288980",
+   "tp_status": "상향"
+  },
+  {
+   "date": "2026-10-06",
+   "rating": "매수",
+   "target_price": 240000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-02",
+   "report_id": "hana_1288957",
+   "title": "KT&G(033780.KS/매수): 해외 생산 확대가 가져올 배당 재원 증가",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 240000.0,
+   "tp_status": "상향",
+   "price": 176900.0,
+   "upside_pct": 35.7,
+   "estimates": {
+    "2026": {
+     "revenue": 6947.4,
+     "op": 1532.6,
+     "net": 1307.8,
+     "eps": 12163.0
+    },
+    "2027": {
+     "revenue": 7348.3,
+     "op": 1658.8,
+     "net": 1378.4,
+     "eps": 13279.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 6987.3,
+     "op": 1533.5,
+     "net": 1345.8,
+     "eps": 12512.0
+    },
+    "2027": {
+     "revenue": 7338.8,
+     "op": 1654.8,
+     "net": 1379.0,
+     "eps": 13352.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1532.6,
+    "consensus": 1533.5,
+    "gap_pct": -0.1
+   }
+  },
+  {
+   "date": "2026-10-05",
+   "report_id": "hana_1288980",
+   "title": "하루에 하나 1006",
+   "primary": false,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 240000.0,
+   "tp_status": "상향",
+   "price": 176900.0,
+   "upside_pct": 35.7,
+   "estimates": {
+    "2026": {
+     "revenue": 6947.4,
+     "op": 1532.6,
+     "net": 1307.8,
+     "eps": 12163.0
+    },
+    "2027": {
+     "revenue": 7348.3,
+     "op": 1658.8,
+     "net": 1378.4,
+     "eps": 13279.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 6987.3,
+     "op": 1533.5,
+     "net": 1345.8,
+     "eps": 12512.0
+    },
+    "2027": {
+     "revenue": 7338.8,
+     "op": 1654.8,
+     "net": 1379.0,
+     "eps": 13352.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1532.6,
+    "consensus": 1533.5,
+    "gap_pct": -0.1
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-11-08",
+   "prev_date": "2024-04-09",
+   "days": 213,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 110000.0,
+   "tp_to": 125000.0,
+   "tp_pct": 13.6,
+   "tp_speed30": 1.9,
+   "report_id": null
+  },
+  {
+   "date": "2025-04-15",
+   "prev_date": "2024-11-08",
+   "days": 158,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 125000.0,
+   "tp_to": 140000.0,
+   "tp_pct": 12.0,
+   "tp_speed30": 2.3,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-09",
+   "prev_date": "2025-04-15",
+   "days": 85,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 140000.0,
+   "tp_to": 165000.0,
+   "tp_pct": 17.9,
+   "tp_speed30": 6.3,
+   "report_id": null
+  },
+  {
+   "date": "2025-08-11",
+   "prev_date": "2025-07-09",
+   "days": 33,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 165000.0,
+   "tp_to": 180000.0,
+   "tp_pct": 9.1,
+   "tp_speed30": 8.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-15",
+   "prev_date": "2025-08-11",
+   "days": 338,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 180000.0,
+   "tp_to": 210000.0,
+   "tp_pct": 16.7,
+   "tp_speed30": 1.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-02",
+   "prev_date": "2026-07-15",
+   "days": 79,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 210000.0,
+   "tp_to": 240000.0,
+   "tp_pct": 14.3,
+   "tp_speed30": 5.4,
+   "report_id": "hana_1288957"
+  }
+ ],
+ "events": [
+  "2026-10-02:033780:tp_accel:"
+ ]
+}

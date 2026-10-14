@@ -1,0 +1,22 @@
+{
+ "id": "씨엠티엑스",
+ "code": null,
+ "name": "씨엠티엑스",
+ "industry": "반도체",
+ "timeline": [
+  {
+   "date": "2026-02-24",
+   "rating": "매수",
+   "target_price": 210000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

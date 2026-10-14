@@ -1,0 +1,22 @@
+{
+ "id": "아로마티카",
+ "code": null,
+ "name": "아로마티카",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2026-09-08",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

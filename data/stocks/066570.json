@@ -1,0 +1,232 @@
+{
+ "id": "066570",
+ "code": "066570",
+ "name": "LG전자",
+ "industry": "IT하드웨어·전자부품",
+ "timeline": [
+  {
+   "date": "2024-01-25",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-06",
+   "rating": "매수",
+   "target_price": 125000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-24",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-13",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-21",
+   "rating": "매수",
+   "target_price": 129000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-27",
+   "rating": "매수",
+   "target_price": 108000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-07",
+   "rating": "매수",
+   "target_price": 160000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-13",
+   "rating": "매수",
+   "target_price": 230000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-02",
+   "rating": "매수",
+   "target_price": 260000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 260000.0,
+   "source": "report",
+   "report_id": "hana_1289023",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-05-13",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-07",
+   "report_id": "hana_1289023",
+   "title": "LG전자 (066570.KS/매수): 지나간 단기 실적 말고 방향성을 보자",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 260000.0,
+   "tp_status": null,
+   "price": 208000.0,
+   "upside_pct": 25.0,
+   "estimates": {
+    "2026": {
+     "revenue": 95962.7,
+     "op": 4282.3,
+     "net": 1781.3,
+     "eps": 9893.0
+    },
+    "2027": {
+     "revenue": 101342.9,
+     "op": 5794.4,
+     "net": 2785.0,
+     "eps": 15466.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 96699.5,
+     "op": 4668.9,
+     "net": 2831.0,
+     "eps": 12647.0
+    },
+    "2027": {
+     "revenue": 101119.5,
+     "op": 4983.7,
+     "net": 3249.0,
+     "eps": 14612.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 4282.3,
+    "consensus": 4668.9,
+    "gap_pct": -8.3
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-01-06",
+   "prev_date": "2024-01-25",
+   "days": 347,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 140000.0,
+   "tp_to": 125000.0,
+   "tp_pct": -10.7,
+   "tp_speed30": -0.9,
+   "report_id": null
+  },
+  {
+   "date": "2025-01-24",
+   "prev_date": "2025-01-06",
+   "days": 18,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 125000.0,
+   "tp_to": 110000.0,
+   "tp_pct": -12.0,
+   "tp_speed30": -20.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-21",
+   "prev_date": "2025-05-13",
+   "days": 8,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 110000.0,
+   "tp_to": 129000.0,
+   "tp_pct": 17.3,
+   "tp_speed30": 64.9,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-27",
+   "prev_date": "2025-05-21",
+   "days": 67,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 129000.0,
+   "tp_to": 108000.0,
+   "tp_pct": -16.3,
+   "tp_speed30": -7.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-07",
+   "prev_date": "2025-07-27",
+   "days": 254,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 108000.0,
+   "tp_to": 160000.0,
+   "tp_pct": 48.1,
+   "tp_speed30": 5.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-13",
+   "prev_date": "2026-04-07",
+   "days": 36,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 160000.0,
+   "tp_to": 230000.0,
+   "tp_pct": 43.8,
+   "tp_speed30": 36.5,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-02",
+   "prev_date": "2026-05-13",
+   "days": 50,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 230000.0,
+   "tp_to": 260000.0,
+   "tp_pct": 13.0,
+   "tp_speed30": 7.8,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

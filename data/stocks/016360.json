@@ -1,0 +1,203 @@
+{
+ "id": "016360",
+ "code": "016360",
+ "name": "삼성증권",
+ "industry": "증권",
+ "timeline": [
+  {
+   "date": "2024-07-10",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-15",
+   "rating": "매수",
+   "target_price": 100000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-12",
+   "rating": "매수",
+   "target_price": 120000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-11",
+   "rating": "매수",
+   "target_price": 130000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-03-03",
+   "rating": "매수",
+   "target_price": 145000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-12",
+   "rating": "매수",
+   "target_price": 175000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-06",
+   "rating": "매수",
+   "target_price": 168000.0,
+   "source": "report",
+   "report_id": "hana_1288998",
+   "tp_status": "하향"
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 168000.0,
+   "source": "table",
+   "report_id": "hana_1288998",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-06-17",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-06",
+   "report_id": "hana_1288998",
+   "title": "삼성증권(016360.KS/매수): 3Q26 Pre - 컨센 9% 하회 전망",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 168000.0,
+   "tp_status": "하향",
+   "price": 89100.0,
+   "upside_pct": 88.6,
+   "estimates": {
+    "2026": {
+     "revenue": 3622.7,
+     "op": 2251.6,
+     "net": 1630.5
+    },
+    "2027": {
+     "revenue": 3496.7,
+     "op": 2104.0,
+     "net": 1508.8
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 29939.0,
+     "op": 2287.0,
+     "net": 1685.0,
+     "eps": 18784.0
+    },
+    "2027": {
+     "revenue": 28129.0,
+     "op": 2109.0,
+     "net": 1573.0,
+     "eps": 17695.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 2251.6,
+    "consensus": 2287.0,
+    "gap_pct": -1.5
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-07-15",
+   "prev_date": "2024-07-10",
+   "days": 370,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 100000.0,
+   "tp_pct": 100.0,
+   "tp_speed30": 8.1,
+   "report_id": null,
+   "note": "담당자 변경"
+  },
+  {
+   "date": "2025-11-12",
+   "prev_date": "2025-07-15",
+   "days": 120,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 100000.0,
+   "tp_to": 120000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": 5.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-11",
+   "prev_date": "2025-11-12",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 120000.0,
+   "tp_to": 130000.0,
+   "tp_pct": 8.3,
+   "tp_speed30": 2.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-03-03",
+   "prev_date": "2026-02-11",
+   "days": 20,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 130000.0,
+   "tp_to": 145000.0,
+   "tp_pct": 11.5,
+   "tp_speed30": 17.2,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-12",
+   "prev_date": "2026-03-03",
+   "days": 70,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 145000.0,
+   "tp_to": 175000.0,
+   "tp_pct": 20.7,
+   "tp_speed30": 8.9,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-06",
+   "prev_date": "2026-05-12",
+   "days": 147,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 175000.0,
+   "tp_to": 168000.0,
+   "tp_pct": -4.0,
+   "tp_speed30": -0.8,
+   "report_id": "hana_1288998"
+  }
+ ],
+ "events": []
+}

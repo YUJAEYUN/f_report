@@ -1,0 +1,22 @@
+{
+ "id": "롯데칠성",
+ "code": null,
+ "name": "롯데칠성",
+ "industry": "음식료·담배",
+ "timeline": [
+  {
+   "date": "2024-04-26",
+   "rating": "매수",
+   "target_price": 170000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

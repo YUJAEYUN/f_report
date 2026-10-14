@@ -1,0 +1,83 @@
+{
+ "id": "035250",
+ "code": "035250",
+ "name": "강원랜드",
+ "industry": "호텔·레저",
+ "timeline": [
+  {
+   "date": "2024-09-06",
+   "rating": "매수",
+   "target_price": 22000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-04",
+   "rating": "매수",
+   "target_price": 23000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-03",
+   "rating": "매수",
+   "target_price": 22000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-08-05",
+   "rating": "매수",
+   "target_price": 19000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-07-04",
+   "prev_date": "2024-09-06",
+   "days": 301,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 22000.0,
+   "tp_to": 23000.0,
+   "tp_pct": 4.5,
+   "tp_speed30": 0.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-03",
+   "prev_date": "2025-07-04",
+   "days": 364,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 23000.0,
+   "tp_to": 22000.0,
+   "tp_pct": -4.3,
+   "tp_speed30": -0.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-08-05",
+   "prev_date": "2026-07-03",
+   "days": 33,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 22000.0,
+   "tp_to": 19000.0,
+   "tp_pct": -13.6,
+   "tp_speed30": -12.4,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

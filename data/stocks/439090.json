@@ -1,0 +1,39 @@
+{
+ "id": "439090",
+ "code": "439090",
+ "name": "마녀공장",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2024-02-23",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-01",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1288929",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-02-23",
+   "note": "년 경과"
+  },
+  {
+   "date": "2026-09-29",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}

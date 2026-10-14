@@ -1,0 +1,65 @@
+{
+ "id": "086450",
+ "code": "086450",
+ "name": "동국제약",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2025-02-26",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-08-20",
+   "rating": "매수",
+   "target_price": 24000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-14",
+   "rating": "매수",
+   "target_price": 29000.0,
+   "source": "table",
+   "report_id": "hana_1289107",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-08-20",
+   "prev_date": "2025-02-26",
+   "days": 540,
+   "rating_from": "NR",
+   "rating_to": "매수",
+   "tp_from": null,
+   "tp_to": 24000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-14",
+   "prev_date": "2026-08-20",
+   "days": 55,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 24000.0,
+   "tp_to": 29000.0,
+   "tp_pct": 20.8,
+   "tp_speed30": 11.3,
+   "report_id": "hana_1289107"
+  }
+ ],
+ "events": [
+  "2026-10-14:086450:tp_up:"
+ ]
+}

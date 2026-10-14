@@ -1,0 +1,205 @@
+{
+ "id": "039130",
+ "code": "039130",
+ "name": "하나투어",
+ "industry": "호텔·레저",
+ "timeline": [
+  {
+   "date": "2024-08-07",
+   "rating": "매수",
+   "target_price": 71000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-04",
+   "rating": "매수",
+   "target_price": 67000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-11-06",
+   "rating": "매수",
+   "target_price": 72000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-04-04",
+   "rating": "매수",
+   "target_price": 68000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-10",
+   "rating": "매수",
+   "target_price": 63000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-04",
+   "rating": "매수",
+   "target_price": 67000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-07",
+   "rating": "매수",
+   "target_price": 61000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-14",
+   "rating": "매수",
+   "target_price": 55000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-10",
+   "rating": "매수",
+   "target_price": 53000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-30",
+   "rating": "매수",
+   "target_price": 48000.0,
+   "source": "table",
+   "report_id": "hana_1288930",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-10-04",
+   "prev_date": "2024-08-07",
+   "days": 58,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 71000.0,
+   "tp_to": 67000.0,
+   "tp_pct": -5.6,
+   "tp_speed30": -2.9,
+   "report_id": null
+  },
+  {
+   "date": "2024-11-06",
+   "prev_date": "2024-10-04",
+   "days": 33,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 67000.0,
+   "tp_to": 72000.0,
+   "tp_pct": 7.5,
+   "tp_speed30": 6.8,
+   "report_id": null
+  },
+  {
+   "date": "2025-04-04",
+   "prev_date": "2024-11-06",
+   "days": 149,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 72000.0,
+   "tp_to": 68000.0,
+   "tp_pct": -5.6,
+   "tp_speed30": -1.1,
+   "report_id": null
+  },
+  {
+   "date": "2025-10-10",
+   "prev_date": "2025-04-04",
+   "days": 189,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 68000.0,
+   "tp_to": 63000.0,
+   "tp_pct": -7.4,
+   "tp_speed30": -1.2,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-04",
+   "prev_date": "2025-10-10",
+   "days": 117,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 63000.0,
+   "tp_to": 67000.0,
+   "tp_pct": 6.3,
+   "tp_speed30": 1.6,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-07",
+   "prev_date": "2026-02-04",
+   "days": 62,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 67000.0,
+   "tp_to": 61000.0,
+   "tp_pct": -9.0,
+   "tp_speed30": -4.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-14",
+   "prev_date": "2026-04-07",
+   "days": 37,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 61000.0,
+   "tp_to": 55000.0,
+   "tp_pct": -9.8,
+   "tp_speed30": -7.9,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-10",
+   "prev_date": "2026-05-14",
+   "days": 57,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 55000.0,
+   "tp_to": 53000.0,
+   "tp_pct": -3.6,
+   "tp_speed30": -1.9,
+   "report_id": null
+  },
+  {
+   "date": "2026-09-30",
+   "prev_date": "2026-07-10",
+   "days": 82,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 53000.0,
+   "tp_to": 48000.0,
+   "tp_pct": -9.4,
+   "tp_speed30": -3.4,
+   "report_id": "hana_1288930"
+  }
+ ],
+ "events": [
+  "2026-09-30:039130:tp_streak:"
+ ]
+}

@@ -1,0 +1,306 @@
+{
+ "id": "251970",
+ "code": "251970",
+ "name": "펌텍코리아",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2023-10-29",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-03",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-08-20",
+   "rating": "매수",
+   "target_price": 70000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-11",
+   "rating": "매수",
+   "target_price": 90000.0,
+   "source": "report",
+   "report_id": "hana_1289044",
+   "tp_status": "상향"
+  },
+  {
+   "date": "2026-10-12",
+   "rating": "매수",
+   "target_price": 90000.0,
+   "source": "table",
+   "report_id": "hana_1289044",
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-13",
+   "rating": "매수",
+   "target_price": 90000.0,
+   "source": "report",
+   "report_id": "hana_1289107",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2024-10-29",
+   "note": "년 경과"
+  },
+  {
+   "date": "2026-07-01",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-11",
+   "report_id": "hana_1289044",
+   "title": "펌텍코리아(251970.KQ/매수): 하반기 실적의 다크호스",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 90000.0,
+   "tp_status": "상향",
+   "price": 65500.0,
+   "upside_pct": 37.4,
+   "estimates": {
+    "2026": {
+     "revenue": 462.5,
+     "op": 80.6,
+     "net": 62.3,
+     "eps": 5022.0
+    },
+    "2027": {
+     "revenue": 532.8,
+     "op": 98.8,
+     "net": 66.8,
+     "eps": 5387.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 448.7,
+     "op": 73.5,
+     "net": 69.9,
+     "eps": 4482.0
+    },
+    "2027": {
+     "revenue": 515.3,
+     "op": 87.2,
+     "net": 72.2,
+     "eps": 4675.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 80.6,
+    "consensus": 73.5,
+    "gap_pct": 9.7
+   }
+  },
+  {
+   "date": "2026-10-13",
+   "report_id": "hana_1289107",
+   "title": "화장품(Overweight): 계절성이 깨지다",
+   "primary": false,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 90000.0,
+   "tp_status": null,
+   "price": 68800.0,
+   "upside_pct": 30.8,
+   "estimates": {
+    "2026": {
+     "revenue": 462.5,
+     "op": 80.6,
+     "net": 62.3,
+     "eps": 5022.0
+    },
+    "2027": {
+     "revenue": 532.8,
+     "op": 98.8,
+     "net": 66.8,
+     "eps": 5387.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 450.5,
+     "op": 74.5,
+     "net": 70.6,
+     "eps": 4531.0
+    },
+    "2027": {
+     "revenue": 517.5,
+     "op": 88.4,
+     "net": 73.1,
+     "eps": 4739.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 80.6,
+    "consensus": 74.5,
+    "gap_pct": 8.2
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-11",
+   "days": 2,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 448.7,
+   "to": 450.5,
+   "pct": 0.4,
+   "speed30": 6.0,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1289044"
+  },
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-11",
+   "days": 2,
+   "year": "2026",
+   "metric": "op",
+   "from": 73.5,
+   "to": 74.5,
+   "pct": 1.4,
+   "speed30": 21.0,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1289044"
+  },
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-11",
+   "days": 2,
+   "year": "2026",
+   "metric": "net",
+   "from": 69.9,
+   "to": 70.6,
+   "pct": 1.0,
+   "speed30": 15.0,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1289044"
+  },
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-11",
+   "days": 2,
+   "year": "2026",
+   "metric": "eps",
+   "from": 4482.0,
+   "to": 4531.0,
+   "pct": 1.1,
+   "speed30": 16.5,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1289044"
+  },
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-11",
+   "days": 2,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 515.3,
+   "to": 517.5,
+   "pct": 0.4,
+   "speed30": 6.0,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1289044"
+  },
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-11",
+   "days": 2,
+   "year": "2027",
+   "metric": "op",
+   "from": 87.2,
+   "to": 88.4,
+   "pct": 1.4,
+   "speed30": 21.0,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1289044"
+  },
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-11",
+   "days": 2,
+   "year": "2027",
+   "metric": "net",
+   "from": 72.2,
+   "to": 73.1,
+   "pct": 1.2,
+   "speed30": 18.0,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1289044"
+  },
+  {
+   "date": "2026-10-13",
+   "prev_date": "2026-10-11",
+   "days": 2,
+   "year": "2027",
+   "metric": "eps",
+   "from": 4675.0,
+   "to": 4739.0,
+   "pct": 1.4,
+   "speed30": 21.0,
+   "turn": null,
+   "report_id": "hana_1289107",
+   "prev_report_id": "hana_1289044"
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2026-08-20",
+   "prev_date": "2026-07-03",
+   "days": 48,
+   "rating_from": "NR",
+   "rating_to": "매수",
+   "tp_from": null,
+   "tp_to": 70000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-11",
+   "prev_date": "2026-08-20",
+   "days": 52,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 70000.0,
+   "tp_to": 90000.0,
+   "tp_pct": 28.6,
+   "tp_speed30": 16.5,
+   "report_id": "hana_1289044"
+  }
+ ],
+ "events": [
+  "2026-10-11:251970:tp_up:"
+ ]
+}

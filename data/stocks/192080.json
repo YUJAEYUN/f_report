@@ -1,0 +1,119 @@
+{
+ "id": "192080",
+ "code": "192080",
+ "name": "더블유게임즈",
+ "industry": "게임",
+ "timeline": [
+  {
+   "date": "2024-08-20",
+   "rating": "매수",
+   "target_price": 64000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-10",
+   "rating": "매수",
+   "target_price": 70000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-14",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-11",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "report",
+   "report_id": "hana_1289052",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-11",
+   "report_id": "hana_1289052",
+   "title": "더블유게임즈 (192080.KS/매수): 추가 성장 동력 필요, 보유 현금은 매력적",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 80000.0,
+   "tp_status": null,
+   "price": 57700.0,
+   "upside_pct": 38.6,
+   "estimates": {
+    "2026": {
+     "revenue": 815.3,
+     "op": 268.6,
+     "net": 184.3,
+     "eps": 8701.0
+    },
+    "2027": {
+     "revenue": 803.4,
+     "op": 248.1,
+     "net": 171.3,
+     "eps": 8091.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 837.3,
+     "op": 282.9,
+     "net": 261.1,
+     "eps": 9398.0
+    },
+    "2027": {
+     "revenue": 874.8,
+     "op": 305.7,
+     "net": 264.5,
+     "eps": 10549.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 268.6,
+    "consensus": 282.9,
+    "gap_pct": -5.1
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-07-10",
+   "prev_date": "2024-08-20",
+   "days": 324,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 64000.0,
+   "tp_to": 70000.0,
+   "tp_pct": 9.4,
+   "tp_speed30": 0.9,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-14",
+   "prev_date": "2025-07-10",
+   "days": 308,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 70000.0,
+   "tp_to": 80000.0,
+   "tp_pct": 14.3,
+   "tp_speed30": 1.4,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

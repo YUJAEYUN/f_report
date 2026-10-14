@@ -1,0 +1,94 @@
+{
+ "id": "LX하우시스",
+ "code": null,
+ "name": "LX하우시스",
+ "industry": "건설",
+ "timeline": [
+  {
+   "date": "2024-02-02",
+   "rating": "매수",
+   "target_price": 55000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-02-14",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-04",
+   "rating": "매수",
+   "target_price": 57000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-08-03",
+   "rating": "매수",
+   "target_price": 48000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-02-02",
+   "note": "년 경과"
+  },
+  {
+   "date": "2026-02-14",
+   "note": "년 경과"
+  }
+ ],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-02-14",
+   "prev_date": "2024-02-02",
+   "days": 378,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 55000.0,
+   "tp_to": 40000.0,
+   "tp_pct": -27.3,
+   "tp_speed30": -2.2,
+   "report_id": null,
+   "note": "1년 경과"
+  },
+  {
+   "date": "2026-05-04",
+   "prev_date": "2025-02-14",
+   "days": 444,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 40000.0,
+   "tp_to": 57000.0,
+   "tp_pct": 42.5,
+   "tp_speed30": 2.9,
+   "report_id": null,
+   "note": "1년 경과"
+  },
+  {
+   "date": "2026-08-03",
+   "prev_date": "2026-05-04",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 57000.0,
+   "tp_to": 48000.0,
+   "tp_pct": -15.8,
+   "tp_speed30": -5.2,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

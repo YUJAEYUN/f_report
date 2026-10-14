@@ -1,0 +1,225 @@
+{
+ "id": "005380",
+ "code": "005380",
+ "name": "현대차",
+ "industry": "자동차·부품",
+ "timeline": [
+  {
+   "date": "2024-07-11",
+   "rating": "매수",
+   "target_price": 330000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-10",
+   "rating": "매수",
+   "target_price": 310000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-23",
+   "rating": "매수",
+   "target_price": 280000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-04-24",
+   "rating": "매수",
+   "target_price": 250000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-10-30",
+   "rating": "매수",
+   "target_price": 290000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-11-14",
+   "rating": "매수",
+   "target_price": 310000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-13",
+   "rating": "매수",
+   "target_price": 430000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-01-30",
+   "rating": "매수",
+   "target_price": 660000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-26",
+   "rating": "매수",
+   "target_price": 760000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-24",
+   "rating": "매수",
+   "target_price": 650000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 510000.0,
+   "source": "table",
+   "report_id": "hana_1288996",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-10-10",
+   "prev_date": "2024-07-11",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 330000.0,
+   "tp_to": 310000.0,
+   "tp_pct": -6.1,
+   "tp_speed30": -2.0,
+   "report_id": null
+  },
+  {
+   "date": "2025-01-23",
+   "prev_date": "2024-10-10",
+   "days": 105,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 310000.0,
+   "tp_to": 280000.0,
+   "tp_pct": -9.7,
+   "tp_speed30": -2.8,
+   "report_id": null
+  },
+  {
+   "date": "2025-04-24",
+   "prev_date": "2025-01-23",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 280000.0,
+   "tp_to": 250000.0,
+   "tp_pct": -10.7,
+   "tp_speed30": -3.5,
+   "report_id": null
+  },
+  {
+   "date": "2025-10-30",
+   "prev_date": "2025-04-24",
+   "days": 189,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 250000.0,
+   "tp_to": 290000.0,
+   "tp_pct": 16.0,
+   "tp_speed30": 2.5,
+   "report_id": null
+  },
+  {
+   "date": "2025-11-14",
+   "prev_date": "2025-10-30",
+   "days": 15,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 290000.0,
+   "tp_to": 310000.0,
+   "tp_pct": 6.9,
+   "tp_speed30": 13.8,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-13",
+   "prev_date": "2025-11-14",
+   "days": 60,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 310000.0,
+   "tp_to": 430000.0,
+   "tp_pct": 38.7,
+   "tp_speed30": 19.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-01-30",
+   "prev_date": "2026-01-13",
+   "days": 17,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 430000.0,
+   "tp_to": 660000.0,
+   "tp_pct": 53.5,
+   "tp_speed30": 94.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-05-26",
+   "prev_date": "2026-01-30",
+   "days": 116,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 660000.0,
+   "tp_to": 760000.0,
+   "tp_pct": 15.2,
+   "tp_speed30": 3.9,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-24",
+   "prev_date": "2026-05-26",
+   "days": 59,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 760000.0,
+   "tp_to": 650000.0,
+   "tp_pct": -14.5,
+   "tp_speed30": -7.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-07",
+   "prev_date": "2026-07-24",
+   "days": 75,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 650000.0,
+   "tp_to": 510000.0,
+   "tp_pct": -21.5,
+   "tp_speed30": -8.6,
+   "report_id": "hana_1288996"
+  }
+ ],
+ "events": [
+  "2026-10-07:005380:tp_down:"
+ ]
+}

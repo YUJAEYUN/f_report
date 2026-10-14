@@ -1,0 +1,250 @@
+{
+ "id": "006360",
+ "code": "006360",
+ "name": "GS건설",
+ "industry": "건설",
+ "timeline": [
+  {
+   "date": "2023-09-26",
+   "rating": "중립",
+   "target_price": 15000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2023-10-05",
+   "rating": "중립",
+   "target_price": 15000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2023-10-11",
+   "rating": "중립",
+   "target_price": 15000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-10-10",
+   "rating": "중립",
+   "target_price": 19000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-03-27",
+   "rating": "매수",
+   "target_price": 24000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-08",
+   "rating": "매수",
+   "target_price": 39000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-05-04",
+   "rating": "매수",
+   "target_price": 45000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-01",
+   "rating": "매수",
+   "target_price": 52000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-30",
+   "rating": "매수",
+   "target_price": 36000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-09-14",
+   "rating": "매수",
+   "target_price": 46000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 46000.0,
+   "source": "report",
+   "report_id": "hana_1289017",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2024-09-26",
+   "note": "년 경과"
+  },
+  {
+   "date": "2024-10-05",
+   "note": "년 경과"
+  },
+  {
+   "date": "2026-03-27",
+   "note": "년 경과"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-07",
+   "report_id": "hana_1289017",
+   "title": "GS건설(006360.KS/매수): 주택과 데이터센터가 만들어줄 턴어라운드",
+   "primary": true,
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 46000.0,
+   "tp_status": null,
+   "price": 32850.0,
+   "upside_pct": 40.0,
+   "estimates": {
+    "2026": {
+     "revenue": 10794.4,
+     "op": 3101.7,
+     "net": 151.6,
+     "eps": 1772.0
+    },
+    "2027": {
+     "revenue": 11229.1,
+     "op": null,
+     "net": 437.8,
+     "eps": 5116.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 10952.7,
+     "op": 411.6,
+     "net": 181.4,
+     "eps": 1730.0
+    },
+    "2027": {
+     "revenue": 11876.7,
+     "op": 593.3,
+     "net": 409.3,
+     "eps": 4286.0
+    }
+   },
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 3101.7,
+    "consensus": 411.6,
+    "gap_pct": 653.6
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-10-10",
+   "prev_date": "2023-10-11",
+   "days": 365,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 15000.0,
+   "tp_to": 19000.0,
+   "tp_pct": 26.7,
+   "tp_speed30": 2.2,
+   "report_id": null,
+   "note": "1년 경과"
+  },
+  {
+   "date": "2025-03-27",
+   "prev_date": "2024-10-10",
+   "days": 168,
+   "rating_from": "중립",
+   "rating_to": "매수",
+   "tp_from": 19000.0,
+   "tp_to": 24000.0,
+   "tp_pct": 26.3,
+   "tp_speed30": 4.7,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-08",
+   "prev_date": "2025-03-27",
+   "days": 377,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 24000.0,
+   "tp_to": 39000.0,
+   "tp_pct": 62.5,
+   "tp_speed30": 5.0,
+   "report_id": null,
+   "note": "1년 경과"
+  },
+  {
+   "date": "2026-05-04",
+   "prev_date": "2026-04-08",
+   "days": 26,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 39000.0,
+   "tp_to": 45000.0,
+   "tp_pct": 15.4,
+   "tp_speed30": 17.8,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-01",
+   "prev_date": "2026-05-04",
+   "days": 58,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 45000.0,
+   "tp_to": 52000.0,
+   "tp_pct": 15.6,
+   "tp_speed30": 8.1,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-30",
+   "prev_date": "2026-07-01",
+   "days": 29,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 52000.0,
+   "tp_to": 36000.0,
+   "tp_pct": -30.8,
+   "tp_speed30": -31.9,
+   "report_id": null
+  },
+  {
+   "date": "2026-09-14",
+   "prev_date": "2026-07-30",
+   "days": 46,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 36000.0,
+   "tp_to": 46000.0,
+   "tp_pct": 27.8,
+   "tp_speed30": 18.1,
+   "report_id": null
+  }
+ ],
+ "events": []
+}

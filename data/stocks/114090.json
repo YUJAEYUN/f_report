@@ -1,0 +1,185 @@
+{
+ "id": "114090",
+ "code": "114090",
+ "name": "GKL",
+ "industry": "호텔·레저",
+ "timeline": [
+  {
+   "date": "2024-04-04",
+   "rating": "매수",
+   "target_price": 17000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-11-13",
+   "rating": "매수",
+   "target_price": 14000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-13",
+   "rating": "매수",
+   "target_price": 15000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-07-04",
+   "rating": "매수",
+   "target_price": 19000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-08-08",
+   "rating": "매수",
+   "target_price": 21000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-10",
+   "rating": "매수",
+   "target_price": 18000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-04-03",
+   "rating": "매수",
+   "target_price": 16000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-07-16",
+   "rating": "매수",
+   "target_price": 13000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-06",
+   "rating": "매수",
+   "target_price": 12000.0,
+   "source": "table",
+   "report_id": "hana_1288979",
+   "tp_status": null
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-11-13",
+   "prev_date": "2024-04-04",
+   "days": 223,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 17000.0,
+   "tp_to": 14000.0,
+   "tp_pct": -17.6,
+   "tp_speed30": -2.4,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-13",
+   "prev_date": "2024-11-13",
+   "days": 181,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 14000.0,
+   "tp_to": 15000.0,
+   "tp_pct": 7.1,
+   "tp_speed30": 1.2,
+   "report_id": null
+  },
+  {
+   "date": "2025-07-04",
+   "prev_date": "2025-05-13",
+   "days": 52,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 15000.0,
+   "tp_to": 19000.0,
+   "tp_pct": 26.7,
+   "tp_speed30": 15.4,
+   "report_id": null
+  },
+  {
+   "date": "2025-08-08",
+   "prev_date": "2025-07-04",
+   "days": 35,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 19000.0,
+   "tp_to": 21000.0,
+   "tp_pct": 10.5,
+   "tp_speed30": 9.0,
+   "report_id": null
+  },
+  {
+   "date": "2026-02-10",
+   "prev_date": "2025-08-08",
+   "days": 186,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 21000.0,
+   "tp_to": 18000.0,
+   "tp_pct": -14.3,
+   "tp_speed30": -2.3,
+   "report_id": null
+  },
+  {
+   "date": "2026-04-03",
+   "prev_date": "2026-02-10",
+   "days": 52,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 18000.0,
+   "tp_to": 16000.0,
+   "tp_pct": -11.1,
+   "tp_speed30": -6.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-07-16",
+   "prev_date": "2026-04-03",
+   "days": 104,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 16000.0,
+   "tp_to": 13000.0,
+   "tp_pct": -18.8,
+   "tp_speed30": -5.4,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-06",
+   "prev_date": "2026-07-16",
+   "days": 82,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 13000.0,
+   "tp_to": 12000.0,
+   "tp_pct": -7.7,
+   "tp_speed30": -2.8,
+   "report_id": "hana_1288979"
+  }
+ ],
+ "events": [
+  "2026-10-06:114090:tp_streak:"
+ ]
+}

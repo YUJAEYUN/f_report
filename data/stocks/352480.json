@@ -1,0 +1,115 @@
+{
+ "id": "352480",
+ "code": "352480",
+ "name": "씨앤씨인터내셔널",
+ "industry": "화장품",
+ "timeline": [
+  {
+   "date": "2024-06-26",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2024-11-12",
+   "rating": "매수",
+   "target_price": 77000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-01-24",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2025-05-12",
+   "rating": "매수",
+   "target_price": 45000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-10-01",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1288929",
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-05-12",
+   "note": "년 경과"
+  },
+  {
+   "date": "2026-09-29",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-11-12",
+   "prev_date": "2024-06-26",
+   "days": 139,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 140000.0,
+   "tp_to": 77000.0,
+   "tp_pct": -45.0,
+   "tp_speed30": -9.7,
+   "report_id": null
+  },
+  {
+   "date": "2025-01-24",
+   "prev_date": "2024-11-12",
+   "days": 73,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 77000.0,
+   "tp_to": 50000.0,
+   "tp_pct": -35.1,
+   "tp_speed30": -14.4,
+   "report_id": null
+  },
+  {
+   "date": "2025-05-12",
+   "prev_date": "2025-01-24",
+   "days": 108,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 45000.0,
+   "tp_pct": -10.0,
+   "tp_speed30": -2.8,
+   "report_id": null
+  },
+  {
+   "date": "2026-10-01",
+   "prev_date": "2025-05-12",
+   "days": 507,
+   "rating_from": "매수",
+   "rating_to": "NR",
+   "tp_from": 45000.0,
+   "tp_to": null,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": "hana_1288929",
+   "note": "1년 경과, 담당자 변경"
+  }
+ ],
+ "events": [
+  "2026-10-01:352480:coverage_end:"
+ ]
+}

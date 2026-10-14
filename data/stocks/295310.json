@@ -1,0 +1,90 @@
+{
+ "id": "295310",
+ "code": "295310",
+ "name": "에이치브이엠",
+ "industry": "우주항공·방산",
+ "timeline": [
+  {
+   "date": "2024-10-21",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  },
+  {
+   "date": "2026-02-20",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-07-14",
+   "note": "담당자 변경"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-09-19",
+   "report_id": "hana_1288820",
+   "title": "에이치브이엠 (295310.KQ): 수요 대응을 넘어 밸류체인 확대",
+   "primary": true,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 1071.0,
+     "op": 164.0,
+     "net": 87.0,
+     "eps": 713.0
+    },
+    "2027": {
+     "revenue": 1568.0,
+     "op": 297.0,
+     "net": 272.0,
+     "eps": 2190.0
+    }
+   }
+  },
+  {
+   "date": "2026-09-20",
+   "report_id": "hana_1288833",
+   "title": "하루에 하나 0921",
+   "primary": false,
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 1071.0,
+     "op": 164.0,
+     "net": 87.0,
+     "eps": 713.0
+    },
+    "2027": {
+     "revenue": 1568.0,
+     "op": 297.0,
+     "net": 272.0,
+     "eps": 2190.0
+    }
+   }
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "rating_changes": [],
+ "events": []
+}
