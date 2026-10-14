@@ -3,6 +3,9 @@
  "code": "000660",
  "name": "SK하이닉스",
  "industry": "반도체",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2025-10-15",
@@ -10,7 +13,8 @@
    "target_price": 580000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-10-30",
@@ -18,7 +22,8 @@
    "target_price": 650000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-11-14",
@@ -26,7 +31,8 @@
    "target_price": 850000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-01-14",
@@ -34,7 +40,8 @@
    "target_price": 1120000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-01-30",
@@ -42,7 +49,8 @@
    "target_price": 1280000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-02-24",
@@ -50,7 +58,8 @@
    "target_price": 1450000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-02",
@@ -58,7 +67,8 @@
    "target_price": 1600000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-24",
@@ -66,7 +76,8 @@
    "target_price": 1750000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-05-15",
@@ -74,7 +85,8 @@
    "target_price": 2750000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-06-26",
@@ -82,7 +94,8 @@
    "target_price": 3600000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -90,7 +103,8 @@
    "target_price": 3600000.0,
    "source": "report",
    "report_id": "hana_1289090",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -100,6 +114,7 @@
    "report_id": "hana_1289090",
    "title": "SK하이닉스(000660.KS/매수) : 컨센서스에 부합",
    "primary": true,
+   "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",
    "target_price": 3600000.0,
@@ -134,6 +149,7 @@
      "eps": 446744.0
     }
    },
+   "prev_target_price": null,
    "gap": {
     "year": "2026",
     "metric": "op",
@@ -143,8 +159,6 @@
    }
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2025-10-30",
@@ -156,7 +170,8 @@
    "tp_to": 650000.0,
    "tp_pct": 12.1,
    "tp_speed30": 24.2,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-11-14",
@@ -168,7 +183,8 @@
    "tp_to": 850000.0,
    "tp_pct": 30.8,
    "tp_speed30": 61.6,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-01-14",
@@ -180,7 +196,8 @@
    "tp_to": 1120000.0,
    "tp_pct": 31.8,
    "tp_speed30": 15.6,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-01-30",
@@ -192,7 +209,8 @@
    "tp_to": 1280000.0,
    "tp_pct": 14.3,
    "tp_speed30": 26.8,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-02-24",
@@ -204,7 +222,8 @@
    "tp_to": 1450000.0,
    "tp_pct": 13.3,
    "tp_speed30": 16.0,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-02",
@@ -216,7 +235,8 @@
    "tp_to": 1600000.0,
    "tp_pct": 10.3,
    "tp_speed30": 8.4,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-24",
@@ -228,7 +248,8 @@
    "tp_to": 1750000.0,
    "tp_pct": 9.4,
    "tp_speed30": 12.8,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-05-15",
@@ -240,7 +261,8 @@
    "tp_to": 2750000.0,
    "tp_pct": 57.1,
    "tp_speed30": 81.6,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-06-26",
@@ -252,8 +274,103 @@
    "tp_to": 3600000.0,
    "tp_pct": 30.9,
    "tp_speed30": 22.1,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2025-10-15",
+   "mean": 580000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 580000.0
+   }
+  },
+  {
+   "date": "2025-10-30",
+   "mean": 650000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 650000.0
+   }
+  },
+  {
+   "date": "2025-11-14",
+   "mean": 850000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 850000.0
+   }
+  },
+  {
+   "date": "2026-01-14",
+   "mean": 1120000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 1120000.0
+   }
+  },
+  {
+   "date": "2026-01-30",
+   "mean": 1280000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 1280000.0
+   }
+  },
+  {
+   "date": "2026-02-24",
+   "mean": 1450000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 1450000.0
+   }
+  },
+  {
+   "date": "2026-04-02",
+   "mean": 1600000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 1600000.0
+   }
+  },
+  {
+   "date": "2026-04-24",
+   "mean": 1750000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 1750000.0
+   }
+  },
+  {
+   "date": "2026-05-15",
+   "mean": 2750000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 2750000.0
+   }
+  },
+  {
+   "date": "2026-06-26",
+   "mean": 3600000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 3600000.0
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "mean": 3600000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 3600000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

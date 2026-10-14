@@ -3,6 +3,9 @@
  "code": null,
  "name": "금호타이어",
  "industry": "자동차·부품",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2023-10-28",
@@ -10,7 +13,8 @@
    "target_price": null,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-07-31",
@@ -18,18 +22,18 @@
    "target_price": 8300.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2024-10-28",
-   "note": "년 경과"
+   "note": "년 경과",
+   "broker": "하나증권"
   }
  ],
  "observations": [],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2026-07-31",
@@ -42,8 +46,23 @@
    "tp_pct": null,
    "tp_speed30": null,
    "report_id": null,
-   "note": "1년 경과"
+   "note": "1년 경과",
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-07-31",
+   "mean": 8300,
+   "n": 1,
+   "brokers": {
+    "하나증권": 8300.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

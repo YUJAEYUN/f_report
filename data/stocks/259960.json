@@ -3,6 +3,9 @@
  "code": "259960",
  "name": "크래프톤",
  "industry": "게임",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-08-20",
@@ -10,7 +13,8 @@
    "target_price": 490000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-03-04",
@@ -18,7 +22,8 @@
    "target_price": 500000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-05-15",
@@ -26,7 +31,8 @@
    "target_price": 530000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-01-12",
@@ -34,7 +40,8 @@
    "target_price": 420000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-05-04",
@@ -42,7 +49,8 @@
    "target_price": 460000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-11",
@@ -50,7 +58,8 @@
    "target_price": 340000.0,
    "source": "report",
    "report_id": "hana_1289050",
-   "tp_status": "하향"
+   "tp_status": "하향",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -58,7 +67,8 @@
    "target_price": 340000.0,
    "source": "table",
    "report_id": "hana_1289050",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -68,6 +78,7 @@
    "report_id": "hana_1289050",
    "title": "크래프톤 (259960.KS/매수): 웰메이드/UGC 모드 성과, 신작 일정 구체화 필요",
    "primary": true,
+   "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",
    "target_price": 340000.0,
@@ -102,6 +113,7 @@
      "eps": 26148.0
     }
    },
+   "prev_target_price": null,
    "gap": {
     "year": "2026",
     "metric": "op",
@@ -111,8 +123,6 @@
    }
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2025-03-04",
@@ -124,7 +134,8 @@
    "tp_to": 500000.0,
    "tp_pct": 2.0,
    "tp_speed30": 0.3,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-05-15",
@@ -136,7 +147,8 @@
    "tp_to": 530000.0,
    "tp_pct": 6.0,
    "tp_speed30": 2.5,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-01-12",
@@ -148,7 +160,8 @@
    "tp_to": 420000.0,
    "tp_pct": -20.8,
    "tp_speed30": -2.6,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-05-04",
@@ -160,7 +173,8 @@
    "tp_to": 460000.0,
    "tp_pct": 9.5,
    "tp_speed30": 2.5,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-11",
@@ -172,10 +186,73 @@
    "tp_to": 340000.0,
    "tp_pct": -26.1,
    "tp_speed30": -4.9,
-   "report_id": "hana_1289050"
+   "report_id": "hana_1289050",
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-08-20",
+   "mean": 490000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 490000.0
+   }
+  },
+  {
+   "date": "2025-03-04",
+   "mean": 500000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 500000.0
+   }
+  },
+  {
+   "date": "2025-05-15",
+   "mean": 530000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 530000.0
+   }
+  },
+  {
+   "date": "2026-01-12",
+   "mean": 420000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 420000.0
+   }
+  },
+  {
+   "date": "2026-05-04",
+   "mean": 460000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 460000.0
+   }
+  },
+  {
+   "date": "2026-10-11",
+   "mean": 340000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 340000.0
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "mean": 340000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 340000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": [
-  "2026-10-11:259960:tp_down:"
+  "2026-10-11:259960:tp_down:하나증권"
  ]
 }

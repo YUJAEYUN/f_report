@@ -9,6 +9,10 @@ LLM을 쓰지 않는다. 하나증권 기업 리포트는 아래 블록이 정�
   - Financial Data      증권사 자체 추정치 (`2026F`처럼 F가 붙은 연도가 추정치)
   - 투자의견 변동 내역    규정상 들어가는 과거 투자의견·목표주가 이력표
 
+위 블록 파싱은 하나증권 양식 전용이다. 다른 증권사 리포트는 extract_generic이 한경 컨센서스
+목록이 알려주는 종목코드·목표주가·투자의견을 먼저 쓰고, 본문 첫 장에서 목표주가·현재주가와
+"직전 목표주가 X원", "기존 X원에서" 같은 직전 값을 보충한다.
+
 산업 리포트에는 커버 종목마다 이력표가 여러 개 들어 있고, `하루에 하나` 같은 데일리
 시리즈에는 기업 리포트가 여러 편 이어 붙어 있다. 그래서 블록을 리포트 단위가 아니라
 "가장 가까운 앞쪽 머리말의 종목" 단위로 귀속시킨다.
@@ -24,7 +28,8 @@ RATING_ALIASES = {
     "buy": "매수", "매수": "매수", "strong buy": "매수", "outperform": "매수",
     "neutral": "중립", "중립": "중립", "hold": "중립", "marketperform": "중립", "market perform": "중립",
     "reduce": "매도", "sell": "매도", "매도": "매도", "비중축소": "매도", "underperform": "매도",
-    "not rated": "NR", "nr": "NR", "n/r": "NR",
+    "not rated": "NR", "nr": "NR", "n/r": "NR", "notrated": "NR",
+    "trading buy": "매수", "tradingbuy": "매수", "매수(유지)": "매수",
     "overweight": "비중확대", "비중확대": "비중확대",
     "underweight": "비중축소",
 }
@@ -128,6 +133,10 @@ def _status(raw: str | None) -> str | None:
     for w in STATUS_WORDS:
         if w in raw:
             return w
+    # 영문 약어 표기: (M) Maintain, (U) Up, (D) Down
+    m = re.search(r"\(\s*(M|Maintain|U|Up|D|Down)\s*\)", raw)
+    if m:
+        return {"M": "유지", "Maintain": "유지", "U": "상향", "Up": "상향", "D": "하향", "Down": "하향"}[m.group(1)]
     return None
 
 
@@ -357,13 +366,22 @@ class Observation:
     price: float | None = None
     estimates: dict = field(default_factory=dict)       # year -> metric -> value (추정치 연도만)
     consensus: dict = field(default_factory=dict)       # year -> metric -> value
+    broker: str = "하나증권"
+    prev_target_price: float | None = None  # 본문이 밝힌 직전 목표주가 (이력이 없을 때 변화 계산용)
 
     def has_numbers(self) -> bool:
         return bool(self.target_price or self.estimates or self.consensus)
 
 
+def broker_of(report: dict) -> str:
+    return report.get("broker") or ("하나증권" if report.get("source") == "hana" else "")
+
+
 def extract(report: dict, name_map: dict[str, str]) -> tuple[list[Observation], list[tuple[str | None, str, HistoryTable]]]:
     """리포트 1건 -> (종목별 관측 목록, [(code, name, 이력표)])."""
+    if broker_of(report) != "하나증권":
+        ob = extract_generic(report)
+        return ([ob] if ob else []), []
     text = report.get("pdf_text") or ""
     title_info = parse_title(report.get("title", ""))
     headers = company_headers(text)
@@ -442,3 +460,76 @@ def build_name_map(reports: list[dict]) -> dict[str, str]:
         if ti:
             name_map.setdefault(norm_name(ti["name"]), ti["code"])
     return name_map
+
+
+# ---------- 하나증권 외 증권사 (공통 표현) ----------
+
+_TP_GENERIC_RE = re.compile(
+    r"(?:목표\s*주가|적정\s*주가)\s*(?:\(\s*(?:12M|12개월|6개월|원|유지|상향|하향|신규)\s*\))?\s*[:：]?\s*[▲▼]?\s*"
+    r"([\d,]{4,}|\d+(?:\.\d+)?\s*만)\s*원?\s*(?:\(\s*([^)]{1,6})\s*\))?"
+)
+_PRICE_GENERIC_RE = re.compile(
+    r"(?:현재\s*주가|현재가|종가)\s*(?:\(\s*[^)]{1,16}\))?\s*[:：]?\s*(?:\(\s*[^)]{1,16}\))?\s*([\d,]{3,})\s*원?"
+)
+_PREV_TP_RES = (
+    re.compile(r"직전\s*목표\s*주가\s*[:：]?\s*([\d,]{4,})\s*원?"),
+    re.compile(r"목표\s*주가[^.\n]{0,20}?기존\s*([\d,.]+\s*만?)\s*원?\s*에서"),
+    re.compile(r"목표\s*주가[^.\n]{0,30}?\(\s*기존\s*([\d,.]+\s*만?)\s*원?\s*\)"),
+    re.compile(r"목표\s*주가\s*([\d.,]+)\s*(?:->|→|에서)\s*[\d.,]+\s*만?\s*원"),
+)
+# "현재 직전 변동" 비교표: 목표주가 530,000 470,000 ▲ (두 번째가 직전)
+_PREV_TP_TABLE_RE = re.compile(r"목표\s*주가\s+[\d,]{4,}\s+([\d,]{4,})\s*[▲▼]")
+_RATING_GENERIC_RE = re.compile(r"(Trading\s*Buy|Strong\s*Buy|BUY|Buy|매수|Neutral|NEUTRAL|중립|Hold|HOLD|Reduce|Sell|매도|Not\s*Rated)")
+
+
+def _won(tok: str) -> float | None:
+    """`280,000` / `28만` / `11.8만` -> 원."""
+    t = tok.replace(",", "").replace(" ", "")
+    mult = 1
+    if t.endswith("만"):
+        t, mult = t[:-1], 10000
+    try:
+        v = float(t) * mult
+    except ValueError:
+        return None
+    return v if v >= 100 else None
+
+
+def extract_generic(report: dict) -> Observation | None:
+    """하나증권 외 리포트 1건 -> 주인공 종목 관측 하나 (목표주가·투자의견·현재주가·직전 목표주가)."""
+    ti = parse_title(report.get("title", ""))
+    code = report.get("stock_code") or (ti["code"] if ti else None)
+    if not code:
+        return None
+    name = ti["name"] if ti else re.split(r"\s*\(", report.get("title", ""))[0].strip()
+    head = (report.get("pdf_text") or "")[:5000]
+    ob = Observation(
+        code=code, name=name, report_id=report["report_id"], date=report.get("published_date", ""),
+        title=report.get("title", ""), report_type=report.get("report_type", ""), primary=True,
+        broker=broker_of(report),
+    )
+    tp_m = _TP_GENERIC_RE.search(head)
+    ob.target_price = report.get("list_target_price") or (_won(tp_m.group(1)) if tp_m else None)
+    if tp_m:
+        status_zone = tp_m.group(0) + head[tp_m.end(): tp_m.end() + 8]
+        ob.tp_status = _status(status_zone)
+    rating = normalize_rating(report.get("list_rating") or (ti["rating"] if ti else None))
+    if rating is None:
+        rm = _RATING_GENERIC_RE.search(head[:1500])
+        rating = normalize_rating(re.sub(r"\s+", " ", rm.group(1))) if rm else None
+    ob.rating = rating
+    pm = _PRICE_GENERIC_RE.search(head)
+    ob.price = parse_number(pm.group(1)) if pm else None
+    if ob.price is not None and ob.price < 100:
+        ob.price = None
+    for rx in (*_PREV_TP_RES, _PREV_TP_TABLE_RE):
+        m = rx.search(head)
+        if m:
+            prev = _won(m.group(1).strip())
+            # "30.5->38만원"처럼 앞 숫자에 단위가 생략된 경우: 목표주가와 자릿수를 맞춘다
+            if prev and ob.target_price and prev < ob.target_price / 50:
+                prev *= 10000
+            if prev and prev != ob.target_price:
+                ob.prev_target_price = prev
+            break
+    return ob if (ob.target_price or ob.rating) else None

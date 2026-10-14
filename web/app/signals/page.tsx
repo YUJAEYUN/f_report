@@ -6,6 +6,7 @@ import ChartTooltip from "@/components/charts/ChartTooltip";
 
 const TYPE_GROUPS: { label: string; types: string[] }[] = [
   { label: "목표주가", types: ["tp_up", "tp_down", "tp_streak", "tp_accel"] },
+  { label: "여러 증권사", types: ["tp_cons_up", "tp_cons_down", "wave_up", "wave_down"] },
   { label: "투자의견", types: ["rating_up", "rating_down", "coverage_start", "coverage_end"] },
   { label: "추정치", types: ["est_up", "est_down", "est_turn"] },
   { label: "컨센서스", types: ["cons_up", "cons_down", "cons_turn", "gap_above", "gap_below"] },
@@ -27,7 +28,7 @@ export default function SignalsPage() {
 
   return <>
     <h1 className="page-title">숫자 변화</h1>
-    <p className="sub">리포트 속 투자의견·목표주가·실적 추정치·컨센서스를 코드로 읽어 종목별로 쌓고, 방향과 속도가 크게 바뀐 지점을 이벤트로 표시합니다. {window_start} 이후 · 하나증권 리포트 기준.</p>
+    <p className="sub">리포트 속 투자의견·목표주가·실적 추정치·컨센서스를 코드로 읽어 종목별로 쌓고, 방향과 속도가 크게 바뀐 지점을 이벤트로 표시합니다. {window_start} 이후 · 증권사별로 따로 보고, 여러 증권사를 합친 컨센서스의 방향과 속도도 봅니다.</p>
 
     <div className="big-numbers signal-numbers">
       {counts.map((c) => <div key={c.label}><span>{c.label} 이벤트</span><strong>{c.n}</strong></div>)}
@@ -70,8 +71,8 @@ export default function SignalsPage() {
           <p className="hint">변화율이 큰 순</p>
           <table className="stock-table">
             <tbody>{movers.map((s) => <tr key={s.id}>
-              <td><Link href={stockHref(s.id)!}>{s.name}</Link><br /><span className="muted">{s.last_tp_change!.date.slice(5).replace("-", ".")} · {s.rating ?? ""}</span></td>
-              <td className="num">{won(s.target_price)}<br /><b className={s.last_tp_change!.pct > 0 ? "up" : "down"}>{signedPct(s.last_tp_change!.pct)}</b></td>
+              <td><Link href={stockHref(s.id)!}>{s.name}</Link><br /><span className="muted">{s.last_tp_change!.date.slice(5).replace("-", ".")} · {s.last_tp_change!.broker}</span></td>
+              <td className="num">{won(s.brokers[s.last_tp_change!.broker]?.target_price ?? s.target_price)}<br /><b className={s.last_tp_change!.pct > 0 ? "up" : "down"}>{signedPct(s.last_tp_change!.pct)}</b></td>
             </tr>)}</tbody>
           </table>
         </section>}
@@ -79,7 +80,9 @@ export default function SignalsPage() {
         <section className="panel">
           <h2>판정 기준</h2>
           <ul className="criteria">
-            <li>목표주가 한 번에 ±15% 이상</li>
+            <li>증권사 한 곳의 목표주가 한 번에 ±15% 이상</li>
+            <li>여러 증권사 평균 목표주가가 기존 증권사들의 조정만으로 ±5% 이상</li>
+            <li>30일 안에 증권사 3곳 이상이 같은 방향으로 조정</li>
             <li>같은 방향 3회 연속, 또는 30일 환산 속도가 직전의 2배 이상</li>
             <li>영업이익·EPS 추정 ±10% 이상, 흑자·적자 전환</li>
             <li>컨센서스 ±5% 이상, 추정치가 컨센서스와 ±20% 이상 차이</li>

@@ -3,6 +3,9 @@
  "code": null,
  "name": "메쥬",
  "industry": "제약·바이오",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2026-05-21",
@@ -10,13 +13,17 @@
    "target_price": null,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
  "observations": [],
+ "rating_changes": [],
  "estimate_revisions": [],
  "consensus_changes": [],
- "rating_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

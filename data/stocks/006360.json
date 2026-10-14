@@ -3,6 +3,9 @@
  "code": "006360",
  "name": "GS건설",
  "industry": "건설",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2023-09-26",
@@ -10,7 +13,8 @@
    "target_price": 15000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2023-10-05",
@@ -18,7 +22,8 @@
    "target_price": 15000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2023-10-11",
@@ -26,7 +31,8 @@
    "target_price": 15000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2024-10-10",
@@ -34,7 +40,8 @@
    "target_price": 19000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-03-27",
@@ -42,7 +49,8 @@
    "target_price": 24000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-08",
@@ -50,7 +58,8 @@
    "target_price": 39000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-05-04",
@@ -58,7 +67,8 @@
    "target_price": 45000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-07-01",
@@ -66,7 +76,8 @@
    "target_price": 52000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-07-30",
@@ -74,7 +85,8 @@
    "target_price": 36000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-09-14",
@@ -82,7 +94,8 @@
    "target_price": 46000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-07",
@@ -90,21 +103,25 @@
    "target_price": 46000.0,
    "source": "report",
    "report_id": "hana_1289017",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2024-09-26",
-   "note": "년 경과"
+   "note": "년 경과",
+   "broker": "하나증권"
   },
   {
    "date": "2024-10-05",
-   "note": "년 경과"
+   "note": "년 경과",
+   "broker": "하나증권"
   },
   {
    "date": "2026-03-27",
-   "note": "년 경과"
+   "note": "년 경과",
+   "broker": "하나증권"
   }
  ],
  "observations": [
@@ -113,6 +130,7 @@
    "report_id": "hana_1289017",
    "title": "GS건설(006360.KS/매수): 주택과 데이터센터가 만들어줄 턴어라운드",
    "primary": true,
+   "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",
    "target_price": 46000.0,
@@ -147,6 +165,7 @@
      "eps": 4286.0
     }
    },
+   "prev_target_price": null,
    "gap": {
     "year": "2026",
     "metric": "op",
@@ -156,8 +175,6 @@
    }
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2024-10-10",
@@ -170,7 +187,8 @@
    "tp_pct": 26.7,
    "tp_speed30": 2.2,
    "report_id": null,
-   "note": "1년 경과"
+   "note": "1년 경과",
+   "broker": "하나증권"
   },
   {
    "date": "2025-03-27",
@@ -182,7 +200,8 @@
    "tp_to": 24000.0,
    "tp_pct": 26.3,
    "tp_speed30": 4.7,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-08",
@@ -195,7 +214,8 @@
    "tp_pct": 62.5,
    "tp_speed30": 5.0,
    "report_id": null,
-   "note": "1년 경과"
+   "note": "1년 경과",
+   "broker": "하나증권"
   },
   {
    "date": "2026-05-04",
@@ -207,7 +227,8 @@
    "tp_to": 45000.0,
    "tp_pct": 15.4,
    "tp_speed30": 17.8,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-07-01",
@@ -219,7 +240,8 @@
    "tp_to": 52000.0,
    "tp_pct": 15.6,
    "tp_speed30": 8.1,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-07-30",
@@ -231,7 +253,8 @@
    "tp_to": 36000.0,
    "tp_pct": -30.8,
    "tp_speed30": -31.9,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-09-14",
@@ -243,8 +266,103 @@
    "tp_to": 46000.0,
    "tp_pct": 27.8,
    "tp_speed30": 18.1,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2023-09-26",
+   "mean": 15000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 15000.0
+   }
+  },
+  {
+   "date": "2023-10-05",
+   "mean": 15000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 15000.0
+   }
+  },
+  {
+   "date": "2023-10-11",
+   "mean": 15000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 15000.0
+   }
+  },
+  {
+   "date": "2024-10-10",
+   "mean": 19000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 19000.0
+   }
+  },
+  {
+   "date": "2025-03-27",
+   "mean": 24000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 24000.0
+   }
+  },
+  {
+   "date": "2026-04-08",
+   "mean": 39000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 39000.0
+   }
+  },
+  {
+   "date": "2026-05-04",
+   "mean": 45000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 45000.0
+   }
+  },
+  {
+   "date": "2026-07-01",
+   "mean": 52000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 52000.0
+   }
+  },
+  {
+   "date": "2026-07-30",
+   "mean": 36000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 36000.0
+   }
+  },
+  {
+   "date": "2026-09-14",
+   "mean": 46000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 46000.0
+   }
+  },
+  {
+   "date": "2026-10-07",
+   "mean": 46000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 46000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

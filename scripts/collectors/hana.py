@@ -155,6 +155,7 @@ class HanaCollector(ReportCollector):
             pdf_filename=pdf_filename,
             source_url=source_url,
             collected_at=datetime.now().astimezone().isoformat(timespec="seconds"),
+            broker="하나증권",
         )
 
     def _resolve_report_type(self, breadcrumb: str) -> ReportType:

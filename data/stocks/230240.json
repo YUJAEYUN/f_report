@@ -3,6 +3,9 @@
  "code": "230240",
  "name": "에치에프알",
  "industry": "통신장비",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2023-05-03",
@@ -10,7 +13,8 @@
    "target_price": 50000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2023-06-21",
@@ -18,7 +22,8 @@
    "target_price": 30000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-29",
@@ -26,18 +31,18 @@
    "target_price": 50000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2023-11-16",
-   "note": "커버리지 제외"
+   "note": "커버리지 제외",
+   "broker": "하나증권"
   }
  ],
  "observations": [],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2023-06-21",
@@ -49,7 +54,8 @@
    "tp_to": 30000.0,
    "tp_pct": -40.0,
    "tp_speed30": -24.5,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-29",
@@ -62,8 +68,39 @@
    "tp_pct": 66.7,
    "tp_speed30": 1.9,
    "report_id": null,
-   "note": "커버리지 제외"
+   "note": "커버리지 제외",
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2023-05-03",
+   "mean": 50000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 50000.0
+   }
+  },
+  {
+   "date": "2023-06-21",
+   "mean": 30000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 30000.0
+   }
+  },
+  {
+   "date": "2026-04-29",
+   "mean": 50000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 50000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

@@ -9,11 +9,22 @@
    "rating": "매수",
    "target_price": 2420000.0,
    "rating_date": "2026-09-28",
+   "rating_broker": "하나증권",
+   "consensus_tp": 2420000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 2420000.0,
+     "date": "2026-09-28"
+    }
+   },
    "price": 1512000.0,
    "price_date": "2026-09-28",
    "last_tp_change": {
     "date": "2026-04-30",
-    "pct": 44.9
+    "pct": 44.9,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -27,11 +38,22 @@
    "rating": "매수",
    "target_price": 170000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 170000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 170000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-10-07",
-    "pct": -10.5
+    "pct": -10.5,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -45,11 +67,22 @@
    "rating": "매수",
    "target_price": 10500.0,
    "rating_date": "2026-10-13",
+   "rating_broker": "하나증권",
+   "consensus_tp": 10500,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 10500.0,
+     "date": "2026-10-13"
+    }
+   },
    "price": 7010.0,
    "price_date": "2026-10-13",
    "last_tp_change": {
     "date": "2026-04-29",
-    "pct": 75.0
+    "pct": 75.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -63,6 +96,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-12",
+   "rating_broker": "하나증권",
+   "consensus_tp": 141520,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-12"
+    }
+   },
    "price": null,
    "price_date": "2026-10-12",
    "last_tp_change": null,
@@ -78,11 +121,22 @@
    "rating": "매수",
    "target_price": 3600000.0,
    "rating_date": "2026-10-12",
+   "rating_broker": "하나증권",
+   "consensus_tp": 3600000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 3600000.0,
+     "date": "2026-10-12"
+    }
+   },
    "price": 1605000.0,
    "price_date": "2026-10-12",
    "last_tp_change": {
     "date": "2026-06-26",
-    "pct": 30.9
+    "pct": 30.9,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -96,11 +150,22 @@
    "rating": "매수",
    "target_price": 785000.0,
    "rating_date": "2026-10-13",
+   "rating_broker": "하나증권",
+   "consensus_tp": 785000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 785000.0,
+     "date": "2026-10-13"
+    }
+   },
    "price": 612000.0,
    "price_date": "2026-10-13",
    "last_tp_change": {
     "date": "2026-08-14",
-    "pct": 17.2
+    "pct": 17.2,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -114,11 +179,22 @@
    "rating": "매수",
    "target_price": 66000.0,
    "rating_date": "2026-09-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": 66000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 66000.0,
+     "date": "2026-09-29"
+    }
+   },
    "price": 40400.0,
    "price_date": "2026-09-29",
    "last_tp_change": {
     "date": "2026-04-01",
-    "pct": 43.5
+    "pct": 43.5,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -132,11 +208,22 @@
    "rating": "매수",
    "target_price": 62000.0,
    "rating_date": "2026-10-13",
+   "rating_broker": "하나증권",
+   "consensus_tp": 62000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 62000.0,
+     "date": "2026-10-13"
+    }
+   },
    "price": 43150.0,
    "price_date": "2026-10-13",
    "last_tp_change": {
     "date": "2026-07-09",
-    "pct": -30.3
+    "pct": -30.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -150,11 +237,22 @@
    "rating": "매수",
    "target_price": 57000.0,
    "rating_date": "2026-08-18",
+   "rating_broker": "하나증권",
+   "consensus_tp": 57000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 57000.0,
+     "date": "2026-08-18"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-08-18",
-    "pct": 35.7
+    "pct": 35.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -168,11 +266,22 @@
    "rating": "매수",
    "target_price": 10000.0,
    "rating_date": "2026-10-13",
+   "rating_broker": "하나증권",
+   "consensus_tp": 10000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 10000.0,
+     "date": "2026-10-13"
+    }
+   },
    "price": 5850.0,
    "price_date": "2026-10-13",
    "last_tp_change": {
     "date": "2026-05-15",
-    "pct": 42.9
+    "pct": 42.9,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -186,6 +295,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -201,11 +320,22 @@
    "rating": "매수",
    "target_price": 41000.0,
    "rating_date": "2026-09-22",
+   "rating_broker": "하나증권",
+   "consensus_tp": 41000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 41000.0,
+     "date": "2026-09-22"
+    }
+   },
    "price": 31400.0,
    "price_date": "2026-09-22",
    "last_tp_change": {
     "date": "2026-07-14",
-    "pct": 7.9
+    "pct": 7.9,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-09-22",
@@ -219,11 +349,22 @@
    "rating": "매수",
    "target_price": 50000.0,
    "rating_date": "2026-10-05",
+   "rating_broker": "하나증권",
+   "consensus_tp": 50000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 50000.0,
+     "date": "2026-10-05"
+    }
+   },
    "price": 30000.0,
    "price_date": "2026-10-05",
    "last_tp_change": {
     "date": "2025-07-04",
-    "pct": 16.3
+    "pct": 16.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -237,6 +378,16 @@
    "rating": "매수",
    "target_price": 540000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 540000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 540000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": 400000.0,
    "price_date": "2026-10-07",
    "last_tp_change": null,
@@ -252,6 +403,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2023-12-19",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2023-12-19"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -267,11 +428,22 @@
    "rating": "매수",
    "target_price": 76000.0,
    "rating_date": "2026-10-05",
+   "rating_broker": "하나증권",
+   "consensus_tp": 76000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 76000.0,
+     "date": "2026-10-05"
+    }
+   },
    "price": 47700.0,
    "price_date": "2026-10-05",
    "last_tp_change": {
     "date": "2026-03-24",
-    "pct": 90.0
+    "pct": 90.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -285,11 +457,22 @@
    "rating": "매수",
    "target_price": 510000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 510000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 510000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-10-07",
-    "pct": -21.5
+    "pct": -21.5,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-07",
@@ -303,6 +486,16 @@
    "rating": "매수",
    "target_price": 740000.0,
    "rating_date": "2026-10-05",
+   "rating_broker": "하나증권",
+   "consensus_tp": 740000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 740000.0,
+     "date": "2026-10-05"
+    }
+   },
    "price": 311000.0,
    "price_date": "2026-10-05",
    "last_tp_change": null,
@@ -318,6 +511,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2024-04-02",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2024-04-02"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -333,11 +536,22 @@
    "rating": "매수",
    "target_price": 243000.0,
    "rating_date": "2026-04-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": 243000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 243000.0,
+     "date": "2026-04-29"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-04-29",
-    "pct": 111.3
+    "pct": 111.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -351,6 +565,16 @@
    "rating": "매수",
    "target_price": 2500.0,
    "rating_date": "2026-08-20",
+   "rating_broker": "하나증권",
+   "consensus_tp": 2500,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 2500.0,
+     "date": "2026-08-20"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -366,11 +590,22 @@
    "rating": "매수",
    "target_price": 480000.0,
    "rating_date": "2026-10-11",
+   "rating_broker": "하나증권",
+   "consensus_tp": 480000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 480000.0,
+     "date": "2026-10-11"
+    }
+   },
    "price": 262000.0,
    "price_date": "2026-10-11",
    "last_tp_change": {
     "date": "2026-06-18",
-    "pct": 11.6
+    "pct": 11.6,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-08",
@@ -384,11 +619,22 @@
    "rating": "매수",
    "target_price": 39000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 39000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 39000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": 26650.0,
    "price_date": "2026-10-06",
    "last_tp_change": {
     "date": "2026-10-06",
-    "pct": -11.4
+    "pct": -11.4,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -402,11 +648,22 @@
    "rating": "매수",
    "target_price": 46000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 46000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 46000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": 32850.0,
    "price_date": "2026-10-07",
    "last_tp_change": {
     "date": "2026-09-14",
-    "pct": 27.8
+    "pct": 27.8,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -420,11 +677,22 @@
    "rating": "매수",
    "target_price": 18000.0,
    "rating_date": "2026-07-02",
+   "rating_broker": "하나증권",
+   "consensus_tp": 18000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 18000.0,
+     "date": "2026-07-02"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-07-02",
-    "pct": -14.3
+    "pct": -14.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -438,11 +706,22 @@
    "rating": "매수",
    "target_price": 67000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 67000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 67000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": 31950.0,
    "price_date": "2026-10-06",
    "last_tp_change": {
     "date": "2026-10-06",
-    "pct": -29.5
+    "pct": -29.5,
+    "broker": "하나증권"
    },
    "events": 2,
    "last_event_date": "2026-10-06",
@@ -456,11 +735,22 @@
    "rating": "매수",
    "target_price": 3000000.0,
    "rating_date": "2026-09-28",
+   "rating_broker": "하나증권",
+   "consensus_tp": 3000000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 3000000.0,
+     "date": "2026-09-28"
+    }
+   },
    "price": 1499000.0,
    "price_date": "2026-09-28",
    "last_tp_change": {
     "date": "2026-06-30",
-    "pct": 76.5
+    "pct": 76.5,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -474,11 +764,22 @@
    "rating": "매수",
    "target_price": 60000.0,
    "rating_date": "2026-04-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": 60000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 60000.0,
+     "date": "2026-04-29"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-04-29",
-    "pct": 30.4
+    "pct": 30.4,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -492,6 +793,16 @@
    "rating": "매수",
    "target_price": 550000.0,
    "rating_date": "2026-05-26",
+   "rating_broker": "하나증권",
+   "consensus_tp": 550000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 550000.0,
+     "date": "2026-05-26"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -507,11 +818,22 @@
    "rating": "매수",
    "target_price": 270000.0,
    "rating_date": "2026-10-06",
+   "rating_broker": "하나증권",
+   "consensus_tp": 270000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 270000.0,
+     "date": "2026-10-06"
+    }
+   },
    "price": 217500.0,
    "price_date": "2026-10-06",
    "last_tp_change": {
     "date": "2026-07-24",
-    "pct": 22.7
+    "pct": 22.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -525,6 +847,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2023-11-20",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2023-11-20"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -540,11 +872,22 @@
    "rating": "매수",
    "target_price": 580000.0,
    "rating_date": "2026-10-08",
+   "rating_broker": "하나증권",
+   "consensus_tp": 580000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 580000.0,
+     "date": "2026-10-08"
+    }
+   },
    "price": 373500.0,
    "price_date": "2026-10-07",
    "last_tp_change": {
     "date": "2026-10-07",
-    "pct": -14.7
+    "pct": -14.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -558,6 +901,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-12",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-12"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -573,11 +926,22 @@
    "rating": "매수",
    "target_price": 40000.0,
    "rating_date": "2026-10-12",
+   "rating_broker": "하나증권",
+   "consensus_tp": 40000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 40000.0,
+     "date": "2026-10-12"
+    }
+   },
    "price": 29100.0,
    "price_date": "2026-10-11",
    "last_tp_change": {
     "date": "2026-10-11",
-    "pct": -11.1
+    "pct": -11.1,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-11",
@@ -591,11 +955,22 @@
    "rating": "매수",
    "target_price": 168000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 168000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 168000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": 89100.0,
    "price_date": "2026-10-06",
    "last_tp_change": {
     "date": "2026-10-06",
-    "pct": -4.0
+    "pct": -4.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -609,11 +984,22 @@
    "rating": "매수",
    "target_price": 140000.0,
    "rating_date": "2026-10-12",
+   "rating_broker": "하나증권",
+   "consensus_tp": 140000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 140000.0,
+     "date": "2026-10-12"
+    }
+   },
    "price": 79700.0,
    "price_date": "2026-10-12",
    "last_tp_change": {
     "date": "2026-04-17",
-    "pct": 40.0
+    "pct": 40.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -627,11 +1013,22 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": 16000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2025-01-31",
-    "pct": -11.1
+    "pct": -11.1,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-01",
@@ -645,11 +1042,22 @@
    "rating": "매수",
    "target_price": 240000.0,
    "rating_date": "2026-10-11",
+   "rating_broker": "하나증권",
+   "consensus_tp": 240000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 240000.0,
+     "date": "2026-10-11"
+    }
+   },
    "price": 195300.0,
    "price_date": "2026-10-11",
    "last_tp_change": {
     "date": "2026-07-07",
-    "pct": 9.1
+    "pct": 9.1,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -663,11 +1071,22 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-09-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": 49000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-09-29"
+    }
+   },
    "price": null,
    "price_date": "2026-10-01",
    "last_tp_change": {
     "date": "2025-05-14",
-    "pct": 8.9
+    "pct": 8.9,
+    "broker": "하나증권"
    },
    "events": 2,
    "last_event_date": "2026-10-01",
@@ -681,11 +1100,22 @@
    "rating": "매수",
    "target_price": 365000.0,
    "rating_date": "2026-09-20",
+   "rating_broker": "하나증권",
+   "consensus_tp": 365000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 365000.0,
+     "date": "2026-09-20"
+    }
+   },
    "price": 240500.0,
    "price_date": "2026-09-20",
    "last_tp_change": {
     "date": "2026-05-18",
-    "pct": 10.6
+    "pct": 10.6,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -699,6 +1129,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-03-18",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-03-18"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -714,11 +1154,22 @@
    "rating": "매수",
    "target_price": 28500.0,
    "rating_date": "2026-10-11",
+   "rating_broker": "하나증권",
+   "consensus_tp": 28500,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 28500.0,
+     "date": "2026-10-11"
+    }
+   },
    "price": 19750.0,
    "price_date": "2026-10-11",
    "last_tp_change": {
     "date": "2026-02-11",
-    "pct": 14.0
+    "pct": 14.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -732,6 +1183,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2023-12-26",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2023-12-26"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -747,11 +1208,22 @@
    "rating": "매수",
    "target_price": 67000.0,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": 67000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 67000.0,
+     "date": "2026-10-01"
+    }
+   },
    "price": 47350.0,
    "price_date": "2026-10-01",
    "last_tp_change": {
     "date": "2026-04-24",
-    "pct": 45.7
+    "pct": 45.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -765,11 +1237,22 @@
    "rating": "매수",
    "target_price": 9000.0,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": 9000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 9000.0,
+     "date": "2026-10-01"
+    }
+   },
    "price": 5770.0,
    "price_date": "2026-10-01",
    "last_tp_change": {
     "date": "2026-05-18",
-    "pct": 28.6
+    "pct": 28.6,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -783,11 +1266,22 @@
    "rating": "매수",
    "target_price": 76000.0,
    "rating_date": "2026-10-12",
+   "rating_broker": "하나증권",
+   "consensus_tp": 76000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 76000.0,
+     "date": "2026-10-12"
+    }
+   },
    "price": 49900.0,
    "price_date": "2026-10-12",
    "last_tp_change": {
     "date": "2026-01-06",
-    "pct": 8.6
+    "pct": 8.6,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -801,11 +1295,22 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-12",
+   "rating_broker": "하나증권",
+   "consensus_tp": 14000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-12"
+    }
+   },
    "price": null,
    "price_date": "2026-10-12",
    "last_tp_change": {
     "date": "2025-08-12",
-    "pct": -17.6
+    "pct": -17.6,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-12",
@@ -819,11 +1324,22 @@
    "rating": "매수",
    "target_price": 16000.0,
    "rating_date": "2026-10-06",
+   "rating_broker": "하나증권",
+   "consensus_tp": 16000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 16000.0,
+     "date": "2026-10-06"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-10-06",
-    "pct": -23.8
+    "pct": -23.8,
+    "broker": "하나증권"
    },
    "events": 2,
    "last_event_date": "2026-10-06",
@@ -837,11 +1353,22 @@
    "rating": "매수",
    "target_price": 70000.0,
    "rating_date": "2026-05-19",
+   "rating_broker": "하나증권",
+   "consensus_tp": 70000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 70000.0,
+     "date": "2026-05-19"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-05-19",
-    "pct": 40.0
+    "pct": 40.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -855,11 +1382,22 @@
    "rating": "매수",
    "target_price": 20000.0,
    "rating_date": "2026-10-12",
+   "rating_broker": "하나증권",
+   "consensus_tp": 20000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 20000.0,
+     "date": "2026-10-12"
+    }
+   },
    "price": 14550.0,
    "price_date": "2026-10-12",
    "last_tp_change": {
     "date": "2026-01-27",
-    "pct": 25.0
+    "pct": 25.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -873,11 +1411,22 @@
    "rating": "매수",
    "target_price": 370000.0,
    "rating_date": "2026-08-14",
+   "rating_broker": "하나증권",
+   "consensus_tp": 370000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 370000.0,
+     "date": "2026-08-14"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-08-14",
-    "pct": 22.5
+    "pct": 22.5,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -891,11 +1440,22 @@
    "rating": "매수",
    "target_price": 240000.0,
    "rating_date": "2026-10-06",
+   "rating_broker": "하나증권",
+   "consensus_tp": 240000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 240000.0,
+     "date": "2026-10-06"
+    }
+   },
    "price": 176900.0,
    "price_date": "2026-10-05",
    "last_tp_change": {
     "date": "2026-10-02",
-    "pct": 14.3
+    "pct": 14.3,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-02",
@@ -909,11 +1469,22 @@
    "rating": "매수",
    "target_price": 18000.0,
    "rating_date": "2026-07-08",
+   "rating_broker": "하나증권",
+   "consensus_tp": 18000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 18000.0,
+     "date": "2026-07-08"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-07-08",
-    "pct": -10.0
+    "pct": -10.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -927,11 +1498,22 @@
    "rating": "매수",
    "target_price": 16000.0,
    "rating_date": "2026-10-06",
+   "rating_broker": "하나증권",
+   "consensus_tp": 16000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 16000.0,
+     "date": "2026-10-06"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-10-06",
-    "pct": -11.1
+    "pct": -11.1,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-06",
@@ -945,6 +1527,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-12",
+   "rating_broker": "하나증권",
+   "consensus_tp": 23000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-12"
+    }
+   },
    "price": null,
    "price_date": "2026-10-12",
    "last_tp_change": null,
@@ -960,11 +1552,22 @@
    "rating": "매수",
    "target_price": 19000.0,
    "rating_date": "2026-08-05",
+   "rating_broker": "하나증권",
+   "consensus_tp": 19000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 19000.0,
+     "date": "2026-08-05"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-08-05",
-    "pct": -13.6
+    "pct": -13.6,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -978,11 +1581,22 @@
    "rating": "매수",
    "target_price": 400000.0,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": 400000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 400000.0,
+     "date": "2026-10-01"
+    }
+   },
    "price": 191200.0,
    "price_date": "2026-10-01",
    "last_tp_change": {
     "date": "2026-06-09",
-    "pct": 14.3
+    "pct": 14.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -996,11 +1610,22 @@
    "rating": "매수",
    "target_price": 48000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 48000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 48000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-10-07",
-    "pct": -9.4
+    "pct": -9.4,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-07",
@@ -1014,11 +1639,22 @@
    "rating": "매수",
    "target_price": 49000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 49000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 49000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": 37850.0,
    "price_date": "2026-10-07",
    "last_tp_change": {
     "date": "2026-10-07",
-    "pct": -15.5
+    "pct": -15.5,
+    "broker": "하나증권"
    },
    "events": 2,
    "last_event_date": "2026-10-07",
@@ -1032,6 +1668,16 @@
    "rating": "매수",
    "target_price": 55000.0,
    "rating_date": "2026-09-20",
+   "rating_broker": "하나증권",
+   "consensus_tp": 55000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 55000.0,
+     "date": "2026-09-20"
+    }
+   },
    "price": 35250.0,
    "price_date": "2026-09-20",
    "last_tp_change": null,
@@ -1047,11 +1693,22 @@
    "rating": "매수",
    "target_price": 420000.0,
    "rating_date": "2026-10-11",
+   "rating_broker": "하나증권",
+   "consensus_tp": 420000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 420000.0,
+     "date": "2026-10-11"
+    }
+   },
    "price": 222000.0,
    "price_date": "2026-10-11",
    "last_tp_change": {
     "date": "2026-05-14",
-    "pct": 31.2
+    "pct": 31.2,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1065,11 +1722,22 @@
    "rating": "매수",
    "target_price": 48000.0,
    "rating_date": "2026-09-30",
+   "rating_broker": "하나증권",
+   "consensus_tp": 48000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 48000.0,
+     "date": "2026-09-30"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-09-30",
-    "pct": -9.4
+    "pct": -9.4,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-09-30",
@@ -1083,11 +1751,22 @@
    "rating": "매수",
    "target_price": 490000.0,
    "rating_date": "2026-10-13",
+   "rating_broker": "하나증권",
+   "consensus_tp": 490000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 490000.0,
+     "date": "2026-10-13"
+    }
+   },
    "price": 238500.0,
    "price_date": "2026-10-12",
    "last_tp_change": {
     "date": "2026-10-12",
-    "pct": -14.0
+    "pct": -14.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1101,6 +1780,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2025-05-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2025-05-07"
+    }
+   },
    "price": null,
    "price_date": "2026-10-12",
    "last_tp_change": null,
@@ -1116,11 +1805,22 @@
    "rating": "매수",
    "target_price": 124000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 124000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 124000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": 78200.0,
    "price_date": "2026-10-07",
    "last_tp_change": {
     "date": "2026-06-10",
-    "pct": -11.4
+    "pct": -11.4,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1134,11 +1834,22 @@
    "rating": "매수",
    "target_price": 15000.0,
    "rating_date": "2024-11-26",
+   "rating_broker": "하나증권",
+   "consensus_tp": 15000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 15000.0,
+     "date": "2024-11-26"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2024-11-26",
-    "pct": -16.7
+    "pct": -16.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1152,11 +1863,22 @@
    "rating": "매수",
    "target_price": 105000.0,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": 105000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 105000.0,
+     "date": "2026-10-01"
+    }
+   },
    "price": 56900.0,
    "price_date": "2026-10-01",
    "last_tp_change": {
     "date": "2026-05-04",
-    "pct": 16.7
+    "pct": 16.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1170,11 +1892,22 @@
    "rating": "매수",
    "target_price": 30000.0,
    "rating_date": "2026-04-17",
+   "rating_broker": "하나증권",
+   "consensus_tp": 30000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 30000.0,
+     "date": "2026-04-17"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-04-17",
-    "pct": 50.0
+    "pct": 50.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1188,6 +1921,16 @@
    "rating": "매수",
    "target_price": 48000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 48000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 48000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": 21850.0,
    "price_date": "2026-10-07",
    "last_tp_change": null,
@@ -1203,11 +1946,22 @@
    "rating": "매수",
    "target_price": 320000.0,
    "rating_date": "2026-10-14",
+   "rating_broker": "하나증권",
+   "consensus_tp": 320000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 320000.0,
+     "date": "2026-10-14"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-10-14",
-    "pct": -8.6
+    "pct": -8.6,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1221,6 +1975,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -1236,11 +2000,22 @@
    "rating": "매수",
    "target_price": 135000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 135000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 135000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": 103300.0,
    "price_date": "2026-10-07",
    "last_tp_change": {
     "date": "2026-06-15",
-    "pct": 7.1
+    "pct": 7.1,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1254,11 +2029,22 @@
    "rating": "매수",
    "target_price": 80000.0,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": 80000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 80000.0,
+     "date": "2026-10-01"
+    }
+   },
    "price": 36200.0,
    "price_date": "2026-10-01",
    "last_tp_change": {
     "date": "2026-05-29",
-    "pct": 14.3
+    "pct": 14.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1272,11 +2058,22 @@
    "rating": "매수",
    "target_price": 44000.0,
    "rating_date": "2026-09-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": 44000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 44000.0,
+     "date": "2026-09-29"
+    }
+   },
    "price": 27400.0,
    "price_date": "2026-09-28",
    "last_tp_change": {
     "date": "2026-09-28",
-    "pct": 10.0
+    "pct": 10.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1290,11 +2087,22 @@
    "rating": "매수",
    "target_price": 260000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 260000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 260000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": 208000.0,
    "price_date": "2026-10-07",
    "last_tp_change": {
     "date": "2026-07-02",
-    "pct": 13.0
+    "pct": 13.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1308,11 +2116,22 @@
    "rating": "매수",
    "target_price": 318000.0,
    "rating_date": "2026-10-13",
+   "rating_broker": "하나증권",
+   "consensus_tp": 318000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 318000.0,
+     "date": "2026-10-13"
+    }
+   },
    "price": 165600.0,
    "price_date": "2026-10-12",
    "last_tp_change": {
     "date": "2026-10-12",
-    "pct": -3.6
+    "pct": -3.6,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1326,11 +2145,22 @@
    "rating": "매수",
    "target_price": 80000.0,
    "rating_date": "2026-04-21",
+   "rating_broker": "하나증권",
+   "consensus_tp": 80000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 80000.0,
+     "date": "2026-04-21"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-04-21",
-    "pct": 33.3
+    "pct": 33.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1344,6 +2174,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-09-28",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-09-28"
+    }
+   },
    "price": null,
    "price_date": "2026-10-01",
    "last_tp_change": null,
@@ -1359,6 +2199,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-07-14",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-07-14"
+    }
+   },
    "price": null,
    "price_date": "2026-10-01",
    "last_tp_change": null,
@@ -1374,11 +2224,22 @@
    "rating": "매수",
    "target_price": 11000.0,
    "rating_date": "2026-07-10",
+   "rating_broker": "하나증권",
+   "consensus_tp": 11000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 11000.0,
+     "date": "2026-07-10"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-07-10",
-    "pct": -21.4
+    "pct": -21.4,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1392,6 +2253,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -1407,11 +2278,22 @@
    "rating": "매수",
    "target_price": 29000.0,
    "rating_date": "2026-10-14",
+   "rating_broker": "하나증권",
+   "consensus_tp": 29000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 29000.0,
+     "date": "2026-10-14"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-10-14",
-    "pct": 20.8
+    "pct": 20.8,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-14",
@@ -1425,6 +2307,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -1440,11 +2332,22 @@
    "rating": "매수",
    "target_price": 7300.0,
    "rating_date": "2026-04-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": 7300,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 7300.0,
+     "date": "2026-04-29"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-04-29",
-    "pct": 82.5
+    "pct": 82.5,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1458,11 +2361,22 @@
    "rating": "매수",
    "target_price": 170000.0,
    "rating_date": "2026-07-31",
+   "rating_broker": "하나증권",
+   "consensus_tp": 170000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 170000.0,
+     "date": "2026-07-31"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-07-31",
-    "pct": 13.3
+    "pct": 13.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1476,6 +2390,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-06-25",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-06-25"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -1491,11 +2415,22 @@
    "rating": "매수",
    "target_price": 220000.0,
    "rating_date": "2026-10-12",
+   "rating_broker": "하나증권",
+   "consensus_tp": 220000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 220000.0,
+     "date": "2026-10-12"
+    }
+   },
    "price": 160900.0,
    "price_date": "2026-10-11",
    "last_tp_change": {
     "date": "2026-10-11",
-    "pct": 10.0
+    "pct": 10.0,
+    "broker": "하나증권"
    },
    "events": 5,
    "last_event_date": "2026-10-11",
@@ -1509,11 +2444,22 @@
    "rating": "매수",
    "target_price": 370000.0,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": 370000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 370000.0,
+     "date": "2026-10-01"
+    }
+   },
    "price": 178000.0,
    "price_date": "2026-10-01",
    "last_tp_change": {
     "date": "2026-05-19",
-    "pct": 23.3
+    "pct": 23.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1527,11 +2473,22 @@
    "rating": "매수",
    "target_price": 110000.0,
    "rating_date": "2026-10-11",
+   "rating_broker": "하나증권",
+   "consensus_tp": 110000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 110000.0,
+     "date": "2026-10-11"
+    }
+   },
    "price": 65600.0,
    "price_date": "2026-10-11",
    "last_tp_change": {
     "date": "2026-07-09",
-    "pct": -31.2
+    "pct": -31.2,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1545,11 +2502,22 @@
    "rating": "매수",
    "target_price": 235000.0,
    "rating_date": "2026-09-14",
+   "rating_broker": "하나증권",
+   "consensus_tp": 235000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 235000.0,
+     "date": "2026-09-14"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-09-13",
-    "pct": 6.8
+    "pct": 6.8,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1563,11 +2531,22 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-12",
+   "rating_broker": "하나증권",
+   "consensus_tp": 12000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-12"
+    }
+   },
    "price": null,
    "price_date": "2026-10-12",
    "last_tp_change": {
     "date": "2025-08-18",
-    "pct": -29.4
+    "pct": -29.4,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-12",
@@ -1581,6 +2560,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-12",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-12"
+    }
+   },
    "price": null,
    "price_date": "2026-10-12",
    "last_tp_change": null,
@@ -1596,11 +2585,22 @@
    "rating": "매수",
    "target_price": 12000.0,
    "rating_date": "2026-10-06",
+   "rating_broker": "하나증권",
+   "consensus_tp": 12000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 12000.0,
+     "date": "2026-10-06"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-10-06",
-    "pct": -7.7
+    "pct": -7.7,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-06",
@@ -1614,11 +2614,22 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": 30000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": "2026-10-01",
    "last_tp_change": {
     "date": "2025-05-09",
-    "pct": -14.3
+    "pct": -14.3,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-01",
@@ -1632,11 +2643,22 @@
    "rating": "매수",
    "target_price": 25000.0,
    "rating_date": "2026-09-22",
+   "rating_broker": "하나증권",
+   "consensus_tp": 25000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 25000.0,
+     "date": "2026-09-22"
+    }
+   },
    "price": 9330.0,
    "price_date": "2026-09-22",
    "last_tp_change": {
     "date": "2026-04-14",
-    "pct": 66.7
+    "pct": 66.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1650,11 +2672,22 @@
    "rating": "매수",
    "target_price": 63000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 63000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 63000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": 40700.0,
    "price_date": "2026-10-07",
    "last_tp_change": {
     "date": "2026-06-10",
-    "pct": -17.1
+    "pct": -17.1,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1668,11 +2701,22 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-06-05",
+   "rating_broker": "하나증권",
+   "consensus_tp": 42000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-06-05"
+    }
+   },
    "price": null,
    "price_date": "2026-10-01",
    "last_tp_change": {
     "date": "2025-06-09",
-    "pct": 35.5
+    "pct": 35.5,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1686,6 +2730,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2024-08-26",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2024-08-26"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -1701,11 +2755,22 @@
    "rating": "매수",
    "target_price": 660000.0,
    "rating_date": "2026-10-13",
+   "rating_broker": "하나증권",
+   "consensus_tp": 660000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 660000.0,
+     "date": "2026-10-13"
+    }
+   },
    "price": 453000.0,
    "price_date": "2026-10-13",
    "last_tp_change": {
     "date": "2026-08-25",
-    "pct": 8.2
+    "pct": 8.2,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-13",
@@ -1719,11 +2784,22 @@
    "rating": "매수",
    "target_price": 60000.0,
    "rating_date": "2026-03-26",
+   "rating_broker": "하나증권",
+   "consensus_tp": 60000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 60000.0,
+     "date": "2026-03-26"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-03-26",
-    "pct": 20.0
+    "pct": 20.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1737,6 +2813,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-09-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-09-29"
+    }
+   },
    "price": null,
    "price_date": "2026-09-29",
    "last_tp_change": null,
@@ -1752,6 +2838,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -1767,11 +2863,22 @@
    "rating": "매수",
    "target_price": 85000.0,
    "rating_date": "2026-10-12",
+   "rating_broker": "하나증권",
+   "consensus_tp": 85000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 85000.0,
+     "date": "2026-10-12"
+    }
+   },
    "price": 62300.0,
    "price_date": "2026-10-12",
    "last_tp_change": {
     "date": "2026-08-12",
-    "pct": 6.2
+    "pct": 6.2,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1785,11 +2892,22 @@
    "rating": "매수",
    "target_price": 180000.0,
    "rating_date": "2026-08-13",
+   "rating_broker": "하나증권",
+   "consensus_tp": 180000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 180000.0,
+     "date": "2026-08-13"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-08-13",
-    "pct": 28.6
+    "pct": 28.6,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1803,6 +2921,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -1818,11 +2946,22 @@
    "rating": "매수",
    "target_price": 80000.0,
    "rating_date": "2026-10-11",
+   "rating_broker": "하나증권",
+   "consensus_tp": 80000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 80000.0,
+     "date": "2026-10-11"
+    }
+   },
    "price": 57700.0,
    "price_date": "2026-10-11",
    "last_tp_change": {
     "date": "2026-05-14",
-    "pct": 14.3
+    "pct": 14.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1836,11 +2975,22 @@
    "rating": "매수",
    "target_price": 380000.0,
    "rating_date": "2026-10-13",
+   "rating_broker": "하나증권",
+   "consensus_tp": 380000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 380000.0,
+     "date": "2026-10-13"
+    }
+   },
    "price": 284500.0,
    "price_date": "2026-10-13",
    "last_tp_change": {
     "date": "2026-10-06",
-    "pct": 24.6
+    "pct": 24.6,
+    "broker": "하나증권"
    },
    "events": 2,
    "last_event_date": "2026-10-13",
@@ -1854,6 +3004,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-07-24",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-07-24"
+    }
+   },
    "price": null,
    "price_date": "2026-10-12",
    "last_tp_change": null,
@@ -1869,6 +3029,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -1884,11 +3054,22 @@
    "rating": "매수",
    "target_price": 450000.0,
    "rating_date": "2026-10-11",
+   "rating_broker": "하나증권",
+   "consensus_tp": 450000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 450000.0,
+     "date": "2026-10-11"
+    }
+   },
    "price": 241000.0,
    "price_date": "2026-10-11",
    "last_tp_change": {
     "date": "2026-08-18",
-    "pct": -22.4
+    "pct": -22.4,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1902,6 +3083,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2023-11-14",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2023-11-14"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -1917,11 +3108,22 @@
    "rating": "매수",
    "target_price": 1950000.0,
    "rating_date": "2026-10-06",
+   "rating_broker": "하나증권",
+   "consensus_tp": 1950000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 1950000.0,
+     "date": "2026-10-06"
+    }
+   },
    "price": 1354000.0,
    "price_date": "2026-10-05",
    "last_tp_change": {
     "date": "2026-10-05",
-    "pct": -4.9
+    "pct": -4.9,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1935,6 +3137,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": "2026-10-01",
    "last_tp_change": null,
@@ -1950,11 +3162,22 @@
    "rating": "매수",
    "target_price": 150000.0,
    "rating_date": "2026-03-31",
+   "rating_broker": "하나증권",
+   "consensus_tp": 150000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 150000.0,
+     "date": "2026-03-31"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-03-31",
-    "pct": 50.0
+    "pct": 50.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -1968,6 +3191,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-07-08",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-07-08"
+    }
+   },
    "price": null,
    "price_date": "2026-10-01",
    "last_tp_change": null,
@@ -1983,11 +3216,22 @@
    "rating": "매수",
    "target_price": 170000.0,
    "rating_date": "2026-08-05",
+   "rating_broker": "하나증권",
+   "consensus_tp": 170000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 170000.0,
+     "date": "2026-08-05"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-08-05",
-    "pct": 930.3
+    "pct": 930.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2001,11 +3245,22 @@
    "rating": "매수",
    "target_price": 50000.0,
    "rating_date": "2026-04-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": 50000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 50000.0,
+     "date": "2026-04-29"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-04-29",
-    "pct": 66.7
+    "pct": 66.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2019,11 +3274,22 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": 19000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": "2026-10-01",
    "last_tp_change": {
     "date": "2025-07-21",
-    "pct": -26.9
+    "pct": -26.9,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-01",
@@ -2037,6 +3303,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-08-14",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-08-14"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -2052,11 +3328,22 @@
    "rating": "매수",
    "target_price": 147000.0,
    "rating_date": "2026-08-20",
+   "rating_broker": "하나증권",
+   "consensus_tp": 147000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 147000.0,
+     "date": "2026-08-20"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2025-07-14",
-    "pct": 20.0
+    "pct": 20.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2070,11 +3357,22 @@
    "rating": "매수",
    "target_price": 50000.0,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": 50000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 50000.0,
+     "date": "2026-10-01"
+    }
+   },
    "price": 34400.0,
    "price_date": "2026-10-01",
    "last_tp_change": {
     "date": "2026-08-06",
-    "pct": -16.7
+    "pct": -16.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2088,11 +3386,22 @@
    "rating": "매수",
    "target_price": 90000.0,
    "rating_date": "2026-10-13",
+   "rating_broker": "하나증권",
+   "consensus_tp": 90000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 90000.0,
+     "date": "2026-10-13"
+    }
+   },
    "price": 68800.0,
    "price_date": "2026-10-13",
    "last_tp_change": {
     "date": "2026-10-11",
-    "pct": 28.6
+    "pct": 28.6,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-11",
@@ -2106,11 +3415,22 @@
    "rating": "매수",
    "target_price": 33000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 33000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 33000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-10-07",
-    "pct": -10.8
+    "pct": -10.8,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-07",
@@ -2124,11 +3444,22 @@
    "rating": "매수",
    "target_price": 52000.0,
    "rating_date": "2026-10-14",
+   "rating_broker": "하나증권",
+   "consensus_tp": 52000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 52000.0,
+     "date": "2026-10-14"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-10-14",
-    "pct": -11.9
+    "pct": -11.9,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2142,11 +3473,22 @@
    "rating": "매수",
    "target_price": 340000.0,
    "rating_date": "2026-10-12",
+   "rating_broker": "하나증권",
+   "consensus_tp": 340000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 340000.0,
+     "date": "2026-10-12"
+    }
+   },
    "price": 186900.0,
    "price_date": "2026-10-11",
    "last_tp_change": {
     "date": "2026-10-11",
-    "pct": -26.1
+    "pct": -26.1,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-11",
@@ -2160,6 +3502,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -2175,6 +3527,16 @@
    "rating": "매수",
    "target_price": 22000.0,
    "rating_date": "2026-01-21",
+   "rating_broker": "하나증권",
+   "consensus_tp": 22000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 22000.0,
+     "date": "2026-01-21"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -2190,6 +3552,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-09-17",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-09-17"
+    }
+   },
    "price": null,
    "price_date": "2026-10-01",
    "last_tp_change": null,
@@ -2205,11 +3577,22 @@
    "rating": "매수",
    "target_price": 1150000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 1150000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 1150000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": 683000.0,
    "price_date": "2026-10-06",
    "last_tp_change": {
     "date": "2026-10-06",
-    "pct": -20.1
+    "pct": -20.1,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-06",
@@ -2223,11 +3606,22 @@
    "rating": "매수",
    "target_price": 7000.0,
    "rating_date": "2026-05-13",
+   "rating_broker": "하나증권",
+   "consensus_tp": 7000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 7000.0,
+     "date": "2026-05-13"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-05-13",
-    "pct": -17.6
+    "pct": -17.6,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2241,11 +3635,22 @@
    "rating": "매수",
    "target_price": 410000.0,
    "rating_date": "2026-10-14",
+   "rating_broker": "하나증권",
+   "consensus_tp": 410000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 410000.0,
+     "date": "2026-10-14"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-10-14",
-    "pct": -19.6
+    "pct": -19.6,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-14",
@@ -2259,6 +3664,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-03-03",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-03-03"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -2274,6 +3689,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-02-20",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-02-20"
+    }
+   },
    "price": null,
    "price_date": "2026-09-20",
    "last_tp_change": null,
@@ -2289,11 +3714,22 @@
    "rating": "매수",
    "target_price": 4300000.0,
    "rating_date": "2026-10-06",
+   "rating_broker": "하나증권",
+   "consensus_tp": 4300000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 4300000.0,
+     "date": "2026-10-06"
+    }
+   },
    "price": 2807000.0,
    "price_date": "2026-10-06",
    "last_tp_change": {
     "date": "2026-04-27",
-    "pct": 30.3
+    "pct": 30.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2307,11 +3743,22 @@
    "rating": "매수",
    "target_price": 200000.0,
    "rating_date": "2026-10-13",
+   "rating_broker": "하나증권",
+   "consensus_tp": 200000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 200000.0,
+     "date": "2026-10-13"
+    }
+   },
    "price": 141300.0,
    "price_date": "2026-10-13",
    "last_tp_change": {
     "date": "2025-10-22",
-    "pct": -23.1
+    "pct": -23.1,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2325,6 +3772,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -2340,11 +3797,22 @@
    "rating": "매수",
    "target_price": 43000.0,
    "rating_date": "2026-02-11",
+   "rating_broker": "하나증권",
+   "consensus_tp": 43000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 43000.0,
+     "date": "2026-02-11"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-02-11",
-    "pct": 14.7
+    "pct": 14.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2358,6 +3826,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-09-10",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-09-10"
+    }
+   },
    "price": null,
    "price_date": "2026-10-01",
    "last_tp_change": null,
@@ -2373,11 +3851,22 @@
    "rating": "매수",
    "target_price": 75000.0,
    "rating_date": "2026-04-30",
+   "rating_broker": "하나증권",
+   "consensus_tp": 75000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 75000.0,
+     "date": "2026-04-30"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-04-30",
-    "pct": 25.0
+    "pct": 25.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2391,6 +3880,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-09-23",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-09-23"
+    }
+   },
    "price": null,
    "price_date": "2026-10-01",
    "last_tp_change": null,
@@ -2406,6 +3905,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -2421,11 +3930,22 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": 45000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2025-05-12",
-    "pct": -10.0
+    "pct": -10.0,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-01",
@@ -2439,11 +3959,22 @@
    "rating": "매수",
    "target_price": 300000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 300000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 300000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": 157000.0,
    "price_date": "2026-10-07",
    "last_tp_change": {
     "date": "2026-10-07",
-    "pct": -14.3
+    "pct": -14.3,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-07",
@@ -2457,11 +3988,22 @@
    "rating": "매수",
    "target_price": 250000.0,
    "rating_date": "2026-06-14",
+   "rating_broker": "하나증권",
+   "consensus_tp": 250000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 250000.0,
+     "date": "2026-06-14"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-06-14",
-    "pct": 47.1
+    "pct": 47.1,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2475,11 +4017,22 @@
    "rating": "매수",
    "target_price": 480000.0,
    "rating_date": "2026-10-11",
+   "rating_broker": "하나증권",
+   "consensus_tp": 480000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 480000.0,
+     "date": "2026-10-11"
+    }
+   },
    "price": 401000.0,
    "price_date": "2026-10-11",
    "last_tp_change": {
     "date": "2026-07-31",
-    "pct": -9.4
+    "pct": -9.4,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-08",
@@ -2493,11 +4046,22 @@
    "rating": "매수",
    "target_price": 90000.0,
    "rating_date": "2026-10-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 90000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 90000.0,
+     "date": "2026-10-07"
+    }
+   },
    "price": 74000.0,
    "price_date": "2026-10-06",
    "last_tp_change": {
     "date": "2026-10-06",
-    "pct": -10.0
+    "pct": -10.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2511,6 +4075,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -2526,11 +4100,22 @@
    "rating": "매수",
    "target_price": 330000.0,
    "rating_date": "2026-10-11",
+   "rating_broker": "하나증권",
+   "consensus_tp": 330000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 330000.0,
+     "date": "2026-10-11"
+    }
+   },
    "price": 219500.0,
    "price_date": "2026-10-11",
    "last_tp_change": {
     "date": "2026-04-27",
-    "pct": 15.8
+    "pct": 15.8,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2544,6 +4129,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -2559,11 +4154,22 @@
    "rating": "매수",
    "target_price": 60000.0,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": 60000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 60000.0,
+     "date": "2026-10-01"
+    }
+   },
    "price": 23550.0,
    "price_date": "2026-10-01",
    "last_tp_change": {
     "date": "2026-05-27",
-    "pct": 50.0
+    "pct": 50.0,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-01",
@@ -2577,6 +4183,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -2592,6 +4208,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": "2026-10-01",
    "last_tp_change": null,
@@ -2607,6 +4233,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2025-11-14",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2025-11-14"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -2622,11 +4258,22 @@
    "rating": "매수",
    "target_price": 220000.0,
    "rating_date": "2026-10-14",
+   "rating_broker": "하나증권",
+   "consensus_tp": 220000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 220000.0,
+     "date": "2026-10-14"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-10-14",
-    "pct": -15.4
+    "pct": -15.4,
+    "broker": "하나증권"
    },
    "events": 1,
    "last_event_date": "2026-10-14",
@@ -2640,6 +4287,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-07-30",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-07-30"
+    }
+   },
    "price": null,
    "price_date": "2026-10-12",
    "last_tp_change": null,
@@ -2655,11 +4312,22 @@
    "rating": "매수",
    "target_price": 67000.0,
    "rating_date": "2026-07-02",
+   "rating_broker": "하나증권",
+   "consensus_tp": 67000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 67000.0,
+     "date": "2026-07-02"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-07-02",
-    "pct": -6.9
+    "pct": -6.9,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2673,6 +4341,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-01",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-01"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -2688,11 +4366,22 @@
    "rating": "매수",
    "target_price": 24500.0,
    "rating_date": "2026-02-11",
+   "rating_broker": "하나증권",
+   "consensus_tp": 24500,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 24500.0,
+     "date": "2026-02-11"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-02-11",
-    "pct": 16.7
+    "pct": 16.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2706,11 +4395,22 @@
    "rating": "매수",
    "target_price": 29000.0,
    "rating_date": "2026-04-28",
+   "rating_broker": "하나증권",
+   "consensus_tp": 29000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 29000.0,
+     "date": "2026-04-28"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-04-28",
-    "pct": 11.5
+    "pct": 11.5,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2724,11 +4424,22 @@
    "rating": "매수",
    "target_price": 37000.0,
    "rating_date": "2026-02-11",
+   "rating_broker": "하나증권",
+   "consensus_tp": 37000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 37000.0,
+     "date": "2026-02-11"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-02-11",
-    "pct": 13.8
+    "pct": 13.8,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2742,11 +4453,22 @@
    "rating": "중립",
    "target_price": 300000.0,
    "rating_date": "2026-07-20",
+   "rating_broker": "하나증권",
+   "consensus_tp": 300000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "중립",
+     "target_price": 300000.0,
+     "date": "2026-07-20"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-07-20",
-    "pct": -16.7
+    "pct": -16.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2760,11 +4482,22 @@
    "rating": "매수",
    "target_price": 48000.0,
    "rating_date": "2026-08-03",
+   "rating_broker": "하나증권",
+   "consensus_tp": 48000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 48000.0,
+     "date": "2026-08-03"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-08-03",
-    "pct": -15.8
+    "pct": -15.8,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2778,11 +4511,22 @@
    "rating": "매수",
    "target_price": 220000.0,
    "rating_date": "2026-08-04",
+   "rating_broker": "하나증권",
+   "consensus_tp": 220000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 220000.0,
+     "date": "2026-08-04"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-08-04",
-    "pct": 10.0
+    "pct": 10.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2796,11 +4540,22 @@
    "rating": "매수",
    "target_price": 24500.0,
    "rating_date": "2026-04-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": 24500,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 24500.0,
+     "date": "2026-04-29"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-04-29",
-    "pct": 6.5
+    "pct": 6.5,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2814,6 +4569,16 @@
    "rating": "매수",
    "target_price": 8300.0,
    "rating_date": "2026-07-31",
+   "rating_broker": "하나증권",
+   "consensus_tp": 8300,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 8300.0,
+     "date": "2026-07-31"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -2829,11 +4594,22 @@
    "rating": "매수",
    "target_price": 10500.0,
    "rating_date": "2026-02-05",
+   "rating_broker": "하나증권",
+   "consensus_tp": 10500,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 10500.0,
+     "date": "2026-02-05"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-02-05",
-    "pct": 16.7
+    "pct": 16.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2847,11 +4623,22 @@
    "rating": "매수",
    "target_price": 20000.0,
    "rating_date": "2026-08-05",
+   "rating_broker": "하나증권",
+   "consensus_tp": 20000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 20000.0,
+     "date": "2026-08-05"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-08-05",
-    "pct": -59.2
+    "pct": -59.2,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2865,6 +4652,16 @@
    "rating": "매수",
    "target_price": 170000.0,
    "rating_date": "2024-04-26",
+   "rating_broker": "하나증권",
+   "consensus_tp": 170000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 170000.0,
+     "date": "2024-04-26"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -2880,11 +4677,22 @@
    "rating": "매수",
    "target_price": 220000.0,
    "rating_date": "2025-11-21",
+   "rating_broker": "하나증권",
+   "consensus_tp": 220000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 220000.0,
+     "date": "2025-11-21"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2025-11-21",
-    "pct": 46.7
+    "pct": 46.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2898,6 +4706,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-05-21",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-05-21"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -2913,11 +4731,22 @@
    "rating": "매수",
    "target_price": 84000.0,
    "rating_date": "2026-04-16",
+   "rating_broker": "하나증권",
+   "consensus_tp": 84000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 84000.0,
+     "date": "2026-04-16"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-04-16",
-    "pct": 33.3
+    "pct": 33.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2931,11 +4760,22 @@
    "rating": "매수",
    "target_price": 420000.0,
    "rating_date": "2026-07-30",
+   "rating_broker": "하나증권",
+   "consensus_tp": 420000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 420000.0,
+     "date": "2026-07-30"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-07-30",
-    "pct": -35.4
+    "pct": -35.4,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2949,11 +4789,22 @@
    "rating": "매수",
    "target_price": 620000.0,
    "rating_date": "2026-07-27",
+   "rating_broker": "하나증권",
+   "consensus_tp": 620000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 620000.0,
+     "date": "2026-07-27"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-04-24",
-    "pct": 1.6
+    "pct": 1.6,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2967,11 +4818,22 @@
    "rating": "매수",
    "target_price": 66000.0,
    "rating_date": "2026-07-28",
+   "rating_broker": "하나증권",
+   "consensus_tp": 66000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 66000.0,
+     "date": "2026-07-28"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-07-28",
-    "pct": -8.3
+    "pct": -8.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -2985,11 +4847,22 @@
    "rating": "매수",
    "target_price": 1800000.0,
    "rating_date": "2025-07-30",
+   "rating_broker": "하나증권",
+   "consensus_tp": 1800000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 1800000.0,
+     "date": "2025-07-30"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2025-07-30",
-    "pct": 33.3
+    "pct": 33.3,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -3003,6 +4876,16 @@
    "rating": "매수",
    "target_price": 210000.0,
    "rating_date": "2026-02-24",
+   "rating_broker": "하나증권",
+   "consensus_tp": 210000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 210000.0,
+     "date": "2026-02-24"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -3018,6 +4901,16 @@
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-09-08",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-09-08"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -3033,11 +4926,22 @@
    "rating": "매수",
    "target_price": 30000.0,
    "rating_date": "2026-08-14",
+   "rating_broker": "하나증권",
+   "consensus_tp": 30000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 30000.0,
+     "date": "2026-08-14"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-08-14",
-    "pct": -40.0
+    "pct": -40.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -3051,11 +4955,22 @@
    "rating": "매수",
    "target_price": 160000.0,
    "rating_date": "2026-08-27",
+   "rating_broker": "하나증권",
+   "consensus_tp": 160000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 160000.0,
+     "date": "2026-08-27"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-08-27",
-    "pct": 6.7
+    "pct": 6.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -3069,11 +4984,22 @@
    "rating": "매수",
    "target_price": 190000.0,
    "rating_date": "2026-07-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": 190000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 190000.0,
+     "date": "2026-07-29"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-07-29",
-    "pct": -9.5
+    "pct": -9.5,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -3087,6 +5013,16 @@
    "rating": "매수",
    "target_price": 65000.0,
    "rating_date": "2026-02-24",
+   "rating_broker": "하나증권",
+   "consensus_tp": 65000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 65000.0,
+     "date": "2026-02-24"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -3102,11 +5038,22 @@
    "rating": "매수",
    "target_price": 42000.0,
    "rating_date": "2025-07-31",
+   "rating_broker": "하나증권",
+   "consensus_tp": 42000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 42000.0,
+     "date": "2025-07-31"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2025-07-31",
-    "pct": -6.7
+    "pct": -6.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -3120,11 +5067,22 @@
    "rating": "매수",
    "target_price": 35000.0,
    "rating_date": "2026-02-11",
+   "rating_broker": "하나증권",
+   "consensus_tp": 35000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 35000.0,
+     "date": "2026-02-11"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-02-11",
-    "pct": 9.4
+    "pct": 9.4,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -3138,11 +5096,22 @@
    "rating": "매수",
    "target_price": 200000.0,
    "rating_date": "2026-08-18",
+   "rating_broker": "하나증권",
+   "consensus_tp": 200000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 200000.0,
+     "date": "2026-08-18"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-08-18",
-    "pct": 13.6
+    "pct": 13.6,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -3156,11 +5125,22 @@
    "rating": "매수",
    "target_price": 315000.0,
    "rating_date": "2026-02-10",
+   "rating_broker": "하나증권",
+   "consensus_tp": 315000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 315000.0,
+     "date": "2026-02-10"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-02-10",
-    "pct": 11.7
+    "pct": 11.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -3174,11 +5154,22 @@
    "rating": "매수",
    "target_price": 160000.0,
    "rating_date": "2026-06-05",
+   "rating_broker": "하나증권",
+   "consensus_tp": 160000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 160000.0,
+     "date": "2026-06-05"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-06-05",
-    "pct": 25.0
+    "pct": 25.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -3192,11 +5183,22 @@
    "rating": "매수",
    "target_price": 220000.0,
    "rating_date": "2026-09-11",
+   "rating_broker": "하나증권",
+   "consensus_tp": 220000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 220000.0,
+     "date": "2026-09-11"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-09-11",
-    "pct": 34.1
+    "pct": 34.1,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -3210,11 +5212,22 @@
    "rating": "매수",
    "target_price": 166000.0,
    "rating_date": "2026-07-07",
+   "rating_broker": "하나증권",
+   "consensus_tp": 166000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 166000.0,
+     "date": "2026-07-07"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-07-07",
-    "pct": 5.7
+    "pct": 5.7,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -3228,6 +5241,16 @@
    "rating": "매수",
    "target_price": 30000.0,
    "rating_date": "2023-10-16",
+   "rating_broker": "하나증권",
+   "consensus_tp": 30000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 30000.0,
+     "date": "2023-10-16"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": null,
@@ -3243,11 +5266,22 @@
    "rating": "매수",
    "target_price": 135000.0,
    "rating_date": "2026-08-03",
+   "rating_broker": "하나증권",
+   "consensus_tp": 135000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 135000.0,
+     "date": "2026-08-03"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-08-03",
-    "pct": -43.8
+    "pct": -43.8,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
@@ -3261,11 +5295,22 @@
    "rating": "매수",
    "target_price": 57000.0,
    "rating_date": "2026-07-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": 57000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 57000.0,
+     "date": "2026-07-29"
+    }
+   },
    "price": null,
    "price_date": null,
    "last_tp_change": {
     "date": "2026-07-29",
-    "pct": -5.0
+    "pct": -5.0,
+    "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,

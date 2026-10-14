@@ -96,6 +96,11 @@ def write_json(path: Path, obj) -> None:
         f.write("\n")
 
 
+def broker_of(r: dict) -> str:
+    """리포트를 쓴 증권사. broker 필드가 생기기 전에 수집한 하나증권 리포트도 처리한다."""
+    return r.get("broker") or ("하나증권" if r.get("source") == "hana" else "")
+
+
 def desk_of(r: dict) -> str:
     if r["report_type"] == "daily_series":
         return "데일리"
@@ -196,8 +201,9 @@ def rebuild_indexes(reports: list[tuple[Path, dict]]) -> None:
 
 
 def meta_block(r: dict) -> str:
-    keys = ["report_id", "report_type", "title", "analyst", "published_date", "category", "breadcrumb"]
-    return "\n".join(f"{k}: {r.get(k)}" for k in keys) + f"\ndesk: {desk_of(r)}"
+    meta = {**r, "broker": broker_of(r)}
+    keys = ["report_id", "report_type", "broker", "title", "analyst", "published_date", "category", "breadcrumb"]
+    return "\n".join(f"{k}: {meta.get(k)}" for k in keys) + f"\ndesk: {desk_of(r)}"
 
 
 def abort_reason(e: LLMError) -> str:
@@ -519,7 +525,7 @@ def brief_path(industry: str, week: str) -> Path:
 
 def summary_card(r: dict) -> dict:
     keys = ["report_id", "title", "analyst", "published_date", "category", "desk", "themes", "summary"]
-    return {k: r.get(k) for k in keys}
+    return {**{k: r.get(k) for k in keys}, "broker": broker_of(r)}
 
 
 def build_briefs(reports: list[tuple[Path, dict]], dates: set[str]) -> int:

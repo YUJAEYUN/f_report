@@ -3,6 +3,9 @@
  "code": "080530",
  "name": "코디",
  "industry": "화장품",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2026-10-01",
@@ -10,13 +13,17 @@
    "target_price": null,
    "source": "table",
    "report_id": "hana_1288929",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
  "observations": [],
+ "rating_changes": [],
  "estimate_revisions": [],
  "consensus_changes": [],
- "rating_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

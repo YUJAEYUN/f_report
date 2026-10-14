@@ -3,6 +3,9 @@
  "code": "222800",
  "name": "심텍",
  "industry": "IT하드웨어·전자부품",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-08-07",
@@ -10,7 +13,8 @@
    "target_price": 33000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2024-11-07",
@@ -18,7 +22,8 @@
    "target_price": 16500.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-05",
@@ -26,22 +31,23 @@
    "target_price": 170000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2025-11-07",
-   "note": "년 경과"
+   "note": "년 경과",
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-02",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2024-11-07",
@@ -53,7 +59,8 @@
    "tp_to": 16500.0,
    "tp_pct": -50.0,
    "tp_speed30": -16.3,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-05",
@@ -66,8 +73,39 @@
    "tp_pct": 930.3,
    "tp_speed30": 43.9,
    "report_id": null,
-   "note": "1년 경과, 담당자 변경"
+   "note": "1년 경과, 담당자 변경",
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-08-07",
+   "mean": 33000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 33000.0
+   }
+  },
+  {
+   "date": "2024-11-07",
+   "mean": 16500,
+   "n": 1,
+   "brokers": {
+    "하나증권": 16500.0
+   }
+  },
+  {
+   "date": "2026-08-05",
+   "mean": 170000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 170000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

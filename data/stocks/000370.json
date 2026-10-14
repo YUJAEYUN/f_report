@@ -3,6 +3,9 @@
  "code": "000370",
  "name": "한화손해보험",
  "industry": "보험",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-04-23",
@@ -10,7 +13,8 @@
    "target_price": 6000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-29",
@@ -18,7 +22,8 @@
    "target_price": 10500.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-13",
@@ -26,13 +31,15 @@
    "target_price": 10500.0,
    "source": "report",
    "report_id": "hana_1289110",
-   "tp_status": "유지"
+   "tp_status": "유지",
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2026-04-27",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [
@@ -41,6 +48,7 @@
    "report_id": "hana_1289110",
    "title": "한화손해보험(000370.KS/매수): 3Q26 Pre - 보험손익 개선세에 주목",
    "primary": true,
+   "broker": "하나증권",
    "rating": "매수",
    "rating_status": null,
    "target_price": 10500.0,
@@ -73,6 +81,7 @@
      "eps": 2614.0
     }
    },
+   "prev_target_price": null,
    "gap": {
     "year": "2026",
     "metric": "op",
@@ -82,8 +91,6 @@
    }
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2026-04-29",
@@ -96,8 +103,39 @@
    "tp_pct": 75.0,
    "tp_speed30": 3.1,
    "report_id": null,
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-04-23",
+   "mean": 6000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 6000.0
+   }
+  },
+  {
+   "date": "2026-04-29",
+   "mean": 10500,
+   "n": 1,
+   "brokers": {
+    "하나증권": 10500.0
+   }
+  },
+  {
+   "date": "2026-10-13",
+   "mean": 10500,
+   "n": 1,
+   "brokers": {
+    "하나증권": 10500.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

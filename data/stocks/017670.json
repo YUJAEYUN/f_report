@@ -3,6 +3,9 @@
  "code": "017670",
  "name": "SK텔레콤",
  "industry": "통신서비스",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-03-28",
@@ -10,7 +13,8 @@
    "target_price": 70000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-10-31",
@@ -18,7 +22,8 @@
    "target_price": 55000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-01-27",
@@ -26,7 +31,8 @@
    "target_price": 80000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-02-03",
@@ -34,7 +40,8 @@
    "target_price": 100000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-17",
@@ -42,7 +49,8 @@
    "target_price": 140000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-09-29",
@@ -50,7 +58,8 @@
    "target_price": 140000.0,
    "source": "report",
    "report_id": "hana_1288910",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -58,13 +67,15 @@
    "target_price": 140000.0,
    "source": "report",
    "report_id": "hana_1289072",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2025-03-28",
-   "note": "년 경과"
+   "note": "년 경과",
+   "broker": "하나증권"
   }
  ],
  "observations": [
@@ -73,6 +84,7 @@
    "report_id": "hana_1288910",
    "title": "SKT(017670.KS/매수): 10월 전략 - 재료 많아 주가 상승 시도 지속될 전망",
    "primary": true,
+   "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",
    "target_price": 140000.0,
@@ -107,6 +119,7 @@
      "eps": 6602.0
     }
    },
+   "prev_target_price": null,
    "gap": {
     "year": "2026",
     "metric": "op",
@@ -120,6 +133,7 @@
    "report_id": "hana_1289072",
    "title": "SK텔레콤(017670.KS/매수): 3Q 프리뷰 - DPS 증가 기대감 커지는 계기될 것",
    "primary": true,
+   "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",
    "target_price": 140000.0,
@@ -154,6 +168,7 @@
      "eps": 6569.0
     }
    },
+   "prev_target_price": null,
    "gap": {
     "year": "2026",
     "metric": "op",
@@ -161,6 +176,61 @@
     "consensus": 1965.3,
     "gap_pct": -0.8
    }
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2025-10-31",
+   "prev_date": "2024-03-28",
+   "days": 582,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 70000.0,
+   "tp_to": 55000.0,
+   "tp_pct": -21.4,
+   "tp_speed30": -1.1,
+   "report_id": null,
+   "note": "1년 경과",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-01-27",
+   "prev_date": "2025-10-31",
+   "days": 88,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 55000.0,
+   "tp_to": 80000.0,
+   "tp_pct": 45.5,
+   "tp_speed30": 15.5,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-02-03",
+   "prev_date": "2026-01-27",
+   "days": 7,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 80000.0,
+   "tp_to": 100000.0,
+   "tp_pct": 25.0,
+   "tp_speed30": 107.1,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-04-17",
+   "prev_date": "2026-02-03",
+   "days": 73,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 100000.0,
+   "tp_to": 140000.0,
+   "tp_pct": 40.0,
+   "tp_speed30": 16.4,
+   "report_id": null,
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [
@@ -176,7 +246,8 @@
    "speed30": -0.0,
    "turn": null,
    "report_id": "hana_1289072",
-   "prev_report_id": "hana_1288910"
+   "prev_report_id": "hana_1288910",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -190,7 +261,8 @@
    "speed30": 0.5,
    "turn": null,
    "report_id": "hana_1289072",
-   "prev_report_id": "hana_1288910"
+   "prev_report_id": "hana_1288910",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -204,7 +276,8 @@
    "speed30": 0.5,
    "turn": null,
    "report_id": "hana_1289072",
-   "prev_report_id": "hana_1288910"
+   "prev_report_id": "hana_1288910",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -218,7 +291,8 @@
    "speed30": 0.5,
    "turn": null,
    "report_id": "hana_1289072",
-   "prev_report_id": "hana_1288910"
+   "prev_report_id": "hana_1288910",
+   "broker": "하나증권"
   }
  ],
  "consensus_changes": [
@@ -234,7 +308,8 @@
    "speed30": -0.0,
    "turn": null,
    "report_id": "hana_1289072",
-   "prev_report_id": "hana_1288910"
+   "prev_report_id": "hana_1288910",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -248,7 +323,8 @@
    "speed30": 0.0,
    "turn": null,
    "report_id": "hana_1289072",
-   "prev_report_id": "hana_1288910"
+   "prev_report_id": "hana_1288910",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -262,7 +338,8 @@
    "speed30": 0.2,
    "turn": null,
    "report_id": "hana_1289072",
-   "prev_report_id": "hana_1288910"
+   "prev_report_id": "hana_1288910",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -276,7 +353,8 @@
    "speed30": 0.2,
    "turn": null,
    "report_id": "hana_1289072",
-   "prev_report_id": "hana_1288910"
+   "prev_report_id": "hana_1288910",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -290,7 +368,8 @@
    "speed30": 0.2,
    "turn": null,
    "report_id": "hana_1289072",
-   "prev_report_id": "hana_1288910"
+   "prev_report_id": "hana_1288910",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -304,7 +383,8 @@
    "speed30": -0.9,
    "turn": null,
    "report_id": "hana_1289072",
-   "prev_report_id": "hana_1288910"
+   "prev_report_id": "hana_1288910",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -318,7 +398,8 @@
    "speed30": -1.2,
    "turn": null,
    "report_id": "hana_1289072",
-   "prev_report_id": "hana_1288910"
+   "prev_report_id": "hana_1288910",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -332,59 +413,69 @@
    "speed30": -1.2,
    "turn": null,
    "report_id": "hana_1289072",
-   "prev_report_id": "hana_1288910"
+   "prev_report_id": "hana_1288910",
+   "broker": "하나증권"
   }
  ],
- "rating_changes": [
+ "tp_consensus": [
+  {
+   "date": "2024-03-28",
+   "mean": 70000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 70000.0
+   }
+  },
   {
    "date": "2025-10-31",
-   "prev_date": "2024-03-28",
-   "days": 582,
-   "rating_from": "매수",
-   "rating_to": "매수",
-   "tp_from": 70000.0,
-   "tp_to": 55000.0,
-   "tp_pct": -21.4,
-   "tp_speed30": -1.1,
-   "report_id": null,
-   "note": "1년 경과"
+   "mean": 55000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 55000.0
+   }
   },
   {
    "date": "2026-01-27",
-   "prev_date": "2025-10-31",
-   "days": 88,
-   "rating_from": "매수",
-   "rating_to": "매수",
-   "tp_from": 55000.0,
-   "tp_to": 80000.0,
-   "tp_pct": 45.5,
-   "tp_speed30": 15.5,
-   "report_id": null
+   "mean": 80000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 80000.0
+   }
   },
   {
    "date": "2026-02-03",
-   "prev_date": "2026-01-27",
-   "days": 7,
-   "rating_from": "매수",
-   "rating_to": "매수",
-   "tp_from": 80000.0,
-   "tp_to": 100000.0,
-   "tp_pct": 25.0,
-   "tp_speed30": 107.1,
-   "report_id": null
+   "mean": 100000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 100000.0
+   }
   },
   {
    "date": "2026-04-17",
-   "prev_date": "2026-02-03",
-   "days": 73,
-   "rating_from": "매수",
-   "rating_to": "매수",
-   "tp_from": 100000.0,
-   "tp_to": 140000.0,
-   "tp_pct": 40.0,
-   "tp_speed30": 16.4,
-   "report_id": null
+   "mean": 140000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 140000.0
+   }
+  },
+  {
+   "date": "2026-09-29",
+   "mean": 140000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 140000.0
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "mean": 140000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 140000.0
+   }
   }
  ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

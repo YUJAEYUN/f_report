@@ -3,6 +3,9 @@
  "code": null,
  "name": "피에스케이홀딩스",
  "industry": "반도체",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-09-10",
@@ -10,7 +13,8 @@
    "target_price": 59000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-01-08",
@@ -18,7 +22,8 @@
    "target_price": 67000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-05-20",
@@ -26,7 +31,8 @@
    "target_price": 50000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-11-07",
@@ -34,7 +40,8 @@
    "target_price": 62000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-02-24",
@@ -42,7 +49,8 @@
    "target_price": 120000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-05-15",
@@ -50,7 +58,8 @@
    "target_price": 164000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-09-11",
@@ -58,18 +67,18 @@
    "target_price": 220000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2025-05-16",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2025-01-08",
@@ -81,7 +90,8 @@
    "tp_to": 67000.0,
    "tp_pct": 13.6,
    "tp_speed30": 3.4,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-05-20",
@@ -94,7 +104,8 @@
    "tp_pct": -25.4,
    "tp_speed30": -5.8,
    "report_id": null,
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   },
   {
    "date": "2025-11-07",
@@ -106,7 +117,8 @@
    "tp_to": 62000.0,
    "tp_pct": 24.0,
    "tp_speed30": 4.2,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-02-24",
@@ -118,7 +130,8 @@
    "tp_to": 120000.0,
    "tp_pct": 93.5,
    "tp_speed30": 25.7,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-05-15",
@@ -130,7 +143,8 @@
    "tp_to": 164000.0,
    "tp_pct": 36.7,
    "tp_speed30": 13.8,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-09-11",
@@ -142,8 +156,71 @@
    "tp_to": 220000.0,
    "tp_pct": 34.1,
    "tp_speed30": 8.6,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-09-10",
+   "mean": 59000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 59000.0
+   }
+  },
+  {
+   "date": "2025-01-08",
+   "mean": 67000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 67000.0
+   }
+  },
+  {
+   "date": "2025-05-20",
+   "mean": 50000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 50000.0
+   }
+  },
+  {
+   "date": "2025-11-07",
+   "mean": 62000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 62000.0
+   }
+  },
+  {
+   "date": "2026-02-24",
+   "mean": 120000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 120000.0
+   }
+  },
+  {
+   "date": "2026-05-15",
+   "mean": 164000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 164000.0
+   }
+  },
+  {
+   "date": "2026-09-11",
+   "mean": 220000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 220000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

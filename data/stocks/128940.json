@@ -3,6 +3,9 @@
  "code": "128940",
  "name": "한미약품",
  "industry": "제약·바이오",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2025-06-09",
@@ -10,7 +13,8 @@
    "target_price": null,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-06-18",
@@ -18,7 +22,8 @@
    "target_price": 400000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-10-15",
@@ -26,7 +31,8 @@
    "target_price": 420000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-10-28",
@@ -34,7 +40,8 @@
    "target_price": 500000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-11-21",
@@ -42,7 +49,8 @@
    "target_price": 540000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-02-06",
@@ -50,7 +58,8 @@
    "target_price": 640000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-06-08",
@@ -58,7 +67,8 @@
    "target_price": 710000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-13",
@@ -66,7 +76,8 @@
    "target_price": 610000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-25",
@@ -74,7 +85,8 @@
    "target_price": 660000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-13",
@@ -82,13 +94,15 @@
    "target_price": 660000.0,
    "source": "report",
    "report_id": "hana_1289104",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2025-04-16",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [
@@ -97,6 +111,7 @@
    "report_id": "hana_1289104",
    "title": "한미약품(128940.KS/BUY): 더 안정적인 성장을 위한 정비 작업(3Q26 Pre)",
    "primary": true,
+   "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",
    "target_price": 660000.0,
@@ -131,6 +146,7 @@
      "eps": 18068.0
     }
    },
+   "prev_target_price": null,
    "gap": {
     "year": "2026",
     "metric": "op",
@@ -140,8 +156,6 @@
    }
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2025-06-18",
@@ -153,7 +167,8 @@
    "tp_to": 400000.0,
    "tp_pct": null,
    "tp_speed30": null,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-10-15",
@@ -165,7 +180,8 @@
    "tp_to": 420000.0,
    "tp_pct": 5.0,
    "tp_speed30": 1.3,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-10-28",
@@ -177,7 +193,8 @@
    "tp_to": 500000.0,
    "tp_pct": 19.0,
    "tp_speed30": 43.8,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-11-21",
@@ -189,7 +206,8 @@
    "tp_to": 540000.0,
    "tp_pct": 8.0,
    "tp_speed30": 10.0,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-02-06",
@@ -201,7 +219,8 @@
    "tp_to": 640000.0,
    "tp_pct": 18.5,
    "tp_speed30": 7.2,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-06-08",
@@ -213,7 +232,8 @@
    "tp_to": 710000.0,
    "tp_pct": 10.9,
    "tp_speed30": 2.7,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-13",
@@ -225,7 +245,8 @@
    "tp_to": 610000.0,
    "tp_pct": -14.1,
    "tp_speed30": -6.4,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-25",
@@ -237,10 +258,89 @@
    "tp_to": 660000.0,
    "tp_pct": 8.2,
    "tp_speed30": 20.5,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2025-06-18",
+   "mean": 400000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 400000.0
+   }
+  },
+  {
+   "date": "2025-10-15",
+   "mean": 420000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 420000.0
+   }
+  },
+  {
+   "date": "2025-10-28",
+   "mean": 500000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 500000.0
+   }
+  },
+  {
+   "date": "2025-11-21",
+   "mean": 540000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 540000.0
+   }
+  },
+  {
+   "date": "2026-02-06",
+   "mean": 640000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 640000.0
+   }
+  },
+  {
+   "date": "2026-06-08",
+   "mean": 710000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 710000.0
+   }
+  },
+  {
+   "date": "2026-08-13",
+   "mean": 610000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 610000.0
+   }
+  },
+  {
+   "date": "2026-08-25",
+   "mean": 660000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 660000.0
+   }
+  },
+  {
+   "date": "2026-10-13",
+   "mean": 660000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 660000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": [
-  "2026-10-13:128940:gap_above:"
+  "2026-10-13:128940:gap_above:하나증권"
  ]
 }

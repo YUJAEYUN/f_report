@@ -3,6 +3,9 @@
  "code": "373220",
  "name": "LG에너지솔루션",
  "industry": "2차전지",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-07-26",
@@ -10,7 +13,8 @@
    "target_price": 395000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2024-10-29",
@@ -18,7 +22,8 @@
    "target_price": 395000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-01-31",
@@ -26,7 +31,8 @@
    "target_price": 336000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-07-28",
@@ -34,7 +40,8 @@
    "target_price": 450000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-10-31",
@@ -42,7 +49,8 @@
    "target_price": 559000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-01-30",
@@ -50,7 +58,8 @@
    "target_price": 518000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-05-04",
@@ -58,7 +67,8 @@
    "target_price": 530000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-07-31",
@@ -66,7 +76,8 @@
    "target_price": 480000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-05",
@@ -74,7 +85,8 @@
    "target_price": null,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-20",
@@ -82,7 +94,8 @@
    "target_price": 480000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-08",
@@ -90,7 +103,8 @@
    "target_price": 480000.0,
    "source": "report",
    "report_id": "hana_1289033",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-11",
@@ -98,7 +112,8 @@
    "target_price": 480000.0,
    "source": "report",
    "report_id": "hana_1289059",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -108,6 +123,7 @@
    "report_id": "hana_1289033",
    "title": "LG에너지솔루션(373220.KS/매수) : 북미 ESS 물량 증가 지속",
    "primary": true,
+   "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",
    "target_price": 480000.0,
@@ -142,6 +158,7 @@
      "eps": 8142.0
     }
    },
+   "prev_target_price": null,
    "gap": {
     "year": "2026",
     "metric": "op",
@@ -155,6 +172,7 @@
    "report_id": "hana_1289059",
    "title": "하루에 하나 1012",
    "primary": false,
+   "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",
    "target_price": 480000.0,
@@ -189,6 +207,7 @@
      "eps": 8142.0
     }
    },
+   "prev_target_price": null,
    "gap": {
     "year": "2026",
     "metric": "op",
@@ -198,8 +217,6 @@
    }
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2024-10-29",
@@ -211,7 +228,8 @@
    "tp_to": 395000.0,
    "tp_pct": null,
    "tp_speed30": null,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-01-31",
@@ -223,7 +241,8 @@
    "tp_to": 336000.0,
    "tp_pct": -14.9,
    "tp_speed30": -4.8,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-07-28",
@@ -235,7 +254,8 @@
    "tp_to": 450000.0,
    "tp_pct": 33.9,
    "tp_speed30": 5.7,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-10-31",
@@ -247,7 +267,8 @@
    "tp_to": 559000.0,
    "tp_pct": 24.2,
    "tp_speed30": 7.6,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-01-30",
@@ -259,7 +280,8 @@
    "tp_to": 518000.0,
    "tp_pct": -7.3,
    "tp_speed30": -2.4,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-05-04",
@@ -271,7 +293,8 @@
    "tp_to": 530000.0,
    "tp_pct": 2.3,
    "tp_speed30": 0.7,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-07-31",
@@ -283,10 +306,105 @@
    "tp_to": 480000.0,
    "tp_pct": -9.4,
    "tp_speed30": -3.2,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-07-26",
+   "mean": 395000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 395000.0
+   }
+  },
+  {
+   "date": "2024-10-29",
+   "mean": 395000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 395000.0
+   }
+  },
+  {
+   "date": "2025-01-31",
+   "mean": 336000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 336000.0
+   }
+  },
+  {
+   "date": "2025-07-28",
+   "mean": 450000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 450000.0
+   }
+  },
+  {
+   "date": "2025-10-31",
+   "mean": 559000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 559000.0
+   }
+  },
+  {
+   "date": "2026-01-30",
+   "mean": 518000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 518000.0
+   }
+  },
+  {
+   "date": "2026-05-04",
+   "mean": 530000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 530000.0
+   }
+  },
+  {
+   "date": "2026-07-31",
+   "mean": 480000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 480000.0
+   }
+  },
+  {
+   "date": "2026-08-20",
+   "mean": 480000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 480000.0
+   }
+  },
+  {
+   "date": "2026-10-08",
+   "mean": 480000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 480000.0
+   }
+  },
+  {
+   "date": "2026-10-11",
+   "mean": 480000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 480000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": [
-  "2026-10-08:373220:gap_below:"
+  "2026-10-08:373220:gap_below:하나증권"
  ]
 }

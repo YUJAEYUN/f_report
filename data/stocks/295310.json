@@ -3,6 +3,9 @@
  "code": "295310",
  "name": "에이치브이엠",
  "industry": "우주항공·방산",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-10-21",
@@ -10,7 +13,8 @@
    "target_price": null,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-02-20",
@@ -18,13 +22,15 @@
    "target_price": null,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2025-07-14",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [
@@ -33,6 +39,7 @@
    "report_id": "hana_1288820",
    "title": "에이치브이엠 (295310.KQ): 수요 대응을 넘어 밸류체인 확대",
    "primary": true,
+   "broker": "하나증권",
    "rating": null,
    "rating_status": null,
    "target_price": null,
@@ -53,13 +60,15 @@
      "net": 272.0,
      "eps": 2190.0
     }
-   }
+   },
+   "prev_target_price": null
   },
   {
    "date": "2026-09-20",
    "report_id": "hana_1288833",
    "title": "하루에 하나 0921",
    "primary": false,
+   "broker": "하나증권",
    "rating": null,
    "rating_status": null,
    "target_price": null,
@@ -80,11 +89,15 @@
      "net": 272.0,
      "eps": 2190.0
     }
-   }
+   },
+   "prev_target_price": null
   }
  ],
+ "rating_changes": [],
  "estimate_revisions": [],
  "consensus_changes": [],
- "rating_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

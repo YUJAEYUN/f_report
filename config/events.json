@@ -1,5 +1,5 @@
 {
-  "_comment": "투자의견·목표주가·추정치 변화 이벤트의 임계값. 값을 바꾸면 다음 process-reports 실행 때 전체 이벤트를 다시 계산한다 (이미 붙은 변경 이유는 같은 이벤트면 유지).",
+  "_comment": "투자의견·목표주가·추정치 변화 이벤트의 임계값. 값을 바꾸면 다음 process-reports 실행 때 전체 이벤트를 다시 계산한다 (이미 붙은 변경 이유는 같은 이벤트면 유지). tp_valid_days: 컨센서스에 넣을 증권사 목표주가의 유효 기간, tp_consensus_pct: 기존 증권사들의 조정만으로 컨센서스가 움직인 폭, wave_*: 이 기간 안에 이만큼의 증권사가 같은 방향으로 움직이면 이벤트.",
   "window_start": null,
   "tp_jump_pct": 15,
   "tp_streak": 3,
@@ -10,5 +10,9 @@
   "consensus_shift_pct": 5,
   "estimate_gap_pct": 20,
   "industry_min_stocks": 3,
-  "explain_max_reports": 20
+  "explain_max_reports": 20,
+  "tp_valid_days": 180,
+  "tp_consensus_pct": 5,
+  "wave_days": 30,
+  "wave_min_brokers": 3
 }

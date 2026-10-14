@@ -3,6 +3,9 @@
  "code": "105630",
  "name": "한세실업",
  "industry": "유통·소비재",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2023-11-01",
@@ -10,7 +13,8 @@
    "target_price": 29000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2024-10-25",
@@ -18,7 +22,8 @@
    "target_price": 23000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-02-25",
@@ -26,7 +31,8 @@
    "target_price": 17000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-08-18",
@@ -34,7 +40,8 @@
    "target_price": 12000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -42,13 +49,15 @@
    "target_price": null,
    "source": "table",
    "report_id": "hana_1289086",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2026-08-18",
-   "note": "년 경과"
+   "note": "년 경과",
+   "broker": "하나증권"
   }
  ],
  "observations": [
@@ -57,6 +66,7 @@
    "report_id": "hana_1289036",
    "title": "중소형주 소비업종(Overweight) : 중소형주 소비주의 미래: Covid-19 이전에 봤던 Deja Vu",
    "primary": false,
+   "broker": "하나증권",
    "rating": null,
    "rating_status": null,
    "target_price": null,
@@ -77,13 +87,15 @@
      "net": 70.0,
      "eps": 1739.0
     }
-   }
+   },
+   "prev_target_price": null
   },
   {
    "date": "2026-10-12",
    "report_id": "hana_1289086",
    "title": "한세실업 (105630.KS): 높은 경쟁 강도 속 경쟁력도 강화되는 중",
    "primary": true,
+   "broker": "하나증권",
    "rating": null,
    "rating_status": null,
    "target_price": null,
@@ -104,11 +116,10 @@
      "net": 70.0,
      "eps": 1739.0
     }
-   }
+   },
+   "prev_target_price": null
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2024-10-25",
@@ -120,7 +131,8 @@
    "tp_to": 23000.0,
    "tp_pct": -20.7,
    "tp_speed30": -1.7,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-02-25",
@@ -132,7 +144,8 @@
    "tp_to": 17000.0,
    "tp_pct": -26.1,
    "tp_speed30": -6.4,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-08-18",
@@ -144,7 +157,8 @@
    "tp_to": 12000.0,
    "tp_pct": -29.4,
    "tp_speed30": -5.1,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -157,10 +171,49 @@
    "tp_pct": null,
    "tp_speed30": null,
    "report_id": "hana_1289086",
-   "note": "1년 경과"
+   "note": "1년 경과",
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2023-11-01",
+   "mean": 29000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 29000.0
+   }
+  },
+  {
+   "date": "2024-10-25",
+   "mean": 23000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 23000.0
+   }
+  },
+  {
+   "date": "2025-02-25",
+   "mean": 17000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 17000.0
+   }
+  },
+  {
+   "date": "2025-08-18",
+   "mean": 12000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 12000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": [
-  "2026-10-12:105630:coverage_end:"
+  "2026-10-12:105630:coverage_end:하나증권"
  ]
 }

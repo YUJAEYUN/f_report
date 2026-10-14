@@ -3,6 +3,9 @@
  "code": "033780",
  "name": "KT&G",
  "industry": "음식료·담배",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-04-09",
@@ -10,7 +13,8 @@
    "target_price": 110000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2024-11-08",
@@ -18,7 +22,8 @@
    "target_price": 125000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-04-15",
@@ -26,7 +31,8 @@
    "target_price": 140000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-07-09",
@@ -34,7 +40,8 @@
    "target_price": 165000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-08-11",
@@ -42,7 +49,8 @@
    "target_price": 180000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-07-15",
@@ -50,7 +58,8 @@
    "target_price": 210000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-02",
@@ -58,7 +67,8 @@
    "target_price": 240000.0,
    "source": "report",
    "report_id": "hana_1288957",
-   "tp_status": "상향"
+   "tp_status": "상향",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-05",
@@ -66,7 +76,8 @@
    "target_price": 240000.0,
    "source": "report",
    "report_id": "hana_1288980",
-   "tp_status": "상향"
+   "tp_status": "상향",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-06",
@@ -74,7 +85,8 @@
    "target_price": 240000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -84,6 +96,7 @@
    "report_id": "hana_1288957",
    "title": "KT&G(033780.KS/매수): 해외 생산 확대가 가져올 배당 재원 증가",
    "primary": true,
+   "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",
    "target_price": 240000.0,
@@ -118,6 +131,7 @@
      "eps": 13352.0
     }
    },
+   "prev_target_price": null,
    "gap": {
     "year": "2026",
     "metric": "op",
@@ -131,6 +145,7 @@
    "report_id": "hana_1288980",
    "title": "하루에 하나 1006",
    "primary": false,
+   "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",
    "target_price": 240000.0,
@@ -165,6 +180,7 @@
      "eps": 13352.0
     }
    },
+   "prev_target_price": null,
    "gap": {
     "year": "2026",
     "metric": "op",
@@ -174,8 +190,6 @@
    }
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2024-11-08",
@@ -187,7 +201,8 @@
    "tp_to": 125000.0,
    "tp_pct": 13.6,
    "tp_speed30": 1.9,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-04-15",
@@ -199,7 +214,8 @@
    "tp_to": 140000.0,
    "tp_pct": 12.0,
    "tp_speed30": 2.3,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-07-09",
@@ -211,7 +227,8 @@
    "tp_to": 165000.0,
    "tp_pct": 17.9,
    "tp_speed30": 6.3,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-08-11",
@@ -223,7 +240,8 @@
    "tp_to": 180000.0,
    "tp_pct": 9.1,
    "tp_speed30": 8.3,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-07-15",
@@ -235,7 +253,8 @@
    "tp_to": 210000.0,
    "tp_pct": 16.7,
    "tp_speed30": 1.5,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-02",
@@ -247,10 +266,89 @@
    "tp_to": 240000.0,
    "tp_pct": 14.3,
    "tp_speed30": 5.4,
-   "report_id": "hana_1288957"
+   "report_id": "hana_1288957",
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-04-09",
+   "mean": 110000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 110000.0
+   }
+  },
+  {
+   "date": "2024-11-08",
+   "mean": 125000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 125000.0
+   }
+  },
+  {
+   "date": "2025-04-15",
+   "mean": 140000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 140000.0
+   }
+  },
+  {
+   "date": "2025-07-09",
+   "mean": 165000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 165000.0
+   }
+  },
+  {
+   "date": "2025-08-11",
+   "mean": 180000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 180000.0
+   }
+  },
+  {
+   "date": "2026-07-15",
+   "mean": 210000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 210000.0
+   }
+  },
+  {
+   "date": "2026-10-02",
+   "mean": 240000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 240000.0
+   }
+  },
+  {
+   "date": "2026-10-05",
+   "mean": 240000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 240000.0
+   }
+  },
+  {
+   "date": "2026-10-06",
+   "mean": 240000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 240000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": [
-  "2026-10-02:033780:tp_accel:"
+  "2026-10-02:033780:tp_accel:하나증권"
  ]
 }

@@ -27,7 +27,7 @@ function linkReportIds(html: string): string {
       // 본문의 ISO 주차(2026-W41)는 읽기 쉬운 "10월 2주차"로 바꾼다 (링크 주소는 태그 안이라 그대로)
       part = part.replace(/\b(\d{4}-W\d{2})\b/g, (w) => weekLabel(w).label);
       if (inAnchor) return part;
-      return part.replace(/\b(hana_\d{5,})\b/g, '<a class="rid" href="/reports/$1">$1</a>');
+      return part.replace(/\b((?:hana|hk|mirae)_\d{5,})\b/g, '<a class="rid" href="/reports/$1">$1</a>');
     })
     .join("");
 }

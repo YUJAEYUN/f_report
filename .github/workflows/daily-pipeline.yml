@@ -9,8 +9,9 @@ on:
         default: "10"
   schedule:
     # 평일 KST 09:00 / 12:00 / 18:00 (UTC 00/03/09시)
-    # 대상 사이트 robots.txt는 Googlebot/Yeti 외 자동화 접근을 Disallow 하고 있다.
-    # 정기 실행을 멈추려면 이 schedule 블록을 주석 처리할 것.
+    # 소스: 하나증권·미래에셋 원문 사이트, 한경 컨센서스 (config/sources.json에서 켜고 끈다)
+    # 세 곳 모두 robots.txt가 검색엔진 외 자동화 접근을 Disallow 하고 있다. 개인용으로 요청 간격을
+    # 두고 로그인 없이 공개된 목록·PDF만 받는다. 정기 실행을 멈추려면 이 schedule 블록을 주석 처리할 것.
     - cron: "0 0,3,9 * * 1-5"
 
 permissions:
@@ -23,7 +24,7 @@ concurrency:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 

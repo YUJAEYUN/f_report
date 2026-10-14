@@ -3,6 +3,9 @@
  "code": "257720",
  "name": "실리콘투",
  "industry": "화장품",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-08-16",
@@ -10,7 +13,8 @@
    "target_price": 70000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2024-11-15",
@@ -18,7 +22,8 @@
    "target_price": 64000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-02-27",
@@ -26,7 +31,8 @@
    "target_price": 40000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-05-13",
@@ -34,7 +40,8 @@
    "target_price": 50000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-06-09",
@@ -42,7 +49,8 @@
    "target_price": 52000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-14",
@@ -50,7 +58,8 @@
    "target_price": 59000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-14",
@@ -58,22 +67,23 @@
    "target_price": 52000.0,
    "source": "table",
    "report_id": "hana_1289107",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2026-05-13",
-   "note": "년 경과"
+   "note": "년 경과",
+   "broker": "하나증권"
   },
   {
    "date": "2026-06-04",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2024-11-15",
@@ -85,7 +95,8 @@
    "tp_to": 64000.0,
    "tp_pct": -8.6,
    "tp_speed30": -2.8,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-02-27",
@@ -97,7 +108,8 @@
    "tp_to": 40000.0,
    "tp_pct": -37.5,
    "tp_speed30": -10.8,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-05-13",
@@ -109,7 +121,8 @@
    "tp_to": 50000.0,
    "tp_pct": 25.0,
    "tp_speed30": 10.0,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-06-09",
@@ -122,7 +135,8 @@
    "tp_pct": 4.0,
    "tp_speed30": 0.3,
    "report_id": null,
-   "note": "1년 경과, 담당자 변경"
+   "note": "1년 경과, 담당자 변경",
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-14",
@@ -134,7 +148,8 @@
    "tp_to": 59000.0,
    "tp_pct": 13.5,
    "tp_speed30": 6.1,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-14",
@@ -146,8 +161,71 @@
    "tp_to": 52000.0,
    "tp_pct": -11.9,
    "tp_speed30": -5.9,
-   "report_id": "hana_1289107"
+   "report_id": "hana_1289107",
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-08-16",
+   "mean": 70000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 70000.0
+   }
+  },
+  {
+   "date": "2024-11-15",
+   "mean": 64000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 64000.0
+   }
+  },
+  {
+   "date": "2025-02-27",
+   "mean": 40000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 40000.0
+   }
+  },
+  {
+   "date": "2025-05-13",
+   "mean": 50000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 50000.0
+   }
+  },
+  {
+   "date": "2026-06-09",
+   "mean": 52000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 52000.0
+   }
+  },
+  {
+   "date": "2026-08-14",
+   "mean": 59000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 59000.0
+   }
+  },
+  {
+   "date": "2026-10-14",
+   "mean": 52000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 52000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }
