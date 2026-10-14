@@ -4,6 +4,7 @@
  "name": "LG에너지솔루션",
  "industry": "2차전지",
  "brokers": [
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -114,6 +115,15 @@
    "report_id": "hana_1289059",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-12",
+   "rating": "매수",
+   "target_price": 530000.0,
+   "source": "report",
+   "report_id": "hk_652850",
+   "tp_status": "상향",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -215,6 +225,22 @@
     "consensus": 864.7,
     "gap_pct": -101.9
    }
+  },
+  {
+   "date": "2026-10-12",
+   "report_id": "hk_652850",
+   "title": "LG에너지솔루션(373220) 보상금 제외해도 호실적",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 530000.0,
+   "tp_status": "상향",
+   "price": 401000.0,
+   "upside_pct": 32.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 470000.0
   }
  ],
  "rating_changes": [
@@ -308,6 +334,20 @@
    "tp_speed30": -3.2,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-12",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 470000.0,
+   "tp_to": 530000.0,
+   "tp_pct": 12.8,
+   "tp_speed30": null,
+   "report_id": "hk_652850",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -398,6 +438,15 @@
    "mean": 480000,
    "n": 1,
    "brokers": {
+    "하나증권": 480000.0
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "mean": 505000,
+   "n": 2,
+   "brokers": {
+    "유진투자증권": 530000.0,
     "하나증권": 480000.0
    }
   }

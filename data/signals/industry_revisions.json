@@ -6,6 +6,13 @@
    "flat": 1,
    "stocks": 1,
    "ratio": 0.0
+  },
+  "2026-W42": {
+   "up": 1,
+   "down": 0,
+   "flat": 0,
+   "stocks": 1,
+   "ratio": 1.0
   }
  },
  "IT하드웨어·전자부품": {
@@ -26,15 +33,15 @@
   "2026-W41": {
    "up": 0,
    "down": 0,
-   "flat": 1,
-   "stocks": 1,
+   "flat": 2,
+   "stocks": 2,
    "ratio": 0.0
   },
   "2026-W42": {
    "up": 0,
    "down": 0,
-   "flat": 1,
-   "stocks": 1,
+   "flat": 2,
+   "stocks": 2,
    "ratio": 0.0
   }
  },
@@ -52,6 +59,13 @@
    "flat": 1,
    "stocks": 2,
    "ratio": -0.5
+  },
+  "2026-W42": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
   }
  },
  "게임": {
@@ -84,6 +98,13 @@
    "flat": 2,
    "stocks": 3,
    "ratio": -0.33
+  },
+  "2026-W42": {
+   "up": 0,
+   "down": 1,
+   "flat": 2,
+   "stocks": 3,
+   "ratio": -0.33
   }
  },
  "미디어·콘텐츠": {
@@ -93,6 +114,13 @@
    "flat": 2,
    "stocks": 6,
    "ratio": -0.67
+  },
+  "2026-W42": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
   }
  },
  "반도체": {
@@ -106,8 +134,8 @@
   "2026-W41": {
    "up": 0,
    "down": 0,
-   "flat": 1,
-   "stocks": 1,
+   "flat": 2,
+   "stocks": 2,
    "ratio": 0.0
   },
   "2026-W42": {
@@ -129,6 +157,13 @@
  },
  "소프트웨어·AI": {
   "2026-W41": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  },
+  "2026-W42": {
    "up": 0,
    "down": 0,
    "flat": 1,
@@ -157,6 +192,13 @@
    "flat": 1,
    "stocks": 2,
    "ratio": 0.5
+  },
+  "2026-W42": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
   }
  },
  "우주항공·방산": {
@@ -165,6 +207,13 @@
    "down": 0,
    "flat": 1,
    "stocks": 1,
+   "ratio": 0.0
+  },
+  "2026-W40": {
+   "up": 0,
+   "down": 0,
+   "flat": 4,
+   "stocks": 4,
    "ratio": 0.0
   }
  },
@@ -182,6 +231,13 @@
    "flat": 1,
    "stocks": 1,
    "ratio": 0.0
+  },
+  "2026-W42": {
+   "up": 1,
+   "down": 0,
+   "flat": 0,
+   "stocks": 1,
+   "ratio": 1.0
   }
  },
  "유통·소비재": {
@@ -222,6 +278,13 @@
    "down": 0,
    "flat": 2,
    "stocks": 2,
+   "ratio": 0.0
+  },
+  "2026-W42": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
    "ratio": 0.0
   }
  },
@@ -268,8 +331,8 @@
   "2026-W42": {
    "up": 0,
    "down": 0,
-   "flat": 2,
-   "stocks": 2,
+   "flat": 3,
+   "stocks": 3,
    "ratio": 0.0
   }
  },
@@ -321,6 +384,13 @@
    "flat": 1,
    "stocks": 1,
    "ratio": 0.0
+  },
+  "2026-W41": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
   }
  },
  "철강·금속": {
@@ -334,8 +404,8 @@
   "2026-W42": {
    "up": 0,
    "down": 0,
-   "flat": 2,
-   "stocks": 2,
+   "flat": 4,
+   "stocks": 4,
    "ratio": 0.0
   }
  },
@@ -345,6 +415,13 @@
    "down": 0,
    "flat": 3,
    "stocks": 3,
+   "ratio": 0.0
+  },
+  "2026-W41": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
    "ratio": 0.0
   },
   "2026-W42": {
@@ -426,9 +503,9 @@
   "2026-W42": {
    "up": 1,
    "down": 4,
-   "flat": 3,
-   "stocks": 8,
-   "ratio": -0.38
+   "flat": 4,
+   "stocks": 9,
+   "ratio": -0.33
   }
  }
 }

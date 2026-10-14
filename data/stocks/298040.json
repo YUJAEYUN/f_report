@@ -4,7 +4,9 @@
  "name": "효성중공업",
  "industry": "기계·전력기기",
  "brokers": [
-  "하나증권"
+  "미래에셋증권",
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -87,6 +89,24 @@
    "report_id": "hana_1289003",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-12",
+   "rating": "매수",
+   "target_price": 4500000.0,
+   "source": "report",
+   "report_id": "hk_652879",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-10-13",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343337",
+   "tp_status": null,
+   "broker": "미래에셋증권"
   }
  ],
  "notes": [],
@@ -139,6 +159,38 @@
     "consensus": 1121.9,
     "gap_pct": -0.2
    }
+  },
+  {
+   "date": "2026-10-12",
+   "report_id": "hk_652879",
+   "title": "효성중공업(298040) 3Q26 Preview: 일회성은 지나가고",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 4500000.0,
+   "tp_status": "유지",
+   "price": 2494000.0,
+   "upside_pct": 80.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-13",
+   "report_id": "mirae_2343337",
+   "title": "효성중공업 (298040/매수): 중장기 카탈리스트는 여전히 유효",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -307,6 +359,24 @@
    "n": 1,
    "brokers": {
     "하나증권": 4300000.0
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "mean": 4400000,
+   "n": 2,
+   "brokers": {
+    "하나증권": 4300000.0,
+    "한화투자증권": 4500000.0
+   }
+  },
+  {
+   "date": "2026-10-13",
+   "mean": 4400000,
+   "n": 2,
+   "brokers": {
+    "하나증권": 4300000.0,
+    "한화투자증권": 4500000.0
    }
   }
  ],

@@ -4,7 +4,8 @@
  "name": "현대모비스",
  "industry": "자동차·부품",
  "brokers": [
-  "하나증권"
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -96,6 +97,15 @@
    "report_id": "hana_1289020",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-13",
+   "rating": "매수",
+   "target_price": 800000.0,
+   "source": "report",
+   "report_id": "hk_652900",
+   "tp_status": "하향",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -148,6 +158,22 @@
     "consensus": 3766.2,
     "gap_pct": -4.0
    }
+  },
+  {
+   "date": "2026-10-13",
+   "report_id": "hk_652900",
+   "title": "현대모비스(012330) 불리한 매크로 영향 지속, 구조적 수익성 개선도 지속",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 800000.0,
+   "tp_status": "하향",
+   "price": 354500.0,
+   "upside_pct": 125.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -337,6 +363,15 @@
    "n": 1,
    "brokers": {
     "하나증권": 580000.0
+   }
+  },
+  {
+   "date": "2026-10-13",
+   "mean": 690000,
+   "n": 2,
+   "brokers": {
+    "하나증권": 580000.0,
+    "한화투자증권": 800000.0
    }
   }
  ],

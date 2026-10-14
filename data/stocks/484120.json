@@ -1,0 +1,46 @@
+{
+ "id": "484120",
+ "code": "484120",
+ "name": "도우인시스",
+ "industry": null,
+ "brokers": [
+  "메리츠증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-12",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_652872",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-12",
+   "report_id": "hk_652872",
+   "title": "도우인시스(484120) 더 많이 접힐수록, 더 크게 성장한다",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 23250.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

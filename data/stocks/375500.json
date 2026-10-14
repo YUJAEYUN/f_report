@@ -4,6 +4,7 @@
  "name": "DL이앤씨",
  "industry": "건설",
  "brokers": [
+  "미래에셋증권",
   "하나증권"
  ],
  "timeline": [
@@ -109,6 +110,15 @@
   {
    "date": "2026-10-07",
    "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343213",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
    "target_price": 90000.0,
    "source": "table",
    "report_id": "hana_1288991",
@@ -166,6 +176,22 @@
     "consensus": 575.6,
     "gap_pct": -8.9
    }
+  },
+  {
+   "date": "2026-10-07",
+   "report_id": "mirae_2343213",
+   "title": "DL이앤씨 (375500/매수): 아쉬운 3분기 실적, 사업 확장 추진 지속",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [

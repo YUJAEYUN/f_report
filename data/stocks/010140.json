@@ -1,0 +1,97 @@
+{
+ "id": "010140",
+ "code": "010140",
+ "name": "삼성중공업",
+ "industry": null,
+ "brokers": [
+  "SK증권",
+  "상상인증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-14",
+   "rating": "매수",
+   "target_price": 35000.0,
+   "source": "report",
+   "report_id": "hk_652949",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-14",
+   "rating": "매수",
+   "target_price": 31000.0,
+   "source": "report",
+   "report_id": "hk_652925",
+   "tp_status": null,
+   "broker": "상상인증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-14",
+   "report_id": "hk_652949",
+   "title": "삼성중공업(010140) 선방할 실적, FDC 본계약 기대",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 35000.0,
+   "tp_status": "하향",
+   "price": 18360.0,
+   "upside_pct": 90.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 40000.0
+  },
+  {
+   "date": "2026-10-14",
+   "report_id": "hk_652925",
+   "title": "삼성중공업(010140) 흔들림 없는 실적",
+   "primary": true,
+   "broker": "상상인증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 31000.0,
+   "tp_status": null,
+   "price": 18010.0,
+   "upside_pct": 72.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2026-10-14",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 40000.0,
+   "tp_to": 35000.0,
+   "tp_pct": -12.5,
+   "tp_speed30": null,
+   "report_id": "hk_652949",
+   "implied_prev": true,
+   "broker": "SK증권"
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-10-14",
+   "mean": 33000,
+   "n": 2,
+   "brokers": {
+    "SK증권": 35000.0,
+    "상상인증권": 31000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

@@ -107,6 +107,33 @@
   "title": "엔터테인먼트(Overweight) : 남자 아이돌에게 세계관은 필요한 것인가?"
  },
  {
+  "id": "2026-10-07:011070:tp_up:미래에셋증권",
+  "date": "2026-10-07",
+  "type": "tp_up",
+  "severity": 1.05,
+  "stock_id": "011070",
+  "code": "011070",
+  "name": "LG이노텍",
+  "industry": null,
+  "report_id": "mirae_2343216",
+  "headline": "미래에셋증권 목표주가 950,000원 → 1,100,000원 (+15.8%)",
+  "data": {
+   "date": "2026-10-07",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 950000.0,
+   "tp_to": 1100000.0,
+   "tp_pct": 15.8,
+   "tp_speed30": null,
+   "report_id": "mirae_2343216",
+   "implied_prev": true,
+   "broker": "미래에셋증권"
+  },
+  "title": "LG이노텍 (011070/매수): It's tek time!"
+ },
+ {
   "id": "2026-10-07:035900:tp_down:하나증권",
   "date": "2026-10-07",
   "type": "tp_down",
