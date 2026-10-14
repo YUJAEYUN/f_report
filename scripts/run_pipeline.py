@@ -19,6 +19,8 @@ from scripts.collectors.hana import HanaCollector
 from scripts.collectors.hankyung import HankyungCollector
 from scripts.collectors.mirae import MiraeCollector
 from scripts.report_index import add_seen_ids, load_seen_ids
+from scripts.textstore import available as textstore_available
+from scripts.textstore import save_text
 
 ROOT = Path(__file__).resolve().parent.parent
 REPORTS_DIR = ROOT / "data" / "reports"
@@ -42,6 +44,26 @@ def build_collectors(only: list[str] | None = None) -> list[ReportCollector]:
                 lookback_days=c.get("lookback_days", 3),
             ))
     return out
+
+
+def move_inline_text() -> int:
+    """예전 형식(JSON 안의 pdf_text)으로 남은 리포트의 원문을 raw-text로 옮긴다."""
+    moved = 0
+    for path in sorted(REPORTS_DIR.glob("*/*.json")):
+        raw = path.read_text(encoding="utf-8")
+        if '"pdf_text"' not in raw:
+            continue
+        record = json.loads(raw)
+        text = record.pop("pdf_text", None)
+        if text:
+            save_text(record["report_id"], record.get("published_date"), text)
+        record["text_chars"] = len(text or "")
+        with path.open("w", encoding="utf-8") as f:
+            json.dump(record, f, ensure_ascii=False, indent=2)
+        moved += 1
+    if moved:
+        print(f"[textstore] JSON 안의 원문 {moved}건을 raw-text로 옮김", flush=True)
+    return moved
 
 
 def run(max_pages: int = 10, skip_pdf: bool = False, sources: list[str] | None = None) -> tuple[list[str], list[str], list[str]]:
@@ -73,19 +95,22 @@ def run_one(collector: ReportCollector, max_pages: int, skip_pdf: bool) -> tuple
     failed_ids: list[str] = []
     for item in collector.iter_recent_reports(max_pages=max_pages, seen_ids=seen_ids):
         record = item.to_dict()
-        record["pdf_text"] = None
+        record["text_chars"] = 0
         pdf_ok = True
 
         if item.pdf_url and not skip_pdf:
             try:
-                record["pdf_text"] = collector.download_pdf_text(item.pdf_url)
+                text = collector.download_pdf_text(item.pdf_url)
             except Exception as e:  # PDF 한 건 실패로 전체 파이프라인을 죽이지 않는다
                 record["pdf_error"] = f"{type(e).__name__}: {e}"
                 pdf_ok = False
             else:
+                # 원문은 raw-text 브랜치(textstore)에, JSON에는 길이만
+                save_text(item.report_id, item.published_date, text)
+                record["text_chars"] = len(text)
                 # 차트·이미지 위주라 글자가 거의 없는 PDF는 요약할 재료가 없다. 다시 받아도
                 # 같으므로 재시도하지 않고, 요약 대상에서만 빠지도록 표시해 둔다.
-                if len((record["pdf_text"] or "").strip()) < MIN_PDF_TEXT_CHARS:
+                if len(text.strip()) < MIN_PDF_TEXT_CHARS:
                     record["pdf_error"] = "텍스트가 거의 없는 PDF (이미지 위주)"
 
         out_dir = REPORTS_DIR / (item.published_date or "unknown-date")
@@ -116,6 +141,10 @@ if __name__ == "__main__":
     parser.add_argument("--source", action="append", help="이 소스만 수집 (hana, mirae, hk; 반복 가능)")
     args = parser.parse_args()
 
+    if not textstore_available():
+        print("::error::원문 폴더(raw-text)가 없습니다. raw-text 브랜치를 체크아웃하세요.")
+        sys.exit(1)
+    move_inline_text()
     saved, failed, bad_sources = run(max_pages=args.max_pages, skip_pdf=args.skip_pdf, sources=args.source)
     print(f"저장된 신규 리포트: {len(saved)}건, PDF 추출 실패(다음 실행 때 재시도): {len(failed)}건")
     if bad_sources:

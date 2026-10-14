@@ -54,6 +54,12 @@ jobs:
           # workflow_run은 트리거 시점 커밋을 받으므로, 수집 커밋이 포함된 최신 기본 브랜치를 명시
           ref: ${{ github.event.repository.default_branch }}
 
+      # 원문 텍스트 (scripts/textstore.py). main과 히스토리를 공유하지 않는 별도 브랜치
+      - uses: actions/checkout@v4
+        with:
+          ref: raw-text
+          path: raw-text
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -101,6 +107,10 @@ jobs:
           fi
           if [ "$REDO_ALL" = "true" ]; then
             args+=(--redo-all)
+          fi
+          # 수동 실행은 시각과 상관없이 밀린 브리핑·다이제스트를 바로 만든다 (정기 실행은 저녁에 한 번)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            args+=(--publish-now)
           fi
           # 실패(사용량 한도 등)가 한 건이라도 나면 그때까지의 결과는 커밋하고, 잡은 마지막에 실패로 표시
           set +e

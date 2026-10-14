@@ -22,6 +22,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from scripts import textstore
+from scripts.textprep import focus_text
 from scripts.llm import LLMAuthError, LLMError, LLMRateLimitError, ask
 from scripts.process_reports import (
     MAX_CONSECUTIVE_FAILURES,
@@ -44,7 +46,7 @@ def is_target(r: dict) -> bool:
     return (
         r.get("report_type") == "individual"
         and isinstance(r.get("summary"), dict)
-        and bool(r.get("pdf_text") or r.get("preview_text"))
+        and (textstore.has_text(r) or bool(r.get("preview_text")))
     )
 
 
@@ -64,8 +66,10 @@ def select_targets(
 
 def input_kind(r: dict) -> tuple[str, str]:
     """(입력 유형 설명, 본문). 모델이 평가 범위를 총평에 밝힐 수 있게 한다."""
-    if r.get("pdf_text"):
-        text = r["pdf_text"]
+    text = textstore.load_text(r)
+    if text:
+        # 차트 눈금·재무제표 표·고지문만 걷어 내고, 논리 평가라 길이는 넉넉히 둔다
+        text = focus_text(text, limit=10**9)[0]
         if len(text) > MAX_PDF_CHARS:
             return f"원문 전문 중 앞부분 {MAX_PDF_CHARS:,}자 (전체 {len(text):,}자)", text[:MAX_PDF_CHARS]
         return "원문 전문", text
@@ -120,7 +124,7 @@ def evaluate(targets: list[tuple[Path, dict]], limit: int) -> bool:
         failures = 0
         r["claim_review"] = {
             **review,
-            "input": "pdf" if r.get("pdf_text") else "preview",
+            "input": "pdf" if textstore.has_text(r) else "preview",
             "model": REVIEW_MODEL,
             "generated_at": now_kst(),
         }
@@ -147,6 +151,9 @@ def main() -> int:
     if bad:
         print(f"잘못된 입력: {bad}")
         return 2
+    if not textstore.available():
+        print(f"::error::원문 폴더가 없습니다 ({textstore.base_dir()}). raw-text 브랜치를 체크아웃하세요.")
+        return 1
     targets = select_targets(load_reports(), ids, dates, args.redo)
     if ids:
         missing = set(ids) - {r["report_id"] for _, r in targets}

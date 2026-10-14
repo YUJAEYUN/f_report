@@ -25,7 +25,7 @@ CATEGORY_ID = "1521"
 LIST_URL = f"{SITE_ROOT}/bbs/board/message/list.do"
 VIEW_URL = f"{SITE_ROOT}/bbs/board/message/view.do"
 
-DAILY_SERIES = ("마켓 뷰", "글로벌 마켓 브리핑", "한국 마켓 클로징")
+DAILY_SERIES = ("마켓 뷰", "마켓 브리핑", "마켓 클로징")  # "한국&중국 마켓 클로징" 같은 변형도 잡도록 포함 여부로 본다
 _VIEW_RE = re.compile(r"view\('(\d+)','(\d+)'\)")
 _PDF_RE = re.compile(r"downConfirm\('([^']+\.pdf[^']*)'")
 _KR_STOCK_RE = re.compile(r"\((\d{6})\s*/\s*([^)]+)\)")
@@ -35,7 +35,7 @@ _SECTOR_RE = re.compile(r"\((비중확대|비중축소|중립|Overweight|Neutral
 
 def classify(head: str) -> tuple[str, ReportType, Optional[str], Optional[str]]:
     """머리 문구 -> (category, report_type, 국내 종목코드, 목록 투자의견)."""
-    if any(head.startswith(s) for s in DAILY_SERIES):
+    if any(s in head for s in DAILY_SERIES):
         return "Daily", ReportType.DAILY_SERIES, None, None
     m = _KR_STOCK_RE.search(head)
     if m:
