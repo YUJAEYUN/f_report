@@ -3,6 +3,9 @@
  "code": null,
  "name": "iM금융",
  "industry": "은행",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-06-25",
@@ -10,7 +13,8 @@
    "target_price": 9500.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-01-08",
@@ -18,7 +22,8 @@
    "target_price": 10500.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-02-10",
@@ -26,7 +31,8 @@
    "target_price": 11500.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-04-29",
@@ -34,7 +40,8 @@
    "target_price": 13000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-05-29",
@@ -42,7 +49,8 @@
    "target_price": 14000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-06-30",
@@ -50,7 +58,8 @@
    "target_price": 16000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-07-29",
@@ -58,7 +67,8 @@
    "target_price": 17500.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-11-07",
@@ -66,7 +76,8 @@
    "target_price": 19000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-02-11",
@@ -74,7 +85,8 @@
    "target_price": 23000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-29",
@@ -82,13 +94,12 @@
    "target_price": 24500.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
  "observations": [],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2025-01-08",
@@ -100,7 +111,8 @@
    "tp_to": 10500.0,
    "tp_pct": 10.5,
    "tp_speed30": 1.6,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-02-10",
@@ -112,7 +124,8 @@
    "tp_to": 11500.0,
    "tp_pct": 9.5,
    "tp_speed30": 8.6,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-04-29",
@@ -124,7 +137,8 @@
    "tp_to": 13000.0,
    "tp_pct": 13.0,
    "tp_speed30": 5.0,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-05-29",
@@ -136,7 +150,8 @@
    "tp_to": 14000.0,
    "tp_pct": 7.7,
    "tp_speed30": 7.7,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-06-30",
@@ -148,7 +163,8 @@
    "tp_to": 16000.0,
    "tp_pct": 14.3,
    "tp_speed30": 13.4,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-07-29",
@@ -160,7 +176,8 @@
    "tp_to": 17500.0,
    "tp_pct": 9.4,
    "tp_speed30": 9.7,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-11-07",
@@ -172,7 +189,8 @@
    "tp_to": 19000.0,
    "tp_pct": 8.6,
    "tp_speed30": 2.6,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-02-11",
@@ -184,7 +202,8 @@
    "tp_to": 23000.0,
    "tp_pct": 21.1,
    "tp_speed30": 6.6,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-29",
@@ -196,8 +215,95 @@
    "tp_to": 24500.0,
    "tp_pct": 6.5,
    "tp_speed30": 2.5,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-06-25",
+   "mean": 9500,
+   "n": 1,
+   "brokers": {
+    "하나증권": 9500.0
+   }
+  },
+  {
+   "date": "2025-01-08",
+   "mean": 10500,
+   "n": 1,
+   "brokers": {
+    "하나증권": 10500.0
+   }
+  },
+  {
+   "date": "2025-02-10",
+   "mean": 11500,
+   "n": 1,
+   "brokers": {
+    "하나증권": 11500.0
+   }
+  },
+  {
+   "date": "2025-04-29",
+   "mean": 13000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 13000.0
+   }
+  },
+  {
+   "date": "2025-05-29",
+   "mean": 14000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 14000.0
+   }
+  },
+  {
+   "date": "2025-06-30",
+   "mean": 16000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 16000.0
+   }
+  },
+  {
+   "date": "2025-07-29",
+   "mean": 17500,
+   "n": 1,
+   "brokers": {
+    "하나증권": 17500.0
+   }
+  },
+  {
+   "date": "2025-11-07",
+   "mean": 19000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 19000.0
+   }
+  },
+  {
+   "date": "2026-02-11",
+   "mean": 23000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 23000.0
+   }
+  },
+  {
+   "date": "2026-04-29",
+   "mean": 24500,
+   "n": 1,
+   "brokers": {
+    "하나증권": 24500.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

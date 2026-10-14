@@ -3,6 +3,9 @@
  "code": null,
  "name": "LG화학",
  "industry": "정유·화학",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-07-26",
@@ -10,7 +13,8 @@
    "target_price": 400000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2024-10-14",
@@ -18,7 +22,8 @@
    "target_price": 450000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-01-16",
@@ -26,7 +31,8 @@
    "target_price": 300000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-02-04",
@@ -34,7 +40,8 @@
    "target_price": 290000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-05-02",
@@ -42,7 +49,8 @@
    "target_price": 270000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-11-03",
@@ -50,7 +58,8 @@
    "target_price": 450000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-01-16",
@@ -58,7 +67,8 @@
    "target_price": 360000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-07-20",
@@ -66,13 +76,12 @@
    "target_price": 300000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
  "observations": [],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2024-10-14",
@@ -84,7 +93,8 @@
    "tp_to": 450000.0,
    "tp_pct": 12.5,
    "tp_speed30": 4.7,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-01-16",
@@ -96,7 +106,8 @@
    "tp_to": 300000.0,
    "tp_pct": -33.3,
    "tp_speed30": -10.6,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-02-04",
@@ -108,7 +119,8 @@
    "tp_to": 290000.0,
    "tp_pct": -3.3,
    "tp_speed30": -5.2,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-05-02",
@@ -120,7 +132,8 @@
    "tp_to": 270000.0,
    "tp_pct": -6.9,
    "tp_speed30": -2.4,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-11-03",
@@ -132,7 +145,8 @@
    "tp_to": 450000.0,
    "tp_pct": 66.7,
    "tp_speed30": 10.8,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-01-16",
@@ -144,7 +158,8 @@
    "tp_to": 360000.0,
    "tp_pct": -20.0,
    "tp_speed30": -8.1,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-07-20",
@@ -156,8 +171,79 @@
    "tp_to": 300000.0,
    "tp_pct": -16.7,
    "tp_speed30": -2.7,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-07-26",
+   "mean": 400000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 400000.0
+   }
+  },
+  {
+   "date": "2024-10-14",
+   "mean": 450000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 450000.0
+   }
+  },
+  {
+   "date": "2025-01-16",
+   "mean": 300000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 300000.0
+   }
+  },
+  {
+   "date": "2025-02-04",
+   "mean": 290000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 290000.0
+   }
+  },
+  {
+   "date": "2025-05-02",
+   "mean": 270000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 270000.0
+   }
+  },
+  {
+   "date": "2025-11-03",
+   "mean": 450000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 450000.0
+   }
+  },
+  {
+   "date": "2026-01-16",
+   "mean": 360000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 360000.0
+   }
+  },
+  {
+   "date": "2026-07-20",
+   "mean": 300000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 300000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

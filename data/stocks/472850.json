@@ -3,6 +3,9 @@
  "code": "472850",
  "name": "폰드그룹",
  "industry": "화장품",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-02-28",
@@ -10,7 +13,8 @@
    "target_price": null,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-01",
@@ -18,17 +22,20 @@
    "target_price": null,
    "source": "table",
    "report_id": "hana_1288929",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2025-02-28",
-   "note": "년 경과"
+   "note": "년 경과",
+   "broker": "하나증권"
   },
   {
    "date": "2026-09-29",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [
@@ -37,6 +44,7 @@
    "report_id": "hana_1288929",
    "title": "화장품(Overweight): K-뷰티 중소형주 31",
    "primary": false,
+   "broker": "하나증권",
    "rating": null,
    "rating_status": null,
    "target_price": null,
@@ -57,11 +65,15 @@
      "net": null,
      "eps": 957.0
     }
-   }
+   },
+   "prev_target_price": null
   }
  ],
+ "rating_changes": [],
  "estimate_revisions": [],
  "consensus_changes": [],
- "rating_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

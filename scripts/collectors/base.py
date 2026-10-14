@@ -1,8 +1,9 @@
 """Collector 공통 인터페이스.
 
 증권사별 리서치 리스트 수집기가 구현해야 하는 최소 계약을 정의한다.
-지금은 hana.py 하나만 이 인터페이스를 구현하지만, 다른 증권사를 추가할 때
-run_pipeline.py가 소스별 차이를 몰라도 되도록 이 형태를 유지한다.
+소스(source)는 수집 경로이고, 증권사(broker)는 리포트를 쓴 곳이다. 하나증권·미래에셋은
+원문 사이트에서 직접(source=hana/mirae), 나머지 증권사는 한경 컨센서스(source=hk)에서
+받는다. run_pipeline.py는 소스별 차이를 몰라도 되도록 이 형태를 유지한다.
 
 PDF 원문 파일은 어떤 구현체도 디스크에 남기면 안 된다 (메모리에서만 처리).
 """
@@ -44,6 +45,11 @@ class RawReportItem:
     pdf_filename: Optional[str]
     source_url: str
     collected_at: str  # 수집 시각 (ISO 8601)
+    broker: str = ""  # 리포트를 쓴 증권사 (예: "SK증권")
+    # 목록 화면이 따로 알려주는 값 (원문 파싱과 교차 확인용, 없으면 None)
+    stock_code: Optional[str] = None
+    list_rating: Optional[str] = None
+    list_target_price: Optional[float] = None
 
     @property
     def report_id(self) -> str:

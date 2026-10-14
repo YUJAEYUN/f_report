@@ -1,0 +1,11 @@
+{
+  "_comment": "수집 소스. enabled=false면 건너뛴다. 한경 컨센서스는 여러 증권사 리포트를 모아 두는 곳이라, 원문 사이트에서 직접 받는 증권사(하나·미래에셋)는 exclude_brokers로 빼서 중복을 막는다.",
+  "hana": {"enabled": true},
+  "mirae": {"enabled": true},
+  "hk": {
+    "enabled": true,
+    "skin_types": ["business", "industry", "market", "economy"],
+    "exclude_brokers": ["하나증권", "미래에셋증권", "한국IR협의회"],
+    "lookback_days": 3
+  }
+}

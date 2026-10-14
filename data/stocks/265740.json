@@ -3,6 +3,9 @@
  "code": "265740",
  "name": "엔에프씨",
  "industry": "화장품",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2026-06-18",
@@ -10,7 +13,8 @@
    "target_price": null,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-09-17",
@@ -18,7 +22,8 @@
    "target_price": null,
    "source": "report",
    "report_id": "hana_1288808",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -28,6 +33,7 @@
    "report_id": "hana_1288808",
    "title": "엔에프씨(265740.KQ/NR): 거침없는 ODM 사업 확장",
    "primary": true,
+   "broker": "하나증권",
    "rating": "NR",
    "rating_status": null,
    "target_price": null,
@@ -48,13 +54,15 @@
      "net": 19.0,
      "eps": 1036.0
     }
-   }
+   },
+   "prev_target_price": null
   },
   {
    "date": "2026-10-01",
    "report_id": "hana_1288929",
    "title": "화장품(Overweight): K-뷰티 중소형주 31",
    "primary": false,
+   "broker": "하나증권",
    "rating": null,
    "rating_status": null,
    "target_price": null,
@@ -75,9 +83,11 @@
      "net": 21.0,
      "eps": 1159.0
     }
-   }
+   },
+   "prev_target_price": null
   }
  ],
+ "rating_changes": [],
  "estimate_revisions": [],
  "consensus_changes": [
   {
@@ -92,7 +102,8 @@
    "speed30": 2.1,
    "turn": null,
    "report_id": "hana_1288929",
-   "prev_report_id": "hana_1288808"
+   "prev_report_id": "hana_1288808",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-01",
@@ -106,7 +117,8 @@
    "speed30": 2.1,
    "turn": null,
    "report_id": "hana_1288929",
-   "prev_report_id": "hana_1288808"
+   "prev_report_id": "hana_1288808",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-01",
@@ -120,7 +132,8 @@
    "speed30": 19.1,
    "turn": null,
    "report_id": "hana_1288929",
-   "prev_report_id": "hana_1288808"
+   "prev_report_id": "hana_1288808",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-01",
@@ -134,7 +147,8 @@
    "speed30": 19.5,
    "turn": null,
    "report_id": "hana_1288929",
-   "prev_report_id": "hana_1288808"
+   "prev_report_id": "hana_1288808",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-01",
@@ -148,7 +162,8 @@
    "speed30": 22.5,
    "turn": null,
    "report_id": "hana_1288929",
-   "prev_report_id": "hana_1288808"
+   "prev_report_id": "hana_1288808",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-01",
@@ -162,11 +177,14 @@
    "speed30": 25.5,
    "turn": null,
    "report_id": "hana_1288929",
-   "prev_report_id": "hana_1288808"
+   "prev_report_id": "hana_1288808",
+   "broker": "하나증권"
   }
  ],
- "rating_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": [
-  "2026-10-01:265740:cons_up:2027eps"
+  "2026-10-01:265740:cons_up:하나증권2027eps"
  ]
 }

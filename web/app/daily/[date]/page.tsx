@@ -80,7 +80,7 @@ export default async function DailyPage({ params }: { params: Promise<{ date: st
       <div className="section-head"><h2>이 날 올라온 개별 리포트 {individual.length}건</h2><Link href="/reports">전체 리포트 →</Link></div>
       <div className="report-cards">
         {individual.map((c) => <Link key={c.id} href={`/reports/${c.id}`} className="report-card">
-          <span className="rc-meta">{c.analyst ?? ""}{c.industries.length ? ` · ${c.industries.join(", ")}` : ""}</span>
+          <span className="rc-meta">{c.broker ? `${c.broker} · ` : ""}{c.analyst ?? ""}{c.industries.length ? ` · ${c.industries.join(", ")}` : ""}</span>
           <b>{c.title}</b>
           <span className="rc-one">{c.oneLiner}</span>
           {c.badge && <span className="rc-badge">{c.badge}</span>}

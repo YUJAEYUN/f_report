@@ -3,6 +3,9 @@
  "code": "032830",
  "name": "삼성생명",
  "industry": "보험",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-03-27",
@@ -10,7 +13,8 @@
    "target_price": 130000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-29",
@@ -18,7 +22,8 @@
    "target_price": 302000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-14",
@@ -26,18 +31,18 @@
    "target_price": 370000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2026-04-27",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2026-04-29",
@@ -50,7 +55,8 @@
    "tp_pct": 132.3,
    "tp_speed30": 5.2,
    "report_id": null,
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-14",
@@ -62,8 +68,39 @@
    "tp_to": 370000.0,
    "tp_pct": 22.5,
    "tp_speed30": 6.3,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-03-27",
+   "mean": 130000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 130000.0
+   }
+  },
+  {
+   "date": "2026-04-29",
+   "mean": 302000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 302000.0
+   }
+  },
+  {
+   "date": "2026-08-14",
+   "mean": 370000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 370000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

@@ -3,6 +3,9 @@
  "code": "115440",
  "name": "우리넷",
  "industry": "통신장비",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2025-02-17",
@@ -10,7 +13,8 @@
    "target_price": null,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-07-31",
@@ -18,7 +22,8 @@
    "target_price": 10000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-03-25",
@@ -26,7 +31,8 @@
    "target_price": 15000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-14",
@@ -34,7 +40,8 @@
    "target_price": 25000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-09-22",
@@ -42,7 +49,8 @@
    "target_price": 25000.0,
    "source": "report",
    "report_id": "hana_1288854",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -52,6 +60,7 @@
    "report_id": "hana_1288854",
    "title": "우리넷(115440.KQ/매수): 양자암호 주도주로서 진가가 드러날 것입니다",
    "primary": true,
+   "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",
    "target_price": 25000.0,
@@ -72,11 +81,10 @@
      "eps": 2206.0
     }
    },
-   "consensus": {}
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2025-07-31",
@@ -88,7 +96,8 @@
    "tp_to": 10000.0,
    "tp_pct": null,
    "tp_speed30": null,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-03-25",
@@ -100,7 +109,8 @@
    "tp_to": 15000.0,
    "tp_pct": 50.0,
    "tp_speed30": 6.3,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-14",
@@ -112,8 +122,47 @@
    "tp_to": 25000.0,
    "tp_pct": 66.7,
    "tp_speed30": 100.0,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2025-07-31",
+   "mean": 10000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 10000.0
+   }
+  },
+  {
+   "date": "2026-03-25",
+   "mean": 15000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 15000.0
+   }
+  },
+  {
+   "date": "2026-04-14",
+   "mean": 25000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 25000.0
+   }
+  },
+  {
+   "date": "2026-09-22",
+   "mean": 25000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 25000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

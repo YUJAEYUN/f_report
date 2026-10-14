@@ -3,6 +3,9 @@
  "code": "071050",
  "name": "한국금융지주",
  "industry": "증권",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-02-16",
@@ -10,7 +13,8 @@
    "target_price": 80000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-07-15",
@@ -18,7 +22,8 @@
    "target_price": 190000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-10-16",
@@ -26,7 +31,8 @@
    "target_price": 200000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-03-03",
@@ -34,7 +40,8 @@
    "target_price": 330000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -42,7 +49,8 @@
    "target_price": 318000.0,
    "source": "report",
    "report_id": "hana_1289087",
-   "tp_status": "하향"
+   "tp_status": "하향",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-13",
@@ -50,13 +58,15 @@
    "target_price": 318000.0,
    "source": "table",
    "report_id": "hana_1289087",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2025-06-18",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [
@@ -65,6 +75,7 @@
    "report_id": "hana_1289087",
    "title": "한국금융지주(071050.KS/매수): 3Q26 Pre - 실적 눈높이 조정 구간",
    "primary": true,
+   "broker": "하나증권",
    "rating": "매수",
    "rating_status": null,
    "target_price": 318000.0,
@@ -97,6 +108,7 @@
      "eps": 40660.0
     }
    },
+   "prev_target_price": null,
    "gap": {
     "year": "2026",
     "metric": "op",
@@ -106,8 +118,6 @@
    }
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2025-07-15",
@@ -120,7 +130,8 @@
    "tp_pct": 137.5,
    "tp_speed30": 8.0,
    "report_id": null,
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   },
   {
    "date": "2025-10-16",
@@ -132,7 +143,8 @@
    "tp_to": 200000.0,
    "tp_pct": 5.3,
    "tp_speed30": 1.7,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-03-03",
@@ -144,7 +156,8 @@
    "tp_to": 330000.0,
    "tp_pct": 65.0,
    "tp_speed30": 14.1,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -156,8 +169,63 @@
    "tp_to": 318000.0,
    "tp_pct": -3.6,
    "tp_speed30": -0.5,
-   "report_id": "hana_1289087"
+   "report_id": "hana_1289087",
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-02-16",
+   "mean": 80000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 80000.0
+   }
+  },
+  {
+   "date": "2025-07-15",
+   "mean": 190000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 190000.0
+   }
+  },
+  {
+   "date": "2025-10-16",
+   "mean": 200000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 200000.0
+   }
+  },
+  {
+   "date": "2026-03-03",
+   "mean": 330000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 330000.0
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "mean": 318000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 318000.0
+   }
+  },
+  {
+   "date": "2026-10-13",
+   "mean": 318000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 318000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

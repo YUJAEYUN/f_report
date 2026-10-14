@@ -396,7 +396,7 @@ a.hb-row:hover { text-decoration: none; background: color-mix(in srgb, var(--cha
 .ev-src { display: inline-block; margin-top: 4px; font-size: 12.5px; color: var(--muted); }
 .events.compact .event { padding: 8px 0 8px 12px; }
 .events.compact .ev-headline { font-size: 13.5px; }
-.signal-numbers { grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 0 0 16px; }
+.signal-numbers { grid-template-columns: repeat(5, minmax(0, 1fr)); margin: 0 0 16px; }
 .signals-layout { grid-template-columns: minmax(0, 1fr) 360px; }
 .rev-grid { display: grid; grid-template-columns: minmax(84px, 1.3fr) repeat(var(--n), minmax(40px, 1fr)); gap: 3px; font-size: 12px; }
 .rev-row { display: contents; }
@@ -430,3 +430,26 @@ a.hb-row:hover { text-decoration: none; background: color-mix(in srgb, var(--cha
 .rb-n { text-align: right; color: var(--muted); }
 @media (max-width: 960px) { .signals-layout { grid-template-columns: minmax(0, 1fr); } .signals-layout .report-side { order: 0; } }
 @media (max-width: 600px) { .signal-numbers { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* 증권사별 목표주가 선 (dataviz 기본 범주 팔레트, 고정 순서 6색 + 기타 회색) */
+:root { --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300; }
+@media (prefers-color-scheme: dark) { :root { --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300; } }
+.tp-line.s1 { stroke: var(--s1); } .tp-line.s2 { stroke: var(--s2); } .tp-line.s3 { stroke: var(--s3); }
+.tp-line.s4 { stroke: var(--s4); } .tp-line.s5 { stroke: var(--s5); } .tp-line.s6 { stroke: var(--s6); }
+.tp-line { stroke-width: 2; }
+.tp-line.other { stroke: var(--muted); stroke-width: 1.5; opacity: .5; }
+.tp-cons { fill: none; stroke: var(--text); stroke-width: 3; stroke-linejoin: round; opacity: .85; }
+.hit { fill: transparent; }
+.sw.s1 { background: var(--s1); } .sw.s2 { background: var(--s2); } .sw.s3 { background: var(--s3); }
+.sw.s4 { background: var(--s4); } .sw.s5 { background: var(--s5); } .sw.s6 { background: var(--s6); }
+.sw.other { background: var(--muted); opacity: .5; }
+.sw.cons { background: var(--text); height: 4px !important; vertical-align: 2px !important; }
+.sw.px { background: var(--muted); border-radius: 50%; }
+.tp-legend { flex-wrap: wrap; gap: 6px 14px; margin-top: 8px; }
+.report-list .meta .broker { font-weight: 700; color: var(--text); }
+.more-range { margin-top: 12px; border-top: 1px solid var(--border); padding-top: 10px; }
+.more-range summary { cursor: pointer; font-size: 13px; color: var(--muted); }
+.panel h2 .count { font-size: 12.5px; font-weight: 400; color: var(--muted); margin-left: 6px; }
+.tp-end { stroke: var(--surface); stroke-width: 1.5; }
+.tp-end.s1 { fill: var(--s1); } .tp-end.s2 { fill: var(--s2); } .tp-end.s3 { fill: var(--s3); }
+.tp-end.s4 { fill: var(--s4); } .tp-end.s5 { fill: var(--s5); } .tp-end.s6 { fill: var(--s6); }

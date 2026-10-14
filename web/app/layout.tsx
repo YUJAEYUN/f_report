@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "리서치 맵",
-  description: "하나증권 리서치 요약·주간 인사이트",
+  description: "증권사 리서치 요약·주간 인사이트",
   robots: { index: false, follow: false },
 };
 

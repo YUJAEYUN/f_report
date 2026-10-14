@@ -71,16 +71,17 @@ export default async function IndustryPage({ params }: { params: Promise<{ name:
 
     {stocks.length > 0 && <section className="panel">
       <h2>종목별 최근 의견</h2>
-      <p className="hint">하나증권 리포트 원문과 투자의견 이력표 기준 · 최근 변경일 순</p>
+      <p className="hint">증권사별 최신 목표주가의 평균(컨센서스) · 리포트 원문과 하나증권 이력표 기준 · 최근 변경일 순</p>
       <div className="table-scroll">
         <table className="stock-table">
-          <thead><tr><th>종목</th><th>투자의견</th><th className="num">목표주가</th><th className="num">최근 변경</th><th className="num">기준일</th></tr></thead>
+          <thead><tr><th>종목</th><th>투자의견</th><th className="num">목표주가</th><th className="num">증권사</th><th className="num">최근 변경</th><th className="num">기준일</th></tr></thead>
           <tbody>{stocks.map((x) => <tr key={x.id}>
             <td><Link href={stockHref(x.id)!}>{x.name}</Link> <span className="muted">{x.code ?? ""}</span></td>
             <td>{x.rating ?? "-"}</td>
-            <td className="num">{won(x.target_price)}</td>
+            <td className="num">{won(x.consensus_n >= 2 ? x.consensus_tp : x.target_price)}</td>
+            <td className="num">{x.consensus_n >= 2 ? `${x.consensus_n}곳` : x.rating_broker ?? "-"}</td>
             <td className={`num ${(x.last_tp_change?.pct ?? 0) > 0 ? "up" : (x.last_tp_change?.pct ?? 0) < 0 ? "down" : ""}`}>
-              {x.last_tp_change ? `${signedPct(x.last_tp_change.pct)} (${x.last_tp_change.date.slice(2).replaceAll("-", ".")})` : "-"}</td>
+              {x.last_tp_change ? `${signedPct(x.last_tp_change.pct)} (${x.last_tp_change.broker} ${x.last_tp_change.date.slice(5).replace("-", ".")})` : "-"}</td>
             <td className="num">{x.rating_date?.slice(2).replaceAll("-", ".") ?? "-"}</td>
           </tr>)}</tbody>
         </table>

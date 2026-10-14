@@ -27,6 +27,7 @@ export type SignalEvent = {
 };
 
 export type TimelinePoint = {
+  broker: string;
   date: string;
   rating: string;
   target_price: number | null;
@@ -35,9 +36,10 @@ export type TimelinePoint = {
 };
 
 export type RatingChange = {
+  broker: string;
   date: string;
-  prev_date: string;
-  days: number;
+  prev_date: string | null;
+  days: number | null;
   rating_from: string;
   rating_to: string;
   tp_from: number | null;
@@ -46,10 +48,12 @@ export type RatingChange = {
   tp_speed30: number | null;
   report_id: string | null;
   mismatch?: boolean;
+  implied_prev?: boolean;
   note?: string;
 };
 
 export type Revision = {
+  broker: string;
   date: string;
   prev_date: string;
   days: number;
@@ -64,6 +68,7 @@ export type Revision = {
 };
 
 export type StockObservation = {
+  broker: string;
   date: string;
   report_id: string;
   title: string;
@@ -77,11 +82,16 @@ export type StockObservation = {
   gap?: { year: string; metric: Metric; estimate: number; consensus: number; gap_pct: number };
 };
 
+export type TpConsensusPoint = { date: string; mean: number; n: number; brokers: Record<string, number> };
+
 export type Stock = {
   id: string;
   code: string | null;
   name: string;
   industry: string | null;
+  brokers: string[];
+  tp_consensus: TpConsensusPoint[];
+  tp_consensus_changes: { date: string; from: number; to: number; pct: number; n: number; brokers: string[]; cum30: number | null; report_id: string | null }[];
   timeline: TimelinePoint[];
   notes: { date: string; note: string }[];
   observations: StockObservation[];
@@ -99,15 +109,20 @@ export type StockSummary = {
   rating: string | null;
   target_price: number | null;
   rating_date: string | null;
+  rating_broker: string | null;
+  consensus_tp: number | null;
+  consensus_n: number;
+  brokers: Record<string, { rating: string; target_price: number | null; date: string }>;
   price: number | null;
   price_date: string | null;
-  last_tp_change: { date: string; pct: number } | null;
+  last_tp_change: { date: string; pct: number; broker: string } | null;
   events: number;
   last_event_date: string | null;
   reports: number;
 };
 
 export type ReportSignal = {
+  broker: string;
   stock_id: string;
   name: string;
   code: string | null;
@@ -180,6 +195,8 @@ export function eventKind(type: string): { label: string; dir: "up" | "down" | "
     cons_up: ["컨센서스 상향", "up"], cons_down: ["컨센서스 하향", "down"], cons_turn: ["컨센서스 전환", "flat"],
     gap_above: ["컨센서스보다 높음", "up"], gap_below: ["컨센서스보다 낮음", "down"],
     industry_up: ["산업 방향 전환", "up"], industry_down: ["산업 방향 전환", "down"],
+    tp_cons_up: ["컨센서스 목표주가 상향", "up"], tp_cons_down: ["컨센서스 목표주가 하향", "down"],
+    wave_up: ["여러 증권사 동시 상향", "up"], wave_down: ["여러 증권사 동시 하향", "down"],
   };
   const [label, dir] = map[type] ?? [type, "flat"];
   return { label, dir };

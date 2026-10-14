@@ -3,6 +3,9 @@
  "code": "088350",
  "name": "한화생명",
  "industry": "보험",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2023-09-20",
@@ -10,7 +13,8 @@
    "target_price": 4000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-04-29",
@@ -18,18 +22,18 @@
    "target_price": 7300.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2026-04-27",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2026-04-29",
@@ -42,8 +46,31 @@
    "tp_pct": 82.5,
    "tp_speed30": 2.6,
    "report_id": null,
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2023-09-20",
+   "mean": 4000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 4000.0
+   }
+  },
+  {
+   "date": "2026-04-29",
+   "mean": 7300,
+   "n": 1,
+   "brokers": {
+    "하나증권": 7300.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

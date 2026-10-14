@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { allCards, allReports, decodeParam, getReport, isoWeek } from "@/lib/data";
+import { allCards, allReports, brokerOf, decodeParam, getReport, isoWeek } from "@/lib/data";
 import EvaluateButton from "@/components/EvaluateButton";
 import { renderMarkdown } from "@/lib/md";
 import { weekLabel } from "@/lib/dashboard";
-import { allEvents, METRIC_LABEL, money, reportSignals, signedPct, stockHref, won } from "@/lib/signals";
+import { allEvents, getStock, METRIC_LABEL, money, reportSignals, signedPct, stockHref, won } from "@/lib/signals";
 import { EventList } from "@/components/EventList";
 
 export const dynamicParams = false;
@@ -30,9 +30,11 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
   const others = sigs.filter((x) => x !== main && (x.rating_change || x.estimate_revisions.length));
   const reportEvents = allEvents().filter((e) => e.report_id === r.report_id);
   const mc = main?.rating_change;
+  // 이 리포트 발행일 기준 여러 증권사 목표주가 평균
+  const cons = main ? getStock(main.stock_id)?.tp_consensus.filter((c) => c.date <= r.published_date).at(-1) : undefined;
 
   return <>
-    <p className="crumb"><Link href="/reports">리포트</Link> · {r.desk ?? r.category} · {r.category}</p>
+    <p className="crumb"><Link href="/reports">리포트</Link> · {brokerOf(r) && <>{brokerOf(r)} · </>}{r.desk ?? r.category} · {r.category}</p>
     <h1 className="report-title">{r.title}</h1>
     {s?.one_liner && <p className="report-lead">{s.one_liner}</p>}
     {!s && <p className="warn">아직 요약되지 않은 리포트입니다.</p>}
@@ -107,6 +109,7 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
               <dt>투자의견</dt><dd className="strong">{mc && mc.rating_from !== mc.rating_to ? `${mc.rating_from} → ${mc.rating_to}` : main.rating ?? "-"}</dd>
               {main.target_price != null && <><dt>목표주가</dt><dd className="strong">{won(main.target_price)}
                 {mc?.tp_pct != null && <span className={`tp-delta ${mc.tp_pct > 0 ? "up" : "down"}`}>{signedPct(mc.tp_pct)} <span className="muted">(이전 {mc.tp_from!.toLocaleString("ko-KR")})</span></span>}</dd></>}
+              {cons && cons.n >= 2 && <><dt>컨센서스</dt><dd>{won(cons.mean)} <span className="muted">({cons.n}개사 평균)</span></dd></>}
               {main.upside_pct != null && <><dt>상승여력</dt><dd>{signedPct(main.upside_pct)} <span className="muted">(주가 {won(main.price)})</span></dd></>}
               {main.gap && <><dt>컨센 대비</dt><dd>{main.gap.year}년 {METRIC_LABEL[main.gap.metric]} {signedPct(main.gap.gap_pct, 0)} <span className="muted">({money(main.gap.estimate, main.gap.metric)} vs {money(main.gap.consensus, main.gap.metric)})</span></dd></>}
             </> : <>
@@ -114,6 +117,7 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
               {s?.rating && <><dt>투자의견</dt><dd className="strong">{s.rating}</dd></>}
               {tp && <><dt>목표주가</dt><dd className="strong">{tp}</dd></>}
             </>}
+            {brokerOf(r) && <><dt>증권사</dt><dd>{brokerOf(r)}</dd></>}
             <dt>애널리스트</dt><dd>{r.analyst ?? "-"}</dd>
             <dt>발행</dt><dd><Link href={`/daily/${r.published_date}`}>{r.published_date}</Link> {r.published_time?.slice(0, 5)}</dd>
             <dt>주차</dt><dd><Link href={`/weekly/${week}`}>{weekLabel(week).label}</Link></dd>

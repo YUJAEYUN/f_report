@@ -20,6 +20,7 @@ export function ReportItem({ card, showDate = true }: { card: ReportCard; showDa
     <li>
       <div className="meta">
         {showDate && <span>{card.date}</span>}
+        {card.broker && <span className="broker">{card.broker}</span>}
         {card.analyst && <span>{card.analyst}</span>}
         <Chips card={card} />
         {card.badge && <span className="rc-badge">{card.badge}</span>}

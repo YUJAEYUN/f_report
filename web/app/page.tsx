@@ -98,7 +98,7 @@ export default function Home() {
     <div className="report-cards">
       {recent.map((c) => {
         return <Link key={c.id} href={`/reports/${c.id}`} className="report-card">
-          <span className="rc-meta">{c.date.slice(5).replace("-", ".")} · {c.analyst ?? ""}{c.industries.length ? ` · ${c.industries.join(", ")}` : ""}</span>
+          <span className="rc-meta">{c.date.slice(5).replace("-", ".")} · {c.broker ? `${c.broker} · ` : ""}{c.analyst ?? ""}{c.industries.length ? ` · ${c.industries.join(", ")}` : ""}</span>
           <b>{c.title}</b>
           <span className="rc-one">{c.oneLiner}</span>
           {c.badge && <span className="rc-badge">{c.badge}</span>}

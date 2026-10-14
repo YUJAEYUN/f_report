@@ -3,6 +3,9 @@
  "code": "018250",
  "name": "애경산업",
  "industry": "화장품",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-01-28",
@@ -10,7 +13,8 @@
    "target_price": 29000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2024-10-25",
@@ -18,7 +22,8 @@
    "target_price": 20000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2024-12-27",
@@ -26,7 +31,8 @@
    "target_price": 18000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-01-31",
@@ -34,7 +40,8 @@
    "target_price": 16000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-01",
@@ -42,22 +49,23 @@
    "target_price": null,
    "source": "table",
    "report_id": "hana_1288929",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2026-01-31",
-   "note": "년 경과"
+   "note": "년 경과",
+   "broker": "하나증권"
   },
   {
    "date": "2026-09-29",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2024-10-25",
@@ -69,7 +77,8 @@
    "tp_to": 20000.0,
    "tp_pct": -31.0,
    "tp_speed30": -3.4,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2024-12-27",
@@ -81,7 +90,8 @@
    "tp_to": 18000.0,
    "tp_pct": -10.0,
    "tp_speed30": -4.8,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-01-31",
@@ -93,7 +103,8 @@
    "tp_to": 16000.0,
    "tp_pct": -11.1,
    "tp_speed30": -9.5,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-01",
@@ -106,10 +117,49 @@
    "tp_pct": null,
    "tp_speed30": null,
    "report_id": "hana_1288929",
-   "note": "1년 경과, 담당자 변경"
+   "note": "1년 경과, 담당자 변경",
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-01-28",
+   "mean": 29000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 29000.0
+   }
+  },
+  {
+   "date": "2024-10-25",
+   "mean": 20000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 20000.0
+   }
+  },
+  {
+   "date": "2024-12-27",
+   "mean": 18000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 18000.0
+   }
+  },
+  {
+   "date": "2025-01-31",
+   "mean": 16000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 16000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": [
-  "2026-10-01:018250:coverage_end:"
+  "2026-10-01:018250:coverage_end:하나증권"
  ]
 }

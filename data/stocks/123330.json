@@ -3,6 +3,9 @@
  "code": "123330",
  "name": "제닉",
  "industry": "화장품",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-10-21",
@@ -10,7 +13,8 @@
    "target_price": 35000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-04-28",
@@ -18,7 +22,8 @@
    "target_price": 31000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-06-09",
@@ -26,7 +31,8 @@
    "target_price": 42000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-06-05",
@@ -34,13 +40,15 @@
    "target_price": null,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2026-06-02",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [
@@ -49,6 +57,7 @@
    "report_id": "hana_1288929",
    "title": "화장품(Overweight): K-뷰티 중소형주 31",
    "primary": false,
+   "broker": "하나증권",
    "rating": null,
    "rating_status": null,
    "target_price": null,
@@ -69,11 +78,10 @@
      "net": null,
      "eps": 5220.0
     }
-   }
+   },
+   "prev_target_price": null
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2025-04-28",
@@ -85,7 +93,8 @@
    "tp_to": 31000.0,
    "tp_pct": -11.4,
    "tp_speed30": -1.8,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-06-09",
@@ -97,7 +106,8 @@
    "tp_to": 42000.0,
    "tp_pct": 35.5,
    "tp_speed30": 25.4,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-06-05",
@@ -110,8 +120,39 @@
    "tp_pct": null,
    "tp_speed30": null,
    "report_id": null,
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-10-21",
+   "mean": 35000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 35000.0
+   }
+  },
+  {
+   "date": "2025-04-28",
+   "mean": 31000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 31000.0
+   }
+  },
+  {
+   "date": "2025-06-09",
+   "mean": 42000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 42000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

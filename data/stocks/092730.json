@@ -3,6 +3,9 @@
  "code": "092730",
  "name": "네오팜",
  "industry": "화장품",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2023-10-29",
@@ -10,7 +13,8 @@
    "target_price": null,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-06-25",
@@ -18,22 +22,28 @@
    "target_price": null,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2024-10-29",
-   "note": "년 경과"
+   "note": "년 경과",
+   "broker": "하나증권"
   },
   {
    "date": "2026-06-24",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [],
+ "rating_changes": [],
  "estimate_revisions": [],
  "consensus_changes": [],
- "rating_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

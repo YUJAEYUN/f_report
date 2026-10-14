@@ -3,6 +3,9 @@
  "code": "086710",
  "name": "선진뷰티사이언스",
  "industry": "화장품",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-05-24",
@@ -10,7 +13,8 @@
    "target_price": null,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-01",
@@ -18,18 +22,23 @@
    "target_price": null,
    "source": "table",
    "report_id": "hana_1288929",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2026-09-29",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [],
+ "rating_changes": [],
  "estimate_revisions": [],
  "consensus_changes": [],
- "rating_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

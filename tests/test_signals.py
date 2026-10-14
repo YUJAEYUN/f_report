@@ -53,7 +53,7 @@ Analyst 박종대
 
 
 def report(rid, date, title, text, **kw):
-    r = {"report_id": rid, "report_type": "individual", "title": title, "published_date": date,
+    r = {"report_id": rid, "report_type": "individual", "title": title, "published_date": date, "source": "hana",
          "pdf_text": text, "industries": ["화장품"]}
     r.update(kw)
     return r

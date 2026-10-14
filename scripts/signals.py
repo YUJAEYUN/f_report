@@ -28,6 +28,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from scripts.estimates import (  # noqa: E402
     RATING_RANK,
     Observation,
+    broker_of,
     build_name_map,
     extract,
     norm_name,
@@ -135,6 +136,7 @@ def collect(reports: list[dict]):
                     "target_price": row.target_price, "note": row.note,
                     "source_report": r["report_id"],
                     "source_date": r.get("published_date") or row.date,
+                    "broker": broker_of(r),
                 })
     return by_id, observations, table_rows, names, codes, industries
 
@@ -187,11 +189,29 @@ def rating_timeline(obs: list[Observation], rows: list[dict]) -> tuple[list[dict
     return timeline, sorted(notes.values(), key=lambda n: n["date"])
 
 
-def rating_changes(timeline: list[dict], notes: list[dict] | None = None) -> list[dict]:
+def rating_changes(timeline: list[dict], notes: list[dict] | None = None,
+                   prev_hints: dict[str, float] | None = None) -> list[dict]:
+    """증권사 한 곳의 타임라인에서 투자의견·목표주가가 바뀐 지점.
+
+    prev_hints: {날짜: 본문이 밝힌 직전 목표주가}. 그 증권사의 이전 기록이 하나도 없을 때
+    ("목표주가를 기존 8,000원에서 8,500원으로") 첫 관측부터 변화를 잡는 데 쓴다. 이전 날짜를
+    모르므로 경과일·속도는 비워 둔다.
+    """
     out = []
     prev = None
     notes = notes or []
+    prev_hints = prev_hints or {}
     for p in timeline:
+        hint = prev_hints.get(p["date"])
+        if prev is None and hint and p["target_price"] and hint != p["target_price"]:
+            tp_pct = pct(hint, p["target_price"])
+            out.append({
+                "date": p["date"], "prev_date": None, "days": None,
+                "rating_from": p["rating"], "rating_to": p["rating"],
+                "tp_from": hint, "tp_to": p["target_price"],
+                "tp_pct": tp_pct, "tp_speed30": None,
+                "report_id": p["report_id"], "implied_prev": True,
+            })
         if prev is not None:
             tp_from, tp_to = prev["target_price"], p["target_price"]
             tp_pct = pct(tp_from, tp_to) if (tp_from and tp_to and tp_from != tp_to) else None
@@ -279,21 +299,23 @@ def build_events(sid: str, stock: dict, cfg: dict, window_start: str) -> list[di
             **base, "report_id": report_id, "headline": headline, "data": data or {},
         })
 
-    # 1) 목표주가·투자의견
-    tp_moves = []  # 방향 연속성·가속 판정용 (목표주가가 바뀐 변화만)
+    # 1) 목표주가·투자의견 (증권사별로 따로 본다)
+    tp_moves_by: dict[str, list[dict]] = defaultdict(list)  # 방향 연속성·가속 판정용
     for ch in stock["rating_changes"]:
         rid = ch["report_id"]
+        b = ch.get("broker", "")
+        tp_moves = tp_moves_by[b]
         if ch["rating_from"] != ch["rating_to"]:
             rf, rt = ch["rating_from"], ch["rating_to"]
             if rf in RATING_RANK and rt in RATING_RANK:
                 up = RATING_RANK[rt] > RATING_RANK[rf]
                 add(ch["date"], "rating_up" if up else "rating_down", 2.0,
-                    f"투자의견 {rf} → {rt}", rid, ch)
+                    f"{b} 투자의견 {rf} → {rt}", rid, ch, key=b)
             elif rf == "NR" and rt != "NR":
-                add(ch["date"], "coverage_start", 1.0, f"커버리지 시작 (NR → {rt})", rid, ch)
+                add(ch["date"], "coverage_start", 1.0, f"{b} 커버리지 시작 (NR → {rt})", rid, ch, key=b)
             elif rt == "NR":
                 why = f" ({ch['note']})" if ch.get("note") else ""
-                add(ch["date"], "coverage_end", 1.0, f"투자의견 {rf} → NR{why}", rid, ch)
+                add(ch["date"], "coverage_end", 1.0, f"{b} 투자의견 {rf} → NR{why}", rid, ch, key=b)
         p = ch["tp_pct"]
         if p is None or ch.get("mismatch"):
             continue
@@ -301,7 +323,7 @@ def build_events(sid: str, stock: dict, cfg: dict, window_start: str) -> list[di
         word = "상향" if p > 0 else "하향"
         if abs(p) >= cfg["tp_jump_pct"]:
             add(ch["date"], "tp_up" if p > 0 else "tp_down", abs(p) / cfg["tp_jump_pct"],
-                f"목표주가 {ch['tp_from']:,.0f}원 → {ch['tp_to']:,.0f}원 ({fmt_pct(p)})", rid, ch)
+                f"{b} 목표주가 {ch['tp_from']:,.0f}원 → {ch['tp_to']:,.0f}원 ({fmt_pct(p)})", rid, ch, key=b)
         # 연속 같은 방향
         streak = 1
         for prev in reversed(tp_moves):
@@ -312,16 +334,16 @@ def build_events(sid: str, stock: dict, cfg: dict, window_start: str) -> list[di
             streak += 1
         if streak >= cfg["tp_streak"]:
             add(ch["date"], "tp_streak", streak / cfg["tp_streak"],
-                f"목표주가 {streak}회 연속 {word}", rid, {**ch, "streak": streak})
+                f"{b} 목표주가 {streak}회 연속 {word}", rid, {**ch, "streak": streak}, key=b)
         # 가속: 직전 같은 방향 변화보다 30일 환산 속도가 accel_ratio배 이상
         if tp_moves:
             prev = tp_moves[-1]
             same = (prev["tp_pct"] > 0) == (p > 0)
-            if same and abs(p) >= cfg["accel_min_pct"] and prev["tp_speed30"] and \
+            if same and abs(p) >= cfg["accel_min_pct"] and prev["tp_speed30"] and ch["tp_speed30"] and \
                     abs(ch["tp_speed30"]) >= cfg["accel_ratio"] * abs(prev["tp_speed30"]):
                 add(ch["date"], "tp_accel", abs(ch["tp_speed30"]) / abs(prev["tp_speed30"]) / cfg["accel_ratio"],
-                    f"목표주가 {word} 속도 가속 (30일 환산 {fmt_pct(prev['tp_speed30'])} → {fmt_pct(ch['tp_speed30'])})",
-                    rid, {**ch, "prev": prev})
+                    f"{b} 목표주가 {word} 속도 가속 (30일 환산 {fmt_pct(prev['tp_speed30'])} → {fmt_pct(ch['tp_speed30'])})",
+                    rid, {**ch, "prev": prev}, key=b)
         tp_moves.append(ch)
 
     # 2) 증권사 추정치: 관측 쌍마다 가장 큰 변화 하나만 이벤트로
@@ -329,28 +351,29 @@ def build_events(sid: str, stock: dict, cfg: dict, window_start: str) -> list[di
         by_pair = defaultdict(list)
         for c in changes:
             if c["metric"] in REVISION_METRICS:
-                by_pair[(c["prev_date"], c["date"])].append(c)
-        for (_, d), cs in sorted(by_pair.items()):
+                by_pair[(c.get("broker", ""), c["prev_date"], c["date"])].append(c)
+        for (b, _, d), cs in sorted(by_pair.items()):
+            label = who.replace("{b}", b)
             turns = [c for c in cs if c["turn"]]
             if turns:
                 c = turns[0]
                 add(d, type_turn, 1.5,
-                    f"{who}{c['year']}년 {METRIC_LABEL[c['metric']]} {c['turn']} "
+                    f"{label}{c['year']}년 {METRIC_LABEL[c['metric']]} {c['turn']} "
                     f"({fmt_money(c['from'], c['metric'])} → {fmt_money(c['to'], c['metric'])})",
-                    c["report_id"], c, key=f"{c['year']}{c['metric']}")
+                    c["report_id"], c, key=f"{b}{c['year']}{c['metric']}")
                 continue
             c = max(cs, key=lambda c: abs(c["pct"] or 0))
             if c["pct"] is None or abs(c["pct"]) < threshold:
                 continue
             add(d, type_up if c["pct"] > 0 else type_down, abs(c["pct"]) / threshold,
-                f"{who}{c['year']}년 {METRIC_LABEL[c['metric']]} {fmt_pct(c['pct'])} "
+                f"{label}{c['year']}년 {METRIC_LABEL[c['metric']]} {fmt_pct(c['pct'])} "
                 f"({fmt_money(c['from'], c['metric'])} → {fmt_money(c['to'], c['metric'])})",
-                c["report_id"], c, key=f"{c['year']}{c['metric']}")
+                c["report_id"], c, key=f"{b}{c['year']}{c['metric']}")
 
     biggest(stock["estimate_revisions"], cfg["estimate_revision_pct"], "est",
-            "est_up", "est_down", "est_turn", "추정 ")
+            "est_up", "est_down", "est_turn", "{b} 추정 ")
     biggest(stock["consensus_changes"], cfg["consensus_shift_pct"], "cons",
-            "cons_up", "cons_down", "cons_turn", "컨센서스 ")
+            "cons_up", "cons_down", "cons_turn", "시장 컨센서스 ")
 
     # 3) 컨센서스 대비 괴리 (주인공 리포트만)
     for ob in stock["observations"]:
@@ -359,7 +382,7 @@ def build_events(sid: str, stock: dict, cfg: dict, window_start: str) -> list[di
             continue
         if g["gap_pct"] > 300:  # 4배 넘게 차이 나면 원문 표 오기일 가능성이 커서 이벤트로 내지 않는다
             continue
-        label = f"{g['year']}년 {METRIC_LABEL[g['metric']]}"
+        label = f"{ob.get('broker', '')} {g['year']}년 {METRIC_LABEL[g['metric']]}".strip()
         if g["estimate"] < 0:
             headline = (f"{label} 추정 적자({fmt_money(g['estimate'], g['metric'])}), "
                         f"컨센서스는 흑자({fmt_money(g['consensus'], g['metric'])})")
@@ -367,8 +390,92 @@ def build_events(sid: str, stock: dict, cfg: dict, window_start: str) -> list[di
             word = "높음" if g["gap_pct"] > 0 else "낮음"
             headline = f"{label} 추정이 컨센서스보다 {abs(g['gap_pct']):.0f}% {word}"
         add(ob["date"], "gap_above" if g["gap_pct"] > 0 else "gap_below",
-            abs(g["gap_pct"]) / cfg["estimate_gap_pct"], headline, ob["report_id"], g)
+            abs(g["gap_pct"]) / cfg["estimate_gap_pct"], headline, ob["report_id"], g, key=ob.get("broker", ""))
+
+    # 4) 여러 증권사를 합친 목표주가 컨센서스: 방향과 속도, 증권사들의 동시 움직임
+    for c in stock["tp_consensus_changes"]:
+        p, n = c["pct"], c["n"]
+        if abs(p) >= cfg["tp_consensus_pct"]:
+            word = "상향" if p > 0 else "하향"
+            speed = f", 30일 누적 {fmt_pct(c['cum30'])}" if c["cum30"] is not None else ""
+            add(c["date"], "tp_cons_up" if p > 0 else "tp_cons_down", abs(p) / cfg["tp_consensus_pct"],
+                f"목표주가 컨센서스 {c['from']:,.0f}원 → {c['to']:,.0f}원 ({fmt_pct(p)}, {n}개사{speed})",
+                c["report_id"], c)
+    for w in stock["broker_waves"]:
+        word = "상향" if w["direction"] > 0 else "하향"
+        add(w["date"], "wave_up" if w["direction"] > 0 else "wave_down", w["count"] / cfg["wave_min_brokers"],
+            f"{cfg['wave_days']}일 사이 증권사 {w['count']}곳이 목표주가 {word} ({', '.join(w['brokers'])})",
+            w["report_id"], w)
     return events
+
+
+def tp_consensus(timeline: list[dict], changes: list[dict], cfg: dict) -> tuple[list[dict], list[dict], list[dict]]:
+    """증권사별 최신 목표주가를 합친 컨센서스 시계열과 그 변화, 그리고 '여러 증권사가 같은 방향으로
+    움직인' 구간.
+
+    컨센서스 = 유효한(최근 tp_valid_days 이내, NR 아님) 증권사별 최신 목표주가의 평균.
+    변화율은 새로 커버를 시작하거나 빠진 증권사 효과를 빼고, 기존 증권사의 목표주가 조정분만으로
+    계산한다 (구성 변화가 아니라 눈높이 변화를 보려는 것).
+    """
+    valid_days = cfg["tp_valid_days"]
+    latest: dict[str, dict] = {}
+    series, cons_changes = [], []
+    by_date: dict[str, list[dict]] = defaultdict(list)
+    for p in timeline:
+        by_date[p["date"]].append(p)
+
+    def alive(d: str) -> dict[str, float]:
+        return {b: v["tp"] for b, v in latest.items()
+                if v["tp"] and v["rating"] != "NR" and days_between(v["date"], d) <= valid_days}
+
+    for d in sorted(by_date):
+        before = alive(d)
+        revised = []
+        for p in by_date[d]:
+            b = p["broker"]
+            old = before.get(b)
+            latest[b] = {"tp": p["target_price"], "rating": p["rating"], "date": d}
+            if old and p["target_price"] and p["rating"] != "NR" and p["target_price"] != old:
+                revised.append((b, old, p["target_price"], p.get("report_id")))
+        now = alive(d)
+        if not now:
+            continue
+        mean = sum(now.values()) / len(now)
+        series.append({"date": d, "mean": round(mean), "n": len(now),
+                       "brokers": {b: now[b] for b in sorted(now)}})
+        if revised and len(before) >= 2:
+            prev_mean = sum(before.values()) / len(before)
+            delta = sum(new - old for _, old, new, _ in revised) / len(before)
+            p_rev = round(delta / prev_mean * 100, 1)
+            cons_changes.append({
+                "date": d, "from": round(prev_mean), "to": round(prev_mean + delta), "pct": p_rev,
+                "n": len(before), "brokers": [b for b, *_ in revised],
+                "report_id": next((rid for *_, rid in revised if rid), None),
+            })
+    # 30일 누적 속도
+    for c in cons_changes:
+        window = [x["pct"] for x in cons_changes if 0 <= days_between(x["date"], c["date"]) < 30]
+        c["cum30"] = round(sum(window), 1) if len(window) > 1 else None
+
+    # 증권사 동시 움직임: wave_days 안에 wave_min_brokers곳 이상이 같은 방향, 반대 방향은 없음
+    waves = []
+    moves = [c for c in changes if c["tp_pct"] is not None and not c.get("mismatch")]
+    fired: set[int] = set()
+    for c in moves:
+        recent = [x for x in moves if 0 <= days_between(x["date"], c["date"]) < cfg["wave_days"]]
+        last_dir: dict[str, int] = {}
+        for x in sorted(recent, key=lambda x: x["date"]):
+            last_dir[x["broker"]] = 1 if x["tp_pct"] > 0 else -1
+        for direction in (1, -1):
+            same = sorted(b for b, v in last_dir.items() if v == direction)
+            other = [b for b, v in last_dir.items() if v != direction]
+            if len(same) >= cfg["wave_min_brokers"] and not other and direction not in fired:
+                fired.add(direction)
+                waves.append({"date": c["date"], "direction": direction, "count": len(same),
+                              "brokers": same, "report_id": c.get("report_id")})
+            elif len(same) < cfg["wave_min_brokers"]:
+                fired.discard(direction)  # 흐름이 끊기면 다음 물결은 새로 알린다
+    return series, cons_changes, waves
 
 
 def industry_revisions(stocks: dict[str, dict], window_start: str) -> dict:
@@ -436,11 +543,12 @@ def industry_events(revisions: dict, cfg: dict) -> list[dict]:
 
 def obs_dict(o: Observation) -> dict:
     d = {
-        "date": o.date, "report_id": o.report_id, "title": o.title, "primary": o.primary,
+        "date": o.date, "report_id": o.report_id, "title": o.title, "primary": o.primary, "broker": o.broker,
         "rating": o.rating, "rating_status": o.rating_status,
         "target_price": o.target_price, "tp_status": o.tp_status, "price": o.price,
         "upside_pct": pct(o.price, o.target_price) if o.price and o.target_price else None,
         "estimates": o.estimates, "consensus": o.consensus,
+        "prev_target_price": o.prev_target_price,
     }
     g = gap_vs_consensus(o)
     if g:
@@ -475,23 +583,49 @@ def build(reports: list[dict] | None = None) -> dict[str, list[dict]]:
 
     stocks: dict[str, dict] = {}
     for sid in sorted(set(observations) | set(table_rows)):
-        obs = dedup_observations(observations.get(sid, []))
-        timeline, notes = rating_timeline(obs, table_rows.get(sid, []))
+        all_obs = observations.get(sid, [])
+        rows = table_rows.get(sid, [])
+        brokers = sorted({o.broker for o in all_obs} | {r["broker"] for r in rows})
+        timeline, notes, changes, obs = [], [], [], []
+        est_revs, cons_revs = [], []
+        for b in brokers:
+            ob_b = dedup_observations([o for o in all_obs if o.broker == b])
+            tl, nt = rating_timeline(ob_b, [r for r in rows if r["broker"] == b])
+            hints = {o.date: o.prev_target_price for o in ob_b if o.prev_target_price}
+            ch = rating_changes(tl, nt, hints)
+            for x in (*tl, *nt, *ch):
+                x["broker"] = b
+            for kind, dest in (("estimates", est_revs), ("consensus", cons_revs)):
+                for x in series_changes(ob_b, kind, ("revenue", "op", "net", "eps")):
+                    x["broker"] = b
+                    dest.append(x)
+            timeline += tl
+            notes += nt
+            changes += ch
+            obs += ob_b
         if not timeline and not obs:
             continue
-        stock = {
+        order = lambda x: (x["date"], x.get("broker", ""))  # noqa: E731
+        timeline.sort(key=order)
+        changes.sort(key=order)
+        obs.sort(key=lambda o: (o.date, o.broker))
+        series, cons_changes, waves = tp_consensus(timeline, changes, cfg)
+        stocks[sid] = {
             "id": sid,
             "code": codes.get(sid),
             "name": names[sid].most_common(1)[0][0],
             "industry": industries[sid].most_common(1)[0][0] if industries[sid] else None,
+            "brokers": brokers,
             "timeline": timeline,
-            "notes": notes,
+            "notes": sorted(notes, key=order),
             "observations": [obs_dict(o) for o in obs],
-            "estimate_revisions": series_changes(obs, "estimates", ("revenue", "op", "net", "eps")),
-            "consensus_changes": series_changes(obs, "consensus", ("revenue", "op", "net", "eps")),
+            "rating_changes": changes,
+            "estimate_revisions": sorted(est_revs, key=order),
+            "consensus_changes": sorted(cons_revs, key=order),
+            "tp_consensus": series,
+            "tp_consensus_changes": cons_changes,
+            "broker_waves": waves,
         }
-        stock["rating_changes"] = rating_changes(timeline, notes)
-        stocks[sid] = stock
 
     events: list[dict] = []
     for sid, s in stocks.items():
@@ -532,13 +666,21 @@ def build(reports: list[dict] | None = None) -> dict[str, list[dict]]:
     for sid, s in stocks.items():
         last = s["timeline"][-1] if s["timeline"] else {}
         last_obs = s["observations"][-1] if s["observations"] else {}
-        last_tp = next((c for c in reversed(s["rating_changes"]) if c["tp_pct"] is not None), None)
+        last_tp = next((c for c in reversed(s["rating_changes"])
+                        if c["tp_pct"] is not None and not c.get("mismatch")), None)
+        cons = s["tp_consensus"][-1] if s["tp_consensus"] else None
+        latest_by = {}
+        for pt in s["timeline"]:
+            latest_by[pt["broker"]] = {"rating": pt["rating"], "target_price": pt["target_price"], "date": pt["date"]}
         index.append({
             "id": sid, "code": s["code"], "name": s["name"], "industry": s["industry"],
             "rating": last.get("rating"), "target_price": last.get("target_price"),
-            "rating_date": last.get("date"),
+            "rating_date": last.get("date"), "rating_broker": last.get("broker"),
+            "consensus_tp": cons["mean"] if cons else None, "consensus_n": cons["n"] if cons else 0,
+            "brokers": latest_by,
             "price": last_obs.get("price"), "price_date": last_obs.get("date"),
-            "last_tp_change": {"date": last_tp["date"], "pct": last_tp["tp_pct"]} if last_tp else None,
+            "last_tp_change": ({"date": last_tp["date"], "pct": last_tp["tp_pct"], "broker": last_tp["broker"]}
+                               if last_tp else None),
             "events": len(s["events"]),
             "last_event_date": max((e.split(":")[0] for e in s["events"]), default=None),
             "reports": len({o["report_id"] for o in s["observations"]}),
@@ -553,7 +695,7 @@ def build(reports: list[dict] | None = None) -> dict[str, list[dict]]:
             ch = changes.get(rid)
             revs = [c for c in s["estimate_revisions"] if c["report_id"] == rid and c["metric"] in REVISION_METRICS]
             report_map[rid].append({
-                "stock_id": sid, "name": s["name"], "code": s["code"], "primary": ob["primary"],
+                "stock_id": sid, "name": s["name"], "code": s["code"], "primary": ob["primary"], "broker": ob["broker"],
                 "rating": ob["rating"], "rating_status": ob["rating_status"],
                 "target_price": ob["target_price"], "price": ob["price"], "upside_pct": ob["upside_pct"],
                 "rating_change": ({k: ch[k] for k in ("rating_from", "rating_to", "tp_from", "tp_to", "tp_pct", "prev_date")}
@@ -567,7 +709,7 @@ def build(reports: list[dict] | None = None) -> dict[str, list[dict]]:
             if rid in seen_rids or ch.get("mismatch"):
                 continue
             report_map[rid].append({
-                "stock_id": sid, "name": s["name"], "code": s["code"], "primary": False,
+                "stock_id": sid, "name": s["name"], "code": s["code"], "primary": False, "broker": ch["broker"],
                 "rating": ch["rating_to"], "rating_status": None,
                 "target_price": ch["tp_to"], "price": None, "upside_pct": None,
                 "rating_change": {k: ch[k] for k in ("rating_from", "rating_to", "tp_from", "tp_to", "tp_pct", "prev_date")},

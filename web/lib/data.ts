@@ -35,6 +35,8 @@ export type ClaimReview = {
 
 export type Report = {
   report_id: string;
+  source?: string;
+  broker?: string;
   report_type: "individual" | "daily_series";
   title: string;
   analyst: string | null;
@@ -65,6 +67,7 @@ export type ReportCard = {
   time: string | null;
   title: string;
   analyst: string | null;
+  broker: string;
   desk: string;
   industries: string[];
   themes: string[];
@@ -106,6 +109,11 @@ export function getReport(id: string): Report | undefined {
   return allReports().find((r) => r.report_id === id);
 }
 
+/** 리포트를 쓴 증권사. broker 필드 이전에 수집한 하나증권 리포트도 처리 */
+export function brokerOf(r: Report): string {
+  return r.broker || (r.source === "hana" ? "하나증권" : "");
+}
+
 export function toCard(r: Report): ReportCard {
   const oneLiner =
     r.summary?.one_liner ??
@@ -117,6 +125,7 @@ export function toCard(r: Report): ReportCard {
     time: r.published_time,
     title: r.title,
     analyst: r.analyst,
+    broker: brokerOf(r),
     desk: r.desk ?? (r.report_type === "daily_series" ? "데일리" : "기타"),
     industries: r.industries ?? [],
     themes: r.themes ?? [],

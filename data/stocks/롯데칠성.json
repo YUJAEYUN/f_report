@@ -3,6 +3,9 @@
  "code": null,
  "name": "롯데칠성",
  "industry": "음식료·담배",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-04-26",
@@ -10,13 +13,26 @@
    "target_price": 170000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
  "observations": [],
+ "rating_changes": [],
  "estimate_revisions": [],
  "consensus_changes": [],
- "rating_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-04-26",
+   "mean": 170000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 170000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

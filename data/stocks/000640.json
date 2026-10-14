@@ -3,6 +3,9 @@
  "code": "000640",
  "name": "동아쏘시오홀딩스",
  "industry": "제약·바이오",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-02-02",
@@ -10,7 +13,8 @@
    "target_price": 141520.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-12",
@@ -18,7 +22,8 @@
    "target_price": null,
    "source": "table",
    "report_id": "hana_1289079",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -28,6 +33,7 @@
    "report_id": "hana_1289036",
    "title": "중소형주 소비업종(Overweight) : 중소형주 소비주의 미래: Covid-19 이전에 봤던 Deja Vu",
    "primary": false,
+   "broker": "하나증권",
    "rating": null,
    "rating_status": null,
    "target_price": null,
@@ -48,13 +54,15 @@
      "net": 84.0,
      "eps": 12204.0
     }
-   }
+   },
+   "prev_target_price": null
   },
   {
    "date": "2026-10-12",
    "report_id": "hana_1289079",
    "title": "동아쏘시오홀딩스(000640.KS): 피부외용제 성장에 해외 더마가 더해진다",
    "primary": true,
+   "broker": "하나증권",
    "rating": null,
    "rating_status": null,
    "target_price": null,
@@ -75,11 +83,10 @@
      "net": 84.0,
      "eps": 12204.0
     }
-   }
+   },
+   "prev_target_price": null
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2026-10-12",
@@ -91,10 +98,25 @@
    "tp_to": null,
    "tp_pct": null,
    "tp_speed30": null,
-   "report_id": "hana_1289079"
+   "report_id": "hana_1289079",
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-02-02",
+   "mean": 141520,
+   "n": 1,
+   "brokers": {
+    "하나증권": 141520.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": [
-  "2026-10-12:000640:coverage_end:"
+  "2026-10-12:000640:coverage_end:하나증권"
  ]
 }

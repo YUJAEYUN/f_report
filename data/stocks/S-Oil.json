@@ -3,6 +3,9 @@
  "code": null,
  "name": "S-Oil",
  "industry": "정유·화학",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-07-12",
@@ -10,7 +13,8 @@
    "target_price": 85000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-01-09",
@@ -18,7 +22,8 @@
    "target_price": 95000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-04-15",
@@ -26,7 +31,8 @@
    "target_price": 80000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-10-16",
@@ -34,7 +40,8 @@
    "target_price": 90000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-11-04",
@@ -42,7 +49,8 @@
    "target_price": 100000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-12-15",
@@ -50,7 +58,8 @@
    "target_price": 110000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-01-27",
@@ -58,7 +67,8 @@
    "target_price": 130000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-07-07",
@@ -66,7 +76,8 @@
    "target_price": 200000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-04",
@@ -74,13 +85,12 @@
    "target_price": 220000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
  "observations": [],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2025-01-09",
@@ -92,7 +102,8 @@
    "tp_to": 95000.0,
    "tp_pct": 11.8,
    "tp_speed30": 2.0,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-04-15",
@@ -104,7 +115,8 @@
    "tp_to": 80000.0,
    "tp_pct": -15.8,
    "tp_speed30": -4.9,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-10-16",
@@ -116,7 +128,8 @@
    "tp_to": 90000.0,
    "tp_pct": 12.5,
    "tp_speed30": 2.0,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-11-04",
@@ -128,7 +141,8 @@
    "tp_to": 100000.0,
    "tp_pct": 11.1,
    "tp_speed30": 17.5,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-12-15",
@@ -140,7 +154,8 @@
    "tp_to": 110000.0,
    "tp_pct": 10.0,
    "tp_speed30": 7.3,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-01-27",
@@ -152,7 +167,8 @@
    "tp_to": 130000.0,
    "tp_pct": 18.2,
    "tp_speed30": 12.7,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-07-07",
@@ -164,7 +180,8 @@
    "tp_to": 200000.0,
    "tp_pct": 53.8,
    "tp_speed30": 10.0,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-08-04",
@@ -176,8 +193,87 @@
    "tp_to": 220000.0,
    "tp_pct": 10.0,
    "tp_speed30": 10.7,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-07-12",
+   "mean": 85000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 85000.0
+   }
+  },
+  {
+   "date": "2025-01-09",
+   "mean": 95000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 95000.0
+   }
+  },
+  {
+   "date": "2025-04-15",
+   "mean": 80000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 80000.0
+   }
+  },
+  {
+   "date": "2025-10-16",
+   "mean": 90000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 90000.0
+   }
+  },
+  {
+   "date": "2025-11-04",
+   "mean": 100000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 100000.0
+   }
+  },
+  {
+   "date": "2025-12-15",
+   "mean": 110000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 110000.0
+   }
+  },
+  {
+   "date": "2026-01-27",
+   "mean": 130000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 130000.0
+   }
+  },
+  {
+   "date": "2026-07-07",
+   "mean": 200000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 200000.0
+   }
+  },
+  {
+   "date": "2026-08-04",
+   "mean": 220000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 220000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }

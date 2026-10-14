@@ -3,6 +3,9 @@
  "code": "018290",
  "name": "브이티",
  "industry": "화장품",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2024-07-23",
@@ -10,7 +13,8 @@
    "target_price": 45000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2025-05-14",
@@ -18,7 +22,8 @@
    "target_price": 49000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-09-28",
@@ -26,7 +31,8 @@
    "target_price": null,
    "source": "report",
    "report_id": "hana_1288896",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-09-29",
@@ -34,17 +40,20 @@
    "target_price": null,
    "source": "table",
    "report_id": "hana_1288896",
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
   {
    "date": "2026-05-14",
-   "note": "년 경과"
+   "note": "년 경과",
+   "broker": "하나증권"
   },
   {
    "date": "2026-09-28",
-   "note": "담당자 변경"
+   "note": "담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "observations": [
@@ -53,6 +62,7 @@
    "report_id": "hana_1288896",
    "title": "브이티(018290.KQ/NR): 미국/유럽 진출 사업성 확보 중",
    "primary": true,
+   "broker": "하나증권",
    "rating": "NR",
    "rating_status": null,
    "target_price": null,
@@ -73,13 +83,15 @@
      "net": 68.0,
      "eps": 1889.0
     }
-   }
+   },
+   "prev_target_price": null
   },
   {
    "date": "2026-10-01",
    "report_id": "hana_1288929",
    "title": "화장품(Overweight): K-뷰티 중소형주 31",
    "primary": false,
+   "broker": "하나증권",
    "rating": null,
    "rating_status": null,
    "target_price": null,
@@ -100,7 +112,37 @@
      "net": 68.0,
      "eps": 2026.0
     }
-   }
+   },
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2025-05-14",
+   "prev_date": "2024-07-23",
+   "days": 295,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 45000.0,
+   "tp_to": 49000.0,
+   "tp_pct": 8.9,
+   "tp_speed30": 0.9,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-09-28",
+   "prev_date": "2025-05-14",
+   "days": 502,
+   "rating_from": "매수",
+   "rating_to": "NR",
+   "tp_from": 49000.0,
+   "tp_to": null,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": "hana_1288896",
+   "note": "1년 경과, 담당자 변경",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
@@ -117,7 +159,8 @@
    "speed30": -6.0,
    "turn": null,
    "report_id": "hana_1288929",
-   "prev_report_id": "hana_1288896"
+   "prev_report_id": "hana_1288896",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-01",
@@ -131,7 +174,8 @@
    "speed30": -28.0,
    "turn": null,
    "report_id": "hana_1288929",
-   "prev_report_id": "hana_1288896"
+   "prev_report_id": "hana_1288896",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-01",
@@ -145,7 +189,8 @@
    "speed30": -10.0,
    "turn": null,
    "report_id": "hana_1288929",
-   "prev_report_id": "hana_1288896"
+   "prev_report_id": "hana_1288896",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-01",
@@ -159,7 +204,8 @@
    "speed30": -68.0,
    "turn": null,
    "report_id": "hana_1288929",
-   "prev_report_id": "hana_1288896"
+   "prev_report_id": "hana_1288896",
+   "broker": "하나증권"
   },
   {
    "date": "2026-10-01",
@@ -173,38 +219,32 @@
    "speed30": 73.0,
    "turn": null,
    "report_id": "hana_1288929",
-   "prev_report_id": "hana_1288896"
+   "prev_report_id": "hana_1288896",
+   "broker": "하나증권"
   }
  ],
- "rating_changes": [
+ "tp_consensus": [
   {
-   "date": "2025-05-14",
-   "prev_date": "2024-07-23",
-   "days": 295,
-   "rating_from": "매수",
-   "rating_to": "매수",
-   "tp_from": 45000.0,
-   "tp_to": 49000.0,
-   "tp_pct": 8.9,
-   "tp_speed30": 0.9,
-   "report_id": null
+   "date": "2024-07-23",
+   "mean": 45000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 45000.0
+   }
   },
   {
-   "date": "2026-09-28",
-   "prev_date": "2025-05-14",
-   "days": 502,
-   "rating_from": "매수",
-   "rating_to": "NR",
-   "tp_from": 49000.0,
-   "tp_to": null,
-   "tp_pct": null,
-   "tp_speed30": null,
-   "report_id": "hana_1288896",
-   "note": "1년 경과, 담당자 변경"
+   "date": "2025-05-14",
+   "mean": 49000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 49000.0
+   }
   }
  ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": [
-  "2026-09-28:018290:coverage_end:",
-  "2026-10-01:018290:cons_up:2027eps"
+  "2026-09-28:018290:coverage_end:하나증권",
+  "2026-10-01:018290:cons_up:하나증권2027eps"
  ]
 }

@@ -1,6 +1,6 @@
 [
  {
-  "id": "2026-10-01:265740:cons_up:2027eps",
+  "id": "2026-10-01:265740:cons_up:하나증권2027eps",
   "date": "2026-10-01",
   "type": "cons_up",
   "severity": 2.38,
@@ -9,7 +9,7 @@
   "name": "엔에프씨",
   "industry": "화장품",
   "report_id": "hana_1288929",
-  "headline": "컨센서스 2027년 EPS +11.9% (1,036원 → 1,159원)",
+  "headline": "시장 컨센서스 2027년 EPS +11.9% (1,036원 → 1,159원)",
   "data": {
    "date": "2026-10-01",
    "prev_date": "2026-09-17",
@@ -22,12 +22,13 @@
    "speed30": 25.5,
    "turn": null,
    "report_id": "hana_1288929",
-   "prev_report_id": "hana_1288808"
+   "prev_report_id": "hana_1288808",
+   "broker": "하나증권"
   },
   "title": "화장품(Overweight): K-뷰티 중소형주 31"
  },
  {
-  "id": "2026-10-01:456010:cons_turn:2026eps",
+  "id": "2026-10-01:456010:cons_turn:하나증권2026eps",
   "date": "2026-10-01",
   "type": "cons_turn",
   "severity": 1.5,
@@ -36,7 +37,7 @@
   "name": "아이씨티케이",
   "industry": "통신장비",
   "report_id": "hana_1288940",
-  "headline": "컨센서스 2026년 EPS 적자전환 (7원 → -1,086원)",
+  "headline": "시장 컨센서스 2026년 EPS 적자전환 (7원 → -1,086원)",
   "data": {
    "date": "2026-10-01",
    "prev_date": "2026-09-17",
@@ -49,12 +50,13 @@
    "speed30": null,
    "turn": "적자전환",
    "report_id": "hana_1288940",
-   "prev_report_id": "hana_1288806"
+   "prev_report_id": "hana_1288806",
+   "broker": "하나증권"
   },
   "title": "ICTK(456010.KQ/매수): 위드네트웍스 인수는 큰 호재입니다"
  },
  {
-  "id": "2026-10-01:018290:cons_up:2027eps",
+  "id": "2026-10-01:018290:cons_up:하나증권2027eps",
   "date": "2026-10-01",
   "type": "cons_up",
   "severity": 1.46,
@@ -63,7 +65,7 @@
   "name": "브이티",
   "industry": "화장품",
   "report_id": "hana_1288929",
-  "headline": "컨센서스 2027년 EPS +7.3% (1,889원 → 2,026원)",
+  "headline": "시장 컨센서스 2027년 EPS +7.3% (1,889원 → 2,026원)",
   "data": {
    "date": "2026-10-01",
    "prev_date": "2026-09-28",
@@ -76,12 +78,13 @@
    "speed30": 73.0,
    "turn": null,
    "report_id": "hana_1288929",
-   "prev_report_id": "hana_1288896"
+   "prev_report_id": "hana_1288896",
+   "broker": "하나증권"
   },
   "title": "화장품(Overweight): K-뷰티 중소형주 31"
  },
  {
-  "id": "2026-10-01:018250:coverage_end:",
+  "id": "2026-10-01:018250:coverage_end:하나증권",
   "date": "2026-10-01",
   "type": "coverage_end",
   "severity": 1.0,
@@ -90,7 +93,7 @@
   "name": "애경산업",
   "industry": "화장품",
   "report_id": "hana_1288929",
-  "headline": "투자의견 매수 → NR (1년 경과, 담당자 변경)",
+  "headline": "하나증권 투자의견 매수 → NR (1년 경과, 담당자 변경)",
   "data": {
    "date": "2026-10-01",
    "prev_date": "2025-01-31",
@@ -102,12 +105,13 @@
    "tp_pct": null,
    "tp_speed30": null,
    "report_id": "hana_1288929",
-   "note": "1년 경과, 담당자 변경"
+   "note": "1년 경과, 담당자 변경",
+   "broker": "하나증권"
   },
   "title": "화장품(Overweight): K-뷰티 중소형주 31"
  },
  {
-  "id": "2026-10-01:114840:coverage_end:",
+  "id": "2026-10-01:114840:coverage_end:하나증권",
   "date": "2026-10-01",
   "type": "coverage_end",
   "severity": 1.0,
@@ -116,7 +120,7 @@
   "name": "아이패밀리에스씨",
   "industry": "화장품",
   "report_id": "hana_1288929",
-  "headline": "투자의견 매수 → NR (1년 경과, 담당자 변경)",
+  "headline": "하나증권 투자의견 매수 → NR (1년 경과, 담당자 변경)",
   "data": {
    "date": "2026-10-01",
    "prev_date": "2025-05-09",
@@ -128,12 +132,13 @@
    "tp_pct": null,
    "tp_speed30": null,
    "report_id": "hana_1288929",
-   "note": "1년 경과, 담당자 변경"
+   "note": "1년 경과, 담당자 변경",
+   "broker": "하나증권"
   },
   "title": "화장품(Overweight): K-뷰티 중소형주 31"
  },
  {
-  "id": "2026-10-01:237880:coverage_end:",
+  "id": "2026-10-01:237880:coverage_end:하나증권",
   "date": "2026-10-01",
   "type": "coverage_end",
   "severity": 1.0,
@@ -142,7 +147,7 @@
   "name": "클리오",
   "industry": "화장품",
   "report_id": "hana_1288929",
-  "headline": "투자의견 매수 → NR (1년 경과, 담당자 변경)",
+  "headline": "하나증권 투자의견 매수 → NR (1년 경과, 담당자 변경)",
   "data": {
    "date": "2026-10-01",
    "prev_date": "2025-07-21",
@@ -154,12 +159,13 @@
    "tp_pct": null,
    "tp_speed30": null,
    "report_id": "hana_1288929",
-   "note": "1년 경과, 담당자 변경"
+   "note": "1년 경과, 담당자 변경",
+   "broker": "하나증권"
   },
   "title": "화장품(Overweight): K-뷰티 중소형주 31"
  },
  {
-  "id": "2026-10-01:352480:coverage_end:",
+  "id": "2026-10-01:352480:coverage_end:하나증권",
   "date": "2026-10-01",
   "type": "coverage_end",
   "severity": 1.0,
@@ -168,7 +174,7 @@
   "name": "씨앤씨인터내셔널",
   "industry": "화장품",
   "report_id": "hana_1288929",
-  "headline": "투자의견 매수 → NR (1년 경과, 담당자 변경)",
+  "headline": "하나증권 투자의견 매수 → NR (1년 경과, 담당자 변경)",
   "data": {
    "date": "2026-10-01",
    "prev_date": "2025-05-12",
@@ -180,7 +186,8 @@
    "tp_pct": null,
    "tp_speed30": null,
    "report_id": "hana_1288929",
-   "note": "1년 경과, 담당자 변경"
+   "note": "1년 경과, 담당자 변경",
+   "broker": "하나증권"
   },
   "title": "화장품(Overweight): K-뷰티 중소형주 31"
  }

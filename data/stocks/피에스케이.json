@@ -3,6 +3,9 @@
  "code": null,
  "name": "피에스케이",
  "industry": "반도체",
+ "brokers": [
+  "하나증권"
+ ],
  "timeline": [
   {
    "date": "2026-02-24",
@@ -10,7 +13,8 @@
    "target_price": 90000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-03-25",
@@ -18,7 +22,8 @@
    "target_price": 105000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-05-15",
@@ -26,7 +31,8 @@
    "target_price": 128000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-06-05",
@@ -34,13 +40,12 @@
    "target_price": 160000.0,
    "source": "table",
    "report_id": null,
-   "tp_status": null
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
  "observations": [],
- "estimate_revisions": [],
- "consensus_changes": [],
  "rating_changes": [
   {
    "date": "2026-03-25",
@@ -52,7 +57,8 @@
    "tp_to": 105000.0,
    "tp_pct": 16.7,
    "tp_speed30": 17.3,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-05-15",
@@ -64,7 +70,8 @@
    "tp_to": 128000.0,
    "tp_pct": 21.9,
    "tp_speed30": 12.9,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   },
   {
    "date": "2026-06-05",
@@ -76,8 +83,47 @@
    "tp_to": 160000.0,
    "tp_pct": 25.0,
    "tp_speed30": 35.7,
-   "report_id": null
+   "report_id": null,
+   "broker": "하나증권"
   }
  ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-02-24",
+   "mean": 90000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 90000.0
+   }
+  },
+  {
+   "date": "2026-03-25",
+   "mean": 105000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 105000.0
+   }
+  },
+  {
+   "date": "2026-05-15",
+   "mean": 128000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 128000.0
+   }
+  },
+  {
+   "date": "2026-06-05",
+   "mean": 160000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 160000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
  "events": []
 }
