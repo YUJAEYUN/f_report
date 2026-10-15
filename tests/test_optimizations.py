@@ -112,3 +112,13 @@ class SummarizeOrderTest(unittest.TestCase):
                 patch.object(pr, "build_summary_prompt", side_effect=lambda r: r["report_id"]):
             pr.summarize_pending(reports, 3)
         self.assertEqual(seen, ["new"])
+
+
+class RateLimitExitTest(unittest.TestCase):
+    def test_rate_limit_sets_flag(self):
+        with patch.object(pr, "RATE_LIMITED", False):
+            pr.abort_reason(pr.LLMRateLimitError("429"))
+            self.assertTrue(pr.RATE_LIMITED)
+        with patch.object(pr, "RATE_LIMITED", False):
+            pr.abort_reason(pr.LLMAuthError("401"))
+            self.assertFalse(pr.RATE_LIMITED)

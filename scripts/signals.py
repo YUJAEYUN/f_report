@@ -42,6 +42,8 @@ EVENTS_DIR = ROOT / "data" / "events"
 SIGNALS_DIR = ROOT / "data" / "signals"
 CONFIG_PATH = ROOT / "config" / "events.json"
 
+RATE_LIMITED = False  # explain_events가 사용량 한도로 멈췄는지
+
 METRIC_LABEL = {"revenue": "매출액", "op": "영업이익", "net": "순이익", "eps": "EPS"}
 REVISION_METRICS = ("op", "eps")  # 이벤트 판정에 쓰는 지표 (매출액·순이익은 기록만)
 # 변화율을 계산할 최소 기준값. 영업이익 2억원 -> 12억원(+500%) 같은 작은 기저 효과를 거른다.
@@ -772,6 +774,8 @@ def explain_events(max_reports: int) -> tuple[int, bool]:
         try:
             obj = ask_json(prompt)
         except (LLMAuthError, LLMRateLimitError) as e:
+            global RATE_LIMITED
+            RATE_LIMITED = RATE_LIMITED or isinstance(e, LLMRateLimitError)
             print(f"  ! 이유 생성 중단: {e}", flush=True)
             return done, True
         except LLMError as e:
