@@ -34,9 +34,19 @@ on:
         type: boolean
         required: false
         default: false
+      drain:
+        description: "대기열 비우기: 요약만 하고, 남으면 이 워크플로를 다시 실행해 이어 간다. 다 비우면 전체 브리핑/다이제스트를 한 번 다시 만든다"
+        type: boolean
+        required: false
+        default: false
+      drain_round:
+        description: "(자동) 대기열 비우기 몇 번째 실행인지"
+        required: false
+        default: "1"
 
 permissions:
   contents: write
+  actions: write  # 대기열 비우기에서 이 워크플로를 다시 실행
 
 concurrency:
   # daily-pipeline과 같은 그룹: data/ 에 쓰는 워크플로가 동시에 push 하지 않도록 직렬화
@@ -82,6 +92,7 @@ jobs:
           REDO_DATE: ${{ github.event.inputs.redo_date }}
           RETAG: ${{ github.event.inputs.retag }}
           REDO_ALL: ${{ github.event.inputs.redo_all }}
+          DRAIN: ${{ github.event.inputs.drain }}
         run: |
           if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
             echo "::error::Secret CLAUDE_CODE_OAUTH_TOKEN 이 없습니다. 'claude setup-token'으로 발급해 등록하세요."
@@ -110,9 +121,12 @@ jobs:
             args+=(--redo-all)
           fi
           # 수동 실행은 시각과 상관없이 밀린 브리핑·다이제스트를 바로 만든다 (정기 실행은 저녁에 한 번)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ "$DRAIN" = "true" ]; then
+            args+=(--no-publish)
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             args+=(--publish-now)
           fi
+          args+=(--status-file "$RUNNER_TEMP/status.json")
           # 실패(사용량 한도 등)가 한 건이라도 나면 그때까지의 결과는 커밋하고, 잡은 마지막에 실패로 표시
           set +e
           python scripts/process_reports.py "${args[@]}"
@@ -130,6 +144,36 @@ jobs:
           git commit -m "chore: process research reports $(TZ=Asia/Seoul date +%Y-%m-%dT%H:%M)"
           git pull --rebase
           git push
+
+      # 대기열 비우기: 이번에 요약이 진행됐고 대기가 남았으면 다시 실행, 다 비웠으면 전체 재생성 한 번.
+      # 같은 동시성 그룹의 대기 중 실행은 새 실행에 밀려 취소되므로, 수집(daily-pipeline)이
+      # 대기·실행 중이면 이어 가지 않는다 (그 수집 뒤 요약이 대신 처리하고, 남으면 다시 drain을 돌린다).
+      - name: Continue draining
+        if: github.event.inputs.drain == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LIMIT: ${{ github.event.inputs.limit || '100' }}
+          ROUND: ${{ github.event.inputs.drain_round || '1' }}
+        run: |
+          status="$RUNNER_TEMP/status.json"
+          [ -f "$status" ] || { echo "상태 파일 없음 -> 중단"; exit 0; }
+          cat "$status"
+          read summarized remaining aborted < <(python -c "import json;d=json.load(open('$status'));print(d['summarized'],d['remaining'],str(d['aborted']).lower())")
+          busy=$(gh run list --workflow daily-pipeline.yml --limit 5 --json status --jq '[.[] | select(.status=="queued" or .status=="in_progress" or .status=="waiting" or .status=="pending")] | length')
+          if [ "$aborted" = "true" ]; then
+            echo "::warning::사용량 한도 등으로 중단 -> 대기 ${remaining}건. 한도가 풀린 뒤 drain을 다시 실행하세요."
+          elif [ "$busy" != "0" ]; then
+            echo "::notice::수집이 대기·실행 중이라 이어 가지 않음 (대기 ${remaining}건은 수집 뒤 요약에서 처리)"
+          elif [ "$remaining" -gt 0 ] && [ "$summarized" -gt 0 ] && [ "$ROUND" -lt 15 ]; then
+            echo "대기 ${remaining}건 -> $((ROUND + 1))번째 실행"
+            gh workflow run process-reports.yml --ref "${{ github.event.repository.default_branch }}" \
+              -f drain=true -f limit="$LIMIT" -f drain_round="$((ROUND + 1))"
+          elif [ "$remaining" -eq 0 ]; then
+            echo "대기열 비움 -> 전체 브리핑/주간 인사이트/다이제스트 다시 생성"
+            gh workflow run process-reports.yml --ref "${{ github.event.repository.default_branch }}" -f redo_all=true -f limit=0
+          else
+            echo "::warning::진행이 없거나 반복 상한 도달 -> 대기 ${remaining}건 남기고 멈춤"
+          fi
 
       - name: Fail if processing aborted
         if: steps.process.outputs.code != '0'
