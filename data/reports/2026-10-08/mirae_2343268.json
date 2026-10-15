@@ -19,5 +19,30 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "mirae_2343268",
-  "text_chars": 344
+  "text_chars": 344,
+  "summary": {
+    "one_liner": "NAV Dashboard Weekly 리포트로, 제공된 본문에는 지주회사(LG, HD현대, 한화, LS, CJ) 항목명만 남아 있고 구체적 분석 내용은 확인되지 않는다.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "제목상 한 주간 지주회사의 NAV(순자산가치) 하락이 두드러졌다는 점이 핵심 주제로 보인다.",
+      "본문에는 LG, HD현대, 한화, LS, CJ 등 그룹 지주 항목명만 추출되어 있다.",
+      "수치, 할인율, 하락 원인에 대한 서술은 본문에서 확인되지 않는다."
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "제목이 NAV 하락이 두드러졌던 한 주임을 강조하나, 본문에서 확인되는 비교 기준이나 수치는 없다.",
+    "implication": "지주사 NAV 흐름을 점검하는 정기 자료라는 성격만 확인되며, 하락의 원인이나 의미는 본문 근거가 부족해 해석하지 않는다.",
+    "watch_points": [
+      "원문 전체에서 지주사별 NAV 및 할인율 변화 수치 확인"
+    ]
+  },
+  "summarized_at": "2026-10-15T16:57:38+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [],
+  "tagged_at": "2026-10-15T16:57:38+09:00"
 }

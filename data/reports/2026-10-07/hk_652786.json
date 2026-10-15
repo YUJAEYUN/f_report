@@ -19,5 +19,42 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hk_652786",
-  "text_chars": 10730
+  "text_chars": 10730,
+  "summary": {
+    "one_liner": "K뷰티 유니버스의 미국 아마존 BSR 합산 점수가 이번 주 1,577pt로 전주 대비 40pt 둔화했으며, medicube가 69pt 하락해 부진을 주도했다.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "K뷰티 유니버스의 아마존 BSR 총점은 1,577pt로 전주 대비 40pt 감소했다.",
+      "주간 평균 점수 상위 K뷰티 브랜드는 medicube 595pt(-69pt), ANUA 314pt(-14pt), BIODANCE 93pt(변동 없음) 순이다.",
+      "점수 상승 상위 K뷰티 브랜드는 Dr.Althea 87pt(+15pt), Illiyoon 51pt(+14pt), MISSHA 34pt(+14pt)이다.",
+      "전체 브랜드 1위는 CeraVe 663pt(+62pt)이며, medicube는 2위(595pt), The Ordinary는 3위(457pt)다.",
+      "medicube Zero Pore Pad 2.0이 제품 순위 1위(99점)를 유지했고, Dr.Althea 345 Relief Cream은 0점에서 76점으로 급등했다."
+    ],
+    "risk_factors": [
+      "BSR은 Facial Skin Care 카테고리 상위 100위 기준이라 아마존 전체 및 미국 시장 성과를 완전히 대변하지 못할 수 있다.",
+      "일별 BSR 점수는 프로모션·광고 여부에 따라 변동폭이 커서 주간 단위 변화에 노이즈가 포함될 수 있다.",
+      "K뷰티 유니버스 구성 브랜드(33개)가 추후 변경될 수 있어 시계열 비교의 연속성이 달라질 수 있다."
+    ]
+  },
+  "insight": {
+    "change": "K뷰티 합산 BSR이 전주 대비 40pt 둔화했고, 상위 브랜드인 medicube(-69pt)와 ANUA(-14pt)가 하락한 반면 Dr.Althea, Illiyoon, MISSHA 등 중하위 브랜드는 점수가 올랐다.",
+    "implication": "이번 주 둔화는 K뷰티 전반의 약화라기보다 최상위 브랜드인 medicube의 점수 하락에 크게 좌우된 것으로 읽힌다. 상위 브랜드 의존도가 높은 구조에서, 중하위 브랜드의 점수 상승이 이를 얼마나 보완하는지가 미국 내 K뷰티 성과를 해석하는 핵심이 된다.",
+    "watch_points": [
+      "medicube의 주간 BSR 점수가 30일 평균(623pt)·90일 평균(671pt) 수준으로 회복되는지",
+      "Dr.Althea, Illiyoon, MISSHA의 점수 상승이 다음 주에도 이어지는지",
+      "K뷰티 유니버스 합산 BSR 추이가 반등하는지"
+    ]
+  },
+  "summarized_at": "2026-10-15T17:09:32+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "화장품"
+  ],
+  "themes": [
+    "K뷰티 수출 확대"
+  ],
+  "tagged_at": "2026-10-15T17:09:32+09:00"
 }
