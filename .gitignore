@@ -15,3 +15,6 @@ venv/
 # OS / editor
 .DS_Store
 *.swp
+
+# 작성자 메모 (내부 자료를 읽고 쓴 메모). 급락 종합 --memo 입력으로만 쓰고 커밋하지 않는다
+notes/
