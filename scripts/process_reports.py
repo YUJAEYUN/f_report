@@ -62,6 +62,9 @@ CONSOLIDATE_WINDOW_DAYS = 28  # 테마 병합 때 보는 최근 기간
 # 브리핑·주간 인사이트·다이제스트는 하루 한 번만 만든다. 낮 실행은 날짜만 모아 두고(PUBLISH_PENDING),
 # 이 시각(KST) 이후 실행이나, 지난 날짜가 밀려 있을 때(전날 저녁 실행 실패 등) 한꺼번에 만든다.
 PUBLISH_HOUR_KST = 17
+# 자동으로 다시 만드는 범위. 이보다 오래된 날짜에 리포트가 늦게 들어와도(과거분 몰아받기 등)
+# 그 날짜의 브리핑·다이제스트는 다시 만들지 않는다. 필요하면 --redo-date/--redo-all로 만든다.
+PUBLISH_WINDOW_DAYS = 7
 PUBLISH_PENDING = ROOT / "data" / "index" / "publish_pending.json"
 
 
@@ -386,6 +389,10 @@ def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set
         if "summary" not in r
         and not r.get("pdf_error")
     ]
+    # 최신 리포트부터: 새 증권사를 처음 받을 때처럼 과거 리포트가 한꺼번에 들어와도
+    # 오늘 리포트가 뒤로 밀리지 않게 한다
+    pending.sort(key=lambda pr: (pr[1].get("published_date") or "", pr[1].get("published_time") or "",
+                                 pr[1]["report_id"]), reverse=True)
     print(f"[summarize] 대기 {len(pending)}건, 이번 실행 최대 {limit}건")
     touched_dates: set[str] = set()
     failures = 0
@@ -716,6 +723,14 @@ def save_pending(dates: set[str]) -> None:
     PUBLISH_PENDING.write_text(json.dumps({"dates": sorted(dates)}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def split_recent(dates: set[str], explicit: set[str], now: dt.datetime | None = None) -> tuple[set[str], set[str]]:
+    """(만들 날짜, 오래돼서 건너뛸 날짜). 사용자가 직접 고른 날짜(explicit)는 오래돼도 만든다."""
+    now = now or dt.datetime.now(dt.timezone(dt.timedelta(hours=9)))
+    cutoff = (now.date() - dt.timedelta(days=PUBLISH_WINDOW_DAYS)).isoformat()
+    keep = {d for d in dates if d >= cutoff or d in explicit}
+    return keep, dates - keep
+
+
 def should_publish(pending: set[str], now: dt.datetime | None = None) -> bool:
     now = now or dt.datetime.now(dt.timezone(dt.timedelta(hours=9)))
     today = now.date().isoformat()
@@ -767,7 +782,11 @@ def main() -> int:
         if failed_explain:
             print("[explain] 이유 생성 중단 -> 남은 이벤트는 다음 실행에서 이어서", flush=True)
     forced = bool(args.publish_now or args.redo_date or args.redo_all or args.retag)
-    pending = load_pending() | dates
+    explicit = set(args.redo_date) if not (args.redo_all or args.retag) else dates
+    pending, skipped = split_recent(load_pending() | dates, explicit)
+    if skipped:
+        print(f"[publish] {len(skipped)}개 지난 날짜({min(skipped)}~{max(skipped)})는 다시 만들지 않음 "
+              f"(최근 {PUBLISH_WINDOW_DAYS}일만 자동, 필요하면 redo_date로)")
     if not pending:
         print("새로 요약된 리포트 없음 -> 브리핑/인사이트/다이제스트 생략")
     elif forced or should_publish(pending):

@@ -83,3 +83,32 @@ class PublishScheduleTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class RecentWindowTest(unittest.TestCase):
+    NOW = dt.datetime(2026, 10, 15, 18, 0, tzinfo=KST)
+
+    def test_old_backfill_dates_are_skipped(self):
+        keep, skipped = pr.split_recent({"2026-09-28", "2026-10-02", "2026-10-14", "2026-10-15"}, set(), self.NOW)
+        self.assertEqual(keep, {"2026-10-14", "2026-10-15"})
+        self.assertEqual(skipped, {"2026-09-28", "2026-10-02"})
+
+    def test_explicit_redo_date_kept(self):
+        keep, _ = pr.split_recent({"2026-09-28"}, {"2026-09-28"}, self.NOW)
+        self.assertEqual(keep, {"2026-09-28"})
+
+
+class SummarizeOrderTest(unittest.TestCase):
+    def test_newest_first(self):
+        def rep(rid, d):
+            return (Path(f"/x/{rid}.json"), {"report_id": rid, "published_date": d, "report_type": "daily_series"})
+        reports = [rep("old", "2026-09-28"), rep("new", "2026-10-15"), rep("mid", "2026-10-02")]
+        seen = []
+
+        def fake_ask(prompt):
+            raise pr.LLMRateLimitError("stop")  # 첫 호출에서 멈추고 순서만 확인
+
+        with patch.object(pr, "ask_json", side_effect=lambda p: seen.append(p) or fake_ask(p)), \
+                patch.object(pr, "build_summary_prompt", side_effect=lambda r: r["report_id"]):
+            pr.summarize_pending(reports, 3)
+        self.assertEqual(seen, ["new"])
