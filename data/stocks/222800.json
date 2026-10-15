@@ -4,6 +4,7 @@
  "name": "심텍",
  "industry": "IT하드웨어·전자부품",
  "brokers": [
+  "iM증권",
   "메리츠증권",
   "하나증권"
  ],
@@ -36,6 +37,15 @@
    "broker": "하나증권"
   },
   {
+   "date": "2026-10-06",
+   "rating": "매수",
+   "target_price": 250000.0,
+   "source": "report",
+   "report_id": "hk_652730",
+   "tp_status": "상향",
+   "broker": "iM증권"
+  },
+  {
    "date": "2026-10-13",
    "rating": "매수",
    "target_price": 200000.0,
@@ -58,6 +68,22 @@
   }
  ],
  "observations": [
+  {
+   "date": "2026-10-06",
+   "report_id": "hk_652730",
+   "title": "심텍(222800) CPU, LPDDR 수요 확대의 중심",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 250000.0,
+   "tp_status": "상향",
+   "price": 167200.0,
+   "upside_pct": 49.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 185000.0
+  },
   {
    "date": "2026-10-13",
    "report_id": "hk_652899",
@@ -102,6 +128,20 @@
    "report_id": null,
    "note": "1년 경과, 담당자 변경",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-06",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 185000.0,
+   "tp_to": 250000.0,
+   "tp_pct": 35.1,
+   "tp_speed30": null,
+   "report_id": "hk_652730",
+   "implied_prev": true,
+   "broker": "iM증권"
   }
  ],
  "estimate_revisions": [],
@@ -132,10 +172,20 @@
    }
   },
   {
-   "date": "2026-10-13",
-   "mean": 185000,
+   "date": "2026-10-06",
+   "mean": 210000,
    "n": 2,
    "brokers": {
+    "iM증권": 250000.0,
+    "하나증권": 170000.0
+   }
+  },
+  {
+   "date": "2026-10-13",
+   "mean": 206667,
+   "n": 3,
+   "brokers": {
+    "iM증권": 250000.0,
     "메리츠증권": 200000.0,
     "하나증권": 170000.0
    }
@@ -143,5 +193,7 @@
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-10-06:222800:tp_up:iM증권"
+ ]
 }

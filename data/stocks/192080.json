@@ -4,6 +4,7 @@
  "name": "더블유게임즈",
  "industry": "게임",
  "brokers": [
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -35,6 +36,15 @@
    "broker": "하나증권"
   },
   {
+   "date": "2026-10-02",
+   "rating": "매수",
+   "target_price": 78000.0,
+   "source": "report",
+   "report_id": "hk_652664",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
+  },
+  {
    "date": "2026-10-11",
    "rating": "매수",
    "target_price": 80000.0,
@@ -46,6 +56,22 @@
  ],
  "notes": [],
  "observations": [
+  {
+   "date": "2026-10-02",
+   "report_id": "hk_652664",
+   "title": "더블유게임즈(192080) 성장세를 멈춰 세운 환율 하락 영향",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 78000.0,
+   "tp_status": "유지",
+   "price": 58200.0,
+   "upside_pct": 34.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
   {
    "date": "2026-10-11",
    "report_id": "hana_1289052",
@@ -152,10 +178,20 @@
    }
   },
   {
-   "date": "2026-10-11",
-   "mean": 80000,
-   "n": 1,
+   "date": "2026-10-02",
+   "mean": 79000,
+   "n": 2,
    "brokers": {
+    "유진투자증권": 78000.0,
+    "하나증권": 80000.0
+   }
+  },
+  {
+   "date": "2026-10-11",
+   "mean": 79000,
+   "n": 2,
+   "brokers": {
+    "유진투자증권": 78000.0,
     "하나증권": 80000.0
    }
   }

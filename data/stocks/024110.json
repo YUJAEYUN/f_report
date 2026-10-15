@@ -4,6 +4,7 @@
  "name": "기업은행",
  "industry": "은행",
  "brokers": [
+  "SK증권",
   "하나증권"
  ],
  "timeline": [
@@ -62,6 +63,15 @@
    "broker": "하나증권"
   },
   {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 26000.0,
+   "source": "report",
+   "report_id": "hk_652781",
+   "tp_status": null,
+   "broker": "SK증권"
+  },
+  {
    "date": "2026-10-08",
    "rating": "매수",
    "target_price": 28500.0,
@@ -82,6 +92,22 @@
  ],
  "notes": [],
  "observations": [
+  {
+   "date": "2026-10-07",
+   "report_id": "hk_652781",
+   "title": "기업은행(024110) 중간배당까지는 해 볼게요",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 26000.0,
+   "tp_status": null,
+   "price": 20200.0,
+   "upside_pct": 28.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
   {
    "date": "2026-10-08",
    "report_id": "hana_1289034",
@@ -292,18 +318,28 @@
    }
   },
   {
-   "date": "2026-10-08",
-   "mean": 28500,
+   "date": "2026-10-07",
+   "mean": 26000,
    "n": 1,
    "brokers": {
+    "SK증권": 26000.0
+   }
+  },
+  {
+   "date": "2026-10-08",
+   "mean": 27250,
+   "n": 2,
+   "brokers": {
+    "SK증권": 26000.0,
     "하나증권": 28500.0
    }
   },
   {
    "date": "2026-10-11",
-   "mean": 28500,
-   "n": 1,
+   "mean": 27250,
+   "n": 2,
    "brokers": {
+    "SK증권": 26000.0,
     "하나증권": 28500.0
    }
   }

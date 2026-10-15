@@ -1,0 +1,29 @@
+[
+ {
+  "id": "2026-09-29:161890:tp_up:유안타증권",
+  "date": "2026-09-29",
+  "type": "tp_up",
+  "severity": 1.04,
+  "stock_id": "161890",
+  "code": "161890",
+  "name": "한국콜마",
+  "industry": "화장품",
+  "report_id": "hk_652599",
+  "headline": "유안타증권 목표주가 160,000원 → 185,000원 (+15.6%)",
+  "data": {
+   "date": "2026-09-29",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 160000.0,
+   "tp_to": 185000.0,
+   "tp_pct": 15.6,
+   "tp_speed30": null,
+   "report_id": "hk_652599",
+   "implied_prev": true,
+   "broker": "유안타증권"
+  },
+  "title": "한국콜마(161890) 튜브 용기 부족에도 견조한 수주, 4분기 기대"
+ }
+]

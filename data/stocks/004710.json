@@ -1,0 +1,46 @@
+{
+ "id": "004710",
+ "code": "004710",
+ "name": "한솔테크닉스",
+ "industry": null,
+ "brokers": [
+  "메리츠증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-09-28",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_652571",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-28",
+   "report_id": "hk_652571",
+   "title": "한솔테크닉스(004710) 진짜는 프로브카드에 있다",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 9900.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

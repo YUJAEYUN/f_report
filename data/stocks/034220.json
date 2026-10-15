@@ -2,11 +2,31 @@
  "id": "034220",
  "code": "034220",
  "name": "LG디스플레이",
- "industry": null,
+ "industry": "디스플레이",
  "brokers": [
-  "IBK투자증권"
+  "IBK투자증권",
+  "SK증권",
+  "iM증권"
  ],
  "timeline": [
+  {
+   "date": "2026-09-21",
+   "rating": "매수",
+   "target_price": 11500.0,
+   "source": "report",
+   "report_id": "hk_652459",
+   "tp_status": "하향",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-10-08",
+   "rating": "매수",
+   "target_price": 12500.0,
+   "source": "report",
+   "report_id": "hk_652828",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
   {
    "date": "2026-10-14",
    "rating": "매수",
@@ -19,6 +39,38 @@
  ],
  "notes": [],
  "observations": [
+  {
+   "date": "2026-09-21",
+   "report_id": "hk_652459",
+   "title": "LG디스플레이(034220) 3Q26 실적 개선폭 둔화 예상",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 11500.0,
+   "tp_status": "하향",
+   "price": 8400.0,
+   "upside_pct": 36.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-08",
+   "report_id": "hk_652828",
+   "title": "LG디스플레이(034220) 3Q 실적 미스 예상. 그러나 27년 CAPEX 재개",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 12500.0,
+   "tp_status": "하향",
+   "price": 8250.0,
+   "upside_pct": 51.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
   {
    "date": "2026-10-14",
    "report_id": "hk_652915",
@@ -56,11 +108,30 @@
  "consensus_changes": [],
  "tp_consensus": [
   {
-   "date": "2026-10-14",
-   "mean": 13000,
+   "date": "2026-09-21",
+   "mean": 11500,
    "n": 1,
    "brokers": {
-    "IBK투자증권": 13000.0
+    "iM증권": 11500.0
+   }
+  },
+  {
+   "date": "2026-10-08",
+   "mean": 12000,
+   "n": 2,
+   "brokers": {
+    "SK증권": 12500.0,
+    "iM증권": 11500.0
+   }
+  },
+  {
+   "date": "2026-10-14",
+   "mean": 12333,
+   "n": 3,
+   "brokers": {
+    "IBK투자증권": 13000.0,
+    "SK증권": 12500.0,
+    "iM증권": 11500.0
    }
   }
  ],

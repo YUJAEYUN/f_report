@@ -1,0 +1,46 @@
+{
+ "id": "147760",
+ "code": "147760",
+ "name": "피엠티",
+ "industry": null,
+ "brokers": [
+  "메리츠증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-09-23",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_652520",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-23",
+   "report_id": "hk_652520",
+   "title": "피엠티(147760) 탐방노트: 지옥에서 돌아오다",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 3390.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

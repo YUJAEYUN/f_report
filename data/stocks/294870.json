@@ -1,9 +1,10 @@
 {
- "id": "IPARK현대산업개발",
- "code": null,
+ "id": "294870",
+ "code": "294870",
  "name": "IPARK현대산업개발",
  "industry": "건설",
  "brokers": [
+  "유안타증권",
   "하나증권"
  ],
  "timeline": [
@@ -42,6 +43,15 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-09-21",
+   "rating": "매수",
+   "target_price": 340000.0,
+   "source": "report",
+   "report_id": "hk_652475",
+   "tp_status": null,
+   "broker": "유안타증권"
   }
  ],
  "notes": [
@@ -51,7 +61,24 @@
    "broker": "하나증권"
   }
  ],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-09-21",
+   "report_id": "hk_652475",
+   "title": "IPARK현대산업개발(294870) 자체도 좋고 도급도 좋고, 외형 성장만 남았다!",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 340000.0,
+   "tp_status": null,
+   "price": 23600.0,
+   "upside_pct": 1340.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
  "rating_changes": [
   {
    "date": "2025-03-27",
@@ -118,6 +145,15 @@
    "mean": 29000,
    "n": 1,
    "brokers": {
+    "하나증권": 29000.0
+   }
+  },
+  {
+   "date": "2026-09-21",
+   "mean": 184500,
+   "n": 2,
+   "brokers": {
+    "유안타증권": 340000.0,
     "하나증권": 29000.0
    }
   }

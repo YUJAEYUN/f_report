@@ -1,10 +1,12 @@
 {
  "id": "064350",
  "code": "064350",
- "name": "[방산/첨단항공우주] 현대로템",
+ "name": "현대로템",
  "industry": "우주항공·방산",
  "brokers": [
-  "미래에셋증권"
+  "대신증권",
+  "미래에셋증권",
+  "유안타증권"
  ],
  "timeline": [
   {
@@ -15,6 +17,24 @@
    "report_id": "mirae_2343051",
    "tp_status": null,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 150000.0,
+   "source": "report",
+   "report_id": "hk_652776",
+   "tp_status": "하향",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-15",
+   "rating": "매수",
+   "target_price": 200000.0,
+   "source": "report",
+   "report_id": "hk_652964",
+   "tp_status": "하향",
+   "broker": "대신증권"
   }
  ],
  "notes": [],
@@ -34,9 +54,56 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-07",
+   "report_id": "hk_652776",
+   "title": "현대로템(064350) 3Q Pre: 컨센서스 부합 전망",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 150000.0,
+   "tp_status": "하향",
+   "price": 112400.0,
+   "upside_pct": 33.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 300000.0
+  },
+  {
+   "date": "2026-10-15",
+   "report_id": "hk_652964",
+   "title": "현대로템(064350) 3Q26 Preview: 컨센서스 상회 전망",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 200000.0,
+   "tp_status": "하향",
+   "price": 97100.0,
+   "upside_pct": 106.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-10-07",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 300000.0,
+   "tp_to": 150000.0,
+   "tp_pct": -50.0,
+   "tp_speed30": null,
+   "report_id": "hk_652776",
+   "implied_prev": true,
+   "broker": "유안타증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
@@ -47,9 +114,30 @@
    "brokers": {
     "미래에셋증권": 167000.0
    }
+  },
+  {
+   "date": "2026-10-07",
+   "mean": 158500,
+   "n": 2,
+   "brokers": {
+    "미래에셋증권": 167000.0,
+    "유안타증권": 150000.0
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "mean": 172333,
+   "n": 3,
+   "brokers": {
+    "대신증권": 200000.0,
+    "미래에셋증권": 167000.0,
+    "유안타증권": 150000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-10-07:064350:tp_down:유안타증권"
+ ]
 }

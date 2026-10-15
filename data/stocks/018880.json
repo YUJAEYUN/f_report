@@ -1,0 +1,55 @@
+{
+ "id": "018880",
+ "code": "018880",
+ "name": "한온시스템",
+ "industry": null,
+ "brokers": [
+  "LS증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-08",
+   "rating": "매수",
+   "target_price": 4800.0,
+   "source": "report",
+   "report_id": "hk_652834",
+   "tp_status": "상향",
+   "broker": "LS증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-08",
+   "report_id": "hk_652834",
+   "title": "한온시스템(018880) 실적은 안정권, 이제는 신사업에 집중",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 4800.0,
+   "tp_status": "상향",
+   "price": 3855.0,
+   "upside_pct": 24.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-10-08",
+   "mean": 4800,
+   "n": 1,
+   "brokers": {
+    "LS증권": 4800.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

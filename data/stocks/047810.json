@@ -4,7 +4,8 @@
  "name": "[방산/첨단항공우주] 한국항공우주",
  "industry": "우주항공·방산",
  "brokers": [
-  "미래에셋증권"
+  "미래에셋증권",
+  "유안타증권"
  ],
  "timeline": [
   {
@@ -15,6 +16,15 @@
    "report_id": "mirae_2343052",
    "tp_status": "신규",
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-08",
+   "rating": "매수",
+   "target_price": 182000.0,
+   "source": "report",
+   "report_id": "hk_652847",
+   "tp_status": "하향",
+   "broker": "유안타증권"
   }
  ],
  "notes": [],
@@ -34,9 +44,40 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-08",
+   "report_id": "hk_652847",
+   "title": "한국항공우주(047810) 3Q Pre: 컨센 소폭 하회하나, YoY 성장은 견고",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 182000.0,
+   "tp_status": "하향",
+   "price": 121800.0,
+   "upside_pct": 49.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 236000.0
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-10-08",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 236000.0,
+   "tp_to": 182000.0,
+   "tp_pct": -22.9,
+   "tp_speed30": null,
+   "report_id": "hk_652847",
+   "implied_prev": true,
+   "broker": "유안타증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
@@ -47,9 +88,20 @@
    "brokers": {
     "미래에셋증권": 186000.0
    }
+  },
+  {
+   "date": "2026-10-08",
+   "mean": 184000,
+   "n": 2,
+   "brokers": {
+    "미래에셋증권": 186000.0,
+    "유안타증권": 182000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-10-08:047810:tp_down:유안타증권"
+ ]
 }

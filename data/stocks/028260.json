@@ -1,9 +1,11 @@
 {
- "id": "삼성물산",
- "code": null,
+ "id": "028260",
+ "code": "028260",
  "name": "삼성물산",
  "industry": "건설",
  "brokers": [
+  "SK증권",
+  "유안타증권",
   "하나증권"
  ],
  "timeline": [
@@ -51,10 +53,61 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-09-21",
+   "rating": "매수",
+   "target_price": 510000.0,
+   "source": "report",
+   "report_id": "hk_652469",
+   "tp_status": null,
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-09-23",
+   "rating": "매수",
+   "target_price": 550000.0,
+   "source": "report",
+   "report_id": "hk_652530",
+   "tp_status": "유지",
+   "broker": "SK증권"
   }
  ],
  "notes": [],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-09-21",
+   "report_id": "hk_652469",
+   "title": "삼성물산(028260) 건설이 달라지면, 가치도 달라진다",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 510000.0,
+   "tp_status": null,
+   "price": 351000.0,
+   "upside_pct": 45.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-09-23",
+   "report_id": "hk_652530",
+   "title": "삼성물산(028260) 10월, 가시화될 할인율 축소",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 550000.0,
+   "tp_status": "유지",
+   "price": 367000.0,
+   "upside_pct": 49.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
  "rating_changes": [
   {
    "date": "2026-02-09",
@@ -141,6 +194,25 @@
    "mean": 420000,
    "n": 1,
    "brokers": {
+    "하나증권": 420000.0
+   }
+  },
+  {
+   "date": "2026-09-21",
+   "mean": 465000,
+   "n": 2,
+   "brokers": {
+    "유안타증권": 510000.0,
+    "하나증권": 420000.0
+   }
+  },
+  {
+   "date": "2026-09-23",
+   "mean": 493333,
+   "n": 3,
+   "brokers": {
+    "SK증권": 550000.0,
+    "유안타증권": 510000.0,
     "하나증권": 420000.0
    }
   }

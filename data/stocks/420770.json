@@ -1,0 +1,55 @@
+{
+ "id": "420770",
+ "code": "420770",
+ "name": "기가비스",
+ "industry": null,
+ "brokers": [
+  "메리츠증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-09-30",
+   "rating": "매수",
+   "target_price": 200000.0,
+   "source": "report",
+   "report_id": "hk_652612",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-30",
+   "report_id": "hk_652612",
+   "title": "기가비스(420770) 아직 배고프다",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 200000.0,
+   "tp_status": null,
+   "price": 129000.0,
+   "upside_pct": 55.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-09-30",
+   "mean": 200000,
+   "n": 1,
+   "brokers": {
+    "메리츠증권": 200000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

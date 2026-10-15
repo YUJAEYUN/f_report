@@ -4,7 +4,8 @@
  "name": "현대차",
  "industry": "자동차·부품",
  "brokers": [
-  "하나증권"
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -105,10 +106,36 @@
    "report_id": "hana_1288996",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-08",
+   "rating": "매수",
+   "target_price": 670000.0,
+   "source": "report",
+   "report_id": "hk_652810",
+   "tp_status": "하향",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-10-08",
+   "report_id": "hk_652810",
+   "title": "현대차(005380) 실적 부진의 깊이는 실적 반등의 강도로",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 670000.0,
+   "tp_status": "하향",
+   "price": 336000.0,
+   "upside_pct": 99.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
  "rating_changes": [
   {
    "date": "2024-10-10",
@@ -330,6 +357,15 @@
    "n": 1,
    "brokers": {
     "하나증권": 510000.0
+   }
+  },
+  {
+   "date": "2026-10-08",
+   "mean": 590000,
+   "n": 2,
+   "brokers": {
+    "하나증권": 510000.0,
+    "한화투자증권": 670000.0
    }
   }
  ],

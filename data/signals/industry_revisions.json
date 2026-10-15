@@ -1,5 +1,12 @@
 {
  "2차전지": {
+  "2026-W39": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  },
   "2026-W41": {
    "up": 0,
    "down": 0,
@@ -10,42 +17,56 @@
   "2026-W42": {
    "up": 1,
    "down": 0,
-   "flat": 0,
-   "stocks": 1,
-   "ratio": 1.0
+   "flat": 1,
+   "stocks": 2,
+   "ratio": 0.5
   }
  },
  "IT하드웨어·전자부품": {
+  "2026-W38": {
+   "up": 1,
+   "down": 0,
+   "flat": 0,
+   "stocks": 1,
+   "ratio": 1.0
+  },
   "2026-W39": {
    "up": 0,
    "down": 0,
-   "flat": 1,
-   "stocks": 1,
+   "flat": 2,
+   "stocks": 2,
    "ratio": 0.0
   },
   "2026-W40": {
-   "up": 0,
+   "up": 1,
    "down": 0,
    "flat": 2,
-   "stocks": 2,
-   "ratio": 0.0
+   "stocks": 3,
+   "ratio": 0.33
   },
   "2026-W41": {
-   "up": 0,
+   "up": 3,
    "down": 0,
-   "flat": 2,
-   "stocks": 2,
-   "ratio": 0.0
+   "flat": 1,
+   "stocks": 4,
+   "ratio": 0.75
   },
   "2026-W42": {
    "up": 0,
    "down": 0,
-   "flat": 2,
-   "stocks": 2,
+   "flat": 3,
+   "stocks": 3,
    "ratio": 0.0
   }
  },
  "건설": {
+  "2026-W39": {
+   "up": 0,
+   "down": 0,
+   "flat": 7,
+   "stocks": 7,
+   "ratio": 0.0
+  },
   "2026-W40": {
    "up": 0,
    "down": 0,
@@ -56,15 +77,15 @@
   "2026-W41": {
    "up": 0,
    "down": 1,
-   "flat": 1,
-   "stocks": 2,
-   "ratio": -0.5
+   "flat": 2,
+   "stocks": 3,
+   "ratio": -0.33
   },
   "2026-W42": {
    "up": 0,
    "down": 0,
-   "flat": 1,
-   "stocks": 1,
+   "flat": 3,
+   "stocks": 3,
    "ratio": 0.0
   }
  },
@@ -79,35 +100,72 @@
   "2026-W40": {
    "up": 0,
    "down": 1,
-   "flat": 0,
-   "stocks": 1,
-   "ratio": -1.0
+   "flat": 1,
+   "stocks": 2,
+   "ratio": -0.5
   },
   "2026-W41": {
    "up": 0,
    "down": 1,
-   "flat": 2,
-   "stocks": 3,
-   "ratio": -0.33
+   "flat": 3,
+   "stocks": 4,
+   "ratio": -0.25
   }
  },
  "기계·전력기기": {
   "2026-W41": {
    "up": 0,
    "down": 1,
-   "flat": 2,
-   "stocks": 3,
-   "ratio": -0.33
+   "flat": 3,
+   "stocks": 4,
+   "ratio": -0.25
+  },
+  "2026-W42": {
+   "up": 0,
+   "down": 2,
+   "flat": 5,
+   "stocks": 7,
+   "ratio": -0.29
+  }
+ },
+ "디스플레이": {
+  "2026-W39": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  },
+  "2026-W41": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
   },
   "2026-W42": {
    "up": 0,
    "down": 1,
-   "flat": 2,
-   "stocks": 3,
-   "ratio": -0.33
+   "flat": 1,
+   "stocks": 2,
+   "ratio": -0.5
   }
  },
  "미디어·콘텐츠": {
+  "2026-W39": {
+   "up": 0,
+   "down": 1,
+   "flat": 3,
+   "stocks": 4,
+   "ratio": -0.25
+  },
+  "2026-W40": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  },
   "2026-W41": {
    "up": 0,
    "down": 4,
@@ -124,25 +182,32 @@
   }
  },
  "반도체": {
+  "2026-W39": {
+   "up": 1,
+   "down": 0,
+   "flat": 0,
+   "stocks": 1,
+   "ratio": 1.0
+  },
   "2026-W40": {
    "up": 0,
    "down": 0,
-   "flat": 2,
-   "stocks": 2,
+   "flat": 4,
+   "stocks": 4,
    "ratio": 0.0
   },
   "2026-W41": {
    "up": 0,
    "down": 0,
-   "flat": 2,
-   "stocks": 2,
+   "flat": 3,
+   "stocks": 3,
    "ratio": 0.0
   },
   "2026-W42": {
    "up": 0,
    "down": 0,
-   "flat": 1,
-   "stocks": 1,
+   "flat": 7,
+   "stocks": 7,
    "ratio": 0.0
   }
  },
@@ -156,6 +221,13 @@
   }
  },
  "소프트웨어·AI": {
+  "2026-W38": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  },
   "2026-W41": {
    "up": 0,
    "down": 0,
@@ -179,6 +251,13 @@
    "stocks": 3,
    "ratio": 0.0
   },
+  "2026-W39": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  },
   "2026-W40": {
    "up": 1,
    "down": 0,
@@ -187,11 +266,11 @@
    "ratio": 1.0
   },
   "2026-W41": {
-   "up": 1,
+   "up": 0,
    "down": 0,
    "flat": 1,
-   "stocks": 2,
-   "ratio": 0.5
+   "stocks": 1,
+   "ratio": 0.0
   },
   "2026-W42": {
    "up": 0,
@@ -215,9 +294,145 @@
    "flat": 4,
    "stocks": 4,
    "ratio": 0.0
+  },
+  "2026-W41": {
+   "up": 0,
+   "down": 2,
+   "flat": 0,
+   "stocks": 2,
+   "ratio": -1.0
+  },
+  "2026-W42": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
   }
  },
  "운송": {
+  "2026-W38": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  },
+  "2026-W39": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  },
+  "2026-W40": {
+   "up": 1,
+   "down": 0,
+   "flat": 1,
+   "stocks": 2,
+   "ratio": 0.5
+  },
+  "2026-W41": {
+   "up": 1,
+   "down": 0,
+   "flat": 1,
+   "stocks": 2,
+   "ratio": 0.5
+  },
+  "2026-W42": {
+   "up": 2,
+   "down": 0,
+   "flat": 1,
+   "stocks": 3,
+   "ratio": 0.67
+  }
+ },
+ "유통·소비재": {
+  "2026-W41": {
+   "up": 0,
+   "down": 0,
+   "flat": 4,
+   "stocks": 4,
+   "ratio": 0.0
+  },
+  "2026-W42": {
+   "up": 0,
+   "down": 0,
+   "flat": 5,
+   "stocks": 5,
+   "ratio": 0.0
+  }
+ },
+ "유틸리티": {
+  "2026-W41": {
+   "up": 0,
+   "down": 1,
+   "flat": 0,
+   "stocks": 1,
+   "ratio": -1.0
+  }
+ },
+ "은행": {
+  "2026-W41": {
+   "up": 0,
+   "down": 0,
+   "flat": 4,
+   "stocks": 4,
+   "ratio": 0.0
+  },
+  "2026-W42": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  }
+ },
+ "음식료·담배": {
+  "2026-W38": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  },
+  "2026-W39": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  },
+  "2026-W40": {
+   "up": 1,
+   "down": 0,
+   "flat": 1,
+   "stocks": 2,
+   "ratio": 0.5
+  },
+  "2026-W41": {
+   "up": 0,
+   "down": 0,
+   "flat": 3,
+   "stocks": 3,
+   "ratio": 0.0
+  },
+  "2026-W42": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  }
+ },
+ "인터넷·플랫폼": {
+  "2026-W38": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  },
   "2026-W39": {
    "up": 0,
    "down": 0,
@@ -232,80 +447,14 @@
    "stocks": 1,
    "ratio": 0.0
   },
-  "2026-W42": {
-   "up": 1,
-   "down": 0,
-   "flat": 0,
-   "stocks": 1,
-   "ratio": 1.0
-  }
- },
- "유통·소비재": {
   "2026-W41": {
-   "up": 0,
-   "down": 0,
-   "flat": 4,
-   "stocks": 4,
-   "ratio": 0.0
-  },
-  "2026-W42": {
-   "up": 0,
-   "down": 0,
-   "flat": 4,
-   "stocks": 4,
-   "ratio": 0.0
-  }
- },
- "유틸리티": {
-  "2026-W38": {
    "up": 0,
    "down": 0,
    "flat": 1,
    "stocks": 1,
    "ratio": 0.0
   },
-  "2026-W41": {
-   "up": 0,
-   "down": 1,
-   "flat": 0,
-   "stocks": 1,
-   "ratio": -1.0
-  }
- },
- "은행": {
-  "2026-W41": {
-   "up": 0,
-   "down": 0,
-   "flat": 2,
-   "stocks": 2,
-   "ratio": 0.0
-  },
   "2026-W42": {
-   "up": 0,
-   "down": 0,
-   "flat": 1,
-   "stocks": 1,
-   "ratio": 0.0
-  }
- },
- "음식료·담배": {
-  "2026-W40": {
-   "up": 1,
-   "down": 0,
-   "flat": 1,
-   "stocks": 2,
-   "ratio": 0.5
-  },
-  "2026-W41": {
-   "up": 0,
-   "down": 0,
-   "flat": 3,
-   "stocks": 3,
-   "ratio": 0.0
-  }
- },
- "인터넷·플랫폼": {
-  "2026-W40": {
    "up": 0,
    "down": 0,
    "flat": 1,
@@ -324,19 +473,63 @@
   "2026-W41": {
    "up": 0,
    "down": 3,
-   "flat": 1,
-   "stocks": 4,
-   "ratio": -0.75
+   "flat": 2,
+   "stocks": 5,
+   "ratio": -0.6
   },
   "2026-W42": {
    "up": 0,
+   "down": 1,
+   "flat": 4,
+   "stocks": 5,
+   "ratio": -0.2
+  }
+ },
+ "정유·화학": {
+  "2026-W38": {
+   "up": 0,
    "down": 0,
-   "flat": 3,
-   "stocks": 3,
+   "flat": 1,
+   "stocks": 1,
    "ratio": 0.0
+  },
+  "2026-W39": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  },
+  "2026-W41": {
+   "up": 1,
+   "down": 0,
+   "flat": 1,
+   "stocks": 2,
+   "ratio": 0.5
+  },
+  "2026-W42": {
+   "up": 0,
+   "down": 1,
+   "flat": 1,
+   "stocks": 2,
+   "ratio": -0.5
   }
  },
  "제약·바이오": {
+  "2026-W39": {
+   "up": 0,
+   "down": 0,
+   "flat": 2,
+   "stocks": 2,
+   "ratio": 0.0
+  },
+  "2026-W40": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  },
   "2026-W41": {
    "up": 0,
    "down": 1,
@@ -345,20 +538,34 @@
    "ratio": -0.25
   },
   "2026-W42": {
+   "up": 1,
+   "down": 2,
+   "flat": 3,
+   "stocks": 6,
+   "ratio": -0.17
+  }
+ },
+ "조선": {
+  "2026-W38": {
    "up": 0,
    "down": 0,
    "flat": 3,
    "stocks": 3,
    "ratio": 0.0
-  }
- },
- "조선": {
+  },
   "2026-W41": {
    "up": 0,
    "down": 0,
-   "flat": 1,
-   "stocks": 1,
+   "flat": 2,
+   "stocks": 2,
    "ratio": 0.0
+  },
+  "2026-W42": {
+   "up": 0,
+   "down": 3,
+   "flat": 0,
+   "stocks": 3,
+   "ratio": -1.0
   }
  },
  "증권": {
@@ -404,8 +611,8 @@
   "2026-W42": {
    "up": 0,
    "down": 0,
-   "flat": 4,
-   "stocks": 4,
+   "flat": 5,
+   "stocks": 5,
    "ratio": 0.0
   }
  },
@@ -456,6 +663,13 @@
   }
  },
  "호텔·레저": {
+  "2026-W39": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
+  },
   "2026-W40": {
    "up": 0,
    "down": 1,
@@ -469,6 +683,13 @@
    "flat": 0,
    "stocks": 3,
    "ratio": -1.0
+  },
+  "2026-W42": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
   }
  },
  "화장품": {
@@ -487,25 +708,25 @@
    "ratio": 0.0
   },
   "2026-W40": {
-   "up": 0,
+   "up": 2,
    "down": 0,
-   "flat": 12,
-   "stocks": 12,
-   "ratio": 0.0
+   "flat": 13,
+   "stocks": 15,
+   "ratio": 0.13
   },
   "2026-W41": {
    "up": 2,
    "down": 0,
-   "flat": 1,
-   "stocks": 3,
-   "ratio": 0.67
+   "flat": 2,
+   "stocks": 4,
+   "ratio": 0.5
   },
   "2026-W42": {
-   "up": 1,
+   "up": 0,
    "down": 4,
    "flat": 4,
-   "stocks": 9,
-   "ratio": -0.33
+   "stocks": 8,
+   "ratio": -0.5
   }
  }
 }

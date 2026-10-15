@@ -2,12 +2,31 @@
  "id": "010140",
  "code": "010140",
  "name": "삼성중공업",
- "industry": null,
+ "industry": "조선",
  "brokers": [
+  "IBK투자증권",
   "SK증권",
   "상상인증권"
  ],
  "timeline": [
+  {
+   "date": "2026-09-17",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "report",
+   "report_id": "hk_652402",
+   "tp_status": "유지",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 37000.0,
+   "source": "report",
+   "report_id": "hk_652761",
+   "tp_status": "유지",
+   "broker": "IBK투자증권"
+  },
   {
    "date": "2026-10-14",
    "rating": "매수",
@@ -29,6 +48,38 @@
  ],
  "notes": [],
  "observations": [
+  {
+   "date": "2026-09-17",
+   "report_id": "hk_652402",
+   "title": "삼성중공업(010140) 부유식은 내가 잘해",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 40000.0,
+   "tp_status": "유지",
+   "price": 20200.0,
+   "upside_pct": 98.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-07",
+   "report_id": "hk_652761",
+   "title": "삼성중공업(010140) 3Q26 Preview: 환헤지 효과가 극대화되는 시점",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 37000.0,
+   "tp_status": "유지",
+   "price": 19700.0,
+   "upside_pct": 87.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
   {
    "date": "2026-10-14",
    "report_id": "hk_652949",
@@ -65,16 +116,15 @@
  "rating_changes": [
   {
    "date": "2026-10-14",
-   "prev_date": null,
-   "days": null,
+   "prev_date": "2026-09-17",
+   "days": 27,
    "rating_from": "매수",
    "rating_to": "매수",
    "tp_from": 40000.0,
    "tp_to": 35000.0,
    "tp_pct": -12.5,
-   "tp_speed30": null,
+   "tp_speed30": -13.9,
    "report_id": "hk_652949",
-   "implied_prev": true,
    "broker": "SK증권"
   }
  ],
@@ -82,16 +132,49 @@
  "consensus_changes": [],
  "tp_consensus": [
   {
-   "date": "2026-10-14",
-   "mean": 33000,
+   "date": "2026-09-17",
+   "mean": 40000,
+   "n": 1,
+   "brokers": {
+    "SK증권": 40000.0
+   }
+  },
+  {
+   "date": "2026-10-07",
+   "mean": 38500,
    "n": 2,
    "brokers": {
+    "IBK투자증권": 37000.0,
+    "SK증권": 40000.0
+   }
+  },
+  {
+   "date": "2026-10-14",
+   "mean": 34333,
+   "n": 3,
+   "brokers": {
+    "IBK투자증권": 37000.0,
     "SK증권": 35000.0,
     "상상인증권": 31000.0
    }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-10-14",
+   "from": 38500,
+   "to": 36000,
+   "pct": -6.5,
+   "n": 2,
+   "brokers": [
+    "SK증권"
+   ],
+   "report_id": "hk_652949",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-10-14:010140:tp_cons_down:"
+ ]
 }

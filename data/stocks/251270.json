@@ -4,6 +4,8 @@
  "name": "넷마블",
  "industry": "게임",
  "brokers": [
+  "메리츠증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -96,6 +98,24 @@
    "report_id": "hana_1288931",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-02",
+   "rating": "매수",
+   "target_price": 54000.0,
+   "source": "report",
+   "report_id": "hk_652667",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-06",
+   "rating": "매수",
+   "target_price": 55000.0,
+   "source": "report",
+   "report_id": "hk_652687",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -246,6 +266,38 @@
     "consensus": 327.7,
     "gap_pct": -13.3
    }
+  },
+  {
+   "date": "2026-10-02",
+   "report_id": "hk_652667",
+   "title": "넷마블(251270) 재정비",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 54000.0,
+   "tp_status": null,
+   "price": 34900.0,
+   "upside_pct": 54.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-06",
+   "report_id": "hk_652687",
+   "title": "넷마블(251270) 신작 공백이 만든 실적 하향",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 55000.0,
+   "tp_status": "유지",
+   "price": 35350.0,
+   "upside_pct": 55.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -650,6 +702,25 @@
    "mean": 50000,
    "n": 1,
    "brokers": {
+    "하나증권": 50000.0
+   }
+  },
+  {
+   "date": "2026-10-02",
+   "mean": 52000,
+   "n": 2,
+   "brokers": {
+    "메리츠증권": 54000.0,
+    "하나증권": 50000.0
+   }
+  },
+  {
+   "date": "2026-10-06",
+   "mean": 53000,
+   "n": 3,
+   "brokers": {
+    "메리츠증권": 54000.0,
+    "유진투자증권": 55000.0,
     "하나증권": 50000.0
    }
   }

@@ -1,0 +1,53 @@
+[
+ {
+  "id": "2026-10-15:051910:tp_cons_down:",
+  "date": "2026-10-15",
+  "type": "tp_cons_down",
+  "severity": 1.32,
+  "stock_id": "051910",
+  "code": "051910",
+  "name": "LG화학",
+  "industry": "정유·화학",
+  "report_id": "hk_652966",
+  "headline": "목표주가 컨센서스 301,667원 → 281,667원 (-6.6%, 3개사)",
+  "data": {
+   "date": "2026-10-15",
+   "from": 301667,
+   "to": 281667,
+   "pct": -6.6,
+   "n": 3,
+   "brokers": [
+    "메리츠증권"
+   ],
+   "report_id": "hk_652966",
+   "cum30": null
+  },
+  "title": "LG화학(051910) FOMO"
+ },
+ {
+  "id": "2026-10-15:051910:tp_down:메리츠증권",
+  "date": "2026-10-15",
+  "type": "tp_down",
+  "severity": 1.08,
+  "stock_id": "051910",
+  "code": "051910",
+  "name": "LG화학",
+  "industry": "정유·화학",
+  "report_id": "hk_652966",
+  "headline": "메리츠증권 목표주가 370,000원 → 310,000원 (-16.2%)",
+  "data": {
+   "date": "2026-10-15",
+   "prev_date": "2026-10-06",
+   "days": 9,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 370000.0,
+   "tp_to": 310000.0,
+   "tp_pct": -16.2,
+   "tp_speed30": -54.0,
+   "report_id": "hk_652966",
+   "broker": "메리츠증권"
+  },
+  "title": "LG화학(051910) FOMO"
+ }
+]

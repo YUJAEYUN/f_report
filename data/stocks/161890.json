@@ -5,6 +5,7 @@
  "industry": "화장품",
  "brokers": [
   "SK증권",
+  "유안타증권",
   "하나증권"
  ],
  "timeline": [
@@ -72,6 +73,15 @@
    "broker": "하나증권"
   },
   {
+   "date": "2026-09-29",
+   "rating": "매수",
+   "target_price": 185000.0,
+   "source": "report",
+   "report_id": "hk_652599",
+   "tp_status": "상향",
+   "broker": "유안타증권"
+  },
+  {
    "date": "2026-10-14",
    "rating": "매수",
    "target_price": 180000.0,
@@ -89,6 +99,22 @@
   }
  ],
  "observations": [
+  {
+   "date": "2026-09-29",
+   "report_id": "hk_652599",
+   "title": "한국콜마(161890) 튜브 용기 부족에도 견조한 수주, 4분기 기대",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 185000.0,
+   "tp_status": "상향",
+   "price": 148400.0,
+   "upside_pct": 24.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 160000.0
+  },
   {
    "date": "2026-10-14",
    "report_id": "hk_652953",
@@ -185,6 +211,20 @@
    "tp_speed30": 23.2,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-09-29",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 160000.0,
+   "tp_to": 185000.0,
+   "tp_pct": 15.6,
+   "tp_speed30": null,
+   "report_id": "hk_652599",
+   "implied_prev": true,
+   "broker": "유안타증권"
   }
  ],
  "estimate_revisions": [],
@@ -247,16 +287,28 @@
    }
   },
   {
-   "date": "2026-10-14",
-   "mean": 180000,
+   "date": "2026-09-29",
+   "mean": 182500,
    "n": 2,
    "brokers": {
+    "유안타증권": 185000.0,
+    "하나증권": 180000.0
+   }
+  },
+  {
+   "date": "2026-10-14",
+   "mean": 181667,
+   "n": 3,
+   "brokers": {
     "SK증권": 180000.0,
+    "유안타증권": 185000.0,
     "하나증권": 180000.0
    }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-09-29:161890:tp_up:유안타증권"
+ ]
 }

@@ -2,7 +2,7 @@
  "id": "011200",
  "code": "011200",
  "name": "HMM",
- "industry": null,
+ "industry": "운송",
  "brokers": [
   "하나증권"
  ],

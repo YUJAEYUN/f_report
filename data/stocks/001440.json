@@ -2,11 +2,21 @@
  "id": "001440",
  "code": "001440",
  "name": "대한전선",
- "industry": null,
+ "industry": "기계·전력기기",
  "brokers": [
-  "SK증권"
+  "SK증권",
+  "유안타증권"
  ],
  "timeline": [
+  {
+   "date": "2026-10-07",
+   "rating": "매수",
+   "target_price": 48500.0,
+   "source": "report",
+   "report_id": "hk_652775",
+   "tp_status": "유지",
+   "broker": "유안타증권"
+  },
   {
    "date": "2026-10-14",
    "rating": "매수",
@@ -19,6 +29,22 @@
  ],
  "notes": [],
  "observations": [
+  {
+   "date": "2026-10-07",
+   "report_id": "hk_652775",
+   "title": "대한전선(001440) 환율 영향에도 고수익 믹스는 개선",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 48500.0,
+   "tp_status": "유지",
+   "price": 31750.0,
+   "upside_pct": 52.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
   {
    "date": "2026-10-14",
    "report_id": "hk_652952",
@@ -41,11 +67,20 @@
  "consensus_changes": [],
  "tp_consensus": [
   {
-   "date": "2026-10-14",
-   "mean": 33000,
+   "date": "2026-10-07",
+   "mean": 48500,
    "n": 1,
    "brokers": {
-    "SK증권": 33000.0
+    "유안타증권": 48500.0
+   }
+  },
+  {
+   "date": "2026-10-14",
+   "mean": 40750,
+   "n": 2,
+   "brokers": {
+    "SK증권": 33000.0,
+    "유안타증권": 48500.0
    }
   }
  ],

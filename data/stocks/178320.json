@@ -1,0 +1,72 @@
+{
+ "id": "178320",
+ "code": "178320",
+ "name": "서진시스템",
+ "industry": null,
+ "brokers": [
+  "SK증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-09-28",
+   "rating": "매수",
+   "target_price": 70000.0,
+   "source": "report",
+   "report_id": "hk_652556",
+   "tp_status": "상향",
+   "broker": "SK증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-28",
+   "report_id": "hk_652556",
+   "title": "서진시스템(178320) 글로벌 AI 인프라 축을 담당한다",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 70000.0,
+   "tp_status": "상향",
+   "price": 32150.0,
+   "upside_pct": 117.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 55000.0
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2026-09-28",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 55000.0,
+   "tp_to": 70000.0,
+   "tp_pct": 27.3,
+   "tp_speed30": null,
+   "report_id": "hk_652556",
+   "implied_prev": true,
+   "broker": "SK증권"
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-09-28",
+   "mean": 70000,
+   "n": 1,
+   "brokers": {
+    "SK증권": 70000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": [
+  "2026-09-28:178320:tp_up:SK증권"
+ ]
+}

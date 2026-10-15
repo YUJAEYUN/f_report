@@ -1,9 +1,11 @@
 {
- "id": "LG화학",
- "code": null,
+ "id": "051910",
+ "code": "051910",
  "name": "LG화학",
  "industry": "정유·화학",
  "brokers": [
+  "LS증권",
+  "메리츠증권",
   "하나증권"
  ],
  "timeline": [
@@ -78,10 +80,86 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-09-22",
+   "rating": "중립",
+   "target_price": 235000.0,
+   "source": "report",
+   "report_id": "hk_652511",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-06",
+   "rating": "중립",
+   "target_price": 370000.0,
+   "source": "report",
+   "report_id": "hk_652698",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-15",
+   "rating": "중립",
+   "target_price": 310000.0,
+   "source": "report",
+   "report_id": "hk_652966",
+   "tp_status": null,
+   "broker": "메리츠증권"
   }
  ],
  "notes": [],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-09-22",
+   "report_id": "hk_652511",
+   "title": "LG화학(051910) 3분기 일회성 요인 소멸 + 과징금 리스크",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 235000.0,
+   "tp_status": "하향",
+   "price": 258500.0,
+   "upside_pct": -9.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-06",
+   "report_id": "hk_652698",
+   "title": "LG화학(051910) 상향 변수 감감무소식",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 370000.0,
+   "tp_status": null,
+   "price": 262500.0,
+   "upside_pct": 41.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-15",
+   "report_id": "hk_652966",
+   "title": "LG화학(051910) FOMO",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 310000.0,
+   "tp_status": null,
+   "price": 267500.0,
+   "upside_pct": 15.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
  "rating_changes": [
   {
    "date": "2024-10-14",
@@ -173,6 +251,19 @@
    "tp_speed30": -2.7,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-15",
+   "prev_date": "2026-10-06",
+   "days": 9,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 370000.0,
+   "tp_to": 310000.0,
+   "tp_pct": -16.2,
+   "tp_speed30": -54.0,
+   "report_id": "hk_652966",
+   "broker": "메리츠증권"
   }
  ],
  "estimate_revisions": [],
@@ -241,9 +332,54 @@
    "brokers": {
     "하나증권": 300000.0
    }
+  },
+  {
+   "date": "2026-09-22",
+   "mean": 267500,
+   "n": 2,
+   "brokers": {
+    "LS증권": 235000.0,
+    "하나증권": 300000.0
+   }
+  },
+  {
+   "date": "2026-10-06",
+   "mean": 301667,
+   "n": 3,
+   "brokers": {
+    "LS증권": 235000.0,
+    "메리츠증권": 370000.0,
+    "하나증권": 300000.0
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "mean": 281667,
+   "n": 3,
+   "brokers": {
+    "LS증권": 235000.0,
+    "메리츠증권": 310000.0,
+    "하나증권": 300000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-10-15",
+   "from": 301667,
+   "to": 281667,
+   "pct": -6.6,
+   "n": 3,
+   "brokers": [
+    "메리츠증권"
+   ],
+   "report_id": "hk_652966",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-10-15:051910:tp_down:메리츠증권",
+  "2026-10-15:051910:tp_cons_down:"
+ ]
 }

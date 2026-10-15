@@ -4,9 +4,20 @@
  "name": "LG이노텍",
  "industry": null,
  "brokers": [
-  "미래에셋증권"
+  "메리츠증권",
+  "미래에셋증권",
+  "유안타증권"
  ],
  "timeline": [
+  {
+   "date": "2026-09-21",
+   "rating": "매수",
+   "target_price": 1000000.0,
+   "source": "report",
+   "report_id": "hk_652444",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  },
   {
    "date": "2026-10-07",
    "rating": "매수",
@@ -15,10 +26,35 @@
    "report_id": "mirae_2343216",
    "tp_status": "상향",
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-08",
+   "rating": "매수",
+   "target_price": 1200000.0,
+   "source": "report",
+   "report_id": "hk_652840",
+   "tp_status": "하향",
+   "broker": "유안타증권"
   }
  ],
  "notes": [],
  "observations": [
+  {
+   "date": "2026-09-21",
+   "report_id": "hk_652444",
+   "title": "LG이노텍(011070) 파도는 높아도 항로는 그대로",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1000000.0,
+   "tp_status": null,
+   "price": 532000.0,
+   "upside_pct": 88.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
   {
    "date": "2026-10-07",
    "report_id": "mirae_2343216",
@@ -34,6 +70,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 950000.0
+  },
+  {
+   "date": "2026-10-08",
+   "report_id": "hk_652840",
+   "title": "LG이노텍(011070) 3Q26 Pre: 잠시 흐린 렌즈, 선명할 기판",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1200000.0,
+   "tp_status": "하향",
+   "price": 644000.0,
+   "upside_pct": 86.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 1400000.0
   }
  ],
  "rating_changes": [
@@ -50,17 +102,50 @@
    "report_id": "mirae_2343216",
    "implied_prev": true,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-08",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1400000.0,
+   "tp_to": 1200000.0,
+   "tp_pct": -14.3,
+   "tp_speed30": null,
+   "report_id": "hk_652840",
+   "implied_prev": true,
+   "broker": "유안타증권"
   }
  ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
   {
-   "date": "2026-10-07",
-   "mean": 1100000,
+   "date": "2026-09-21",
+   "mean": 1000000,
    "n": 1,
    "brokers": {
+    "메리츠증권": 1000000.0
+   }
+  },
+  {
+   "date": "2026-10-07",
+   "mean": 1050000,
+   "n": 2,
+   "brokers": {
+    "메리츠증권": 1000000.0,
     "미래에셋증권": 1100000.0
+   }
+  },
+  {
+   "date": "2026-10-08",
+   "mean": 1100000,
+   "n": 3,
+   "brokers": {
+    "메리츠증권": 1000000.0,
+    "미래에셋증권": 1100000.0,
+    "유안타증권": 1200000.0
    }
   }
  ],

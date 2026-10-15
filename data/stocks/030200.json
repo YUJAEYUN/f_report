@@ -6,6 +6,7 @@
  "brokers": [
   "메리츠증권",
   "유안타증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -98,6 +99,15 @@
    "report_id": "hk_652934",
    "tp_status": "유지",
    "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-15",
+   "rating": "매수",
+   "target_price": 73000.0,
+   "source": "report",
+   "report_id": "hk_652960",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -228,6 +238,22 @@
    "tp_status": "유지",
    "price": 49750.0,
    "upside_pct": 46.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-15",
+   "report_id": "hk_652960",
+   "title": "KT(030200) 모멘텀 대기 중",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 73000.0,
+   "tp_status": "유지",
+   "price": 49900.0,
+   "upside_pct": 46.3,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -497,6 +523,17 @@
    "brokers": {
     "메리츠증권": 74000.0,
     "유안타증권": 73000.0,
+    "하나증권": 76000.0
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "mean": 74000,
+   "n": 4,
+   "brokers": {
+    "메리츠증권": 74000.0,
+    "유안타증권": 73000.0,
+    "유진투자증권": 73000.0,
     "하나증권": 76000.0
    }
   }

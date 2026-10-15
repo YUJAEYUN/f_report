@@ -1,0 +1,46 @@
+{
+ "id": "077360",
+ "code": "077360",
+ "name": "덕산하이메탈",
+ "industry": null,
+ "brokers": [
+  "메리츠증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-06",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_652703",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-06",
+   "report_id": "hk_652703",
+   "title": "덕산하이메탈(077360) 전방위로 좋아지는 그림",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 14050.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

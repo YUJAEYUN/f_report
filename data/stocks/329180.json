@@ -2,11 +2,21 @@
  "id": "329180",
  "code": "329180",
  "name": "HD현대중공업",
- "industry": null,
+ "industry": "조선",
  "brokers": [
-  "SK증권"
+  "SK증권",
+  "상상인증권"
  ],
  "timeline": [
+  {
+   "date": "2026-09-17",
+   "rating": "매수",
+   "target_price": 970000.0,
+   "source": "report",
+   "report_id": "hk_652399",
+   "tp_status": "유지",
+   "broker": "SK증권"
+  },
   {
    "date": "2026-10-14",
    "rating": "매수",
@@ -15,10 +25,35 @@
    "report_id": "hk_652951",
    "tp_status": "하향",
    "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-15",
+   "rating": "매수",
+   "target_price": 700000.0,
+   "source": "report",
+   "report_id": "hk_652978",
+   "tp_status": null,
+   "broker": "상상인증권"
   }
  ],
  "notes": [],
  "observations": [
+  {
+   "date": "2026-09-17",
+   "report_id": "hk_652399",
+   "title": "HD현대중공업(329180) 발전 엔진으로 또 성장한다",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 970000.0,
+   "tp_status": "유지",
+   "price": 440500.0,
+   "upside_pct": 120.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
   {
    "date": "2026-10-14",
    "report_id": "hk_652951",
@@ -34,21 +69,36 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 970000.0
+  },
+  {
+   "date": "2026-10-15",
+   "report_id": "hk_652978",
+   "title": "HD현대중공업(329180) 업종 내 여전히 매력적인 선택지",
+   "primary": true,
+   "broker": "상상인증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 700000.0,
+   "tp_status": null,
+   "price": 371000.0,
+   "upside_pct": 88.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
   {
    "date": "2026-10-14",
-   "prev_date": null,
-   "days": null,
+   "prev_date": "2026-09-17",
+   "days": 27,
    "rating_from": "매수",
    "rating_to": "매수",
    "tp_from": 970000.0,
    "tp_to": 820000.0,
    "tp_pct": -15.5,
-   "tp_speed30": null,
+   "tp_speed30": -17.2,
    "report_id": "hk_652951",
-   "implied_prev": true,
    "broker": "SK증권"
   }
  ],
@@ -56,11 +106,28 @@
  "consensus_changes": [],
  "tp_consensus": [
   {
+   "date": "2026-09-17",
+   "mean": 970000,
+   "n": 1,
+   "brokers": {
+    "SK증권": 970000.0
+   }
+  },
+  {
    "date": "2026-10-14",
    "mean": 820000,
    "n": 1,
    "brokers": {
     "SK증권": 820000.0
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "mean": 760000,
+   "n": 2,
+   "brokers": {
+    "SK증권": 820000.0,
+    "상상인증권": 700000.0
    }
   }
  ],

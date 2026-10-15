@@ -1,5 +1,32 @@
 [
  {
+  "id": "2026-10-07:064350:tp_down:유안타증권",
+  "date": "2026-10-07",
+  "type": "tp_down",
+  "severity": 3.33,
+  "stock_id": "064350",
+  "code": "064350",
+  "name": "현대로템",
+  "industry": "우주항공·방산",
+  "report_id": "hk_652776",
+  "headline": "유안타증권 목표주가 300,000원 → 150,000원 (-50.0%)",
+  "data": {
+   "date": "2026-10-07",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 300000.0,
+   "tp_to": 150000.0,
+   "tp_pct": -50.0,
+   "tp_speed30": null,
+   "report_id": "hk_652776",
+   "implied_prev": true,
+   "broker": "유안타증권"
+  },
+  "title": "현대로템(064350) 3Q Pre: 컨센서스 부합 전망"
+ },
+ {
   "id": "2026-10-07:253450:tp_streak:하나증권",
   "date": "2026-10-07",
   "type": "tp_streak",
@@ -25,6 +52,56 @@
    "streak": 5
   },
   "title": "미디어(Overweight) : 더 나빠지기도 힘든 2027년을 기대하며"
+ },
+ {
+  "id": "2026-10-07:352820:tp_cons_down:",
+  "date": "2026-10-07",
+  "type": "tp_cons_down",
+  "severity": 1.56,
+  "stock_id": "352820",
+  "code": "352820",
+  "name": "하이브",
+  "industry": "미디어·콘텐츠",
+  "report_id": "hana_1289005",
+  "headline": "목표주가 컨센서스 320,000원 → 295,000원 (-7.8%, 2개사)",
+  "data": {
+   "date": "2026-10-07",
+   "from": 320000,
+   "to": 295000,
+   "pct": -7.8,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289005",
+   "cum30": null
+  },
+  "title": "엔터테인먼트(Overweight) : 남자 아이돌에게 세계관은 필요한 것인가?"
+ },
+ {
+  "id": "2026-10-07:035900:tp_cons_down:",
+  "date": "2026-10-07",
+  "type": "tp_cons_down",
+  "severity": 1.46,
+  "stock_id": "035900",
+  "code": "035900",
+  "name": "JYP Ent.",
+  "industry": "미디어·콘텐츠",
+  "report_id": "hana_1289005",
+  "headline": "목표주가 컨센서스 62,000원 → 57,500원 (-7.3%, 2개사)",
+  "data": {
+   "date": "2026-10-07",
+   "from": 62000,
+   "to": 57500,
+   "pct": -7.3,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289005",
+   "cum30": null
+  },
+  "title": "엔터테인먼트(Overweight) : 남자 아이돌에게 세계관은 필요한 것인가?"
  },
  {
   "id": "2026-10-07:005380:tp_down:하나증권",
@@ -158,6 +235,30 @@
    "broker": "하나증권"
   },
   "title": "엔터테인먼트(Overweight) : 남자 아이돌에게 세계관은 필요한 것인가?"
+ },
+ {
+  "id": "2026-10-07:207940:wave_down:",
+  "date": "2026-10-07",
+  "type": "wave_down",
+  "severity": 1.0,
+  "stock_id": "207940",
+  "code": "207940",
+  "name": "삼성바이오로직스",
+  "industry": "제약·바이오",
+  "report_id": "hk_652760",
+  "headline": "30일 사이 증권사 3곳이 목표주가 하향 (IBK투자증권, 유안타증권, 하나증권)",
+  "data": {
+   "date": "2026-10-07",
+   "direction": -1,
+   "count": 3,
+   "brokers": [
+    "IBK투자증권",
+    "유안타증권",
+    "하나증권"
+   ],
+   "report_id": "hk_652760"
+  },
+  "title": "삼성바이오로직스(207940) 신규 공장이 채운 실적, 수주가 더할 모멘텀"
  },
  {
   "id": "2026-10-07:352820:tp_streak:하나증권",

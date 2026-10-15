@@ -1,0 +1,55 @@
+{
+ "id": "462870",
+ "code": "462870",
+ "name": "시프트업",
+ "industry": null,
+ "brokers": [
+  "메리츠증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-02",
+   "rating": "중립",
+   "target_price": 35000.0,
+   "source": "report",
+   "report_id": "hk_652666",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-02",
+   "report_id": "hk_652666",
+   "title": "시프트업(462870) 2028년을 기대하며",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 35000.0,
+   "tp_status": null,
+   "price": 31200.0,
+   "upside_pct": 12.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-10-02",
+   "mean": 35000,
+   "n": 1,
+   "brokers": {
+    "메리츠증권": 35000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

@@ -1,0 +1,90 @@
+{
+ "id": "064290",
+ "code": "064290",
+ "name": "인텍플러스",
+ "industry": null,
+ "brokers": [
+  "iM증권",
+  "메리츠증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-09-21",
+   "rating": "매수",
+   "target_price": 84000.0,
+   "source": "report",
+   "report_id": "hk_652460",
+   "tp_status": "신규",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-10-02",
+   "rating": "매수",
+   "target_price": 95000.0,
+   "source": "report",
+   "report_id": "hk_652668",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-21",
+   "report_id": "hk_652460",
+   "title": "인텍플러스(064290) 수주 급증·믹스 개선·비용 감소 삼박자",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 84000.0,
+   "tp_status": "신규",
+   "price": 46800.0,
+   "upside_pct": 79.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-02",
+   "report_id": "hk_652668",
+   "title": "인텍플러스(064290) 멈추지 않는 수주 모멘텀",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 95000.0,
+   "tp_status": null,
+   "price": 58000.0,
+   "upside_pct": 63.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-09-21",
+   "mean": 84000,
+   "n": 1,
+   "brokers": {
+    "iM증권": 84000.0
+   }
+  },
+  {
+   "date": "2026-10-02",
+   "mean": 89500,
+   "n": 2,
+   "brokers": {
+    "iM증권": 84000.0,
+    "메리츠증권": 95000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

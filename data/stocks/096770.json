@@ -2,8 +2,9 @@
  "id": "096770",
  "code": "096770",
  "name": "SK이노베이션",
- "industry": "에너지·가스",
+ "industry": "정유·화학",
  "brokers": [
+  "LS증권",
   "메리츠증권",
   "하나증권"
  ],
@@ -90,6 +91,15 @@
    "broker": "하나증권"
   },
   {
+   "date": "2026-10-06",
+   "rating": "매수",
+   "target_price": 187000.0,
+   "source": "report",
+   "report_id": "hk_652721",
+   "tp_status": "상향",
+   "broker": "LS증권"
+  },
+  {
    "date": "2026-10-11",
    "rating": "매수",
    "target_price": 220000.0,
@@ -167,6 +177,22 @@
     "consensus": 9034.4,
     "gap_pct": 31.5
    }
+  },
+  {
+   "date": "2026-10-06",
+   "report_id": "hk_652721",
+   "title": "SK이노베이션(096770) 윤활기유 경쟁력 확인, 정제마진 및 기유 전망 상향",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 187000.0,
+   "tp_status": "상향",
+   "price": 154000.0,
+   "upside_pct": 21.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   },
   {
    "date": "2026-10-11",
@@ -628,38 +654,64 @@
    }
   },
   {
-   "date": "2026-10-11",
-   "mean": 220000,
-   "n": 1,
+   "date": "2026-10-06",
+   "mean": 193500,
+   "n": 2,
    "brokers": {
+    "LS증권": 187000.0,
+    "하나증권": 200000.0
+   }
+  },
+  {
+   "date": "2026-10-11",
+   "mean": 203500,
+   "n": 2,
+   "brokers": {
+    "LS증권": 187000.0,
     "하나증권": 220000.0
    }
   },
   {
    "date": "2026-10-12",
-   "mean": 220000,
-   "n": 1,
+   "mean": 203500,
+   "n": 2,
    "brokers": {
+    "LS증권": 187000.0,
     "하나증권": 220000.0
    }
   },
   {
    "date": "2026-10-14",
-   "mean": 215000,
-   "n": 2,
+   "mean": 205667,
+   "n": 3,
    "brokers": {
+    "LS증권": 187000.0,
     "메리츠증권": 210000.0,
     "하나증권": 220000.0
    }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-10-11",
+   "from": 193500,
+   "to": 203500,
+   "pct": 5.2,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289042",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
  "events": [
   "2026-10-11:096770:tp_streak:하나증권",
   "2026-10-11:096770:tp_accel:하나증권",
   "2026-10-11:096770:est_up:하나증권2026eps",
   "2026-10-11:096770:cons_up:하나증권2027eps",
-  "2026-10-11:096770:gap_above:하나증권"
+  "2026-10-11:096770:gap_above:하나증권",
+  "2026-10-11:096770:tp_cons_up:"
  ]
 }

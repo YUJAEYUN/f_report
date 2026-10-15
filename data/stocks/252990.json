@@ -1,0 +1,46 @@
+{
+ "id": "252990",
+ "code": "252990",
+ "name": "샘씨엔에스",
+ "industry": null,
+ "brokers": [
+  "메리츠증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-09-28",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_652570",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-09-28",
+   "report_id": "hk_652570",
+   "title": "샘씨엔에스(252990) 다음 성장을 여는 3가지 열쇠",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 17930.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

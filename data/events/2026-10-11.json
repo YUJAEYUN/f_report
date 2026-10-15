@@ -7,7 +7,7 @@
   "stock_id": "096770",
   "code": "096770",
   "name": "SK이노베이션",
-  "industry": "에너지·가스",
+  "industry": "정유·화학",
   "report_id": "hana_1289042",
   "headline": "시장 컨센서스 2027년 EPS +21.4% (11,920원 → 14,466원)",
   "data": {
@@ -28,6 +28,31 @@
   "title": "SK이노베이션(096770.KS/매수): E&S 재평가 필요. 그 핵심인 호주 DLNG를 가다"
  },
  {
+  "id": "2026-10-11:251970:tp_cons_up:",
+  "date": "2026-10-11",
+  "type": "tp_cons_up",
+  "severity": 2.66,
+  "stock_id": "251970",
+  "code": "251970",
+  "name": "펌텍코리아",
+  "industry": "화장품",
+  "report_id": "hana_1289044",
+  "headline": "목표주가 컨센서스 75,000원 → 85,000원 (+13.3%, 2개사)",
+  "data": {
+   "date": "2026-10-11",
+   "from": 75000,
+   "to": 85000,
+   "pct": 13.3,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289044",
+   "cum30": null
+  },
+  "title": "펌텍코리아(251970.KQ/매수): 하반기 실적의 다크호스"
+ },
+ {
   "id": "2026-10-11:096770:est_up:하나증권2026eps",
   "date": "2026-10-11",
   "type": "est_up",
@@ -35,7 +60,7 @@
   "stock_id": "096770",
   "code": "096770",
   "name": "SK이노베이션",
-  "industry": "에너지·가스",
+  "industry": "정유·화학",
   "report_id": "hana_1289042",
   "headline": "하나증권 추정 2026년 EPS +25.3% (28,806원 → 36,085원)",
   "data": {
@@ -63,7 +88,7 @@
   "stock_id": "096770",
   "code": "096770",
   "name": "SK이노베이션",
-  "industry": "에너지·가스",
+  "industry": "정유·화학",
   "report_id": "hana_1289042",
   "headline": "하나증권 목표주가 상향 속도 가속 (30일 환산 +3.7% → +14.3%)",
   "data": {
@@ -154,7 +179,7 @@
   "stock_id": "096770",
   "code": "096770",
   "name": "SK이노베이션",
-  "industry": "에너지·가스",
+  "industry": "정유·화학",
   "report_id": "hana_1289042",
   "headline": "하나증권 2026년 영업이익 추정이 컨센서스보다 33% 높음",
   "data": {
@@ -174,7 +199,7 @@
   "stock_id": "096770",
   "code": "096770",
   "name": "SK이노베이션",
-  "industry": "에너지·가스",
+  "industry": "정유·화학",
   "report_id": "hana_1289042",
   "headline": "하나증권 목표주가 4회 연속 상향",
   "data": {
@@ -190,6 +215,31 @@
    "report_id": "hana_1289042",
    "broker": "하나증권",
    "streak": 4
+  },
+  "title": "SK이노베이션(096770.KS/매수): E&S 재평가 필요. 그 핵심인 호주 DLNG를 가다"
+ },
+ {
+  "id": "2026-10-11:096770:tp_cons_up:",
+  "date": "2026-10-11",
+  "type": "tp_cons_up",
+  "severity": 1.04,
+  "stock_id": "096770",
+  "code": "096770",
+  "name": "SK이노베이션",
+  "industry": "정유·화학",
+  "report_id": "hana_1289042",
+  "headline": "목표주가 컨센서스 193,500원 → 203,500원 (+5.2%, 2개사)",
+  "data": {
+   "date": "2026-10-11",
+   "from": 193500,
+   "to": 203500,
+   "pct": 5.2,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289042",
+   "cum30": null
   },
   "title": "SK이노베이션(096770.KS/매수): E&S 재평가 필요. 그 핵심인 호주 DLNG를 가다"
  },

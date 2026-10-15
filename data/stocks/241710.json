@@ -4,6 +4,7 @@
  "name": "코스메카코리아",
  "industry": "화장품",
  "brokers": [
+  "유안타증권",
   "하나증권"
  ],
  "timeline": [
@@ -69,6 +70,15 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-09-28",
+   "rating": "매수",
+   "target_price": 150000.0,
+   "source": "report",
+   "report_id": "hk_652554",
+   "tp_status": "상향",
+   "broker": "유안타증권"
   }
  ],
  "notes": [
@@ -78,7 +88,24 @@
    "broker": "하나증권"
   }
  ],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-09-28",
+   "report_id": "hk_652554",
+   "title": "코스메카코리아(241710) 3분기 눈높이 조정, 성장 기대는 유효",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 150000.0,
+   "tp_status": "상향",
+   "price": 127300.0,
+   "upside_pct": 17.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 120000.0
+  }
+ ],
  "rating_changes": [
   {
    "date": "2025-01-07",
@@ -158,6 +185,20 @@
    "tp_speed30": null,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-09-28",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 120000.0,
+   "tp_to": 150000.0,
+   "tp_pct": 25.0,
+   "tp_speed30": null,
+   "report_id": "hk_652554",
+   "implied_prev": true,
+   "broker": "유안타증권"
   }
  ],
  "estimate_revisions": [],
@@ -210,9 +251,20 @@
    "brokers": {
     "하나증권": 147000.0
    }
+  },
+  {
+   "date": "2026-09-28",
+   "mean": 148500,
+   "n": 2,
+   "brokers": {
+    "유안타증권": 150000.0,
+    "하나증권": 147000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-09-28:241710:tp_up:유안타증권"
+ ]
 }

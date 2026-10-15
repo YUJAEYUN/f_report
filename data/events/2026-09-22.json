@@ -18,5 +18,32 @@
    "gap_pct": -67.5
   },
   "title": "대한항공 (003490.KS/매수): 3Q26 Pre: 걱정 없이 보내는 2026년, 기대되는 2027년"
+ },
+ {
+  "id": "2026-09-22:352820:tp_down:SK증권",
+  "date": "2026-09-22",
+  "type": "tp_down",
+  "severity": 1.14,
+  "stock_id": "352820",
+  "code": "352820",
+  "name": "하이브",
+  "industry": "미디어·콘텐츠",
+  "report_id": "hk_652500",
+  "headline": "SK증권 목표주가 350,000원 → 290,000원 (-17.1%)",
+  "data": {
+   "date": "2026-09-22",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 350000.0,
+   "tp_to": 290000.0,
+   "tp_pct": -17.1,
+   "tp_speed30": null,
+   "report_id": "hk_652500",
+   "implied_prev": true,
+   "broker": "SK증권"
+  },
+  "title": "하이브(352820) BTS로 만든 외형 성장, 앞으로 핵심은 의존도 완화"
  }
 ]
