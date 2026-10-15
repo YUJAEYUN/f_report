@@ -214,7 +214,15 @@ def meta_block(r: dict) -> str:
     return "\n".join(f"{k}: {meta.get(k)}" for k in keys) + f"\ndesk: {desk_of(r)}"
 
 
+# 이번 실행이 사용량 한도로 멈췄는지 (워크플로가 실패 대신 경고로 표시하는 데 쓴다)
+RATE_LIMITED = False
+EXIT_RATE_LIMITED = 3
+
+
 def abort_reason(e: LLMError) -> str:
+    global RATE_LIMITED
+    if isinstance(e, LLMRateLimitError):
+        RATE_LIMITED = True
     if isinstance(e, LLMAuthError):
         return "인증 실패 (CLAUDE_CODE_OAUTH_TOKEN 확인)"
     if isinstance(e, LLMRateLimitError):
@@ -820,6 +828,9 @@ def main() -> int:
         Path(args.status_file).write_text(json.dumps({
             "summarized": summarized_count, "remaining": remaining, "aborted": aborted,
         }), encoding="utf-8")
+    if (aborted or failed_explain) and (RATE_LIMITED or signals.RATE_LIMITED) and not failed:
+        # 사용량 한도는 시간이 지나면 풀린다: 처리한 만큼 커밋하고 다음 실행에서 이어 간다
+        return EXIT_RATE_LIMITED
     return 1 if aborted or failed or failed_explain else 0
 
 
