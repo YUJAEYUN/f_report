@@ -27,7 +27,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-from .base import ReportCollector, RawReportItem, ReportType
+from .base import ReportCollector, RawReportItem, ReportType, in_range, page_done
 from ..pdf_extract import extract_text_from_pdf_bytes
 
 SITE_ROOT = "https://www.hanaw.com"
@@ -167,6 +167,7 @@ class HanaCollector(ReportCollector):
         self,
         max_pages: int,
         seen_ids: Optional[set[str]] = None,
+        since: Optional[str] = None,
     ) -> Iterator[RawReportItem]:
         seen_ids = seen_ids or set()
         for cur_page in range(1, max_pages + 1):
@@ -182,10 +183,10 @@ class HanaCollector(ReportCollector):
                     )
                 break
 
-            new_items = [it for it in items if it.report_id not in seen_ids]
+            new_items = [it for it in items if it.report_id not in seen_ids and in_range(it, since)]
             yield from new_items
-            if not new_items:
-                # 한 페이지 전체가 이미 수집된 항목이면 그 뒤는 볼 필요 없다.
+            if page_done(items, new_items, since):
+                # 평소: 한 페이지 전체가 이미 수집된 항목이면 그 뒤는 볼 필요 없다.
                 break
 
     def download_pdf_text(self, pdf_url: str) -> str:

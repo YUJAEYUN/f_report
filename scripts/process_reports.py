@@ -325,12 +325,13 @@ def validate_insight(obj: dict) -> dict:
         if not value:
             raise LLMError(f"insight.{key} 누락")
         insight[key] = value
+    # 확인할 점은 가끔 빠진다. 변화·의미가 있으면 요약 전체를 버리지 않고 빈 목록으로 둔다.
     watch_points = insight.get("watch_points")
+    if isinstance(watch_points, str):
+        watch_points = [watch_points]
     if not isinstance(watch_points, list):
-        raise LLMError("insight.watch_points 형식 오류")
+        watch_points = []
     insight["watch_points"] = [str(x).strip() for x in watch_points if str(x).strip()][:3]
-    if not insight["watch_points"]:
-        raise LLMError("insight.watch_points 누락")
     return insight
 
 
@@ -383,7 +384,11 @@ def backfill_insights(reports: list[tuple[Path, dict]], limit: int) -> bool:
 
 
 def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set[str], bool]:
-    """요약이 없는 리포트를 limit건까지 처리."""
+    """요약이 없는 리포트를 limit건까지 처리. 반환: (요약한 발행일, 중단 여부).
+
+    한 건의 응답 형식 오류는 건너뛰고(다음 실행에서 다시 시도) 경고만 남긴다. 작업을 실패로
+    표시하는 건 인증 실패·사용량 한도·연속 실패로 중단했을 때뿐이다.
+    """
     pending = [
         (p, r) for p, r in reports
         if "summary" not in r
@@ -396,7 +401,7 @@ def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set
     print(f"[summarize] 대기 {len(pending)}건, 이번 실행 최대 {limit}건")
     touched_dates: set[str] = set()
     failures = 0
-    any_failure = False
+    skipped: list[str] = []
     for path, r in pending[:limit]:
         try:
             obj = ask_json(build_summary_prompt(r))
@@ -407,7 +412,7 @@ def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set
             if isinstance(e, (LLMAuthError, LLMRateLimitError)) or failures >= MAX_CONSECUTIVE_FAILURES:
                 print(f"[summarize] 중단: {abort_reason(e)}")
                 return touched_dates, True
-            any_failure = True
+            skipped.append(r["report_id"])
             continue
         failures = 0
         r["summary"] = summary
@@ -423,7 +428,9 @@ def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set
         touched_dates.add(r["published_date"])
         print(f"  [{r['published_date']}] {r['report_id']} {r['title'][:40]} -> "
               f"{r['desk']} {r.get('industries', '')} {r.get('themes', '')}", flush=True)
-    return touched_dates, any_failure
+    if skipped:
+        print(f"::warning::요약 {len(skipped)}건 건너뜀 (응답 형식 오류, 다음 실행에서 다시 시도): {', '.join(skipped)}")
+    return touched_dates, False
 
 
 # ---------- 1-b) retag (요약 기반 재태깅) ----------

@@ -138,3 +138,24 @@ class MultiBrokerSignalTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class BackfillPagingTest(unittest.TestCase):
+    def item(self, d, rid="1"):
+        from scripts.collectors.base import RawReportItem
+        return RawReportItem(source="hk", bbs_cd="b", bbs_seq=rid, report_type=ReportType.INDIVIDUAL, title="t",
+                             analyst=None, published_date=d, published_time=None, category="", breadcrumb="",
+                             preview_text="", pdf_url=None, pdf_filename=None, source_url="", collected_at="")
+
+    def test_page_done(self):
+        from scripts.collectors.base import page_done
+        items = [self.item("2026-10-14"), self.item("2026-10-13")]
+        self.assertTrue(page_done(items, [], None))            # 평소: 전부 본 페이지면 멈춤
+        self.assertFalse(page_done(items, [], "2026-09-17"))   # 몰아받기: 계속
+        self.assertTrue(page_done([self.item("2026-09-16")], [], "2026-09-17"))  # since보다 오래된 페이지면 멈춤
+
+    def test_in_range(self):
+        from scripts.collectors.base import in_range
+        self.assertTrue(in_range(self.item("2026-09-17"), "2026-09-17"))
+        self.assertFalse(in_range(self.item("2026-09-16"), "2026-09-17"))
+        self.assertTrue(in_range(self.item("2026-09-01"), None))

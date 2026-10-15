@@ -16,7 +16,7 @@ from typing import Iterator, Optional
 
 from bs4 import BeautifulSoup
 
-from .base import RawReportItem, ReportCollector, ReportType
+from .base import RawReportItem, ReportCollector, ReportType, in_range, page_done
 from .http import PoliteSession
 from ..pdf_extract import extract_text_from_pdf_bytes
 
@@ -99,7 +99,8 @@ class MiraeCollector(ReportCollector):
             ))
         return items
 
-    def iter_recent_reports(self, max_pages: int, seen_ids: Optional[set[str]] = None) -> Iterator[RawReportItem]:
+    def iter_recent_reports(self, max_pages: int, seen_ids: Optional[set[str]] = None,
+                            since: Optional[str] = None) -> Iterator[RawReportItem]:
         seen_ids = seen_ids or set()
         for page in range(1, max_pages + 1):
             items = self.parse_list_page(self.fetch_list_page(page))
@@ -107,9 +108,9 @@ class MiraeCollector(ReportCollector):
                 if page == 1:
                     raise RuntimeError("미래에셋 리서치 목록 1페이지에서 리포트를 찾지 못했습니다. 사이트 구조 변경이나 차단 여부를 확인하세요.")
                 break
-            new = [it for it in items if it.report_id not in seen_ids]
+            new = [it for it in items if it.report_id not in seen_ids and in_range(it, since)]
             yield from new
-            if not new:
+            if page_done(items, new, since):
                 break
 
     def download_pdf_text(self, pdf_url: str) -> str:

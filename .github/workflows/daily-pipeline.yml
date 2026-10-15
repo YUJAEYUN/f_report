@@ -7,6 +7,10 @@ on:
         description: "최대 조회 페이지 수 (페이지당 10건)"
         required: false
         default: "10"
+      since:
+        description: "과거분 몰아받기: 이 날짜(YYYY-MM-DD) 이후 리포트를 끝까지 받는다 (비우면 평소처럼 새 것만)"
+        required: false
+        default: ""
   schedule:
     # 평일 KST 17:47 하루 한 번 (UTC 08:47). 그날 리포트 대부분이 올라온 뒤 받는다.
     # GitHub은 정각에 몰린 예약을 몇 시간씩 미루기도 해서 정각을 피한다.
@@ -26,7 +30,7 @@ concurrency:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120  # 평소 20분 안팎, 과거분 몰아받기(since)는 더 걸린다
     steps:
       - uses: actions/checkout@v4
 
@@ -45,7 +49,15 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run collect + extract pipeline
-        run: python scripts/run_pipeline.py --max-pages "${{ github.event.inputs.max_pages || '10' }}"
+        env:
+          SINCE: ${{ github.event.inputs.since }}
+          MAX_PAGES: ${{ github.event.inputs.max_pages || '10' }}
+        run: |
+          args=(--max-pages "$MAX_PAGES")
+          if [ -n "$SINCE" ]; then
+            args+=(--since "$SINCE")
+          fi
+          python scripts/run_pipeline.py "${args[@]}"
 
       # 원문을 먼저 올린다: main 커밋이 올라가면 process-reports가 바로 원문을 읽기 때문
       - name: Commit raw text
