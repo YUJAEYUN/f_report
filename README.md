@@ -30,6 +30,9 @@
   방향과 속도가 크게 바뀐 지점(목표주가 급변, 연속 조정, 속도 가속, 추정치·컨센서스 급변,
   컨센서스와의 괴리, 산업 리비전 방향 전환)을 이벤트로 표시한다. 종목 페이지에서 목표주가
   추이와 추정치 이력을 본다.
+- **급락 국면 종합**: 사이드카·지수 급락 같은 신호가 여러 증권사 시황 리포트에 잡히면, 그 기간의
+  시각을 촉발·확산·증폭의 인과 구조로 엮고, 논리의 빈틈과 시간축별 판단·반증 조건을 정리한다
+  (`insights/drawdown/`).
 
 ![리포트 상세 화면](docs/images/report.png)
 
@@ -80,6 +83,22 @@ AI 논리 평가로 보완한다. 실적 추정치·컨센서스 표는 아직 �
    리포트 상세에서 “AI 평가” 버튼을 누르면 그 리포트만 Opus로 논리를 평가한다.
    평가 결과를 커밋하면 대시보드가 다시 빌드돼 화면에 반영된다.
 
+5. **급락 국면 종합** — `drawdown-synthesis`
+
+   `process-reports`가 끝나면 최근 2일 시황·전략·데일리 리포트에서 급락 신호 문구(사이드카, 지수 급락,
+   투매 등)를 센다. 3건 이상이면(`config/drawdown.json`) 최근 5일의 관련 시황·전략 리포트, 데일리 코멘트,
+   관련 산업·기업 리포트, 숫자 변화 이벤트를 묶어 Opus로 `insights/drawdown/{날짜}.md`를 만든다.
+   이전 급락 종합이 있으면 그때의 반증 조건이 이번에 나타났는지도 점검한다. 신호가 없으면 LLM을 부르지 않는다.
+   날짜를 지정한 수동 실행도 된다.
+
+   공개 리포트에 없는 시각(운용사, 내부 자료)은 직접 읽고 쓴 메모로 넣는다. 메모는 `notes/`(git 제외)에 두고
+   로컬에서 실행한다. Claude Code에서는 `/drawdown`으로 메모를 받아 재료를 묶고, 숫자는 웹 검색으로 확인해 쓴다.
+
+   ```bash
+   python scripts/drawdown.py --date 2026-10-15 --dry-run                   # 감지 결과와 재료 목록 (LLM 없음)
+   python scripts/drawdown.py --date 2026-10-15 --memo notes/2026-10-15.md  # 메모 포함 종합
+   ```
+
 - 각 단계의 규칙은 `skills/*/SKILL.md`에 있고, 이 파일을 프롬프트에 그대로 넣어 따르게 한다.
 - LLM은 Claude Code CLI(`claude -p`, 도구 비활성화)를 로그인 토큰으로 호출한다.
   파이썬 스크립트가 파일 입출력을 맡고, LLM과는 텍스트만 주고받는다.
@@ -112,6 +131,7 @@ scripts/
   run_pipeline.py           수집 → 추출
   process_reports.py        요약 → 태깅 → 테마 병합 → 브리핑 → 주간 인사이트 → 다이제스트
   evaluate_reports.py       AI 논리 평가
+  drawdown.py               급락 신호 감지 → 재료 묶기 → 급락 국면 종합
   estimates.py              원문에서 투자의견·목표주가·추정치·컨센서스·이력표 파싱 (LLM 없음)
   signals.py                종목별 시계열, 변화 계산, 이벤트 발행, 변경 이유(LLM)
   llm.py                    Claude Code CLI 호출 래퍼
@@ -120,12 +140,16 @@ scripts/
 data/                       리포트, 산업 브리핑, 테마 인덱스
   stocks/ events/ signals/  종목별 숫자 이력, 날짜별 이벤트, 인덱스 (signals.py가 매번 재계산)
 insights/weekly/            주간 인사이트
+insights/drawdown/          급락 국면 종합 (날짜별 .md + 근거 목록 .json)
+notes/                      작성자 메모 (git 제외, 급락 종합 --memo 입력)
 digest/                     일간 다이제스트
 config/taxonomy.json        desk 매핑 + 산업 목록
 config/sources.json         수집 소스 켜기/끄기, 한경에서 뺄 증권사
 config/events.json          숫자 변화 이벤트 임계값
+config/drawdown.json        급락 신호 감지 기준, 재료 범위
+.claude/skills/drawdown/    Claude Code에서 쓰는 대화형 급락 종합 절차
 web/                        대시보드 (Next.js, Vercel)
-.github/workflows/          daily-pipeline, process-reports, evaluate-reports
+.github/workflows/          daily-pipeline, process-reports, evaluate-reports, drawdown-synthesis
 ```
 
 ## 숫자 변화 추적

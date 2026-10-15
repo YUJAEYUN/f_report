@@ -1,0 +1,126 @@
+name: drawdown-synthesis
+run-name: "drawdown-synthesis ${{ inputs.date || 'auto' }}"
+
+# 급락 국면 종합 (scripts/drawdown.py, skills/synthesize-drawdown).
+# - 자동: process-reports가 끝나면 오늘(KST) 시황·데일리 리포트에서 급락 신호를 찾고,
+#   기준(config/drawdown.json)을 넘을 때만 insights/drawdown/{날짜}.md를 만든다.
+# - 수동: 날짜를 지정해 실행한다 (신호가 약해도 만든다).
+# 요약·태그만 읽으므로 raw-text 브랜치는 받지 않는다. 작성자 메모(--memo)는 로컬 실행에서만 쓴다.
+# 인증은 process-reports와 같은 Secret CLAUDE_CODE_OAUTH_TOKEN, 모델은 Variable CLAUDE_REVIEW_MODEL
+# (비우면 claude-opus-5-5).
+
+on:
+  workflow_run:
+    workflows: [process-reports]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "대상일 (YYYY-MM-DD). 비우면 오늘(KST) 급락 신호가 있을 때만"
+        required: false
+        default: ""
+      redo:
+        description: "이미 있어도 다시 생성"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  # repo-data-writes 그룹에 넣지 않는다 (그룹당 대기 실행 1개라 수집/가공 대기 실행을 취소시킬 수 있음).
+  # insights/drawdown/ 만 쓰므로 push 충돌은 rebase 재시도로 처리한다.
+  group: drawdown-synthesis
+  cancel-in-progress: false
+
+jobs:
+  synthesize:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Detect drawdown
+        id: detect
+        env:
+          TARGET_DATE: ${{ github.event.inputs.date }}
+          REDO: ${{ github.event.inputs.redo }}
+        run: |
+          # LLM 설치 전에 신호부터 본다. 자동 실행에서 신호가 없으면 여기서 끝낸다.
+          if [ -n "$TARGET_DATE" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          out="$(python scripts/drawdown.py --auto --dry-run)"
+          echo "$out"
+          if echo "$out" | grep -q "급락 국면 아님"; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          elif [ -f "insights/drawdown/$(TZ=Asia/Seoul date +%Y-%m-%d).md" ] && [ "$REDO" != "true" ]; then
+            echo "오늘 급락 종합이 이미 있습니다."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.detect.outputs.run == 'true'
+        with:
+          node-version: "22"
+
+      - name: Install Claude Code CLI
+        if: steps.detect.outputs.run == 'true'
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Synthesize
+        if: steps.detect.outputs.run == 'true'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          CLAUDE_REVIEW_MODEL: ${{ vars.CLAUDE_REVIEW_MODEL }}
+          TARGET_DATE: ${{ github.event.inputs.date }}
+          REDO: ${{ github.event.inputs.redo }}
+        run: |
+          if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
+            echo "::error::Secret CLAUDE_CODE_OAUTH_TOKEN 이 없습니다. 'claude setup-token'으로 발급해 등록하세요."
+            exit 1
+          fi
+          CLAUDE_CODE_OAUTH_TOKEN="$(printf '%s' "$CLAUDE_CODE_OAUTH_TOKEN" | tr -d "[:space:]\"'")"
+          export CLAUDE_CODE_OAUTH_TOKEN
+          if [ -n "$TARGET_DATE" ]; then
+            args=(--date "$TARGET_DATE")
+          else
+            args=(--auto)
+          fi
+          if [ "$REDO" = "true" ]; then
+            args+=(--redo)
+          fi
+          python scripts/drawdown.py "${args[@]}"
+
+      - name: Commit
+        if: steps.detect.outputs.run == 'true'
+        run: |
+          git config user.name "YUJAEYUN"
+          git config user.email "86181002+YUJAEYUN@users.noreply.github.com"
+          git add insights/drawdown/
+          if git diff --cached --quiet; then
+            echo "변경 사항 없음"
+            exit 0
+          fi
+          git commit -m "chore: drawdown synthesis $(TZ=Asia/Seoul date +%Y-%m-%dT%H:%M)"
+          for i in 1 2 3 4 5; do
+            if ! git pull --rebase; then
+              git rebase --abort
+              echo "::error::급락 종합 커밋이 다른 커밋과 충돌했습니다. 다시 실행하세요."
+              exit 1
+            fi
+            git push && exit 0
+            sleep $((i * 10))
+          done
+          exit 1

@@ -1,0 +1,15 @@
+{
+  "_comment": "급락 종합(scripts/drawdown.py) 설정. detect_*: 대상일 포함 detect_days일 동안 시장 desk(+데일리) 리포트 중 detect_pattern에 걸린 리포트가 detect_min_reports건 이상이면 급락 국면으로 본다. relevance_pattern/min_relevance: 시황 desk에는 ESG·개별 기업 코멘트도 섞여 있어, 서로 다른 시장 관련 단어가 min_relevance개 이상 나온 리포트만 재료로 쓴다(산업·기업 리포트도 같은 기준, 점수 높은 순). lookback_days: 재료로 모을 기간. max_*: 프롬프트에 넣을 카드 상한(최신순). heavy model은 CLAUDE_REVIEW_MODEL(비우면 claude-opus-5-5)을 쓴다.",
+  "detect_days": 2,
+  "detect_min_reports": 3,
+  "detect_pattern": "사이드카|서킷\\s*브레이커|(코스피|코스닥|KOSPI|KOSDAQ|증시|지수)[^.\\n\"]{0,12}(급락|폭락)|패닉\\s*셀|투매|반대매매",
+  "market_desks": ["시황·전략", "채권·금리", "크레딧", "퀀트", "포트폴리오"],
+  "relevance_pattern": "코스피|코스닥|KOSPI|KOSDAQ|국내 증시|한국 증시|외국인|수급|순매도|환율|원/달러|달러-원|금리|물가|CPI|반도체|메모리|밸류에이션|이익 추정|EPS|이동평균|200일|사이드카|급락|폭락|투매|반등",
+  "min_relevance": 3,
+  "lookback_days": 5,
+  "max_market_cards": 30,
+  "max_daily_cards": 15,
+  "max_industry_cards": 15,
+  "max_events": 15,
+  "previous_within_days": 60
+}
