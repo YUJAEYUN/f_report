@@ -13,12 +13,11 @@
   "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289127&attachFileSeq=1&bbsId=&dbType=&bbsCd=2206",
   "pdf_filename": "HGE1015.pdf",
   "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2206&bbsSeq=1289127",
-  "collected_at": "2026-10-15T10:47:14+09:00",
+  "collected_at": "2026-10-15T13:43:59+00:00",
   "broker": "하나증권",
   "stock_code": null,
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hana_1289127",
-  "text_chars": 0,
-  "pdf_error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  "text_chars": 12406
 }
