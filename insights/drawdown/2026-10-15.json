@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-15",
+  "window": [
+    "2026-10-11",
+    "2026-10-15"
+  ],
+  "trigger": [
+    {
+      "report_id": "hk_652916",
+      "published_date": "2026-10-14",
+      "broker": "IBK투자증권",
+      "title": "IBKS Morning Brief",
+      "match": "사이드카"
+    },
+    {
+      "report_id": "hk_652919",
+      "published_date": "2026-10-14",
+      "broker": "IBK투자증권",
+      "title": "start with ibks",
+      "match": "사이드카"
+    },
+    {
+      "report_id": "hk_652922",
+      "published_date": "2026-10-14",
+      "broker": "LS증권",
+      "title": "급락 코멘트: 수급 취약성 현실화 됐지만, 분할매수 시작해 볼만한 레벨",
+      "match": "KOSPI 6,000pt 하회 급락"
+    },
+    {
+      "report_id": "hk_652927",
+      "published_date": "2026-10-14",
+      "broker": "상상인증권",
+      "title": "상상인 Macro Daily",
+      "match": "사이드카"
+    },
+    {
+      "report_id": "hk_652947",
+      "published_date": "2026-10-14",
+      "broker": "대신증권",
+      "title": "morning meeting brief",
+      "match": "KOSPI 급락"
+    },
+    {
+      "report_id": "hk_652956",
+      "published_date": "2026-10-14",
+      "broker": "SK증권",
+      "title": "wake up! 아침에 슼",
+      "match": "사이드카"
+    },
+    {
+      "report_id": "hk_652957",
+      "published_date": "2026-10-14",
+      "broker": "SK증권",
+      "title": "wake up! 아침에 슼",
+      "match": "코스피가 5%대 급락"
+    },
+    {
+      "report_id": "hana_1289112",
+      "published_date": "2026-10-14",
+      "broker": "하나증권",
+      "title": "Hana Global Guru Eye",
+      "match": "투매"
+    },
+    {
+      "report_id": "hana_1289113",
+      "published_date": "2026-10-14",
+      "broker": "하나증권",
+      "title": "Hana Guru Eye",
+      "match": "사이드카"
+    },
+    {
+      "report_id": "hk_652975",
+      "published_date": "2026-10-15",
+      "broker": "상상인증권",
+      "title": "상상인 Macro Daily",
+      "match": "투매"
+    },
+    {
+      "report_id": "hk_652988",
+      "published_date": "2026-10-15",
+      "broker": "SK증권",
+      "title": "wake up! 아침에 슼",
+      "match": "증시가 하락하고 기술주가 급락"
+    },
+    {
+      "report_id": "mirae_2343387",
+      "published_date": "2026-10-15",
+      "broker": "미래에셋증권",
+      "title": "마켓 뷰(10월 15일): 6000·800 하회",
+      "match": "사이드카"
+    }
+  ],
+  "report_ids": {
+    "market": [
+      "hk_652991",
+      "hk_652988",
+      "hk_652987",
+      "hk_652974",
+      "hk_652968",
+      "hk_652957",
+      "hk_652956",
+      "hk_652929",
+      "hk_652922",
+      "hk_652919",
+      "hk_652918",
+      "hana_1289106",
+      "hana_1289098",
+      "hana_1289095",
+      "hk_652914",
+      "hk_652913",
+      "hk_652911",
+      "hana_1289075",
+      "hana_1289069",
+      "hana_1289064",
+      "hana_1289063",
+      "hana_1289061",
+      "hana_1289060",
+      "mirae_2343291",
+      "hana_1289046"
+    ],
+    "daily": [
+      "hana_1289126",
+      "mirae_2343387",
+      "mirae_2343378",
+      "hk_652990",
+      "hk_652976",
+      "hk_652975",
+      "hk_652963",
+      "hana_1289125",
+      "hana_1289113",
+      "hana_1289112",
+      "mirae_2343377",
+      "mirae_2343364",
+      "mirae_2343344",
+      "hk_652947",
+      "hk_652927"
+    ],
+    "industry": [
+      "hk_652972",
+      "hk_652950",
+      "hk_652943",
+      "hk_652932",
+      "hk_652926",
+      "hk_652917",
+      "hk_652915",
+      "hana_1289103",
+      "hk_652900",
+      "hk_652888",
+      "hk_652864",
+      "hk_652859",
+      "hk_652856",
+      "hana_1289058",
+      "hana_1289040"
+    ]
+  },
+  "memo_used": false,
+  "previous": null,
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-10-15T17:02:14+09:00"
+}
