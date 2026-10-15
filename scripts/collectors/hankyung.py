@@ -18,7 +18,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
-from .base import RawReportItem, ReportCollector, ReportType
+from .base import RawReportItem, ReportCollector, ReportType, in_range, page_done
 from .http import PoliteSession
 from ..pdf_extract import extract_text_from_pdf_bytes
 
@@ -130,18 +130,21 @@ class HankyungCollector(ReportCollector):
             ))
         return items, rows
 
-    def iter_recent_reports(self, max_pages: int, seen_ids: Optional[set[str]] = None) -> Iterator[RawReportItem]:
+    def iter_recent_reports(self, max_pages: int, seen_ids: Optional[set[str]] = None,
+                            since: Optional[str] = None) -> Iterator[RawReportItem]:
         seen_ids = seen_ids or set()
+        if since:  # 목록 조회 기간 자체를 since부터로
+            self.lookback_days = max(self.lookback_days, (self.today - date.fromisoformat(since)).days)
         any_rows = False
         for skin in self.skin_types:
             for page in range(1, max_pages + 1):
                 items, rows = self.parse_list_page(self.fetch_list_page(skin, page), skin)
                 any_rows |= rows > 0
-                new = [it for it in items if it.report_id not in seen_ids]
+                new = [it for it in items if it.report_id not in seen_ids and in_range(it, since)]
                 yield from new
                 if rows < self.page_size:  # 마지막 페이지
                     break
-                if items and not new:  # 한 페이지 전체가 이미 본 항목이면 그 뒤도 본 것
+                if page_done(items, new, since):  # 평소: 한 페이지 전체가 이미 본 항목이면 그 뒤도 본 것
                     break
         if not any_rows and self.today.weekday() < 5:
             raise RuntimeError("한경 컨센서스 목록에서 리포트를 하나도 찾지 못했습니다. 사이트 구조 변경이나 차단 여부를 확인하세요.")

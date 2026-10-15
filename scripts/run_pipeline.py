@@ -66,7 +66,8 @@ def move_inline_text() -> int:
     return moved
 
 
-def run(max_pages: int = 10, skip_pdf: bool = False, sources: list[str] | None = None) -> tuple[list[str], list[str], list[str]]:
+def run(max_pages: int = 10, skip_pdf: bool = False, sources: list[str] | None = None,
+        since: str | None = None) -> tuple[list[str], list[str], list[str]]:
     """켜 둔 소스의 신규 리포트를 수집해 data/reports/{발행일}/{report_id}.json으로 저장한다.
 
     반환값은 (저장 완료 report_id 목록, PDF 추출 실패 report_id 목록, 실패한 소스 목록).
@@ -79,7 +80,7 @@ def run(max_pages: int = 10, skip_pdf: bool = False, sources: list[str] | None =
     for collector in build_collectors(sources):
         print(f"[{collector.source_name}] 수집 시작", flush=True)
         try:
-            s, f = run_one(collector, max_pages, skip_pdf)
+            s, f = run_one(collector, max_pages, skip_pdf, since)
         except Exception as e:  # 소스 하나가 막혀도 나머지는 계속
             print(f"  ! [{collector.source_name}] 중단: {type(e).__name__}: {e}", flush=True)
             failed_sources.append(collector.source_name)
@@ -89,11 +90,12 @@ def run(max_pages: int = 10, skip_pdf: bool = False, sources: list[str] | None =
     return saved_ids, failed_ids, failed_sources
 
 
-def run_one(collector: ReportCollector, max_pages: int, skip_pdf: bool) -> tuple[list[str], list[str]]:
+def run_one(collector: ReportCollector, max_pages: int, skip_pdf: bool,
+            since: str | None = None) -> tuple[list[str], list[str]]:
     seen_ids = load_seen_ids()
     saved_ids: list[str] = []
     failed_ids: list[str] = []
-    for item in collector.iter_recent_reports(max_pages=max_pages, seen_ids=seen_ids):
+    for item in collector.iter_recent_reports(max_pages=max_pages, seen_ids=seen_ids, since=since):
         record = item.to_dict()
         record["text_chars"] = 0
         pdf_ok = True
@@ -139,13 +141,15 @@ if __name__ == "__main__":
     )
     parser.add_argument("--skip-pdf", action="store_true", help="PDF 텍스트 추출 생략 (메타데이터만 수집)")
     parser.add_argument("--source", action="append", help="이 소스만 수집 (hana, mirae, hk; 반복 가능)")
+    parser.add_argument("--since", help="과거분 몰아받기: 이 날짜(YYYY-MM-DD) 이후 리포트를 이미 본 페이지가 나와도 끝까지 받는다")
     args = parser.parse_args()
 
     if not textstore_available():
         print("::error::원문 폴더(raw-text)가 없습니다. raw-text 브랜치를 체크아웃하세요.")
         sys.exit(1)
     move_inline_text()
-    saved, failed, bad_sources = run(max_pages=args.max_pages, skip_pdf=args.skip_pdf, sources=args.source)
+    saved, failed, bad_sources = run(max_pages=args.max_pages, skip_pdf=args.skip_pdf, sources=args.source,
+                                     since=args.since)
     print(f"저장된 신규 리포트: {len(saved)}건, PDF 추출 실패(다음 실행 때 재시도): {len(failed)}건")
     if bad_sources:
         print(f"실패한 소스: {', '.join(bad_sources)}")

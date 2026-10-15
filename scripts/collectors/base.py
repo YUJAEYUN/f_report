@@ -62,6 +62,18 @@ class RawReportItem:
         return d
 
 
+def page_done(items: list[RawReportItem], new: list[RawReportItem], since: Optional[str]) -> bool:
+    """이 페이지 뒤로는 볼 필요가 없는가 (목록은 최신순)."""
+    if since:
+        dated = [it.published_date for it in items if it.published_date]
+        return bool(dated) and max(dated) < since
+    return bool(items) and not new
+
+
+def in_range(item: RawReportItem, since: Optional[str]) -> bool:
+    return not since or not item.published_date or item.published_date >= since
+
+
 class ReportCollector(ABC):
     """소스(증권사) 하나당 인스턴스 하나. PDF는 절대 디스크에 쓰지 않는다."""
 
@@ -72,12 +84,16 @@ class ReportCollector(ABC):
         self,
         max_pages: int,
         seen_ids: Optional[set[str]] = None,
+        since: Optional[str] = None,
     ) -> Iterator[RawReportItem]:
         """최신순으로 아직 수집하지 않은 RawReportItem만 yield한다.
 
         seen_ids에 있는 report_id는 건너뛰고, 한 페이지 전체가 이미 본
         항목이면 순회를 중단해서 전체 재수집을 방지한다.
         max_pages는 안전장치: 첫 실행 시 무한정 과거로 도는 것을 막는다.
+
+        since(YYYY-MM-DD)를 주면 과거분 몰아받기: 이미 본 페이지가 나와도 멈추지 않고,
+        그 날짜보다 오래된 리포트만 남은 페이지에서 멈춘다.
         """
         raise NotImplementedError
 

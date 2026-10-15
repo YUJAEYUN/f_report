@@ -76,12 +76,19 @@ class InsightBackfillTest(unittest.TestCase):
             ({}, "insight 누락"),
             ({"insight": {"change": " ", "implication": "의미", "watch_points": ["지표"]}}, "change"),
             ({"insight": {"change": "변화", "implication": " ", "watch_points": ["지표"]}}, "implication"),
-            ({"insight": {"change": "변화", "implication": "의미", "watch_points": "지표"}}, "형식 오류"),
-            ({"insight": {"change": "변화", "implication": "의미", "watch_points": [" "]}}, "watch_points 누락"),
         ]
         for response, message in cases:
             with self.subTest(message=message), self.assertRaisesRegex(LLMError, message):
                 validate_insight(response)
+
+    def test_validate_insight_tolerates_missing_watch_points(self):
+        # 확인할 점이 빠져도 변화·의미가 있으면 요약을 버리지 않는다
+        for wp, expected in ((None, []), ([" "], []), ("지표", ["지표"])):
+            with self.subTest(wp=wp):
+                ins = {"change": "변화", "implication": "의미"}
+                if wp is not None:
+                    ins["watch_points"] = wp
+                self.assertEqual(validate_insight({"insight": ins})["watch_points"], expected)
 
     def test_backfill_mock_preserves_existing_fields(self):
         with tempfile.TemporaryDirectory() as directory:

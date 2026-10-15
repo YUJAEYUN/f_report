@@ -56,7 +56,7 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
           <ol className="steps">
             <li><b>무엇이 달라졌나</b><p>{r.insight.change}</p></li>
             <li><b>왜 중요한가</b><p>{r.insight.implication}</p></li>
-            <li><b>무엇을 확인할까</b><ul>{r.insight.watch_points.map((p, i) => <li key={i}>{p}</li>)}</ul></li>
+            {r.insight.watch_points.length > 0 && <li><b>무엇을 확인할까</b><ul>{r.insight.watch_points.map((p, i) => <li key={i}>{p}</li>)}</ul></li>}
           </ol>
         </section>}
 
