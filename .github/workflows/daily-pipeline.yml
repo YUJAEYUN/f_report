@@ -8,11 +8,13 @@ on:
         required: false
         default: "10"
   schedule:
-    # 평일 KST 09:00 / 12:00 / 18:00 (UTC 00/03/09시)
+    # 평일 KST 17:47 하루 한 번 (UTC 08:47). 그날 리포트 대부분이 올라온 뒤 받는다.
+    # GitHub은 정각에 몰린 예약을 몇 시간씩 미루기도 해서 정각을 피한다.
+    # 월요일 실행은 한경 lookback(3일)으로 금요일 저녁 이후분까지 받는다.
     # 소스: 하나증권·미래에셋 원문 사이트, 한경 컨센서스 (config/sources.json에서 켜고 끈다)
     # 세 곳 모두 robots.txt가 검색엔진 외 자동화 접근을 Disallow 하고 있다. 개인용으로 요청 간격을
     # 두고 로그인 없이 공개된 목록·PDF만 받는다. 정기 실행을 멈추려면 이 schedule 블록을 주석 처리할 것.
-    - cron: "0 0,3,9 * * 1-5"
+    - cron: "47 8 * * 1-5"
 
 permissions:
   contents: write

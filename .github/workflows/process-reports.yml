@@ -14,7 +14,7 @@ on:
       limit:
         description: "이번 실행에서 요약하거나 인사이트를 백필할 최대 리포트 수"
         required: false
-        default: "30"
+        default: "100"
       backfill_insights:
         description: "기존 요약·태그를 유지하고 누락된 개별 리포트 인사이트만 백필"
         type: boolean
@@ -76,7 +76,8 @@ jobs:
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
-          LIMIT: ${{ github.event.inputs.limit || '30' }}
+          # 하루 한 번 수집이라 그날 물량(평일 60~70건)을 한 번에 요약한다
+          LIMIT: ${{ github.event.inputs.limit || '100' }}
           BACKFILL_INSIGHTS: ${{ github.event.inputs.backfill_insights }}
           REDO_DATE: ${{ github.event.inputs.redo_date }}
           RETAG: ${{ github.event.inputs.retag }}
