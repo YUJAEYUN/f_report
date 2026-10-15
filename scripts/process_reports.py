@@ -752,6 +752,8 @@ def main() -> int:
     parser.add_argument("--retag", action="store_true", help="요약된 전체 리포트를 현재 분류 체계로 재태깅하고 모든 날짜를 재생성")
     parser.add_argument("--redo-all", action="store_true", help="재태깅 없이 테마 병합 + 모든 날짜의 브리핑/인사이트/다이제스트 재생성")
     parser.add_argument("--publish-now", action="store_true", help="시각과 상관없이 밀린 브리핑/인사이트/다이제스트를 지금 만든다")
+    parser.add_argument("--no-publish", action="store_true", help="요약만 하고 브리핑/다이제스트는 날짜만 모아 둔다 (대기열 비우기용)")
+    parser.add_argument("--status-file", help="실행 결과(요약 건수, 남은 대기, 중단 여부)를 JSON으로 쓸 경로")
     args = parser.parse_args()
 
     if not textstore.available():
@@ -764,6 +766,7 @@ def main() -> int:
         return 1 if backfill_insights(reports, args.limit) else 0
     aborted = False
     tagged = False
+    summarized_count = 0
     dates: set[str] = set(args.redo_date)
     if args.redo_all:
         tagged = True  # 테마 병합도 다시 돌린다
@@ -774,7 +777,9 @@ def main() -> int:
         if not aborted:
             dates |= {r["published_date"] for _, r in reports if "summary" in r}
     if not aborted:
+        before = sum(1 for _, r in reports if "summary" in r)
         touched, aborted = summarize_pending(reports, args.limit)
+        summarized_count = sum(1 for _, r in reports if "summary" in r) - before
         dates |= touched
         tagged |= bool(touched)
     failed = 0
@@ -796,6 +801,9 @@ def main() -> int:
               f"(최근 {PUBLISH_WINDOW_DAYS}일만 자동, 필요하면 redo_date로)")
     if not pending:
         print("새로 요약된 리포트 없음 -> 브리핑/인사이트/다이제스트 생략")
+    elif args.no_publish:
+        save_pending(pending)
+        print(f"[publish] 대기열 비우는 중 -> {len(pending)}개 날짜는 나중에 생성")
     elif forced or should_publish(pending):
         print(f"[publish] {', '.join(sorted(pending))} 브리핑/인사이트/다이제스트 생성", flush=True)
         published_failed = build_briefs(reports, pending) + build_weekly(reports, pending) + build_digests(reports, pending)
@@ -807,6 +815,11 @@ def main() -> int:
         print(f"[publish] {', '.join(sorted(pending))} 대기 (KST {PUBLISH_HOUR_KST}시 이후 실행에서 한 번에 생성)")
     if failed:
         print(f"[summary] 브리핑/인사이트/다이제스트 생성 실패 {failed}건")
+    if args.status_file:
+        remaining = sum(1 for _, r in reports if "summary" not in r and not r.get("pdf_error"))
+        Path(args.status_file).write_text(json.dumps({
+            "summarized": summarized_count, "remaining": remaining, "aborted": aborted,
+        }), encoding="utf-8")
     return 1 if aborted or failed or failed_explain else 0
 
 
