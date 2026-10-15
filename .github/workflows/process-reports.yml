@@ -175,8 +175,9 @@ jobs:
             echo "::warning::진행이 없거나 반복 상한 도달 -> 대기 ${remaining}건 남기고 멈춤"
           fi
 
+      # 대기열 비우기에서 사용량 한도로 멈춘 건 예상된 상황이라 실패로 표시하지 않는다 (위 단계에서 경고)
       - name: Fail if processing aborted
-        if: steps.process.outputs.code != '0'
+        if: steps.process.outputs.code != '0' && github.event.inputs.drain != 'true'
         run: |
           echo "::error::일부 리포트 처리에 실패했습니다 (원인은 위 Summarize 단계 로그의 '중단:'/'실패:' 줄 참고). 처리된 결과는 커밋됐고, 남은 리포트는 다음 실행에서 이어서 처리합니다."
           exit 1
