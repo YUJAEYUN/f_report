@@ -44,7 +44,9 @@
    "implied_prev": true,
    "broker": "유안타증권"
   },
-  "title": "우진(105840) 조금만 기다려 주세요! 4분기가 대기 중입니다!"
+  "title": "우진(105840) 조금만 기다려 주세요! 4분기가 대기 중입니다!",
+  "reason": "12MF EPS를 828원에서 909원으로 상향했으나 원전 업종 컨센서스 멀티플 하향을 반영해 목표주가를 낮췄다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-14:086450:tp_cons_up:",
@@ -69,7 +71,9 @@
    "report_id": "hana_1289107",
    "cum30": null
   },
-  "title": "화장품(Overweight): 계절성이 깨지다"
+  "title": "화장품(Overweight): 계절성이 깨지다",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-14:034220:tp_down:IBK투자증권",
@@ -96,7 +100,9 @@
    "implied_prev": true,
    "broker": "IBK투자증권"
   },
-  "title": "LG디스플레이(034220) 칩플레이션에 이어 환율까지"
+  "title": "LG디스플레이(034220) 칩플레이션에 이어 환율까지",
+  "reason": "칩플레이션과 원화 강세로 연간 영업이익 전망치를 9,600억원에서 6,170억원으로 낮췄고, 실적 전망 하향에 따라 Target Multiple은 그대로 두고 목표주가를 내렸다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-14:086450:tp_up:하나증권",
@@ -122,7 +128,9 @@
    "report_id": "hana_1289107",
    "broker": "하나증권"
   },
-  "title": "화장품(Overweight): 계절성이 깨지다"
+  "title": "화장품(Overweight): 계절성이 깨지다",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-14:145020:tp_down:미래에셋증권",
@@ -149,7 +157,9 @@
    "implied_prev": true,
    "broker": "미래에셋증권"
   },
-  "title": "휴젤 (145020/매수): 3Q26 Preview: 단기 실적 눈높이 조정"
+  "title": "휴젤 (145020/매수): 3Q26 Preview: 단기 실적 눈높이 조정",
+  "reason": "2026년 EPS 추정치를 12,153원에서 11,219원으로 하향하고 목표 P/E를 28배에서 25배로 낮춘 점을 반영해 목표주가를 낮췄다고 밝혔다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-14:278470:tp_down:하나증권",
@@ -175,7 +185,9 @@
    "report_id": "hana_1289107",
    "broker": "하나증권"
   },
-  "title": "화장품(Overweight): 계절성이 깨지다"
+  "title": "화장품(Overweight): 계절성이 깨지다",
+  "reason": "환율 하락으로 3분기 영업이익이 컨센서스(1,973억원)를 밑돌았다고 봤지만 주가 하락은 과도하다고 평가했다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-14:010140:tp_cons_down:",
@@ -200,7 +212,9 @@
    "report_id": "hk_652949",
    "cum30": null
   },
-  "title": "삼성중공업(010140) 선방할 실적, FDC 본계약 기대"
+  "title": "삼성중공업(010140) 선방할 실적, FDC 본계약 기대",
+  "reason": "상선 피크아웃 우려에 대한 멀티플 조정으로 목표주가를 기존 4만원에서 3.5만원으로 하향한다고 밝혔다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-14:278470:tp_cons_down:",
@@ -225,7 +239,9 @@
    "report_id": "hana_1289107",
    "cum30": null
   },
-  "title": "화장품(Overweight): 계절성이 깨지다"
+  "title": "화장품(Overweight): 계절성이 깨지다",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-14:042660:tp_down:SK증권",
@@ -252,7 +268,9 @@
    "implied_prev": true,
    "broker": "SK증권"
   },
-  "title": "한화오션(042660) 해양&함정 수주 이젠 보여줘야 할 때"
+  "title": "한화오션(042660) 해양&함정 수주 이젠 보여줘야 할 때",
+  "reason": "상선 부문 피크아웃 우려를 반영해 멀티플을 하향 조정했으며, '28년 추정 EPS 6,738원에 Target P/E 16배를 적용해 목표주가를 11만원으로 낮췄다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-14:329180:tp_down:SK증권",
@@ -278,7 +296,9 @@
    "report_id": "hk_652951",
    "broker": "SK증권"
   },
-  "title": "HD현대중공업(329180) 우려 감안해도 충분히 매력적"
+  "title": "HD현대중공업(329180) 우려 감안해도 충분히 매력적",
+  "reason": "중국의 공격적인 캐파 증설과 중국 대형 조선사의 LNGC 물량 확보·원가 경쟁력 확대로 상선 부문 멀티플 조정이 불가피하다고 봤다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-14:483650:tp_down:하나증권",
@@ -304,6 +324,8 @@
    "report_id": "hana_1289107",
    "broker": "하나증권"
   },
-  "title": "화장품(Overweight): 계절성이 깨지다"
+  "title": "화장품(Overweight): 계절성이 깨지다",
+  "reason": null,
+  "reason_checked": true
  }
 ]

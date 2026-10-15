@@ -3460,6 +3460,150 @@
    }
   }
  ],
+ "hana_1289131": [
+  {
+   "stock_id": "000720",
+   "name": "현대건설",
+   "code": "000720",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 135000.0,
+   "price": 91100.0,
+   "upside_pct": 48.2,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 855.1,
+    "consensus": 869.1,
+    "gap_pct": -1.6
+   }
+  }
+ ],
+ "hana_1289132": [
+  {
+   "stock_id": "020150",
+   "name": "롯데에너지머티리얼즈",
+   "code": "020150",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 69000.0,
+   "price": 52100.0,
+   "upside_pct": 32.4,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 89100.0,
+    "tp_to": 69000.0,
+    "tp_pct": -22.6,
+    "prev_date": "2026-05-12"
+   },
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2027",
+    "metric": "op",
+    "estimate": -21.5,
+    "consensus": 27.9,
+    "gap_pct": -177.1
+   }
+  }
+ ],
+ "hana_1289135": [
+  {
+   "stock_id": "061090",
+   "name": "세나테크놀로지",
+   "code": "061090",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 50000.0,
+   "price": 29000.0,
+   "upside_pct": 72.4,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 80000.0,
+    "tp_to": 50000.0,
+    "tp_pct": -37.5,
+    "prev_date": "2026-10-01"
+   },
+   "estimate_revisions": [
+    {
+     "date": "2026-10-15",
+     "prev_date": "2026-10-01",
+     "days": 14,
+     "year": "2026",
+     "metric": "op",
+     "from": 40.3,
+     "to": 26.2,
+     "pct": -35.0,
+     "speed30": -75.0,
+     "turn": null,
+     "report_id": "hana_1289135",
+     "prev_report_id": "hana_1288931",
+     "broker": "하나증권"
+    },
+    {
+     "date": "2026-10-15",
+     "prev_date": "2026-10-01",
+     "days": 14,
+     "year": "2026",
+     "metric": "eps",
+     "from": 5700.0,
+     "to": 3609.0,
+     "pct": -36.7,
+     "speed30": -78.6,
+     "turn": null,
+     "report_id": "hana_1289135",
+     "prev_report_id": "hana_1288931",
+     "broker": "하나증권"
+    },
+    {
+     "date": "2026-10-15",
+     "prev_date": "2026-10-01",
+     "days": 14,
+     "year": "2027",
+     "metric": "op",
+     "from": 54.4,
+     "to": 28.2,
+     "pct": -48.2,
+     "speed30": -103.3,
+     "turn": null,
+     "report_id": "hana_1289135",
+     "prev_report_id": "hana_1288931",
+     "broker": "하나증권"
+    },
+    {
+     "date": "2026-10-15",
+     "prev_date": "2026-10-01",
+     "days": 14,
+     "year": "2027",
+     "metric": "eps",
+     "from": 6769.0,
+     "to": 4226.0,
+     "pct": -37.6,
+     "speed30": -80.6,
+     "turn": null,
+     "report_id": "hana_1289135",
+     "prev_report_id": "hana_1288931",
+     "broker": "하나증권"
+    }
+   ],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 26.2,
+    "consensus": 40.3,
+    "gap_pct": -35.0
+   }
+  }
+ ],
  "hk_652367": [
   {
    "stock_id": "028670",

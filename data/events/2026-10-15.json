@@ -1,5 +1,131 @@
 [
  {
+  "id": "2026-10-15:020150:gap_below:하나증권",
+  "date": "2026-10-15",
+  "type": "gap_below",
+  "severity": 5.0,
+  "stock_id": "020150",
+  "code": "020150",
+  "name": "롯데에너지머티리얼즈",
+  "industry": "2차전지",
+  "report_id": "hana_1289132",
+  "headline": "하나증권 2027년 영업이익 추정 적자(-215억원), 컨센서스는 흑자(279억원)",
+  "data": {
+   "year": "2027",
+   "metric": "op",
+   "estimate": -21.5,
+   "consensus": 27.9,
+   "gap_pct": -177.1
+  },
+  "title": "롯데에너지머티리얼즈(020150.KS/매수) : 3Q26 전지박 출하 QoQ +40% 전망"
+ },
+ {
+  "id": "2026-10-15:061090:est_down:하나증권2027op",
+  "date": "2026-10-15",
+  "type": "est_down",
+  "severity": 4.82,
+  "stock_id": "061090",
+  "code": "061090",
+  "name": "세나테크놀로지",
+  "industry": "통신장비",
+  "report_id": "hana_1289135",
+  "headline": "하나증권 추정 2027년 영업이익 -48.2% (544억원 → 282억원)",
+  "data": {
+   "date": "2026-10-15",
+   "prev_date": "2026-10-01",
+   "days": 14,
+   "year": "2027",
+   "metric": "op",
+   "from": 54.4,
+   "to": 28.2,
+   "pct": -48.2,
+   "speed30": -103.3,
+   "turn": null,
+   "report_id": "hana_1289135",
+   "prev_report_id": "hana_1288931",
+   "broker": "하나증권"
+  },
+  "title": "세나테크놀로지(061090.KQ/매수): 내년도 로봇 매출 실현을 기다리며",
+  "reason": "2분기 어닝쇼크와 모터사이클향 판매 부진으로 드러난 계절적 실적 불안정성을 보수적으로 반영해 추정치를 하향했다.",
+  "reason_checked": true
+ },
+ {
+  "id": "2026-10-15:061090:tp_down:하나증권",
+  "date": "2026-10-15",
+  "type": "tp_down",
+  "severity": 2.5,
+  "stock_id": "061090",
+  "code": "061090",
+  "name": "세나테크놀로지",
+  "industry": "통신장비",
+  "report_id": "hana_1289135",
+  "headline": "하나증권 목표주가 80,000원 → 50,000원 (-37.5%)",
+  "data": {
+   "date": "2026-10-15",
+   "prev_date": "2026-10-01",
+   "days": 14,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 80000.0,
+   "tp_to": 50000.0,
+   "tp_pct": -37.5,
+   "tp_speed30": -80.4,
+   "report_id": "hana_1289135",
+   "broker": "하나증권"
+  },
+  "title": "세나테크놀로지(061090.KQ/매수): 내년도 로봇 매출 실현을 기다리며",
+  "reason": "실적 불안정성이 커지고 로봇 매출 시점이 불확실해, 27년 추정 BPS에 PBR 1.x배를 적용해 목표주가를 낮췄다.",
+  "reason_checked": true
+ },
+ {
+  "id": "2026-10-15:061090:gap_below:하나증권",
+  "date": "2026-10-15",
+  "type": "gap_below",
+  "severity": 1.75,
+  "stock_id": "061090",
+  "code": "061090",
+  "name": "세나테크놀로지",
+  "industry": "통신장비",
+  "report_id": "hana_1289135",
+  "headline": "하나증권 2026년 영업이익 추정이 컨센서스보다 35% 낮음",
+  "data": {
+   "year": "2026",
+   "metric": "op",
+   "estimate": 26.2,
+   "consensus": 40.3,
+   "gap_pct": -35.0
+  },
+  "title": "세나테크놀로지(061090.KQ/매수): 내년도 로봇 매출 실현을 기다리며"
+ },
+ {
+  "id": "2026-10-15:020150:tp_down:하나증권",
+  "date": "2026-10-15",
+  "type": "tp_down",
+  "severity": 1.51,
+  "stock_id": "020150",
+  "code": "020150",
+  "name": "롯데에너지머티리얼즈",
+  "industry": "2차전지",
+  "report_id": "hana_1289132",
+  "headline": "하나증권 목표주가 89,100원 → 69,000원 (-22.6%)",
+  "data": {
+   "date": "2026-10-15",
+   "prev_date": "2026-05-12",
+   "days": 156,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 89100.0,
+   "tp_to": 69000.0,
+   "tp_pct": -22.6,
+   "tp_speed30": -4.3,
+   "report_id": "hana_1289132",
+   "broker": "하나증권"
+  },
+  "title": "롯데에너지머티리얼즈(020150.KS/매수) : 3Q26 전지박 출하 QoQ +40% 전망",
+  "reason": "북미 EV향 전지박 수요 회복 지연과 초기 공장 가동 과정의 원가 부담을 반영해 실적 추정치를 하향했고, 2028년 EBITDA에 EV/EBITDA 27배를 적용해 목표주가를 낮췄다.",
+  "reason_checked": true
+ },
+ {
   "id": "2026-10-15:051910:tp_cons_down:",
   "date": "2026-10-15",
   "type": "tp_cons_down",
@@ -22,7 +148,9 @@
    "report_id": "hk_652966",
    "cum30": null
   },
-  "title": "LG화학(051910) FOMO"
+  "title": "LG화학(051910) FOMO",
+  "reason": "메리츠증권은 LGES 적정가치는 올렸으나 NAV 할인율 63%를 적용해 적정주가를 31만원으로 제시했다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-15:051910:tp_down:메리츠증권",
@@ -48,6 +176,8 @@
    "report_id": "hk_652966",
    "broker": "메리츠증권"
   },
-  "title": "LG화학(051910) FOMO"
+  "title": "LG화학(051910) FOMO",
+  "reason": "자회사 LGES 적정가치는 상향했지만 NAV 할인율 63%를 적용해 적정주가를 31만원으로 제시했다.",
+  "reason_checked": true
  }
 ]

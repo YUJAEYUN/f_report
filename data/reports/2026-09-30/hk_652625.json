@@ -19,5 +19,41 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hk_652625",
-  "text_chars": 10606
+  "text_chars": 10606,
+  "summary": {
+    "one_liner": "K뷰티 유니버스의 미국 아마존 BSR 총점이 주간 1,617pt로 전주 대비 44pt 둔화됐으나, medicube는 664pt(+67pt)로 단독 상승하며 1위를 유지했고 ANUA는 328pt(-42pt)로 부진했다.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "K뷰티 유니버스 합산 BSR 점수는 1,617pt로 전주 대비 44pt 하락했다.",
+      "K뷰티 주간 평균 점수 Top3는 medicube 664pt(+67pt), ANUA 328pt(-42pt), BIODANCE 93pt(-1pt)이며, 상승 브랜드는 medicube(+67pt), Illiyoon(+4pt), d'alba Piedmont(+2pt) 순이다.",
+      "전체 브랜드 Top20에서 medicube가 1위(664pt)로 CeraVe(601pt), The Ordinary(455pt)를 앞섰고, 30일 평균(673pt)·90일 평균(676pt)과 유사한 수준을 유지했다.",
+      "제품 단위로는 medicube Zero Pore Pad 2.0이 100점으로 1위이며, Zero Pore Capsule Foam Cleanser(+11), Jelly Gel Mask(+19), Capsule Cream(+14) 등 medicube 제품군이 다수 상승했고 Exosome Shot Zero 2(0→49)도 신규 진입했다.",
+      "ANUA PDRN Hyaluronic Acid 크림은 93→87로, EQQUALBERRY는 117→93(-24pt)으로 하락했다."
+    ],
+    "risk_factors": [
+      "K뷰티 합산 점수 둔화가 medicube 외 브랜드의 약세에서 비롯돼 상승이 특정 브랜드에 편중돼 있다.",
+      "BSR 점수는 일별 프로모션·광고 영향으로 변동폭이 크며, 아마존 Facial Skin Care 카테고리 순위 기반이라 미국 전체 시장 성과를 완전히 대표하지 못할 수 있다."
+    ]
+  },
+  "insight": {
+    "change": "이번 주 K뷰티 합산 점수는 44pt 둔화됐지만, medicube가 67pt 상승해 664pt를 기록하며 ANUA(-42pt) 등 나머지 브랜드의 하락을 상쇄하는 구도가 나타났다. 상승 상위 브랜드 중 medicube 외에는 Illiyoon(+4pt), d'alba Piedmont(+2pt) 등 증가폭이 작았다.",
+    "implication": "K뷰티 전체 흐름이 둔화한 가운데 성과가 medicube에 집중되고 있어, 미국 아마존 채널의 K뷰티 모멘텀은 브랜드별로 차별화되어 있다는 점을 보여 준다. 또한 비K뷰티 브랜드(CeraVe, The Ordinary, La Roche-Posay 등)와의 경쟁 속에서 개별 브랜드의 제품 라인업 확장(신제품·카테고리 확대)이 순위 유지에 중요하다는 원문의 데이터 구조를 시사한다.",
+    "watch_points": [
+      "K뷰티 유니버스 합산 BSR 점수가 1,617pt에서 반등하는지 여부",
+      "medicube의 주간 점수가 30일·90일 평균(673pt/676pt) 수준을 유지하는지 여부",
+      "ANUA·EQQUALBERRY 등 하락 브랜드의 점수 회복 여부"
+    ]
+  },
+  "summarized_at": "2026-10-15T23:01:36+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "화장품"
+  ],
+  "themes": [
+    "K뷰티 수출 확대"
+  ],
+  "tagged_at": "2026-10-15T23:01:36+09:00"
 }

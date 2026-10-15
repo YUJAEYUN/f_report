@@ -25,7 +25,9 @@
    "prev_report_id": "hana_1288995",
    "broker": "하나증권"
   },
-  "title": "화장품(Overweight): 계절성이 깨지다"
+  "title": "화장품(Overweight): 계절성이 깨지다",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-13:128940:gap_above:하나증권",

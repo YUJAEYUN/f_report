@@ -183,16 +183,16 @@
    "name": "현대건설",
    "industry": "건설",
    "rating": "매수",
-   "target_price": null,
+   "target_price": 135000.0,
    "rating_date": "2026-10-15",
-   "rating_broker": "미래에셋증권",
+   "rating_broker": "하나증권",
    "consensus_tp": 171667,
    "consensus_n": 3,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 135000.0,
-     "date": "2026-08-03"
+     "date": "2026-10-15"
     },
     "유안타증권": {
      "rating": "매수",
@@ -210,7 +210,7 @@
      "date": "2026-10-15"
     }
    },
-   "price": null,
+   "price": 91100.0,
    "price_date": "2026-10-15",
    "last_tp_change": {
     "date": "2026-08-03",
@@ -219,7 +219,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 3
+   "reports": 4
   },
   {
    "id": "000810",
@@ -786,7 +786,7 @@
    "id": "005610",
    "code": "005610",
    "name": "삼립",
-   "industry": null,
+   "industry": "음식료·담배",
    "rating": "NR",
    "target_price": null,
    "rating_date": "2026-10-02",
@@ -1944,6 +1944,35 @@
    "events": 0,
    "last_event_date": null,
    "reports": 2
+  },
+  {
+   "id": "020150",
+   "code": "020150",
+   "name": "롯데에너지머티리얼즈",
+   "industry": "2차전지",
+   "rating": "매수",
+   "target_price": 69000.0,
+   "rating_date": "2026-10-16",
+   "rating_broker": "하나증권",
+   "consensus_tp": 69000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 69000.0,
+     "date": "2026-10-16"
+    }
+   },
+   "price": 52100.0,
+   "price_date": "2026-10-15",
+   "last_tp_change": {
+    "date": "2026-10-15",
+    "pct": -22.6,
+    "broker": "하나증권"
+   },
+   "events": 2,
+   "last_event_date": "2026-10-15",
+   "reports": 1
   },
   {
    "id": "024110",
@@ -3255,28 +3284,28 @@
    "name": "세나테크놀로지",
    "industry": "통신장비",
    "rating": "매수",
-   "target_price": 80000.0,
-   "rating_date": "2026-10-01",
+   "target_price": 50000.0,
+   "rating_date": "2026-10-16",
    "rating_broker": "하나증권",
-   "consensus_tp": 80000,
+   "consensus_tp": 50000,
    "consensus_n": 1,
    "brokers": {
     "하나증권": {
      "rating": "매수",
-     "target_price": 80000.0,
-     "date": "2026-10-01"
+     "target_price": 50000.0,
+     "date": "2026-10-16"
     }
    },
-   "price": 36200.0,
-   "price_date": "2026-10-01",
+   "price": 29000.0,
+   "price_date": "2026-10-15",
    "last_tp_change": {
-    "date": "2026-05-29",
-    "pct": 14.3,
+    "date": "2026-10-15",
+    "pct": -37.5,
     "broker": "하나증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 2
+   "events": 3,
+   "last_event_date": "2026-10-15",
+   "reports": 3
   },
   {
    "id": "062040",
@@ -3312,7 +3341,7 @@
    "id": "064290",
    "code": "064290",
    "name": "인텍플러스",
-   "industry": null,
+   "industry": "반도체",
    "rating": "매수",
    "target_price": 95000.0,
    "rating_date": "2026-10-02",
@@ -5866,7 +5895,7 @@
    "id": "267250",
    "code": "267250",
    "name": "HD현대",
-   "industry": null,
+   "industry": "정유·화학",
    "rating": "매수",
    "target_price": 321000.0,
    "rating_date": "2026-09-30",
@@ -6776,7 +6805,7 @@
    "id": "402340",
    "code": "402340",
    "name": "SK스퀘어",
-   "industry": null,
+   "industry": "지주·상사",
    "rating": "매수",
    "target_price": 1850000.0,
    "rating_date": "2026-09-30",
@@ -6826,7 +6855,7 @@
    "id": "420770",
    "code": "420770",
    "name": "기가비스",
-   "industry": null,
+   "industry": "반도체",
    "rating": "매수",
    "target_price": 200000.0,
    "rating_date": "2026-09-30",
@@ -7122,7 +7151,7 @@
    "id": "462870",
    "code": "462870",
    "name": "시프트업",
-   "industry": null,
+   "industry": "게임",
    "rating": "중립",
    "target_price": 35000.0,
    "rating_date": "2026-10-02",

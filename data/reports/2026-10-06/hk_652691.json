@@ -19,5 +19,41 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hk_652691",
-  "text_chars": 17221
+  "text_chars": 17221,
+  "summary": {
+    "one_liner": "미국 NRC가 GE Vernova Hitachi의 BWRX-300에 건설허가를 내주며 Natrium에 이어 SMR 사업화가 본격화되고 있고, 하이퍼스케일러 수요가 후속 프로젝트를 뒷받침해 현대건설·DL이앤씨의 SMR 파트너십 잠재가치가 재평가될 수 있다는 주간 건설 리포트.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "9월 29일 NRC가 TVA의 Clinch River BWRX-300(GE Vernova Hitachi)에 건설허가를 발급했다. TerraPower Kemmerer Natrium에 이은 미국 내 두 번째 SMR 건설허가이며 상업용 SMR로는 미국 최초다.",
+      "다음 건설허가 후보는 X-energy의 Long Mott Xe-100(환경심사 완료, 최종 허가 절차 진행 중)이고, Holtec의 Palisades SMR-300도 CP·LWA 절차를 진행 중이다.",
+      "TerraPower는 Meta와 최대 8기·2.8GW 규모 Natrium 개발 계약을, X-energy는 Amazon과 2039년까지 5GW 이상 Xe-100 배치를 추진 중이어서 하이퍼스케일러 전력 수요가 후속 프로젝트의 가시성을 높인다.",
+      "현대건설은 TerraPower와 Natrium 후속호기 EPC 파트너십을, DL이앤씨는 X-energy 지분투자와 설계 업무로 Xe-100 상용화에 참여하고 있다.",
+      "주간 아파트 매매가격지수는 전국 +0.06%, 수도권 +0.12%, 서울 +0.09%였고 전세가격지수는 전국 +0.09%였다. 건설 업종 1주 수익률은 KOSPI 건설 -3.2%, 현대건설 -5.5%, DL이앤씨 -7.3%였다."
+    ],
+    "risk_factors": [
+      "개별 후속 프로젝트의 발주 시점과 국내 건설사의 수행 범위에 불확실성이 남아 있다."
+    ]
+  },
+  "insight": {
+    "change": "미국 SMR이 Natrium 한 건에서 BWRX-300 건설허가까지 더해져 복수 노형의 인허가가 진전되는 단계로 넘어갔고, 초도호기 진전이 하이퍼스케일러 수요가 뒷받침하는 후속 프로젝트의 가시성을 높이고 있다는 점이 이번 리포트가 강조한 변화다.",
+    "implication": "인허가가 풀리면 실제 건설로 이어질 프로젝트가 늘고, Meta·Amazon의 후속 수요가 이미 확보돼 있어 초도호기 이후 후속호기의 가치가 부각되는 구조다. 이에 따라 후속호기 EPC·지분투자 형태로 파트너십을 쌓아 온 현대건설과 DL이앤씨의 가치도 재평가될 수 있다는 것이 원문의 논리다.",
+    "watch_points": [
+      "X-energy Long Mott Xe-100의 최종 건설허가 발급 여부와 Holtec Palisades SMR-300의 CP·LWA 진행 상황",
+      "TerraPower Natrium 후속호기와 X-energy Xe-100 후속 프로젝트의 발주 시점 및 국내 건설사의 수행 범위 확정 여부",
+      "초도호기(Natrium, BWRX-300)의 착공·건설 진척"
+    ]
+  },
+  "summarized_at": "2026-10-15T22:49:54+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "건설"
+  ],
+  "themes": [
+    "SMR·대형원전 수주",
+    "AI 데이터센터 전력"
+  ],
+  "tagged_at": "2026-10-15T22:49:54+09:00"
 }

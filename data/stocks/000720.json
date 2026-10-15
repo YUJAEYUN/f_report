@@ -117,6 +117,15 @@
    "report_id": "mirae_2343382",
    "tp_status": null,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-15",
+   "rating": "매수",
+   "target_price": 135000.0,
+   "source": "report",
+   "report_id": "hana_1289131",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -168,6 +177,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-15",
+   "report_id": "hana_1289131",
+   "title": "현대건설(000720.KS/매수): 부진한 플랜트, 만회하는 주택",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 135000.0,
+   "tp_status": null,
+   "price": 91100.0,
+   "upside_pct": 48.2,
+   "estimates": {
+    "2026": {
+     "revenue": 25888.9,
+     "op": 855.1,
+     "net": 500.0,
+     "eps": 4448.0
+    },
+    "2027": {
+     "revenue": 26595.0,
+     "op": 1034.2,
+     "net": 632.4,
+     "eps": 5626.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 26946.1,
+     "op": 869.1,
+     "net": 673.4,
+     "eps": 4551.0
+    },
+    "2027": {
+     "revenue": 28499.7,
+     "op": 1139.9,
+     "net": 876.3,
+     "eps": 5921.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 855.1,
+    "consensus": 869.1,
+    "gap_pct": -1.6
+   }
   }
  ],
  "rating_changes": [

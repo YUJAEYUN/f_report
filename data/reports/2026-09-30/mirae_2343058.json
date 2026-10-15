@@ -19,5 +19,33 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "mirae_2343058",
-  "text_chars": 315
+  "text_chars": 315,
+  "summary": {
+    "one_liner": "리포트 본문이 불릿 기호만 남아 있어 내용을 확인할 수 없으며, 제목상 10월 중간선거 전 분산 전략 유지를 제시하는 글로벌 주식 전략 리포트로만 파악됨.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "제목 기준: 10월 글로벌 주식 전략 리포트",
+      "제목 기준: 중간선거 전 분산 전략 유지 스탠스",
+      "본문 텍스트가 추출되지 않아 구체적 근거·수치는 확인 불가"
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "본문이 추출되지 않아 비교 가능한 변화는 확인할 수 없음. 제목상 강조점은 분산 전략의 유지이며, 전략 변경이 아니라 기존 스탠스 지속으로 읽힘.",
+    "implication": "제목만으로는 중간선거 이벤트를 앞두고 특정 지역·업종에 집중하기보다 분산 대응을 권하는 기조로 해석할 수 있으나, 구체적 논거는 원문 재추출 후 확인이 필요함.",
+    "watch_points": [
+      "pdf_text 재추출 후 본문 기반 재요약 필요",
+      "중간선거 결과 및 일정"
+    ]
+  },
+  "summarized_at": "2026-10-15T23:00:04+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [
+    "미국 중간선거 계절성"
+  ],
+  "tagged_at": "2026-10-15T23:00:04+09:00"
 }
