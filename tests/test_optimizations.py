@@ -122,3 +122,16 @@ class RateLimitExitTest(unittest.TestCase):
         with patch.object(pr, "RATE_LIMITED", False):
             pr.abort_reason(pr.LLMAuthError("401"))
             self.assertFalse(pr.RATE_LIMITED)
+
+
+class PublishRateLimitTest(unittest.TestCase):
+    def test_digest_stops_on_rate_limit(self):
+        reports = [(Path(f"/x/{i}.json"), {"report_id": f"r{i}", "report_type": "individual", "published_date": d,
+                                           "summary": {"one_liner": "x"}, "industries": [], "themes": []})
+                   for i, d in enumerate(["2026-10-14", "2026-10-15"])]
+        calls = []
+        with patch.object(pr, "ask", side_effect=lambda p: calls.append(1) or (_ for _ in ()).throw(pr.LLMRateLimitError("429"))), \
+                patch.object(pr, "RATE_LIMITED", False), patch.object(pr, "digest_events", return_value=[]):
+            failed = pr.build_digests(reports, {"2026-10-14", "2026-10-15"})
+            self.assertTrue(pr.RATE_LIMITED)
+        self.assertEqual((failed, len(calls)), (1, 1))  # 첫 429에서 멈춘다

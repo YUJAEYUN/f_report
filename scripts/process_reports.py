@@ -594,6 +594,10 @@ def build_briefs(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
         except LLMError as e:
             print(f"  ! {industry} {week} 실패: {e}", flush=True)
             failed += 1
+            if isinstance(e, (LLMAuthError, LLMRateLimitError)):
+                # 한도·인증 문제는 나머지도 똑같이 실패하므로 바로 멈춘다 (날짜는 대기에 남아 다음 실행에서 생성)
+                print(f"  ! 중단: {abort_reason(e)}", flush=True)
+                return failed
             continue
         out = brief_path(industry, week)
         out.parent.mkdir(parents=True, exist_ok=True)
@@ -650,6 +654,10 @@ def build_weekly(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
         except LLMError as e:
             print(f"  ! weekly {week} 실패: {e}", flush=True)
             failed += 1
+            if isinstance(e, (LLMAuthError, LLMRateLimitError)):
+                # 한도·인증 문제는 나머지도 똑같이 실패하므로 바로 멈춘다 (날짜는 대기에 남아 다음 실행에서 생성)
+                print(f"  ! 중단: {abort_reason(e)}", flush=True)
+                return failed
             continue
         WEEKLY_DIR.mkdir(parents=True, exist_ok=True)
         weekly_path(week).write_text(md, encoding="utf-8")
@@ -720,6 +728,10 @@ def build_digests(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
         except LLMError as e:
             print(f"  ! digest {date} 실패: {e}", flush=True)
             failed += 1
+            if isinstance(e, (LLMAuthError, LLMRateLimitError)):
+                # 한도·인증 문제는 나머지도 똑같이 실패하므로 바로 멈춘다 (날짜는 대기에 남아 다음 실행에서 생성)
+                print(f"  ! 중단: {abort_reason(e)}", flush=True)
+                return failed
             continue
         DIGEST_DIR.mkdir(parents=True, exist_ok=True)
         (DIGEST_DIR / f"{date}.md").write_text(md, encoding="utf-8")
@@ -828,8 +840,9 @@ def main() -> int:
         Path(args.status_file).write_text(json.dumps({
             "summarized": summarized_count, "remaining": remaining, "aborted": aborted,
         }), encoding="utf-8")
-    if (aborted or failed_explain) and (RATE_LIMITED or signals.RATE_LIMITED) and not failed:
-        # 사용량 한도는 시간이 지나면 풀린다: 처리한 만큼 커밋하고 다음 실행에서 이어 간다
+    if RATE_LIMITED or signals.RATE_LIMITED:
+        # 사용량 한도는 시간이 지나면 풀린다: 처리한 만큼 커밋하고, 못 만든 브리핑·다이제스트 날짜는
+        # 대기에 남겨 다음 실행에서 이어 간다
         return EXIT_RATE_LIMITED
     return 1 if aborted or failed or failed_explain else 0
 
