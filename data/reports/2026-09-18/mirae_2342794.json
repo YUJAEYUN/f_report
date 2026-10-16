@@ -19,5 +19,37 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "mirae_2342794",
-  "text_chars": 33660
+  "text_chars": 33660,
+  "summary": {
+    "one_liner": "통신서비스 업종에 대해 비중확대 의견을 유지하며, 통신사의 AI 데이터센터(AIDC) 사업이 밸류에이션 리레이팅의 계기가 될 수 있다고 제시한 산업 리포트.",
+    "ticker": null,
+    "rating": "비중확대",
+    "rating_change": "유지",
+    "target_price": null,
+    "key_points": [
+      "제목 기준 핵심 논지는 데이터센터(AIDC) 사업이 통신 업종 리레이팅의 출발점이 된다는 것이다.",
+      "AIDC와 GPU 임대(GPUaaS) 사업 확대가 통신사의 신규 성장 동력으로 다뤄진다.",
+      "글로벌 데이터센터 업체(Equinix, Digital Realty 등)를 비교 대상으로 두고 밸류에이션 논리를 전개하는 것으로 보인다.",
+      "SK텔레콤, KT 등 국내 통신사의 AIDC 관련 투자와 실적 기여 가능성을 분석한다."
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "통신서비스를 안정적인 배당·방어주로 보던 시각에서 AIDC·GPUaaS 사업을 성장 요소로 평가하는 쪽으로 논점을 옮겼다. 본문이 심하게 깨져 세부 수치는 확인되지 않는다.",
+    "implication": "통신사의 가치 평가 기준이 기존 통신 이익에서 데이터센터 사업의 가치로 넓어질 수 있다는 논리로 해석된다. 이는 업종 멀티플 재평가의 근거가 된다.",
+    "watch_points": [
+      "통신사의 AIDC·GPUaaS 수주 및 가동 현황",
+      "데이터센터 부문의 실적 기여도와 투자 규모"
+    ]
+  },
+  "summarized_at": "2026-10-16T10:16:54+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "통신서비스"
+  ],
+  "themes": [
+    "AI 인프라 투자 사이클",
+    "통신사 AIDC 리레이팅"
+  ],
+  "tagged_at": "2026-10-16T10:16:54+09:00"
 }

@@ -19,5 +19,34 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "mirae_2342868",
-  "text_chars": 5603
+  "text_chars": 5603,
+  "summary": {
+    "one_liner": "월간 양자 시리즈 #8로, 양자컴퓨터가 AI 데이터센터(AIDC)에 들어가기 위한 조건을 다룬 리포트이나, 본문 텍스트가 인코딩 깨짐으로 대부분 판독되지 않아 제목과 일부 식별 가능한 키워드에 근거한 요약임.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "제목 기준 핵심 주제는 양자컴퓨터(QPU)의 AIDC·HPC 환경 편입 조건임.",
+      "본문에 NVIDIA 관련 표기(NVQLink, Vera Rubin NVL 등)가 보여 GPU 기반 AI 인프라와 양자 프로세서의 연동이 논의된 것으로 보이나 세부 논지는 판독 불가.",
+      "극저온 냉각 장비(Bluefors 등)와 IBM Quantum System One 등 설비·인프라 요소가 언급된 것으로 보임.",
+      "말미에 IonQ, D-Wave, Rigetti, IBM, Google, Quantinuum 등 양자 산업 기업 유니버스 표가 수록되어 있음."
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "비교 기준을 판독할 수 없어, 제목상 양자컴퓨터를 독립 연구 대상이 아닌 AIDC 구성요소로 편입하는 관점이 강조된 점만 확인됨.",
+    "implication": "양자컴퓨터를 AIDC·HPC 인프라와의 결합 관점에서 본다는 점은, 양자 산업의 상용화 논의가 연산 성능 자체에서 데이터센터 통합 조건으로 옮겨가고 있음을 시사하는 해석이 가능함. 다만 구체적 근거 문장은 판독되지 않음.",
+    "watch_points": [
+      "QPU와 GPU 인프라를 잇는 연동 기술(NVQLink 등)의 채택 사례",
+      "극저온 냉각 등 양자 설비 공급 관련 계약·동향"
+    ]
+  },
+  "summarized_at": "2026-10-16T10:04:45+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [
+    "양자컴퓨터 AIDC 편입"
+  ],
+  "tagged_at": "2026-10-16T10:04:45+09:00"
 }

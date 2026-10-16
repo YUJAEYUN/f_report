@@ -315,6 +315,57 @@ def validate(md: str, date: str) -> str:
     return text + "\n"
 
 
+def report_id_pattern() -> re.Pattern:
+    """config/sources.json의 소스 이름으로 report_id 모양을 만든다 (hana_1289095, hk_652974 등)."""
+    sources = json.loads((ROOT / "config" / "sources.json").read_text(encoding="utf-8"))
+    names = sorted(k for k in sources if not k.startswith("_"))
+    return re.compile(rf"\b(?:{'|'.join(map(re.escape, names))})_\d+\b")
+
+
+def cited_ids(text: str) -> set[str]:
+    return set(report_id_pattern().findall(text))
+
+
+def unknown_ids(md: str, known: set[str]) -> list[str]:
+    """본문이 인용했지만 known에 없는 report_id. 모델이 번호를 잘못 옮겨 적은 경우를 잡는다."""
+    return sorted(cited_ids(md) - known)
+
+
+def build_fix_prompt(md: str, unknown: list[str]) -> str:
+    return "\n\n".join([
+        "방금 쓴 급락 국면 종합에 입력 재료에 없는 report_id가 인용됐습니다: " + ", ".join(unknown),
+        "각 번호를 입력 재료에 실제로 있는 올바른 report_id로 고치세요. 맞는 번호를 찾을 수 없으면 그 인용을 지우고, "
+        "그 인용에만 기대던 주장이면 '확인되지 않음'으로 표시하세요. 다른 내용은 바꾸지 마세요.",
+        "고친 문서 전체를 같은 형식으로 다시 출력하세요. 코드펜스로 감싸지 않습니다.",
+        "=== 방금 쓴 문서 ===\n" + md,
+    ])
+
+
+def mark_unknown(md: str, unknown: list[str]) -> str:
+    """고쳐지지 않은 번호는 지우지 않고 눈에 띄게 표시한다 (출처 확인 필요)."""
+    for rid in unknown:
+        md = re.sub(rf"\b{re.escape(rid)}\b(?!\(입력에 없는 번호\))", f"{rid}(입력에 없는 번호)", md)
+    return md
+
+
+def generate(date: str, input_text: str) -> str:
+    """종합을 쓰고, 입력에 없는 report_id가 있으면 한 번 고치게 한다. 그래도 남으면 표시해 둔다."""
+    system_prompt = skill(SKILL_NAME)
+    known = cited_ids(input_text)
+    prompt = build_prompt(date, input_text)
+    md = validate(ask(prompt, model=MODEL, system_prompt=system_prompt), date)
+    unknown = unknown_ids(md, known)
+    if not unknown:
+        return md
+    print(f"[drawdown] 입력에 없는 report_id {unknown}, 한 번 고칩니다.")
+    fixed = validate(ask(prompt + "\n\n" + build_fix_prompt(md, unknown), model=MODEL, system_prompt=system_prompt), date)
+    still = unknown_ids(fixed, known)
+    if still:
+        print(f"::warning::고친 뒤에도 입력에 없는 report_id가 남아 표시해 둡니다: {still}")
+        fixed = mark_unknown(fixed, still)
+    return fixed
+
+
 def write_outputs(date: str, md: str, sel: dict, hits: list[dict], memo_used: bool,
                   previous: tuple[str, str] | None, window: list[str]) -> Path:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -349,11 +400,16 @@ def main() -> int:
     if args.check:
         p = Path(args.check)
         try:
-            validate(p.read_text(encoding="utf-8"), p.stem)
+            md = validate(p.read_text(encoding="utf-8"), p.stem)
         except LLMError as e:
             print(f"[drawdown] 형식 오류: {e}")
             return 1
-        print(f"[drawdown] 형식 확인: {p}")
+        # 대화형으로 쓴 파일은 입력 재료가 따로 없으므로 저장소에 있는 전체 리포트와 대조한다
+        unknown = unknown_ids(md.replace("(입력에 없는 번호)", ""), {r["report_id"] for _, r in load_reports()})
+        if unknown:
+            print(f"[drawdown] 저장소에 없는 report_id: {unknown}")
+            return 1
+        print(f"[drawdown] 형식·인용 확인: {p}")
         return 0
 
     date = args.date or (kst_today() if args.auto else None)
@@ -409,7 +465,7 @@ def main() -> int:
         return 0
 
     try:
-        md = validate(ask(build_prompt(date, input_text), model=MODEL, system_prompt=skill(SKILL_NAME)), date)
+        md = generate(date, input_text)
     except LLMError as e:
         print(f"[drawdown] 실패: {e}")
         return 1

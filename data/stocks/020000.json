@@ -2,7 +2,7 @@
  "id": "020000",
  "code": "020000",
  "name": "한섬",
- "industry": null,
+ "industry": "유통·소비재",
  "brokers": [
   "iM증권",
   "한화투자증권"

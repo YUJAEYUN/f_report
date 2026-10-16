@@ -19,5 +19,44 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hk_652436",
-  "text_chars": 2918
+  "text_chars": 2918,
+  "summary": {
+    "one_liner": "한·미 대미투자 발표를 앞두고 후보 프로젝트(텍사스 가스복합, 대형원전·Westinghouse, Alaska LNG)별 사업성과 국내 건설사 EPC 참여 구조가 실제 수주 연결의 핵심이라는 점검 리포트.",
+    "ticker": null,
+    "rating": "OVERWEIGHT",
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "대미투자 후보로 ① 텍사스 Encinal 6.3GW 가스복합발전(약 223억달러), ② 미국 대형원전 최대 8기 및 Westinghouse 지분투자, ③ Alaska LNG가 거론되며 국회 보고는 22일경으로 연기 추진 중",
+      "Encinal은 후보 중 상대적으로 구체화됐으나 PPA 등 상업성 구조와 미국의 전력구매 지원, 국내 건설사 EPC 참여 수준이 핵심이며 조건 확보 시 수주 기대감이 상대적으로 빠르게 형성될 것",
+      "대형원전 8기는 부지·사업주·Offtaker가 미공개이며, Westinghouse는 Brookfield(51%)·Cameco(49%) 보유라 지분투자·이사회 참여·IP 분쟁 합의조건 조정·APR1400 미국 진출 조건 확보 시 기존 주주와의 협의, 특히 Cameco 조율이 핵심 변수",
+      "Alaska LNG는 Phase 1 파이프라인 EPCM 우선협상자가 Worley이고 아직 FID 미결정이며, 국내 건설사 기회는 20MTPA 액화·수출시설 Phase 2로 Phase 1 FID 이후 가시성이 높아질 전망",
+      "관전 포인트는 ① 실제 투자대상 프로젝트, ② PPA·Offtake 등 사업성 확보 방안, ③ 국내 기업의 EPC·기자재 참여, ④ FID까지의 일정이며, 일본 사례처럼 프로젝트 발표가 곧 FID·EPC 발주는 아님"
+    ],
+    "risk_factors": [
+      "프로젝트 발표가 FID나 EPC 발주로 이어지지 않을 가능성(일본 Ohio 사업도 사업개발 절차 진행 중)",
+      "정부가 강조하는 상업적 합리성·국내 기업 참여 원칙이 구체 투자 조건에서 충족되지 않을 가능성",
+      "Westinghouse 기존 주주(특히 Cameco)와의 이해관계 조율 실패",
+      "Alaska LNG Phase 1의 사업성 문제로 FID 지연"
+    ]
+  },
+  "insight": {
+    "change": "원문은 대미투자 협상이 막바지에 이르며 국회 보고가 22일경으로 연기 추진 중이라는 점과, 프로젝트 선정으로 국내 건설사의 미국 수주 기대감이 형성될 수 있으나 투자 규모보다 사업 가시성과 국내 건설사의 참여 구조가 중요하다는 점을 강조한다. 비교 대상이 되는 과거 전제는 원문에 제시되지 않는다.",
+    "implication": "프로젝트 선정은 수주의 출발점일 뿐 FID와 EPC 발주까지 간극이 크므로, 대미투자 발표를 건설업 실적 신호로 해석하려면 발표된 투자 규모가 아니라 PPA·Offtake 확보와 국내 EPC·기자재 참여 조건이 명시됐는지를 구분해서 봐야 한다는 의미다. 후보 간 사업 성숙도 차이로 기대감 형성 시점도 달라질 수 있다.",
+    "watch_points": [
+      "발표 시 최종 투자대상 프로젝트와 PPA·Offtake, 미국의 전력구매 지원 등 사업성 확보 조건 및 국내 건설사 EPC 참여 범위",
+      "대형원전 8기의 구체적 부지·사업주·Offtaker 공개 여부와 Westinghouse 기존 주주(Cameco)와의 협의 경과",
+      "Alaska LNG Phase 1 FID 진행 여부 및 각 프로젝트의 FID 일정"
+    ]
+  },
+  "summarized_at": "2026-10-16T10:13:54+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "건설"
+  ],
+  "themes": [
+    "대미투자 프로젝트 선정",
+    "SMR·대형원전 수주"
+  ],
+  "tagged_at": "2026-10-16T10:13:54+09:00"
 }

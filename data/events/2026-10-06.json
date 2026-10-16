@@ -24,7 +24,9 @@
    "implied_prev": true,
    "broker": "유안타증권"
   },
-  "title": "현대백화점(069960) 대만 NDR 후기 및 3Q26 Preview"
+  "title": "현대백화점(069960) 대만 NDR 후기 및 3Q26 Preview",
+  "reason": "전년 4분기부터 높아진 매출 기저를 감안하면 향후 두 자릿수 매출 성장률 유지가 어렵다고 보고, 12M Fwd EPS에 PER 8배를 적용해 하향했다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-06:222800:tp_up:iM증권",
@@ -51,7 +53,9 @@
    "implied_prev": true,
    "broker": "iM증권"
   },
-  "title": "심텍(222800) CPU, LPDDR 수요 확대의 중심"
+  "title": "심텍(222800) CPU, LPDDR 수요 확대의 중심",
+  "reason": "iM증권은 '27년 EPS 7,482원에 글로벌 Peer 평균 P/E 42배를 20% 할인한 33배를 적용했고, Peer 멀티플 반등과 영업이익 전망치 상향(신규 증설 효과 등)을 반영했다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-06:032350:tp_cons_down:",
@@ -76,7 +80,9 @@
    "report_id": "hana_1288979",
    "cum30": null
   },
-  "title": "카지노(Overweight): 마카오와 한국 카지노의 동반 신저가 흐름"
+  "title": "카지노(Overweight): 마카오와 한국 카지노의 동반 신저가 흐름",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-06:006800:tp_down:하나증권",
@@ -102,7 +108,9 @@
    "report_id": "hana_1288999",
    "broker": "하나증권"
   },
-  "title": "미래에셋증권(006800.KS/매수): 3Q26 Pre - SpaceX 평가손실로 인한 적자는 불가피"
+  "title": "미래에셋증권(006800.KS/매수): 3Q26 Pre - SpaceX 평가손실로 인한 적자는 불가피",
+  "reason": "예상 BPS 26,657원에 Target P/B 2.5배를 적용해 목표주가를 67,000원으로 산출했으며, 3분기 SpaceX 평가손실로 적자전환을 예상했다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-06:192820:tp_up:하나증권",
@@ -128,7 +136,9 @@
    "report_id": "hana_1288995",
    "broker": "하나증권"
   },
-  "title": "코스맥스(192920.KS/매수): 계절성을 깨트리다"
+  "title": "코스맥스(192920.KS/매수): 계절성을 깨트리다",
+  "reason": "실적 추정치와 적정 밸류에이션을 상향 조정해 목표주가를 38만원으로 올렸다고 밝혔으며, 12MF PER 18배를 적용했다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-06:032350:tp_down:하나증권",
@@ -154,7 +164,9 @@
    "report_id": "hana_1288979",
    "broker": "하나증권"
   },
-  "title": "카지노(Overweight): 마카오와 한국 카지노의 동반 신저가 흐름"
+  "title": "카지노(Overweight): 마카오와 한국 카지노의 동반 신저가 흐름",
+  "reason": "3분기 실적 부진에 따른 EPS 하향을 반영해 목표주가를 16,000원으로 낮췄다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-06:267260:tp_down:하나증권",
@@ -180,7 +192,9 @@
    "report_id": "hana_1289001",
    "broker": "하나증권"
   },
-  "title": "HD현대일렉트릭(267260.KS/매수): 환율 영향은 피할 수 없지만"
+  "title": "HD현대일렉트릭(267260.KS/매수): 환율 영향은 피할 수 없지만",
+  "reason": "2028년 예상 EPS에 목표 PER 35배를 적용했으며, 환율 하락에 따른 이익 영향을 고려해야 한다고 봤다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-06:032350:tp_streak:하나증권",
@@ -207,7 +221,9 @@
    "broker": "하나증권",
    "streak": 4
   },
-  "title": "카지노(Overweight): 마카오와 한국 카지노의 동반 신저가 흐름"
+  "title": "카지노(Overweight): 마카오와 한국 카지노의 동반 신저가 흐름",
+  "reason": "3분기 실적 부진에 따른 EPS 하향을 반영해 목표주가를 16,000원으로 낮췄다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-06:034230:tp_streak:하나증권",
@@ -234,7 +250,9 @@
    "broker": "하나증권",
    "streak": 4
   },
-  "title": "카지노(Overweight): 마카오와 한국 카지노의 동반 신저가 흐름"
+  "title": "카지노(Overweight): 마카오와 한국 카지노의 동반 신저가 흐름",
+  "reason": "마카오 중장기 밸류에이션(15배)을 적용해 목표주가를 16,000원으로 하향했다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-06:114090:tp_streak:하나증권",
@@ -261,7 +279,9 @@
    "broker": "하나증권",
    "streak": 4
   },
-  "title": "카지노(Overweight): 마카오와 한국 카지노의 동반 신저가 흐름"
+  "title": "카지노(Overweight): 마카오와 한국 카지노의 동반 신저가 흐름",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-06:006800:gap_below:하나증권",

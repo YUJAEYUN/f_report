@@ -19,5 +19,32 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "mirae_2342849",
-  "text_chars": 41121
+  "text_chars": 41121,
+  "summary": {
+    "one_liner": "미래에셋증권 Earnings Revision 9월 4주차 리포트로, 본문 텍스트가 인코딩 깨짐으로 판독되지 않아 구체적인 실적 추정치 변화 내용은 확인할 수 없다.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "제목과 구조상 주간 단위 이익 추정치(Earnings Revision) 점검 리포트로 보이며 전체·업종별·종목별 영업이익 추정치 변화(Top/Bottom)를 다루는 구성이다.",
+      "표와 차트 구성상 KOSPI 12M Fwd PER·PBR, 12M Fwd EPS 성장률, 업종별 영업이익 추정치 증감 등을 제시하는 것으로 보인다.",
+      "본문 글자가 깨져 구체적 수치와 업종·종목명, 증감 방향은 판독할 수 없어 기재하지 않는다."
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "본문이 판독되지 않아 원문이 강조한 변화를 확인할 수 없다.",
+    "implication": "주간 이익 추정치 점검 리포트라는 형식만 확인되며, 시장 흐름에 대한 구체적 해석은 원문 재추출 후에야 가능하다.",
+    "watch_points": [
+      "PDF 텍스트 재추출 후 업종별·종목별 영업이익 추정치 증감 확인"
+    ]
+  },
+  "summarized_at": "2026-10-16T10:14:59+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [
+    "3분기 어닝시즌"
+  ],
+  "tagged_at": "2026-10-16T10:14:59+09:00"
 }
