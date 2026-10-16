@@ -135,3 +135,19 @@ class PublishRateLimitTest(unittest.TestCase):
             failed = pr.build_digests(reports, {"2026-10-14", "2026-10-15"})
             self.assertTrue(pr.RATE_LIMITED)
         self.assertEqual((failed, len(calls)), (1, 1))  # 첫 429에서 멈춘다
+
+
+class NeedsSummaryTest(unittest.TestCase):
+    def test_filters(self):
+        self.assertTrue(pr.needs_summary({"text_chars": 500}))
+        self.assertTrue(pr.needs_summary({}))  # 예전 형식(글자 수 기록 없음)
+        self.assertFalse(pr.needs_summary({"text_chars": 0, "preview_text": ""}))
+        self.assertTrue(pr.needs_summary({"text_chars": 0, "preview_text": "미리보기"}))
+        self.assertFalse(pr.needs_summary({"summary": {}}))
+        self.assertFalse(pr.needs_summary({"pdf_error": "x"}))
+
+    def test_summary_accepts_missing_watch_points(self):
+        r = {"report_type": "individual"}
+        obj = {"summary": {"one_liner": "한 줄"}, "insight": {"change": "변화", "implication": "의미"}}
+        _, insight = pr.validate_summary(r, obj)
+        self.assertEqual(insight["watch_points"], [])

@@ -303,19 +303,8 @@ def validate_summary(r: dict, obj: dict) -> tuple[dict, dict | None]:
             raise LLMError("one_liner 누락")
         for k in ("key_points", "risk_factors"):
             summary[k] = [str(x) for x in (summary.get(k) or [])]
-        insight = obj.get("insight")
-        if not isinstance(insight, dict):
-            raise LLMError("insight 누락")
-        for key in ("change", "implication"):
-            if not str(insight.get(key) or "").strip():
-                raise LLMError(f"insight.{key} 누락")
-            insight[key] = str(insight[key]).strip()
-        watch_points = insight.get("watch_points")
-        if not isinstance(watch_points, list):
-            raise LLMError("insight.watch_points 형식 오류")
-        insight["watch_points"] = [str(x).strip() for x in watch_points if str(x).strip()][:3]
-        if not insight["watch_points"]:
-            raise LLMError("insight.watch_points 누락")
+        # 인사이트 검증은 한 곳에서 (확인할 점이 빠져도 변화·의미가 있으면 받는다)
+        insight = validate_insight(obj)
     elif not isinstance(summary.get("items"), list):
         raise LLMError("daily_series summary.items 누락")
     else:
@@ -391,17 +380,20 @@ def backfill_insights(reports: list[tuple[Path, dict]], limit: int) -> bool:
     return any_failure
 
 
+def needs_summary(r: dict) -> bool:
+    """요약 대기 대상. 본문도 미리보기도 없는 리포트(예: "조사분석자료 미공표")는 요약할 재료가 없어 뺀다."""
+    if "summary" in r or r.get("pdf_error"):
+        return False
+    return not (r.get("text_chars") == 0 and not (r.get("preview_text") or "").strip())
+
+
 def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set[str], bool]:
     """요약이 없는 리포트를 limit건까지 처리. 반환: (요약한 발행일, 중단 여부).
 
     한 건의 응답 형식 오류는 건너뛰고(다음 실행에서 다시 시도) 경고만 남긴다. 작업을 실패로
     표시하는 건 인증 실패·사용량 한도·연속 실패로 중단했을 때뿐이다.
     """
-    pending = [
-        (p, r) for p, r in reports
-        if "summary" not in r
-        and not r.get("pdf_error")
-    ]
+    pending = [(p, r) for p, r in reports if needs_summary(r)]
     # 최신 리포트부터: 새 증권사를 처음 받을 때처럼 과거 리포트가 한꺼번에 들어와도
     # 오늘 리포트가 뒤로 밀리지 않게 한다
     pending.sort(key=lambda pr: (pr[1].get("published_date") or "", pr[1].get("published_time") or "",
@@ -836,7 +828,7 @@ def main() -> int:
     if failed:
         print(f"[summary] 브리핑/인사이트/다이제스트 생성 실패 {failed}건")
     if args.status_file:
-        remaining = sum(1 for _, r in reports if "summary" not in r and not r.get("pdf_error"))
+        remaining = sum(1 for _, r in reports if needs_summary(r))
         Path(args.status_file).write_text(json.dumps({
             "summarized": summarized_count, "remaining": remaining, "aborted": aborted,
         }), encoding="utf-8")
