@@ -2,7 +2,7 @@
  "id": "006400",
  "code": "006400",
  "name": "삼성SDI",
- "industry": null,
+ "industry": "2차전지",
  "brokers": [
   "iM증권"
  ],

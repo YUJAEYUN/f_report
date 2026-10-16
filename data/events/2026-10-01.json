@@ -25,7 +25,9 @@
    "prev_report_id": "hana_1288808",
    "broker": "하나증권"
   },
-  "title": "화장품(Overweight): K-뷰티 중소형주 31"
+  "title": "화장품(Overweight): K-뷰티 중소형주 31",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-01:456010:cons_turn:하나증권2026eps",
@@ -53,7 +55,9 @@
    "prev_report_id": "hana_1288806",
    "broker": "하나증권"
   },
-  "title": "ICTK(456010.KQ/매수): 위드네트웍스 인수는 큰 호재입니다"
+  "title": "ICTK(456010.KQ/매수): 위드네트웍스 인수는 큰 호재입니다",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-01:018290:cons_up:하나증권2027eps",
@@ -81,7 +85,9 @@
    "prev_report_id": "hana_1288896",
    "broker": "하나증권"
   },
-  "title": "화장품(Overweight): K-뷰티 중소형주 31"
+  "title": "화장품(Overweight): K-뷰티 중소형주 31",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-01:018250:coverage_end:하나증권",
@@ -108,7 +114,9 @@
    "note": "1년 경과, 담당자 변경",
    "broker": "하나증권"
   },
-  "title": "화장품(Overweight): K-뷰티 중소형주 31"
+  "title": "화장품(Overweight): K-뷰티 중소형주 31",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-01:114840:coverage_end:하나증권",
@@ -135,7 +143,9 @@
    "note": "1년 경과, 담당자 변경",
    "broker": "하나증권"
   },
-  "title": "화장품(Overweight): K-뷰티 중소형주 31"
+  "title": "화장품(Overweight): K-뷰티 중소형주 31",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-01:237880:coverage_end:하나증권",
@@ -162,7 +172,9 @@
    "note": "1년 경과, 담당자 변경",
    "broker": "하나증권"
   },
-  "title": "화장품(Overweight): K-뷰티 중소형주 31"
+  "title": "화장품(Overweight): K-뷰티 중소형주 31",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-01:352480:coverage_end:하나증권",
@@ -189,6 +201,8 @@
    "note": "1년 경과, 담당자 변경",
    "broker": "하나증권"
   },
-  "title": "화장품(Overweight): K-뷰티 중소형주 31"
+  "title": "화장품(Overweight): K-뷰티 중소형주 31",
+  "reason": null,
+  "reason_checked": true
  }
 ]
