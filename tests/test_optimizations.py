@@ -122,3 +122,32 @@ class RateLimitExitTest(unittest.TestCase):
         with patch.object(pr, "RATE_LIMITED", False):
             pr.abort_reason(pr.LLMAuthError("401"))
             self.assertFalse(pr.RATE_LIMITED)
+
+
+class PublishRateLimitTest(unittest.TestCase):
+    def test_digest_stops_on_rate_limit(self):
+        reports = [(Path(f"/x/{i}.json"), {"report_id": f"r{i}", "report_type": "individual", "published_date": d,
+                                           "summary": {"one_liner": "x"}, "industries": [], "themes": []})
+                   for i, d in enumerate(["2026-10-14", "2026-10-15"])]
+        calls = []
+        with patch.object(pr, "ask", side_effect=lambda p: calls.append(1) or (_ for _ in ()).throw(pr.LLMRateLimitError("429"))), \
+                patch.object(pr, "RATE_LIMITED", False), patch.object(pr, "digest_events", return_value=[]):
+            failed = pr.build_digests(reports, {"2026-10-14", "2026-10-15"})
+            self.assertTrue(pr.RATE_LIMITED)
+        self.assertEqual((failed, len(calls)), (1, 1))  # 첫 429에서 멈춘다
+
+
+class NeedsSummaryTest(unittest.TestCase):
+    def test_filters(self):
+        self.assertTrue(pr.needs_summary({"text_chars": 500}))
+        self.assertTrue(pr.needs_summary({}))  # 예전 형식(글자 수 기록 없음)
+        self.assertFalse(pr.needs_summary({"text_chars": 0, "preview_text": ""}))
+        self.assertTrue(pr.needs_summary({"text_chars": 0, "preview_text": "미리보기"}))
+        self.assertFalse(pr.needs_summary({"summary": {}}))
+        self.assertFalse(pr.needs_summary({"pdf_error": "x"}))
+
+    def test_summary_accepts_missing_watch_points(self):
+        r = {"report_type": "individual"}
+        obj = {"summary": {"one_liner": "한 줄"}, "insight": {"change": "변화", "implication": "의미"}}
+        _, insight = pr.validate_summary(r, obj)
+        self.assertEqual(insight["watch_points"], [])
