@@ -78,6 +78,34 @@
   "reason_checked": true
  },
  {
+  "id": "2026-10-15:034020:tp_down:하나증권",
+  "date": "2026-10-15",
+  "type": "tp_down",
+  "severity": 1.82,
+  "stock_id": "034020",
+  "code": "034020",
+  "name": "두산에너빌리티",
+  "industry": "기계·전력기기",
+  "report_id": "hana_1289138",
+  "headline": "하나증권 목표주가 165,000원 → 120,000원 (-27.3%)",
+  "data": {
+   "date": "2026-10-15",
+   "prev_date": "2026-02-09",
+   "days": 248,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 165000.0,
+   "tp_to": 120000.0,
+   "tp_pct": -27.3,
+   "tp_speed30": -3.3,
+   "report_id": "hana_1289138",
+   "broker": "하나증권"
+  },
+  "title": "두산에너빌리티(034020.KS/매수): 연내 SMR 추가 수주 기대",
+  "reason": "2030년 최대 Capa 기준 Noplat은 유지하되 적용 배수를 기존 50배에서 35배로 낮춰 목표주가를 하향했다.",
+  "reason_checked": true
+ },
+ {
   "id": "2026-10-15:061090:gap_below:하나증권",
   "date": "2026-10-15",
   "type": "gap_below",
@@ -178,6 +206,36 @@
   },
   "title": "LG화학(051910) FOMO",
   "reason": "자회사 LGES 적정가치는 상향했지만 NAV 할인율 63%를 적용해 적정주가를 31만원으로 제시했다.",
+  "reason_checked": true
+ },
+ {
+  "id": "2026-10-15:018670:est_up:하나증권2026eps",
+  "date": "2026-10-15",
+  "type": "est_up",
+  "severity": 1.04,
+  "stock_id": "018670",
+  "code": "018670",
+  "name": "SK가스",
+  "industry": "에너지·가스",
+  "report_id": "hana_1289140",
+  "headline": "하나증권 추정 2026년 EPS +10.4% (38,023원 → 41,996원)",
+  "data": {
+   "date": "2026-10-15",
+   "prev_date": "2026-09-20",
+   "days": 25,
+   "year": "2026",
+   "metric": "eps",
+   "from": 38023.0,
+   "to": 41996.0,
+   "pct": 10.4,
+   "speed30": 12.5,
+   "turn": null,
+   "report_id": "hana_1289140",
+   "prev_report_id": "hana_1288828",
+   "broker": "하나증권"
+  },
+  "title": "SK가스(018670.KS/매수): 배당성장주의 정석",
+  "reason": "옵셔널리티로 LPG 도입물량이 늘고 LPG 상대가격이 오르면서 파생상품 관련 손익이 세전이익에 긍정적으로 반영될 것으로 봤다.",
   "reason_checked": true
  }
 ]

@@ -4,6 +4,7 @@
  "name": "현대차",
  "industry": "자동차·부품",
  "brokers": [
+  "LS증권",
   "하나증권",
   "한화투자증권"
  ],
@@ -115,6 +116,15 @@
    "report_id": "hk_652810",
    "tp_status": "하향",
    "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-10-16",
+   "rating": "매수",
+   "target_price": 520000.0,
+   "source": "report",
+   "report_id": "hk_653013",
+   "tp_status": "하향",
+   "broker": "LS증권"
   }
  ],
  "notes": [],
@@ -131,6 +141,22 @@
    "tp_status": "하향",
    "price": 336000.0,
    "upside_pct": 99.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-16",
+   "report_id": "hk_653013",
+   "title": "현대차(005380) 4분기 반등 기대",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 520000.0,
+   "tp_status": "하향",
+   "price": 295500.0,
+   "upside_pct": 76.0,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -364,6 +390,16 @@
    "mean": 590000,
    "n": 2,
    "brokers": {
+    "하나증권": 510000.0,
+    "한화투자증권": 670000.0
+   }
+  },
+  {
+   "date": "2026-10-16",
+   "mean": 566667,
+   "n": 3,
+   "brokers": {
+    "LS증권": 520000.0,
     "하나증권": 510000.0,
     "한화투자증권": 670000.0
    }

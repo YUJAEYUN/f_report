@@ -4,6 +4,7 @@
  "name": "리노공업",
  "industry": "반도체",
  "brokers": [
+  "LS증권",
   "SK증권",
   "메리츠증권"
  ],
@@ -25,6 +26,15 @@
    "report_id": "hk_652868",
    "tp_status": null,
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-16",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "report",
+   "report_id": "hk_653015",
+   "tp_status": "유지",
+   "broker": "LS증권"
   }
  ],
  "notes": [],
@@ -60,6 +70,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-16",
+   "report_id": "hk_653015",
+   "title": "리노공업(058470) AI 시대의 비메모리 R&D 수혜",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 110000.0,
+   "tp_status": "유지",
+   "price": 67200.0,
+   "upside_pct": 63.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -79,6 +105,16 @@
    "mean": 112000,
    "n": 2,
    "brokers": {
+    "SK증권": 115000.0,
+    "메리츠증권": 109000.0
+   }
+  },
+  {
+   "date": "2026-10-16",
+   "mean": 111333,
+   "n": 3,
+   "brokers": {
+    "LS증권": 110000.0,
     "SK증권": 115000.0,
     "메리츠증권": 109000.0
    }

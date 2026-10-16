@@ -19,5 +19,34 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "mirae_2343433",
-  "text_chars": 338
+  "text_chars": 338,
+  "summary": {
+    "one_liner": "저PBR 정책(밸류업) 공표를 앞두고 지주회사(LG, HD현대, 한화, LS, CJ 등)의 NAV 대비 괴리와 주주환원 정책에 주목해야 한다는 NAV Dashboard 주간 리포트",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "저PBR 공표를 앞둔 시점에서 지주회사의 주주환원 정책이 핵심 관전 포인트로 제시됨",
+      "LG, HD현대, 한화, LS, CJ 등 주요 지주회사의 주가 추이를 NAV Dashboard로 점검",
+      "본문 텍스트가 차트 라벨 위주로만 추출되어 구체적인 수치·결론은 확인 불가"
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "제목 기준으로 저PBR 정책 공표가 임박한 시점이어서, 지주회사 분석의 초점이 NAV 할인율 자체에서 주주환원 정책으로 옮겨가고 있음을 강조한다.",
+    "implication": "원문의 논리를 해석하면, 정책 공표가 지주회사의 NAV 대비 할인 해소 여부를 가늠하는 계기이며 기업별 주주환원 정책이 차별화 요인으로 작용할 수 있다는 의미다.",
+    "watch_points": [
+      "저PBR 정책 공표 내용과 시점",
+      "각 지주회사의 주주환원 정책 발표 여부"
+    ]
+  },
+  "summarized_at": "2026-10-16T22:45:10+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [
+    "밸류업·저PBR",
+    "자사주 소각·주주환원"
+  ],
+  "tagged_at": "2026-10-16T22:45:10+09:00"
 }

@@ -1,0 +1,55 @@
+{
+ "id": "002380",
+ "code": "002380",
+ "name": "KCC",
+ "industry": "정유·화학",
+ "brokers": [
+  "LS증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-16",
+   "rating": "매수",
+   "target_price": 548000.0,
+   "source": "report",
+   "report_id": "hk_653018",
+   "tp_status": null,
+   "broker": "LS증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-16",
+   "report_id": "hk_653018",
+   "title": "KCC(002380) 3분기, 원재료 및 운송비 상승 통과 구간",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 548000.0,
+   "tp_status": null,
+   "price": 417500.0,
+   "upside_pct": 31.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-10-16",
+   "mean": 548000,
+   "n": 1,
+   "brokers": {
+    "LS증권": 548000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

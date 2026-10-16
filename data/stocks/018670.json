@@ -9,6 +9,15 @@
  ],
  "timeline": [
   {
+   "date": "2023-10-30",
+   "rating": "매수",
+   "target_price": 200000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
    "date": "2024-07-23",
    "rating": "매수",
    "target_price": 220000.0,
@@ -79,6 +88,15 @@
    "report_id": "hk_652970",
    "tp_status": "유지",
    "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-15",
+   "rating": "매수",
+   "target_price": 365000.0,
+   "source": "report",
+   "report_id": "hana_1289140",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -147,9 +165,71 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-15",
+   "report_id": "hana_1289140",
+   "title": "SK가스(018670.KS/매수): 배당성장주의 정석",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 365000.0,
+   "tp_status": null,
+   "price": 272500.0,
+   "upside_pct": 33.9,
+   "estimates": {
+    "2026": {
+     "revenue": 9816.0,
+     "op": 508.8,
+     "net": 388.6,
+     "eps": 41996.0
+    },
+    "2027": {
+     "revenue": 9176.2,
+     "op": 546.8,
+     "net": 299.3,
+     "eps": 32326.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 10088.1,
+     "op": 457.0,
+     "net": 349.6,
+     "eps": 32152.0
+    },
+    "2027": {
+     "revenue": 9494.9,
+     "op": 513.0,
+     "net": 353.5,
+     "eps": 31108.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 508.8,
+    "consensus": 457.0,
+    "gap_pct": 11.3
+   }
   }
  ],
  "rating_changes": [
+  {
+   "date": "2024-07-23",
+   "prev_date": "2023-10-30",
+   "days": 267,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 200000.0,
+   "tp_to": 220000.0,
+   "tp_pct": 10.0,
+   "tp_speed30": 1.1,
+   "report_id": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2024-11-04",
    "prev_date": "2024-07-23",
@@ -216,9 +296,138 @@
    "broker": "하나증권"
   }
  ],
- "estimate_revisions": [],
+ "estimate_revisions": [
+  {
+   "date": "2026-10-15",
+   "prev_date": "2026-09-20",
+   "days": 25,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 9865.3,
+   "to": 9816.0,
+   "pct": -0.5,
+   "speed30": -0.6,
+   "turn": null,
+   "report_id": "hana_1289140",
+   "prev_report_id": "hana_1288828",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-15",
+   "prev_date": "2026-09-20",
+   "days": 25,
+   "year": "2026",
+   "metric": "op",
+   "from": 492.9,
+   "to": 508.8,
+   "pct": 3.2,
+   "speed30": 3.8,
+   "turn": null,
+   "report_id": "hana_1289140",
+   "prev_report_id": "hana_1288828",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-15",
+   "prev_date": "2026-09-20",
+   "days": 25,
+   "year": "2026",
+   "metric": "net",
+   "from": 351.9,
+   "to": 388.6,
+   "pct": 10.4,
+   "speed30": 12.5,
+   "turn": null,
+   "report_id": "hana_1289140",
+   "prev_report_id": "hana_1288828",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-15",
+   "prev_date": "2026-09-20",
+   "days": 25,
+   "year": "2026",
+   "metric": "eps",
+   "from": 38023.0,
+   "to": 41996.0,
+   "pct": 10.4,
+   "speed30": 12.5,
+   "turn": null,
+   "report_id": "hana_1289140",
+   "prev_report_id": "hana_1288828",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-15",
+   "prev_date": "2026-09-20",
+   "days": 25,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 8981.3,
+   "to": 9176.2,
+   "pct": 2.2,
+   "speed30": 2.6,
+   "turn": null,
+   "report_id": "hana_1289140",
+   "prev_report_id": "hana_1288828",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-15",
+   "prev_date": "2026-09-20",
+   "days": 25,
+   "year": "2027",
+   "metric": "op",
+   "from": 512.0,
+   "to": 546.8,
+   "pct": 6.8,
+   "speed30": 8.2,
+   "turn": null,
+   "report_id": "hana_1289140",
+   "prev_report_id": "hana_1288828",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-15",
+   "prev_date": "2026-09-20",
+   "days": 25,
+   "year": "2027",
+   "metric": "net",
+   "from": 278.4,
+   "to": 299.3,
+   "pct": 7.5,
+   "speed30": 9.0,
+   "turn": null,
+   "report_id": "hana_1289140",
+   "prev_report_id": "hana_1288828",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-15",
+   "prev_date": "2026-09-20",
+   "days": 25,
+   "year": "2027",
+   "metric": "eps",
+   "from": 30076.0,
+   "to": 32326.0,
+   "pct": 7.5,
+   "speed30": 9.0,
+   "turn": null,
+   "report_id": "hana_1289140",
+   "prev_report_id": "hana_1288828",
+   "broker": "하나증권"
+  }
+ ],
  "consensus_changes": [],
  "tp_consensus": [
+  {
+   "date": "2023-10-30",
+   "mean": 200000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 200000.0
+   }
+  },
   {
    "date": "2024-07-23",
    "mean": 220000,
@@ -287,5 +496,7 @@
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-10-15:018670:est_up:하나증권2026eps"
+ ]
 }

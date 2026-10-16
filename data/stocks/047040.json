@@ -81,6 +81,15 @@
    "report_id": "mirae_2343322",
    "tp_status": null,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-16",
+   "rating": "매수",
+   "target_price": 24000.0,
+   "source": "report",
+   "report_id": "hk_653032",
+   "tp_status": "유지",
+   "broker": "유안타증권"
   }
  ],
  "notes": [
@@ -135,6 +144,22 @@
    "tp_status": null,
    "price": null,
    "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-16",
+   "report_id": "hk_653032",
+   "title": "대우건설(047040) 곧 수주가 대거 몰려온다!",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 24000.0,
+   "tp_status": "유지",
+   "price": 14670.0,
+   "upside_pct": 63.6,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -259,6 +284,16 @@
   },
   {
    "date": "2026-10-13",
+   "mean": 24000,
+   "n": 3,
+   "brokers": {
+    "LS증권": 28000.0,
+    "유안타증권": 24000.0,
+    "하나증권": 20000.0
+   }
+  },
+  {
+   "date": "2026-10-16",
    "mean": 24000,
    "n": 3,
    "brokers": {

@@ -135,6 +135,15 @@
    "report_id": "hk_652982",
    "tp_status": "유지",
    "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-16",
+   "rating": "매수",
+   "target_price": 45000.0,
+   "source": "report",
+   "report_id": "hk_653030",
+   "tp_status": "유지",
+   "broker": "유안타증권"
   }
  ],
  "notes": [
@@ -248,6 +257,22 @@
    "tp_status": "유지",
    "price": 29800.0,
    "upside_pct": 67.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-16",
+   "report_id": "hk_653030",
+   "title": "GS건설(006360) 데이터센터 준비 갈 완료",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 45000.0,
+   "tp_status": "유지",
+   "price": 28200.0,
+   "upside_pct": 59.6,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -460,6 +485,16 @@
   },
   {
    "date": "2026-10-15",
+   "mean": 47000,
+   "n": 3,
+   "brokers": {
+    "LS증권": 50000.0,
+    "유안타증권": 45000.0,
+    "하나증권": 46000.0
+   }
+  },
+  {
+   "date": "2026-10-16",
    "mean": 47000,
    "n": 3,
    "brokers": {

@@ -107,6 +107,15 @@
    "report_id": "hana_1288937",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-16",
+   "rating": "매수",
+   "target_price": 73000.0,
+   "source": "report",
+   "report_id": "hk_653029",
+   "tp_status": "유지",
+   "broker": "유안타증권"
   }
  ],
  "notes": [],
@@ -191,6 +200,22 @@
     "consensus": 980.8,
     "gap_pct": 2.1
    }
+  },
+  {
+   "date": "2026-10-16",
+   "report_id": "hk_653029",
+   "title": "삼성E&A(028050) 수주는 이미 초과 달성, 실적도 순항 중",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 73000.0,
+   "tp_status": "유지",
+   "price": 42200.0,
+   "upside_pct": 73.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -373,6 +398,15 @@
   },
   {
    "date": "2026-10-01",
+   "mean": 70000,
+   "n": 2,
+   "brokers": {
+    "유안타증권": 73000.0,
+    "하나증권": 67000.0
+   }
+  },
+  {
+   "date": "2026-10-16",
    "mean": 70000,
    "n": 2,
    "brokers": {
