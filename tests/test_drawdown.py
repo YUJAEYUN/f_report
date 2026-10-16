@@ -1,5 +1,6 @@
 import tempfile
 import unittest
+import unittest.mock
 from pathlib import Path
 
 from scripts import drawdown as dd
@@ -105,6 +106,41 @@ class PreviousJudgmentTest(unittest.TestCase):
             d = Path(tmp)
             (d / "2026-01-01.md").write_text(full_md("2026-01-01"), encoding="utf-8")
             self.assertIsNone(dd.previous_judgment("2026-10-15", CFG, out_dir=d))
+
+
+class CitationTest(unittest.TestCase):
+    def test_finds_ids_not_in_input(self):
+        md = full_md("2026-10-15", "근거: hana_1289095, hk_652974, hk_674974 · mirae_2343387")
+        known = dd.cited_ids("재료 hana_1289095 hk_652974 mirae_2343387")
+        self.assertEqual(dd.unknown_ids(md, known), ["hk_674974"])
+
+    def test_ignores_non_report_tokens(self):
+        self.assertEqual(dd.cited_ids("tp_cons_down 2026-W42 desk_1 hk_652974"), {"hk_652974"})
+
+    def test_mark_unknown_is_idempotent(self):
+        once = dd.mark_unknown("근거 hk_674974", ["hk_674974"])
+        self.assertEqual(dd.mark_unknown(once, ["hk_674974"]), "근거 hk_674974(입력에 없는 번호)")
+
+    def test_generate_fixes_once_then_marks(self):
+        good = full_md("2026-10-15", "근거 hk_652974")
+        bad = full_md("2026-10-15", "근거 hk_674974")
+        calls = []
+
+        def fake_ask(prompt, **kw):
+            calls.append(prompt)
+            return bad if len(calls) == 1 else good
+
+        with unittest.mock.patch.object(dd, "ask", fake_ask):
+            out = dd.generate("2026-10-15", "재료 hk_652974")
+        self.assertEqual(len(calls), 2)
+        self.assertIn("hk_674974", calls[1])
+        self.assertNotIn("hk_674974", out)
+
+        calls.clear()
+        with unittest.mock.patch.object(dd, "ask", lambda prompt, **kw: calls.append(1) or bad):
+            out = dd.generate("2026-10-15", "재료 hk_652974")
+        self.assertEqual(len(calls), 2)
+        self.assertIn("hk_674974(입력에 없는 번호)", out)
 
 
 class DayRangeTest(unittest.TestCase):
