@@ -19,5 +19,42 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hk_652602",
-  "text_chars": 101456
+  "text_chars": 101456,
+  "summary": {
+    "one_liner": "AI 수요로 메모리 Fab 증설이 본격화되면서 병목이 선단 Fab 구축 과정의 인프라와 테스트로 전이되고 있어, 실적 가시성이 높은 반도체 인프라·테스트 밸류체인(최선호주 리노공업, 샘씨엔에스)에 주목해야 한다.",
+    "ticker": null,
+    "rating": "Overweight",
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "하이퍼스케일러·네오클라우드·AI Lab 간 경쟁으로 AI 투자가 이어지고, 학습뿐 아니라 추론 수요도 늘며 HBM·DRAM 수요로 연결된다.",
+      "HBM은 DRAM 대비 더 많은 Wafer Capa를 요구하고 서버 DDR 수요도 확대되어, Legacy DRAM 공급 탄력성이 낮아지고 기존 Fab의 Tech Migration만으로는 대응이 어려워 삼성전자·SK하이닉스·Micron 3사의 신규 Fab 증설이 본격화되고 있다.",
+      "신규 Fab은 전력·용수·가스·배관·Scrubber·Chiller·AMHS 등 인프라가 먼저 구축돼야 하므로, 양산 이전부터 수주와 매출이 발생할 수 있다. 제시 종목은 저스템, GST, 싸이맥스, 비엠티, 한양이엔지.",
+      "공정 미세화와 HBM·Chiplet·Advanced Packaging 확산으로 불량 유출 손실이 커져 Wafer Test와 Probe Card 등 Test Interface 수요가 확대되고, 이후 Final Test·Handler·Test Socket으로 확산된다. 제시 종목은 와이씨, 티에스이, 샘씨엔에스, 리노공업, ISC.",
+      "업종 내 최선호주로 글로벌 비메모리 Test Socket 선두인 리노공업(058470)과 Probe Card 핵심 부품 STF 기판을 납품하는 샘씨엔에스(252990)를 제시한다."
+    ],
+    "risk_factors": [
+      "Big Tech의 현금흐름 이슈와 AI 투자 '속도 조절론'으로 Capex 가이던스와 수익 추정이 흔들릴 수 있다.",
+      "Fab 건설 일정이 장기간 소요되고 착공·가동 시점이 변경될 수 있어 인프라·테스트 업체의 실적 반영 시기가 달라질 수 있다."
+    ]
+  },
+  "insight": {
+    "change": "AI 병목을 메모리 수요나 가격 자체가 아니라 '메모리 Fab 증설의 결과'로 보고, 병목이 선단 Fab 구축 과정의 인프라와 테스트로 옮겨가고 있다는 점을 강조한다. 전방 수급 판단보다 이미 제시된 Fab 건설 계획에 따라 먼저 실적이 반영될 가시성 높은 영역에 초점을 맞춘다.",
+    "implication": "AI 투자 변동성에 따라 멀티플이 흔들리더라도 확정된 Capex 계획에 연동된 설비·테스트 수요는 Fab 건설 단계(양산 이전)부터 발생할 수 있다는 것이 원문의 논리다. 이는 AI 메모리 사이클의 수혜가 메모리 제조사에서 소부장 중소형주로 단계적으로 확산되는 구조로 이해할 수 있게 한다.",
+    "watch_points": [
+      "삼성전자·SK하이닉스·Micron의 신규 Fab 착공·가동 일정(P5, 용인, M15X, ID1 등) 이행 여부",
+      "글로벌 주요 CSP 9개사의 Capex 추이와 AI 투자 속도 조절 논의",
+      "HBM 적층 확대 및 서버 DRAM 비중 증가에 따른 Wafer Test·Probe Card 수요 흐름"
+    ]
+  },
+  "summarized_at": "2026-10-16T09:16:39+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "반도체"
+  ],
+  "themes": [
+    "AI 인프라 투자 사이클",
+    "메모리 업황 호조"
+  ],
+  "tagged_at": "2026-10-16T09:16:39+09:00"
 }

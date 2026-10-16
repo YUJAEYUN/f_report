@@ -19,5 +19,42 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hk_652532",
-  "text_chars": 10604
+  "text_chars": 10604,
+  "summary": {
+    "one_liner": "K뷰티 유니버스의 아마존 US 'Facial Skin Care' BSR 총점이 주간 1,661pt로 전주 대비 95pt 둔화했고, 1위 medicube(596pt, -34pt)가 부진한 가운데 ANUA는 370pt로 유지, SKIN1004·ARENCIA 등 일부 브랜드는 상승했다.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "K뷰티 유니버스 합산 BSR 점수는 1,661pt로 전주 대비 95pt 하락",
+      "K뷰티 주간 평균 점수 Top3는 medicube 596pt(-34pt), ANUA 370pt(0pt), EQQUALBERRY 117pt(+5pt)",
+      "K뷰티 상승 Top3는 SKIN1004 61pt(+9pt), ARENCIA 26pt(+7pt), EQQUALBERRY 117pt(+5pt)",
+      "전체 브랜드 Top3는 CeraVe 616pt, medicube 596pt, The Ordinary 466pt이며 L'Oreal Paris(+47pt)와 Olay(+40pt)가 상승폭 상위",
+      "BIODANCE(94pt, -22pt)와 COSRX(72pt, -21pt)는 하락했고, medicube는 30일 평균(693pt)과 90일 평균(684pt) 대비 낮은 수준"
+    ],
+    "risk_factors": [
+      "BSR은 판매량 순위 기반 상대 지표이며 프로모션·광고에 따라 일별 변동이 커서 주간 수치만으로 추세를 단정하기 어려움",
+      "분석 범위가 아마존 US 'Facial Skin Care' 카테고리 1~100위로 한정되어 미국 전체 시장 성과와 차이가 있을 수 있음",
+      "K뷰티 유니버스 구성 브랜드는 추후 변경될 수 있음"
+    ]
+  },
+  "insight": {
+    "change": "이번 주 K뷰티 합산 BSR 점수가 전주보다 95pt 낮아졌고, 이는 주로 최상위 브랜드 medicube의 34pt 하락이 반영된 결과다. 반면 ANUA는 변동이 없었고, SKIN1004·ARENCIA 등 중하위 브랜드는 소폭 상승했다. 원문에 직전 주 이전의 비교 전제는 제시되지 않았다.",
+    "implication": "K뷰티 미국 아마존 성과가 medicube와 ANUA 등 소수 상위 브랜드에 크게 의존하는 구조이고, 중하위 브랜드의 소폭 상승은 이 둔화를 상쇄하지 못했다는 점을 보여준다. 다만 이번 주 하락은 한 주 단위 변동이므로 30일·90일 평균 대비 위치와 함께 해석해야 한다는 것이 원문 지표의 함의다.",
+    "watch_points": [
+      "medicube의 주간 BSR 점수가 30일·90일 평균(693pt·684pt) 수준으로 회복되는지 여부",
+      "K뷰티 유니버스 합산 BSR 점수의 다음 주 이후 반등 또는 추가 둔화 여부",
+      "SKIN1004·ARENCIA·EQQUALBERRY 등 상승 브랜드의 점수 상승이 이어지는지 여부"
+    ]
+  },
+  "summarized_at": "2026-10-16T09:28:54+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "화장품"
+  ],
+  "themes": [
+    "K뷰티 수출 확대"
+  ],
+  "tagged_at": "2026-10-16T09:28:54+09:00"
 }
