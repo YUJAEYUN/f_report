@@ -21,7 +21,7 @@ on:
         required: false
         default: false
       redo_date:
-        description: "브리핑/다이제스트를 강제로 재생성할 발행일 (YYYY-MM-DD, 선택)"
+        description: "브리핑/다이제스트를 강제로 재생성할 발행일 (YYYY-MM-DD, 쉼표로 여러 개, 기간은 2026-09-21~2026-10-16)"
         required: false
         default: ""
       retag:
@@ -31,6 +31,11 @@ on:
         default: false
       redo_all:
         description: "재태깅 없이 테마 병합 + 전체 브리핑/주간 인사이트/다이제스트 재생성 (프롬프트·형식 변경 후)"
+        type: boolean
+        required: false
+        default: false
+      digest_only:
+        description: "브리핑·주간 인사이트는 건너뛰고 일간 다이제스트만 만든다 (redo_date가 있으면 그 날짜만)"
         type: boolean
         required: false
         default: false
@@ -93,6 +98,7 @@ jobs:
           RETAG: ${{ github.event.inputs.retag }}
           REDO_ALL: ${{ github.event.inputs.redo_all }}
           DRAIN: ${{ github.event.inputs.drain }}
+          DIGEST_ONLY: ${{ github.event.inputs.digest_only }}
         run: |
           if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
             echo "::error::Secret CLAUDE_CODE_OAUTH_TOKEN 이 없습니다. 'claude setup-token'으로 발급해 등록하세요."
@@ -119,6 +125,9 @@ jobs:
           fi
           if [ "$REDO_ALL" = "true" ]; then
             args+=(--redo-all)
+          fi
+          if [ "$DIGEST_ONLY" = "true" ]; then
+            args+=(--digest-only)
           fi
           # 수동 실행은 시각과 상관없이 밀린 브리핑·다이제스트를 바로 만든다 (정기 실행은 저녁에 한 번)
           if [ "$DRAIN" = "true" ]; then

@@ -151,3 +151,13 @@ class NeedsSummaryTest(unittest.TestCase):
         obj = {"summary": {"one_liner": "한 줄"}, "insight": {"change": "변화", "implication": "의미"}}
         _, insight = pr.validate_summary(r, obj)
         self.assertEqual(insight["watch_points"], [])
+
+
+class ExpandDatesTest(unittest.TestCase):
+    def test_ranges_and_lists(self):
+        self.assertEqual(pr.expand_dates(["2026-09-29~2026-10-01"]), {"2026-09-29", "2026-09-30", "2026-10-01"})
+        self.assertEqual(pr.expand_dates(["2026-10-01, 2026-10-03", "2026-10-02"]),
+                         {"2026-10-01", "2026-10-02", "2026-10-03"})
+        self.assertEqual(pr.expand_dates([""]), set())
+        with self.assertRaises(ValueError):
+            pr.expand_dates(["2026-13-01"])
