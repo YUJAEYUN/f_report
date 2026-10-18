@@ -20,6 +20,7 @@ LLM에는 텍스트만 주고 받는다. 어떤 파일을 읽고 어디에 쓰�
     python scripts/process_reports.py --limit 30
     python scripts/process_reports.py --limit 5 --backfill-insights  # 기존 리포트 인사이트만 백필
     python scripts/process_reports.py --limit 0 --redo-date 2026-09-29   # 요약 없이 브리핑/다이제스트만 재생성
+    python scripts/process_reports.py --limit 0 --digest-only --redo-date 2026-09-21~2026-10-16  # 다이제스트만, 기간
     python scripts/process_reports.py --limit 0 --retag                  # 분류 체계 변경 후 전체 재태깅 + 전체 재생성
     python scripts/process_reports.py --limit 0 --redo-all               # 재태깅 없이 테마 병합 + 전체 재생성
 """
@@ -750,6 +751,23 @@ def split_recent(dates: set[str], explicit: set[str], now: dt.datetime | None = 
     return keep, dates - keep
 
 
+def expand_dates(values: list[str]) -> set[str]:
+    """["2026-09-21~2026-09-23", "2026-10-01,2026-10-02"] -> 날짜 집합. 기간은 양 끝 포함."""
+    out: set[str] = set()
+    for v in values:
+        for part in re.split(r"[,\s]+", v.strip()):
+            if not part:
+                continue
+            if "~" in part:
+                a, b = (dt.date.fromisoformat(x) for x in part.split("~", 1))
+                while a <= b:
+                    out.add(a.isoformat())
+                    a += dt.timedelta(days=1)
+            else:
+                out.add(dt.date.fromisoformat(part).isoformat())
+    return out
+
+
 def should_publish(pending: set[str], now: dt.datetime | None = None) -> bool:
     now = now or dt.datetime.now(dt.timezone(dt.timedelta(hours=9)))
     today = now.date().isoformat()
@@ -760,13 +778,17 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--limit", type=int, default=30, help="이번 실행에서 요약하거나 백필할 최대 리포트 수")
     parser.add_argument("--backfill-insights", action="store_true", help="요약된 개별 리포트의 누락 인사이트만 --limit건 백필")
-    parser.add_argument("--redo-date", action="append", default=[], help="브리핑/다이제스트를 강제로 재생성할 발행일 (반복 가능)")
+    parser.add_argument("--redo-date", action="append", default=[],
+                        help="브리핑/다이제스트를 강제로 재생성할 발행일. 반복, 쉼표 구분, 기간(2026-09-21~2026-10-16) 가능")
+    parser.add_argument("--digest-only", action="store_true",
+                        help="브리핑·주간 인사이트는 건너뛰고 일간 다이제스트만 만든다 (redo_date가 있으면 그 날짜만)")
     parser.add_argument("--retag", action="store_true", help="요약된 전체 리포트를 현재 분류 체계로 재태깅하고 모든 날짜를 재생성")
     parser.add_argument("--redo-all", action="store_true", help="재태깅 없이 테마 병합 + 모든 날짜의 브리핑/인사이트/다이제스트 재생성")
     parser.add_argument("--publish-now", action="store_true", help="시각과 상관없이 밀린 브리핑/인사이트/다이제스트를 지금 만든다")
     parser.add_argument("--no-publish", action="store_true", help="요약만 하고 브리핑/다이제스트는 날짜만 모아 둔다 (대기열 비우기용)")
     parser.add_argument("--status-file", help="실행 결과(요약 건수, 남은 대기, 중단 여부)를 JSON으로 쓸 경로")
     args = parser.parse_args()
+    args.redo_date = sorted(expand_dates(args.redo_date))
 
     if not textstore.available():
         # 원문 없이 돌면 요약이 미리보기만 보고 만들어지고 숫자 추출도 비어 버린다
@@ -816,6 +838,13 @@ def main() -> int:
     elif args.no_publish:
         save_pending(pending)
         print(f"[publish] 대기열 비우는 중 -> {len(pending)}개 날짜는 나중에 생성")
+    elif args.digest_only:
+        targets = (set(args.redo_date) or pending) & {r["published_date"] for _, r in reports if "summary" in r}
+        print(f"[publish] 다이제스트만 {len(targets)}일: {', '.join(sorted(targets))}", flush=True)
+        digest_failed = build_digests(reports, targets)
+        failed += digest_failed
+        # 성공했으면 만든 날짜만 대기에서 뺀다 (브리핑이 필요한 다른 대기 날짜는 그대로)
+        save_pending(pending if digest_failed else pending - targets)
     elif forced or should_publish(pending):
         print(f"[publish] {', '.join(sorted(pending))} 브리핑/인사이트/다이제스트 생성", flush=True)
         published_failed = build_briefs(reports, pending) + build_weekly(reports, pending) + build_digests(reports, pending)
