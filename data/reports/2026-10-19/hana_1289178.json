@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "1260",
+  "bbs_seq": "1289178",
+  "report_type": "individual",
+  "title": "[New K-ETF] NVIDIA 고정 미국 AI반도체",
+  "analyst": "박승진",
+  "published_date": "2026-10-19",
+  "published_time": "07:55:05",
+  "category": "글로벌 투자전략",
+  "breadcrumb": "해외주식 > 글로벌 투자전략",
+  "preview_text": "▣ 신규 상장 ETF(10/20): 1Q 엔비디아 고정 미국 AI반도체\n\n◎ 1Q 엔비디아 고정 미국 AI반도체 ETF\n\n- 미국 증시에 상장된 AI 반도체 핵심 기업 10개에 투자하는 패시브 ETF. NVIDIA에 25%, 나머지 9개 기업에 총 75%를 배분하여 GPU와 반도체 설계생산, 메모리, 네트워크 등 AI 반도체 밸류체인에 집중 투자\n\n- 유동성 조건을 충족하는 미국증시 상장 기업 가운데 AI 가속기GPU메모리LLMHBM 등 키워드 기준 상위 스코어 9개 종목을 추가로 선정. NVIDIA 외 종목들은 유동시가총액 점수와 키워드 관련도를 반영해 비중을 결정하며, 개별 종목 최대 비중은 20%로 제한\n\n- NVIDIA와 AMD의 GPUAI 연산, TSMC의 파운드리, Micron과 SanDisk의 메모리, Broadcom과 Marvell Technology의 맞춤형네트워크 반도체 사업 등을 함께 반영. Intel, Arm, Qualcomm도 상장일 기준 편입 예상 종목군. 연산용 반도체 설계부터 생산과 데이터 저장전송까지 투자 영역 확장\n\n- 매월 옵션만기일 다음 주 첫 영업일에 정기 리밸런싱 진행. NVIDIA의 25% 비중은 정기변경 시 적용하는 기준으로, 정기변경 사이에는 구성종목의 주가 움직임에 따라 실제 편입 비중 변동 가능",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289178&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
+  "pdf_filename": "New_K_ETF_261019_1Q.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=1260&bbsSeq=1289178",
+  "collected_at": "2026-10-19T15:54:35+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289178",
+  "text_chars": 2941
+}

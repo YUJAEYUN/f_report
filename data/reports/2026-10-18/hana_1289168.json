@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "4002",
+  "bbs_seq": "1289168",
+  "report_type": "individual",
+  "title": "[HANA US Weekly] 코어위브 신용불안, AI 투자 위축 우려는 과도",
+  "analyst": "강재구",
+  "published_date": "2026-10-18",
+  "published_time": "17:15:27",
+  "category": "글로벌 산업분석",
+  "breadcrumb": "해외주식 > 글로벌 산업분석",
+  "preview_text": "- 견조한 GPU 수요와 빅테크의 투자 여력에 주목, 실적 발표가 투자심리 회복의 계기\n- 코어위브 신용위험이 확대됐지만, GPU 수요 감소나 AI 인프라 투자 축소 확인되지 않아 산업 전반에 미치는 영향은 제한적\n- 엔비디아의 높은 현금창출 능력과 AI 인프라 금융 확대, 대형 플랫폼 기업의 투자 여력이 금융불안의 확산을 완화할 전망\n- 10월 하순 빅테크 실적에서 AI 수요와 설비투자 확대 기조가 재확인될 경우 투자심리 회복 예상. 엔비디아와 대형 플랫폼 기업의 주가 조정은 매수 기회\n\n- 지난주(10월 12일~10월 16일) 리뷰: AI 금융불안에 기술주 급락, 방어주로 자금 이동\n- 이번 주(10월 19일~10월 23일) 프리뷰: 본격적인 실적 발표 시즌 돌입",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289168&attachFileSeq=1&bbsId=&dbType=&bbsCd=4002",
+  "pdf_filename": "USweekly_1019_F.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=4002&bbsSeq=1289168",
+  "collected_at": "2026-10-19T15:55:34+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289168",
+  "text_chars": 20972
+}

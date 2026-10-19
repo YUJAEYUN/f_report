@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "1260",
+  "bbs_seq": "1289167",
+  "report_type": "individual",
+  "title": "[New K-ETF] 미국 CPU반도체 TOP3+",
+  "analyst": "박승진",
+  "published_date": "2026-10-18",
+  "published_time": "16:36:16",
+  "category": "글로벌 투자전략",
+  "breadcrumb": "해외주식 > 글로벌 투자전략",
+  "preview_text": "▣ 신규 상장 ETF(10/20): ACE 미국 CPU반도체 TOP3+\n\n◎ ACE 미국 CPU반도체 TOP3+ ETF\n\n- 미국에 상장된 CPU 반도체와 관련 밸류체인 기업들에 투자하는 10개 종목 구성의 패시브 ETF. AI에이전트의 프로그램 실행과 데이터 처리, 작업 흐름 관리를 담당하는 CPU의 수요 확대에 주목. CPU 핵심 기업에 집중하면서 파운드리메모리네트워크서버 제조 기업까지 함께 편입하는 구조\n\n- CPU 설계 관련 Tier1과 생산부품메모리네트워크 관련 Tier2로 구분. Tier1의 키워드 점수 상위 3개 종목을 우선 선정하고, 키워드 점수와 시가총액을 8:2로 반영하여 Tier1에서 2개, Tier2에서 5개 종목 추가 선정\n\n- 핵심 TOP3인 IntelAMDArm에 각각 25%씩 총 75%의 비중 배분. 나머지 NVIDIA, Qualcomm, TSMC, Micron, Marvell, Dell Technologies, HPE의 개별 편입 비중은 1~7% 범위에서 결정. CPU 설계부터 반도체 생산과 부품 공급, 서버 시스템 구축까지 연결되는 포트폴리오 구성. CPU 핵심 3개 기업에 대한 집중투자와 AI 서버 밸류체인에 대한 분산투자를 결합한 구조",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289167&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
+  "pdf_filename": "New_K_ETF_261019_ACE.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=1260&bbsSeq=1289167",
+  "collected_at": "2026-10-19T15:55:34+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289167",
+  "text_chars": 2637
+}

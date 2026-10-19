@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "1260",
+  "bbs_seq": "1289166",
+  "report_type": "individual",
+  "title": "[New K-ETF] 미국 피지컬AI 액티브",
+  "analyst": "박승진",
+  "published_date": "2026-10-18",
+  "published_time": "16:36:09",
+  "category": "글로벌 투자전략",
+  "breadcrumb": "해외주식 > 글로벌 투자전략",
+  "preview_text": "▣ 신규 상장 ETF(10/20): 마이티 미국 피지컬AI 액티브\n\n◎ 마이티 미국 피지컬AI액티브 ETF\n\n- 미국 증시에 상장된 피지컬AI 관련 기업들에 투자하는 액티브 ETF. AI 연산학습에 필요한 반도체소프트웨어부터 센서 기반의 환경 인식과 동작 제어, 로봇자율주행을 통한 실제 구현까지 피지컬AI 산업 밸류체인 전반으로 포트폴리오 구성\n\n- 비교지수는 iSelect 미국 피지컬 AI 지수. 미국 상장기업들을 대상으로 자연어처리(NLP) 기반의 테마 관련도 평가 후 영역별 시가총액 상위 종목 선정. Brain 10개, Action+Perception 10개, Embodiment 5개 등 총 25개 종목으로 비교지수 구성\n\n- 비교지수는 세 영역에 각각 약 33.3%의 비중 배분. Brain과 Action+Perception 영역은 시가총액 가중방식을 적용하고 개별 종목 비중을 1%~5%로 제한. Embodiment 영역은 동일가중방식을 적용하여 AI 연산과 인식제어, 실제 구현 기업들에 균형 있게 투자하는 구조. 비교지수와의 상관계수 0.7 이상 유지 조건하에서 액티브 운용을 통해 편입 종목과 비중을 조절하며 초과수익 추구",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289166&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
+  "pdf_filename": "New_K_ETF_261019_MIGTHY.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=1260&bbsSeq=1289166",
+  "collected_at": "2026-10-19T15:55:34+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289166",
+  "text_chars": 1962
+}

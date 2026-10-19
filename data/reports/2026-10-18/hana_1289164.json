@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "1260",
+  "bbs_seq": "1289164",
+  "report_type": "individual",
+  "title": "[New K-ETF] 반도체 소부장 액티브",
+  "analyst": "박승진",
+  "published_date": "2026-10-18",
+  "published_time": "16:35:54",
+  "category": "글로벌 투자전략",
+  "breadcrumb": "해외주식 > 글로벌 투자전략",
+  "preview_text": "▣ 신규 상장 ETF(10/20): RISE 반도체 소부장 액티브\n\n◎ RISE 반도체 소부장 액티브 ETF\n\n- 국내 반도체 소재부품장비 기업들에 투자하는 액티브 ETF. 전공정후공정 장비와 기판, 반도체 패키징테스트 외주업체(OSAT), 부품, 소재 분야를 투자 대상으로 설정. 장비 기업은 신규 생산라인 구축과 공정 전환, 소재부품 기업은 생산라인 가동률과 웨이퍼 투입량에 영향을 받는 구조로, 투자 사이클과 기업별 사업 변화를 반영하여 종목과 비중 조절\n\n- 비교지수는 유동성 조건을 충족하는 국내 상장기업들 가운데 관련 산업에 해당하는 기업들을 대상으로 소부장 키워드와의 LLM 유사도 평가 진행하여 편입 대상 종목을 선정. 편입 비중은 LLM 유사도 점수와 시가총액 정규화 수치를 각각 50%씩 반영한 비중점수에 비례하여 결정\n\n- 실제 ETF는 업종별 비중을 조절하는 Top-Down 분석, 개별 기업을 선별하는 Bottom-Up 리서치, 기업별 이슈에 대응하는 Event-Driven 전략을 함께 활용. 수주나 고객사의 투자 계획 변경 등이 기업의 기초여건에 의미 있는 변화를 일으킨다고 판단하면 2일 이내 포트폴리오 조정 대응을 원칙으로 적용\n\n- 삼성전기, 테스, 심텍, 기가비스, ISC, 피에스케이, 피에스케이홀딩스, HPSP, 이수페타시스, 주성엔지니어링 등이 주요 편입 대상 종목군. 액티브 ETF인 만큼, 비교지수와 상관계수 0.7의 유지 조건 하에서 종목과 비중을 조절하며 초과수익을 추구",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289164&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
+  "pdf_filename": "New_K_ETF_261019_RISE.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=1260&bbsSeq=1289164",
+  "collected_at": "2026-10-19T15:55:34+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289164",
+  "text_chars": 2561
+}
