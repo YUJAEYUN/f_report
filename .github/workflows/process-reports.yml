@@ -91,6 +91,8 @@ jobs:
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          # Claude 동시 호출 수 (비우면 3). 시간만 줄고 사용량은 같다
+          LLM_CONCURRENCY: ${{ vars.LLM_CONCURRENCY }}
           # 하루 한 번 수집이라 그날 물량(평일 60~70건)을 한 번에 요약한다
           LIMIT: ${{ github.event.inputs.limit || '100' }}
           BACKFILL_INSIGHTS: ${{ github.event.inputs.backfill_insights }}

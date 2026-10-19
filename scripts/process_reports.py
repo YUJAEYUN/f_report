@@ -28,12 +28,16 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import hashlib
 import json
+import os
 import re
 import shutil
 import sys
 from collections import Counter, defaultdict
+from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait
 from pathlib import Path
+from typing import Callable, Iterable
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
@@ -67,9 +71,81 @@ PUBLISH_HOUR_KST = 17
 # 그 날짜의 브리핑·다이제스트는 다시 만들지 않는다. 필요하면 --redo-date/--redo-all로 만든다.
 PUBLISH_WINDOW_DAYS = 7
 PUBLISH_PENDING = ROOT / "data" / "index" / "publish_pending.json"
+# 브리핑·주간 인사이트·다이제스트를 만들 때 쓴 프롬프트의 지문 (산출물 경로 -> 해시).
+# 프롬프트가 그대로면(근거 리포트·SKILL이 안 바뀜) 다시 만들지 않는다.
+PUBLISH_HASHES = ROOT / "data" / "index" / "publish_hashes.json"
+# Claude 동시 호출 수. 사용량은 그대로고 걸리는 시간만 줄어든다.
+LLM_CONCURRENCY = max(1, int(os.environ.get("LLM_CONCURRENCY") or 3))
 
 
 # ---------- 공통 유틸 ----------
+
+def run_llm_jobs(items: Iterable, make_call: Callable, on_done: Callable, workers: int | None = None) -> None:
+    """items를 순서대로 최대 workers개씩 동시에 처리한다.
+
+    make_call(item)은 메인 스레드에서 제출 직전에 불려 워커에서 돌릴 인자 없는 함수를 돌려준다
+    (None이면 그 item은 건너뜀). 프롬프트를 제출 직전에 만들어서, 앞서 끝난 결과(새 테마명 등)가
+    다음 프롬프트에 반영된다. on_done(item, result, error)은 메인 스레드에서 끝난 순서대로 불리고,
+    False를 돌려주면 새 작업 제출을 멈추고 이미 보낸 것만 마저 받는다.
+    """
+    workers = workers or LLM_CONCURRENCY
+    it = iter(items)
+    running: dict = {}
+    stopped = False
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        def submit_next() -> None:
+            for item in it:
+                fn = make_call(item)
+                if fn is not None:
+                    running[ex.submit(fn)] = item
+                    return
+
+        for _ in range(workers):
+            submit_next()
+        while running:
+            done, _ = wait(running, return_when=FIRST_COMPLETED)
+            for fut in done:
+                item = running.pop(fut)
+                err = fut.exception()
+                if err is not None and not isinstance(err, LLMError):
+                    raise err
+                if on_done(item, None if err else fut.result(), err) is False:
+                    stopped = True
+                if not stopped:
+                    submit_next()
+
+
+_HASHES: dict[str, str] | None = None
+
+
+def _hashes() -> dict[str, str]:
+    global _HASHES
+    if _HASHES is None:
+        _HASHES = json.loads(PUBLISH_HASHES.read_text(encoding="utf-8")) if PUBLISH_HASHES.exists() else {}
+    return _HASHES
+
+
+def _hash_key(out: Path) -> str:
+    try:
+        return out.resolve().relative_to(ROOT).as_posix()
+    except ValueError:
+        return out.as_posix()
+
+
+def prompt_hash(prompt: str) -> str:
+    return hashlib.sha256(prompt.encode("utf-8")).hexdigest()[:16]
+
+
+def is_fresh(out: Path, prompt: str) -> bool:
+    """out이 이미 같은 프롬프트로 만들어져 있으면 True (다시 만들 필요 없음)."""
+    return out.exists() and _hashes().get(_hash_key(out)) == prompt_hash(prompt)
+
+
+def mark_fresh(out: Path, prompt: str) -> None:
+    hashes = _hashes()
+    hashes[_hash_key(out)] = prompt_hash(prompt)
+    write_json(PUBLISH_HASHES, dict(sorted(hashes.items())))
+
 
 def skill(name: str) -> str:
     return (SKILLS_DIR / name / "SKILL.md").read_text(encoding="utf-8")
@@ -360,25 +436,33 @@ def backfill_insights(reports: list[tuple[Path, dict]], limit: int) -> bool:
     """기존 레코드에서 insight와 생성 시각만 추가한다. 실패/중단 여부를 반환한다."""
     pending = insight_backfill_targets(reports)
     print(f"[insight-backfill] 대기 {len(pending)}건, 이번 실행 최대 {limit}건")
-    failures = 0
-    any_failure = False
-    for path, r in pending[:limit]:
-        try:
-            insight = validate_insight(ask_json(build_insight_prompt(r)))
-        except LLMError as e:
-            failures += 1
-            any_failure = True
-            print(f"  ! {r['report_id']} 실패: {e}", flush=True)
-            if isinstance(e, (LLMAuthError, LLMRateLimitError)) or failures >= MAX_CONSECUTIVE_FAILURES:
-                print(f"[insight-backfill] 중단: {abort_reason(e)}")
-                return True
-            continue
-        failures = 0
+    st = {"failures": 0, "any": False, "aborted": False}
+
+    def make_call(item):
+        prompt = build_insight_prompt(item[1])
+        return lambda: validate_insight(ask_json(prompt))
+
+    def on_done(item, insight, err):
+        path, r = item
+        if err is not None:
+            st["failures"] += 1
+            st["any"] = True
+            print(f"  ! {r['report_id']} 실패: {err}", flush=True)
+            if isinstance(err, (LLMAuthError, LLMRateLimitError)) or st["failures"] >= MAX_CONSECUTIVE_FAILURES:
+                if not st["aborted"]:
+                    print(f"[insight-backfill] 중단: {abort_reason(err)}")
+                st["aborted"] = True
+                return False
+            return True
+        st["failures"] = 0
         r["insight"] = insight
         r["insight_generated_at"] = now_kst()
         save_report(path, r)
         print(f"  [{r['published_date']}] {r['report_id']} {r['title'][:40]}", flush=True)
-    return any_failure
+        return True
+
+    run_llm_jobs(pending[:limit], make_call, on_done)
+    return st["any"]
 
 
 def needs_summary(r: dict) -> bool:
@@ -401,21 +485,32 @@ def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set
                                  pr[1]["report_id"]), reverse=True)
     print(f"[summarize] 대기 {len(pending)}건, 이번 실행 최대 {limit}건")
     touched_dates: set[str] = set()
-    failures = 0
     skipped: list[str] = []
-    for path, r in pending[:limit]:
-        try:
-            obj = ask_json(build_summary_prompt(r))
-            summary, insight = validate_summary(r, obj)
-        except LLMError as e:
-            failures += 1
-            print(f"  ! {r['report_id']} 실패: {e}", flush=True)
-            if isinstance(e, (LLMAuthError, LLMRateLimitError)) or failures >= MAX_CONSECUTIVE_FAILURES:
-                print(f"[summarize] 중단: {abort_reason(e)}")
-                return touched_dates, True
+    st = {"failures": 0, "aborted": False}
+
+    def make_call(item):
+        r = item[1]
+        prompt = build_summary_prompt(r)  # 메인 스레드: 직전까지 생긴 테마명이 들어간다
+
+        def call():
+            obj = ask_json(prompt)
+            return obj, *validate_summary(r, obj)
+        return call
+
+    def on_done(item, result, err):
+        path, r = item
+        if err is not None:
+            st["failures"] += 1
+            print(f"  ! {r['report_id']} 실패: {err}", flush=True)
+            if isinstance(err, (LLMAuthError, LLMRateLimitError)) or st["failures"] >= MAX_CONSECUTIVE_FAILURES:
+                if not st["aborted"]:
+                    print(f"[summarize] 중단: {abort_reason(err)}")
+                st["aborted"] = True
+                return False
             skipped.append(r["report_id"])
-            continue
-        failures = 0
+            return True
+        st["failures"] = 0
+        obj, summary, insight = result
         r["summary"] = summary
         if insight is not None:
             r["insight"] = insight
@@ -429,9 +524,12 @@ def summarize_pending(reports: list[tuple[Path, dict]], limit: int) -> tuple[set
         touched_dates.add(r["published_date"])
         print(f"  [{r['published_date']}] {r['report_id']} {r['title'][:40]} -> "
               f"{r['desk']} {r.get('industries', '')} {r.get('themes', '')}", flush=True)
+        return True
+
+    run_llm_jobs(pending[:limit], make_call, on_done)
     if skipped:
         print(f"::warning::요약 {len(skipped)}건 건너뜀 (응답 형식 오류, 다음 실행에서 다시 시도): {', '.join(skipped)}")
-    return touched_dates, False
+    return touched_dates, st["aborted"]
 
 
 # ---------- 1-b) retag (요약 기반 재태깅) ----------
@@ -553,8 +651,30 @@ def summary_card(r: dict) -> dict:
     return {**{k: r.get(k) for k in keys}, "broker": broker_of(r)}
 
 
-def build_briefs(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
+def _publish_failed(label: str, err: LLMError, st: dict) -> bool:
+    """브리핑·인사이트·다이제스트 한 건의 실패 처리. 계속해도 되면 True."""
+    print(f"  ! {label} 실패: {err}", flush=True)
+    st["failed"] += 1
+    if isinstance(err, (LLMAuthError, LLMRateLimitError)):
+        # 한도·인증 문제는 나머지도 똑같이 실패하므로 바로 멈춘다 (날짜는 대기에 남아 다음 실행에서 생성)
+        if not st.get("stopped"):
+            print(f"  ! 중단: {abort_reason(err)}", flush=True)
+        st["stopped"] = True
+        return False
+    return True
+
+
+def _ask_call(prompt: str) -> Callable[[], str]:
+    return lambda: strip_fences(ask(prompt))
+
+
+def build_briefs(reports: list[tuple[Path, dict]], dates: set[str], force: set[str] = frozenset()) -> int:
+    """dates가 속한 주차의 (산업, 주차) 브리핑을 만든다. 근거 리포트가 그대로인 브리핑은 건너뛴다.
+
+    force에 든 날짜의 주차는 그대로여도 다시 만든다 (redo_date 등).
+    """
     weeks = {iso_week(d) for d in dates}
+    force_weeks = {iso_week(d) for d in force}
     groups: dict[tuple[str, str], list[dict]] = defaultdict(list)
     for _, r in reports:
         if r["report_type"] != "individual" or "summary" not in r:
@@ -571,8 +691,7 @@ def build_briefs(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
             if stale.exists() and (d.name, w) not in groups:
                 stale.unlink()
                 print(f"  (근거 없어진 브리핑 삭제: {d.name} {w})")
-    print(f"[brief] 대상 {len(groups)}개 (산업, 주차; 주 {MIN_REPORTS_FOR_BRIEF}건 이상)")
-    failed = 0
+    jobs = []
     for (industry, week), rs in sorted(groups.items()):
         prompt = "\n\n".join([
             "너는 증권사 리서치를 산업 단위로 종합하는 파이프라인의 한 단계다. 아래 SKILL 명세를 따른다.",
@@ -582,21 +701,25 @@ def build_briefs(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
             + json.dumps([summary_card(r) for r in rs], ensure_ascii=False, indent=1),
             f"=== 출력 형식 ===\n`# {industry} {week}` 제목으로 시작하는 마크다운 본문만 출력한다. 코드펜스로 감싸지 않는다.",
         ])
-        try:
-            md = strip_fences(ask(prompt))
-        except LLMError as e:
-            print(f"  ! {industry} {week} 실패: {e}", flush=True)
-            failed += 1
-            if isinstance(e, (LLMAuthError, LLMRateLimitError)):
-                # 한도·인증 문제는 나머지도 똑같이 실패하므로 바로 멈춘다 (날짜는 대기에 남아 다음 실행에서 생성)
-                print(f"  ! 중단: {abort_reason(e)}", flush=True)
-                return failed
-            continue
         out = brief_path(industry, week)
+        if week in force_weeks or not is_fresh(out, prompt):
+            jobs.append((industry, week, len(rs), prompt, out))
+    print(f"[brief] 대상 {len(groups)}개 (산업, 주차; 주 {MIN_REPORTS_FOR_BRIEF}건 이상) 중 {len(jobs)}개 생성, "
+          f"{len(groups) - len(jobs)}개는 근거 리포트가 그대로라 건너뜀", flush=True)
+    st = {"failed": 0}
+
+    def on_done(job, md, err):
+        industry, week, n, prompt, out = job
+        if err is not None:
+            return _publish_failed(f"{industry} {week}", err, st)
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(md, encoding="utf-8")
-        print(f"  {industry} {week} ({len(rs)}건)", flush=True)
-    return failed
+        mark_fresh(out, prompt)
+        print(f"  {industry} {week} ({n}건)", flush=True)
+        return True
+
+    run_llm_jobs(jobs, lambda job: _ask_call(job[3]), on_done)
+    return st["failed"]
 
 
 # ---------- 2-b) synthesize-weekly-insight ----------
@@ -605,64 +728,78 @@ def weekly_path(week: str) -> Path:
     return WEEKLY_DIR / f"{week}.md"
 
 
-def build_weekly(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
-    failed = 0
+def weekly_job(reports: list[tuple[Path, dict]], week: str) -> tuple[str, dict] | None:
+    """주간 인사이트 프롬프트와 함께 쓸 메타데이터. 그 주 리포트가 없으면 None."""
+    rs = [r for _, r in reports
+          if r["report_type"] == "individual" and "summary" in r and iso_week(r["published_date"]) == week]
+    if not rs:
+        return None
+    by_theme: dict[str, list[dict]] = defaultdict(list)
+    for r in rs:
+        for t in r.get("themes") or []:
+            by_theme[t].append(r)
+    top = [(t, v) for t, v in sorted(by_theme.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+           if len(v) >= MIN_THEME_REPORTS][:TOP_THEMES]
+    industries = []
+    for d in sorted(INDUSTRIES_DIR.iterdir()) if INDUSTRIES_DIR.exists() else []:
+        bp = brief_path(d.name, week)
+        if bp.exists():
+            ids = [r["report_id"] for r in rs if d.name in (r.get("industries") or [])]
+            industries.append({
+                "industry": d.name, "report_ids": ids,
+                "link": f"../../data/industries/{d.name}/briefs/{week}.md",
+                "excerpt": bp.read_text(encoding="utf-8")[:BRIEF_EXCERPT_CHARS],
+            })
+    in_top = {r["report_id"] for _, v in top for r in v}
+    others = [{"report_id": r["report_id"], "title": r["title"], "desk": r.get("desk")}
+              for r in rs if r["report_id"] not in in_top]
+    prompt = "\n\n".join([
+        "너는 증권사 리서치로 주간 인사이트를 쓰는 파이프라인의 한 단계다. 아래 SKILL 명세를 따른다.",
+        "=== SKILL: synthesize-weekly-insight ===\n" + skill("synthesize-weekly-insight"),
+        f"=== 대상 ===\n주차: {week}\nindividual 리포트 수: {len(rs)}",
+        "=== 이번 주 테마 Top (이 순서대로 다룬다) ===\n" + json.dumps(
+            [{"theme": t, "report_count": len(v), "reports": [summary_card(r) | {"industries": r.get("industries")} for r in v]}
+             for t, v in top], ensure_ascii=False, indent=1),
+        "=== 산업 흐름 (link는 인사이트 파일 기준 상대경로) ===\n" + json.dumps(industries, ensure_ascii=False, indent=1),
+        "=== 기타 리포트 ===\n" + json.dumps(others, ensure_ascii=False, indent=1),
+        f"=== 출력 형식 ===\n`# 주간 인사이트 {week}` 제목으로 시작하는 마크다운 본문만 출력한다. 코드펜스로 감싸지 않는다.",
+    ])
+    meta = {
+        "week": week,
+        "report_count": len(rs),
+        "themes": [{"name": t, "report_ids": [r["report_id"] for r in v]} for t, v in top],
+        "industries": [{"name": i["industry"], "report_ids": i["report_ids"]} for i in industries],
+    }
+    return prompt, meta
+
+
+def build_weekly(reports: list[tuple[Path, dict]], dates: set[str], force: set[str] = frozenset()) -> int:
+    force_weeks = {iso_week(d) for d in force}
+    jobs = []
     for week in sorted({iso_week(d) for d in dates}):
-        rs = [r for _, r in reports
-              if r["report_type"] == "individual" and "summary" in r and iso_week(r["published_date"]) == week]
-        if not rs:
+        job = weekly_job(reports, week)
+        if job is None:
             continue
-        by_theme: dict[str, list[dict]] = defaultdict(list)
-        for r in rs:
-            for t in r.get("themes") or []:
-                by_theme[t].append(r)
-        top = [(t, v) for t, v in sorted(by_theme.items(), key=lambda kv: (-len(kv[1]), kv[0]))
-               if len(v) >= MIN_THEME_REPORTS][:TOP_THEMES]
-        industries = []
-        for d in sorted(INDUSTRIES_DIR.iterdir()) if INDUSTRIES_DIR.exists() else []:
-            bp = brief_path(d.name, week)
-            if bp.exists():
-                ids = [r["report_id"] for r in rs if d.name in (r.get("industries") or [])]
-                industries.append({
-                    "industry": d.name, "report_ids": ids,
-                    "link": f"../../data/industries/{d.name}/briefs/{week}.md",
-                    "excerpt": bp.read_text(encoding="utf-8")[:BRIEF_EXCERPT_CHARS],
-                })
-        in_top = {r["report_id"] for _, v in top for r in v}
-        others = [{"report_id": r["report_id"], "title": r["title"], "desk": r.get("desk")}
-                  for r in rs if r["report_id"] not in in_top]
-        prompt = "\n\n".join([
-            "너는 증권사 리서치로 주간 인사이트를 쓰는 파이프라인의 한 단계다. 아래 SKILL 명세를 따른다.",
-            "=== SKILL: synthesize-weekly-insight ===\n" + skill("synthesize-weekly-insight"),
-            f"=== 대상 ===\n주차: {week}\nindividual 리포트 수: {len(rs)}",
-            "=== 이번 주 테마 Top (이 순서대로 다룬다) ===\n" + json.dumps(
-                [{"theme": t, "report_count": len(v), "reports": [summary_card(r) | {"industries": r.get("industries")} for r in v]}
-                 for t, v in top], ensure_ascii=False, indent=1),
-            "=== 산업 흐름 (link는 인사이트 파일 기준 상대경로) ===\n" + json.dumps(industries, ensure_ascii=False, indent=1),
-            "=== 기타 리포트 ===\n" + json.dumps(others, ensure_ascii=False, indent=1),
-            f"=== 출력 형식 ===\n`# 주간 인사이트 {week}` 제목으로 시작하는 마크다운 본문만 출력한다. 코드펜스로 감싸지 않는다.",
-        ])
-        try:
-            md = strip_fences(ask(prompt))
-        except LLMError as e:
-            print(f"  ! weekly {week} 실패: {e}", flush=True)
-            failed += 1
-            if isinstance(e, (LLMAuthError, LLMRateLimitError)):
-                # 한도·인증 문제는 나머지도 똑같이 실패하므로 바로 멈춘다 (날짜는 대기에 남아 다음 실행에서 생성)
-                print(f"  ! 중단: {abort_reason(e)}", flush=True)
-                return failed
-            continue
+        if week in force_weeks or not is_fresh(weekly_path(week), job[0]):
+            jobs.append((week, *job))
+        else:
+            print(f"[weekly] {week} 재료가 그대로라 건너뜀", flush=True)
+    st = {"failed": 0}
+
+    def on_done(job, md, err):
+        week, prompt, meta = job
+        if err is not None:
+            return _publish_failed(f"weekly {week}", err, st)
         WEEKLY_DIR.mkdir(parents=True, exist_ok=True)
         weekly_path(week).write_text(md, encoding="utf-8")
-        write_json(WEEKLY_DIR / f"{week}.json", {
-            "week": week,
-            "report_count": len(rs),
-            "themes": [{"name": t, "report_ids": [r["report_id"] for r in v]} for t, v in top],
-            "industries": [{"name": i["industry"], "report_ids": i["report_ids"]} for i in industries],
-            "generated_at": now_kst(),
-        })
-        print(f"[weekly] {week} (리포트 {len(rs)}, 테마 {len(top)}, 산업 {len(industries)})", flush=True)
-    return failed
+        write_json(WEEKLY_DIR / f"{week}.json", {**meta, "generated_at": now_kst()})
+        mark_fresh(weekly_path(week), prompt)
+        print(f"[weekly] {week} (리포트 {meta['report_count']}, 테마 {len(meta['themes'])}, "
+              f"산업 {len(meta['industries'])})", flush=True)
+        return True
+
+    run_llm_jobs(jobs, lambda job: _ask_call(job[1]), on_done)
+    return st["failed"]
 
 
 # ---------- 3) build-digest ----------
@@ -679,57 +816,75 @@ def digest_events(date: str) -> list[dict]:
     return [{k: e.get(k) for k in keys} for e in json.loads(path.read_text(encoding="utf-8"))[:DIGEST_MAX_EVENTS]]
 
 
-def build_digests(reports: list[tuple[Path, dict]], dates: set[str]) -> int:
-    failed = 0
+def digest_path(date: str) -> Path:
+    return DIGEST_DIR / f"{date}.md"
+
+
+def digest_job(reports: list[tuple[Path, dict]], date: str) -> tuple[str, int, int] | None:
+    """(프롬프트, daily 수, individual 수). 그날 요약된 리포트가 없으면 None."""
+    day = [r for _, r in reports if r.get("published_date") == date and "summary" in r]
+    if not day:
+        return None
+    daily = [summary_card(r) for r in day if r["report_type"] == "daily_series"]
+    individual = [
+        {**summary_card(r), "industries": r.get("industries"), "source_url": r.get("source_url")}
+        for r in day if r["report_type"] == "individual"
+    ]
+    week = iso_week(date)
+    briefs = []
+    for industry in sorted({t for r in individual for t in r["industries"] or []}):
+        bp = brief_path(industry, week)
+        if bp.exists():
+            briefs.append({
+                "industry": industry,
+                "link": f"../data/industries/{industry}/briefs/{week}.md",
+                "excerpt": bp.read_text(encoding="utf-8")[:BRIEF_EXCERPT_CHARS],
+            })
+    prompt = "\n\n".join([
+        "너는 증권사 리서치 일일 다이제스트를 만드는 파이프라인의 한 단계다. 아래 SKILL 명세를 따른다.",
+        "=== SKILL: build-digest ===\n" + skill("build-digest"),
+        f"=== 대상 발행일 ===\n{date} (ISO 주차 {week})",
+        "=== daily_series 요약 ===\n" + json.dumps(daily, ensure_ascii=False, indent=1),
+        "=== 오늘 갱신된 산업 브리핑 (link는 다이제스트 파일 기준 상대경로) ===\n"
+        + json.dumps(briefs, ensure_ascii=False, indent=1),
+        "=== 이번 주 주간 인사이트 링크 ===\n"
+        + (f"../insights/weekly/{week}.md" if weekly_path(week).exists() else "(없음)"),
+        "=== individual 리포트 ===\n" + json.dumps(individual, ensure_ascii=False, indent=1),
+        "=== 오늘의 숫자 변화 이벤트 (코드가 판정, severity 큰 순) ===\n"
+        + json.dumps(digest_events(date), ensure_ascii=False, indent=1),
+        f"=== 출력 형식 ===\n`# 리서치 다이제스트 {date}` 제목으로 시작하는 마크다운 본문만 출력한다. "
+        "코드펜스로 감싸지 않는다.",
+    ])
+    return prompt, len(daily), len(individual)
+
+
+def build_digests(reports: list[tuple[Path, dict]], dates: set[str], force: set[str] = frozenset()) -> int:
+    jobs = []
+    skipped = []
     for date in sorted(dates):
-        day = [r for _, r in reports if r.get("published_date") == date and "summary" in r]
-        if not day:
+        job = digest_job(reports, date)
+        if job is None:
             print(f"[digest] {date} 요약된 리포트 없음 -> 건너뜀")
-            continue
-        daily = [summary_card(r) for r in day if r["report_type"] == "daily_series"]
-        individual = [
-            {**summary_card(r), "industries": r.get("industries"), "source_url": r.get("source_url")}
-            for r in day if r["report_type"] == "individual"
-        ]
-        week = iso_week(date)
-        briefs = []
-        for industry in sorted({t for r in individual for t in r["industries"] or []}):
-            bp = brief_path(industry, week)
-            if bp.exists():
-                briefs.append({
-                    "industry": industry,
-                    "link": f"../data/industries/{industry}/briefs/{week}.md",
-                    "excerpt": bp.read_text(encoding="utf-8")[:BRIEF_EXCERPT_CHARS],
-                })
-        prompt = "\n\n".join([
-            "너는 증권사 리서치 일일 다이제스트를 만드는 파이프라인의 한 단계다. 아래 SKILL 명세를 따른다.",
-            "=== SKILL: build-digest ===\n" + skill("build-digest"),
-            f"=== 대상 발행일 ===\n{date} (ISO 주차 {week})",
-            "=== daily_series 요약 ===\n" + json.dumps(daily, ensure_ascii=False, indent=1),
-            "=== 오늘 갱신된 산업 브리핑 (link는 다이제스트 파일 기준 상대경로) ===\n"
-            + json.dumps(briefs, ensure_ascii=False, indent=1),
-            "=== 이번 주 주간 인사이트 링크 ===\n"
-            + (f"../insights/weekly/{week}.md" if weekly_path(week).exists() else "(없음)"),
-            "=== individual 리포트 ===\n" + json.dumps(individual, ensure_ascii=False, indent=1),
-            "=== 오늘의 숫자 변화 이벤트 (코드가 판정, severity 큰 순) ===\n"
-            + json.dumps(digest_events(date), ensure_ascii=False, indent=1),
-            f"=== 출력 형식 ===\n`# 리서치 다이제스트 {date}` 제목으로 시작하는 마크다운 본문만 출력한다. "
-            "코드펜스로 감싸지 않는다.",
-        ])
-        try:
-            md = strip_fences(ask(prompt))
-        except LLMError as e:
-            print(f"  ! digest {date} 실패: {e}", flush=True)
-            failed += 1
-            if isinstance(e, (LLMAuthError, LLMRateLimitError)):
-                # 한도·인증 문제는 나머지도 똑같이 실패하므로 바로 멈춘다 (날짜는 대기에 남아 다음 실행에서 생성)
-                print(f"  ! 중단: {abort_reason(e)}", flush=True)
-                return failed
-            continue
+        elif date in force or not is_fresh(digest_path(date), job[0]):
+            jobs.append((date, *job))
+        else:
+            skipped.append(date)
+    if skipped:
+        print(f"[digest] 재료가 그대로라 건너뜀: {', '.join(skipped)}", flush=True)
+    st = {"failed": 0}
+
+    def on_done(job, md, err):
+        date, prompt, n_daily, n_individual = job
+        if err is not None:
+            return _publish_failed(f"digest {date}", err, st)
         DIGEST_DIR.mkdir(parents=True, exist_ok=True)
-        (DIGEST_DIR / f"{date}.md").write_text(md, encoding="utf-8")
-        print(f"[digest] {date} (daily {len(daily)}, individual {len(individual)})", flush=True)
-    return failed
+        digest_path(date).write_text(md, encoding="utf-8")
+        mark_fresh(digest_path(date), prompt)
+        print(f"[digest] {date} (daily {n_daily}, individual {n_individual})", flush=True)
+        return True
+
+    run_llm_jobs(jobs, lambda job: _ask_call(job[1]), on_done)
+    return st["failed"]
 
 
 def load_pending() -> set[str]:
@@ -841,15 +996,18 @@ def main() -> int:
     elif args.digest_only:
         targets = (set(args.redo_date) or pending) & {r["published_date"] for _, r in reports if "summary" in r}
         print(f"[publish] 다이제스트만 {len(targets)}일: {', '.join(sorted(targets))}", flush=True)
-        digest_failed = build_digests(reports, targets)
+        digest_failed = build_digests(reports, targets, force=explicit)
         failed += digest_failed
         # 성공했으면 만든 날짜만 대기에서 뺀다 (브리핑이 필요한 다른 대기 날짜는 그대로)
         save_pending(pending if digest_failed else pending - targets)
     elif forced or should_publish(pending):
         print(f"[publish] {', '.join(sorted(pending))} 브리핑/인사이트/다이제스트 생성", flush=True)
-        published_failed = build_briefs(reports, pending) + build_weekly(reports, pending) + build_digests(reports, pending)
+        # 직접 고른 날짜(redo_date/redo_all/retag)는 재료가 그대로여도 다시 만든다. 그 밖에는 재료가 바뀐 것만.
+        published_failed = (build_briefs(reports, pending, force=explicit)
+                            + build_weekly(reports, pending, force=explicit)
+                            + build_digests(reports, pending, force=explicit))
         failed += published_failed
-        # 하나라도 실패하면 날짜를 남겨 두고 다음 실행에서 다시 만든다
+        # 하나라도 실패하면 날짜를 남겨 두고 다음 실행에서 다시 시도한다 (이미 만든 것은 재료가 그대로라 건너뛴다)
         save_pending(pending if published_failed else set())
     else:
         save_pending(pending)
