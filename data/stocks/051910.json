@@ -107,6 +107,15 @@
    "report_id": "hk_652966",
    "tp_status": null,
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-19",
+   "rating": "중립",
+   "target_price": 287000.0,
+   "source": "report",
+   "report_id": "hk_653077",
+   "tp_status": "상향",
+   "broker": "LS증권"
   }
  ],
  "notes": [],
@@ -155,6 +164,22 @@
    "tp_status": null,
    "price": 267500.0,
    "upside_pct": 15.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-19",
+   "report_id": "hk_653077",
+   "title": "LG화학(051910) 3분기 LGES 일회성이익 추가, 과징금 업데이트",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 287000.0,
+   "tp_status": "상향",
+   "price": 254000.0,
+   "upside_pct": 13.0,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -264,6 +289,19 @@
    "tp_speed30": -54.0,
    "report_id": "hk_652966",
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-19",
+   "prev_date": "2026-09-22",
+   "days": 27,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 235000.0,
+   "tp_to": 287000.0,
+   "tp_pct": 22.1,
+   "tp_speed30": 24.6,
+   "report_id": "hk_653077",
+   "broker": "LS증권"
   }
  ],
  "estimate_revisions": [],
@@ -361,6 +399,16 @@
     "메리츠증권": 310000.0,
     "하나증권": 300000.0
    }
+  },
+  {
+   "date": "2026-10-19",
+   "mean": 299000,
+   "n": 3,
+   "brokers": {
+    "LS증권": 287000.0,
+    "메리츠증권": 310000.0,
+    "하나증권": 300000.0
+   }
   }
  ],
  "tp_consensus_changes": [
@@ -375,11 +423,25 @@
    ],
    "report_id": "hk_652966",
    "cum30": null
+  },
+  {
+   "date": "2026-10-19",
+   "from": 281667,
+   "to": 299000,
+   "pct": 6.2,
+   "n": 3,
+   "brokers": [
+    "LS증권"
+   ],
+   "report_id": "hk_653077",
+   "cum30": -0.4
   }
  ],
  "broker_waves": [],
  "events": [
   "2026-10-15:051910:tp_down:메리츠증권",
-  "2026-10-15:051910:tp_cons_down:"
+  "2026-10-19:051910:tp_up:LS증권",
+  "2026-10-15:051910:tp_cons_down:",
+  "2026-10-19:051910:tp_cons_up:"
  ]
 }

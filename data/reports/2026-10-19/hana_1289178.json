@@ -19,5 +19,36 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hana_1289178",
-  "text_chars": 2941
+  "text_chars": 2941,
+  "summary": {
+    "one_liner": "10/20 신규 상장하는 '1Q 엔비디아 고정 미국 AI반도체' ETF는 NVIDIA를 25% 고정 편입하고 나머지 75%를 AI 반도체 관련 9개 종목에 배분하는 10종목 집중형 패시브 ETF이다.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "NVIDIA를 25% 필수 편입하고, 나머지 75%는 키워드 유사도 점수 상위 9개 종목에 배분하는 10종목 집중형 구조",
+      "편입 후보는 미국 상장 기업 중 시가총액 100억달러 이상, 거래대금 1억달러 이상 (국내기업 ADR 제외), AI 가속기·GPU·메모리·LLM·HBM 등 키워드 유사도로 선정",
+      "NVIDIA 외 종목은 유동시가총액 점수와 키워드 관련도를 반영한 조정계수(Factor Score)에 비례해 배분하며 개별 종목 최대 비중은 20% Cap",
+      "상장일(10/20) 편입 예상 종목은 TSMC, Broadcom, AMD, Micron, Intel, Arm, SanDisk, Marvell Technology, Qualcomm",
+      "AI 에이전트 확산으로 학습뿐 아니라 추론 단계에서도 연산·메모리·데이터 전송 반도체 수요가 늘어난다는 논리를 제시"
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "AI 반도체 수요가 모델 학습에서 추론과 AI 에이전트의 반복 작업 단계로 확장되고 있다고 강조하며, 이에 맞춰 NVIDIA 단일 비중을 고정하되 메모리·네트워크·파운드리 등으로 투자 대상을 넓힌 상품이 출시된다.",
+    "implication": "원문은 AI 반도체 가치사슬을 GPU·ASIC 연산, 메모리의 데이터 저장·공급, 네트워크 반도체의 데이터 이동으로 나누어 설명한다. 이는 AI 수요 확대의 수혜가 NVIDIA 한 곳에 그치지 않고 연산·메모리·네트워크·제조 전반으로 번질 수 있다는 시각을 ETF 구성에 반영한 것으로 해석된다.",
+    "watch_points": [
+      "상장일(10/20) 실제 편입 종목과 NVIDIA 25% 고정 외 종목별 비중(20% Cap 적용 여부)",
+      "AI 추론·에이전트 활용 확대에 따른 메모리·네트워크 반도체 수요 지표"
+    ]
+  },
+  "summarized_at": "2026-10-20T01:27:25+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [
+    "신규 ETF 상장",
+    "AI 인프라 투자 사이클"
+  ],
+  "tagged_at": "2026-10-20T01:27:25+09:00"
 }

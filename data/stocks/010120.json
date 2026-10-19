@@ -4,6 +4,7 @@
  "name": "LS ELECTRIC",
  "industry": "기계·전력기기",
  "brokers": [
+  "iM증권",
   "대신증권",
   "미래에셋증권",
   "유안타증권",
@@ -145,6 +146,15 @@
    "report_id": "hk_652881",
    "tp_status": "유지",
    "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-10-19",
+   "rating": "매수",
+   "target_price": 235000.0,
+   "source": "report",
+   "report_id": "hk_653093",
+   "tp_status": "하향",
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -258,6 +268,22 @@
    "tp_status": "유지",
    "price": 195500.0,
    "upside_pct": 33.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-19",
+   "report_id": "hk_653093",
+   "title": "LS ELECTRIC(010120) 단납기 수주로 실적개선 가속화 및 800VDC 성장성 가시화",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 235000.0,
+   "tp_status": "하향",
+   "price": 158600.0,
+   "upside_pct": 48.2,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -496,6 +522,18 @@
    "mean": 282500,
    "n": 4,
    "brokers": {
+    "대신증권": 300000.0,
+    "유안타증권": 300000.0,
+    "하나증권": 270000.0,
+    "한화투자증권": 260000.0
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "mean": 273000,
+   "n": 5,
+   "brokers": {
+    "iM증권": 235000.0,
     "대신증권": 300000.0,
     "유안타증권": 300000.0,
     "하나증권": 270000.0,

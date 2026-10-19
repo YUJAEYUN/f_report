@@ -1,0 +1,231 @@
+{
+ "id": "073240",
+ "code": "073240",
+ "name": "금호타이어",
+ "industry": "자동차·부품",
+ "brokers": [
+  "하나증권"
+ ],
+ "timeline": [
+  {
+   "date": "2023-10-28",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-07-31",
+   "rating": "매수",
+   "target_price": 8300.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-17",
+   "rating": "매수",
+   "target_price": 7700.0,
+   "source": "report",
+   "report_id": "hana_1289158",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-18",
+   "rating": "매수",
+   "target_price": 7700.0,
+   "source": "report",
+   "report_id": "hana_1289175",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-19",
+   "rating": "매수",
+   "target_price": 7700.0,
+   "source": "table",
+   "report_id": "hana_1289158",
+   "tp_status": null,
+   "broker": "하나증권"
+  }
+ ],
+ "notes": [
+  {
+   "date": "2024-10-28",
+   "note": "년 경과",
+   "broker": "하나증권"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-17",
+   "report_id": "hana_1289158",
+   "title": "금호타이어(073240.KS/매수): 3Q26 프리뷰: 아, 관세",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 7700.0,
+   "tp_status": "하향",
+   "price": 6100.0,
+   "upside_pct": 26.2,
+   "estimates": {
+    "2026": {
+     "revenue": 4994.1,
+     "op": 547.7,
+     "net": 331.4,
+     "eps": 1154.0
+    },
+    "2027": {
+     "revenue": 5234.1,
+     "op": 476.9,
+     "net": 278.7,
+     "eps": 970.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 5080.7,
+     "op": 626.6,
+     "net": 438.5,
+     "eps": 1420.0
+    },
+    "2027": {
+     "revenue": 5322.5,
+     "op": 649.7,
+     "net": 441.9,
+     "eps": 1435.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 547.7,
+    "consensus": 626.6,
+    "gap_pct": -12.6
+   }
+  },
+  {
+   "date": "2026-10-18",
+   "report_id": "hana_1289175",
+   "title": "하루에 하나 1019",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 7700.0,
+   "tp_status": "하향",
+   "price": 6100.0,
+   "upside_pct": 26.2,
+   "estimates": {
+    "2026": {
+     "revenue": 4994.1,
+     "op": 547.7,
+     "net": 331.4,
+     "eps": 1154.0
+    },
+    "2027": {
+     "revenue": 5234.1,
+     "op": 476.9,
+     "net": 278.7,
+     "eps": 970.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 5080.7,
+     "op": 626.6,
+     "net": 438.5,
+     "eps": 1420.0
+    },
+    "2027": {
+     "revenue": 5322.5,
+     "op": 649.7,
+     "net": 441.9,
+     "eps": 1435.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 547.7,
+    "consensus": 626.6,
+    "gap_pct": -12.6
+   }
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2026-07-31",
+   "prev_date": "2023-10-28",
+   "days": 1007,
+   "rating_from": "NR",
+   "rating_to": "매수",
+   "tp_from": null,
+   "tp_to": 8300.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null,
+   "note": "1년 경과",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-17",
+   "prev_date": "2026-07-31",
+   "days": 78,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 8300.0,
+   "tp_to": 7700.0,
+   "tp_pct": -7.2,
+   "tp_speed30": -2.8,
+   "report_id": "hana_1289158",
+   "broker": "하나증권"
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-07-31",
+   "mean": 8300,
+   "n": 1,
+   "brokers": {
+    "하나증권": 8300.0
+   }
+  },
+  {
+   "date": "2026-10-17",
+   "mean": 7700,
+   "n": 1,
+   "brokers": {
+    "하나증권": 7700.0
+   }
+  },
+  {
+   "date": "2026-10-18",
+   "mean": 7700,
+   "n": 1,
+   "brokers": {
+    "하나증권": 7700.0
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "mean": 7700,
+   "n": 1,
+   "brokers": {
+    "하나증권": 7700.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

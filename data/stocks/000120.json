@@ -1,0 +1,257 @@
+{
+ "id": "000120",
+ "code": "000120",
+ "name": "CJ대한통운",
+ "industry": "운송",
+ "brokers": [
+  "LS증권",
+  "하나증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-01-23",
+   "rating": "매수",
+   "target_price": 130000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-02-11",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-04-22",
+   "rating": "매수",
+   "target_price": 165000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-05-13",
+   "rating": "매수",
+   "target_price": 120000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-19",
+   "rating": "매수",
+   "target_price": 90000.0,
+   "source": "report",
+   "report_id": "hk_653079",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-19",
+   "rating": "매수",
+   "target_price": 100000.0,
+   "source": "report",
+   "report_id": "hana_1289185",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-20",
+   "rating": "매수",
+   "target_price": 100000.0,
+   "source": "table",
+   "report_id": "hana_1289185",
+   "tp_status": null,
+   "broker": "하나증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-19",
+   "report_id": "hk_653079",
+   "title": "CJ대한통운(000120) 3Q26 Preview: 성장통",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 90000.0,
+   "tp_status": "하향",
+   "price": 69700.0,
+   "upside_pct": 29.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-19",
+   "report_id": "hana_1289185",
+   "title": "CJ대한통운 (000120.KS/BUY): 3Q26 Pre: 성장 지표 Inline, 도움닫기 중!",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 100000.0,
+   "tp_status": "하향",
+   "price": 71800.0,
+   "upside_pct": 39.3,
+   "estimates": {
+    "2026": {
+     "revenue": 12904.9,
+     "op": 444.9,
+     "net": 178.0,
+     "eps": 7805.0
+    },
+    "2027": {
+     "revenue": 13481.2,
+     "op": 514.8,
+     "net": 223.5,
+     "eps": 9797.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 13251.4,
+     "op": 469.8,
+     "net": 220.6,
+     "eps": 9119.0
+    },
+    "2027": {
+     "revenue": 13754.9,
+     "op": 534.0,
+     "net": 277.5,
+     "eps": 11510.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 444.9,
+    "consensus": 469.8,
+    "gap_pct": -5.3
+   }
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2026-02-11",
+   "prev_date": "2026-01-23",
+   "days": 19,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 130000.0,
+   "tp_to": 180000.0,
+   "tp_pct": 38.5,
+   "tp_speed30": 60.8,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-04-22",
+   "prev_date": "2026-02-11",
+   "days": 70,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 180000.0,
+   "tp_to": 165000.0,
+   "tp_pct": -8.3,
+   "tp_speed30": -3.6,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-05-13",
+   "prev_date": "2026-04-22",
+   "days": 21,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 165000.0,
+   "tp_to": 120000.0,
+   "tp_pct": -27.3,
+   "tp_speed30": -39.0,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-19",
+   "prev_date": "2026-05-13",
+   "days": 159,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 120000.0,
+   "tp_to": 100000.0,
+   "tp_pct": -16.7,
+   "tp_speed30": -3.2,
+   "report_id": "hana_1289185",
+   "broker": "하나증권"
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-01-23",
+   "mean": 130000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 130000.0
+   }
+  },
+  {
+   "date": "2026-02-11",
+   "mean": 180000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 180000.0
+   }
+  },
+  {
+   "date": "2026-04-22",
+   "mean": 165000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 165000.0
+   }
+  },
+  {
+   "date": "2026-05-13",
+   "mean": 120000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 120000.0
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "mean": 95000,
+   "n": 2,
+   "brokers": {
+    "LS증권": 90000.0,
+    "하나증권": 100000.0
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "mean": 95000,
+   "n": 2,
+   "brokers": {
+    "LS증권": 90000.0,
+    "하나증권": 100000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": [
+  "2026-10-19:000120:tp_down:하나증권",
+  "2026-10-19:000120:tp_streak:하나증권"
+ ]
+}

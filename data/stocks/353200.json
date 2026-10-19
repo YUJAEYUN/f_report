@@ -5,6 +5,7 @@
  "industry": "IT하드웨어·전자부품",
  "brokers": [
   "iM증권",
+  "미래에셋증권",
   "유안타증권",
   "하나증권"
  ],
@@ -107,6 +108,24 @@
    "report_id": "hk_652844",
    "tp_status": "상향",
    "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-19",
+   "rating": "매수",
+   "target_price": 190000.0,
+   "source": "report",
+   "report_id": "hk_653091",
+   "tp_status": "유지",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-10-19",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "report",
+   "report_id": "mirae_2343439",
+   "tp_status": "유지",
+   "broker": "미래에셋증권"
   }
  ],
  "notes": [
@@ -148,6 +167,38 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 180000.0
+  },
+  {
+   "date": "2026-10-19",
+   "report_id": "hk_653091",
+   "title": "대덕전자(353200) 3Q 실적 추정치 상향 조정 → 서프 기대",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 190000.0,
+   "tp_status": "유지",
+   "price": 131700.0,
+   "upside_pct": 44.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-19",
+   "report_id": "mirae_2343439",
+   "title": "대덕전자 (353200/매수): 환율로 날 막을 순 없다",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 180000.0,
+   "tp_status": "유지",
+   "price": 131700.0,
+   "upside_pct": 36.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -374,6 +425,17 @@
    "n": 3,
    "brokers": {
     "iM증권": 190000.0,
+    "유안타증권": 200000.0,
+    "하나증권": 250000.0
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "mean": 205000,
+   "n": 4,
+   "brokers": {
+    "iM증권": 190000.0,
+    "미래에셋증권": 180000.0,
     "유안타증권": 200000.0,
     "하나증권": 250000.0
    }

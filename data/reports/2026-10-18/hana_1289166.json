@@ -19,5 +19,37 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hana_1289166",
-  "text_chars": 1962
+  "text_chars": 1962,
+  "summary": {
+    "one_liner": "마이티 미국 피지컬AI 액티브 ETF가 10/20 신규 상장하며, AI 연산(Brain)·인식/동작(Action+Perception)·구현(Embodiment) 3개 영역의 미국 피지컬AI 밸류체인 25종목에 투자한다.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "비교지수는 iSelect 미국 피지컬 AI 지수로, 평균 시가총액 5억달러 이상·일평균 거래대금 100만달러 이상 미국 상장기업을 NLP 방식으로 테마 관련도 평가 후 영역별 시총 상위 종목을 선정한다.",
+      "구성은 Brain 10개, Action 및 Perception 10개, Embodiment 5개 등 총 25종목이다.",
+      "세 영역에 각 약 33.3%씩 배분하며, Brain과 Action+Perception은 시총가중(개별 종목 1~5% 제한), Embodiment는 동일가중이다.",
+      "지수는 연 4회(1·4·7·10월) 정기 리밸런싱하며, ETF는 상관계수 0.7 조건 하에 액티브 운용으로 편입 종목과 비중을 조절해 초과수익을 추구한다.",
+      "실물(액티브) 복제 방식, 1좌당 가격 10,000원, 총보수 0.86%이다."
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "피지컬AI라는 테마를 AI 연산·인식/제어·실제 구현의 세 영역으로 나눠 균등 배분하는 국내 상장 액티브 ETF 상품이 새로 등장했다.",
+    "implication": "AI 연산 중심이던 투자 대상을 센서 기반 인식·동작 제어와 로봇·자율주행 같은 실물 구현까지 확장해 피지컬AI를 하나의 밸류체인으로 접근하는 상품 구조가 마련되었다는 점에서, 해당 테마가 국내 투자자가 접근할 수 있는 ETF 형태로 정리되고 있음을 보여준다.",
+    "watch_points": [
+      "10월 20일 상장 이후 ETF의 자금 유입 규모와 거래 동향",
+      "10월 정기 리밸런싱에서의 지수 편입 종목 및 영역별 비중 변화",
+      "액티브 운용을 통한 비교지수 대비 편입 종목·비중 조정 내용"
+    ]
+  },
+  "summarized_at": "2026-10-20T01:31:45+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [
+    "신규 ETF 상장",
+    "피지컬 AI 로봇 투자"
+  ],
+  "tagged_at": "2026-10-20T01:31:45+09:00"
 }

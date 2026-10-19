@@ -24,10 +24,142 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-17",
+   "rating": "매수",
+   "target_price": 16000.0,
+   "source": "report",
+   "report_id": "hana_1289157",
+   "tp_status": "상향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-18",
+   "rating": "매수",
+   "target_price": 16000.0,
+   "source": "report",
+   "report_id": "hana_1289175",
+   "tp_status": "상향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-19",
+   "rating": "매수",
+   "target_price": 16000.0,
+   "source": "table",
+   "report_id": "hana_1289157",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
- "notes": [],
- "observations": [],
+ "notes": [
+  {
+   "date": "2025-11-26",
+   "note": "년 경과",
+   "broker": "하나증권"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-17",
+   "report_id": "hana_1289157",
+   "title": "피에이치에이(043370.KQ/매수): 자기주식 최대 10% 소각, 주주환원의 본격화",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 16000.0,
+   "tp_status": "상향",
+   "price": 11840.0,
+   "upside_pct": 35.1,
+   "estimates": {
+    "2026": {
+     "revenue": 1233.0,
+     "op": 40.7,
+     "net": 42.6,
+     "eps": 2029.0
+    },
+    "2027": {
+     "revenue": 1308.4,
+     "op": 43.6,
+     "net": 42.1,
+     "eps": 2115.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1252.8,
+     "op": 45.1,
+     "net": 45.6,
+     "eps": 2171.0
+    },
+    "2027": {
+     "revenue": 1313.8,
+     "op": 48.0,
+     "net": 45.5,
+     "eps": 2167.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 40.7,
+    "consensus": 45.1,
+    "gap_pct": -9.8
+   }
+  },
+  {
+   "date": "2026-10-18",
+   "report_id": "hana_1289175",
+   "title": "하루에 하나 1019",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 16000.0,
+   "tp_status": "상향",
+   "price": 11840.0,
+   "upside_pct": 35.1,
+   "estimates": {
+    "2026": {
+     "revenue": 1233.0,
+     "op": 40.7,
+     "net": 42.6,
+     "eps": 2029.0
+    },
+    "2027": {
+     "revenue": 1308.4,
+     "op": 43.6,
+     "net": 42.1,
+     "eps": 2115.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1252.8,
+     "op": 45.1,
+     "net": 45.6,
+     "eps": 2171.0
+    },
+    "2027": {
+     "revenue": 1313.8,
+     "op": 48.0,
+     "net": 45.5,
+     "eps": 2167.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 40.7,
+    "consensus": 45.1,
+    "gap_pct": -9.8
+   }
+  }
+ ],
  "rating_changes": [
   {
    "date": "2024-11-26",
@@ -40,6 +172,20 @@
    "tp_pct": -16.7,
    "tp_speed30": -3.0,
    "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-17",
+   "prev_date": "2024-11-26",
+   "days": 690,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 15000.0,
+   "tp_to": 16000.0,
+   "tp_pct": 6.7,
+   "tp_speed30": 0.3,
+   "report_id": "hana_1289157",
+   "note": "1년 경과",
    "broker": "하나증권"
   }
  ],
@@ -60,6 +206,30 @@
    "n": 1,
    "brokers": {
     "하나증권": 15000.0
+   }
+  },
+  {
+   "date": "2026-10-17",
+   "mean": 16000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 16000.0
+   }
+  },
+  {
+   "date": "2026-10-18",
+   "mean": 16000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 16000.0
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "mean": 16000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 16000.0
    }
   }
  ],

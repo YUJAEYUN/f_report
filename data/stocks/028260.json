@@ -71,6 +71,15 @@
    "report_id": "hk_652530",
    "tp_status": "유지",
    "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-19",
+   "rating": "매수",
+   "target_price": 510000.0,
+   "source": "report",
+   "report_id": "hk_653074",
+   "tp_status": "유지",
+   "broker": "유안타증권"
   }
  ],
  "notes": [],
@@ -103,6 +112,22 @@
    "tp_status": "유지",
    "price": 367000.0,
    "upside_pct": 49.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-19",
+   "report_id": "hk_653074",
+   "title": "삼성물산(028260) 하이테크 가즈아!",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 510000.0,
+   "tp_status": "유지",
+   "price": 286500.0,
+   "upside_pct": 78.0,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -208,6 +233,16 @@
   },
   {
    "date": "2026-09-23",
+   "mean": 493333,
+   "n": 3,
+   "brokers": {
+    "SK증권": 550000.0,
+    "유안타증권": 510000.0,
+    "하나증권": 420000.0
+   }
+  },
+  {
+   "date": "2026-10-19",
    "mean": 493333,
    "n": 3,
    "brokers": {

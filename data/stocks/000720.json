@@ -126,6 +126,15 @@
    "report_id": "hana_1289131",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-19",
+   "rating": "매수",
+   "target_price": 205000.0,
+   "source": "report",
+   "report_id": "hk_653073",
+   "tp_status": "유지",
+   "broker": "유안타증권"
   }
  ],
  "notes": [],
@@ -226,6 +235,22 @@
     "consensus": 869.1,
     "gap_pct": -1.6
    }
+  },
+  {
+   "date": "2026-10-19",
+   "report_id": "hk_653073",
+   "title": "현대건설(000720) 본업은 순항 중! 원전은 조금만 기다려 주세요!",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 205000.0,
+   "tp_status": "유지",
+   "price": 93800.0,
+   "upside_pct": 118.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -420,6 +445,16 @@
   },
   {
    "date": "2026-10-15",
+   "mean": 171667,
+   "n": 3,
+   "brokers": {
+    "LS증권": 175000.0,
+    "유안타증권": 205000.0,
+    "하나증권": 135000.0
+   }
+  },
+  {
+   "date": "2026-10-19",
    "mean": 171667,
    "n": 3,
    "brokers": {
