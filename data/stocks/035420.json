@@ -137,6 +137,15 @@
    "report_id": "hk_652804",
    "tp_status": null,
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-20",
+   "rating": "매수",
+   "target_price": 400000.0,
+   "source": "report",
+   "report_id": "hana_1289201",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -285,6 +294,48 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-20",
+   "report_id": "hana_1289201",
+   "title": "[디지털자산/증권] 토큰화 시대가 온다 (전통 금융과 만드는 새로운 금융 인프라)",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 400000.0,
+   "tp_status": null,
+   "price": 178000.0,
+   "upside_pct": 124.7,
+   "estimates": {
+    "2026": {
+     "revenue": 13731.3,
+     "op": 2041.9,
+     "net": 1997.9,
+     "eps": 12829.0
+    },
+    "2027": {
+     "revenue": 16587.3,
+     "op": 2640.0,
+     "net": 2615.0,
+     "eps": 16412.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2026.0,
+     "op": null,
+     "net": null,
+     "eps": 1918.7
+    },
+    "2027": {
+     "revenue": 2027.0,
+     "op": null,
+     "net": null,
+     "eps": 2219.9
+    }
+   },
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -368,7 +419,68 @@
   }
  ],
  "estimate_revisions": [],
- "consensus_changes": [],
+ "consensus_changes": [
+  {
+   "date": "2026-10-20",
+   "prev_date": "2026-10-01",
+   "days": 19,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 13796.1,
+   "to": 2026.0,
+   "pct": -85.3,
+   "speed30": -134.7,
+   "turn": null,
+   "report_id": "hana_1289201",
+   "prev_report_id": "hana_1288939",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-20",
+   "prev_date": "2026-10-01",
+   "days": 19,
+   "year": "2026",
+   "metric": "eps",
+   "from": 12552.0,
+   "to": 1918.7,
+   "pct": -84.7,
+   "speed30": -133.7,
+   "turn": null,
+   "report_id": "hana_1289201",
+   "prev_report_id": "hana_1288939",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-20",
+   "prev_date": "2026-10-01",
+   "days": 19,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 15761.8,
+   "to": 2027.0,
+   "pct": -87.1,
+   "speed30": -137.5,
+   "turn": null,
+   "report_id": "hana_1289201",
+   "prev_report_id": "hana_1288939",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-20",
+   "prev_date": "2026-10-01",
+   "days": 19,
+   "year": "2027",
+   "metric": "eps",
+   "from": 14130.0,
+   "to": 2219.9,
+   "pct": -84.3,
+   "speed30": -133.1,
+   "turn": null,
+   "report_id": "hana_1289201",
+   "prev_report_id": "hana_1288939",
+   "broker": "하나증권"
+  }
+ ],
  "tp_consensus": [
   {
    "date": "2024-04-16",
@@ -493,9 +605,24 @@
     "하나증권": 400000.0,
     "한화투자증권": 300000.0
    }
+  },
+  {
+   "date": "2026-10-20",
+   "mean": 320500,
+   "n": 6,
+   "brokers": {
+    "LS증권": 293000.0,
+    "메리츠증권": 330000.0,
+    "미래에셋증권": 280000.0,
+    "유진투자증권": 320000.0,
+    "하나증권": 400000.0,
+    "한화투자증권": 300000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-10-20:035420:cons_down:하나증권2026eps"
+ ]
 }

@@ -1,0 +1,59 @@
+{
+ "id": "124500",
+ "code": "124500",
+ "name": "아이티센글로벌",
+ "industry": null,
+ "brokers": [
+  "하나증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-21",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1289201",
+   "tp_status": null,
+   "broker": "하나증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-20",
+   "report_id": "hana_1289201",
+   "title": "[디지털자산/증권] 토큰화 시대가 온다 (전통 금융과 만드는 새로운 금융 인프라)",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 10331.0,
+     "op": 293.0,
+     "net": 209.0,
+     "eps": 2222.0
+    },
+    "2027": {
+     "revenue": 10409.0,
+     "op": 324.0,
+     "net": 240.0,
+     "eps": 2413.0
+    }
+   },
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

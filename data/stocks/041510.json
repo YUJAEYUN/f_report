@@ -5,6 +5,7 @@
  "industry": "미디어·콘텐츠",
  "brokers": [
   "SK증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -115,6 +116,15 @@
    "report_id": "hana_1289005",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-20",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "report",
+   "report_id": "hk_653097",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -183,6 +193,22 @@
     "consensus": 187.7,
     "gap_pct": -7.6
    }
+  },
+  {
+   "date": "2026-10-20",
+   "report_id": "hk_653097",
+   "title": "에스엠(041510) 올해보다는 내년이 좋다",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 110000.0,
+   "tp_status": "유지",
+   "price": 87000.0,
+   "upside_pct": 26.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -402,6 +428,16 @@
    "n": 2,
    "brokers": {
     "SK증권": 120000.0,
+    "하나증권": 124000.0
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "mean": 118000,
+   "n": 3,
+   "brokers": {
+    "SK증권": 120000.0,
+    "유진투자증권": 110000.0,
     "하나증권": 124000.0
    }
   }

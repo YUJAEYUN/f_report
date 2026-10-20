@@ -4,6 +4,7 @@
  "name": "액트로",
  "industry": "IT하드웨어·전자부품",
  "brokers": [
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -15,10 +16,36 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-20",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_653098",
+   "tp_status": null,
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-10-20",
+   "report_id": "hk_653098",
+   "title": "액트로(290740) NDR 後記: 자율주행차, 로봇 등 사업 다변화 성공",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 9950.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
  "rating_changes": [],
  "estimate_revisions": [],
  "consensus_changes": [],
