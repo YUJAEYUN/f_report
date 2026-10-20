@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-20",
+  "window": [
+    "2026-10-16",
+    "2026-10-20"
+  ],
+  "trigger": [
+    {
+      "report_id": "hk_653066",
+      "published_date": "2026-10-19",
+      "broker": "상상인증권",
+      "title": "상상인 Macro Daily",
+      "match": "증시 급락"
+    },
+    {
+      "report_id": "hk_653085",
+      "published_date": "2026-10-19",
+      "broker": "SK증권",
+      "title": "Market NOWCAST : 깊어진 낙폭",
+      "match": "증시 급락"
+    },
+    {
+      "report_id": "hk_653087",
+      "published_date": "2026-10-19",
+      "broker": "IBK투자증권",
+      "title": "IBKS Morning Brief",
+      "match": "증시 급락"
+    },
+    {
+      "report_id": "hk_653089",
+      "published_date": "2026-10-19",
+      "broker": "IBK투자증권",
+      "title": "start with ibks",
+      "match": "증시는 전일 급락"
+    },
+    {
+      "report_id": "hana_1289176",
+      "published_date": "2026-10-19",
+      "broker": "하나증권",
+      "title": "[Doo It Now] 실적의 역설, 반등의 조건",
+      "match": "반대매매"
+    },
+    {
+      "report_id": "hana_1289179",
+      "published_date": "2026-10-19",
+      "broker": "하나증권",
+      "title": "Hana Guru Eye",
+      "match": "사이드카"
+    }
+  ],
+  "report_ids": {
+    "market": [
+      "hana_1289190",
+      "hana_1289184",
+      "hana_1289183",
+      "hana_1289181",
+      "hana_1289180",
+      "hana_1289176",
+      "hk_653089",
+      "hk_653085",
+      "hk_653083",
+      "hk_653072",
+      "hk_653071",
+      "hana_1289169",
+      "hana_1289156",
+      "hana_1289150",
+      "hana_1289149",
+      "hana_1289148",
+      "hana_1289146",
+      "hana_1289145",
+      "mirae_2343435",
+      "mirae_2343421",
+      "hk_653043",
+      "hk_653041",
+      "hk_653039",
+      "hk_653038",
+      "hk_653026",
+      "hk_653011",
+      "hk_653010",
+      "hk_653009",
+      "hk_653006"
+    ],
+    "daily": [
+      "hana_1289191",
+      "hana_1289182",
+      "hana_1289179",
+      "mirae_2343468",
+      "mirae_2343448",
+      "mirae_2343436",
+      "hk_653087",
+      "hk_653066",
+      "hk_653052",
+      "hana_1289175",
+      "hana_1289144",
+      "hana_1289143",
+      "mirae_2343432",
+      "mirae_2343417",
+      "mirae_2343405"
+    ],
+    "industry": [
+      "hk_653091",
+      "hk_653090",
+      "hk_653082",
+      "hk_653081",
+      "hk_653064",
+      "hk_653063",
+      "hk_653060",
+      "hk_653057",
+      "hana_1289172",
+      "hana_1289161",
+      "hana_1289160",
+      "hana_1289157",
+      "hana_1289154",
+      "hana_1289153",
+      "hk_653001"
+    ]
+  },
+  "memo_used": false,
+  "previous": "2026-10-16",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-10-20T12:20:54+09:00"
+}
