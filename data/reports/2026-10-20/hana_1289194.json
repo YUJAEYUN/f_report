@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2237",
+  "bbs_seq": "1289194",
+  "report_type": "individual",
+  "title": "[해외채권] 미국 금리 고점은 언제 형성될까",
+  "analyst": "허성우",
+  "published_date": "2026-10-20",
+  "published_time": "10:27:44",
+  "category": "채권",
+  "breadcrumb": "글로벌 자산전략 > 채권",
+  "preview_text": "- 1990년 이후 미국 10년물 금리 고점 6차례 모두 고금리의 부작용으로 꺾였음\n- 과거 고점은 연준이 금리를 충분히 올린 뒤 마지막 인상 전후 4개월에 나왔음. 지금은 인상 초입이며 기간프리미엄까지 겹쳐 고점 조건이 아직 갖춰지지 않았음\n- 최종금리 4.50%. 이 경우 10년물 금리 고점 구간은 올해 4분기~내년 1분기로 판단. 리스크는 1) 12월 점도표 H4L 시사(고점 지연)와 2) 부작용의 조기 현실화(고점 앞당김)",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289194&attachFileSeq=1&bbsId=&dbType=&bbsCd=2237",
+  "pdf_filename": "20261020_gbond.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2237&bbsSeq=1289194",
+  "collected_at": "2026-10-20T13:53:38+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289194",
+  "text_chars": 15429
+}

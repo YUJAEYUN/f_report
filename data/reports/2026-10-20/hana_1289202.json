@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "1260",
+  "bbs_seq": "1289202",
+  "report_type": "individual",
+  "title": "[실전 퀀트] 약속의, 확신의 11월(미국)",
+  "analyst": "이경수",
+  "published_date": "2026-10-20",
+  "published_time": "19:44:16",
+  "category": "Quant",
+  "breadcrumb": "투자전략 > Quant",
+  "preview_text": "▲ 11월 지수 측면에서 가장 긍정적 계절성, 다만 중간선거 감안해 저평가 팩터 감안해야\n- 최근 10년간(2016년 이후) SP500 11월 평균 +4.1%, 승률 90%(10년 중 9년), 12개월 중 1위.\n- 11월 지수 강세 계절성의 근원은 미국 투자회사법 중 RIC(연방세법) 자본이득 산정기간 the 1-year period ending on October 31\n- 이는 12월말 즉시 배분을 위한 선제적 조치(자본이득 선정 기간 11.1~10.31일), 미분배 시 4% 소비세, 자본이득순액 98.2% 분배 의무\n- 11/1부터 실현손익 0으로 리셋, 수익을 위한 첫 번째 베팅이 몰리는 11월, 한국 1월 장세와 같은 성격\n- 중간선거 해(2000년 이후)의 11월 역시 상승 계절성, SP500 평균 +2.8%(나스닥100 +4.2%)\n- 당시 연준의 긴축 혹은 하원 교체 등의 악조건에도 상승 계절성은 지켜짐\n- 더 중요한 것은 미국 11월의 스타일 향방, 이는 국내 주식(반도체)에도 큰 영향을 줄 것\n- 11월 지수 상승 속에서도 중간선거 해와 비선거 해의 팩터별 성과는 다소 결과 상이\n- 비선거 시기에는 고베타 및 거래대금 상위, 실적 상향 등의 호실적 유행주 스타일이 강세\n- 반면 중간선거 해의 11월에는 저PER 및 목표주가 괴리 상위, 현금흐름 상위 등의 성과 상위\n- 약속의 11월이라도 중간선거 시기의 불확실성 및 보수성이 반영된 결과로 판단\n- 결국 11월 첫 번째 베팅의 광의 계절성 측면에서 실적 상향 팩터 관심\n- 추가로 중간선거 11월에 유리했던 저PER 및 목표주가 괴리 상위, 현금흐름 상위 스타일이 핵심 알파 팩터\n- 결국 AI 데이터센터 체인 + 에너지 종목 위주로 선정\n- 상위 스코어링: 마이크론, NRG에너지, 샌디스크, Flex, 스머핏웨스트락, LPL, 티모바일, 스왑, HP, 웨스턴디지털, 엔비디아 등",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289202&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
+  "pdf_filename": "EDIT_Quant_Weekly_261021.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=1260&bbsSeq=1289202",
+  "collected_at": "2026-10-20T13:52:47+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289202",
+  "text_chars": 33532
+}

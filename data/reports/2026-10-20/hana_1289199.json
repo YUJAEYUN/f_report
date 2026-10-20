@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2206",
+  "bbs_seq": "1289199",
+  "report_type": "daily_series",
+  "title": "하나증권 글로벌 Weekly(26.10.21)",
+  "analyst": "글로벌투자분석실",
+  "published_date": "2026-10-20",
+  "published_time": "17:44:58",
+  "category": "Daily",
+  "breadcrumb": "Daily > Daily",
+  "preview_text": "[미국 증시 동향]\n- 미국 증시는 예상보다 높은 CPI와 근원 CPI로 인해 물가 압력이 에너지 외 품목으로 확산되는 모습이 확인\n- 지속되는 고금리 환경 속에 조달금리가 동반 상승하자 AI 투자 기업들의 투자 지속성에 대한 우려가 확산\n- 동시에 네오클라우드의 CDS 부담이 증가함에 따라 투자 회수 가능성에 대해 의구심이 확대되며 관련주가 약세를 보였음\n- AI반도체주의 급락에 따른 저가 매수에 기술주가 반등하며 혼조 마감\n\n[글로벌 투자유망종목]\n- 엔비디아(NVDA.US), 알파벳(GOOGL.US), 마이크론 테크놀로지(MU.US), AMD(AMD.US), 캐터필러(CAT.US), 크라우드 스트라이크(CRWD.US), 발레로 에너지(VLO.US), 블룸 에너지(BE.US), 레노버(0992.HK), 항서제약(600276.CH)",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289199&attachFileSeq=1&bbsId=&dbType=&bbsCd=2206",
+  "pdf_filename": "GlobalWeekly_1021.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2206&bbsSeq=1289199",
+  "collected_at": "2026-10-20T13:52:47+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289199",
+  "text_chars": 34157
+}
