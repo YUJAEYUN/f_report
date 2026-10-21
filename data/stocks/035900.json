@@ -6,6 +6,7 @@
  "brokers": [
   "SK증권",
   "iM증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -107,6 +108,15 @@
    "report_id": "hk_653025",
    "tp_status": "하향",
    "broker": "iM증권"
+  },
+  {
+   "date": "2026-10-21",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "report",
+   "report_id": "hk_653143",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -191,6 +201,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-21",
+   "report_id": "hk_653143",
+   "title": "JYP Ent.(035900) 보릿고개",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 50000.0,
+   "tp_status": "하향",
+   "price": 39600.0,
+   "upside_pct": 26.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 65000.0
   }
  ],
  "rating_changes": [
@@ -297,6 +323,20 @@
    "tp_speed30": -8.5,
    "report_id": "hana_1289005",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-21",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 65000.0,
+   "tp_to": 50000.0,
+   "tp_pct": -23.1,
+   "tp_speed30": null,
+   "report_id": "hk_653143",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -393,6 +433,17 @@
     "iM증권": 50000.0,
     "하나증권": 49000.0
    }
+  },
+  {
+   "date": "2026-10-21",
+   "mean": 53750,
+   "n": 4,
+   "brokers": {
+    "SK증권": 66000.0,
+    "iM증권": 50000.0,
+    "유진투자증권": 50000.0,
+    "하나증권": 49000.0
+   }
   }
  ],
  "tp_consensus_changes": [
@@ -413,6 +464,7 @@
  "events": [
   "2026-10-07:035900:tp_down:하나증권",
   "2026-10-07:035900:tp_streak:하나증권",
+  "2026-10-21:035900:tp_down:유진투자증권",
   "2026-10-07:035900:tp_cons_down:"
  ]
 }

@@ -4,7 +4,8 @@
  "name": "도우인시스",
  "industry": "디스플레이",
  "brokers": [
-  "메리츠증권"
+  "메리츠증권",
+  "하나증권"
  ],
  "timeline": [
   {
@@ -15,6 +16,15 @@
    "report_id": "hk_652872",
    "tp_status": null,
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-21",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1289214",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -33,6 +43,35 @@
    "upside_pct": null,
    "estimates": {},
    "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-21",
+   "report_id": "hana_1289214",
+   "title": "도우인시스 (484120.KQ): Dual UTG가 가져올 폼팩터의 대전환",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 1925.0,
+     "op": 229.0,
+     "net": 281.0,
+     "eps": 2565.0
+    },
+    "2027": {
+     "revenue": 2478.0,
+     "op": 322.0,
+     "net": 307.0,
+     "eps": 2802.0
+    }
+   },
    "prev_target_price": null
   }
  ],

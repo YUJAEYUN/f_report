@@ -117,6 +117,15 @@
    "report_id": "hk_653075",
    "tp_status": "유지",
    "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-21",
+   "rating": "매수",
+   "target_price": 280000.0,
+   "source": "report",
+   "report_id": "hk_653156",
+   "tp_status": "상향",
+   "broker": "유안타증권"
   }
  ],
  "notes": [],
@@ -266,6 +275,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-21",
+   "report_id": "hk_653156",
+   "title": "KT&G(033780) 이익 성장에 더해지는 주주환원 프리미엄",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 280000.0,
+   "tp_status": "상향",
+   "price": 194000.0,
+   "upside_pct": 44.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 250000.0
   }
  ],
  "rating_changes": [
@@ -346,6 +371,19 @@
    "tp_speed30": 5.4,
    "report_id": "hana_1288957",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-21",
+   "prev_date": "2026-09-21",
+   "days": 30,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 250000.0,
+   "tp_to": 280000.0,
+   "tp_pct": 12.0,
+   "tp_speed30": 12.0,
+   "report_id": "hk_653156",
+   "broker": "유안타증권"
   }
  ],
  "estimate_revisions": [],
@@ -458,6 +496,17 @@
     "하나증권": 240000.0,
     "한화투자증권": 250000.0
    }
+  },
+  {
+   "date": "2026-10-21",
+   "mean": 250000,
+   "n": 4,
+   "brokers": {
+    "LS증권": 230000.0,
+    "유안타증권": 280000.0,
+    "하나증권": 240000.0,
+    "한화투자증권": 250000.0
+   }
   }
  ],
  "tp_consensus_changes": [
@@ -472,6 +521,18 @@
    ],
    "report_id": "hana_1288957",
    "cum30": null
+  },
+  {
+   "date": "2026-10-21",
+   "from": 242500,
+   "to": 250000,
+   "pct": 3.1,
+   "n": 4,
+   "brokers": [
+    "유안타증권"
+   ],
+   "report_id": "hk_653156",
+   "cum30": 7.3
   }
  ],
  "broker_waves": [],

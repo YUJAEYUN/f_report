@@ -20,6 +20,13 @@
    "flat": 1,
    "stocks": 3,
    "ratio": 0.0
+  },
+  "2026-W43": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
   }
  },
  "IT하드웨어·전자부품": {
@@ -98,8 +105,8 @@
   "2026-W43": {
    "up": 0,
    "down": 0,
-   "flat": 2,
-   "stocks": 2,
+   "flat": 4,
+   "stocks": 4,
    "ratio": 0.0
   }
  },
@@ -149,11 +156,11 @@
    "ratio": -0.33
   },
   "2026-W43": {
-   "up": 0,
+   "up": 1,
    "down": 0,
-   "flat": 4,
-   "stocks": 4,
-   "ratio": 0.0
+   "flat": 5,
+   "stocks": 6,
+   "ratio": 0.17
   }
  },
  "디스플레이": {
@@ -177,6 +184,13 @@
    "flat": 1,
    "stocks": 2,
    "ratio": -0.5
+  },
+  "2026-W43": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
+   "ratio": 0.0
   }
  },
  "미디어·콘텐츠": {
@@ -210,10 +224,10 @@
   },
   "2026-W43": {
    "up": 0,
-   "down": 1,
+   "down": 2,
    "flat": 2,
-   "stocks": 3,
-   "ratio": -0.33
+   "stocks": 4,
+   "ratio": -0.5
   }
  },
  "반도체": {
@@ -248,8 +262,8 @@
   "2026-W43": {
    "up": 0,
    "down": 0,
-   "flat": 2,
-   "stocks": 2,
+   "flat": 4,
+   "stocks": 4,
    "ratio": 0.0
   }
  },
@@ -259,6 +273,13 @@
    "down": 0,
    "flat": 4,
    "stocks": 4,
+   "ratio": 0.0
+  },
+  "2026-W43": {
+   "up": 0,
+   "down": 0,
+   "flat": 1,
+   "stocks": 1,
    "ratio": 0.0
   }
  },
@@ -523,10 +544,10 @@
    "ratio": 0.0
   },
   "2026-W43": {
-   "up": 0,
-   "down": 0,
-   "flat": 1,
-   "stocks": 1,
+   "up": 1,
+   "down": 1,
+   "flat": 6,
+   "stocks": 8,
    "ratio": 0.0
   }
  },
@@ -683,6 +704,13 @@
    "flat": 4,
    "stocks": 8,
    "ratio": -0.25
+  },
+  "2026-W43": {
+   "up": 1,
+   "down": 1,
+   "flat": 1,
+   "stocks": 3,
+   "ratio": 0.0
   }
  },
  "조선": {

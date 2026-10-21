@@ -1,0 +1,61 @@
+[
+ {
+  "id": "2026-10-21:010120:est_up:하나증권2027op",
+  "date": "2026-10-21",
+  "type": "est_up",
+  "severity": 1.88,
+  "stock_id": "010120",
+  "code": "010120",
+  "name": "LS ELECTRIC",
+  "industry": "기계·전력기기",
+  "report_id": "hana_1289221",
+  "headline": "하나증권 추정 2027년 영업이익 +18.8% (1.01조원 → 1.20조원)",
+  "data": {
+   "date": "2026-10-21",
+   "prev_date": "2026-10-06",
+   "days": 15,
+   "year": "2027",
+   "metric": "op",
+   "from": 1006.4,
+   "to": 1195.6,
+   "pct": 18.8,
+   "speed30": 37.6,
+   "turn": null,
+   "report_id": "hana_1289221",
+   "prev_report_id": "hana_1289002",
+   "broker": "하나증권"
+  },
+  "title": "LS ELECTRIC(010120.KS/매수): 앞을 보면 지금이 제일 나쁜 실적",
+  "reason": null,
+  "reason_checked": true
+ },
+ {
+  "id": "2026-10-21:035900:tp_down:유진투자증권",
+  "date": "2026-10-21",
+  "type": "tp_down",
+  "severity": 1.54,
+  "stock_id": "035900",
+  "code": "035900",
+  "name": "JYP Ent.",
+  "industry": "미디어·콘텐츠",
+  "report_id": "hk_653143",
+  "headline": "유진투자증권 목표주가 65,000원 → 50,000원 (-23.1%)",
+  "data": {
+   "date": "2026-10-21",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 65000.0,
+   "tp_to": 50000.0,
+   "tp_pct": -23.1,
+   "tp_speed30": null,
+   "report_id": "hk_653143",
+   "implied_prev": true,
+   "broker": "유진투자증권"
+  },
+  "title": "JYP Ent.(035900) 보릿고개",
+  "reason": "3분기 실적이 컨센서스를 하회하고 4분기 역성장이 불가피하다고 보고, 실적 추정치를 하향하며 목표주가를 50,000원으로 낮췄다.",
+  "reason_checked": true
+ }
+]

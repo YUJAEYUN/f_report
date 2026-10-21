@@ -4,9 +4,19 @@
  "name": "디아이",
  "industry": "반도체",
  "brokers": [
-  "대신증권"
+  "대신증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2025-02-12",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-10-12",
    "rating": "매수",
@@ -33,6 +43,35 @@
    "upside_pct": 42.3,
    "estimates": {},
    "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-21",
+   "report_id": "hana_1289217",
+   "title": "디아이(003160.KS): 3Q26 Pre. 최대 실적 예고, 내년 이익 35% 상향",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 591.0,
+     "op": 116.0,
+     "net": 92.0,
+     "eps": 2126.0
+    },
+    "2027": {
+     "revenue": 724.0,
+     "op": 145.0,
+     "net": 115.0,
+     "eps": 2504.0
+    }
+   },
    "prev_target_price": null
   }
  ],

@@ -1,0 +1,46 @@
+{
+ "id": "355150",
+ "code": "355150",
+ "name": "코스텍시스",
+ "industry": "반도체",
+ "brokers": [
+  "메리츠증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-21",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_653148",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-21",
+   "report_id": "hk_653148",
+   "title": "코스텍시스(355150) 지금은 예고편, 본편은 2027년",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 16600.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

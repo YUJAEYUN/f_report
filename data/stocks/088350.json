@@ -4,6 +4,7 @@
  "name": "한화생명",
  "industry": "보험",
  "brokers": [
+  "iM증권",
   "하나증권"
  ],
  "timeline": [
@@ -24,6 +25,15 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-21",
+   "rating": "매수",
+   "target_price": 5400.0,
+   "source": "report",
+   "report_id": "hk_653180",
+   "tp_status": "하향",
+   "broker": "iM증권"
   }
  ],
  "notes": [
@@ -33,7 +43,24 @@
    "broker": "하나증권"
   }
  ],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-10-21",
+   "report_id": "hk_653180",
+   "title": "한화생명(088350) 보험 Up, 투자 Down. 관건은 신계약, 배당",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 5400.0,
+   "tp_status": "하향",
+   "price": 4630.0,
+   "upside_pct": 16.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
  "rating_changes": [
   {
    "date": "2026-04-29",
@@ -66,6 +93,15 @@
    "mean": 7300,
    "n": 1,
    "brokers": {
+    "하나증권": 7300.0
+   }
+  },
+  {
+   "date": "2026-10-21",
+   "mean": 6350,
+   "n": 2,
+   "brokers": {
+    "iM증권": 5400.0,
     "하나증권": 7300.0
    }
   }
