@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2206",
+  "bbs_seq": "1289207",
+  "report_type": "daily_series",
+  "title": "Hana Guru Eye",
+  "analyst": "임승미",
+  "published_date": "2026-10-21",
+  "published_time": "08:03:12",
+  "category": "Daily",
+  "breadcrumb": "Daily > Daily",
+  "preview_text": "전일 테마 리뷰: 로봇\n오늘의 테마 체크: 우주항공, 반도체",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289207&attachFileSeq=1&bbsId=&dbType=&bbsCd=2206",
+  "pdf_filename": "HGE1021.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2206&bbsSeq=1289207",
+  "collected_at": "2026-10-21T14:10:28+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289207",
+  "text_chars": 12249
+}
