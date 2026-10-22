@@ -4762,6 +4762,288 @@
    }
   }
  ],
+ "hana_1289230": [
+  {
+   "stock_id": "066970",
+   "name": "엘앤에프",
+   "code": "066970",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 140000.0,
+   "price": 91200.0,
+   "upside_pct": 53.5,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 273000.0,
+    "tp_to": 140000.0,
+    "tp_pct": -48.7,
+    "prev_date": "2026-05-06"
+   },
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 76.8,
+    "consensus": 169.9,
+    "gap_pct": -54.8
+   }
+  }
+ ],
+ "hana_1289231": [
+  {
+   "stock_id": "028050",
+   "name": "삼성E&A",
+   "code": "028050",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 73000.0,
+   "price": 55400.0,
+   "upside_pct": 31.8,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 67000.0,
+    "tp_to": 73000.0,
+    "tp_pct": 9.0,
+    "prev_date": "2026-10-01"
+   },
+   "estimate_revisions": [
+    {
+     "date": "2026-10-22",
+     "prev_date": "2026-10-01",
+     "days": 21,
+     "year": "2026",
+     "metric": "op",
+     "from": 1001.1,
+     "to": 1408.2,
+     "pct": 40.7,
+     "speed30": 58.1,
+     "turn": null,
+     "report_id": "hana_1289231",
+     "prev_report_id": "hana_1288937",
+     "broker": "하나증권"
+    },
+    {
+     "date": "2026-10-22",
+     "prev_date": "2026-10-01",
+     "days": 21,
+     "year": "2026",
+     "metric": "eps",
+     "from": 3832.0,
+     "to": 4555.0,
+     "pct": 18.9,
+     "speed30": 27.0,
+     "turn": null,
+     "report_id": "hana_1289231",
+     "prev_report_id": "hana_1288937",
+     "broker": "하나증권"
+    },
+    {
+     "date": "2026-10-22",
+     "prev_date": "2026-10-01",
+     "days": 21,
+     "year": "2027",
+     "metric": "op",
+     "from": 1183.0,
+     "to": 1461.4,
+     "pct": 23.5,
+     "speed30": 33.6,
+     "turn": null,
+     "report_id": "hana_1289231",
+     "prev_report_id": "hana_1288937",
+     "broker": "하나증권"
+    },
+    {
+     "date": "2026-10-22",
+     "prev_date": "2026-10-01",
+     "days": 21,
+     "year": "2027",
+     "metric": "eps",
+     "from": 4618.0,
+     "to": 5668.0,
+     "pct": 22.7,
+     "speed30": 32.4,
+     "turn": null,
+     "report_id": "hana_1289231",
+     "prev_report_id": "hana_1288937",
+     "broker": "하나증권"
+    }
+   ],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1408.2,
+    "consensus": 989.3,
+    "gap_pct": 42.3
+   }
+  }
+ ],
+ "hana_1289236": [
+  {
+   "stock_id": "243840",
+   "name": "신흥에스이씨",
+   "code": "243840",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "price": null,
+   "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hana_1289238": [
+  {
+   "stock_id": "014830",
+   "name": "유니드",
+   "code": "014830",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 70000.0,
+   "price": 54200.0,
+   "upside_pct": 29.2,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 90000.0,
+    "tp_to": 70000.0,
+    "tp_pct": -22.2,
+    "prev_date": "2026-07-20"
+   },
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 57.2,
+    "consensus": 93.5,
+    "gap_pct": -38.8
+   }
+  }
+ ],
+ "hana_1289240": [
+  {
+   "stock_id": "005090",
+   "name": "SGC에너지",
+   "code": "005090",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 68000.0,
+   "price": 37850.0,
+   "upside_pct": 79.7,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 76000.0,
+    "tp_to": 68000.0,
+    "tp_pct": -10.5,
+    "prev_date": "2026-10-05"
+   },
+   "estimate_revisions": [
+    {
+     "date": "2026-10-22",
+     "prev_date": "2026-10-05",
+     "days": 17,
+     "year": "2026",
+     "metric": "op",
+     "from": 178.4,
+     "to": 160.6,
+     "pct": -10.0,
+     "speed30": -17.6,
+     "turn": null,
+     "report_id": "hana_1289240",
+     "prev_report_id": "hana_1288970",
+     "broker": "하나증권"
+    },
+    {
+     "date": "2026-10-22",
+     "prev_date": "2026-10-05",
+     "days": 17,
+     "year": "2026",
+     "metric": "eps",
+     "from": 2517.0,
+     "to": 2031.0,
+     "pct": -19.3,
+     "speed30": -34.1,
+     "turn": null,
+     "report_id": "hana_1289240",
+     "prev_report_id": "hana_1288970",
+     "broker": "하나증권"
+    },
+    {
+     "date": "2026-10-22",
+     "prev_date": "2026-10-05",
+     "days": 17,
+     "year": "2027",
+     "metric": "op",
+     "from": 198.1,
+     "to": 174.2,
+     "pct": -12.1,
+     "speed30": -21.4,
+     "turn": null,
+     "report_id": "hana_1289240",
+     "prev_report_id": "hana_1288970",
+     "broker": "하나증권"
+    },
+    {
+     "date": "2026-10-22",
+     "prev_date": "2026-10-05",
+     "days": 17,
+     "year": "2027",
+     "metric": "eps",
+     "from": 3535.0,
+     "to": 2663.0,
+     "pct": -24.7,
+     "speed30": -43.6,
+     "turn": null,
+     "report_id": "hana_1289240",
+     "prev_report_id": "hana_1288970",
+     "broker": "하나증권"
+    }
+   ],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 160.6,
+    "consensus": 163.6,
+    "gap_pct": -1.8
+   }
+  }
+ ],
+ "hana_1289241": [
+  {
+   "stock_id": "112610",
+   "name": "씨에스윈드",
+   "code": "112610",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 80000.0,
+   "price": 44700.0,
+   "upside_pct": 79.0,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 297.3,
+    "consensus": 303.5,
+    "gap_pct": -2.0
+   }
+  }
+ ],
  "hk_652367": [
   {
    "stock_id": "028670",
@@ -10119,6 +10401,316 @@
    "gap": null
   }
  ],
+ "hk_653185": [
+  {
+   "stock_id": "064850",
+   "name": "에프앤가이드",
+   "code": "064850",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "price": 17990.0,
+   "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653186": [
+  {
+   "stock_id": "336260",
+   "name": "두산퓨얼셀",
+   "code": "336260",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 70000.0,
+   "price": 33850.0,
+   "upside_pct": 106.8,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 80000.0,
+    "tp_to": 70000.0,
+    "tp_pct": -12.5,
+    "prev_date": null
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653188": [
+  {
+   "stock_id": "207940",
+   "name": "삼성바이오로직스",
+   "code": "207940",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 2000000.0,
+   "price": 1417000.0,
+   "upside_pct": 41.1,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653189": [
+  {
+   "stock_id": "171090",
+   "name": "선익시스템",
+   "code": "171090",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 94000.0,
+   "price": 83500.0,
+   "upside_pct": 12.6,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653190": [
+  {
+   "stock_id": "207940",
+   "name": "삼성바이오로직스",
+   "code": "207940",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 2000000.0,
+   "price": 1417000.0,
+   "upside_pct": 41.1,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653191": [
+  {
+   "stock_id": "010120",
+   "name": "LS ELECTRIC",
+   "code": "010120",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 260000.0,
+   "price": 166100.0,
+   "upside_pct": 56.5,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653195": [
+  {
+   "stock_id": "207940",
+   "name": "삼성바이오로직스",
+   "code": "207940",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 2000000.0,
+   "price": 1417000.0,
+   "upside_pct": 41.1,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653203": [
+  {
+   "stock_id": "105630",
+   "name": "한세실업",
+   "code": "105630",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 11000.0,
+   "price": 8520.0,
+   "upside_pct": 29.1,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653204": [
+  {
+   "stock_id": "031430",
+   "name": "신세계인터내셔날",
+   "code": "031430",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 15000.0,
+   "price": 11280.0,
+   "upside_pct": 33.0,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653205": [
+  {
+   "stock_id": "010120",
+   "name": "LS ELECTRIC",
+   "code": "010120",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 310000.0,
+   "price": 166100.0,
+   "upside_pct": 86.6,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653206": [
+  {
+   "stock_id": "041510",
+   "name": "에스엠",
+   "code": "041510",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 120000.0,
+   "price": 85900.0,
+   "upside_pct": 39.7,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653207": [
+  {
+   "stock_id": "079550",
+   "name": "[방산/첨단항공우주] LIG디펜스앤에어로스페이스",
+   "code": "079550",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 900000.0,
+   "price": 498500.0,
+   "upside_pct": 80.5,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 1300000.0,
+    "tp_to": 900000.0,
+    "tp_pct": -30.8,
+    "prev_date": null
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653208": [
+  {
+   "stock_id": "010120",
+   "name": "LS ELECTRIC",
+   "code": "010120",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 300000.0,
+   "price": 166100.0,
+   "upside_pct": 80.6,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653209": [
+  {
+   "stock_id": "131290",
+   "name": "티에스이",
+   "code": "131290",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 400000.0,
+   "price": 272000.0,
+   "upside_pct": 47.1,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653212": [
+  {
+   "stock_id": "010120",
+   "name": "LS ELECTRIC",
+   "code": "010120",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 300000.0,
+   "price": 166100.0,
+   "upside_pct": 80.6,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653213": [
+  {
+   "stock_id": "166090",
+   "name": "하나머티리얼즈",
+   "code": "166090",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 100000.0,
+   "price": 54900.0,
+   "upside_pct": 82.1,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 85000.0,
+    "tp_to": 100000.0,
+    "tp_pct": 17.6,
+    "prev_date": null
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_653214": [
+  {
+   "stock_id": "207940",
+   "name": "삼성바이오로직스",
+   "code": "207940",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 2000000.0,
+   "price": 1417000.0,
+   "upside_pct": 41.1,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
  "mirae_2342809": [
   {
    "stock_id": "035420",
@@ -10764,6 +11356,139 @@
    "target_price": null,
    "price": null,
    "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2343554": [
+  {
+   "stock_id": "259960",
+   "name": "크래프톤",
+   "code": "259960",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 280000.0,
+   "price": 196700.0,
+   "upside_pct": 42.3,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2343555": [
+  {
+   "stock_id": "036570",
+   "name": "NC",
+   "code": "036570",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 300000.0,
+   "price": 220500.0,
+   "upside_pct": 36.1,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2343556": [
+  {
+   "stock_id": "251270",
+   "name": "넷마블",
+   "code": "251270",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 46000.0,
+   "price": 34750.0,
+   "upside_pct": 32.4,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 50000.0,
+    "tp_to": 46000.0,
+    "tp_pct": -8.0,
+    "prev_date": null
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2343557": [
+  {
+   "stock_id": "462870",
+   "name": "시프트업",
+   "code": "462870",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 45000.0,
+   "price": 30800.0,
+   "upside_pct": 46.1,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2343558": [
+  {
+   "stock_id": "010120",
+   "name": "LS ELECTRIC",
+   "code": "010120",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 280000.0,
+   "price": 166100.0,
+   "upside_pct": 68.6,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2343560": [
+  {
+   "stock_id": "293490",
+   "name": "[게임] 카카오게임즈",
+   "code": "293490",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 15000.0,
+   "price": 10180.0,
+   "upside_pct": 47.3,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 9000.0,
+    "tp_to": 15000.0,
+    "tp_pct": 66.7,
+    "prev_date": null
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2343562": [
+  {
+   "stock_id": "095660",
+   "name": "[게임] 네오위즈",
+   "code": "095660",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 24000.0,
+   "price": 18450.0,
+   "upside_pct": 30.1,
    "rating_change": null,
    "estimate_revisions": [],
    "gap": null

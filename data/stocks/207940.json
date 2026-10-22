@@ -7,6 +7,7 @@
   "IBK투자증권",
   "SK증권",
   "대신증권",
+  "메리츠증권",
   "유안타증권",
   "하나증권"
  ],
@@ -127,6 +128,42 @@
    "report_id": "hana_1289222",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-22",
+   "rating": "매수",
+   "target_price": 2000000.0,
+   "source": "report",
+   "report_id": "hk_653195",
+   "tp_status": "유지",
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-10-22",
+   "rating": "매수",
+   "target_price": 2000000.0,
+   "source": "report",
+   "report_id": "hk_653188",
+   "tp_status": "유지",
+   "broker": "대신증권"
+  },
+  {
+   "date": "2026-10-22",
+   "rating": "매수",
+   "target_price": 2000000.0,
+   "source": "report",
+   "report_id": "hk_653190",
+   "tp_status": "유지",
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-22",
+   "rating": "매수",
+   "target_price": 2000000.0,
+   "source": "report",
+   "report_id": "hk_653214",
+   "tp_status": "유지",
+   "broker": "유안타증권"
   }
  ],
  "notes": [
@@ -298,6 +335,70 @@
     "consensus": 2438.9,
     "gap_pct": 2.7
    }
+  },
+  {
+   "date": "2026-10-22",
+   "report_id": "hk_653195",
+   "title": "삼성바이오로직스(207940) 불확실성보다 성장을 볼 시점",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 2000000.0,
+   "tp_status": "유지",
+   "price": 1417000.0,
+   "upside_pct": 41.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-22",
+   "report_id": "hk_653188",
+   "title": "삼성바이오로직스(207940) 파업 영향에도 견조한 실적, 4분기 성장 확대",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 2000000.0,
+   "tp_status": "유지",
+   "price": 1417000.0,
+   "upside_pct": 41.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-22",
+   "report_id": "hk_653190",
+   "title": "삼성바이오로직스(207940) 외형 성장 지속, 수익성 개선은 시간이 필요",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 2000000.0,
+   "tp_status": "유지",
+   "price": 1417000.0,
+   "upside_pct": 41.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-22",
+   "report_id": "hk_653214",
+   "title": "삼성바이오로직스(207940) 불리한 환경에서도 성장성 유지",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 2000000.0,
+   "tp_status": "유지",
+   "price": 1417000.0,
+   "upside_pct": 41.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -741,6 +842,19 @@
     "IBK투자증권": 2000000.0,
     "SK증권": 2000000.0,
     "대신증권": 2000000.0,
+    "유안타증권": 2000000.0,
+    "하나증권": 1950000.0
+   }
+  },
+  {
+   "date": "2026-10-22",
+   "mean": 1991667,
+   "n": 6,
+   "brokers": {
+    "IBK투자증권": 2000000.0,
+    "SK증권": 2000000.0,
+    "대신증권": 2000000.0,
+    "메리츠증권": 2000000.0,
     "유안타증권": 2000000.0,
     "하나증권": 1950000.0
    }

@@ -1,0 +1,55 @@
+{
+ "id": "131290",
+ "code": "131290",
+ "name": "티에스이",
+ "industry": "반도체",
+ "brokers": [
+  "LS증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-22",
+   "rating": "매수",
+   "target_price": 400000.0,
+   "source": "report",
+   "report_id": "hk_653209",
+   "tp_status": "유지",
+   "broker": "LS증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-22",
+   "report_id": "hk_653209",
+   "title": "티에스이(131290) 3Q26 Preview: 고성장 흐름 유지 전망",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 400000.0,
+   "tp_status": "유지",
+   "price": 272000.0,
+   "upside_pct": 47.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-10-22",
+   "mean": 400000,
+   "n": 1,
+   "brokers": {
+    "LS증권": 400000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

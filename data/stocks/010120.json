@@ -4,6 +4,8 @@
  "name": "LS ELECTRIC",
  "industry": "기계·전력기기",
  "brokers": [
+  "LS증권",
+  "SK증권",
   "iM증권",
   "대신증권",
   "미래에셋증권",
@@ -164,6 +166,51 @@
    "report_id": "hana_1289221",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-22",
+   "rating": "매수",
+   "target_price": 300000.0,
+   "source": "report",
+   "report_id": "hk_653208",
+   "tp_status": "유지",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-22",
+   "rating": "매수",
+   "target_price": 310000.0,
+   "source": "report",
+   "report_id": "hk_653205",
+   "tp_status": "유지",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-22",
+   "rating": "매수",
+   "target_price": 280000.0,
+   "source": "report",
+   "report_id": "mirae_2343558",
+   "tp_status": "유지",
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-22",
+   "rating": "매수",
+   "target_price": 300000.0,
+   "source": "report",
+   "report_id": "hk_653212",
+   "tp_status": "유지",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-22",
+   "rating": "매수",
+   "target_price": 260000.0,
+   "source": "report",
+   "report_id": "hk_653191",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -345,6 +392,86 @@
     "consensus": 720.6,
     "gap_pct": 11.8
    }
+  },
+  {
+   "date": "2026-10-22",
+   "report_id": "hk_653208",
+   "title": "LS ELECTRIC(010120) AI발 배전시장 초호황, 공격적 증설 대응으로 고성장 지속",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 300000.0,
+   "tp_status": "유지",
+   "price": 166100.0,
+   "upside_pct": 80.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-22",
+   "report_id": "hk_653205",
+   "title": "LS ELECTRIC(010120) 환율 하락에도 호실적 기록",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 310000.0,
+   "tp_status": "유지",
+   "price": 166100.0,
+   "upside_pct": 86.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-22",
+   "report_id": "mirae_2343558",
+   "title": "LS ELECTRIC (010120/매수): 3Q26 Review: 데이터센터 capex 둔화 징후 부재",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 280000.0,
+   "tp_status": "유지",
+   "price": 166100.0,
+   "upside_pct": 68.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-22",
+   "report_id": "hk_653212",
+   "title": "LS ELECTRIC(010120) 실적 추정치 상향은 이제 시작",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 300000.0,
+   "tp_status": "유지",
+   "price": 166100.0,
+   "upside_pct": 80.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-22",
+   "report_id": "hk_653191",
+   "title": "LS ELECTRIC(010120) 3Q26 Review: 닫히지 않은 성장판",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 260000.0,
+   "tp_status": "유지",
+   "price": 166100.0,
+   "upside_pct": 56.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -847,6 +974,21 @@
    "brokers": {
     "iM증권": 235000.0,
     "대신증권": 300000.0,
+    "유안타증권": 300000.0,
+    "하나증권": 270000.0,
+    "한화투자증권": 260000.0
+   }
+  },
+  {
+   "date": "2026-10-22",
+   "mean": 281875,
+   "n": 8,
+   "brokers": {
+    "LS증권": 300000.0,
+    "SK증권": 310000.0,
+    "iM증권": 235000.0,
+    "대신증권": 300000.0,
+    "미래에셋증권": 280000.0,
     "유안타증권": 300000.0,
     "하나증권": 270000.0,
     "한화투자증권": 260000.0

@@ -1,0 +1,46 @@
+{
+ "id": "064850",
+ "code": "064850",
+ "name": "에프앤가이드",
+ "industry": "소프트웨어·AI",
+ "brokers": [
+  "유진투자증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-22",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_653185",
+   "tp_status": null,
+   "broker": "유진투자증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-22",
+   "report_id": "hk_653185",
+   "title": "에프앤가이드(064850) 3Q26P Review: ETF 관련 실적 여전히 성장 견인",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 17990.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

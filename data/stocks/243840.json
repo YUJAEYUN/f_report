@@ -1,0 +1,59 @@
+{
+ "id": "243840",
+ "code": "243840",
+ "name": "신흥에스이씨",
+ "industry": "2차전지",
+ "brokers": [
+  "하나증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-05-22",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-22",
+   "report_id": "hana_1289236",
+   "title": "신흥에스이씨(243840.KQ): 미국 DC/ESS가 성장 돌파구",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 519.0,
+     "op": 20.0,
+     "net": 12.0,
+     "eps": 254.0
+    },
+    "2027": {
+     "revenue": 620.0,
+     "op": 32.0,
+     "net": 19.0,
+     "eps": 415.0
+    }
+   },
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

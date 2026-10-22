@@ -5,6 +5,7 @@
  "industry": "게임",
  "brokers": [
   "메리츠증권",
+  "미래에셋증권",
   "유진투자증권",
   "하나증권"
  ],
@@ -116,6 +117,15 @@
    "report_id": "hk_652687",
    "tp_status": "유지",
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-10-22",
+   "rating": "매수",
+   "target_price": 46000.0,
+   "source": "report",
+   "report_id": "mirae_2343556",
+   "tp_status": "하향",
+   "broker": "미래에셋증권"
   }
  ],
  "notes": [],
@@ -298,6 +308,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-22",
+   "report_id": "mirae_2343556",
+   "title": "[게임] 넷마블 (251270/매수): 길어지는 모멘텀 부재 구간",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 46000.0,
+   "tp_status": "하향",
+   "price": 34750.0,
+   "upside_pct": 32.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 50000.0
   }
  ],
  "rating_changes": [
@@ -378,6 +404,20 @@
    "tp_speed30": -18.6,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-22",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 46000.0,
+   "tp_pct": -8.0,
+   "tp_speed30": null,
+   "report_id": "mirae_2343556",
+   "implied_prev": true,
+   "broker": "미래에셋증권"
   }
  ],
  "estimate_revisions": [
@@ -720,6 +760,17 @@
    "n": 3,
    "brokers": {
     "메리츠증권": 54000.0,
+    "유진투자증권": 55000.0,
+    "하나증권": 50000.0
+   }
+  },
+  {
+   "date": "2026-10-22",
+   "mean": 51250,
+   "n": 4,
+   "brokers": {
+    "메리츠증권": 54000.0,
+    "미래에셋증권": 46000.0,
     "유진투자증권": 55000.0,
     "하나증권": 50000.0
    }

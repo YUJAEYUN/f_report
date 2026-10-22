@@ -19,5 +19,26 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "mirae_2343578",
-  "text_chars": 253
+  "text_chars": 253,
+  "summary": {
+    "one_liner": "본문 텍스트가 추출되지 않아(표 구분선만 남음) 제목 기준으로만 'AI 투자 둔화 시나리오의 리스크를 분석한 월간 경제 리포트'로 확인된다.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "본문이 없어 기존 전제와 비교한 변화를 확인할 수 없다. 제목상 AI 투자 둔화를 하나의 시나리오로 놓고 리스크를 점검한다는 점만 확인된다.",
+    "implication": "원문 근거가 부족해 해석을 덧붙이지 않는다. PDF 본문을 다시 추출한 뒤 재요약이 필요하다.",
+    "watch_points": []
+  },
+  "summarized_at": "2026-10-22T23:18:05+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [
+    "AI 인프라 투자 사이클"
+  ],
+  "tagged_at": "2026-10-22T23:18:05+09:00"
 }

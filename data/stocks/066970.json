@@ -4,9 +4,37 @@
  "name": "엘앤에프",
  "industry": "2차전지",
  "brokers": [
-  "LS증권"
+  "LS증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2023-11-27",
+   "rating": "매수",
+   "target_price": 409000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2024-11-18",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-05-06",
+   "rating": "매수",
+   "target_price": 273000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-10-15",
    "rating": "중립",
@@ -15,9 +43,33 @@
    "report_id": "hk_652985",
    "tp_status": null,
    "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-22",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "report",
+   "report_id": "hana_1289230",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "table",
+   "report_id": "hana_1289230",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
- "notes": [],
+ "notes": [
+  {
+   "date": "2025-11-18",
+   "note": "년 경과",
+   "broker": "하나증권"
+  }
+ ],
  "observations": [
   {
    "date": "2026-10-15",
@@ -34,22 +86,164 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-22",
+   "report_id": "hana_1289230",
+   "title": "엘앤에프(066970.KS/ 매수) : 환율 및 광물 가격 하락으로 인한 적자",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 140000.0,
+   "tp_status": "하향",
+   "price": 91200.0,
+   "upside_pct": 53.5,
+   "estimates": {
+    "2026": {
+     "revenue": 3485.7,
+     "op": 76.8,
+     "net": -169.7,
+     "eps": -4185.0
+    },
+    "2027": {
+     "revenue": 4738.9,
+     "op": 136.8,
+     "net": 64.5,
+     "eps": 1586.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3491.8,
+     "op": 169.9,
+     "net": -55.4,
+     "eps": -1120.0
+    },
+    "2027": {
+     "revenue": 4307.7,
+     "op": 213.2,
+     "net": 59.6,
+     "eps": 1584.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 76.8,
+    "consensus": 169.9,
+    "gap_pct": -54.8
+   }
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-11-18",
+   "prev_date": "2023-11-27",
+   "days": 357,
+   "rating_from": "매수",
+   "rating_to": "NR",
+   "tp_from": 409000.0,
+   "tp_to": null,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-05-06",
+   "prev_date": "2024-11-18",
+   "days": 534,
+   "rating_from": "NR",
+   "rating_to": "매수",
+   "tp_from": null,
+   "tp_to": 273000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null,
+   "note": "1년 경과",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-22",
+   "prev_date": "2026-05-06",
+   "days": 169,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 273000.0,
+   "tp_to": 140000.0,
+   "tp_pct": -48.7,
+   "tp_speed30": -8.6,
+   "report_id": "hana_1289230",
+   "broker": "하나증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
   {
-   "date": "2026-10-15",
-   "mean": 100000,
+   "date": "2023-11-27",
+   "mean": 409000,
    "n": 1,
    "brokers": {
-    "LS증권": 100000.0
+    "하나증권": 409000.0
+   }
+  },
+  {
+   "date": "2026-05-06",
+   "mean": 273000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 273000.0
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "mean": 186500,
+   "n": 2,
+   "brokers": {
+    "LS증권": 100000.0,
+    "하나증권": 273000.0
+   }
+  },
+  {
+   "date": "2026-10-22",
+   "mean": 120000,
+   "n": 2,
+   "brokers": {
+    "LS증권": 100000.0,
+    "하나증권": 140000.0
+   }
+  },
+  {
+   "date": "2026-10-23",
+   "mean": 120000,
+   "n": 2,
+   "brokers": {
+    "LS증권": 100000.0,
+    "하나증권": 140000.0
    }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-10-22",
+   "from": 186500,
+   "to": 120000,
+   "pct": -35.7,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289230",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-10-22:066970:tp_down:하나증권",
+  "2026-10-22:066970:gap_below:하나증권",
+  "2026-10-22:066970:tp_cons_down:"
+ ]
 }

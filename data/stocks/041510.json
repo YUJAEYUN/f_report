@@ -125,6 +125,15 @@
    "report_id": "hk_653097",
    "tp_status": "유지",
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-10-22",
+   "rating": "매수",
+   "target_price": 120000.0,
+   "source": "report",
+   "report_id": "hk_653206",
+   "tp_status": "유지",
+   "broker": "SK증권"
   }
  ],
  "notes": [],
@@ -206,6 +215,22 @@
    "tp_status": "유지",
    "price": 87000.0,
    "upside_pct": 26.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-22",
+   "report_id": "hk_653206",
+   "title": "에스엠(041510) 2027년을 FOCUS",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 120000.0,
+   "tp_status": "유지",
+   "price": 85900.0,
+   "upside_pct": 39.7,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -433,6 +458,16 @@
   },
   {
    "date": "2026-10-20",
+   "mean": 118000,
+   "n": 3,
+   "brokers": {
+    "SK증권": 120000.0,
+    "유진투자증권": 110000.0,
+    "하나증권": 124000.0
+   }
+  },
+  {
+   "date": "2026-10-22",
    "mean": 118000,
    "n": 3,
    "brokers": {
