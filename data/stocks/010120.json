@@ -211,6 +211,15 @@
    "report_id": "hk_653191",
    "tp_status": "유지",
    "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 250000.0,
+   "source": "report",
+   "report_id": "hk_653220",
+   "tp_status": "하향",
+   "broker": "대신증권"
   }
  ],
  "notes": [],
@@ -472,6 +481,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hk_653220",
+   "title": "LS ELECTRIC(010120) 여전히 업사이클 초기단계 일 뿐. 업사이드 존재",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 250000.0,
+   "tp_status": "하향",
+   "price": 161400.0,
+   "upside_pct": 54.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -591,6 +616,19 @@
    "tp_speed30": 7.3,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-23",
+   "prev_date": "2026-10-12",
+   "days": 11,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 300000.0,
+   "tp_to": 250000.0,
+   "tp_pct": -16.7,
+   "tp_speed30": -45.5,
+   "report_id": "hk_653220",
+   "broker": "대신증권"
   }
  ],
  "estimate_revisions": [
@@ -993,11 +1031,40 @@
     "하나증권": 270000.0,
     "한화투자증권": 260000.0
    }
+  },
+  {
+   "date": "2026-10-23",
+   "mean": 275625,
+   "n": 8,
+   "brokers": {
+    "LS증권": 300000.0,
+    "SK증권": 310000.0,
+    "iM증권": 235000.0,
+    "대신증권": 250000.0,
+    "미래에셋증권": 280000.0,
+    "유안타증권": 300000.0,
+    "하나증권": 270000.0,
+    "한화투자증권": 260000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-10-23",
+   "from": 281875,
+   "to": 275625,
+   "pct": -2.2,
+   "n": 8,
+   "brokers": [
+    "대신증권"
+   ],
+   "report_id": "hk_653220",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
  "events": [
+  "2026-10-23:010120:tp_down:대신증권",
   "2026-10-21:010120:est_up:하나증권2027op"
  ]
 }

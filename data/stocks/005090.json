@@ -65,9 +65,9 @@
    "date": "2026-10-23",
    "rating": "매수",
    "target_price": 68000.0,
-   "source": "table",
-   "report_id": "hana_1289240",
-   "tp_status": null,
+   "source": "report",
+   "report_id": "hana_1289242",
+   "tp_status": "하향",
    "broker": "하나증권"
   }
  ],
@@ -133,6 +133,55 @@
    "report_id": "hana_1289240",
    "title": "SGC에너지(005090.KS/매수): 본업보다 중요한 AI DC 사업 진행 상황",
    "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 68000.0,
+   "tp_status": "하향",
+   "price": 37850.0,
+   "upside_pct": 79.7,
+   "estimates": {
+    "2026": {
+     "revenue": 2333.4,
+     "op": 160.6,
+     "net": 29.3,
+     "eps": 2031.0
+    },
+    "2027": {
+     "revenue": 2498.8,
+     "op": 174.2,
+     "net": 38.4,
+     "eps": 2663.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2504.0,
+     "op": 163.6,
+     "net": 22.4,
+     "eps": 1345.0
+    },
+    "2027": {
+     "revenue": 2604.8,
+     "op": 180.8,
+     "net": 36.7,
+     "eps": 2108.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 160.6,
+    "consensus": 163.6,
+    "gap_pct": -1.8
+   }
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hana_1289242",
+   "title": "하루에 하나 1023",
+   "primary": false,
    "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",

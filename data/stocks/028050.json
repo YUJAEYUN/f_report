@@ -4,9 +4,15 @@
  "name": "삼성E&A",
  "industry": "건설",
  "brokers": [
+  "LS증권",
+  "iM증권",
+  "대신증권",
+  "메리츠증권",
   "미래에셋증권",
   "유안타증권",
-  "하나증권"
+  "유진투자증권",
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -129,11 +135,83 @@
   {
    "date": "2026-10-23",
    "rating": "매수",
-   "target_price": 73000.0,
-   "source": "table",
-   "report_id": "hana_1289231",
+   "target_price": 76000.0,
+   "source": "report",
+   "report_id": "hk_653232",
+   "tp_status": "상향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 78000.0,
+   "source": "report",
+   "report_id": "hk_653261",
+   "tp_status": "상향",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 75000.0,
+   "source": "report",
+   "report_id": "hk_653221",
+   "tp_status": "상향",
+   "broker": "대신증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 76000.0,
+   "source": "report",
+   "report_id": "hk_653222",
+   "tp_status": "유지",
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343600",
    "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 77000.0,
+   "source": "report",
+   "report_id": "hk_653229",
+   "tp_status": "상향",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 82000.0,
+   "source": "report",
+   "report_id": "hk_653218",
+   "tp_status": "상향",
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 73000.0,
+   "source": "report",
+   "report_id": "hana_1289242",
+   "tp_status": "상향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 84000.0,
+   "source": "report",
+   "report_id": "hk_653225",
+   "tp_status": "상향",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -283,6 +361,183 @@
     "consensus": 989.3,
     "gap_pct": 42.3
    }
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hk_653232",
+   "title": "삼성E&A(028050) New Normal",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 76000.0,
+   "tp_status": "상향",
+   "price": 55400.0,
+   "upside_pct": 37.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 72000.0
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hk_653261",
+   "title": "삼성E&A(028050) 반복되는 서프라이즈, 그리고 훌륭한 주주환원",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 78000.0,
+   "tp_status": "상향",
+   "price": 55400.0,
+   "upside_pct": 40.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 69000.0
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hk_653221",
+   "title": "삼성E&A(028050) 깜짝 놀랄 만한 실적",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 75000.0,
+   "tp_status": "상향",
+   "price": 55400.0,
+   "upside_pct": 35.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hk_653222",
+   "title": "삼성E&A(028050) 3Q26 Review: 숫자가 나오는 성장주",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 76000.0,
+   "tp_status": "유지",
+   "price": 55400.0,
+   "upside_pct": 37.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "mirae_2343600",
+   "title": "삼성E&A (028050/매수): 다시 봐도 놀라운 숫자와 자신감 + 자사주 공시",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hk_653229",
+   "title": "삼성E&A(028050) 실적, 수주, 주주환원: 뭐 하나 부족한 게 없다!",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 77000.0,
+   "tp_status": "상향",
+   "price": 55400.0,
+   "upside_pct": 39.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 73000.0
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hk_653218",
+   "title": "삼성E&A(028050) 건설업종 시총 1위의 위엄",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 82000.0,
+   "tp_status": "상향",
+   "price": 55400.0,
+   "upside_pct": 48.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 77000.0
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hana_1289242",
+   "title": "하루에 하나 1023",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 73000.0,
+   "tp_status": "상향",
+   "price": 55400.0,
+   "upside_pct": 31.8,
+   "estimates": {
+    "2026": {
+     "revenue": 10968.0,
+     "op": 1408.2,
+     "net": 892.7,
+     "eps": 4555.0
+    },
+    "2027": {
+     "revenue": 14236.3,
+     "op": 1461.4,
+     "net": 1111.0,
+     "eps": 5668.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 10723.0,
+     "op": 989.3,
+     "net": 768.1,
+     "eps": 3806.0
+    },
+    "2027": {
+     "revenue": 13021.4,
+     "op": 1205.8,
+     "net": 964.0,
+     "eps": 4782.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1408.2,
+    "consensus": 989.3,
+    "gap_pct": 42.3
+   }
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hk_653225",
+   "title": "삼성E&A(028050) 입이 떡 벌어졌다면, 일단 매수",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 84000.0,
+   "tp_status": "상향",
+   "price": 55400.0,
+   "upside_pct": 51.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 70000.0
   }
  ],
  "rating_changes": [
@@ -389,6 +644,75 @@
    "tp_speed30": 12.9,
    "report_id": "hana_1289231",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-23",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 72000.0,
+   "tp_to": 76000.0,
+   "tp_pct": 5.6,
+   "tp_speed30": null,
+   "report_id": "hk_653232",
+   "implied_prev": true,
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-23",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 69000.0,
+   "tp_to": 78000.0,
+   "tp_pct": 13.0,
+   "tp_speed30": null,
+   "report_id": "hk_653261",
+   "implied_prev": true,
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-10-23",
+   "prev_date": "2026-10-16",
+   "days": 7,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 73000.0,
+   "tp_to": 77000.0,
+   "tp_pct": 5.5,
+   "tp_speed30": 23.6,
+   "report_id": "hk_653229",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-23",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 77000.0,
+   "tp_to": 82000.0,
+   "tp_pct": 6.5,
+   "tp_speed30": null,
+   "report_id": "hk_653218",
+   "implied_prev": true,
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-10-23",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 70000.0,
+   "tp_to": 84000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": null,
+   "report_id": "hk_653225",
+   "implied_prev": true,
+   "broker": "한화투자증권"
   }
  ],
  "estimate_revisions": [
@@ -747,11 +1071,17 @@
   },
   {
    "date": "2026-10-23",
-   "mean": 73000,
-   "n": 2,
+   "mean": 77625,
+   "n": 8,
    "brokers": {
-    "유안타증권": 73000.0,
-    "하나증권": 73000.0
+    "LS증권": 76000.0,
+    "iM증권": 78000.0,
+    "대신증권": 75000.0,
+    "메리츠증권": 76000.0,
+    "유안타증권": 77000.0,
+    "유진투자증권": 82000.0,
+    "하나증권": 73000.0,
+    "한화투자증권": 84000.0
    }
   }
  ],
@@ -767,12 +1097,41 @@
    ],
    "report_id": "hana_1289231",
    "cum30": null
+  },
+  {
+   "date": "2026-10-23",
+   "from": 73000,
+   "to": 75000,
+   "pct": 2.7,
+   "n": 2,
+   "brokers": [
+    "유안타증권"
+   ],
+   "report_id": "hk_653229",
+   "cum30": 7.0
   }
  ],
- "broker_waves": [],
+ "broker_waves": [
+  {
+   "date": "2026-10-23",
+   "direction": 1,
+   "count": 6,
+   "brokers": [
+    "LS증권",
+    "iM증권",
+    "유안타증권",
+    "유진투자증권",
+    "하나증권",
+    "한화투자증권"
+   ],
+   "report_id": "hk_653232"
+  }
+ ],
  "events": [
   "2026-10-22:028050:tp_streak:하나증권",
+  "2026-10-23:028050:tp_up:한화투자증권",
   "2026-10-22:028050:est_up:하나증권2026op",
-  "2026-10-22:028050:gap_above:하나증권"
+  "2026-10-22:028050:gap_above:하나증권",
+  "2026-10-23:028050:wave_up:"
  ]
 }

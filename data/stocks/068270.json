@@ -4,6 +4,8 @@
  "name": "셀트리온",
  "industry": "제약·바이오",
  "brokers": [
+  "SK증권",
+  "iM증권",
   "대신증권"
  ],
  "timeline": [
@@ -15,6 +17,24 @@
    "report_id": "hk_652372",
    "tp_status": "유지",
    "broker": "대신증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 280000.0,
+   "source": "report",
+   "report_id": "hk_653237",
+   "tp_status": "상향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 260000.0,
+   "source": "report",
+   "report_id": "hk_653255",
+   "tp_status": "유지",
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -34,6 +54,38 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hk_653237",
+   "title": "셀트리온(068270) 옴리클로, 3대시장 First-mover의 완성",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 280000.0,
+   "tp_status": "상향",
+   "price": 194300.0,
+   "upside_pct": 44.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hk_653255",
+   "title": "셀트리온(068270) WAC 2026 참관 후기: 꽃가루 휘날리며",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 260000.0,
+   "tp_status": "유지",
+   "price": 194300.0,
+   "upside_pct": 33.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -45,6 +97,16 @@
    "mean": 280000,
    "n": 1,
    "brokers": {
+    "대신증권": 280000.0
+   }
+  },
+  {
+   "date": "2026-10-23",
+   "mean": 273333,
+   "n": 3,
+   "brokers": {
+    "SK증권": 280000.0,
+    "iM증권": 260000.0,
     "대신증권": 280000.0
    }
   }

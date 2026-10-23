@@ -51,6 +51,15 @@
    "report_id": "hana_1289241",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "report",
+   "report_id": "hana_1289242",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -60,6 +69,55 @@
    "report_id": "hana_1289241",
    "title": "씨에스윈드(112610.KS/매수): 환율 약세, 매출 이연에도 양호한 마진 기대",
    "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 80000.0,
+   "tp_status": null,
+   "price": 44700.0,
+   "upside_pct": 79.0,
+   "estimates": {
+    "2026": {
+     "revenue": 2845.2,
+     "op": 297.3,
+     "net": 96.8,
+     "eps": 2296.0
+    },
+    "2027": {
+     "revenue": 3087.4,
+     "op": 269.0,
+     "net": 162.2,
+     "eps": 3846.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2836.8,
+     "op": 303.5,
+     "net": 189.8,
+     "eps": 4407.0
+    },
+    "2027": {
+     "revenue": 3240.5,
+     "op": 336.5,
+     "net": 224.9,
+     "eps": 5217.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 297.3,
+    "consensus": 303.5,
+    "gap_pct": -2.0
+   }
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hana_1289242",
+   "title": "하루에 하나 1023",
+   "primary": false,
    "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",
@@ -183,6 +241,14 @@
   },
   {
    "date": "2026-10-22",
+   "mean": 80000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 80000.0
+   }
+  },
+  {
+   "date": "2026-10-23",
    "mean": 80000,
    "n": 1,
    "brokers": {

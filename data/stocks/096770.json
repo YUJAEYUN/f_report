@@ -5,6 +5,7 @@
  "industry": "정유·화학",
  "brokers": [
   "LS증권",
+  "iM증권",
   "메리츠증권",
   "하나증권"
  ],
@@ -125,6 +126,15 @@
    "report_id": "hk_652936",
    "tp_status": null,
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 250000.0,
+   "source": "report",
+   "report_id": "hk_653256",
+   "tp_status": "유지",
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -255,6 +265,22 @@
    "tp_status": null,
    "price": 156800.0,
    "upside_pct": 33.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hk_653256",
+   "title": "SK이노베이션(096770) SK엔무브 스페인 ILBOC 공장 투어 후기",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 250000.0,
+   "tp_status": "유지",
+   "price": 140500.0,
+   "upside_pct": 77.9,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -686,6 +712,17 @@
    "n": 3,
    "brokers": {
     "LS증권": 187000.0,
+    "메리츠증권": 210000.0,
+    "하나증권": 220000.0
+   }
+  },
+  {
+   "date": "2026-10-23",
+   "mean": 216750,
+   "n": 4,
+   "brokers": {
+    "LS증권": 187000.0,
+    "iM증권": 250000.0,
     "메리츠증권": 210000.0,
     "하나증권": 220000.0
    }

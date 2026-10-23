@@ -66,10 +66,10 @@
    "ratio": 0.0
   },
   "2026-W43": {
-   "up": 0,
-   "down": 0,
+   "up": 1,
+   "down": 1,
    "flat": 5,
-   "stocks": 5,
+   "stocks": 7,
    "ratio": 0.0
   }
  },
@@ -165,9 +165,9 @@
   "2026-W43": {
    "up": 1,
    "down": 0,
-   "flat": 6,
-   "stocks": 7,
-   "ratio": 0.14
+   "flat": 7,
+   "stocks": 8,
+   "ratio": 0.12
   }
  },
  "디스플레이": {
@@ -194,10 +194,10 @@
   },
   "2026-W43": {
    "up": 0,
-   "down": 0,
+   "down": 1,
    "flat": 2,
-   "stocks": 2,
-   "ratio": 0.0
+   "stocks": 3,
+   "ratio": -0.33
   }
  },
  "미디어·콘텐츠": {
@@ -269,9 +269,9 @@
   "2026-W43": {
    "up": 1,
    "down": 0,
-   "flat": 5,
-   "stocks": 6,
-   "ratio": 0.17
+   "flat": 6,
+   "stocks": 7,
+   "ratio": 0.14
   }
  },
  "보험": {
@@ -678,9 +678,9 @@
   "2026-W43": {
    "up": 1,
    "down": 5,
-   "flat": 1,
-   "stocks": 7,
-   "ratio": -0.57
+   "flat": 2,
+   "stocks": 8,
+   "ratio": -0.5
   }
  },
  "제약·바이오": {
@@ -722,8 +722,8 @@
   "2026-W43": {
    "up": 1,
    "down": 1,
-   "flat": 1,
-   "stocks": 3,
+   "flat": 2,
+   "stocks": 4,
    "ratio": 0.0
   }
  },
@@ -814,8 +814,8 @@
   "2026-W43": {
    "up": 0,
    "down": 0,
-   "flat": 1,
-   "stocks": 1,
+   "flat": 2,
+   "stocks": 2,
    "ratio": 0.0
   }
  },
@@ -922,6 +922,13 @@
    "down": 0,
    "flat": 1,
    "stocks": 1,
+   "ratio": 0.0
+  },
+  "2026-W43": {
+   "up": 0,
+   "down": 0,
+   "flat": 4,
+   "stocks": 4,
    "ratio": 0.0
   }
  },

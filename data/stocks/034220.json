@@ -35,6 +35,24 @@
    "report_id": "hk_652915",
    "tp_status": "하향",
    "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 10500.0,
+   "source": "report",
+   "report_id": "hk_653236",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 10000.0,
+   "source": "report",
+   "report_id": "hk_653253",
+   "tp_status": "하향",
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -86,6 +104,38 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 17000.0
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hk_653236",
+   "title": "LG디스플레이(034220) IT방어주? : PSR 0.15배",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 10500.0,
+   "tp_status": "하향",
+   "price": 7230.0,
+   "upside_pct": 45.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hk_653253",
+   "title": "LG디스플레이(034220) 완만한 실적 회복세",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 10000.0,
+   "tp_status": "하향",
+   "price": 7230.0,
+   "upside_pct": 38.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -102,6 +152,32 @@
    "report_id": "hk_652915",
    "implied_prev": true,
    "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-10-23",
+   "prev_date": "2026-10-08",
+   "days": 15,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 12500.0,
+   "tp_to": 10500.0,
+   "tp_pct": -16.0,
+   "tp_speed30": -32.0,
+   "report_id": "hk_653236",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-23",
+   "prev_date": "2026-09-21",
+   "days": 32,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 11500.0,
+   "tp_to": 10000.0,
+   "tp_pct": -13.0,
+   "tp_speed30": -12.2,
+   "report_id": "hk_653253",
+   "broker": "iM증권"
   }
  ],
  "estimate_revisions": [],
@@ -133,11 +209,50 @@
     "SK증권": 12500.0,
     "iM증권": 11500.0
    }
+  },
+  {
+   "date": "2026-10-23",
+   "mean": 11167,
+   "n": 3,
+   "brokers": {
+    "IBK투자증권": 13000.0,
+    "SK증권": 10500.0,
+    "iM증권": 10000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
- "broker_waves": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-10-23",
+   "from": 12333,
+   "to": 11167,
+   "pct": -9.5,
+   "n": 3,
+   "brokers": [
+    "SK증권",
+    "iM증권"
+   ],
+   "report_id": "hk_653236",
+   "cum30": null
+  }
+ ],
+ "broker_waves": [
+  {
+   "date": "2026-10-23",
+   "direction": -1,
+   "count": 3,
+   "brokers": [
+    "IBK투자증권",
+    "SK증권",
+    "iM증권"
+   ],
+   "report_id": "hk_653236"
+  }
+ ],
  "events": [
-  "2026-10-14:034220:tp_down:IBK투자증권"
+  "2026-10-14:034220:tp_down:IBK투자증권",
+  "2026-10-23:034220:tp_down:SK증권",
+  "2026-10-23:034220:tp_cons_down:",
+  "2026-10-23:034220:wave_down:"
  ]
 }

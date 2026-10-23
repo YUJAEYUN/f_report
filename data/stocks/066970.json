@@ -57,9 +57,9 @@
    "date": "2026-10-23",
    "rating": "매수",
    "target_price": 140000.0,
-   "source": "table",
-   "report_id": "hana_1289230",
-   "tp_status": null,
+   "source": "report",
+   "report_id": "hana_1289242",
+   "tp_status": "하향",
    "broker": "하나증권"
   }
  ],
@@ -92,6 +92,55 @@
    "report_id": "hana_1289230",
    "title": "엘앤에프(066970.KS/ 매수) : 환율 및 광물 가격 하락으로 인한 적자",
    "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 140000.0,
+   "tp_status": "하향",
+   "price": 91200.0,
+   "upside_pct": 53.5,
+   "estimates": {
+    "2026": {
+     "revenue": 3485.7,
+     "op": 76.8,
+     "net": -169.7,
+     "eps": -4185.0
+    },
+    "2027": {
+     "revenue": 4738.9,
+     "op": 136.8,
+     "net": 64.5,
+     "eps": 1586.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3491.8,
+     "op": 169.9,
+     "net": -55.4,
+     "eps": -1120.0
+    },
+    "2027": {
+     "revenue": 4307.7,
+     "op": 213.2,
+     "net": 59.6,
+     "eps": 1584.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 76.8,
+    "consensus": 169.9,
+    "gap_pct": -54.8
+   }
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hana_1289242",
+   "title": "하루에 하나 1023",
+   "primary": false,
    "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",

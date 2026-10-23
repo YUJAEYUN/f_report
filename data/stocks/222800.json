@@ -53,6 +53,15 @@
    "report_id": "hk_652899",
    "tp_status": null,
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 170000.0,
+   "source": "report",
+   "report_id": "hana_1289243",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
@@ -99,6 +108,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hana_1289243",
+   "title": "전기전자(Overweight): 높아지는 패키지 기판의 위상",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 170000.0,
+   "tp_status": null,
+   "price": 119500.0,
+   "upside_pct": 42.3,
+   "estimates": {
+    "2026": {
+     "revenue": 2081.5,
+     "op": 256.2,
+     "net": 214.3,
+     "eps": 5657.0
+    },
+    "2027": {
+     "revenue": 2582.6,
+     "op": 500.9,
+     "net": 411.4,
+     "eps": 10575.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2090.4,
+     "op": 257.3,
+     "net": 197.5,
+     "eps": 5207.0
+    },
+    "2027": {
+     "revenue": 2536.2,
+     "op": 436.9,
+     "net": 342.2,
+     "eps": 8790.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 256.2,
+    "consensus": 257.3,
+    "gap_pct": -0.4
+   }
   }
  ],
  "rating_changes": [
@@ -182,6 +240,16 @@
   },
   {
    "date": "2026-10-13",
+   "mean": 206667,
+   "n": 3,
+   "brokers": {
+    "iM증권": 250000.0,
+    "메리츠증권": 200000.0,
+    "하나증권": 170000.0
+   }
+  },
+  {
+   "date": "2026-10-23",
    "mean": 206667,
    "n": 3,
    "brokers": {

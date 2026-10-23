@@ -47,6 +47,35 @@
     }
    },
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hana_1289242",
+   "title": "하루에 하나 1023",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 519.0,
+     "op": 20.0,
+     "net": 12.0,
+     "eps": 254.0
+    },
+    "2027": {
+     "revenue": 620.0,
+     "op": 32.0,
+     "net": 19.0,
+     "eps": 415.0
+    }
+   },
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],

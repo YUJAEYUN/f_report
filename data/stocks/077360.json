@@ -4,9 +4,28 @@
  "name": "덕산하이메탈",
  "industry": "반도체",
  "brokers": [
-  "메리츠증권"
+  "메리츠증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2025-12-06",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-04-23",
+   "rating": "매수",
+   "target_price": 23000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-10-06",
    "rating": "NR",
@@ -15,6 +34,15 @@
    "report_id": "hk_652703",
    "tp_status": null,
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-23",
+   "rating": "매수",
+   "target_price": 23000.0,
+   "source": "report",
+   "report_id": "hana_1289243",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -34,12 +62,100 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-23",
+   "report_id": "hana_1289243",
+   "title": "전기전자(Overweight): 높아지는 패키지 기판의 위상",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 23000.0,
+   "tp_status": null,
+   "price": 11080.0,
+   "upside_pct": 107.6,
+   "estimates": {
+    "2026": {
+     "revenue": 354.5,
+     "op": 33.7,
+     "net": 40.8,
+     "eps": 897.0
+    },
+    "2027": {
+     "revenue": 426.0,
+     "op": 60.3,
+     "net": 58.5,
+     "eps": 1288.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 357.3,
+     "op": 34.0,
+     "net": 32.2,
+     "eps": 694.0
+    },
+    "2027": {
+     "revenue": 441.4,
+     "op": 57.8,
+     "net": 44.0,
+     "eps": 954.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 33.7,
+    "consensus": 34.0,
+    "gap_pct": -0.9
+   }
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-04-23",
+   "prev_date": "2025-12-06",
+   "days": 138,
+   "rating_from": "NR",
+   "rating_to": "매수",
+   "tp_from": null,
+   "tp_to": 23000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null,
+   "broker": "하나증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
- "tp_consensus": [],
+ "tp_consensus": [
+  {
+   "date": "2026-04-23",
+   "mean": 23000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 23000.0
+   }
+  },
+  {
+   "date": "2026-10-06",
+   "mean": 23000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 23000.0
+   }
+  },
+  {
+   "date": "2026-10-23",
+   "mean": 23000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 23000.0
+   }
+  }
+ ],
  "tp_consensus_changes": [],
  "broker_waves": [],
  "events": []
