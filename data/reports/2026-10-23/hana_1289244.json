@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2206",
+  "bbs_seq": "1289244",
+  "report_type": "daily_series",
+  "title": "Hana Guru Eye",
+  "analyst": "임승미",
+  "published_date": "2026-10-23",
+  "published_time": "08:04:07",
+  "category": "Daily",
+  "breadcrumb": "Daily > Daily",
+  "preview_text": "전일 테마 리뷰: 건설\n오늘의 테마 체크: 정유, 제약바이오",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289244&attachFileSeq=1&bbsId=&dbType=&bbsCd=2206",
+  "pdf_filename": "HGE1023.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2206&bbsSeq=1289244",
+  "collected_at": "2026-10-23T13:51:45+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289244",
+  "text_chars": 12510
+}
