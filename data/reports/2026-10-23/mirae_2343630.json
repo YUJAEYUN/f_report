@@ -19,5 +19,32 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "mirae_2343630",
-  "text_chars": 340
+  "text_chars": 340,
+  "summary": {
+    "one_liner": "11월 저PBR 명단 공개를 앞두고 지주회사 등 주요 그룹(LG, HD현대, 한화, LS, CJ)의 NAV 및 밸류업 공시가 집중되고 있음을 점검한 주간 NAV 대시보드 (본문 추출이 부실해 제목과 차트 라벨 기준)",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "11월 저PBR 명단 공개가 예정되어 있고, 이를 앞두고 밸류업 공시가 집중되는 국면이다(제목 기준).",
+      "차트 라벨상 LG, HD현대, 한화, LS, CJ 등 그룹 지주사가 NAV 비교 대상으로 다뤄진 것으로 보인다."
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "본문 추출이 불완전해 비교 기준은 확인되지 않는다. 제목상 강조된 변화는 저PBR 명단 공개 전 밸류업 공시가 몰리고 있다는 점이다.",
+    "implication": "명단 공개라는 제도 일정이 기업들의 공시 시점을 앞당기는 요인으로 작용하고 있다는 해석이 가능하다. 구체적인 수치와 종목별 내용은 본문이 없어 확인할 수 없다.",
+    "watch_points": [
+      "11월 저PBR 명단 공개 내용과 포함 기업",
+      "주요 그룹 지주사의 밸류업 공시 내용(주주환원, 자사주 소각 등)"
+    ]
+  },
+  "summarized_at": "2026-10-27T00:43:10+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [
+    "밸류업·저PBR"
+  ],
+  "tagged_at": "2026-10-27T00:43:10+09:00"
 }

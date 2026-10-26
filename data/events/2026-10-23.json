@@ -23,7 +23,9 @@
    "report_id": "hana_1289243",
    "broker": "하나증권"
   },
-  "title": "전기전자(Overweight): 높아지는 패키지 기판의 위상"
+  "title": "전기전자(Overweight): 높아지는 패키지 기판의 위상",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-23:011070:tp_cons_down:",
@@ -48,7 +50,9 @@
    "report_id": "hana_1289243",
    "cum30": null
   },
-  "title": "전기전자(Overweight): 높아지는 패키지 기판의 위상"
+  "title": "전기전자(Overweight): 높아지는 패키지 기판의 위상",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-23:009150:est_up:하나증권2027op",
@@ -76,7 +80,9 @@
    "prev_report_id": "hana_1288898",
    "broker": "하나증권"
   },
-  "title": "전기전자(Overweight): 높아지는 패키지 기판의 위상"
+  "title": "전기전자(Overweight): 높아지는 패키지 기판의 위상",
+  "reason": "MLCC·FCBGA뿐 아니라 BGA 기판도 공급부족 사이클에 진입했고, 27년 영업이익 상향은 대부분 FCBGA 실적 추정치를 올린 데 따른 것이라고 봤다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-23:028050:wave_up:",
@@ -103,7 +109,9 @@
    ],
    "report_id": "hk_653232"
   },
-  "title": "삼성E&A(028050) New Normal"
+  "title": "삼성E&A(028050) New Normal",
+  "reason": "LS증권은 이익 추정치 상향과 자사주 소각을 고려한 조정 Forward BPS에 글로벌 Peers 평균 PBR 2.6X를 20% 할인한 2.1X를 적용해 목표주가를 72,000원에서 76,000원으로 올렸다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-23:034220:tp_cons_down:",
@@ -129,7 +137,9 @@
    "report_id": "hk_653236",
    "cum30": null
   },
-  "title": "LG디스플레이(034220) IT방어주? : PSR 0.15배"
+  "title": "LG디스플레이(034220) IT방어주? : PSR 0.15배",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-23:009150:cons_up:하나증권2027op",
@@ -157,7 +167,9 @@
    "prev_report_id": "hana_1288898",
    "broker": "하나증권"
   },
-  "title": "전기전자(Overweight): 높아지는 패키지 기판의 위상"
+  "title": "전기전자(Overweight): 높아지는 패키지 기판의 위상",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-23:028050:tp_up:한화투자증권",
@@ -184,7 +196,9 @@
    "implied_prev": true,
    "broker": "한화투자증권"
   },
-  "title": "삼성E&A(028050) 입이 떡 벌어졌다면, 일단 매수"
+  "title": "삼성E&A(028050) 입이 떡 벌어졌다면, 일단 매수",
+  "reason": "12개월 예상 BPS에 적용하는 목표 P/B를 기존 2.35배에서 2.6배로 높여 적용했다(예상 ROE 15.2%→19.3%). 3분기 영업이익이 컨센서스를 대폭 상회하고 연간 가이던스가 상향된 점을 근거로 들었다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-23:010120:tp_down:대신증권",
@@ -210,7 +224,9 @@
    "report_id": "hk_653220",
    "broker": "대신증권"
   },
-  "title": "LS ELECTRIC(010120) 여전히 업사이클 초기단계 일 뿐. 업사이드 존재"
+  "title": "LS ELECTRIC(010120) 여전히 업사이클 초기단계 일 뿐. 업사이드 존재",
+  "reason": "6개월 목표주가 현실화를 반영한 것일 뿐, 업황 호조와 실적 성장 속도는 더 강화될 것으로 봤다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-23:034220:tp_down:SK증권",
@@ -236,7 +252,9 @@
    "report_id": "hk_653236",
    "broker": "SK증권"
   },
-  "title": "LG디스플레이(034220) IT방어주? : PSR 0.15배"
+  "title": "LG디스플레이(034220) IT방어주? : PSR 0.15배",
+  "reason": "4분기·27년 영업이익 추정을 하향하며 세트 수요 감소, 고객사의 27년 패널 기술변화 적용 축소 가능성, 한국·중국 공급사 간 경쟁 심화를 배경으로 들었다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-23:034220:wave_down:",
@@ -260,6 +278,8 @@
    ],
    "report_id": "hk_653236"
   },
-  "title": "LG디스플레이(034220) IT방어주? : PSR 0.15배"
+  "title": "LG디스플레이(034220) IT방어주? : PSR 0.15배",
+  "reason": null,
+  "reason_checked": true
  }
 ]

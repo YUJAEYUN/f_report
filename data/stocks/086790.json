@@ -1,12 +1,68 @@
 {
  "id": "086790",
  "code": "086790",
- "name": "하나금융지주",
+ "name": "하나금융",
  "industry": "은행",
  "brokers": [
-  "SK증권"
+  "SK증권",
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
+  {
+   "date": "2024-03-21",
+   "rating": "매수",
+   "target_price": 82000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-05-29",
+   "rating": "매수",
+   "target_price": 92000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-06-30",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-11-07",
+   "rating": "매수",
+   "target_price": 130000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-02-11",
+   "rating": "매수",
+   "target_price": 157000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-07-07",
+   "rating": "매수",
+   "target_price": 166000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-10-07",
    "rating": "매수",
@@ -15,6 +71,24 @@
    "report_id": "hk_652779",
    "tp_status": null,
    "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-25",
+   "rating": "매수",
+   "target_price": 166000.0,
+   "source": "report",
+   "report_id": "hana_1289261",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-26",
+   "rating": "매수",
+   "target_price": 165000.0,
+   "source": "report",
+   "report_id": "hk_653285",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -34,18 +108,213 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-25",
+   "report_id": "hana_1289261",
+   "title": "하나금융(086790.KS/매수) : 무난하지만 조금씩 아쉬움들이 있었던 실적",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 166000.0,
+   "tp_status": null,
+   "price": 116300.0,
+   "upside_pct": 42.7,
+   "estimates": {
+    "2026": {
+     "net": 4337.0,
+     "eps": 16246.0
+    },
+    "2027": {
+     "net": 4563.0,
+     "eps": 17092.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": null,
+     "op": 5938.0,
+     "net": 4451.0,
+     "eps": 16026.0
+    },
+    "2027": {
+     "revenue": null,
+     "op": 6158.0,
+     "net": 4639.0,
+     "eps": 16850.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "net",
+    "estimate": 4337.0,
+    "consensus": 4451.0,
+    "gap_pct": -2.6
+   }
+  },
+  {
+   "date": "2026-10-26",
+   "report_id": "hk_653285",
+   "title": "하나금융지주(086790) CET1비율 +18bp QoQ, 환원 여력은 유효",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 165000.0,
+   "tp_status": "유지",
+   "price": 116300.0,
+   "upside_pct": 41.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-05-29",
+   "prev_date": "2024-03-21",
+   "days": 434,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 82000.0,
+   "tp_to": 92000.0,
+   "tp_pct": 12.2,
+   "tp_speed30": 0.8,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-06-30",
+   "prev_date": "2025-05-29",
+   "days": 32,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 92000.0,
+   "tp_to": 110000.0,
+   "tp_pct": 19.6,
+   "tp_speed30": 18.4,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-11-07",
+   "prev_date": "2025-06-30",
+   "days": 130,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 110000.0,
+   "tp_to": 130000.0,
+   "tp_pct": 18.2,
+   "tp_speed30": 4.2,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-02-11",
+   "prev_date": "2025-11-07",
+   "days": 96,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 130000.0,
+   "tp_to": 157000.0,
+   "tp_pct": 20.8,
+   "tp_speed30": 6.5,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-07-07",
+   "prev_date": "2026-02-11",
+   "days": 146,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 157000.0,
+   "tp_to": 166000.0,
+   "tp_pct": 5.7,
+   "tp_speed30": 1.2,
+   "report_id": null,
+   "broker": "하나증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
   {
-   "date": "2026-10-07",
-   "mean": 167000,
+   "date": "2024-03-21",
+   "mean": 82000,
    "n": 1,
    "brokers": {
-    "SK증권": 167000.0
+    "하나증권": 82000.0
+   }
+  },
+  {
+   "date": "2025-05-29",
+   "mean": 92000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 92000.0
+   }
+  },
+  {
+   "date": "2025-06-30",
+   "mean": 110000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 110000.0
+   }
+  },
+  {
+   "date": "2025-11-07",
+   "mean": 130000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 130000.0
+   }
+  },
+  {
+   "date": "2026-02-11",
+   "mean": 157000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 157000.0
+   }
+  },
+  {
+   "date": "2026-07-07",
+   "mean": 166000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 166000.0
+   }
+  },
+  {
+   "date": "2026-10-07",
+   "mean": 166500,
+   "n": 2,
+   "brokers": {
+    "SK증권": 167000.0,
+    "하나증권": 166000.0
+   }
+  },
+  {
+   "date": "2026-10-25",
+   "mean": 166500,
+   "n": 2,
+   "brokers": {
+    "SK증권": 167000.0,
+    "하나증권": 166000.0
+   }
+  },
+  {
+   "date": "2026-10-26",
+   "mean": 166000,
+   "n": 3,
+   "brokers": {
+    "SK증권": 167000.0,
+    "하나증권": 166000.0,
+    "한화투자증권": 165000.0
    }
   }
  ],

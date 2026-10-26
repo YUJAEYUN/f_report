@@ -4,7 +4,8 @@
  "name": "한온시스템",
  "industry": "자동차·부품",
  "brokers": [
-  "LS증권"
+  "LS증권",
+  "유진투자증권"
  ],
  "timeline": [
   {
@@ -15,6 +16,15 @@
    "report_id": "hk_652834",
    "tp_status": "상향",
    "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-26",
+   "rating": "매수",
+   "target_price": 5250.0,
+   "source": "report",
+   "report_id": "hk_653264",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -34,6 +44,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-26",
+   "report_id": "hk_653264",
+   "title": "한온시스템(018880) 3Q26 Preview: 실적 개선과 신사업 가시화",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 5250.0,
+   "tp_status": "유지",
+   "price": 3680.0,
+   "upside_pct": 42.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -46,6 +72,15 @@
    "n": 1,
    "brokers": {
     "LS증권": 4800.0
+   }
+  },
+  {
+   "date": "2026-10-26",
+   "mean": 5025,
+   "n": 2,
+   "brokers": {
+    "LS증권": 4800.0,
+    "유진투자증권": 5250.0
    }
   }
  ],

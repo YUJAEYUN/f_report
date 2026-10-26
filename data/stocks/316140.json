@@ -5,7 +5,8 @@
  "industry": "은행",
  "brokers": [
   "SK증권",
-  "하나증권"
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -79,6 +80,24 @@
    "report_id": "hk_652780",
    "tp_status": null,
    "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-25",
+   "rating": "매수",
+   "target_price": 43000.0,
+   "source": "report",
+   "report_id": "hana_1289260",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-26",
+   "rating": "매수",
+   "target_price": 41500.0,
+   "source": "report",
+   "report_id": "hk_653284",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -95,6 +114,67 @@
    "tp_status": null,
    "price": 33400.0,
    "upside_pct": 28.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-25",
+   "report_id": "hana_1289260",
+   "title": "우리금융(316140.KS/매수) : 기대를 충족한 실적. 최선호주로 계속 유지",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 43000.0,
+   "tp_status": null,
+   "price": 30100.0,
+   "upside_pct": 42.9,
+   "estimates": {
+    "2026": {
+     "net": 3202.0,
+     "eps": 4376.0
+    },
+    "2027": {
+     "net": 3430.0,
+     "eps": 4727.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": null,
+     "op": 4338.0,
+     "net": 3324.0,
+     "eps": 4363.0
+    },
+    "2027": {
+     "revenue": null,
+     "op": 4740.0,
+     "net": 3563.0,
+     "eps": 4674.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "net",
+    "estimate": 3202.0,
+    "consensus": 3324.0,
+    "gap_pct": -3.7
+   }
+  },
+  {
+   "date": "2026-10-26",
+   "report_id": "hk_653284",
+   "title": "우리금융지주(316140) 대손비용 감소로 호실적 기록",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 41500.0,
+   "tp_status": "유지",
+   "price": 30100.0,
+   "upside_pct": 37.9,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -245,6 +325,25 @@
    "n": 1,
    "brokers": {
     "SK증권": 43000.0
+   }
+  },
+  {
+   "date": "2026-10-25",
+   "mean": 43000,
+   "n": 2,
+   "brokers": {
+    "SK증권": 43000.0,
+    "하나증권": 43000.0
+   }
+  },
+  {
+   "date": "2026-10-26",
+   "mean": 42500,
+   "n": 3,
+   "brokers": {
+    "SK증권": 43000.0,
+    "하나증권": 43000.0,
+    "한화투자증권": 41500.0
    }
   }
  ],

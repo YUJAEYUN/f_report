@@ -19,5 +19,41 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hk_653270",
-  "text_chars": 17322
+  "text_chars": 17322,
+  "summary": {
+    "one_liner": "AEP·X-energy가 인디애나에 960MW SMR 공동개발협약을 체결해, 초도호기 건설허가 전부터 NOAK 후속 사업이 구체화되며 파트너사 DL이앤씨의 중장기 성장 동력이 기대된다.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "10월 19일(현지시간) AEP와 X-energy가 인디애나주 폐쇄 석탄화력발전소 부지에 80MW급 Xe-100 12기, 총 960MW 규모 SMR 개발 JDA를 체결했다. Amazon과 X-energy의 2039년까지 미국 내 5GW 이상 신규 원전 개발 계획의 일환이며, 워싱턴주 Cascade 프로젝트(최대 960MW)에 이은 두 번째 사업이다.",
+      "초도호기 Dow Long Mott(320MW)는 2027년 1분기 건설허가 취득이 목표인데, 건설허가 이전에 Cascade와 AEP를 통해 최대 1.92GW 규모의 후속 사업이 이미 추진되고 있다.",
+      "Amazon은 X-energy 지분 22.9%의 주요 주주로, 단계별 개발자금을 지원하고 장기 PPA로 건설·운영비 회수 기반을 제공할 계획이다.",
+      "TerraPower Natrium, GE Vernova Hitachi BWRX-300 등 인허가에서 앞선 경쟁 기술이 있지만, 후속 프로젝트 규모·자금조달·장기 전력 수요 확보를 고려하면 X-energy의 NOAK 사업화 구조가 상대적으로 완성도가 높다고 판단한다.",
+      "파트너사 DL이앤씨는 초도호기 건설허가 이후 표준화 설계 및 EPC 발주가 가시화되면 후속 프로젝트 참여를 통한 중장기 성장 동력 확보가 기대된다."
+    ],
+    "risk_factors": [
+      "X-energy 초도호기(Dow Long Mott)의 건설허가가 2027년 1분기 목표대로 취득되지 못할 가능성 (목표 일정은 원문 기재, 지연 시나리오는 원문에 명시되지 않음)",
+      "TerraPower, GE Vernova Hitachi 등 인허가에서 앞선 경쟁 기술의 존재"
+    ]
+  },
+  "insight": {
+    "change": "미국 대형원전 투자가 신규 건설보다 기존 원전의 재가동·출력 증강 중심인 반면, SMR은 초도호기 인허가 단계부터 후속 신규 건설 프로젝트 개발이 확대되고 있다는 점이 이번 리포트가 강조한 변화다. X-energy는 초도호기 건설허가 취득 전에 이미 최대 1.92GW 규모의 후속 사업을 확보했다.",
+    "implication": "원문 논리상 SMR 사업성은 개별 초도호기의 인허가 속도뿐 아니라 후속 물량, 자금조달(Amazon의 개발자금·지분 참여), 장기 전력 수요 확보(PPA 가능성)의 조합으로 판단할 수 있다. 이 구조가 유지되면 초도호기 이후 표준화 설계·EPC 발주로 이어져 파트너 건설사의 참여 기회로 연결된다는 것이 원문의 해석이다.",
+    "watch_points": [
+      "X-energy 초도호기 Dow Long Mott의 2027년 1분기 건설허가 취득 여부",
+      "Amazon의 장기 PPA 체결 및 단계별 개발자금 집행 여부",
+      "건설허가 이후 후속 프로젝트의 표준화 설계·EPC 발주와 DL이앤씨의 참여 범위"
+    ]
+  },
+  "summarized_at": "2026-10-27T00:40:18+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "건설"
+  ],
+  "themes": [
+    "SMR·대형원전 수주"
+  ],
+  "tagged_at": "2026-10-27T00:40:18+09:00"
 }

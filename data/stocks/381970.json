@@ -1,0 +1,72 @@
+{
+ "id": "381970",
+ "code": "381970",
+ "name": "KG모빌리티플랫폼",
+ "industry": "자동차·부품",
+ "brokers": [
+  "유진투자증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-26",
+   "rating": "매수",
+   "target_price": 7800.0,
+   "source": "report",
+   "report_id": "hk_653268",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-26",
+   "report_id": "hk_653268",
+   "title": "KG모빌리티플랫폼(381970) 3Q26 Preview: 미래 청사진이 중요",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 7800.0,
+   "tp_status": "하향",
+   "price": 6330.0,
+   "upside_pct": 23.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 14000.0
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2026-10-26",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 14000.0,
+   "tp_to": 7800.0,
+   "tp_pct": -44.3,
+   "tp_speed30": null,
+   "report_id": "hk_653268",
+   "implied_prev": true,
+   "broker": "유진투자증권"
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-10-26",
+   "mean": 7800,
+   "n": 1,
+   "brokers": {
+    "유진투자증권": 7800.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": [
+  "2026-10-26:381970:tp_down:유진투자증권"
+ ]
+}

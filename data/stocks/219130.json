@@ -1,0 +1,46 @@
+{
+ "id": "219130",
+ "code": "219130",
+ "name": "타이거일렉",
+ "industry": "반도체",
+ "brokers": [
+  "메리츠증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-26",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_653281",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-26",
+   "report_id": "hk_653281",
+   "title": "타이거일렉(219130) 호랑이 앞에 차려진 진수성찬",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 87100.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}
