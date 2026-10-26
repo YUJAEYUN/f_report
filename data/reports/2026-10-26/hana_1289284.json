@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "1260",
+  "bbs_seq": "1289284",
+  "report_type": "individual",
+  "title": "[Global ETF] ETF 트렌드 & 포트폴리오: 금리보다 실적, 성장보다 현금",
+  "analyst": "박승진",
+  "published_date": "2026-10-26",
+  "published_time": "18:58:57",
+  "category": "글로벌 투자전략",
+  "breadcrumb": "해외주식 > 글로벌 투자전략",
+  "preview_text": "- 이번 주는 FOMC와 미국 빅테크, 한국 반도체 기업의 실적이 집중되는 구간. 추가 긴축 가능성과 AI 투자 수익성, 메모리 이익 지속성이 시장 방향을 결정할 핵심 변수\n\n- FOMC는 동결 자체보다 연말 추가 인상에 대한 메시지가 중요. 동결 기대가 높은 만큼 원론적인 매파 기조만으로 방향성이 형성되기는 어려우나, 직후 GDPPCE가 강하게 나오면 금리 부담 재부각 가능. 성장 개선과 물가 반등이 함께 예상돼 큰 폭의 금리 하락을 전제로 한 투자 확대에는 신중할 필요\n\n- Microsoft과 Alphabet(10/28), Amazon(10/29)은 클라우드 성장과 영업현금흐름 개선이 투자 부담을 상쇄하는지 확인. 설비투자 확대에도 잉여현금흐름 전망이 약해진다면 반도체 주문이 견조해도 주가 회복은 제한될 가능성. 투자 속도와 조달 여건을 조절할 능력이 있는 대형주 중심의 선별적 우위를 예상하며, 트레이딩 기조 속 비중 확대 근거 확보 필요\n\n- SK하이닉스(10/28)와 삼성전자(10/29)는 HBM 계약수익성, DRAMNAND 가격, 고객사 재고와 2027년 공급설비투자, 주주환원 계획에 주목. 장기계약과 절제된 증설은 이익 지속성을 지지하겠으나, 가격 상승 둔화와 공격적 증설이 겹치면 정점 우려 확대 가능. 미국 클라우드 투자 계획과 양사의 수요 전망 일치 여부도 체크 포인트\n\n- ETF는 VOO/QQQ와 QUAL/SPHQ/JQUA를 Core로 유지. 기술주는 IYW/XLK/VGT, 반도체는 SMH/SOXXFTXL 등 대형주 중심 구성을 우선하며 단계적 대응. 메모리 가격마진 개선 지속 시 DRAM/DISK와 국내 메모리 ETF, 설비투자의 수주 전환 확인 시 소부장 ETF까지 관심 확대. 비중 확대 기준은 향후 이익 추정치 상향 여부\n\n- 기술주 동일가중 ETF인 RSPT는 실적 개선이 소프트웨어장비 등으로 확산될 경우 활용할 선택지. VisaMastercard의 결제액과 거래량이 견조하다면 IPAY, GE VernovaCaterpillar의 전력설비투자 수요와 수주 전환이 확인된다면 VIS에 관심. POWR/GRID/PAVE와 투자 범위를 구분하며 활용\n\n- 기업용 AI소프트웨어 수익화에는 IGVCHAT/BAI, 자본시장 수요와 트레이딩 수익에는 KBWB도 관심 대상. 변동성 경계가 지속된다면 대형주퀄리티 중심 구성을 유지하고, DIVO/QDVO 등 액티브 커버드콜 ETF로 변동성 관리와 현금흐름 보완",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289284&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
+  "pdf_filename": "Global_ETF_261026.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=1260&bbsSeq=1289284",
+  "collected_at": "2026-10-26T15:30:22+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289284",
+  "text_chars": 24345
+}
