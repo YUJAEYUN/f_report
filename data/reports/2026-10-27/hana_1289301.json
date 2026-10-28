@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2206",
+  "bbs_seq": "1289301",
+  "report_type": "daily_series",
+  "title": "하나증권 글로벌 Weekly(26.10.28)",
+  "analyst": "글로벌투자분석실",
+  "published_date": "2026-10-27",
+  "published_time": "17:36:02",
+  "category": "Daily",
+  "breadcrumb": "Daily > Daily",
+  "preview_text": "[미국 증시 동향]\n- 미국 증시는 슈퍼마이크로 실적 전망 호조로 AI 수요를 확인하며 반등했으나, 투자비 부담 재부각에 상승세 반납\n- 메타의 호실적보다 AI 투자 확대에 따른 현금흐름 악화가 부각되며. 22일 나스닥, 필라델피아 반도체지수가 급락\n- 중동 긴장 고조로 국제유가가 급등하며 물가 우려 확대. 기술주 투자심리 약화 속 헬스케어가치주로 순환매 진행\n- 26일 앤트로픽 상장 기대에 기술주 반등. FOMC와 주요 빅테크 실적을 앞두고 AI 투자 수익성 확인에 관심 집중\n\n[중국 증시 동향]\n- 중국 및 홍콩 증시는 시장 전반의 거래량이 위축된 채 뚜렷한 주도주 없는 눈치보기 장세가 이어지고, 테마별 순환매가 지속. 이번주 BYD와 PetroChina, Sinopec, CNOOC 및 주요 국유은행 등 주요 기업 실적 발표. 남향자금 유입과 금리 정점 기대 속 고배당주 및 에너지 업종의 실적 전망이 관심사\n- 한편 이번주 중국에서는 중국 공산당 제20기 중앙위원회 제5차 전체회의(10월 26-29일)가 개최. 5중전회 이후 발표될 결정문과 공보에서 간부 선발과 감독, 반부패 체계 등의 방향성이 나올 것으로 예상\n\n[글로벌 투자유망종목]\n- 엔비디아(NVDA.US), 알파벳(GOOGL.US), 마이크론 테크놀로지(MU.US), AMD(AMD.US), 캐터필러(CAT.US), 크라우드 스트라이크(CRWD.US), 발레로 에너지(VLO.US), 블룸 에너지(BE.US), 비원제약(6160.HK), 커룬바이오텍(6990.HK)",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289301&attachFileSeq=1&bbsId=&dbType=&bbsCd=2206",
+  "pdf_filename": "GlobalWeekly_1028_FF.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2206&bbsSeq=1289301",
+  "collected_at": "2026-10-28T15:30:36+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289301",
+  "text_chars": 49235
+}

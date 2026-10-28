@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "1260",
+  "bbs_seq": "1289290",
+  "report_type": "individual",
+  "title": "ETF Catch-up KRICS 도입에 따른 KRX 주요 지수 방법론 개정 (2)",
+  "analyst": "장치영",
+  "published_date": "2026-10-27",
+  "published_time": "07:36:06",
+  "category": "글로벌 투자전략",
+  "breadcrumb": "해외주식 > 글로벌 투자전략",
+  "preview_text": "★ 산업분류 변경에 따른 섹터지수 구성 변화\n\n 10월 26일 KRICS 도입에 따른 상장기업 산업분류 결과 공개. 삼성SDI롯데에너지머티리얼즈는 정보기술에서 산업재로, LG전자는 정보기술에서 소비재로 이동\n\n KOSPI 200KRX 섹터지수도 산업분류 변경에 따른 구성종목 조정 예상. 섹터지수 방법론 개정안은 11월 20일부터 시행 예정\n\n★ ETF 리밸런싱 수요 가늠해보기\n\n 예시: 삼성SDI가 KOSPI 200 정보기술에서 산업재 섹터지수로 이동할 경우, TIGER 200 IT에서 약 1,500억 원의 매도 수요 발생 가능(10월 26일 기준 순자산 약 1.9조 원과 삼성SDI 편입비중 8%를 적용)\n\n 반면 신규 편입 대상인 TIGER 200 산업재의 순자산은 66억 원으로 매수 수요는 상대적으로 제한적. 삼성SDI 편출에 따른 지수 내 비중 재산정으로 기존 구성종목에 대한 추가 매수 수요도 발생 가능\n\n 실제 수급 영향은 구성종목 변경 여부와 적용 시점, 리밸런싱 시 편입비중 및 ETF 운용 방식 등에 따라서 구체화될 전망",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289290&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
+  "pdf_filename": "ETF_Catchup_20261027.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=1260&bbsSeq=1289290",
+  "collected_at": "2026-10-28T15:31:50+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289290",
+  "text_chars": 5156
+}
