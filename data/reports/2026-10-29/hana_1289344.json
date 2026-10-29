@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2220",
+  "bbs_seq": "1289344",
+  "report_type": "individual",
+  "title": "미래산업(Overweight) : 스마트글래스, 새로운 일상의 시작",
+  "analyst": "한유건",
+  "published_date": "2026-10-29",
+  "published_time": "16:47:28",
+  "category": "산업분석",
+  "breadcrumb": "산업/기업 > 산업분석",
+  "preview_text": "1. 본격적인 성장을 앞둔 AI 스마트글래스 시장\n- AI 웨어러블 시장은 25~31년 CAGR 20.7%로 성장해 2031년 391억 달러 전망\n- XR 기기 출하량은 2026년 약 620만 대를 저점으로 2030년 약 1,500만 대까지 회복 전망(26~30 CAGR 24.7%)\n- MR은 고가고기능(ASP $742$682), 스마트글래스는 경량저가(ASP $376$229)로 차별화\n- AI 스마트글래스 출하량은 2024년 약 200만 대에서 2030년 약 3,500만 대로 확대 전망\n- 북미서유럽이 핵심 수요처이며, 중국은 초기 수요가 본격적인 판매로 연결될지가 관건\n\n2. 밸류체인 및 국내외 주요 플레이어\n- 국내는 초소형 디스플레이와 구동 반도체 중심의 밸류체인\n- UTG(초박형 강화유리)는 광학 투과율, 곡면 성형, 경량화 강점으로 차세대 라인업 적용 가능성이 높음\n- 미국: Meta는 패션 브랜드 협업, Google은 GeminiAndroid XR, Apple은 공간 컴퓨팅, Snap은 독립형 AR 글래스에 주력\n- 중국: 알리바바샤오미화웨이는 자체 AI 생태계, XREAL레이네오는 광학 기술을 기반으로 경쟁\n- 경쟁의 핵심은 하드웨어를 넘어 AI 서비스UI콘텐츠를 잇는 생태계 확보로 이동\n\n3. 핵심 부품 및 기술 트렌드 동향\n- 부품 소형화와 저전력 설계가 핵심이며, 디스플레이 탑재형 AR 글래스는 부품 난도와 원가 부담이 높음\n- 디스플레이: 초기 제품은 LCoSMicro OLED 중심이고, 차세대는 고휘도 구현이 가능한 Micro LEDLEDoS가 주목받을 전망\n- LEDoS 상용화에는 CMOS 백플레인 설계와 초소형 LED 전사접합 기술이 중요\n- 광학: Meta Ray-Ban Display용 웨이브가이드 공급사 Lumus의 관련 주문이 약 8만 개에서 15만 개로 87.5% 상향\n- 반도체: Qualcomm은 DRAM 탑재량 축소와 1-bit AI 모델 최적화로 성능과 원가의 균형을 추진\n\n4. AI 스마트글래스 단계적 침투 확대 국면 진입\n- 스마트폰 대비 AI 글래스 출하 비율은 2025년 약 0.7%에서 2027년 약 1.6%로 상승 전망\n- 1H26 글로벌 출하량은 420만 대로 YoY +127%, 메타 점유율 81.3%\n- 1H26 중국 출하량은 52만 대로 YoY +306%, 알리바바INMO샤오미 등 다수 업체가 분산 경쟁\n- B2C: 디스플레이 미탑재 출하량은 2026년 약 1,360만 대에서 2030년 2,730만 대 전망(IDC)\n- B2B: 물류제조원격 정비 현장에 적용되어 생산성 개선과 교육 시간 단축 효과 확인\n\n5. 관련 종목\n- 국내: 도우인시스(484120), 선익시스템(171090), 사피엔반도체(452430), 라온텍(418420)\n- 해외: 코닝(GLW), 애플(AAPL), 아마존(AMZN), 메타(META), 샤오미(1810.HK), 소니(6758.JT), RayNeo(비상장), XREAL(비상장), Avegant(비상장)",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289344&attachFileSeq=1&bbsId=&dbType=&bbsCd=2220",
+  "pdf_filename": "261030_Smartglasses_F.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2220&bbsSeq=1289344",
+  "collected_at": "2026-10-29T15:37:51+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289344",
+  "text_chars": 38023
+}
