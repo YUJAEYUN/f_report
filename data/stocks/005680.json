@@ -1,0 +1,55 @@
+{
+ "id": "005680",
+ "code": "005680",
+ "name": "삼영전자",
+ "industry": "자동차·부품",
+ "brokers": [
+  "LS증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 520000.0,
+   "source": "report",
+   "report_id": "hk_653537",
+   "tp_status": "유지",
+   "broker": "LS증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653537",
+   "title": "삼영전자(005680) 4분기 물량 정상화에 주목",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 520000.0,
+   "tp_status": "유지",
+   "price": 292500.0,
+   "upside_pct": 77.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-10-30",
+   "mean": 520000,
+   "n": 1,
+   "brokers": {
+    "LS증권": 520000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

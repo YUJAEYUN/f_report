@@ -165,6 +165,15 @@
    "report_id": "hk_653092",
    "tp_status": "유지",
    "broker": "iM증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 43000.0,
+   "source": "report",
+   "report_id": "hk_653299",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -391,6 +400,22 @@
    "tp_status": "유지",
    "price": 26350.0,
    "upside_pct": 51.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "hk_653299",
+   "title": "대한항공(003490) 다시 계산해본 통합 시너지, MAX 1조원",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 43000.0,
+   "tp_status": "유지",
+   "price": 25100.0,
+   "upside_pct": 71.3,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -836,6 +861,19 @@
   },
   {
    "date": "2026-10-19",
+   "mean": 40667,
+   "n": 6,
+   "brokers": {
+    "LS증권": 40000.0,
+    "iM증권": 40000.0,
+    "상상인증권": 40000.0,
+    "유안타증권": 40000.0,
+    "하나증권": 41000.0,
+    "한화투자증권": 43000.0
+   }
+  },
+  {
+   "date": "2026-10-27",
    "mean": 40667,
    "n": 6,
    "brokers": {

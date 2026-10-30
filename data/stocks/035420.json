@@ -146,6 +146,24 @@
    "report_id": "hana_1289201",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 400000.0,
+   "source": "report",
+   "report_id": "hana_1289312",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 293000.0,
+   "source": "report",
+   "report_id": "hk_653352",
+   "tp_status": "유지",
+   "broker": "LS증권"
   }
  ],
  "notes": [],
@@ -336,6 +354,71 @@
     }
    },
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "hana_1289312",
+   "title": "NAVER (035420.KS/매수): 브룩필드 투자 확정, AI DC 사업 진짜 합니다",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 400000.0,
+   "tp_status": null,
+   "price": 174300.0,
+   "upside_pct": 129.5,
+   "estimates": {
+    "2026": {
+     "revenue": 13731.3,
+     "op": 2041.9,
+     "net": 1994.4,
+     "eps": 12807.0
+    },
+    "2027": {
+     "revenue": 16209.4,
+     "op": 2718.1,
+     "net": 2498.1,
+     "eps": 15678.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 13763.1,
+     "op": 2118.0,
+     "net": 1923.1,
+     "eps": 12284.0
+    },
+    "2027": {
+     "revenue": 15864.4,
+     "op": 2533.9,
+     "net": 2230.4,
+     "eps": 13814.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 2041.9,
+    "consensus": 2118.0,
+    "gap_pct": -3.6
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653352",
+   "title": "NAVER(035420) 가시화되는 신성장 동력",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 293000.0,
+   "tp_status": "유지",
+   "price": 174300.0,
+   "upside_pct": 68.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -418,7 +501,98 @@
    "broker": "하나증권"
   }
  ],
- "estimate_revisions": [],
+ "estimate_revisions": [
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-20",
+   "days": 7,
+   "year": "2026",
+   "metric": "net",
+   "from": 1997.9,
+   "to": 1994.4,
+   "pct": -0.2,
+   "speed30": -0.9,
+   "turn": null,
+   "report_id": "hana_1289312",
+   "prev_report_id": "hana_1289201",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-20",
+   "days": 7,
+   "year": "2026",
+   "metric": "eps",
+   "from": 12829.0,
+   "to": 12807.0,
+   "pct": -0.2,
+   "speed30": -0.9,
+   "turn": null,
+   "report_id": "hana_1289312",
+   "prev_report_id": "hana_1289201",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-20",
+   "days": 7,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 16587.3,
+   "to": 16209.4,
+   "pct": -2.3,
+   "speed30": -9.9,
+   "turn": null,
+   "report_id": "hana_1289312",
+   "prev_report_id": "hana_1289201",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-20",
+   "days": 7,
+   "year": "2027",
+   "metric": "op",
+   "from": 2640.0,
+   "to": 2718.1,
+   "pct": 3.0,
+   "speed30": 12.9,
+   "turn": null,
+   "report_id": "hana_1289312",
+   "prev_report_id": "hana_1289201",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-20",
+   "days": 7,
+   "year": "2027",
+   "metric": "net",
+   "from": 2615.0,
+   "to": 2498.1,
+   "pct": -4.5,
+   "speed30": -19.3,
+   "turn": null,
+   "report_id": "hana_1289312",
+   "prev_report_id": "hana_1289201",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-20",
+   "days": 7,
+   "year": "2027",
+   "metric": "eps",
+   "from": 16412.0,
+   "to": 15678.0,
+   "pct": -4.5,
+   "speed30": -19.3,
+   "turn": null,
+   "report_id": "hana_1289312",
+   "prev_report_id": "hana_1289201",
+   "broker": "하나증권"
+  }
+ ],
  "consensus_changes": [
   {
    "date": "2026-10-20",
@@ -478,6 +652,66 @@
    "turn": null,
    "report_id": "hana_1289201",
    "prev_report_id": "hana_1288939",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-20",
+   "days": 7,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 2026.0,
+   "to": 13763.1,
+   "pct": 579.3,
+   "speed30": 2482.7,
+   "turn": null,
+   "report_id": "hana_1289312",
+   "prev_report_id": "hana_1289201",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-20",
+   "days": 7,
+   "year": "2026",
+   "metric": "eps",
+   "from": 1918.7,
+   "to": 12284.0,
+   "pct": 540.2,
+   "speed30": 2315.1,
+   "turn": null,
+   "report_id": "hana_1289312",
+   "prev_report_id": "hana_1289201",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-20",
+   "days": 7,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 2027.0,
+   "to": 15864.4,
+   "pct": 682.7,
+   "speed30": 2925.9,
+   "turn": null,
+   "report_id": "hana_1289312",
+   "prev_report_id": "hana_1289201",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-20",
+   "days": 7,
+   "year": "2027",
+   "metric": "eps",
+   "from": 2219.9,
+   "to": 13814.0,
+   "pct": 522.3,
+   "speed30": 2238.4,
+   "turn": null,
+   "report_id": "hana_1289312",
+   "prev_report_id": "hana_1289201",
    "broker": "하나증권"
   }
  ],
@@ -618,11 +852,38 @@
     "하나증권": 400000.0,
     "한화투자증권": 300000.0
    }
+  },
+  {
+   "date": "2026-10-27",
+   "mean": 320500,
+   "n": 6,
+   "brokers": {
+    "LS증권": 293000.0,
+    "메리츠증권": 330000.0,
+    "미래에셋증권": 280000.0,
+    "유진투자증권": 320000.0,
+    "하나증권": 400000.0,
+    "한화투자증권": 300000.0
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "mean": 320500,
+   "n": 6,
+   "brokers": {
+    "LS증권": 293000.0,
+    "메리츠증권": 330000.0,
+    "미래에셋증권": 280000.0,
+    "유진투자증권": 320000.0,
+    "하나증권": 400000.0,
+    "한화투자증권": 300000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
  "events": [
-  "2026-10-20:035420:cons_down:하나증권2026eps"
+  "2026-10-20:035420:cons_down:하나증권2026eps",
+  "2026-10-27:035420:cons_up:하나증권2026eps"
  ]
 }

@@ -15,6 +15,15 @@
    "report_id": "hk_652621",
    "tp_status": "유지",
    "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": 1850000.0,
+   "source": "report",
+   "report_id": "hk_653444",
+   "tp_status": "유지",
+   "broker": "SK증권"
   }
  ],
  "notes": [],
@@ -34,6 +43,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-29",
+   "report_id": "hk_653444",
+   "title": "SK스퀘어(402340) SK하이닉스 최대주주",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1850000.0,
+   "tp_status": "유지",
+   "price": 828000.0,
+   "upside_pct": 123.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -42,6 +67,14 @@
  "tp_consensus": [
   {
    "date": "2026-09-30",
+   "mean": 1850000,
+   "n": 1,
+   "brokers": {
+    "SK증권": 1850000.0
+   }
+  },
+  {
+   "date": "2026-10-29",
    "mean": 1850000,
    "n": 1,
    "brokers": {

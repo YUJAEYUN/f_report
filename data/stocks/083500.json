@@ -1,0 +1,55 @@
+{
+ "id": "083500",
+ "code": "083500",
+ "name": "에프엔에스테크",
+ "industry": null,
+ "brokers": [
+  "SK증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": 23500.0,
+   "source": "report",
+   "report_id": "hk_653430",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-29",
+   "report_id": "hk_653430",
+   "title": "에프엔에스테크(083500) 이익 체력 강화 전망",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 23500.0,
+   "tp_status": "하향",
+   "price": 13880.0,
+   "upside_pct": 69.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-10-29",
+   "mean": 23500,
+   "n": 1,
+   "brokers": {
+    "SK증권": 23500.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

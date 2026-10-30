@@ -4,6 +4,7 @@
  "name": "LG생활건강",
  "industry": "화장품",
  "brokers": [
+  "상상인증권",
   "하나증권"
  ],
  "timeline": [
@@ -78,6 +79,15 @@
    "report_id": "hana_1289107",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 350000.0,
+   "source": "report",
+   "report_id": "hk_653305",
+   "tp_status": null,
+   "broker": "상상인증권"
   }
  ],
  "notes": [
@@ -87,7 +97,24 @@
    "broker": "하나증권"
   }
  ],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-10-27",
+   "report_id": "hk_653305",
+   "title": "LG생활건강(051900) 숨 고르기",
+   "primary": true,
+   "broker": "상상인증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 350000.0,
+   "tp_status": null,
+   "price": 257500.0,
+   "upside_pct": 35.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
  "rating_changes": [
   {
    "date": "2024-10-30",
@@ -238,6 +265,15 @@
    "mean": 320000,
    "n": 1,
    "brokers": {
+    "하나증권": 320000.0
+   }
+  },
+  {
+   "date": "2026-10-27",
+   "mean": 335000,
+   "n": 2,
+   "brokers": {
+    "상상인증권": 350000.0,
     "하나증권": 320000.0
    }
   }

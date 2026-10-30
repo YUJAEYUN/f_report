@@ -4,9 +4,19 @@
  "name": "사피엔반도체",
  "industry": "디스플레이",
  "brokers": [
-  "메리츠증권"
+  "메리츠증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2024-06-24",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-09-21",
    "rating": "NR",

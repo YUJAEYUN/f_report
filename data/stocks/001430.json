@@ -4,8 +4,10 @@
  "name": "세아베스틸지주",
  "industry": "철강·금속",
  "brokers": [
+  "iM증권",
   "대신증권",
   "상상인증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -71,6 +73,42 @@
    "report_id": "hk_652946",
    "tp_status": "유지",
    "broker": "대신증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "report",
+   "report_id": "hana_1289355",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 45000.0,
+   "source": "report",
+   "report_id": "hk_653527",
+   "tp_status": null,
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 56000.0,
+   "source": "report",
+   "report_id": "hk_653465",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "report",
+   "report_id": "hana_1289368",
+   "tp_status": "하향",
+   "broker": "하나증권"
   }
  ],
  "notes": [
@@ -161,6 +199,136 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-29",
+   "report_id": "hana_1289355",
+   "title": "세아베스틸지주 (001430.KS/매수): 3분기는 부진했지만 장기 성장 기대감 유효!",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 50000.0,
+   "tp_status": "하향",
+   "price": 30100.0,
+   "upside_pct": 66.1,
+   "estimates": {
+    "2026": {
+     "revenue": 4206.2,
+     "op": 133.2,
+     "net": 59.1,
+     "eps": 1648.0
+    },
+    "2027": {
+     "revenue": 4592.6,
+     "op": 182.2,
+     "net": 96.3,
+     "eps": 2685.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 4095.7,
+     "op": 148.8,
+     "net": 88.2,
+     "eps": 2439.0
+    },
+    "2027": {
+     "revenue": 4433.9,
+     "op": 203.8,
+     "net": 124.6,
+     "eps": 3451.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 133.2,
+    "consensus": 148.8,
+    "gap_pct": -10.5
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653527",
+   "title": "세아베스틸지주(001430) 모멘텀 둔화에도 업종 내 최선호주 유지",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 45000.0,
+   "tp_status": null,
+   "price": 30250.0,
+   "upside_pct": 48.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653465",
+   "title": "세아베스틸지주(001430) 2보 전진을 위한 1보 후퇴",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 56000.0,
+   "tp_status": "유지",
+   "price": 30250.0,
+   "upside_pct": 85.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hana_1289368",
+   "title": "하루에 하나 1030",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 50000.0,
+   "tp_status": "하향",
+   "price": 30100.0,
+   "upside_pct": 66.1,
+   "estimates": {
+    "2026": {
+     "revenue": 4206.2,
+     "op": 133.2,
+     "net": 59.1,
+     "eps": 1648.0
+    },
+    "2027": {
+     "revenue": 4592.6,
+     "op": 182.2,
+     "net": 96.3,
+     "eps": 2685.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 4095.7,
+     "op": 148.8,
+     "net": 88.2,
+     "eps": 2439.0
+    },
+    "2027": {
+     "revenue": 4433.9,
+     "op": 203.8,
+     "net": 124.6,
+     "eps": 3451.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 133.2,
+    "consensus": 148.8,
+    "gap_pct": -10.5
+   }
   }
  ],
  "rating_changes": [
@@ -203,10 +371,265 @@
    "tp_speed30": -5.4,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 62000.0,
+   "tp_to": 50000.0,
+   "tp_pct": -19.4,
+   "tp_speed30": -36.4,
+   "report_id": "hana_1289355",
+   "broker": "하나증권"
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
+ "estimate_revisions": [
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 4116.0,
+   "to": 4206.2,
+   "pct": 2.2,
+   "speed30": 4.1,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2026",
+   "metric": "op",
+   "from": 140.6,
+   "to": 133.2,
+   "pct": -5.3,
+   "speed30": -9.9,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2026",
+   "metric": "net",
+   "from": 81.3,
+   "to": 59.1,
+   "pct": -27.3,
+   "speed30": -51.2,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2026",
+   "metric": "eps",
+   "from": 2266.0,
+   "to": 1648.0,
+   "pct": -27.3,
+   "speed30": -51.2,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 4496.9,
+   "to": 4592.6,
+   "pct": 2.1,
+   "speed30": 3.9,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2027",
+   "metric": "op",
+   "from": 223.3,
+   "to": 182.2,
+   "pct": -18.4,
+   "speed30": -34.5,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2027",
+   "metric": "net",
+   "from": 143.8,
+   "to": 96.3,
+   "pct": -33.0,
+   "speed30": -61.9,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2027",
+   "metric": "eps",
+   "from": 4009.0,
+   "to": 2685.0,
+   "pct": -33.0,
+   "speed30": -61.9,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  }
+ ],
+ "consensus_changes": [
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 4119.4,
+   "to": 4095.7,
+   "pct": -0.6,
+   "speed30": -1.1,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2026",
+   "metric": "op",
+   "from": 167.8,
+   "to": 148.8,
+   "pct": -11.3,
+   "speed30": -21.2,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2026",
+   "metric": "net",
+   "from": 103.3,
+   "to": 88.2,
+   "pct": -14.6,
+   "speed30": -27.4,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2026",
+   "metric": "eps",
+   "from": 2860.0,
+   "to": 2439.0,
+   "pct": -14.7,
+   "speed30": -27.6,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 4457.6,
+   "to": 4433.9,
+   "pct": -0.5,
+   "speed30": -0.9,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2027",
+   "metric": "op",
+   "from": 229.8,
+   "to": 203.8,
+   "pct": -11.3,
+   "speed30": -21.2,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2027",
+   "metric": "net",
+   "from": 145.4,
+   "to": 124.6,
+   "pct": -14.3,
+   "speed30": -26.8,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-13",
+   "days": 16,
+   "year": "2027",
+   "metric": "eps",
+   "from": 4029.0,
+   "to": 3451.0,
+   "pct": -14.3,
+   "speed30": -26.8,
+   "turn": null,
+   "report_id": "hana_1289355",
+   "prev_report_id": "hana_1289102",
+   "broker": "하나증권"
+  }
+ ],
  "tp_consensus": [
   {
    "date": "2024-02-07",
@@ -258,9 +681,50 @@
     "상상인증권": 62000.0,
     "하나증권": 62000.0
    }
+  },
+  {
+   "date": "2026-10-29",
+   "mean": 57900,
+   "n": 3,
+   "brokers": {
+    "대신증권": 61700.0,
+    "상상인증권": 62000.0,
+    "하나증권": 50000.0
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "mean": 54940,
+   "n": 5,
+   "brokers": {
+    "iM증권": 45000.0,
+    "대신증권": 61700.0,
+    "상상인증권": 62000.0,
+    "유진투자증권": 56000.0,
+    "하나증권": 50000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-10-29",
+   "from": 61900,
+   "to": 57900,
+   "pct": -6.5,
+   "n": 3,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289355",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-10-29:001430:tp_down:하나증권",
+  "2026-10-29:001430:tp_accel:하나증권",
+  "2026-10-29:001430:est_down:하나증권2027eps",
+  "2026-10-29:001430:cons_down:하나증권2026eps",
+  "2026-10-29:001430:tp_cons_down:"
+ ]
 }

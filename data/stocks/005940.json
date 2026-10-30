@@ -4,6 +4,9 @@
  "name": "NH투자증권",
  "industry": "증권",
  "brokers": [
+  "LS증권",
+  "SK증권",
+  "iM증권",
   "하나증권"
  ],
  "timeline": [
@@ -87,6 +90,33 @@
    "report_id": "hana_1289287",
    "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 32000.0,
+   "source": "report",
+   "report_id": "hk_653333",
+   "tp_status": "유지",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 32000.0,
+   "source": "report",
+   "report_id": "hk_653318",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 29000.0,
+   "source": "report",
+   "report_id": "hk_653312",
+   "tp_status": "하향",
+   "broker": "iM증권"
   },
   {
    "date": "2026-10-27",
@@ -199,6 +229,54 @@
     "consensus": 2242.0,
     "gap_pct": -1.4
    }
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "hk_653333",
+   "title": "NH투자증권(005940) 실적 선방으로 배당매력 고조",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 32000.0,
+   "tp_status": "유지",
+   "price": 22700.0,
+   "upside_pct": 41.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "hk_653318",
+   "title": "NH투자증권(005940) 3Q26 Review: 비우호적인 업황에도 편안하다",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 32000.0,
+   "tp_status": "하향",
+   "price": 22550.0,
+   "upside_pct": 41.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "hk_653312",
+   "title": "NH투자증권(005940) 거래대금 하락에도 우려보다 선방한 운용실적",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 29000.0,
+   "tp_status": "하향",
+   "price": 22550.0,
+   "upside_pct": 28.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -584,9 +662,12 @@
   },
   {
    "date": "2026-10-27",
-   "mean": 36000,
-   "n": 1,
+   "mean": 32250,
+   "n": 4,
    "brokers": {
+    "LS증권": 32000.0,
+    "SK증권": 32000.0,
+    "iM증권": 29000.0,
     "하나증권": 36000.0
    }
   }

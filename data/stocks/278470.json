@@ -98,6 +98,15 @@
    "report_id": "hana_1289107",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 410000.0,
+   "source": "report",
+   "report_id": "hana_1289378",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
@@ -139,6 +148,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hana_1289378",
+   "title": "에이피알(278470.KS/매수): 3Q26 Re: 환율 쇼크에도 자신감이 넘치는 이유",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 410000.0,
+   "tp_status": null,
+   "price": 261000.0,
+   "upside_pct": 57.1,
+   "estimates": {
+    "2026": {
+     "revenue": 3173.5,
+     "op": 750.5,
+     "net": 582.4,
+     "eps": 15557.0
+    },
+    "2027": {
+     "revenue": 4281.4,
+     "op": 1040.4,
+     "net": 789.0,
+     "eps": 21074.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3088.2,
+     "op": 742.3,
+     "net": 570.8,
+     "eps": 15212.0
+    },
+    "2027": {
+     "revenue": 4270.6,
+     "op": 1047.1,
+     "net": 806.1,
+     "eps": 21457.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 750.5,
+    "consensus": 742.3,
+    "gap_pct": 1.1
+   }
   }
  ],
  "rating_changes": [
@@ -298,6 +356,16 @@
   },
   {
    "date": "2026-10-14",
+   "mean": 483333,
+   "n": 3,
+   "brokers": {
+    "SK증권": 480000.0,
+    "상상인증권": 560000.0,
+    "하나증권": 410000.0
+   }
+  },
+  {
+   "date": "2026-10-30",
    "mean": 483333,
    "n": 3,
    "brokers": {

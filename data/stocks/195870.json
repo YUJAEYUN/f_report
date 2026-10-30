@@ -5,6 +5,7 @@
  "industry": "IT하드웨어·전자부품",
  "brokers": [
   "메리츠증권",
+  "미래에셋증권",
   "유안타증권"
  ],
  "timeline": [
@@ -25,6 +26,24 @@
    "report_id": "hk_652843",
    "tp_status": "상향",
    "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 70000.0,
+   "source": "report",
+   "report_id": "hk_653491",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343803",
+   "tp_status": null,
+   "broker": "미래에셋증권"
   }
  ],
  "notes": [],
@@ -60,6 +79,38 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 75000.0
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653491",
+   "title": "해성디에스(195870) 견조한 성장과 저평가 매력의 조합",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 70000.0,
+   "tp_status": null,
+   "price": 51300.0,
+   "upside_pct": 36.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "mirae_2343803",
+   "title": "해성디에스 (195870/매수): 이제는 기판도 효자",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -76,6 +127,19 @@
    "report_id": "hk_652843",
    "implied_prev": true,
    "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-30",
+   "prev_date": "2026-09-21",
+   "days": 39,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 77000.0,
+   "tp_to": 70000.0,
+   "tp_pct": -9.1,
+   "tp_speed30": -7.0,
+   "report_id": "hk_653491",
+   "broker": "메리츠증권"
   }
  ],
  "estimate_revisions": [],
@@ -97,9 +161,31 @@
     "메리츠증권": 77000.0,
     "유안타증권": 80000.0
    }
+  },
+  {
+   "date": "2026-10-30",
+   "mean": 75000,
+   "n": 2,
+   "brokers": {
+    "메리츠증권": 70000.0,
+    "유안타증권": 80000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-10-30",
+   "from": 78500,
+   "to": 75000,
+   "pct": -4.5,
+   "n": 2,
+   "brokers": [
+    "메리츠증권"
+   ],
+   "report_id": "hk_653491",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
  "events": []
 }

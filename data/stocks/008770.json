@@ -2,9 +2,11 @@
  "id": "008770",
  "code": "008770",
  "name": "호텔신라",
- "industry": "화장품",
+ "industry": "유통·소비재",
  "brokers": [
-  "하나증권"
+  "미래에셋증권",
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -78,6 +80,33 @@
    "report_id": "hana_1289154",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 45000.0,
+   "source": "report",
+   "report_id": "hana_1289323",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": 51000.0,
+   "source": "report",
+   "report_id": "hk_653411",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 55000.0,
+   "source": "report",
+   "report_id": "mirae_2343833",
+   "tp_status": null,
+   "broker": "미래에셋증권"
   }
  ],
  "notes": [
@@ -87,7 +116,89 @@
    "broker": "하나증권"
   }
  ],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-10-28",
+   "report_id": "hana_1289323",
+   "title": "호텔신라(008770.KS/매수): 3Q26Re: ADR 상승 여력은 충분",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 45000.0,
+   "tp_status": null,
+   "price": 36500.0,
+   "upside_pct": 23.3,
+   "estimates": {
+    "2026": {
+     "revenue": 3934.7,
+     "op": 178.9,
+     "net": 78.3,
+     "eps": 1958.0
+    },
+    "2027": {
+     "revenue": 4069.1,
+     "op": 209.0,
+     "net": 105.8,
+     "eps": 2645.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3990.8,
+     "op": 195.0,
+     "net": 108.7,
+     "eps": 2734.0
+    },
+    "2027": {
+     "revenue": 4135.0,
+     "op": 240.9,
+     "net": 156.0,
+     "eps": 3919.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 178.9,
+    "consensus": 195.0,
+    "gap_pct": -8.3
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "report_id": "hk_653411",
+   "title": "호텔신라(008770) 3Q26 Review : 면세점 외형 성장이 필요한 시점",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 51000.0,
+   "tp_status": "유지",
+   "price": 35500.0,
+   "upside_pct": 43.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "mirae_2343833",
+   "title": "[유통] 호텔신라 (008770/매수/신규): DF1 철수가 곧 증익, 다음은 호텔",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 55000.0,
+   "tp_status": null,
+   "price": 34850.0,
+   "upside_pct": 57.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
  "rating_changes": [
   {
    "date": "2024-11-04",
@@ -247,6 +358,33 @@
    "n": 1,
    "brokers": {
     "하나증권": 45000.0
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "mean": 45000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 45000.0
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "mean": 48000,
+   "n": 2,
+   "brokers": {
+    "하나증권": 45000.0,
+    "한화투자증권": 51000.0
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "mean": 50333,
+   "n": 3,
+   "brokers": {
+    "미래에셋증권": 55000.0,
+    "하나증권": 45000.0,
+    "한화투자증권": 51000.0
    }
   }
  ],

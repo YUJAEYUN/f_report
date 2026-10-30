@@ -61,6 +61,15 @@
    "report_id": "hk_653263",
    "tp_status": "하향",
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 8400.0,
+   "source": "table",
+   "report_id": "hana_1289313",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -148,6 +157,19 @@
    "report_id": "hk_653263",
    "implied_prev": true,
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-10-28",
+   "prev_date": "2026-02-05",
+   "days": 265,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 10500.0,
+   "tp_to": 8400.0,
+   "tp_pct": -20.0,
+   "tp_speed30": -2.3,
+   "report_id": "hana_1289313",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
@@ -200,11 +222,21 @@
    "brokers": {
     "유진투자증권": 8500.0
    }
+  },
+  {
+   "date": "2026-10-28",
+   "mean": 8450,
+   "n": 2,
+   "brokers": {
+    "유진투자증권": 8500.0,
+    "하나증권": 8400.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
  "events": [
-  "2026-10-26:002350:tp_down:유진투자증권"
+  "2026-10-26:002350:tp_down:유진투자증권",
+  "2026-10-28:002350:tp_down:하나증권"
  ]
 }

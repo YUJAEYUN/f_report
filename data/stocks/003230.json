@@ -6,7 +6,8 @@
  "brokers": [
   "LS증권",
   "유안타증권",
-  "하나증권"
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -71,6 +72,15 @@
    "report_id": "hk_653233",
    "tp_status": "유지",
    "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 1800000.0,
+   "source": "report",
+   "report_id": "hk_653302",
+   "tp_status": null,
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -103,6 +113,22 @@
    "tp_status": "유지",
    "price": 1226000.0,
    "upside_pct": 46.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "hk_653302",
+   "title": "삼양식품(003230) 주가 급락 코멘트",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1800000.0,
+   "tp_status": null,
+   "price": 1116000.0,
+   "upside_pct": 61.3,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -220,6 +246,16 @@
    "brokers": {
     "LS증권": 1800000.0,
     "유안타증권": 2000000.0
+   }
+  },
+  {
+   "date": "2026-10-27",
+   "mean": 1866667,
+   "n": 3,
+   "brokers": {
+    "LS증권": 1800000.0,
+    "유안타증권": 2000000.0,
+    "한화투자증권": 1800000.0
    }
   }
  ],

@@ -4,6 +4,8 @@
  "name": "HD현대일렉트릭",
  "industry": "기계·전력기기",
  "brokers": [
+  "IBK투자증권",
+  "LS증권",
   "SK증권",
   "대신증권",
   "미래에셋증권",
@@ -128,6 +130,78 @@
    "report_id": "hk_653081",
    "tp_status": "하향",
    "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343681",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 900000.0,
+   "source": "report",
+   "report_id": "hana_1289306",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 850000.0,
+   "source": "report",
+   "report_id": "hk_653359",
+   "tp_status": "하향",
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 750000.0,
+   "source": "report",
+   "report_id": "hk_653351",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 720000.0,
+   "source": "report",
+   "report_id": "hk_653364",
+   "tp_status": "하향",
+   "broker": "대신증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 940000.0,
+   "source": "report",
+   "report_id": "hk_653380",
+   "tp_status": "하향",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 900000.0,
+   "source": "table",
+   "report_id": "hana_1289306",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 800000.0,
+   "source": "report",
+   "report_id": "hk_653392",
+   "tp_status": "하향",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -260,6 +334,151 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "mirae_2343681",
+   "title": "HD현대일렉트릭 (267260/매수): 3Q26 Review: 데이터센터를 위한 증설",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "hana_1289306",
+   "title": "HD현대일렉트릭(267260.KS/매수): 매출 Mix 변화로 인한 마진 약화",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 900000.0,
+   "tp_status": "하향",
+   "price": 450000.0,
+   "upside_pct": 100.0,
+   "estimates": {
+    "2026": {
+     "revenue": 4615.9,
+     "op": 1171.9,
+     "net": 859.4,
+     "eps": 23840.0
+    },
+    "2027": {
+     "revenue": 5255.5,
+     "op": 1400.0,
+     "net": 1029.6,
+     "eps": 28563.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 4632.0,
+     "op": 1202.7,
+     "net": 922.1,
+     "eps": 25623.0
+    },
+    "2027": {
+     "revenue": 5448.6,
+     "op": 1515.8,
+     "net": 1164.0,
+     "eps": 32317.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1171.9,
+    "consensus": 1202.7,
+    "gap_pct": -2.6
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653359",
+   "title": "HD현대일렉트릭(267260) 증설 기반 성장성은 유효",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 850000.0,
+   "tp_status": "하향",
+   "price": 450000.0,
+   "upside_pct": 88.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 1200000.0
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653351",
+   "title": "HD현대일렉트릭(267260) 실적/수주/증설 등 여러 요인 감안해도 밸류 할인 과도",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 750000.0,
+   "tp_status": "하향",
+   "price": 450000.0,
+   "upside_pct": 66.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653364",
+   "title": "HD현대일렉트릭(267260) 지나간 실적보다, 긍정적 사업 전략 구체화에 주목",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 720000.0,
+   "tp_status": "하향",
+   "price": 450000.0,
+   "upside_pct": 60.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653380",
+   "title": "HD현대일렉트릭(267260) 빅테크 수요가 이끄는 추가 증설",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 940000.0,
+   "tp_status": "하향",
+   "price": 450000.0,
+   "upside_pct": 108.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 1165000.0
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653392",
+   "title": "HD현대일렉트릭(267260) 3Q26 Review: 커지는 데이터센터의 존재감",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 800000.0,
+   "tp_status": "하향",
+   "price": 450000.0,
+   "upside_pct": 77.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -354,10 +573,318 @@
    "report_id": "mirae_2343311",
    "implied_prev": true,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-07",
+   "days": 20,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1150000.0,
+   "tp_to": 900000.0,
+   "tp_pct": -21.7,
+   "tp_speed30": -32.5,
+   "report_id": "hana_1289306",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-28",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1200000.0,
+   "tp_to": 850000.0,
+   "tp_pct": -29.2,
+   "tp_speed30": null,
+   "report_id": "hk_653359",
+   "implied_prev": true,
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-10-28",
+   "prev_date": "2026-10-07",
+   "days": 21,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1020000.0,
+   "tp_to": 720000.0,
+   "tp_pct": -29.4,
+   "tp_speed30": -42.0,
+   "report_id": "hk_653364",
+   "broker": "대신증권"
+  },
+  {
+   "date": "2026-10-28",
+   "prev_date": "2026-10-07",
+   "days": 21,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1165000.0,
+   "tp_to": 940000.0,
+   "tp_pct": -19.3,
+   "tp_speed30": -27.6,
+   "report_id": "hk_653380",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-28",
+   "prev_date": "2026-10-12",
+   "days": 16,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1000000.0,
+   "tp_to": 800000.0,
+   "tp_pct": -20.0,
+   "tp_speed30": -37.5,
+   "report_id": "hk_653392",
+   "broker": "한화투자증권"
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
+ "estimate_revisions": [
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 4443.3,
+   "to": 4615.9,
+   "pct": 3.9,
+   "speed30": 5.6,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2026",
+   "metric": "op",
+   "from": 1157.4,
+   "to": 1171.9,
+   "pct": 1.3,
+   "speed30": 1.9,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2026",
+   "metric": "net",
+   "from": 877.4,
+   "to": 859.4,
+   "pct": -2.1,
+   "speed30": -3.0,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2026",
+   "metric": "eps",
+   "from": 24341.0,
+   "to": 23840.0,
+   "pct": -2.1,
+   "speed30": -3.0,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 4846.5,
+   "to": 5255.5,
+   "pct": 8.4,
+   "speed30": 12.0,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2027",
+   "metric": "op",
+   "from": 1356.4,
+   "to": 1400.0,
+   "pct": 3.2,
+   "speed30": 4.6,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2027",
+   "metric": "net",
+   "from": 1011.1,
+   "to": 1029.6,
+   "pct": 1.8,
+   "speed30": 2.6,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2027",
+   "metric": "eps",
+   "from": 28048.0,
+   "to": 28563.0,
+   "pct": 1.8,
+   "speed30": 2.6,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  }
+ ],
+ "consensus_changes": [
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 4691.5,
+   "to": 4632.0,
+   "pct": -1.3,
+   "speed30": -1.9,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2026",
+   "metric": "op",
+   "from": 1230.3,
+   "to": 1202.7,
+   "pct": -2.2,
+   "speed30": -3.1,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2026",
+   "metric": "net",
+   "from": 946.5,
+   "to": 922.1,
+   "pct": -2.6,
+   "speed30": -3.7,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2026",
+   "metric": "eps",
+   "from": 26284.0,
+   "to": 25623.0,
+   "pct": -2.5,
+   "speed30": -3.6,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 5542.3,
+   "to": 5448.6,
+   "pct": -1.7,
+   "speed30": -2.4,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2027",
+   "metric": "op",
+   "from": 1553.1,
+   "to": 1515.8,
+   "pct": -2.4,
+   "speed30": -3.4,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2027",
+   "metric": "net",
+   "from": 1192.7,
+   "to": 1164.0,
+   "pct": -2.4,
+   "speed30": -3.4,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-06",
+   "days": 21,
+   "year": "2027",
+   "metric": "eps",
+   "from": 33114.0,
+   "to": 32317.0,
+   "pct": -2.4,
+   "speed30": -3.4,
+   "turn": null,
+   "report_id": "hana_1289306",
+   "prev_report_id": "hana_1289001",
+   "broker": "하나증권"
+  }
+ ],
  "tp_consensus": [
   {
    "date": "2024-07-24",
@@ -460,11 +987,87 @@
     "하나증권": 1150000.0,
     "한화투자증권": 1000000.0
    }
+  },
+  {
+   "date": "2026-10-27",
+   "mean": 947000,
+   "n": 5,
+   "brokers": {
+    "SK증권": 650000.0,
+    "대신증권": 1020000.0,
+    "유안타증권": 1165000.0,
+    "하나증권": 900000.0,
+    "한화투자증권": 1000000.0
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "mean": 801429,
+   "n": 7,
+   "brokers": {
+    "IBK투자증권": 850000.0,
+    "LS증권": 750000.0,
+    "SK증권": 650000.0,
+    "대신증권": 720000.0,
+    "유안타증권": 940000.0,
+    "하나증권": 900000.0,
+    "한화투자증권": 800000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
- "broker_waves": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-10-27",
+   "from": 1014167,
+   "to": 972500,
+   "pct": -4.1,
+   "n": 6,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289306",
+   "cum30": null
+  },
+  {
+   "date": "2026-10-28",
+   "from": 947000,
+   "to": 802000,
+   "pct": -15.3,
+   "n": 5,
+   "brokers": [
+    "대신증권",
+    "유안타증권",
+    "한화투자증권"
+   ],
+   "report_id": "hk_653364",
+   "cum30": -19.4
+  }
+ ],
+ "broker_waves": [
+  {
+   "date": "2026-10-28",
+   "direction": -1,
+   "count": 6,
+   "brokers": [
+    "IBK투자증권",
+    "대신증권",
+    "미래에셋증권",
+    "유안타증권",
+    "하나증권",
+    "한화투자증권"
+   ],
+   "report_id": "hk_653359"
+  }
+ ],
  "events": [
-  "2026-10-06:267260:tp_down:하나증권"
+  "2026-10-06:267260:tp_down:하나증권",
+  "2026-10-27:267260:tp_down:하나증권",
+  "2026-10-27:267260:tp_accel:하나증권",
+  "2026-10-28:267260:tp_down:IBK투자증권",
+  "2026-10-28:267260:tp_down:대신증권",
+  "2026-10-28:267260:tp_down:유안타증권",
+  "2026-10-28:267260:tp_down:한화투자증권",
+  "2026-10-28:267260:tp_cons_down:",
+  "2026-10-28:267260:wave_down:"
  ]
 }

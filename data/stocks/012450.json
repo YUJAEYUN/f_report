@@ -1,10 +1,16 @@
 {
  "id": "012450",
  "code": "012450",
- "name": "[방산/첨단항공우주] 한화에어로스페이스",
+ "name": "한화에어로스페이스",
  "industry": "우주항공·방산",
  "brokers": [
-  "미래에셋증권"
+  "SK증권",
+  "iM증권",
+  "대신증권",
+  "미래에셋증권",
+  "유안타증권",
+  "유진투자증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -15,6 +21,69 @@
    "report_id": "mirae_2343050",
    "tp_status": null,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 1300000.0,
+   "source": "report",
+   "report_id": "hk_653487",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 1200000.0,
+   "source": "report",
+   "report_id": "hk_653531",
+   "tp_status": "하향",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 1640000.0,
+   "source": "report",
+   "report_id": "hk_653477",
+   "tp_status": "유지",
+   "broker": "대신증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343785",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 1480000.0,
+   "source": "report",
+   "report_id": "hk_653514",
+   "tp_status": "유지",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 1660000.0,
+   "source": "report",
+   "report_id": "hk_653470",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 1300000.0,
+   "source": "report",
+   "report_id": "hk_653540",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -34,9 +103,150 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653487",
+   "title": "한화에어로스페이스(012450) 일시적 부진, 4Q부터 성장 가도에 재진입",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1300000.0,
+   "tp_status": "하향",
+   "price": 760000.0,
+   "upside_pct": 71.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 1600000.0
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653531",
+   "title": "한화에어로스페이스(012450) 3Q26: 그래도 믿는다",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1200000.0,
+   "tp_status": "하향",
+   "price": 760000.0,
+   "upside_pct": 57.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 1490000.0
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653477",
+   "title": "한화에어로스페이스(012450) 3Q26 Review: 악재의 중첩, 4분기까지 지켜보자",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1640000.0,
+   "tp_status": "유지",
+   "price": 739000.0,
+   "upside_pct": 121.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "mirae_2343785",
+   "title": "한화에어로스페이스 (012450/매수): 3분기만으로 판단하기에는 이르다",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653514",
+   "title": "한화에어로스페이스(012450) 3Q26 Re: 쇼크에 가려진 수주 성과",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1480000.0,
+   "tp_status": "유지",
+   "price": 760000.0,
+   "upside_pct": 94.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653470",
+   "title": "한화에어로스페이스(012450) 여전히 비중확대 의견, 그리고 Top-Pick",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1660000.0,
+   "tp_status": "유지",
+   "price": 760000.0,
+   "upside_pct": 118.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653540",
+   "title": "한화에어로스페이스(012450) 3Q26 Review: 기대치 하회. 이제는 용기를 낼 시점",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1300000.0,
+   "tp_status": "유지",
+   "price": 760000.0,
+   "upside_pct": 71.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-10-30",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1600000.0,
+   "tp_to": 1300000.0,
+   "tp_pct": -18.8,
+   "tp_speed30": null,
+   "report_id": "hk_653487",
+   "implied_prev": true,
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-30",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1490000.0,
+   "tp_to": 1200000.0,
+   "tp_pct": -19.5,
+   "tp_speed30": null,
+   "report_id": "hk_653531",
+   "implied_prev": true,
+   "broker": "iM증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
@@ -47,9 +257,25 @@
    "brokers": {
     "미래에셋증권": 1550000.0
    }
+  },
+  {
+   "date": "2026-10-30",
+   "mean": 1430000,
+   "n": 6,
+   "brokers": {
+    "SK증권": 1300000.0,
+    "iM증권": 1200000.0,
+    "대신증권": 1640000.0,
+    "유안타증권": 1480000.0,
+    "유진투자증권": 1660000.0,
+    "한화투자증권": 1300000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-10-30:012450:tp_down:SK증권",
+  "2026-10-30:012450:tp_down:iM증권"
+ ]
 }

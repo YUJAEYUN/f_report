@@ -4,9 +4,13 @@
  "name": "아모레퍼시픽",
  "industry": "화장품",
  "brokers": [
+  "IBK투자증권",
   "LS증권",
   "SK증권",
-  "하나증권"
+  "메리츠증권",
+  "상상인증권",
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -71,6 +75,69 @@
    "report_id": "hk_652827",
    "tp_status": "유지",
    "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 200000.0,
+   "source": "report",
+   "report_id": "hk_653516",
+   "tp_status": "유지",
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 190000.0,
+   "source": "report",
+   "report_id": "hk_653543",
+   "tp_status": "유지",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "report",
+   "report_id": "hk_653494",
+   "tp_status": "유지",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "report",
+   "report_id": "hk_653489",
+   "tp_status": "유지",
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "report",
+   "report_id": "hk_653544",
+   "tp_status": "유지",
+   "broker": "상상인증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 170000.0,
+   "source": "report",
+   "report_id": "hana_1289367",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 200000.0,
+   "source": "report",
+   "report_id": "hk_653503",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [
@@ -109,6 +176,151 @@
    "tp_status": "유지",
    "price": 138500.0,
    "upside_pct": 30.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653516",
+   "title": "아모레퍼시픽(090430) 재정비 효과의 초입",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 200000.0,
+   "tp_status": "유지",
+   "price": 124400.0,
+   "upside_pct": 60.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653543",
+   "title": "아모레퍼시픽(090430) 3Q26 Review: 달라진 이익 체력",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 190000.0,
+   "tp_status": "유지",
+   "price": 124400.0,
+   "upside_pct": 52.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653494",
+   "title": "아모레퍼시픽(090430) 국내 수익성 예상 상회",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 180000.0,
+   "tp_status": "유지",
+   "price": 124400.0,
+   "upside_pct": 44.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653489",
+   "title": "아모레퍼시픽(090430) 3Q26P Review: 불확실성 속 부각되는 투자 매력",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 180000.0,
+   "tp_status": "유지",
+   "price": 124400.0,
+   "upside_pct": 44.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653544",
+   "title": "아모레퍼시픽(090430) 3Q26 Review: 국내가 이끈 실적 개선",
+   "primary": true,
+   "broker": "상상인증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 180000.0,
+   "tp_status": "유지",
+   "price": 124400.0,
+   "upside_pct": 44.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hana_1289367",
+   "title": "아모레퍼시픽(090430.KS/매수): 3Q26Re: 멀티 브랜드 기업의 힘",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 170000.0,
+   "tp_status": null,
+   "price": 124400.0,
+   "upside_pct": 36.7,
+   "estimates": {
+    "2026": {
+     "revenue": 4733.5,
+     "op": 497.4,
+     "net": 349.1,
+     "eps": 5056.0
+    },
+    "2027": {
+     "revenue": 5296.6,
+     "op": 544.2,
+     "net": 405.3,
+     "eps": 5870.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 4744.5,
+     "op": 489.4,
+     "net": 390.3,
+     "eps": 5423.0
+    },
+    "2027": {
+     "revenue": 5228.9,
+     "op": 571.7,
+     "net": 455.8,
+     "eps": 6311.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 497.4,
+    "consensus": 489.4,
+    "gap_pct": 1.6
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653503",
+   "title": "아모레퍼시픽(090430) 모든 걸 이겨낸 호실적",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 200000.0,
+   "tp_status": "유지",
+   "price": 124400.0,
+   "upside_pct": 60.8,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -229,6 +441,20 @@
     "LS증권": 190000.0,
     "SK증권": 180000.0,
     "하나증권": 170000.0
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "mean": 185714,
+   "n": 7,
+   "brokers": {
+    "IBK투자증권": 200000.0,
+    "LS증권": 190000.0,
+    "SK증권": 180000.0,
+    "메리츠증권": 180000.0,
+    "상상인증권": 180000.0,
+    "하나증권": 170000.0,
+    "한화투자증권": 200000.0
    }
   }
  ],

@@ -4,6 +4,7 @@
  "name": "현대백화점",
  "industry": "유통·소비재",
  "brokers": [
+  "미래에셋증권",
   "유안타증권",
   "하나증권"
  ],
@@ -88,6 +89,15 @@
    "report_id": "hana_1289154",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 128000.0,
+   "source": "report",
+   "report_id": "mirae_2343830",
+   "tp_status": null,
+   "broker": "미래에셋증권"
   }
  ],
  "notes": [
@@ -113,6 +123,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 263000.0
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "mirae_2343830",
+   "title": "[유통] 현대백화점 (069960/매수/신규): 높은 본업 수익성에 외국인 매출이 더해진다",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 128000.0,
+   "tp_status": null,
+   "price": 75100.0,
+   "upside_pct": 70.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -288,6 +314,16 @@
    "mean": 120000,
    "n": 2,
    "brokers": {
+    "유안타증권": 120000.0,
+    "하나증권": 120000.0
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "mean": 122667,
+   "n": 3,
+   "brokers": {
+    "미래에셋증권": 128000.0,
     "유안타증권": 120000.0,
     "하나증권": 120000.0
    }

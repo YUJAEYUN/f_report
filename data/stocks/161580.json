@@ -1,0 +1,46 @@
+{
+ "id": "161580",
+ "code": "161580",
+ "name": "필옵틱스",
+ "industry": "반도체",
+ "brokers": [
+  "상상인증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-30",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_653547",
+   "tp_status": null,
+   "broker": "상상인증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653547",
+   "title": "필옵틱스(161580) NDR후기: 수주로 증명함",
+   "primary": true,
+   "broker": "상상인증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 28800.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

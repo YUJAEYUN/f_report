@@ -4,7 +4,8 @@
  "name": "선익시스템",
  "industry": "디스플레이",
  "brokers": [
-  "메리츠증권"
+  "메리츠증권",
+  "하나증권"
  ],
  "timeline": [
   {
@@ -15,6 +16,15 @@
    "report_id": "hk_653189",
    "tp_status": null,
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1289344",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -42,6 +52,14 @@
  "tp_consensus": [
   {
    "date": "2026-10-22",
+   "mean": 94000,
+   "n": 1,
+   "brokers": {
+    "메리츠증권": 94000.0
+   }
+  },
+  {
+   "date": "2026-10-29",
    "mean": 94000,
    "n": 1,
    "brokers": {

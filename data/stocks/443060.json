@@ -5,6 +5,8 @@
  "industry": "조선",
  "brokers": [
   "SK증권",
+  "미래에셋증권",
+  "유안타증권",
   "하나증권"
  ],
  "timeline": [
@@ -61,6 +63,33 @@
    "report_id": "hana_1289285",
    "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 280000.0,
+   "source": "report",
+   "report_id": "hk_653319",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343658",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 388000.0,
+   "source": "report",
+   "report_id": "hk_653326",
+   "tp_status": "하향",
+   "broker": "유안타증권"
   },
   {
    "date": "2026-10-27",
@@ -187,6 +216,54 @@
     "consensus": 410.3,
     "gap_pct": -3.0
    }
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "hk_653319",
+   "title": "HD현대마린솔루션(443060) 핵심사업 이상 무, 과도한 조정은 기회",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 280000.0,
+   "tp_status": "하향",
+   "price": 169600.0,
+   "upside_pct": 65.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 340000.0
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "mirae_2343658",
+   "title": "HD현대마린솔루션 (443060/매수): 낮아진 밸류에이션 부담",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "hk_653326",
+   "title": "HD현대마린솔루션(443060) 3Q26 Re: 명과 암이 공존했던 실적발표",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 388000.0,
+   "tp_status": "하향",
+   "price": 169600.0,
+   "upside_pct": 128.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 448000.0
   }
  ],
  "rating_changes": [
@@ -228,6 +305,33 @@
    "tp_speed30": -24.2,
    "report_id": "hana_1289285",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-09-17",
+   "days": 40,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 340000.0,
+   "tp_to": 280000.0,
+   "tp_pct": -17.6,
+   "tp_speed30": -13.2,
+   "report_id": "hk_653319",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 448000.0,
+   "tp_to": 388000.0,
+   "tp_pct": -13.4,
+   "tp_speed30": null,
+   "report_id": "hk_653326",
+   "implied_prev": true,
+   "broker": "유안타증권"
   }
  ],
  "estimate_revisions": [
@@ -528,10 +632,11 @@
   },
   {
    "date": "2026-10-27",
-   "mean": 315000,
-   "n": 2,
+   "mean": 319333,
+   "n": 3,
    "brokers": {
-    "SK증권": 340000.0,
+    "SK증권": 280000.0,
+    "유안타증권": 388000.0,
     "하나증권": 290000.0
    }
   }
@@ -548,11 +653,38 @@
    ],
    "report_id": "hana_1289285",
    "cum30": null
+  },
+  {
+   "date": "2026-10-27",
+   "from": 315000,
+   "to": 285000,
+   "pct": -9.5,
+   "n": 2,
+   "brokers": [
+    "SK증권"
+   ],
+   "report_id": "hk_653319",
+   "cum30": -15.5
   }
  ],
- "broker_waves": [],
+ "broker_waves": [
+  {
+   "date": "2026-10-27",
+   "direction": -1,
+   "count": 3,
+   "brokers": [
+    "SK증권",
+    "유안타증권",
+    "하나증권"
+   ],
+   "report_id": "hk_653319"
+  }
+ ],
  "events": [
+  "2026-10-27:443060:tp_down:SK증권",
   "2026-10-26:443060:est_down:하나증권2026eps",
-  "2026-10-26:443060:tp_cons_down:"
+  "2026-10-26:443060:tp_cons_down:",
+  "2026-10-27:443060:tp_cons_down:",
+  "2026-10-27:443060:wave_down:"
  ]
 }

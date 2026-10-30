@@ -7,20 +7,30 @@
    "name": "유한양행",
    "industry": "제약·바이오",
    "rating": "매수",
-   "target_price": 110000.0,
-   "rating_date": "2026-10-16",
-   "rating_broker": "IBK투자증권",
+   "target_price": null,
+   "rating_date": "2026-10-29",
+   "rating_broker": "미래에셋증권",
    "consensus_tp": 110000,
-   "consensus_n": 1,
+   "consensus_n": 2,
    "brokers": {
     "IBK투자증권": {
      "rating": "매수",
      "target_price": 110000.0,
      "date": "2026-10-16"
+    },
+    "메리츠증권": {
+     "rating": "매수",
+     "target_price": 110000.0,
+     "date": "2026-10-29"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-29"
     }
    },
-   "price": 76400.0,
-   "price_date": "2026-10-16",
+   "price": null,
+   "price_date": "2026-10-29",
    "last_tp_change": {
     "date": "2026-10-16",
     "pct": -31.2,
@@ -28,7 +38,7 @@
    },
    "events": 1,
    "last_event_date": "2026-10-16",
-   "reports": 1
+   "reports": 3
   },
   {
    "id": "000120",
@@ -207,16 +217,16 @@
    "name": "SK하이닉스",
    "industry": "반도체",
    "rating": "매수",
-   "target_price": 3600000.0,
-   "rating_date": "2026-10-12",
-   "rating_broker": "하나증권",
-   "consensus_tp": 3500000,
-   "consensus_n": 4,
+   "target_price": 3150000.0,
+   "rating_date": "2026-10-29",
+   "rating_broker": "한화투자증권",
+   "consensus_tp": 3391667,
+   "consensus_n": 6,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 3600000.0,
-     "date": "2026-10-12"
+     "date": "2026-10-28"
     },
     "대신증권": {
      "rating": "매수",
@@ -226,29 +236,39 @@
     "미래에셋증권": {
      "rating": "매수",
      "target_price": null,
-     "date": "2026-10-06"
+     "date": "2026-10-29"
     },
     "IBK투자증권": {
      "rating": "매수",
-     "target_price": 4000000.0,
-     "date": "2026-10-07"
+     "target_price": 3200000.0,
+     "date": "2026-10-29"
     },
     "메리츠증권": {
      "rating": "매수",
      "target_price": 3200000.0,
      "date": "2026-10-12"
+    },
+    "SK증권": {
+     "rating": "매수",
+     "target_price": 4000000.0,
+     "date": "2026-10-29"
+    },
+    "한화투자증권": {
+     "rating": "매수",
+     "target_price": 3150000.0,
+     "date": "2026-10-29"
     }
    },
-   "price": 1605000.0,
-   "price_date": "2026-10-12",
+   "price": 1487000.0,
+   "price_date": "2026-10-29",
    "last_tp_change": {
-    "date": "2026-06-26",
-    "pct": 30.9,
-    "broker": "하나증권"
+    "date": "2026-10-29",
+    "pct": -20.0,
+    "broker": "IBK투자증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 5
+   "events": 4,
+   "last_event_date": "2026-10-29",
+   "reports": 10
   },
   {
    "id": "000720",
@@ -256,16 +276,16 @@
    "name": "현대건설",
    "industry": "건설",
    "rating": "매수",
-   "target_price": 205000.0,
-   "rating_date": "2026-10-19",
-   "rating_broker": "유안타증권",
-   "consensus_tp": 171667,
+   "target_price": 115000.0,
+   "rating_date": "2026-11-02",
+   "rating_broker": "하나증권",
+   "consensus_tp": 165000,
    "consensus_n": 3,
    "brokers": {
     "하나증권": {
      "rating": "매수",
-     "target_price": 135000.0,
-     "date": "2026-10-15"
+     "target_price": 115000.0,
+     "date": "2026-11-02"
     },
     "유안타증권": {
      "rating": "매수",
@@ -283,16 +303,16 @@
      "date": "2026-10-15"
     }
    },
-   "price": 93800.0,
-   "price_date": "2026-10-19",
+   "price": 83600.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
-    "date": "2026-08-03",
-    "pct": -43.8,
+    "date": "2026-10-30",
+    "pct": -14.8,
     "broker": "하나증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 5
+   "events": 2,
+   "last_event_date": "2026-10-30",
+   "reports": 6
   },
   {
    "id": "000810",
@@ -368,16 +388,16 @@
    "name": "세아베스틸지주",
    "industry": "철강·금속",
    "rating": "매수",
-   "target_price": 61700.0,
-   "rating_date": "2026-10-14",
-   "rating_broker": "대신증권",
-   "consensus_tp": 61900,
-   "consensus_n": 3,
+   "target_price": 50000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "하나증권",
+   "consensus_tp": 54940,
+   "consensus_n": 5,
    "brokers": {
     "하나증권": {
      "rating": "매수",
-     "target_price": 62000.0,
-     "date": "2026-10-13"
+     "target_price": 50000.0,
+     "date": "2026-10-30"
     },
     "상상인증권": {
      "rating": "매수",
@@ -388,18 +408,28 @@
      "rating": "매수",
      "target_price": 61700.0,
      "date": "2026-10-14"
+    },
+    "iM증권": {
+     "rating": "매수",
+     "target_price": 45000.0,
+     "date": "2026-10-30"
+    },
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 56000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 44500.0,
-   "price_date": "2026-10-14",
+   "price": 30100.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
-    "date": "2026-07-09",
-    "pct": -30.3,
+    "date": "2026-10-29",
+    "pct": -19.4,
     "broker": "하나증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 3
+   "events": 5,
+   "last_event_date": "2026-10-29",
+   "reports": 7
   },
   {
    "id": "001440",
@@ -407,16 +437,21 @@
    "name": "대한전선",
    "industry": "기계·전력기기",
    "rating": "매수",
-   "target_price": 33000.0,
-   "rating_date": "2026-10-14",
-   "rating_broker": "SK증권",
-   "consensus_tp": 40750,
-   "consensus_n": 2,
+   "target_price": 40000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "하나증권",
+   "consensus_tp": 37333,
+   "consensus_n": 3,
    "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 40000.0,
+     "date": "2026-10-30"
+    },
     "유안타증권": {
      "rating": "매수",
-     "target_price": 48500.0,
-     "date": "2026-10-07"
+     "target_price": 39000.0,
+     "date": "2026-10-30"
     },
     "SK증권": {
      "rating": "매수",
@@ -424,12 +459,16 @@
      "date": "2026-10-14"
     }
    },
-   "price": 24700.0,
-   "price_date": "2026-10-14",
-   "last_tp_change": null,
-   "events": 0,
-   "last_event_date": null,
-   "reports": 2
+   "price": 20500.0,
+   "price_date": "2026-10-30",
+   "last_tp_change": {
+    "date": "2026-10-30",
+    "pct": -19.6,
+    "broker": "유안타증권"
+   },
+   "events": 3,
+   "last_event_date": "2026-10-30",
+   "reports": 5
   },
   {
    "id": "001450",
@@ -525,16 +564,16 @@
    "name": "넥센타이어",
    "industry": "자동차·부품",
    "rating": "매수",
-   "target_price": 8500.0,
-   "rating_date": "2026-10-26",
-   "rating_broker": "유진투자증권",
-   "consensus_tp": 8500,
-   "consensus_n": 1,
+   "target_price": 8400.0,
+   "rating_date": "2026-10-28",
+   "rating_broker": "하나증권",
+   "consensus_tp": 8450,
+   "consensus_n": 2,
    "brokers": {
     "하나증권": {
      "rating": "매수",
-     "target_price": 10500.0,
-     "date": "2026-02-05"
+     "target_price": 8400.0,
+     "date": "2026-10-28"
     },
     "유진투자증권": {
      "rating": "매수",
@@ -545,12 +584,12 @@
    "price": 5520.0,
    "price_date": "2026-10-26",
    "last_tp_change": {
-    "date": "2026-10-26",
-    "pct": -15.0,
-    "broker": "유진투자증권"
+    "date": "2026-10-28",
+    "pct": -20.0,
+    "broker": "하나증권"
    },
-   "events": 1,
-   "last_event_date": "2026-10-26",
+   "events": 2,
+   "last_event_date": "2026-10-28",
    "reports": 1
   },
   {
@@ -624,10 +663,10 @@
    "industry": "음식료·담배",
    "rating": "매수",
    "target_price": 1800000.0,
-   "rating_date": "2026-10-23",
-   "rating_broker": "LS증권",
-   "consensus_tp": 1900000,
-   "consensus_n": 2,
+   "rating_date": "2026-10-27",
+   "rating_broker": "한화투자증권",
+   "consensus_tp": 1866667,
+   "consensus_n": 3,
    "brokers": {
     "하나증권": {
      "rating": "매수",
@@ -643,10 +682,15 @@
      "rating": "매수",
      "target_price": 1800000.0,
      "date": "2026-10-23"
+    },
+    "한화투자증권": {
+     "rating": "매수",
+     "target_price": 1800000.0,
+     "date": "2026-10-27"
     }
    },
-   "price": 1226000.0,
-   "price_date": "2026-10-23",
+   "price": 1116000.0,
+   "price_date": "2026-10-27",
    "last_tp_change": {
     "date": "2025-07-30",
     "pct": 33.3,
@@ -654,7 +698,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 2
+   "reports": 3
   },
   {
    "id": "003350",
@@ -687,9 +731,9 @@
    "name": "대한항공",
    "industry": "운송",
    "rating": "매수",
-   "target_price": 40000.0,
-   "rating_date": "2026-10-19",
-   "rating_broker": "iM증권",
+   "target_price": 43000.0,
+   "rating_date": "2026-10-27",
+   "rating_broker": "한화투자증권",
    "consensus_tp": 40667,
    "consensus_n": 6,
    "brokers": {
@@ -721,7 +765,7 @@
     "한화투자증권": {
      "rating": "매수",
      "target_price": 43000.0,
-     "date": "2026-10-16"
+     "date": "2026-10-27"
     },
     "LS증권": {
      "rating": "매수",
@@ -729,8 +773,8 @@
      "date": "2026-10-19"
     }
    },
-   "price": 26350.0,
-   "price_date": "2026-10-19",
+   "price": 25100.0,
+   "price_date": "2026-10-27",
    "last_tp_change": {
     "date": "2026-09-29",
     "pct": 5.3,
@@ -738,7 +782,7 @@
    },
    "events": 4,
    "last_event_date": "2026-10-16",
-   "reports": 10
+   "reports": 11
   },
   {
    "id": "003530",
@@ -801,19 +845,24 @@
    "industry": "정유·화학",
    "rating": "매수",
    "target_price": 50000.0,
-   "rating_date": "2026-10-19",
-   "rating_broker": "하나증권",
+   "rating_date": "2026-10-30",
+   "rating_broker": "iM증권",
    "consensus_tp": 50000,
-   "consensus_n": 1,
+   "consensus_n": 2,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 50000.0,
      "date": "2026-10-19"
+    },
+    "iM증권": {
+     "rating": "매수",
+     "target_price": 50000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": null,
-   "price_date": null,
+   "price": 35500.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2026-10-19",
     "pct": -16.7,
@@ -821,7 +870,7 @@
    },
    "events": 1,
    "last_event_date": "2026-10-19",
-   "reports": 0
+   "reports": 1
   },
   {
    "id": "004020",
@@ -829,16 +878,16 @@
    "name": "현대제철",
    "industry": "철강·금속",
    "rating": "매수",
-   "target_price": 44600.0,
-   "rating_date": "2026-10-14",
-   "rating_broker": "대신증권",
+   "target_price": 50000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "하나증권",
    "consensus_tp": 45150,
    "consensus_n": 4,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 50000.0,
-     "date": "2026-10-05"
+     "date": "2026-10-30"
     },
     "상상인증권": {
      "rating": "매수",
@@ -861,16 +910,16 @@
      "date": "2026-10-14"
     }
    },
-   "price": 27700.0,
-   "price_date": "2026-10-14",
+   "price": 25600.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2025-07-04",
     "pct": 16.3,
     "broker": "하나증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 5
+   "events": 2,
+   "last_event_date": "2026-10-30",
+   "reports": 6
   },
   {
    "id": "004170",
@@ -878,20 +927,30 @@
    "name": "신세계",
    "industry": "유통·소비재",
    "rating": "매수",
-   "target_price": 430000.0,
-   "rating_date": "2026-10-19",
-   "rating_broker": "하나증권",
-   "consensus_tp": 430000,
-   "consensus_n": 1,
+   "target_price": 440000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "미래에셋증권",
+   "consensus_tp": 440000,
+   "consensus_n": 3,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 430000.0,
      "date": "2026-10-19"
+    },
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 450000.0,
+     "date": "2026-10-27"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": 440000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": null,
-   "price_date": null,
+   "price": 248000.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2026-10-19",
     "pct": -21.8,
@@ -899,7 +958,7 @@
    },
    "events": 2,
    "last_event_date": "2026-10-19",
-   "reports": 0
+   "reports": 2
   },
   {
    "id": "004370",
@@ -1045,38 +1104,68 @@
    "name": "현대차",
    "industry": "자동차·부품",
    "rating": "매수",
-   "target_price": 520000.0,
-   "rating_date": "2026-10-16",
-   "rating_broker": "LS증권",
-   "consensus_tp": 566667,
-   "consensus_n": 3,
+   "target_price": 600000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "한화투자증권",
+   "consensus_tp": 538889,
+   "consensus_n": 9,
    "brokers": {
     "하나증권": {
      "rating": "매수",
-     "target_price": 510000.0,
-     "date": "2026-10-07"
+     "target_price": 480000.0,
+     "date": "2026-10-30"
     },
     "한화투자증권": {
      "rating": "매수",
-     "target_price": 670000.0,
-     "date": "2026-10-08"
+     "target_price": 600000.0,
+     "date": "2026-10-30"
     },
     "LS증권": {
      "rating": "매수",
      "target_price": 520000.0,
      "date": "2026-10-16"
+    },
+    "IBK투자증권": {
+     "rating": "매수",
+     "target_price": 460000.0,
+     "date": "2026-10-30"
+    },
+    "iM증권": {
+     "rating": "매수",
+     "target_price": 600000.0,
+     "date": "2026-10-30"
+    },
+    "대신증권": {
+     "rating": "매수",
+     "target_price": 500000.0,
+     "date": "2026-10-30"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": 650000.0,
+     "date": "2026-10-30"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 440000.0,
+     "date": "2026-10-30"
+    },
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 600000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 295500.0,
-   "price_date": "2026-10-16",
+   "price": 292500.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
-    "date": "2026-10-07",
-    "pct": -21.5,
-    "broker": "하나증권"
+    "date": "2026-10-30",
+    "pct": 7.3,
+    "broker": "유안타증권"
    },
-   "events": 1,
-   "last_event_date": "2026-10-07",
-   "reports": 2
+   "events": 3,
+   "last_event_date": "2026-10-30",
+   "reports": 11
   },
   {
    "id": "005440",
@@ -1163,6 +1252,31 @@
    },
    "price": 40750.0,
    "price_date": "2026-10-02",
+   "last_tp_change": null,
+   "events": 0,
+   "last_event_date": null,
+   "reports": 1
+  },
+  {
+   "id": "005680",
+   "code": "005680",
+   "name": "삼영전자",
+   "industry": "자동차·부품",
+   "rating": "매수",
+   "target_price": 520000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "LS증권",
+   "consensus_tp": 520000,
+   "consensus_n": 1,
+   "brokers": {
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 520000.0,
+     "date": "2026-10-30"
+    }
+   },
+   "price": 292500.0,
+   "price_date": "2026-10-30",
    "last_tp_change": null,
    "events": 0,
    "last_event_date": null,
@@ -1259,15 +1373,15 @@
    "industry": "반도체",
    "rating": "매수",
    "target_price": 480000.0,
-   "rating_date": "2026-10-11",
+   "rating_date": "2026-10-30",
    "rating_broker": "하나증권",
-   "consensus_tp": 540000,
-   "consensus_n": 6,
+   "consensus_tp": 518571,
+   "consensus_n": 7,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 480000.0,
-     "date": "2026-10-11"
+     "date": "2026-10-30"
     },
     "유안타증권": {
      "rating": "매수",
@@ -1281,8 +1395,8 @@
     },
     "IBK투자증권": {
      "rating": "매수",
-     "target_price": 460000.0,
-     "date": "2026-10-02"
+     "target_price": 350000.0,
+     "date": "2026-10-30"
     },
     "SK증권": {
      "rating": "매수",
@@ -1292,24 +1406,29 @@
     "미래에셋증권": {
      "rating": "매수",
      "target_price": null,
-     "date": "2026-10-06"
+     "date": "2026-10-30"
     },
     "메리츠증권": {
      "rating": "매수",
      "target_price": 500000.0,
      "date": "2026-10-07"
+    },
+    "대신증권": {
+     "rating": "매수",
+     "target_price": 500000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 262000.0,
-   "price_date": "2026-10-11",
+   "price": 232000.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
-    "date": "2026-09-23",
-    "pct": 18.9,
-    "broker": "유안타증권"
+    "date": "2026-10-30",
+    "pct": -23.9,
+    "broker": "IBK투자증권"
    },
-   "events": 2,
-   "last_event_date": "2026-10-08",
-   "reports": 9
+   "events": 4,
+   "last_event_date": "2026-10-30",
+   "reports": 14
   },
   {
    "id": "005940",
@@ -1320,17 +1439,32 @@
    "target_price": 36000.0,
    "rating_date": "2026-10-27",
    "rating_broker": "하나증권",
-   "consensus_tp": 36000,
-   "consensus_n": 1,
+   "consensus_tp": 32250,
+   "consensus_n": 4,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 36000.0,
      "date": "2026-10-27"
+    },
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 32000.0,
+     "date": "2026-10-27"
+    },
+    "SK증권": {
+     "rating": "매수",
+     "target_price": 32000.0,
+     "date": "2026-10-27"
+    },
+    "iM증권": {
+     "rating": "매수",
+     "target_price": 29000.0,
+     "date": "2026-10-27"
     }
    },
-   "price": 22700.0,
-   "price_date": "2026-10-26",
+   "price": 22550.0,
+   "price_date": "2026-10-27",
    "last_tp_change": {
     "date": "2026-10-26",
     "pct": -7.7,
@@ -1338,7 +1472,7 @@
    },
    "events": 2,
    "last_event_date": "2026-10-26",
-   "reports": 2
+   "reports": 5
   },
   {
    "id": "005960",
@@ -1360,6 +1494,31 @@
    },
    "price": 7820.0,
    "price_date": "2026-10-21",
+   "last_tp_change": null,
+   "events": 0,
+   "last_event_date": null,
+   "reports": 1
+  },
+  {
+   "id": "006260",
+   "code": "006260",
+   "name": "LS",
+   "industry": null,
+   "rating": "매수",
+   "target_price": 390000.0,
+   "rating_date": "2026-10-28",
+   "rating_broker": "메리츠증권",
+   "consensus_tp": 390000,
+   "consensus_n": 1,
+   "brokers": {
+    "메리츠증권": {
+     "rating": "매수",
+     "target_price": 390000.0,
+     "date": "2026-10-28"
+    }
+   },
+   "price": 216000.0,
+   "price_date": "2026-10-28",
    "last_tp_change": null,
    "events": 0,
    "last_event_date": null,
@@ -1401,16 +1560,16 @@
    "name": "GS건설",
    "industry": "건설",
    "rating": "매수",
-   "target_price": 45000.0,
-   "rating_date": "2026-10-16",
-   "rating_broker": "유안타증권",
+   "target_price": 46000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "하나증권",
    "consensus_tp": 47000,
    "consensus_n": 3,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 46000.0,
-     "date": "2026-10-07"
+     "date": "2026-10-30"
     },
     "유안타증권": {
      "rating": "매수",
@@ -1428,16 +1587,16 @@
      "date": "2026-10-15"
     }
    },
-   "price": 28200.0,
-   "price_date": "2026-10-16",
+   "price": 26000.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2026-09-14",
     "pct": 27.8,
     "broker": "하나증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 5
+   "events": 1,
+   "last_event_date": "2026-10-30",
+   "reports": 6
   },
   {
    "id": "006400",
@@ -1445,24 +1604,63 @@
    "name": "삼성SDI",
    "industry": "2차전지",
    "rating": "매수",
-   "target_price": 800000.0,
-   "rating_date": "2026-09-21",
-   "rating_broker": "iM증권",
-   "consensus_tp": 800000,
-   "consensus_n": 1,
+   "target_price": 667000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "하나증권",
+   "consensus_tp": 777143,
+   "consensus_n": 7,
    "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 667000.0,
+     "date": "2026-10-30"
+    },
     "iM증권": {
      "rating": "매수",
      "target_price": 800000.0,
-     "date": "2026-09-21"
+     "date": "2026-10-30"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-29"
+    },
+    "IBK투자증권": {
+     "rating": "매수",
+     "target_price": 800000.0,
+     "date": "2026-10-30"
+    },
+    "SK증권": {
+     "rating": "매수",
+     "target_price": 810000.0,
+     "date": "2026-10-30"
+    },
+    "대신증권": {
+     "rating": "매수",
+     "target_price": 750000.0,
+     "date": "2026-10-30"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 913000.0,
+     "date": "2026-10-30"
+    },
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 700000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 542000.0,
-   "price_date": "2026-09-21",
-   "last_tp_change": null,
-   "events": 0,
-   "last_event_date": null,
-   "reports": 1
+   "price": 538000.0,
+   "price_date": "2026-10-30",
+   "last_tp_change": {
+    "date": "2026-10-30",
+    "pct": 40.0,
+    "broker": "유진투자증권"
+   },
+   "events": 2,
+   "last_event_date": "2026-10-30",
+   "reports": 10
   },
   {
    "id": "006650",
@@ -1669,22 +1867,32 @@
    "id": "008770",
    "code": "008770",
    "name": "호텔신라",
-   "industry": "화장품",
+   "industry": "유통·소비재",
    "rating": "매수",
-   "target_price": 45000.0,
-   "rating_date": "2026-10-19",
-   "rating_broker": "하나증권",
-   "consensus_tp": 45000,
-   "consensus_n": 1,
+   "target_price": 55000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "미래에셋증권",
+   "consensus_tp": 50333,
+   "consensus_n": 3,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 45000.0,
-     "date": "2026-10-19"
+     "date": "2026-10-28"
+    },
+    "한화투자증권": {
+     "rating": "매수",
+     "target_price": 51000.0,
+     "date": "2026-10-29"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": 55000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": null,
-   "price_date": null,
+   "price": 34850.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2026-10-19",
     "pct": -10.0,
@@ -1692,7 +1900,7 @@
    },
    "events": 1,
    "last_event_date": "2026-10-19",
-   "reports": 0
+   "reports": 3
   },
   {
    "id": "009150",
@@ -1700,31 +1908,31 @@
    "name": "삼성전기",
    "industry": "IT하드웨어·전자부품",
    "rating": "매수",
-   "target_price": 3000000.0,
-   "rating_date": "2026-10-23",
+   "target_price": 2000000.0,
+   "rating_date": "2026-10-29",
    "rating_broker": "하나증권",
-   "consensus_tp": 2270000,
-   "consensus_n": 5,
+   "consensus_tp": 2100000,
+   "consensus_n": 6,
    "brokers": {
     "하나증권": {
      "rating": "매수",
-     "target_price": 3000000.0,
-     "date": "2026-10-23"
+     "target_price": 2000000.0,
+     "date": "2026-10-29"
     },
     "iM증권": {
      "rating": "매수",
      "target_price": 2100000.0,
-     "date": "2026-10-20"
+     "date": "2026-10-29"
     },
     "메리츠증권": {
      "rating": "매수",
-     "target_price": 2200000.0,
-     "date": "2026-09-23"
+     "target_price": 2300000.0,
+     "date": "2026-10-29"
     },
     "미래에셋증권": {
      "rating": "매수",
      "target_price": null,
-     "date": "2026-10-20"
+     "date": "2026-10-29"
     },
     "유안타증권": {
      "rating": "매수",
@@ -1733,20 +1941,25 @@
     },
     "IBK투자증권": {
      "rating": "매수",
-     "target_price": 1750000.0,
-     "date": "2026-10-20"
+     "target_price": 1900000.0,
+     "date": "2026-10-29"
+    },
+    "SK증권": {
+     "rating": "매수",
+     "target_price": 2000000.0,
+     "date": "2026-10-29"
     }
    },
-   "price": 1145000.0,
-   "price_date": "2026-10-23",
+   "price": null,
+   "price_date": "2026-10-29",
    "last_tp_change": {
-    "date": "2026-09-18",
-    "pct": 5.0,
-    "broker": "iM증권"
+    "date": "2026-10-29",
+    "pct": 4.5,
+    "broker": "메리츠증권"
    },
-   "events": 2,
-   "last_event_date": "2026-10-23",
-   "reports": 11
+   "events": 5,
+   "last_event_date": "2026-10-28",
+   "reports": 17
   },
   {
    "id": "009240",
@@ -1803,33 +2016,87 @@
    "reports": 1
   },
   {
-   "id": "009830",
-   "code": "009830",
-   "name": "한화솔루션",
-   "industry": "정유·화학",
+   "id": "009540",
+   "code": "009540",
+   "name": "HD한국조선해양",
+   "industry": null,
    "rating": "매수",
-   "target_price": 60000.0,
-   "rating_date": "2026-04-29",
+   "target_price": 480000.0,
+   "rating_date": "2026-10-29",
    "rating_broker": "하나증권",
-   "consensus_tp": 60000,
-   "consensus_n": 1,
+   "consensus_tp": 440750,
+   "consensus_n": 4,
    "brokers": {
     "하나증권": {
      "rating": "매수",
-     "target_price": 60000.0,
-     "date": "2026-04-29"
+     "target_price": 480000.0,
+     "date": "2026-10-29"
+    },
+    "IBK투자증권": {
+     "rating": "매수",
+     "target_price": 410000.0,
+     "date": "2026-10-29"
+    },
+    "SK증권": {
+     "rating": "매수",
+     "target_price": 410000.0,
+     "date": "2026-10-29"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 463000.0,
+     "date": "2026-10-29"
     }
    },
-   "price": null,
-   "price_date": null,
+   "price": 241500.0,
+   "price_date": "2026-10-29",
    "last_tp_change": {
-    "date": "2026-04-29",
-    "pct": 30.4,
+    "date": "2026-10-29",
+    "pct": -15.8,
     "broker": "하나증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 0
+   "events": 3,
+   "last_event_date": "2026-10-29",
+   "reports": 3
+  },
+  {
+   "id": "009830",
+   "code": "009830",
+   "name": "한화솔루션",
+   "industry": "태양광·신재생",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "하나증권",
+   "consensus_tp": 41000,
+   "consensus_n": 3,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 40000.0,
+     "date": "2026-10-30"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": 33000.0,
+     "date": "2026-10-30"
+    },
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 50000.0,
+     "date": "2026-10-30"
+    }
+   },
+   "price": 23600.0,
+   "price_date": "2026-10-30",
+   "last_tp_change": {
+    "date": "2026-10-30",
+    "pct": -16.7,
+    "broker": "유진투자증권"
+   },
+   "events": 3,
+   "last_event_date": "2026-10-30",
+   "reports": 4
   },
   {
    "id": "010060",
@@ -1838,23 +2105,37 @@
    "industry": "정유·화학",
    "rating": "매수",
    "target_price": 550000.0,
-   "rating_date": "2026-05-26",
+   "rating_date": "2026-10-30",
    "rating_broker": "하나증권",
-   "consensus_tp": 550000,
-   "consensus_n": 1,
+   "consensus_tp": 450000,
+   "consensus_n": 3,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 550000.0,
-     "date": "2026-05-26"
+     "date": "2026-10-30"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": 400000.0,
+     "date": "2026-10-29"
+    },
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 400000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": null,
-   "price_date": null,
-   "last_tp_change": null,
+   "price": 180500.0,
+   "price_date": "2026-10-30",
+   "last_tp_change": {
+    "date": "2026-10-29",
+    "pct": -13.0,
+    "broker": "미래에셋증권"
+   },
    "events": 0,
    "last_event_date": null,
-   "reports": 0
+   "reports": 4
   },
   {
    "id": "010120",
@@ -1951,16 +2232,21 @@
    "name": "삼성중공업",
    "industry": "조선",
    "rating": "매수",
-   "target_price": 31000.0,
-   "rating_date": "2026-10-14",
-   "rating_broker": "상상인증권",
-   "consensus_tp": 34333,
-   "consensus_n": 3,
+   "target_price": 30000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "하나증권",
+   "consensus_tp": 31167,
+   "consensus_n": 6,
    "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 30000.0,
+     "date": "2026-10-30"
+    },
     "SK증권": {
      "rating": "매수",
-     "target_price": 35000.0,
-     "date": "2026-10-14"
+     "target_price": 27000.0,
+     "date": "2026-10-30"
     },
     "IBK투자증권": {
      "rating": "매수",
@@ -1971,18 +2257,33 @@
      "rating": "매수",
      "target_price": 31000.0,
      "date": "2026-10-14"
+    },
+    "iM증권": {
+     "rating": "매수",
+     "target_price": 28000.0,
+     "date": "2026-10-30"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-30"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 34000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 18010.0,
-   "price_date": "2026-10-14",
+   "price": 15720.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
-    "date": "2026-10-14",
-    "pct": -12.5,
-    "broker": "SK증권"
+    "date": "2026-10-30",
+    "pct": -10.5,
+    "broker": "유안타증권"
    },
-   "events": 1,
-   "last_event_date": "2026-10-14",
-   "reports": 4
+   "events": 6,
+   "last_event_date": "2026-10-30",
+   "reports": 10
   },
   {
    "id": "010690",
@@ -2015,16 +2316,16 @@
    "name": "LG이노텍",
    "industry": "IT하드웨어·전자부품",
    "rating": "매수",
-   "target_price": 530000.0,
-   "rating_date": "2026-10-23",
-   "rating_broker": "하나증권",
-   "consensus_tp": 957500,
-   "consensus_n": 4,
+   "target_price": 560000.0,
+   "rating_date": "2026-10-28",
+   "rating_broker": "IBK투자증권",
+   "consensus_tp": 878000,
+   "consensus_n": 5,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 530000.0,
-     "date": "2026-10-23"
+     "date": "2026-10-27"
     },
     "메리츠증권": {
      "rating": "매수",
@@ -2040,18 +2341,23 @@
      "rating": "매수",
      "target_price": 1200000.0,
      "date": "2026-10-08"
+    },
+    "IBK투자증권": {
+     "rating": "매수",
+     "target_price": 560000.0,
+     "date": "2026-10-28"
     }
    },
-   "price": 395000.0,
-   "price_date": "2026-10-23",
+   "price": 374500.0,
+   "price_date": "2026-10-28",
    "last_tp_change": {
-    "date": "2026-10-23",
-    "pct": -59.2,
-    "broker": "하나증권"
+    "date": "2026-10-28",
+    "pct": -34.1,
+    "broker": "IBK투자증권"
    },
-   "events": 3,
-   "last_event_date": "2026-10-23",
-   "reports": 4
+   "events": 6,
+   "last_event_date": "2026-10-28",
+   "reports": 6
   },
   {
    "id": "011170",
@@ -2087,21 +2393,26 @@
    "code": "011200",
    "name": "HMM",
    "industry": "운송",
-   "rating": "중립",
-   "target_price": 24000.0,
-   "rating_date": "2026-10-14",
-   "rating_broker": "하나증권",
-   "consensus_tp": 24000,
-   "consensus_n": 1,
+   "rating": "매수",
+   "target_price": 26000.0,
+   "rating_date": "2026-10-29",
+   "rating_broker": "상상인증권",
+   "consensus_tp": 25000,
+   "consensus_n": 2,
    "brokers": {
     "하나증권": {
      "rating": "중립",
      "target_price": 24000.0,
      "date": "2026-10-14"
+    },
+    "상상인증권": {
+     "rating": "매수",
+     "target_price": 26000.0,
+     "date": "2026-10-29"
     }
    },
-   "price": 23350.0,
-   "price_date": "2026-10-14",
+   "price": 22150.0,
+   "price_date": "2026-10-29",
    "last_tp_change": {
     "date": "2026-10-14",
     "pct": 14.3,
@@ -2109,7 +2420,7 @@
    },
    "events": 1,
    "last_event_date": "2026-10-14",
-   "reports": 1
+   "reports": 2
   },
   {
    "id": "011210",
@@ -2195,21 +2506,46 @@
    "reports": 1
   },
   {
+   "id": "011790",
+   "code": "011790",
+   "name": "SKC",
+   "industry": null,
+   "rating": "매수",
+   "target_price": 100000.0,
+   "rating_date": "2026-10-29",
+   "rating_broker": "SK증권",
+   "consensus_tp": 100000,
+   "consensus_n": 1,
+   "brokers": {
+    "SK증권": {
+     "rating": "매수",
+     "target_price": 100000.0,
+     "date": "2026-10-29"
+    }
+   },
+   "price": 82900.0,
+   "price_date": "2026-10-29",
+   "last_tp_change": null,
+   "events": 0,
+   "last_event_date": null,
+   "reports": 1
+  },
+  {
    "id": "012330",
    "code": "012330",
    "name": "현대모비스",
    "industry": "자동차·부품",
    "rating": "매수",
-   "target_price": 570000.0,
-   "rating_date": "2026-10-15",
-   "rating_broker": "LS증권",
-   "consensus_tp": 675000,
+   "target_price": 550000.0,
+   "rating_date": "2026-11-02",
+   "rating_broker": "하나증권",
+   "consensus_tp": 667500,
    "consensus_n": 4,
    "brokers": {
     "하나증권": {
      "rating": "매수",
-     "target_price": 580000.0,
-     "date": "2026-10-08"
+     "target_price": 550000.0,
+     "date": "2026-11-02"
     },
     "메리츠증권": {
      "rating": "매수",
@@ -2227,41 +2563,75 @@
      "date": "2026-10-15"
     }
    },
-   "price": 358500.0,
-   "price_date": "2026-10-15",
+   "price": 334000.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
-    "date": "2026-10-07",
-    "pct": -14.7,
+    "date": "2026-10-30",
+    "pct": -5.2,
     "broker": "하나증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 4
+   "events": 1,
+   "last_event_date": "2026-10-30",
+   "reports": 5
   },
   {
    "id": "012450",
    "code": "012450",
-   "name": "[방산/첨단항공우주] 한화에어로스페이스",
+   "name": "한화에어로스페이스",
    "industry": "우주항공·방산",
    "rating": "매수",
-   "target_price": 1550000.0,
-   "rating_date": "2026-09-30",
-   "rating_broker": "미래에셋증권",
-   "consensus_tp": 1550000,
-   "consensus_n": 1,
+   "target_price": 1300000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "한화투자증권",
+   "consensus_tp": 1430000,
+   "consensus_n": 6,
    "brokers": {
     "미래에셋증권": {
      "rating": "매수",
-     "target_price": 1550000.0,
-     "date": "2026-09-30"
+     "target_price": null,
+     "date": "2026-10-30"
+    },
+    "SK증권": {
+     "rating": "매수",
+     "target_price": 1300000.0,
+     "date": "2026-10-30"
+    },
+    "iM증권": {
+     "rating": "매수",
+     "target_price": 1200000.0,
+     "date": "2026-10-30"
+    },
+    "대신증권": {
+     "rating": "매수",
+     "target_price": 1640000.0,
+     "date": "2026-10-30"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 1480000.0,
+     "date": "2026-10-30"
+    },
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 1660000.0,
+     "date": "2026-10-30"
+    },
+    "한화투자증권": {
+     "rating": "매수",
+     "target_price": 1300000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 1012000.0,
-   "price_date": "2026-09-30",
-   "last_tp_change": null,
-   "events": 0,
-   "last_event_date": null,
-   "reports": 1
+   "price": 760000.0,
+   "price_date": "2026-10-30",
+   "last_tp_change": {
+    "date": "2026-10-30",
+    "pct": -19.5,
+    "broker": "iM증권"
+   },
+   "events": 2,
+   "last_event_date": "2026-10-30",
+   "reports": 8
   },
   {
    "id": "012750",
@@ -2440,21 +2810,46 @@
    "reports": 1
   },
   {
+   "id": "016580",
+   "code": "016580",
+   "name": "환인제약",
+   "industry": "제약·바이오",
+   "rating": "매수",
+   "target_price": 17000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "LS증권",
+   "consensus_tp": 17000,
+   "consensus_n": 1,
+   "brokers": {
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 17000.0,
+     "date": "2026-10-30"
+    }
+   },
+   "price": 10480.0,
+   "price_date": "2026-10-30",
+   "last_tp_change": null,
+   "events": 0,
+   "last_event_date": null,
+   "reports": 1
+  },
+  {
    "id": "017670",
    "code": "017670",
    "name": "SK텔레콤",
    "industry": "통신서비스",
    "rating": "매수",
-   "target_price": 19500.0,
-   "rating_date": "2026-10-19",
-   "rating_broker": "iM증권",
+   "target_price": 140000.0,
+   "rating_date": "2026-10-27",
+   "rating_broker": "하나증권",
    "consensus_tp": 98125,
    "consensus_n": 4,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 140000.0,
-     "date": "2026-10-12"
+     "date": "2026-10-27"
     },
     "미래에셋증권": {
      "rating": "매수",
@@ -2477,8 +2872,8 @@
      "date": "2026-10-19"
     }
    },
-   "price": 14890.0,
-   "price_date": "2026-10-19",
+   "price": 73500.0,
+   "price_date": "2026-10-27",
    "last_tp_change": {
     "date": "2026-04-17",
     "pct": 40.0,
@@ -2486,7 +2881,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 6
+   "reports": 7
   },
   {
    "id": "018250",
@@ -2523,26 +2918,26 @@
    "name": "삼성에스디에스",
    "industry": "소프트웨어·AI",
    "rating": "매수",
-   "target_price": 370000.0,
-   "rating_date": "2026-10-12",
-   "rating_broker": "대신증권",
-   "consensus_tp": 303400,
+   "target_price": 240000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "하나증권",
+   "consensus_tp": 281600,
    "consensus_n": 5,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 240000.0,
-     "date": "2026-10-11"
+     "date": "2026-10-30"
     },
     "미래에셋증권": {
      "rating": "매수",
-     "target_price": 300000.0,
-     "date": "2026-09-18"
+     "target_price": null,
+     "date": "2026-10-30"
     },
     "LS증권": {
      "rating": "매수",
-     "target_price": 307000.0,
-     "date": "2026-10-07"
+     "target_price": 298000.0,
+     "date": "2026-10-30"
     },
     "한화투자증권": {
      "rating": "매수",
@@ -2551,20 +2946,25 @@
     },
     "대신증권": {
      "rating": "매수",
-     "target_price": 370000.0,
-     "date": "2026-10-12"
+     "target_price": 320000.0,
+     "date": "2026-10-30"
+    },
+    "메리츠증권": {
+     "rating": "매수",
+     "target_price": 250000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 195300.0,
-   "price_date": "2026-10-12",
+   "price": 206500.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
-    "date": "2026-07-07",
-    "pct": 9.1,
-    "broker": "하나증권"
+    "date": "2026-10-30",
+    "pct": -2.9,
+    "broker": "LS증권"
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 5
+   "reports": 11
   },
   {
    "id": "018290",
@@ -2753,20 +3153,25 @@
    "name": "롯데쇼핑",
    "industry": "유통·소비재",
    "rating": "매수",
-   "target_price": 120000.0,
-   "rating_date": "2026-10-19",
-   "rating_broker": "하나증권",
-   "consensus_tp": 120000,
-   "consensus_n": 1,
+   "target_price": 119000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "미래에셋증권",
+   "consensus_tp": 119500,
+   "consensus_n": 2,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 120000.0,
      "date": "2026-10-19"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": 119000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 85300.0,
-   "price_date": "2026-10-16",
+   "price": 82300.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2026-10-16",
     "pct": -14.3,
@@ -2774,7 +3179,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 1
+   "reports": 2
   },
   {
    "id": "024110",
@@ -2782,11 +3187,11 @@
    "name": "기업은행",
    "industry": "은행",
    "rating": "매수",
-   "target_price": 28500.0,
-   "rating_date": "2026-10-26",
-   "rating_broker": "하나증권",
-   "consensus_tp": 27250,
-   "consensus_n": 2,
+   "target_price": 25500.0,
+   "rating_date": "2026-10-27",
+   "rating_broker": "유안타증권",
+   "consensus_tp": 26000,
+   "consensus_n": 6,
    "brokers": {
     "하나증권": {
      "rating": "매수",
@@ -2796,11 +3201,31 @@
     "SK증권": {
      "rating": "매수",
      "target_price": 26000.0,
-     "date": "2026-10-07"
+     "date": "2026-10-27"
+    },
+    "IBK투자증권": {
+     "rating": "매수",
+     "target_price": 25000.0,
+     "date": "2026-10-27"
+    },
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 24000.0,
+     "date": "2026-10-27"
+    },
+    "iM증권": {
+     "rating": "매수",
+     "target_price": 27000.0,
+     "date": "2026-10-27"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 25500.0,
+     "date": "2026-10-27"
     }
    },
    "price": 19140.0,
-   "price_date": "2026-10-26",
+   "price_date": "2026-10-27",
    "last_tp_change": {
     "date": "2026-02-11",
     "pct": 14.0,
@@ -2808,7 +3233,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 4
+   "reports": 9
   },
   {
    "id": "025540",
@@ -2910,30 +3335,45 @@
    "name": "삼성물산",
    "industry": "건설",
    "rating": "매수",
-   "target_price": 510000.0,
-   "rating_date": "2026-10-19",
-   "rating_broker": "유안타증권",
-   "consensus_tp": 493333,
-   "consensus_n": 3,
+   "target_price": 520000.0,
+   "rating_date": "2026-10-29",
+   "rating_broker": "한화투자증권",
+   "consensus_tp": 500000,
+   "consensus_n": 5,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 420000.0,
-     "date": "2026-07-30"
+     "date": "2026-10-28"
     },
     "유안타증권": {
      "rating": "매수",
      "target_price": 510000.0,
-     "date": "2026-10-19"
+     "date": "2026-10-29"
     },
     "SK증권": {
      "rating": "매수",
      "target_price": 550000.0,
-     "date": "2026-09-23"
+     "date": "2026-10-29"
+    },
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 500000.0,
+     "date": "2026-10-29"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-29"
+    },
+    "한화투자증권": {
+     "rating": "매수",
+     "target_price": 520000.0,
+     "date": "2026-10-29"
     }
    },
-   "price": 286500.0,
-   "price_date": "2026-10-19",
+   "price": 324500.0,
+   "price_date": "2026-10-29",
    "last_tp_change": {
     "date": "2026-07-30",
     "pct": -35.4,
@@ -2941,7 +3381,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 3
+   "reports": 9
   },
   {
    "id": "028670",
@@ -2993,21 +3433,50 @@
    "reports": 6
   },
   {
+   "id": "029780",
+   "code": "029780",
+   "name": "삼성카드",
+   "industry": "은행",
+   "rating": "매수",
+   "target_price": 60000.0,
+   "rating_date": "2026-10-28",
+   "rating_broker": "하나증권",
+   "consensus_tp": 60000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 60000.0,
+     "date": "2026-10-28"
+    }
+   },
+   "price": 40750.0,
+   "price_date": "2026-10-27",
+   "last_tp_change": {
+    "date": "2026-10-27",
+    "pct": -9.1,
+    "broker": "하나증권"
+   },
+   "events": 1,
+   "last_event_date": "2026-10-27",
+   "reports": 1
+  },
+  {
    "id": "030200",
    "code": "030200",
    "name": "KT",
    "industry": "통신서비스",
    "rating": "매수",
-   "target_price": 73000.0,
-   "rating_date": "2026-10-15",
-   "rating_broker": "유진투자증권",
+   "target_price": 76000.0,
+   "rating_date": "2026-10-27",
+   "rating_broker": "하나증권",
    "consensus_tp": 74000,
    "consensus_n": 4,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 76000.0,
-     "date": "2026-10-12"
+     "date": "2026-10-27"
     },
     "메리츠증권": {
      "rating": "매수",
@@ -3025,8 +3494,8 @@
      "date": "2026-10-15"
     }
    },
-   "price": 49900.0,
-   "price_date": "2026-10-15",
+   "price": 44700.0,
+   "price_date": "2026-10-27",
    "last_tp_change": {
     "date": "2026-01-06",
     "pct": 8.6,
@@ -3034,7 +3503,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 5
+   "reports": 6
   },
   {
    "id": "031430",
@@ -3144,16 +3613,16 @@
    "name": "LG유플러스",
    "industry": "통신서비스",
    "rating": "매수",
-   "target_price": 19000.0,
-   "rating_date": "2026-10-16",
-   "rating_broker": "유진투자증권",
+   "target_price": 20000.0,
+   "rating_date": "2026-10-27",
+   "rating_broker": "하나증권",
    "consensus_tp": 19000,
    "consensus_n": 3,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 20000.0,
-     "date": "2026-10-12"
+     "date": "2026-10-27"
     },
     "메리츠증권": {
      "rating": "매수",
@@ -3166,8 +3635,8 @@
      "date": "2026-10-16"
     }
    },
-   "price": 15070.0,
-   "price_date": "2026-10-16",
+   "price": 13640.0,
+   "price_date": "2026-10-27",
    "last_tp_change": {
     "date": "2026-01-27",
     "pct": 25.0,
@@ -3175,7 +3644,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 4
+   "reports": 5
   },
   {
    "id": "032830",
@@ -3256,28 +3725,53 @@
    "name": "두산에너빌리티",
    "industry": "기계·전력기기",
    "rating": "매수",
-   "target_price": 120000.0,
-   "rating_date": "2026-10-16",
+   "target_price": 100000.0,
+   "rating_date": "2026-10-30",
    "rating_broker": "하나증권",
-   "consensus_tp": 120000,
-   "consensus_n": 1,
+   "consensus_tp": 93800,
+   "consensus_n": 5,
    "brokers": {
     "하나증권": {
      "rating": "매수",
-     "target_price": 120000.0,
-     "date": "2026-10-16"
+     "target_price": 100000.0,
+     "date": "2026-10-30"
+    },
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 95000.0,
+     "date": "2026-10-30"
+    },
+    "대신증권": {
+     "rating": "매수",
+     "target_price": 85000.0,
+     "date": "2026-10-30"
+    },
+    "메리츠증권": {
+     "rating": "매수",
+     "target_price": 109000.0,
+     "date": "2026-10-30"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-30"
+    },
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 80000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 63300.0,
-   "price_date": "2026-10-15",
+   "price": 56700.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
-    "date": "2026-10-15",
+    "date": "2026-10-30",
     "pct": -27.3,
-    "broker": "하나증권"
+    "broker": "유진투자증권"
    },
-   "events": 1,
-   "last_event_date": "2026-10-15",
-   "reports": 1
+   "events": 6,
+   "last_event_date": "2026-10-30",
+   "reports": 8
   },
   {
    "id": "034120",
@@ -3446,16 +3940,16 @@
    "name": "NAVER",
    "industry": "인터넷·플랫폼",
    "rating": "매수",
-   "target_price": 400000.0,
-   "rating_date": "2026-10-20",
-   "rating_broker": "하나증권",
+   "target_price": 293000.0,
+   "rating_date": "2026-10-28",
+   "rating_broker": "LS증권",
    "consensus_tp": 320500,
    "consensus_n": 6,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 400000.0,
-     "date": "2026-10-20"
+     "date": "2026-10-27"
     },
     "미래에셋증권": {
      "rating": "매수",
@@ -3470,7 +3964,7 @@
     "LS증권": {
      "rating": "매수",
      "target_price": 293000.0,
-     "date": "2026-10-01"
+     "date": "2026-10-28"
     },
     "한화투자증권": {
      "rating": "매수",
@@ -3483,16 +3977,16 @@
      "date": "2026-10-07"
     }
    },
-   "price": 178000.0,
-   "price_date": "2026-10-20",
+   "price": 174300.0,
+   "price_date": "2026-10-28",
    "last_tp_change": {
     "date": "2026-06-09",
     "pct": 14.3,
     "broker": "하나증권"
    },
-   "events": 1,
-   "last_event_date": "2026-10-20",
-   "reports": 8
+   "events": 2,
+   "last_event_date": "2026-10-27",
+   "reports": 10
   },
   {
    "id": "035720",
@@ -3564,10 +4058,10 @@
    "name": "JYP Ent.",
    "industry": "미디어·콘텐츠",
    "rating": "매수",
-   "target_price": 50000.0,
-   "rating_date": "2026-10-21",
-   "rating_broker": "유진투자증권",
-   "consensus_tp": 53750,
+   "target_price": 53000.0,
+   "rating_date": "2026-10-29",
+   "rating_broker": "SK증권",
+   "consensus_tp": 50500,
    "consensus_n": 4,
    "brokers": {
     "하나증권": {
@@ -3577,8 +4071,8 @@
     },
     "SK증권": {
      "rating": "매수",
-     "target_price": 66000.0,
-     "date": "2026-09-22"
+     "target_price": 53000.0,
+     "date": "2026-10-29"
     },
     "iM증권": {
      "rating": "매수",
@@ -3591,16 +4085,16 @@
      "date": "2026-10-21"
     }
    },
-   "price": 39600.0,
-   "price_date": "2026-10-21",
+   "price": 40050.0,
+   "price_date": "2026-10-29",
    "last_tp_change": {
-    "date": "2026-10-21",
-    "pct": -23.1,
-    "broker": "유진투자증권"
+    "date": "2026-10-29",
+    "pct": -19.7,
+    "broker": "SK증권"
    },
-   "events": 4,
-   "last_event_date": "2026-10-21",
-   "reports": 4
+   "events": 7,
+   "last_event_date": "2026-10-29",
+   "reports": 5
   },
   {
    "id": "036460",
@@ -3799,17 +4293,47 @@
    "reports": 4
   },
   {
+   "id": "042510",
+   "code": "042510",
+   "name": "라온시큐어",
+   "industry": null,
+   "rating": "NR",
+   "target_price": null,
+   "rating_date": "2026-10-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-29"
+    }
+   },
+   "price": null,
+   "price_date": "2026-10-28",
+   "last_tp_change": null,
+   "events": 0,
+   "last_event_date": null,
+   "reports": 1
+  },
+  {
    "id": "042660",
    "code": "042660",
    "name": "한화오션",
    "industry": "조선",
    "rating": "매수",
    "target_price": 100000.0,
-   "rating_date": "2026-10-14",
-   "rating_broker": "상상인증권",
-   "consensus_tp": 105000,
-   "consensus_n": 2,
+   "rating_date": "2026-10-28",
+   "rating_broker": "하나증권",
+   "consensus_tp": 96667,
+   "consensus_n": 6,
    "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 100000.0,
+     "date": "2026-10-28"
+    },
     "SK증권": {
      "rating": "매수",
      "target_price": 110000.0,
@@ -3819,18 +4343,38 @@
      "rating": "매수",
      "target_price": 100000.0,
      "date": "2026-10-14"
+    },
+    "IBK투자증권": {
+     "rating": "매수",
+     "target_price": 90000.0,
+     "date": "2026-10-28"
+    },
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 90000.0,
+     "date": "2026-10-28"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-28"
+    },
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 90000.0,
+     "date": "2026-10-28"
     }
    },
-   "price": 67300.0,
-   "price_date": "2026-10-14",
+   "price": 53000.0,
+   "price_date": "2026-10-28",
    "last_tp_change": {
-    "date": "2026-10-14",
-    "pct": -17.9,
-    "broker": "SK증권"
+    "date": "2026-10-28",
+    "pct": -34.3,
+    "broker": "유진투자증권"
    },
-   "events": 1,
-   "last_event_date": "2026-10-14",
-   "reports": 2
+   "events": 5,
+   "last_event_date": "2026-10-28",
+   "reports": 7
   },
   {
    "id": "043370",
@@ -3866,44 +4410,59 @@
    "code": "047040",
    "name": "대우건설",
    "industry": "건설",
-   "rating": "매수",
-   "target_price": 24000.0,
-   "rating_date": "2026-10-16",
-   "rating_broker": "유안타증권",
-   "consensus_tp": 24000,
-   "consensus_n": 3,
+   "rating": "매도",
+   "target_price": null,
+   "rating_date": "2026-10-30",
+   "rating_broker": "미래에셋증권",
+   "consensus_tp": 18908,
+   "consensus_n": 6,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 20000.0,
-     "date": "2026-08-05"
+     "date": "2026-10-27"
     },
     "유안타증권": {
      "rating": "매수",
      "target_price": 24000.0,
-     "date": "2026-10-16"
+     "date": "2026-10-28"
     },
     "LS증권": {
      "rating": "매수",
-     "target_price": 28000.0,
-     "date": "2026-10-08"
+     "target_price": 16000.0,
+     "date": "2026-10-30"
     },
     "미래에셋증권": {
-     "rating": "매수",
+     "rating": "매도",
      "target_price": null,
-     "date": "2026-10-13"
+     "date": "2026-10-30"
+    },
+    "대신증권": {
+     "rating": "매수",
+     "target_price": 20000.0,
+     "date": "2026-10-28"
+    },
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 19000.0,
+     "date": "2026-10-28"
+    },
+    "한화투자증권": {
+     "rating": "매수",
+     "target_price": 14450.0,
+     "date": "2026-10-28"
     }
    },
-   "price": 14670.0,
-   "price_date": "2026-10-16",
+   "price": null,
+   "price_date": "2026-10-30",
    "last_tp_change": {
-    "date": "2026-08-05",
-    "pct": -59.2,
-    "broker": "하나증권"
+    "date": "2026-10-30",
+    "pct": -30.4,
+    "broker": "LS증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 4
+   "events": 6,
+   "last_event_date": "2026-10-30",
+   "reports": 13
   },
   {
    "id": "047050",
@@ -4068,20 +4627,25 @@
    "name": "LG생활건강",
    "industry": "화장품",
    "rating": "매수",
-   "target_price": 320000.0,
-   "rating_date": "2026-10-14",
-   "rating_broker": "하나증권",
-   "consensus_tp": 320000,
-   "consensus_n": 1,
+   "target_price": 350000.0,
+   "rating_date": "2026-10-27",
+   "rating_broker": "상상인증권",
+   "consensus_tp": 335000,
+   "consensus_n": 2,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 320000.0,
      "date": "2026-10-14"
+    },
+    "상상인증권": {
+     "rating": "매수",
+     "target_price": 350000.0,
+     "date": "2026-10-27"
     }
    },
-   "price": null,
-   "price_date": null,
+   "price": 257500.0,
+   "price_date": "2026-10-27",
    "last_tp_change": {
     "date": "2026-10-14",
     "pct": -8.6,
@@ -4089,7 +4653,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 0
+   "reports": 1
   },
   {
    "id": "051910",
@@ -4161,16 +4725,16 @@
    "name": "신한지주",
    "industry": "은행",
    "rating": "매수",
-   "target_price": 135000.0,
-   "rating_date": "2026-10-14",
-   "rating_broker": "LS증권",
-   "consensus_tp": 134667,
-   "consensus_n": 3,
+   "target_price": 132000.0,
+   "rating_date": "2026-10-28",
+   "rating_broker": "한화투자증권",
+   "consensus_tp": 133200,
+   "consensus_n": 5,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 135000.0,
-     "date": "2026-10-07"
+     "date": "2026-10-27"
     },
     "SK증권": {
      "rating": "매수",
@@ -4179,20 +4743,30 @@
     },
     "LS증권": {
      "rating": "매수",
-     "target_price": 135000.0,
-     "date": "2026-10-14"
+     "target_price": 125000.0,
+     "date": "2026-10-28"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 140000.0,
+     "date": "2026-10-28"
+    },
+    "한화투자증권": {
+     "rating": "매수",
+     "target_price": 132000.0,
+     "date": "2026-10-28"
     }
    },
-   "price": 99700.0,
-   "price_date": "2026-10-14",
+   "price": 85800.0,
+   "price_date": "2026-10-28",
    "last_tp_change": {
-    "date": "2026-06-15",
-    "pct": 7.1,
-    "broker": "하나증권"
+    "date": "2026-10-28",
+    "pct": -7.4,
+    "broker": "LS증권"
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 3
+   "reports": 7
   },
   {
    "id": "058470",
@@ -4385,19 +4959,19 @@
   {
    "id": "064400",
    "code": "064400",
-   "name": "[인터넷/소프트웨어] LG씨엔에스",
+   "name": "LG씨엔에스",
    "industry": "소프트웨어·AI",
    "rating": "매수",
-   "target_price": 101000.0,
-   "rating_date": "2026-10-16",
-   "rating_broker": "LS증권",
-   "consensus_tp": 100500,
-   "consensus_n": 2,
+   "target_price": null,
+   "rating_date": "2026-10-30",
+   "rating_broker": "미래에셋증권",
+   "consensus_tp": 101000,
+   "consensus_n": 1,
    "brokers": {
     "미래에셋증권": {
      "rating": "매수",
-     "target_price": 100000.0,
-     "date": "2026-09-18"
+     "target_price": null,
+     "date": "2026-10-30"
     },
     "LS증권": {
      "rating": "매수",
@@ -4405,12 +4979,12 @@
      "date": "2026-10-16"
     }
    },
-   "price": 62000.0,
-   "price_date": "2026-10-16",
+   "price": null,
+   "price_date": "2026-10-30",
    "last_tp_change": null,
    "events": 0,
    "last_event_date": null,
-   "reports": 2
+   "reports": 3
   },
   {
    "id": "064850",
@@ -4472,16 +5046,16 @@
    "name": "LG전자",
    "industry": "IT하드웨어·전자부품",
    "rating": "매수",
-   "target_price": 280000.0,
-   "rating_date": "2026-10-08",
-   "rating_broker": "유안타증권",
-   "consensus_tp": 263333,
-   "consensus_n": 3,
+   "target_price": 260000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "하나증권",
+   "consensus_tp": 239167,
+   "consensus_n": 6,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 260000.0,
-     "date": "2026-10-07"
+     "date": "2026-10-30"
     },
     "메리츠증권": {
      "rating": "매수",
@@ -4492,18 +5066,38 @@
      "rating": "매수",
      "target_price": 280000.0,
      "date": "2026-10-08"
+    },
+    "IBK투자증권": {
+     "rating": "매수",
+     "target_price": 200000.0,
+     "date": "2026-10-29"
+    },
+    "SK증권": {
+     "rating": "매수",
+     "target_price": 195000.0,
+     "date": "2026-10-29"
+    },
+    "iM증권": {
+     "rating": "매수",
+     "target_price": 250000.0,
+     "date": "2026-10-29"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-29"
     }
    },
-   "price": 208000.0,
-   "price_date": "2026-10-08",
+   "price": 155200.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
-    "date": "2026-10-08",
-    "pct": 16.7,
-    "broker": "유안타증권"
+    "date": "2026-10-29",
+    "pct": 11.1,
+    "broker": "IBK투자증권"
    },
-   "events": 1,
-   "last_event_date": "2026-10-08",
-   "reports": 3
+   "events": 3,
+   "last_event_date": "2026-10-29",
+   "reports": 9
   },
   {
    "id": "066970",
@@ -4545,16 +5139,16 @@
    "name": "셀트리온",
    "industry": "제약·바이오",
    "rating": "매수",
-   "target_price": 260000.0,
-   "rating_date": "2026-10-23",
-   "rating_broker": "iM증권",
-   "consensus_tp": 273333,
-   "consensus_n": 3,
+   "target_price": 310000.0,
+   "rating_date": "2026-10-28",
+   "rating_broker": "상상인증권",
+   "consensus_tp": 284000,
+   "consensus_n": 5,
    "brokers": {
     "대신증권": {
      "rating": "매수",
-     "target_price": 280000.0,
-     "date": "2026-09-17"
+     "target_price": 290000.0,
+     "date": "2026-10-28"
     },
     "SK증권": {
      "rating": "매수",
@@ -4565,14 +5159,28 @@
      "rating": "매수",
      "target_price": 260000.0,
      "date": "2026-10-23"
+    },
+    "IBK투자증권": {
+     "rating": "매수",
+     "target_price": 280000.0,
+     "date": "2026-10-28"
+    },
+    "상상인증권": {
+     "rating": "매수",
+     "target_price": 310000.0,
+     "date": "2026-10-28"
     }
    },
-   "price": 194300.0,
-   "price_date": "2026-10-23",
-   "last_tp_change": null,
+   "price": 188600.0,
+   "price_date": "2026-10-28",
+   "last_tp_change": {
+    "date": "2026-10-28",
+    "pct": 3.6,
+    "broker": "대신증권"
+   },
    "events": 0,
    "last_event_date": null,
-   "reports": 3
+   "reports": 6
   },
   {
    "id": "069960",
@@ -4580,11 +5188,11 @@
    "name": "현대백화점",
    "industry": "유통·소비재",
    "rating": "매수",
-   "target_price": 120000.0,
-   "rating_date": "2026-10-19",
-   "rating_broker": "하나증권",
-   "consensus_tp": 120000,
-   "consensus_n": 2,
+   "target_price": 128000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "미래에셋증권",
+   "consensus_tp": 122667,
+   "consensus_n": 3,
    "brokers": {
     "하나증권": {
      "rating": "매수",
@@ -4595,10 +5203,15 @@
      "rating": "매수",
      "target_price": 120000.0,
      "date": "2026-10-06"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": 128000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 88800.0,
-   "price_date": "2026-10-06",
+   "price": 75100.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2026-10-19",
     "pct": -14.3,
@@ -4606,7 +5219,7 @@
    },
    "events": 2,
    "last_event_date": "2026-10-19",
-   "reports": 1
+   "reports": 2
   },
   {
    "id": "071050",
@@ -4638,33 +5251,87 @@
    "reports": 1
   },
   {
+   "id": "071970",
+   "code": "071970",
+   "name": "HD현대마린엔진",
+   "industry": null,
+   "rating": "매수",
+   "target_price": 80000.0,
+   "rating_date": "2026-10-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": 73333,
+   "consensus_n": 3,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 80000.0,
+     "date": "2026-10-29"
+    },
+    "SK증권": {
+     "rating": "매수",
+     "target_price": 70000.0,
+     "date": "2026-10-29"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-29"
+    },
+    "상상인증권": {
+     "rating": "매수",
+     "target_price": 70000.0,
+     "date": "2026-10-29"
+    }
+   },
+   "price": 40700.0,
+   "price_date": "2026-10-29",
+   "last_tp_change": {
+    "date": "2026-10-29",
+    "pct": -33.3,
+    "broker": "하나증권"
+   },
+   "events": 4,
+   "last_event_date": "2026-10-29",
+   "reports": 3
+  },
+  {
    "id": "073240",
    "code": "073240",
    "name": "금호타이어",
    "industry": "자동차·부품",
    "rating": "매수",
-   "target_price": 7700.0,
-   "rating_date": "2026-10-19",
-   "rating_broker": "하나증권",
-   "consensus_tp": 7700,
-   "consensus_n": 1,
+   "target_price": 8300.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "한화투자증권",
+   "consensus_tp": 8000,
+   "consensus_n": 3,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 7700.0,
-     "date": "2026-10-19"
+     "date": "2026-10-30"
+    },
+    "대신증권": {
+     "rating": "매수",
+     "target_price": 8000.0,
+     "date": "2026-10-30"
+    },
+    "한화투자증권": {
+     "rating": "매수",
+     "target_price": 8300.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 6100.0,
-   "price_date": "2026-10-18",
+   "price": 5170.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2026-10-17",
     "pct": -7.2,
     "broker": "하나증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 2
+   "events": 2,
+   "last_event_date": "2026-10-29",
+   "reports": 6
   },
   {
    "id": "073490",
@@ -4889,6 +5556,31 @@
    "reports": 1
   },
   {
+   "id": "083500",
+   "code": "083500",
+   "name": "에프엔에스테크",
+   "industry": null,
+   "rating": "매수",
+   "target_price": 23500.0,
+   "rating_date": "2026-10-29",
+   "rating_broker": "SK증권",
+   "consensus_tp": 23500,
+   "consensus_n": 1,
+   "brokers": {
+    "SK증권": {
+     "rating": "매수",
+     "target_price": 23500.0,
+     "date": "2026-10-29"
+    }
+   },
+   "price": 13880.0,
+   "price_date": "2026-10-29",
+   "last_tp_change": null,
+   "events": 0,
+   "last_event_date": null,
+   "reports": 1
+  },
+  {
    "id": "083650",
    "code": "083650",
    "name": "비에이치아이",
@@ -4919,12 +5611,17 @@
    "name": "현대글로비스",
    "industry": "운송",
    "rating": "매수",
-   "target_price": 340000.0,
-   "rating_date": "2026-10-14",
-   "rating_broker": "메리츠증권",
-   "consensus_tp": 340000,
-   "consensus_n": 4,
+   "target_price": 280000.0,
+   "rating_date": "2026-11-02",
+   "rating_broker": "하나증권",
+   "consensus_tp": 328000,
+   "consensus_n": 5,
    "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 280000.0,
+     "date": "2026-11-02"
+    },
     "LS증권": {
      "rating": "매수",
      "target_price": 320000.0,
@@ -4944,14 +5641,23 @@
      "rating": "매수",
      "target_price": 340000.0,
      "date": "2026-10-14"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-30"
     }
    },
-   "price": 180600.0,
-   "price_date": "2026-10-14",
-   "last_tp_change": null,
+   "price": 183800.0,
+   "price_date": "2026-10-30",
+   "last_tp_change": {
+    "date": "2026-10-30",
+    "pct": -9.7,
+    "broker": "하나증권"
+   },
    "events": 0,
    "last_event_date": null,
-   "reports": 4
+   "reports": 6
   },
   {
    "id": "086450",
@@ -5018,11 +5724,11 @@
    "name": "하나금융",
    "industry": "은행",
    "rating": "매수",
-   "target_price": 165000.0,
-   "rating_date": "2026-10-26",
-   "rating_broker": "한화투자증권",
-   "consensus_tp": 166000,
-   "consensus_n": 3,
+   "target_price": 175000.0,
+   "rating_date": "2026-10-28",
+   "rating_broker": "유안타증권",
+   "consensus_tp": 168250,
+   "consensus_n": 4,
    "brokers": {
     "하나증권": {
      "rating": "매수",
@@ -5038,10 +5744,15 @@
      "rating": "매수",
      "target_price": 165000.0,
      "date": "2026-10-26"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 175000.0,
+     "date": "2026-10-28"
     }
    },
-   "price": 116300.0,
-   "price_date": "2026-10-26",
+   "price": 113300.0,
+   "price_date": "2026-10-28",
    "last_tp_change": {
     "date": "2026-07-07",
     "pct": 5.7,
@@ -5049,7 +5760,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 3
+   "reports": 4
   },
   {
    "id": "088350",
@@ -5174,30 +5885,50 @@
    "name": "아모레퍼시픽",
    "industry": "화장품",
    "rating": "매수",
-   "target_price": 180000.0,
-   "rating_date": "2026-10-08",
-   "rating_broker": "SK증권",
-   "consensus_tp": 180000,
-   "consensus_n": 3,
+   "target_price": 200000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "한화투자증권",
+   "consensus_tp": 185714,
+   "consensus_n": 7,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 170000.0,
-     "date": "2026-07-31"
+     "date": "2026-10-30"
     },
     "LS증권": {
      "rating": "매수",
      "target_price": 190000.0,
-     "date": "2026-10-06"
+     "date": "2026-10-30"
     },
     "SK증권": {
      "rating": "매수",
      "target_price": 180000.0,
-     "date": "2026-10-08"
+     "date": "2026-10-30"
+    },
+    "IBK투자증권": {
+     "rating": "매수",
+     "target_price": 200000.0,
+     "date": "2026-10-30"
+    },
+    "메리츠증권": {
+     "rating": "매수",
+     "target_price": 180000.0,
+     "date": "2026-10-30"
+    },
+    "상상인증권": {
+     "rating": "매수",
+     "target_price": 180000.0,
+     "date": "2026-10-30"
+    },
+    "한화투자증권": {
+     "rating": "매수",
+     "target_price": 200000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 138500.0,
-   "price_date": "2026-10-08",
+   "price": 124400.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2026-07-31",
     "pct": 13.3,
@@ -5205,7 +5936,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 2
+   "reports": 9
   },
   {
    "id": "092730",
@@ -5258,6 +5989,74 @@
    "reports": 1
   },
   {
+   "id": "094360",
+   "code": "094360",
+   "name": "칩스앤미디어",
+   "industry": null,
+   "rating": "매수",
+   "target_price": 17400.0,
+   "rating_date": "2026-10-28",
+   "rating_broker": "유진투자증권",
+   "consensus_tp": 17400,
+   "consensus_n": 1,
+   "brokers": {
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 17400.0,
+     "date": "2026-10-28"
+    }
+   },
+   "price": 11970.0,
+   "price_date": "2026-10-28",
+   "last_tp_change": {
+    "date": "2026-10-28",
+    "pct": -33.1,
+    "broker": "유진투자증권"
+   },
+   "events": 1,
+   "last_event_date": "2026-10-28",
+   "reports": 1
+  },
+  {
+   "id": "095340",
+   "code": "095340",
+   "name": "ISC",
+   "industry": null,
+   "rating": "매수",
+   "target_price": 210000.0,
+   "rating_date": "2026-10-28",
+   "rating_broker": "메리츠증권",
+   "consensus_tp": 213333,
+   "consensus_n": 3,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 250000.0,
+     "date": "2026-10-27"
+    },
+    "IBK투자증권": {
+     "rating": "매수",
+     "target_price": 180000.0,
+     "date": "2026-10-28"
+    },
+    "메리츠증권": {
+     "rating": "매수",
+     "target_price": 210000.0,
+     "date": "2026-10-28"
+    }
+   },
+   "price": 151300.0,
+   "price_date": "2026-10-28",
+   "last_tp_change": {
+    "date": "2026-06-23",
+    "pct": 38.9,
+    "broker": "하나증권"
+   },
+   "events": 0,
+   "last_event_date": null,
+   "reports": 3
+  },
+  {
    "id": "095660",
    "code": "095660",
    "name": "[게임] 네오위즈",
@@ -5288,16 +6087,16 @@
    "name": "SK이노베이션",
    "industry": "정유·화학",
    "rating": "매수",
-   "target_price": 250000.0,
-   "rating_date": "2026-10-23",
-   "rating_broker": "iM증권",
-   "consensus_tp": 216750,
-   "consensus_n": 4,
+   "target_price": 220000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "하나증권",
+   "consensus_tp": 208400,
+   "consensus_n": 5,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 220000.0,
-     "date": "2026-10-12"
+     "date": "2026-10-30"
     },
     "LS증권": {
      "rating": "매수",
@@ -5312,19 +6111,24 @@
     "iM증권": {
      "rating": "매수",
      "target_price": 250000.0,
-     "date": "2026-10-23"
+     "date": "2026-10-30"
+    },
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 175000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 140500.0,
-   "price_date": "2026-10-23",
+   "price": 129800.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2026-10-11",
     "pct": 10.0,
     "broker": "하나증권"
    },
-   "events": 6,
-   "last_event_date": "2026-10-11",
-   "reports": 5
+   "events": 8,
+   "last_event_date": "2026-10-29",
+   "reports": 9
   },
   {
    "id": "097950",
@@ -5450,25 +6254,45 @@
    "name": "KB금융",
    "industry": "은행",
    "rating": "매수",
-   "target_price": 213000.0,
-   "rating_date": "2026-10-07",
-   "rating_broker": "SK증권",
-   "consensus_tp": 224000,
-   "consensus_n": 2,
+   "target_price": 220000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "한화투자증권",
+   "consensus_tp": 220500,
+   "consensus_n": 6,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 235000.0,
-     "date": "2026-09-14"
+     "date": "2026-10-30"
     },
     "SK증권": {
      "rating": "매수",
      "target_price": 213000.0,
-     "date": "2026-10-07"
+     "date": "2026-10-30"
+    },
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 215000.0,
+     "date": "2026-10-30"
+    },
+    "iM증권": {
+     "rating": "매수",
+     "target_price": 205000.0,
+     "date": "2026-10-30"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 235000.0,
+     "date": "2026-10-30"
+    },
+    "한화투자증권": {
+     "rating": "매수",
+     "target_price": 220000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 166900.0,
-   "price_date": "2026-10-07",
+   "price": 156800.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2026-09-13",
     "pct": 6.8,
@@ -5476,7 +6300,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 1
+   "reports": 8
   },
   {
    "id": "105630",
@@ -5539,6 +6363,31 @@
    },
    "events": 1,
    "last_event_date": "2026-10-14",
+   "reports": 1
+  },
+  {
+   "id": "108490",
+   "code": "108490",
+   "name": "로보티즈",
+   "industry": null,
+   "rating": "매수",
+   "target_price": 350000.0,
+   "rating_date": "2026-10-27",
+   "rating_broker": "한화투자증권",
+   "consensus_tp": 350000,
+   "consensus_n": 1,
+   "brokers": {
+    "한화투자증권": {
+     "rating": "매수",
+     "target_price": 350000.0,
+     "date": "2026-10-27"
+    }
+   },
+   "price": 246500.0,
+   "price_date": "2026-10-27",
+   "last_tp_change": null,
+   "events": 0,
+   "last_event_date": null,
    "reports": 1
   },
   {
@@ -5688,6 +6537,31 @@
    "reports": 1
   },
   {
+   "id": "119610",
+   "code": "119610",
+   "name": "인터로조",
+   "industry": null,
+   "rating": "NR",
+   "target_price": null,
+   "rating_date": "2026-10-30",
+   "rating_broker": "대신증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "대신증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-30"
+    }
+   },
+   "price": 14240.0,
+   "price_date": "2026-10-30",
+   "last_tp_change": null,
+   "events": 0,
+   "last_event_date": null,
+   "reports": 1
+  },
+  {
    "id": "122870",
    "code": "122870",
    "name": "와이지엔터테인먼트",
@@ -5826,11 +6700,11 @@
    "name": "한미약품",
    "industry": "제약·바이오",
    "rating": "매수",
-   "target_price": 600000.0,
-   "rating_date": "2026-10-21",
-   "rating_broker": "iM증권",
-   "consensus_tp": 672500,
-   "consensus_n": 4,
+   "target_price": null,
+   "rating_date": "2026-10-28",
+   "rating_broker": "미래에셋증권",
+   "consensus_tp": 680000,
+   "consensus_n": 5,
    "brokers": {
     "하나증권": {
      "rating": "매수",
@@ -5851,10 +6725,20 @@
      "rating": "매수",
      "target_price": 600000.0,
      "date": "2026-10-21"
+    },
+    "메리츠증권": {
+     "rating": "매수",
+     "target_price": 710000.0,
+     "date": "2026-10-28"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-28"
     }
    },
-   "price": 378500.0,
-   "price_date": "2026-10-21",
+   "price": null,
+   "price_date": "2026-10-28",
    "last_tp_change": {
     "date": "2026-10-21",
     "pct": -7.7,
@@ -5862,7 +6746,7 @@
    },
    "events": 1,
    "last_event_date": "2026-10-13",
-   "reports": 4
+   "reports": 6
   },
   {
    "id": "131290",
@@ -5949,28 +6833,78 @@
    "name": "BNK금융",
    "industry": "은행",
    "rating": "매수",
-   "target_price": 21000.0,
+   "target_price": 19000.0,
    "rating_date": "2026-10-27",
-   "rating_broker": "하나증권",
-   "consensus_tp": 21000,
-   "consensus_n": 1,
+   "rating_broker": "한화투자증권",
+   "consensus_tp": 18700,
+   "consensus_n": 5,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 21000.0,
      "date": "2026-10-27"
+    },
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 18500.0,
+     "date": "2026-10-27"
+    },
+    "iM증권": {
+     "rating": "매수",
+     "target_price": 17000.0,
+     "date": "2026-10-27"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 18000.0,
+     "date": "2026-10-27"
+    },
+    "한화투자증권": {
+     "rating": "매수",
+     "target_price": 19000.0,
+     "date": "2026-10-27"
     }
    },
    "price": 11780.0,
-   "price_date": "2026-10-26",
+   "price_date": "2026-10-27",
    "last_tp_change": {
-    "date": "2026-10-26",
-    "pct": -14.3,
-    "broker": "하나증권"
+    "date": "2026-10-27",
+    "pct": -12.2,
+    "broker": "유안타증권"
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 1
+   "reports": 5
+  },
+  {
+   "id": "139130",
+   "code": "139130",
+   "name": "iM금융지주",
+   "industry": null,
+   "rating": "매수",
+   "target_price": 24000.0,
+   "rating_date": "2026-10-28",
+   "rating_broker": "유안타증권",
+   "consensus_tp": 22500,
+   "consensus_n": 2,
+   "brokers": {
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 21000.0,
+     "date": "2026-10-28"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 24000.0,
+     "date": "2026-10-28"
+    }
+   },
+   "price": 14880.0,
+   "price_date": "2026-10-28",
+   "last_tp_change": null,
+   "events": 0,
+   "last_event_date": null,
+   "reports": 2
   },
   {
    "id": "139480",
@@ -6061,6 +6995,31 @@
    "reports": 1
   },
   {
+   "id": "144960",
+   "code": "144960",
+   "name": "뉴파워프라즈마",
+   "industry": null,
+   "rating": "NR",
+   "target_price": null,
+   "rating_date": "2026-10-28",
+   "rating_broker": "하나증권",
+   "consensus_tp": 9160,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-28"
+    }
+   },
+   "price": null,
+   "price_date": "2026-10-27",
+   "last_tp_change": null,
+   "events": 1,
+   "last_event_date": "2026-10-28",
+   "reports": 1
+  },
+  {
    "id": "145020",
    "code": "145020",
    "name": "휴젤",
@@ -6145,38 +7104,93 @@
    "reports": 0
   },
   {
+   "id": "160190",
+   "code": "160190",
+   "name": "하이젠알앤엠",
+   "industry": null,
+   "rating": "NR",
+   "target_price": null,
+   "rating_date": "2026-10-28",
+   "rating_broker": "미래에셋증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "미래에셋증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-28"
+    }
+   },
+   "price": null,
+   "price_date": "2026-10-28",
+   "last_tp_change": null,
+   "events": 0,
+   "last_event_date": null,
+   "reports": 1
+  },
+  {
    "id": "161390",
    "code": "161390",
    "name": "한국타이어앤테크놀로지",
    "industry": "자동차·부품",
    "rating": "매수",
    "target_price": 80000.0,
-   "rating_date": "2026-10-26",
-   "rating_broker": "유진투자증권",
-   "consensus_tp": 82500,
-   "consensus_n": 2,
+   "rating_date": "2026-10-28",
+   "rating_broker": "하나증권",
+   "consensus_tp": 86667,
+   "consensus_n": 3,
    "brokers": {
     "하나증권": {
      "rating": "매수",
-     "target_price": 85000.0,
-     "date": "2026-10-12"
+     "target_price": 80000.0,
+     "date": "2026-10-28"
     },
     "유진투자증권": {
      "rating": "매수",
      "target_price": 80000.0,
      "date": "2026-10-26"
+    },
+    "메리츠증권": {
+     "rating": "매수",
+     "target_price": 100000.0,
+     "date": "2026-10-28"
     }
    },
-   "price": 60100.0,
-   "price_date": "2026-10-26",
+   "price": 56800.0,
+   "price_date": "2026-10-28",
    "last_tp_change": {
-    "date": "2026-08-12",
-    "pct": 6.2,
+    "date": "2026-10-28",
+    "pct": -5.9,
     "broker": "하나증권"
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 2
+   "reports": 3
+  },
+  {
+   "id": "161580",
+   "code": "161580",
+   "name": "필옵틱스",
+   "industry": "반도체",
+   "rating": "NR",
+   "target_price": null,
+   "rating_date": "2026-10-30",
+   "rating_broker": "상상인증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "상상인증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-30"
+    }
+   },
+   "price": 28800.0,
+   "price_date": "2026-10-30",
+   "last_tp_change": null,
+   "events": 0,
+   "last_event_date": null,
+   "reports": 1
   },
   {
    "id": "161890",
@@ -6252,14 +7266,48 @@
    "reports": 1
   },
   {
+   "id": "170900",
+   "code": "170900",
+   "name": "동아에스티",
+   "industry": null,
+   "rating": "매수",
+   "target_price": 51000.0,
+   "rating_date": "2026-10-28",
+   "rating_broker": "유안타증권",
+   "consensus_tp": 50500,
+   "consensus_n": 2,
+   "brokers": {
+    "상상인증권": {
+     "rating": "매수",
+     "target_price": 50000.0,
+     "date": "2026-10-28"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 51000.0,
+     "date": "2026-10-28"
+    }
+   },
+   "price": 34900.0,
+   "price_date": "2026-10-28",
+   "last_tp_change": {
+    "date": "2026-10-28",
+    "pct": -15.0,
+    "broker": "유안타증권"
+   },
+   "events": 2,
+   "last_event_date": "2026-10-28",
+   "reports": 2
+  },
+  {
    "id": "171090",
    "code": "171090",
    "name": "선익시스템",
    "industry": "디스플레이",
-   "rating": "매수",
-   "target_price": 94000.0,
-   "rating_date": "2026-10-22",
-   "rating_broker": "메리츠증권",
+   "rating": "NR",
+   "target_price": null,
+   "rating_date": "2026-10-29",
+   "rating_broker": "하나증권",
    "consensus_tp": 94000,
    "consensus_n": 1,
    "brokers": {
@@ -6267,6 +7315,11 @@
      "rating": "매수",
      "target_price": 94000.0,
      "date": "2026-10-22"
+    },
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-29"
     }
    },
    "price": 83500.0,
@@ -6300,6 +7353,40 @@
    "events": 0,
    "last_event_date": null,
    "reports": 0
+  },
+  {
+   "id": "175330",
+   "code": "175330",
+   "name": "JB금융지주",
+   "industry": null,
+   "rating": "매수",
+   "target_price": 38000.0,
+   "rating_date": "2026-10-29",
+   "rating_broker": "유안타증권",
+   "consensus_tp": 35500,
+   "consensus_n": 2,
+   "brokers": {
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 33000.0,
+     "date": "2026-10-28"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 38000.0,
+     "date": "2026-10-29"
+    }
+   },
+   "price": 24300.0,
+   "price_date": "2026-10-29",
+   "last_tp_change": {
+    "date": "2026-10-28",
+    "pct": -8.3,
+    "broker": "LS증권"
+   },
+   "events": 0,
+   "last_event_date": null,
+   "reports": 2
   },
   {
    "id": "178320",
@@ -6529,33 +7616,38 @@
    "name": "해성디에스",
    "industry": "IT하드웨어·전자부품",
    "rating": "매수",
-   "target_price": 80000.0,
-   "rating_date": "2026-10-08",
-   "rating_broker": "유안타증권",
-   "consensus_tp": 78500,
+   "target_price": null,
+   "rating_date": "2026-10-30",
+   "rating_broker": "미래에셋증권",
+   "consensus_tp": 75000,
    "consensus_n": 2,
    "brokers": {
     "메리츠증권": {
      "rating": "매수",
-     "target_price": 77000.0,
-     "date": "2026-09-21"
+     "target_price": 70000.0,
+     "date": "2026-10-30"
     },
     "유안타증권": {
      "rating": "매수",
      "target_price": 80000.0,
      "date": "2026-10-08"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-30"
     }
    },
-   "price": 64700.0,
-   "price_date": "2026-10-08",
+   "price": null,
+   "price_date": "2026-10-30",
    "last_tp_change": {
-    "date": "2026-10-08",
-    "pct": 6.7,
-    "broker": "유안타증권"
+    "date": "2026-10-30",
+    "pct": -9.1,
+    "broker": "메리츠증권"
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 2
+   "reports": 4
   },
   {
    "id": "195940",
@@ -6563,9 +7655,9 @@
    "name": "HK이노엔",
    "industry": "제약·바이오",
    "rating": "매수",
-   "target_price": 57000.0,
-   "rating_date": "2026-10-15",
-   "rating_broker": "상상인증권",
+   "target_price": null,
+   "rating_date": "2026-10-28",
+   "rating_broker": "미래에셋증권",
    "consensus_tp": 57000,
    "consensus_n": 1,
    "brokers": {
@@ -6573,10 +7665,15 @@
      "rating": "매수",
      "target_price": 57000.0,
      "date": "2026-10-15"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-28"
     }
    },
-   "price": 36000.0,
-   "price_date": "2026-10-15",
+   "price": null,
+   "price_date": "2026-10-28",
    "last_tp_change": {
     "date": "2026-10-15",
     "pct": -12.3,
@@ -6584,7 +7681,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 1
+   "reports": 2
   },
   {
    "id": "196170",
@@ -6754,25 +7851,64 @@
    "reports": 1
   },
   {
+   "id": "214450",
+   "code": "214450",
+   "name": "파마리서치",
+   "industry": null,
+   "rating": "매수",
+   "target_price": 460000.0,
+   "rating_date": "2026-10-29",
+   "rating_broker": "대신증권",
+   "consensus_tp": 440000,
+   "consensus_n": 2,
+   "brokers": {
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 420000.0,
+     "date": "2026-10-29"
+    },
+    "대신증권": {
+     "rating": "매수",
+     "target_price": 460000.0,
+     "date": "2026-10-29"
+    }
+   },
+   "price": 228500.0,
+   "price_date": "2026-10-29",
+   "last_tp_change": {
+    "date": "2026-10-29",
+    "pct": -22.2,
+    "broker": "LS증권"
+   },
+   "events": 1,
+   "last_event_date": "2026-10-29",
+   "reports": 2
+  },
+  {
    "id": "218410",
    "code": "218410",
    "name": "알에프에이치아이씨",
    "industry": "통신장비",
    "rating": "매수",
-   "target_price": 150000.0,
-   "rating_date": "2026-03-31",
-   "rating_broker": "하나증권",
-   "consensus_tp": 150000,
+   "target_price": 72000.0,
+   "rating_date": "2026-10-28",
+   "rating_broker": "유진투자증권",
+   "consensus_tp": 72000,
    "consensus_n": 1,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 150000.0,
      "date": "2026-03-31"
+    },
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 72000.0,
+     "date": "2026-10-28"
     }
    },
-   "price": null,
-   "price_date": null,
+   "price": 46900.0,
+   "price_date": "2026-10-28",
    "last_tp_change": {
     "date": "2026-03-31",
     "pct": 50.0,
@@ -6780,7 +7916,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 0
+   "reports": 1
   },
   {
    "id": "219130",
@@ -6966,33 +8102,58 @@
    "name": "에스티팜",
    "industry": "제약·바이오",
    "rating": "매수",
-   "target_price": 170000.0,
-   "rating_date": "2026-09-21",
-   "rating_broker": "대신증권",
-   "consensus_tp": 180000,
-   "consensus_n": 2,
+   "target_price": 160000.0,
+   "rating_date": "2026-10-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": 161667,
+   "consensus_n": 6,
    "brokers": {
     "하나증권": {
      "rating": "매수",
-     "target_price": 190000.0,
-     "date": "2026-07-29"
+     "target_price": 160000.0,
+     "date": "2026-10-29"
     },
     "대신증권": {
      "rating": "매수",
-     "target_price": 170000.0,
-     "date": "2026-09-21"
+     "target_price": 150000.0,
+     "date": "2026-10-28"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-27"
+    },
+    "IBK투자증권": {
+     "rating": "매수",
+     "target_price": 150000.0,
+     "date": "2026-10-28"
+    },
+    "메리츠증권": {
+     "rating": "매수",
+     "target_price": 190000.0,
+     "date": "2026-10-28"
+    },
+    "상상인증권": {
+     "rating": "매수",
+     "target_price": 140000.0,
+     "date": "2026-10-28"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 180000.0,
+     "date": "2026-10-28"
     }
    },
-   "price": 92700.0,
-   "price_date": "2026-09-21",
+   "price": 77200.0,
+   "price_date": "2026-10-28",
    "last_tp_change": {
-    "date": "2026-07-29",
-    "pct": -9.5,
+    "date": "2026-10-28",
+    "pct": -15.8,
     "broker": "하나증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 1
+   "events": 5,
+   "last_event_date": "2026-10-28",
+   "reports": 8
   },
   {
    "id": "237880",
@@ -7245,30 +8406,30 @@
    "code": "252990",
    "name": "샘씨엔에스",
    "industry": "반도체",
-   "rating": "매수",
-   "target_price": 25000.0,
-   "rating_date": "2026-10-20",
-   "rating_broker": "LS증권",
+   "rating": "NR",
+   "target_price": null,
+   "rating_date": "2026-10-28",
+   "rating_broker": "메리츠증권",
    "consensus_tp": 25000,
    "consensus_n": 1,
    "brokers": {
     "메리츠증권": {
      "rating": "NR",
      "target_price": null,
-     "date": "2026-09-28"
+     "date": "2026-10-28"
     },
     "LS증권": {
      "rating": "매수",
      "target_price": 25000.0,
-     "date": "2026-10-20"
+     "date": "2026-10-28"
     }
    },
-   "price": 15850.0,
-   "price_date": "2026-10-20",
+   "price": 15960.0,
+   "price_date": "2026-10-28",
    "last_tp_change": null,
    "events": 0,
    "last_event_date": null,
-   "reports": 2
+   "reports": 4
   },
   {
    "id": "253450",
@@ -7473,9 +8634,9 @@
    "name": "HD현대",
    "industry": "정유·화학",
    "rating": "매수",
-   "target_price": 321000.0,
-   "rating_date": "2026-09-30",
-   "rating_broker": "LS증권",
+   "target_price": null,
+   "rating_date": "2026-10-29",
+   "rating_broker": "미래에셋증권",
    "consensus_tp": 321000,
    "consensus_n": 1,
    "brokers": {
@@ -7483,14 +8644,19 @@
      "rating": "매수",
      "target_price": 321000.0,
      "date": "2026-09-30"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-29"
     }
    },
-   "price": 201500.0,
-   "price_date": "2026-09-30",
+   "price": null,
+   "price_date": "2026-10-29",
    "last_tp_change": null,
    "events": 0,
    "last_event_date": null,
-   "reports": 1
+   "reports": 2
   },
   {
    "id": "267260",
@@ -7498,53 +8664,63 @@
    "name": "HD현대일렉트릭",
    "industry": "기계·전력기기",
    "rating": "매수",
-   "target_price": 650000.0,
-   "rating_date": "2026-10-19",
-   "rating_broker": "SK증권",
-   "consensus_tp": 1014167,
-   "consensus_n": 6,
+   "target_price": 800000.0,
+   "rating_date": "2026-10-28",
+   "rating_broker": "한화투자증권",
+   "consensus_tp": 801429,
+   "consensus_n": 7,
    "brokers": {
     "하나증권": {
      "rating": "매수",
-     "target_price": 1150000.0,
-     "date": "2026-10-07"
+     "target_price": 900000.0,
+     "date": "2026-10-28"
     },
     "대신증권": {
      "rating": "매수",
-     "target_price": 1020000.0,
-     "date": "2026-10-07"
+     "target_price": 720000.0,
+     "date": "2026-10-28"
     },
     "유안타증권": {
      "rating": "매수",
-     "target_price": 1165000.0,
-     "date": "2026-10-07"
+     "target_price": 940000.0,
+     "date": "2026-10-28"
     },
     "한화투자증권": {
      "rating": "매수",
-     "target_price": 1000000.0,
-     "date": "2026-10-12"
+     "target_price": 800000.0,
+     "date": "2026-10-28"
     },
     "미래에셋증권": {
      "rating": "매수",
-     "target_price": 1100000.0,
-     "date": "2026-10-13"
+     "target_price": null,
+     "date": "2026-10-27"
     },
     "SK증권": {
      "rating": "매수",
      "target_price": 650000.0,
      "date": "2026-10-19"
+    },
+    "IBK투자증권": {
+     "rating": "매수",
+     "target_price": 850000.0,
+     "date": "2026-10-28"
+    },
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 750000.0,
+     "date": "2026-10-28"
     }
    },
-   "price": 516000.0,
-   "price_date": "2026-10-19",
+   "price": 450000.0,
+   "price_date": "2026-10-28",
    "last_tp_change": {
-    "date": "2026-10-13",
-    "pct": -8.3,
-    "broker": "미래에셋증권"
+    "date": "2026-10-28",
+    "pct": -20.0,
+    "broker": "한화투자증권"
    },
-   "events": 1,
-   "last_event_date": "2026-10-06",
-   "reports": 6
+   "events": 9,
+   "last_event_date": "2026-10-28",
+   "reports": 13
   },
   {
    "id": "267270",
@@ -7552,24 +8728,28 @@
    "name": "HD건설기계",
    "industry": "기계·전력기기",
    "rating": "매수",
-   "target_price": 180000.0,
-   "rating_date": "2026-10-14",
+   "target_price": 160000.0,
+   "rating_date": "2026-10-27",
    "rating_broker": "대신증권",
-   "consensus_tp": 180000,
+   "consensus_tp": 160000,
    "consensus_n": 1,
    "brokers": {
     "대신증권": {
      "rating": "매수",
-     "target_price": 180000.0,
-     "date": "2026-10-14"
+     "target_price": 160000.0,
+     "date": "2026-10-27"
     }
    },
-   "price": 99900.0,
-   "price_date": "2026-10-14",
-   "last_tp_change": null,
+   "price": 81800.0,
+   "price_date": "2026-10-27",
+   "last_tp_change": {
+    "date": "2026-10-27",
+    "pct": -11.1,
+    "broker": "대신증권"
+   },
    "events": 0,
    "last_event_date": null,
-   "reports": 1
+   "reports": 2
   },
   {
    "id": "271560",
@@ -7611,24 +8791,53 @@
    "name": "한화시스템",
    "industry": "우주항공·방산",
    "rating": "매수",
-   "target_price": 136000.0,
-   "rating_date": "2026-10-06",
-   "rating_broker": "유안타증권",
-   "consensus_tp": 136000,
-   "consensus_n": 1,
+   "target_price": 100000.0,
+   "rating_date": "2026-10-29",
+   "rating_broker": "LS증권",
+   "consensus_tp": 99167,
+   "consensus_n": 6,
    "brokers": {
     "유안타증권": {
      "rating": "매수",
-     "target_price": 136000.0,
-     "date": "2026-10-06"
+     "target_price": 109000.0,
+     "date": "2026-10-28"
+    },
+    "대신증권": {
+     "rating": "매수",
+     "target_price": 96000.0,
+     "date": "2026-10-28"
+    },
+    "상상인증권": {
+     "rating": "매수",
+     "target_price": 90000.0,
+     "date": "2026-10-28"
+    },
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 100000.0,
+     "date": "2026-10-28"
+    },
+    "한화투자증권": {
+     "rating": "매수",
+     "target_price": 100000.0,
+     "date": "2026-10-28"
+    },
+    "LS증권": {
+     "rating": "매수",
+     "target_price": 100000.0,
+     "date": "2026-10-29"
     }
    },
-   "price": 82900.0,
-   "price_date": "2026-10-06",
-   "last_tp_change": null,
-   "events": 0,
-   "last_event_date": null,
-   "reports": 1
+   "price": 66200.0,
+   "price_date": "2026-10-29",
+   "last_tp_change": {
+    "date": "2026-10-28",
+    "pct": -19.9,
+    "broker": "유안타증권"
+   },
+   "events": 1,
+   "last_event_date": "2026-10-28",
+   "reports": 7
   },
   {
    "id": "272450",
@@ -7637,10 +8846,10 @@
    "industry": "운송",
    "rating": "매수",
    "target_price": 8000.0,
-   "rating_date": "2026-10-26",
-   "rating_broker": "상상인증권",
-   "consensus_tp": 7500,
-   "consensus_n": 2,
+   "rating_date": "2026-10-30",
+   "rating_broker": "유진투자증권",
+   "consensus_tp": 7667,
+   "consensus_n": 3,
    "brokers": {
     "하나증권": {
      "rating": "매수",
@@ -7651,18 +8860,23 @@
      "rating": "매수",
      "target_price": 8000.0,
      "date": "2026-10-26"
+    },
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 8000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": 5460.0,
-   "price_date": "2026-10-26",
+   "price": 5410.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
-    "date": "2026-05-13",
-    "pct": -17.6,
-    "broker": "하나증권"
+    "date": "2026-10-30",
+    "pct": -27.3,
+    "broker": "유진투자증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 1
+   "events": 1,
+   "last_event_date": "2026-10-30",
+   "reports": 2
   },
   {
    "id": "278470",
@@ -7671,7 +8885,7 @@
    "industry": "화장품",
    "rating": "매수",
    "target_price": 410000.0,
-   "rating_date": "2026-10-14",
+   "rating_date": "2026-10-30",
    "rating_broker": "하나증권",
    "consensus_tp": 483333,
    "consensus_n": 3,
@@ -7679,7 +8893,7 @@
     "하나증권": {
      "rating": "매수",
      "target_price": 410000.0,
-     "date": "2026-10-14"
+     "date": "2026-10-30"
     },
     "SK증권": {
      "rating": "매수",
@@ -7692,8 +8906,8 @@
      "date": "2026-10-13"
     }
    },
-   "price": 352000.0,
-   "price_date": "2026-10-13",
+   "price": 261000.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2026-10-14",
     "pct": -19.6,
@@ -7701,7 +8915,7 @@
    },
    "events": 2,
    "last_event_date": "2026-10-14",
-   "reports": 2
+   "reports": 3
   },
   {
    "id": "280360",
@@ -7739,20 +8953,25 @@
    "name": "BGF리테일",
    "industry": "유통·소비재",
    "rating": "매수",
-   "target_price": 170000.0,
-   "rating_date": "2026-10-19",
-   "rating_broker": "하나증권",
-   "consensus_tp": 170000,
-   "consensus_n": 1,
+   "target_price": 185000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "미래에셋증권",
+   "consensus_tp": 177500,
+   "consensus_n": 2,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 170000.0,
      "date": "2026-10-19"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": 185000.0,
+     "date": "2026-10-30"
     }
    },
-   "price": null,
-   "price_date": null,
+   "price": 127800.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2026-10-19",
     "pct": -5.6,
@@ -7760,7 +8979,7 @@
    },
    "events": 0,
    "last_event_date": null,
-   "reports": 0
+   "reports": 1
   },
   {
    "id": "290740",
@@ -7887,7 +9106,7 @@
    "industry": "정유·화학",
    "rating": "매수",
    "target_price": 400000.0,
-   "rating_date": "2026-10-19",
+   "rating_date": "2026-10-30",
    "rating_broker": "하나증권",
    "consensus_tp": 400000,
    "consensus_n": 1,
@@ -7895,11 +9114,11 @@
     "하나증권": {
      "rating": "매수",
      "target_price": 400000.0,
-     "date": "2026-10-19"
+     "date": "2026-10-30"
     }
    },
-   "price": null,
-   "price_date": null,
+   "price": 267000.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2026-10-19",
     "pct": -32.2,
@@ -7907,7 +9126,7 @@
    },
    "events": 1,
    "last_event_date": "2026-10-19",
-   "reports": 0
+   "reports": 1
   },
   {
    "id": "298040",
@@ -7962,6 +9181,35 @@
    "events": 0,
    "last_event_date": null,
    "reports": 6
+  },
+  {
+   "id": "298050",
+   "code": "298050",
+   "name": "HS효성첨단소재",
+   "industry": "정유·화학",
+   "rating": "매수",
+   "target_price": 220000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "하나증권",
+   "consensus_tp": 220000,
+   "consensus_n": 1,
+   "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 220000.0,
+     "date": "2026-10-30"
+    }
+   },
+   "price": 139400.0,
+   "price_date": "2026-10-30",
+   "last_tp_change": {
+    "date": "2026-02-02",
+    "pct": 15.8,
+    "broker": "하나증권"
+   },
+   "events": 0,
+   "last_event_date": null,
+   "reports": 1
   },
   {
    "id": "306200",
@@ -8204,33 +9452,63 @@
    "name": "HD현대중공업",
    "industry": "조선",
    "rating": "매수",
-   "target_price": 700000.0,
-   "rating_date": "2026-10-15",
-   "rating_broker": "상상인증권",
-   "consensus_tp": 760000,
-   "consensus_n": 2,
+   "target_price": 560000.0,
+   "rating_date": "2026-10-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": 590000,
+   "consensus_n": 7,
    "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 560000.0,
+     "date": "2026-10-29"
+    },
     "SK증권": {
      "rating": "매수",
-     "target_price": 820000.0,
-     "date": "2026-10-14"
+     "target_price": 640000.0,
+     "date": "2026-10-29"
     },
     "상상인증권": {
      "rating": "매수",
      "target_price": 700000.0,
      "date": "2026-10-15"
+    },
+    "IBK투자증권": {
+     "rating": "매수",
+     "target_price": 550000.0,
+     "date": "2026-10-29"
+    },
+    "iM증권": {
+     "rating": "매수",
+     "target_price": 530000.0,
+     "date": "2026-10-29"
+    },
+    "대신증권": {
+     "rating": "매수",
+     "target_price": 540000.0,
+     "date": "2026-10-29"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-29"
+    },
+    "유진투자증권": {
+     "rating": "매수",
+     "target_price": 610000.0,
+     "date": "2026-10-29"
     }
    },
-   "price": 371000.0,
-   "price_date": "2026-10-15",
+   "price": 285500.0,
+   "price_date": "2026-10-29",
    "last_tp_change": {
-    "date": "2026-10-14",
-    "pct": -15.5,
-    "broker": "SK증권"
+    "date": "2026-10-29",
+    "pct": -37.8,
+    "broker": "하나증권"
    },
-   "events": 1,
-   "last_event_date": "2026-10-14",
-   "reports": 3
+   "events": 8,
+   "last_event_date": "2026-10-29",
+   "reports": 9
   },
   {
    "id": "336260",
@@ -8238,28 +9516,38 @@
    "name": "두산퓨얼셀",
    "industry": "태양광·신재생",
    "rating": "매수",
-   "target_price": 70000.0,
-   "rating_date": "2026-10-22",
-   "rating_broker": "유진투자증권",
-   "consensus_tp": 70000,
-   "consensus_n": 1,
+   "target_price": 60000.0,
+   "rating_date": "2026-10-29",
+   "rating_broker": "하나증권",
+   "consensus_tp": 65000,
+   "consensus_n": 2,
    "brokers": {
+    "하나증권": {
+     "rating": "매수",
+     "target_price": 60000.0,
+     "date": "2026-10-29"
+    },
     "유진투자증권": {
      "rating": "매수",
      "target_price": 70000.0,
      "date": "2026-10-22"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-29"
     }
    },
-   "price": 33850.0,
-   "price_date": "2026-10-22",
+   "price": 31050.0,
+   "price_date": "2026-10-29",
    "last_tp_change": {
-    "date": "2026-10-22",
-    "pct": -12.5,
-    "broker": "유진투자증권"
+    "date": "2026-10-28",
+    "pct": -14.3,
+    "broker": "하나증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 1
+   "events": 1,
+   "last_event_date": "2026-10-29",
+   "reports": 4
   },
   {
    "id": "340570",
@@ -8568,16 +9856,16 @@
    "name": "DL이앤씨",
    "industry": "건설",
    "rating": "매수",
-   "target_price": 108000.0,
-   "rating_date": "2026-10-16",
-   "rating_broker": "유안타증권",
-   "consensus_tp": 98750,
+   "target_price": 80000.0,
+   "rating_date": "2026-11-02",
+   "rating_broker": "하나증권",
+   "consensus_tp": 96250,
    "consensus_n": 4,
    "brokers": {
     "하나증권": {
      "rating": "매수",
-     "target_price": 90000.0,
-     "date": "2026-10-07"
+     "target_price": 80000.0,
+     "date": "2026-11-02"
     },
     "유안타증권": {
      "rating": "매수",
@@ -8600,16 +9888,16 @@
      "date": "2026-10-08"
     }
    },
-   "price": 59100.0,
-   "price_date": "2026-10-16",
+   "price": 54200.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
-    "date": "2026-10-06",
-    "pct": -10.0,
+    "date": "2026-10-30",
+    "pct": -11.1,
     "broker": "하나증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 6
+   "events": 2,
+   "last_event_date": "2026-10-30",
+   "reports": 7
   },
   {
    "id": "381970",
@@ -8727,7 +10015,7 @@
    "industry": "지주·상사",
    "rating": "매수",
    "target_price": 1850000.0,
-   "rating_date": "2026-09-30",
+   "rating_date": "2026-10-29",
    "rating_broker": "SK증권",
    "consensus_tp": 1850000,
    "consensus_n": 1,
@@ -8735,15 +10023,15 @@
     "SK증권": {
      "rating": "매수",
      "target_price": 1850000.0,
-     "date": "2026-09-30"
+     "date": "2026-10-29"
     }
    },
-   "price": 1118000.0,
-   "price_date": "2026-09-30",
+   "price": 828000.0,
+   "price_date": "2026-10-29",
    "last_tp_change": null,
    "events": 0,
    "last_event_date": null,
-   "reports": 1
+   "reports": 2
   },
   {
    "id": "403870",
@@ -8769,6 +10057,31 @@
    "events": 0,
    "last_event_date": null,
    "reports": 1
+  },
+  {
+   "id": "418420",
+   "code": "418420",
+   "name": "라온텍",
+   "industry": null,
+   "rating": "NR",
+   "target_price": null,
+   "rating_date": "2025-11-05",
+   "rating_broker": "하나증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2025-11-05"
+    }
+   },
+   "price": null,
+   "price_date": null,
+   "last_tp_change": null,
+   "events": 0,
+   "last_event_date": null,
+   "reports": 0
   },
   {
    "id": "420770",
@@ -8883,8 +10196,8 @@
    "target_price": 290000.0,
    "rating_date": "2026-10-27",
    "rating_broker": "하나증권",
-   "consensus_tp": 315000,
-   "consensus_n": 2,
+   "consensus_tp": 319333,
+   "consensus_n": 3,
    "brokers": {
     "하나증권": {
      "rating": "매수",
@@ -8893,20 +10206,30 @@
     },
     "SK증권": {
      "rating": "매수",
-     "target_price": 340000.0,
-     "date": "2026-09-17"
+     "target_price": 280000.0,
+     "date": "2026-10-27"
+    },
+    "미래에셋증권": {
+     "rating": "매수",
+     "target_price": null,
+     "date": "2026-10-27"
+    },
+    "유안타증권": {
+     "rating": "매수",
+     "target_price": 388000.0,
+     "date": "2026-10-27"
     }
    },
    "price": 169600.0,
-   "price_date": "2026-10-26",
+   "price_date": "2026-10-27",
    "last_tp_change": {
-    "date": "2026-10-26",
-    "pct": -12.1,
-    "broker": "하나증권"
+    "date": "2026-10-27",
+    "pct": -13.4,
+    "broker": "유안타증권"
    },
-   "events": 2,
-   "last_event_date": "2026-10-26",
-   "reports": 3
+   "events": 5,
+   "last_event_date": "2026-10-27",
+   "reports": 6
   },
   {
    "id": "451250",
@@ -8945,6 +10268,11 @@
    "consensus_tp": null,
    "consensus_n": 0,
    "brokers": {
+    "하나증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2024-06-24"
+    },
     "메리츠증권": {
      "rating": "NR",
      "target_price": null,
@@ -8953,6 +10281,31 @@
    },
    "price": 38650.0,
    "price_date": "2026-09-21",
+   "last_tp_change": null,
+   "events": 0,
+   "last_event_date": null,
+   "reports": 1
+  },
+  {
+   "id": "454910",
+   "code": "454910",
+   "name": "두산로보틱스",
+   "industry": null,
+   "rating": "NR",
+   "target_price": null,
+   "rating_date": "2026-10-30",
+   "rating_broker": "미래에셋증권",
+   "consensus_tp": null,
+   "consensus_n": 0,
+   "brokers": {
+    "미래에셋증권": {
+     "rating": "NR",
+     "target_price": null,
+     "date": "2026-10-30"
+    }
+   },
+   "price": null,
+   "price_date": "2026-10-30",
    "last_tp_change": null,
    "events": 0,
    "last_event_date": null,
@@ -9044,7 +10397,7 @@
    "industry": "철강·금속",
    "rating": "매수",
    "target_price": 14000.0,
-   "rating_date": "2026-10-14",
+   "rating_date": "2026-10-30",
    "rating_broker": "하나증권",
    "consensus_tp": 14000,
    "consensus_n": 1,
@@ -9052,19 +10405,19 @@
     "하나증권": {
      "rating": "매수",
      "target_price": 14000.0,
-     "date": "2026-10-14"
+     "date": "2026-10-30"
     }
    },
-   "price": 8940.0,
-   "price_date": "2026-10-14",
+   "price": 8830.0,
+   "price_date": "2026-10-30",
    "last_tp_change": {
     "date": "2026-01-19",
     "pct": -17.6,
     "broker": "하나증권"
    },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 1
+   "events": 2,
+   "last_event_date": "2026-10-30",
+   "reports": 2
   },
   {
    "id": "460870",
@@ -9206,28 +10559,33 @@
    "name": "달바글로벌",
    "industry": "화장품",
    "rating": "매수",
-   "target_price": 220000.0,
-   "rating_date": "2026-10-14",
-   "rating_broker": "하나증권",
-   "consensus_tp": 220000,
-   "consensus_n": 1,
+   "target_price": 240000.0,
+   "rating_date": "2026-10-27",
+   "rating_broker": "상상인증권",
+   "consensus_tp": 230000,
+   "consensus_n": 2,
    "brokers": {
     "하나증권": {
      "rating": "매수",
      "target_price": 220000.0,
      "date": "2026-10-14"
+    },
+    "상상인증권": {
+     "rating": "매수",
+     "target_price": 240000.0,
+     "date": "2026-10-27"
     }
    },
-   "price": null,
-   "price_date": null,
+   "price": 149300.0,
+   "price_date": "2026-10-27",
    "last_tp_change": {
-    "date": "2026-10-14",
-    "pct": -15.4,
-    "broker": "하나증권"
+    "date": "2026-10-27",
+    "pct": -7.7,
+    "broker": "상상인증권"
    },
    "events": 1,
    "last_event_date": "2026-10-14",
-   "reports": 0
+   "reports": 1
   },
   {
    "id": "484120",
@@ -9236,7 +10594,7 @@
    "industry": "디스플레이",
    "rating": "NR",
    "target_price": null,
-   "rating_date": "2026-10-21",
+   "rating_date": "2026-10-22",
    "rating_broker": "하나증권",
    "consensus_tp": null,
    "consensus_n": 0,
@@ -9249,7 +10607,7 @@
     "하나증권": {
      "rating": "NR",
      "target_price": null,
-     "date": "2026-10-21"
+     "date": "2026-10-22"
     }
    },
    "price": null,
@@ -9283,6 +10641,31 @@
    "events": 0,
    "last_event_date": null,
    "reports": 2
+  },
+  {
+   "id": "489790",
+   "code": "489790",
+   "name": "한화비전",
+   "industry": "반도체",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "rating_date": "2026-10-30",
+   "rating_broker": "SK증권",
+   "consensus_tp": 80000,
+   "consensus_n": 1,
+   "brokers": {
+    "SK증권": {
+     "rating": "매수",
+     "target_price": 80000.0,
+     "date": "2026-10-30"
+    }
+   },
+   "price": 49100.0,
+   "price_date": "2026-10-30",
+   "last_tp_change": null,
+   "events": 0,
+   "last_event_date": null,
+   "reports": 1
   },
   {
    "id": "499790",
@@ -9610,35 +10993,6 @@
    "last_tp_change": {
     "date": "2026-04-24",
     "pct": 1.6,
-    "broker": "하나증권"
-   },
-   "events": 0,
-   "last_event_date": null,
-   "reports": 0
-  },
-  {
-   "id": "삼성카드",
-   "code": null,
-   "name": "삼성카드",
-   "industry": "은행",
-   "rating": "매수",
-   "target_price": 66000.0,
-   "rating_date": "2026-07-28",
-   "rating_broker": "하나증권",
-   "consensus_tp": 66000,
-   "consensus_n": 1,
-   "brokers": {
-    "하나증권": {
-     "rating": "매수",
-     "target_price": 66000.0,
-     "date": "2026-07-28"
-    }
-   },
-   "price": null,
-   "price_date": null,
-   "last_tp_change": {
-    "date": "2026-07-28",
-    "pct": -8.3,
     "broker": "하나증권"
    },
    "events": 0,

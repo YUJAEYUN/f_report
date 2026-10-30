@@ -25,6 +25,15 @@
    "report_id": "hana_1289214",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-22",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],

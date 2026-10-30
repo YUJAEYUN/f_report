@@ -6,7 +6,9 @@
  "brokers": [
   "LS증권",
   "SK증권",
-  "하나증권"
+  "유안타증권",
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -107,6 +109,42 @@
    "report_id": "hk_652923",
    "tp_status": "유지",
    "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 135000.0,
+   "source": "report",
+   "report_id": "hana_1289305",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 125000.0,
+   "source": "report",
+   "report_id": "hk_653348",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "report",
+   "report_id": "hk_653388",
+   "tp_status": "유지",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 132000.0,
+   "source": "report",
+   "report_id": "hk_653393",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -184,6 +222,99 @@
    "tp_status": "유지",
    "price": 99700.0,
    "upside_pct": 35.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "hana_1289305",
+   "title": "신한지주(055550.KS/매수) : 롯데손보 이슈와 실적 우려가 기반영된 주가",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 135000.0,
+   "tp_status": null,
+   "price": 85800.0,
+   "upside_pct": 57.3,
+   "estimates": {
+    "2026": {
+     "net": 5696.0,
+     "eps": 11300.0
+    },
+    "2027": {
+     "net": 5974.0,
+     "eps": 11919.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": null,
+     "op": 7801.0,
+     "net": 5970.0,
+     "eps": 12370.0
+    },
+    "2027": {
+     "revenue": null,
+     "op": 8242.0,
+     "net": 6176.0,
+     "eps": 13036.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "net",
+    "estimate": 5696.0,
+    "consensus": 5970.0,
+    "gap_pct": -4.6
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653348",
+   "title": "신한지주(055550) 일시적 모멘텀 공백",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 125000.0,
+   "tp_status": "하향",
+   "price": 86100.0,
+   "upside_pct": 45.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653388",
+   "title": "신한지주(055550) 비이자는 부진했으나 주주환원은 기대 이상",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 140000.0,
+   "tp_status": "유지",
+   "price": 85800.0,
+   "upside_pct": 63.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653393",
+   "title": "신한지주(055550) 잘 관리된 대손 및 연체 지표",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 132000.0,
+   "tp_status": "유지",
+   "price": 85800.0,
+   "upside_pct": 53.8,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -280,10 +411,175 @@
    "tp_speed30": 1.7,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-28",
+   "prev_date": "2026-10-14",
+   "days": 14,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 135000.0,
+   "tp_to": 125000.0,
+   "tp_pct": -7.4,
+   "tp_speed30": -15.9,
+   "report_id": "hk_653348",
+   "broker": "LS증권"
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
+ "estimate_revisions": [
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-07",
+   "days": 20,
+   "year": "2026",
+   "metric": "net",
+   "from": 5722.0,
+   "to": 5696.0,
+   "pct": -0.5,
+   "speed30": -0.8,
+   "turn": null,
+   "report_id": "hana_1289305",
+   "prev_report_id": "hana_1289016",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-07",
+   "days": 20,
+   "year": "2026",
+   "metric": "eps",
+   "from": 11297.0,
+   "to": 11300.0,
+   "pct": 0.0,
+   "speed30": 0.0,
+   "turn": null,
+   "report_id": "hana_1289305",
+   "prev_report_id": "hana_1289016",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-07",
+   "days": 20,
+   "year": "2027",
+   "metric": "net",
+   "from": 5976.0,
+   "to": 5974.0,
+   "pct": -0.0,
+   "speed30": -0.0,
+   "turn": null,
+   "report_id": "hana_1289305",
+   "prev_report_id": "hana_1289016",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-07",
+   "days": 20,
+   "year": "2027",
+   "metric": "eps",
+   "from": 11800.0,
+   "to": 11919.0,
+   "pct": 1.0,
+   "speed30": 1.5,
+   "turn": null,
+   "report_id": "hana_1289305",
+   "prev_report_id": "hana_1289016",
+   "broker": "하나증권"
+  }
+ ],
+ "consensus_changes": [
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-07",
+   "days": 20,
+   "year": "2026",
+   "metric": "op",
+   "from": 8043.0,
+   "to": 7801.0,
+   "pct": -3.0,
+   "speed30": -4.5,
+   "turn": null,
+   "report_id": "hana_1289305",
+   "prev_report_id": "hana_1289016",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-07",
+   "days": 20,
+   "year": "2026",
+   "metric": "net",
+   "from": 5984.0,
+   "to": 5970.0,
+   "pct": -0.2,
+   "speed30": -0.3,
+   "turn": null,
+   "report_id": "hana_1289305",
+   "prev_report_id": "hana_1289016",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-07",
+   "days": 20,
+   "year": "2026",
+   "metric": "eps",
+   "from": 12454.0,
+   "to": 12370.0,
+   "pct": -0.7,
+   "speed30": -1.0,
+   "turn": null,
+   "report_id": "hana_1289305",
+   "prev_report_id": "hana_1289016",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-07",
+   "days": 20,
+   "year": "2027",
+   "metric": "op",
+   "from": 8481.0,
+   "to": 8242.0,
+   "pct": -2.8,
+   "speed30": -4.2,
+   "turn": null,
+   "report_id": "hana_1289305",
+   "prev_report_id": "hana_1289016",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-07",
+   "days": 20,
+   "year": "2027",
+   "metric": "net",
+   "from": 6239.0,
+   "to": 6176.0,
+   "pct": -1.0,
+   "speed30": -1.5,
+   "turn": null,
+   "report_id": "hana_1289305",
+   "prev_report_id": "hana_1289016",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": "2026-10-07",
+   "days": 20,
+   "year": "2027",
+   "metric": "eps",
+   "from": 13275.0,
+   "to": 13036.0,
+   "pct": -1.8,
+   "speed30": -2.7,
+   "turn": null,
+   "report_id": "hana_1289305",
+   "prev_report_id": "hana_1289016",
+   "broker": "하나증권"
+  }
+ ],
  "tp_consensus": [
   {
    "date": "2024-03-21",
@@ -367,9 +663,44 @@
     "SK증권": 134000.0,
     "하나증권": 135000.0
    }
+  },
+  {
+   "date": "2026-10-27",
+   "mean": 134667,
+   "n": 3,
+   "brokers": {
+    "LS증권": 135000.0,
+    "SK증권": 134000.0,
+    "하나증권": 135000.0
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "mean": 133200,
+   "n": 5,
+   "brokers": {
+    "LS증권": 125000.0,
+    "SK증권": 134000.0,
+    "유안타증권": 140000.0,
+    "하나증권": 135000.0,
+    "한화투자증권": 132000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-10-28",
+   "from": 134667,
+   "to": 131333,
+   "pct": -2.5,
+   "n": 3,
+   "brokers": [
+    "LS증권"
+   ],
+   "report_id": "hk_653348",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
  "events": []
 }

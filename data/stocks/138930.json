@@ -4,7 +4,11 @@
  "name": "BNK금융",
  "industry": "은행",
  "brokers": [
-  "하나증권"
+  "LS증권",
+  "iM증권",
+  "유안타증권",
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -100,11 +104,47 @@
   {
    "date": "2026-10-27",
    "rating": "매수",
+   "target_price": 18500.0,
+   "source": "report",
+   "report_id": "hk_653331",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 17000.0,
+   "source": "report",
+   "report_id": "hk_653311",
+   "tp_status": "하향",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 18000.0,
+   "source": "report",
+   "report_id": "hk_653327",
+   "tp_status": "하향",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
    "target_price": 21000.0,
    "source": "table",
    "report_id": "hana_1289286",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 19000.0,
+   "source": "report",
+   "report_id": "hk_653300",
+   "tp_status": "하향",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -153,6 +193,70 @@
     "consensus": 796.0,
     "gap_pct": -2.6
    }
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "hk_653331",
+   "title": "BNK금융지주(138930) 수익성 개선 더디나 주가는 저평가 영역",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 18500.0,
+   "tp_status": "하향",
+   "price": 11710.0,
+   "upside_pct": 58.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "hk_653311",
+   "title": "BNK금융지주(138930) 다소 낙관적으로 보이는 가이던스",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 17000.0,
+   "tp_status": "하향",
+   "price": 11780.0,
+   "upside_pct": 44.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "hk_653327",
+   "title": "BNK금융지주(138930) 4분기까지 지켜볼 필요",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 18000.0,
+   "tp_status": "하향",
+   "price": 11780.0,
+   "upside_pct": 52.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 20500.0
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "hk_653300",
+   "title": "BNK금융지주(138930) 낙폭 과대",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 19000.0,
+   "tp_status": "하향",
+   "price": 11780.0,
+   "upside_pct": 61.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -272,6 +376,20 @@
    "tp_speed30": -1.7,
    "report_id": "hana_1289286",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 20500.0,
+   "tp_to": 18000.0,
+   "tp_pct": -12.2,
+   "tp_speed30": null,
+   "report_id": "hk_653327",
+   "implied_prev": true,
+   "broker": "유안타증권"
   }
  ],
  "estimate_revisions": [],
@@ -359,10 +477,14 @@
   },
   {
    "date": "2026-10-27",
-   "mean": 21000,
-   "n": 1,
+   "mean": 18700,
+   "n": 5,
    "brokers": {
-    "하나증권": 21000.0
+    "LS증권": 18500.0,
+    "iM증권": 17000.0,
+    "유안타증권": 18000.0,
+    "하나증권": 21000.0,
+    "한화투자증권": 19000.0
    }
   }
  ],

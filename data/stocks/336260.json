@@ -4,9 +4,47 @@
  "name": "두산퓨얼셀",
  "industry": "태양광·신재생",
  "brokers": [
-  "유진투자증권"
+  "미래에셋증권",
+  "유진투자증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2023-11-02",
+   "rating": "매수",
+   "target_price": 25000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-07-28",
+   "rating": "매수",
+   "target_price": 28000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-11-06",
+   "rating": "매수",
+   "target_price": 48000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-04-30",
+   "rating": "매수",
+   "target_price": 70000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-10-22",
    "rating": "매수",
@@ -15,9 +53,42 @@
    "report_id": "hk_653186",
    "tp_status": "하향",
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 60000.0,
+   "source": "report",
+   "report_id": "hana_1289329",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343760",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": 60000.0,
+   "source": "report",
+   "report_id": "hana_1289332",
+   "tp_status": "하향",
+   "broker": "하나증권"
   }
  ],
- "notes": [],
+ "notes": [
+  {
+   "date": "2024-11-02",
+   "note": "년 경과",
+   "broker": "하나증권"
+  }
+ ],
  "observations": [
   {
    "date": "2026-10-22",
@@ -34,9 +105,163 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 80000.0
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hana_1289329",
+   "title": "하루에 하나 1029",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 60000.0,
+   "tp_status": "하향",
+   "price": 31050.0,
+   "upside_pct": 93.2,
+   "estimates": {
+    "2026": {
+     "revenue": 534.2,
+     "op": -80.8,
+     "net": -111.1,
+     "eps": -1357.0
+    },
+    "2027": {
+     "revenue": 992.7,
+     "op": 24.4,
+     "net": -2.8,
+     "eps": -34.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 496.8,
+     "op": -80.5,
+     "net": -94.6,
+     "eps": -1157.0
+    },
+    "2027": {
+     "revenue": 925.4,
+     "op": 48.8,
+     "net": 16.5,
+     "eps": 200.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2027",
+    "metric": "op",
+    "estimate": 24.4,
+    "consensus": 48.8,
+    "gap_pct": -50.0
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "report_id": "mirae_2343760",
+   "title": "두산퓨얼셀 (336260/매수): 본격화된 해외 수주, 경쟁력 증명의 한해",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-29",
+   "report_id": "hana_1289332",
+   "title": "두산퓨얼셀(336260/KS): 미래 수주 대비 추가 증설도 검토 가능한 시점",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 60000.0,
+   "tp_status": "하향",
+   "price": 31050.0,
+   "upside_pct": 93.2,
+   "estimates": {
+    "2026": {
+     "revenue": 534.2,
+     "op": -80.8,
+     "net": -111.1,
+     "eps": -1357.0
+    },
+    "2027": {
+     "revenue": 992.7,
+     "op": 24.4,
+     "net": -2.8,
+     "eps": -34.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 496.8,
+     "op": -80.5,
+     "net": -94.6,
+     "eps": -1157.0
+    },
+    "2027": {
+     "revenue": 925.4,
+     "op": 48.8,
+     "net": 16.5,
+     "eps": 200.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2027",
+    "metric": "op",
+    "estimate": 24.4,
+    "consensus": 48.8,
+    "gap_pct": -50.0
+   }
   }
  ],
  "rating_changes": [
+  {
+   "date": "2025-07-28",
+   "prev_date": "2023-11-02",
+   "days": 634,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 25000.0,
+   "tp_to": 28000.0,
+   "tp_pct": 12.0,
+   "tp_speed30": 0.6,
+   "report_id": null,
+   "note": "1년 경과",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-11-06",
+   "prev_date": "2025-07-28",
+   "days": 101,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 28000.0,
+   "tp_to": 48000.0,
+   "tp_pct": 71.4,
+   "tp_speed30": 21.2,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-04-30",
+   "prev_date": "2025-11-06",
+   "days": 175,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 48000.0,
+   "tp_to": 70000.0,
+   "tp_pct": 45.8,
+   "tp_speed30": 7.9,
+   "report_id": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-10-22",
    "prev_date": null,
@@ -50,21 +275,87 @@
    "report_id": "hk_653186",
    "implied_prev": true,
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-10-28",
+   "prev_date": "2026-04-30",
+   "days": 181,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 70000.0,
+   "tp_to": 60000.0,
+   "tp_pct": -14.3,
+   "tp_speed30": -2.4,
+   "report_id": "hana_1289329",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
   {
-   "date": "2026-10-22",
+   "date": "2023-11-02",
+   "mean": 25000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 25000.0
+   }
+  },
+  {
+   "date": "2025-07-28",
+   "mean": 28000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 28000.0
+   }
+  },
+  {
+   "date": "2025-11-06",
+   "mean": 48000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 48000.0
+   }
+  },
+  {
+   "date": "2026-04-30",
    "mean": 70000,
    "n": 1,
    "brokers": {
-    "유진투자증권": 70000.0
+    "하나증권": 70000.0
+   }
+  },
+  {
+   "date": "2026-10-22",
+   "mean": 70000,
+   "n": 2,
+   "brokers": {
+    "유진투자증권": 70000.0,
+    "하나증권": 70000.0
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "mean": 65000,
+   "n": 2,
+   "brokers": {
+    "유진투자증권": 70000.0,
+    "하나증권": 60000.0
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "mean": 65000,
+   "n": 2,
+   "brokers": {
+    "유진투자증권": 70000.0,
+    "하나증권": 60000.0
    }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-10-29:336260:gap_below:하나증권"
+ ]
 }

@@ -5,6 +5,7 @@
  "industry": "운송",
  "brokers": [
   "상상인증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -70,6 +71,15 @@
    "report_id": "hk_653286",
    "tp_status": "유지",
    "broker": "상상인증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 8000.0,
+   "source": "report",
+   "report_id": "hk_653473",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -89,6 +99,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653473",
+   "title": "진에어(272450) 3Q26 Preview – 봄날은 온다",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 8000.0,
+   "tp_status": "하향",
+   "price": 5410.0,
+   "upside_pct": 47.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 11000.0
   }
  ],
  "rating_changes": [
@@ -156,6 +182,20 @@
    "tp_speed30": -2.8,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-30",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 11000.0,
+   "tp_to": 8000.0,
+   "tp_pct": -27.3,
+   "tp_speed30": null,
+   "report_id": "hk_653473",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -217,9 +257,21 @@
     "상상인증권": 8000.0,
     "하나증권": 7000.0
    }
+  },
+  {
+   "date": "2026-10-30",
+   "mean": 7667,
+   "n": 3,
+   "brokers": {
+    "상상인증권": 8000.0,
+    "유진투자증권": 8000.0,
+    "하나증권": 7000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-10-30:272450:tp_down:유진투자증권"
+ ]
 }

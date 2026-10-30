@@ -5,6 +5,7 @@
  "industry": "은행",
  "brokers": [
   "SK증권",
+  "유안타증권",
   "하나증권",
   "한화투자증권"
  ],
@@ -89,6 +90,15 @@
    "report_id": "hk_653285",
    "tp_status": "유지",
    "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 175000.0,
+   "source": "report",
+   "report_id": "hk_653389",
+   "tp_status": "유지",
+   "broker": "유안타증권"
   }
  ],
  "notes": [],
@@ -166,6 +176,22 @@
    "tp_status": "유지",
    "price": 116300.0,
    "upside_pct": 41.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653389",
+   "title": "하나금융지주(086790) 실적 안정과 주주환원을 겸비",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 175000.0,
+   "tp_status": "유지",
+   "price": 113300.0,
+   "upside_pct": 54.5,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -313,6 +339,17 @@
    "n": 3,
    "brokers": {
     "SK증권": 167000.0,
+    "하나증권": 166000.0,
+    "한화투자증권": 165000.0
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "mean": 168250,
+   "n": 4,
+   "brokers": {
+    "SK증권": 167000.0,
+    "유안타증권": 175000.0,
     "하나증권": 166000.0,
     "한화투자증권": 165000.0
    }

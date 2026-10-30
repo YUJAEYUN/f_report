@@ -2,8 +2,10 @@
  "id": "009830",
  "code": "009830",
  "name": "한화솔루션",
- "industry": "정유·화학",
+ "industry": "태양광·신재생",
  "brokers": [
+  "미래에셋증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -96,10 +98,177 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "report",
+   "report_id": "hana_1289366",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 33000.0,
+   "source": "report",
+   "report_id": "mirae_2343784",
+   "tp_status": "하향",
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "report",
+   "report_id": "hk_653468",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "report",
+   "report_id": "hana_1289368",
+   "tp_status": "하향",
+   "broker": "하나증권"
   }
  ],
  "notes": [],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-10-29",
+   "report_id": "hana_1289366",
+   "title": "한화솔루션(009830.KS/매수): 긍정적인 시장 환경 vs. 확인할 이슈 몇 가지",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 40000.0,
+   "tp_status": "하향",
+   "price": 23600.0,
+   "upside_pct": 69.5,
+   "estimates": {
+    "2026": {
+     "revenue": 16480.5,
+     "op": 559.7,
+     "net": 237.1,
+     "eps": 1151.0
+    },
+    "2027": {
+     "revenue": 15850.0,
+     "op": 889.4,
+     "net": 301.5,
+     "eps": 1326.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 18279.9,
+     "op": 878.8,
+     "net": 443.9,
+     "eps": 2077.0
+    },
+    "2027": {
+     "revenue": 19628.6,
+     "op": 1298.7,
+     "net": 688.7,
+     "eps": 2972.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 559.7,
+    "consensus": 878.8,
+    "gap_pct": -36.3
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "mirae_2343784",
+   "title": "한화솔루션 (009830/매수): 단기 실적 우려 있으나, 커지는 중장기 기대감",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 33000.0,
+   "tp_status": "하향",
+   "price": 23600.0,
+   "upside_pct": 39.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653468",
+   "title": "한화솔루션(009830) 올해보다 내년",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 50000.0,
+   "tp_status": "하향",
+   "price": 23600.0,
+   "upside_pct": 111.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 60000.0
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hana_1289368",
+   "title": "하루에 하나 1030",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 40000.0,
+   "tp_status": "하향",
+   "price": 23600.0,
+   "upside_pct": 69.5,
+   "estimates": {
+    "2026": {
+     "revenue": 16480.5,
+     "op": 559.7,
+     "net": 237.1,
+     "eps": 1151.0
+    },
+    "2027": {
+     "revenue": 15850.0,
+     "op": 889.4,
+     "net": 301.5,
+     "eps": 1326.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 18279.9,
+     "op": 878.8,
+     "net": 443.9,
+     "eps": 2077.0
+    },
+    "2027": {
+     "revenue": 19628.6,
+     "op": 1298.7,
+     "net": 688.7,
+     "eps": 2972.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 559.7,
+    "consensus": 878.8,
+    "gap_pct": -36.3
+   }
+  }
+ ],
  "rating_changes": [
   {
    "date": "2025-04-25",
@@ -217,6 +386,33 @@
    "tp_speed30": 45.6,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-04-29",
+   "days": 183,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 60000.0,
+   "tp_to": 40000.0,
+   "tp_pct": -33.3,
+   "tp_speed30": -5.5,
+   "report_id": "hana_1289366",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-30",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 60000.0,
+   "tp_to": 50000.0,
+   "tp_pct": -16.7,
+   "tp_speed30": null,
+   "report_id": "hk_653468",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -301,9 +497,31 @@
    "brokers": {
     "하나증권": 60000.0
    }
+  },
+  {
+   "date": "2026-10-29",
+   "mean": 40000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 40000.0
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "mean": 41000,
+   "n": 3,
+   "brokers": {
+    "미래에셋증권": 33000.0,
+    "유진투자증권": 50000.0,
+    "하나증권": 40000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-10-29:009830:tp_down:하나증권",
+  "2026-10-30:009830:tp_down:유진투자증권",
+  "2026-10-29:009830:gap_below:하나증권"
+ ]
 }

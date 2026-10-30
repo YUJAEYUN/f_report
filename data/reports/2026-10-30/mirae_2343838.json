@@ -19,5 +19,33 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "mirae_2343838",
-  "text_chars": 340
+  "text_chars": 340,
+  "summary": {
+    "one_liner": "저PBR 종목 공표 개시를 앞둔 한 주를 맞아 NAV Dashboard 기준으로 LG·HD현대·한화·LS·CJ 등 지주 계열 종목을 점검한 주간 리포트이나, 제공된 본문에는 구체 수치와 논거가 없어 상세 내용은 확인되지 않음.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "제목상 핵심 주제는 저PBR 종목 공표 개시를 앞둔 한 주의 NAV(순자산가치) 점검임",
+      "본문에 LG, HD현대, 한화, LS, CJ 등 지주 그룹명이 단위 표기(원)와 함께 나열됨",
+      "본문 텍스트가 차트 라벨 수준으로만 추출되어 수치·판단 근거는 확인할 수 없음"
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "제목에서 강조된 변화는 저PBR 종목 공표가 곧 시작된다는 점이며, 구체적인 비교 기준이나 과거 대비 수치는 본문에서 확인되지 않음.",
+    "implication": "공표 개시가 임박했다는 점은 지주사 NAV 대비 할인 및 저PBR 이슈가 시장의 관심 주제로 부각되는 국면임을 시사하나, 세부 논리는 원문 추출 한계로 해석할 수 없음.",
+    "watch_points": [
+      "저PBR 종목 공표 개시 시점과 대상 종목 범위",
+      "LG·HD현대·한화·LS·CJ 등의 NAV 대비 할인율 추이"
+    ]
+  },
+  "summarized_at": "2026-10-31T00:35:07+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [
+    "밸류업·저PBR"
+  ],
+  "tagged_at": "2026-10-31T00:35:07+09:00"
 }

@@ -76,6 +76,31 @@
   "reason_checked": true
  },
  {
+  "id": "2026-10-14:329180:tp_cons_down:",
+  "date": "2026-10-14",
+  "type": "tp_cons_down",
+  "severity": 1.6,
+  "stock_id": "329180",
+  "code": "329180",
+  "name": "HD현대중공업",
+  "industry": "조선",
+  "report_id": "hk_652951",
+  "headline": "목표주가 컨센서스 935,000원 → 860,000원 (-8.0%, 2개사)",
+  "data": {
+   "date": "2026-10-14",
+   "from": 935000,
+   "to": 860000,
+   "pct": -8.0,
+   "n": 2,
+   "brokers": [
+    "SK증권"
+   ],
+   "report_id": "hk_652951",
+   "cum30": null
+  },
+  "title": "HD현대중공업(329180) 우려 감안해도 충분히 매력적"
+ },
+ {
   "id": "2026-10-14:034220:tp_down:IBK투자증권",
   "date": "2026-10-14",
   "type": "tp_down",
@@ -187,33 +212,6 @@
   },
   "title": "화장품(Overweight): 계절성이 깨지다",
   "reason": "환율 하락으로 3분기 영업이익이 컨센서스(1,973억원)를 밑돌았다고 봤지만 주가 하락은 과도하다고 평가했다.",
-  "reason_checked": true
- },
- {
-  "id": "2026-10-14:010140:tp_cons_down:",
-  "date": "2026-10-14",
-  "type": "tp_cons_down",
-  "severity": 1.3,
-  "stock_id": "010140",
-  "code": "010140",
-  "name": "삼성중공업",
-  "industry": "조선",
-  "report_id": "hk_652949",
-  "headline": "목표주가 컨센서스 38,500원 → 36,000원 (-6.5%, 2개사)",
-  "data": {
-   "date": "2026-10-14",
-   "from": 38500,
-   "to": 36000,
-   "pct": -6.5,
-   "n": 2,
-   "brokers": [
-    "SK증권"
-   ],
-   "report_id": "hk_652949",
-   "cum30": null
-  },
-  "title": "삼성중공업(010140) 선방할 실적, FDC 본계약 기대",
-  "reason": "상선 피크아웃 우려에 대한 멀티플 조정으로 목표주가를 기존 4만원에서 3.5만원으로 하향한다고 밝혔다.",
   "reason_checked": true
  },
  {

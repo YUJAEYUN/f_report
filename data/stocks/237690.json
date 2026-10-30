@@ -4,7 +4,12 @@
  "name": "에스티팜",
  "industry": "제약·바이오",
  "brokers": [
+  "IBK투자증권",
   "대신증권",
+  "메리츠증권",
+  "미래에셋증권",
+  "상상인증권",
+  "유안타증권",
   "하나증권"
  ],
  "timeline": [
@@ -34,6 +39,78 @@
    "report_id": "hk_652439",
    "tp_status": "유지",
    "broker": "대신증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343679",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 150000.0,
+   "source": "report",
+   "report_id": "hk_653355",
+   "tp_status": "하향",
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 150000.0,
+   "source": "report",
+   "report_id": "hk_653366",
+   "tp_status": "하향",
+   "broker": "대신증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 190000.0,
+   "source": "report",
+   "report_id": "hk_653371",
+   "tp_status": "하향",
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "report",
+   "report_id": "hk_653403",
+   "tp_status": null,
+   "broker": "상상인증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "report",
+   "report_id": "hk_653381",
+   "tp_status": "하향",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 160000.0,
+   "source": "report",
+   "report_id": "hana_1289327",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": 160000.0,
+   "source": "table",
+   "report_id": "hana_1289327",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -53,6 +130,151 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-27",
+   "report_id": "mirae_2343679",
+   "title": "에스티팜 (237690/매수): 3Q26 Review: 환율 부담에도 성장세 지속",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653355",
+   "title": "에스티팜(237690) 아쉬운 이익, 두터워진 수주",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 150000.0,
+   "tp_status": "하향",
+   "price": 80400.0,
+   "upside_pct": 86.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 200000.0
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653366",
+   "title": "에스티팜(237690) 제품 믹스 및 환율 부담, 신규 수주는 지속",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 150000.0,
+   "tp_status": "하향",
+   "price": 80400.0,
+   "upside_pct": 86.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653371",
+   "title": "에스티팜(237690) 성장 방향성은 유지, 수익성 회복은 점진적",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 190000.0,
+   "tp_status": "하향",
+   "price": 80400.0,
+   "upside_pct": 136.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653403",
+   "title": "에스티팜(237690) 성장의 방향은 여전히 유효하다",
+   "primary": true,
+   "broker": "상상인증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 140000.0,
+   "tp_status": null,
+   "price": 80400.0,
+   "upside_pct": 74.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653381",
+   "title": "에스티팜(237690) 3Q26Re: 아쉬운 수익성",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 180000.0,
+   "tp_status": "하향",
+   "price": 80400.0,
+   "upside_pct": 123.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 200000.0
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hana_1289327",
+   "title": "에스티팜 (237690.KQ/BUY): 환율 영향을 뒤집을 수주를 기다리며 (3Q26 Re)",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 160000.0,
+   "tp_status": "하향",
+   "price": 77200.0,
+   "upside_pct": 107.3,
+   "estimates": {
+    "2026": {
+     "revenue": 416.8,
+     "op": 76.6,
+     "net": 55.5,
+     "eps": 2660.0
+    },
+    "2027": {
+     "revenue": 515.6,
+     "op": 111.6,
+     "net": 95.9,
+     "eps": 4596.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 415.4,
+     "op": 71.0,
+     "net": 53.9,
+     "eps": 2592.0
+    },
+    "2027": {
+     "revenue": 503.0,
+     "op": 94.5,
+     "net": 77.8,
+     "eps": 3742.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 76.6,
+    "consensus": 71.0,
+    "gap_pct": 7.9
+   }
   }
  ],
  "rating_changes": [
@@ -67,6 +289,60 @@
    "tp_pct": -9.5,
    "tp_speed30": -2.0,
    "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-28",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 200000.0,
+   "tp_to": 150000.0,
+   "tp_pct": -25.0,
+   "tp_speed30": null,
+   "report_id": "hk_653355",
+   "implied_prev": true,
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-10-28",
+   "prev_date": "2026-09-21",
+   "days": 37,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 170000.0,
+   "tp_to": 150000.0,
+   "tp_pct": -11.8,
+   "tp_speed30": -9.6,
+   "report_id": "hk_653366",
+   "broker": "대신증권"
+  },
+  {
+   "date": "2026-10-28",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 200000.0,
+   "tp_to": 180000.0,
+   "tp_pct": -10.0,
+   "tp_speed30": null,
+   "report_id": "hk_653381",
+   "implied_prev": true,
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-28",
+   "prev_date": "2026-07-29",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 190000.0,
+   "tp_to": 160000.0,
+   "tp_pct": -15.8,
+   "tp_speed30": -5.2,
+   "report_id": "hana_1289327",
    "broker": "하나증권"
   }
  ],
@@ -97,9 +373,77 @@
     "대신증권": 170000.0,
     "하나증권": 190000.0
    }
+  },
+  {
+   "date": "2026-10-27",
+   "mean": 180000,
+   "n": 2,
+   "brokers": {
+    "대신증권": 170000.0,
+    "하나증권": 190000.0
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "mean": 161667,
+   "n": 6,
+   "brokers": {
+    "IBK투자증권": 150000.0,
+    "대신증권": 150000.0,
+    "메리츠증권": 190000.0,
+    "상상인증권": 140000.0,
+    "유안타증권": 180000.0,
+    "하나증권": 160000.0
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "mean": 161667,
+   "n": 6,
+   "brokers": {
+    "IBK투자증권": 150000.0,
+    "대신증권": 150000.0,
+    "메리츠증권": 190000.0,
+    "상상인증권": 140000.0,
+    "유안타증권": 180000.0,
+    "하나증권": 160000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
- "broker_waves": [],
- "events": []
+ "tp_consensus_changes": [
+  {
+   "date": "2026-10-28",
+   "from": 180000,
+   "to": 155000,
+   "pct": -13.9,
+   "n": 2,
+   "brokers": [
+    "대신증권",
+    "하나증권"
+   ],
+   "report_id": "hk_653366",
+   "cum30": null
+  }
+ ],
+ "broker_waves": [
+  {
+   "date": "2026-10-28",
+   "direction": -1,
+   "count": 4,
+   "brokers": [
+    "IBK투자증권",
+    "대신증권",
+    "유안타증권",
+    "하나증권"
+   ],
+   "report_id": "hk_653355"
+  }
+ ],
+ "events": [
+  "2026-10-28:237690:tp_down:IBK투자증권",
+  "2026-10-28:237690:tp_down:하나증권",
+  "2026-10-28:237690:tp_accel:하나증권",
+  "2026-10-28:237690:tp_cons_down:",
+  "2026-10-28:237690:wave_down:"
+ ]
 }

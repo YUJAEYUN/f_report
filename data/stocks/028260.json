@@ -4,9 +4,12 @@
  "name": "삼성물산",
  "industry": "건설",
  "brokers": [
+  "LS증권",
   "SK증권",
+  "미래에셋증권",
   "유안타증권",
-  "하나증권"
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -80,6 +83,60 @@
    "report_id": "hk_653074",
    "tp_status": "유지",
    "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 420000.0,
+   "source": "report",
+   "report_id": "hana_1289321",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": 500000.0,
+   "source": "report",
+   "report_id": "hk_653458",
+   "tp_status": "유지",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": 550000.0,
+   "source": "report",
+   "report_id": "hk_653434",
+   "tp_status": "유지",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343751",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": 510000.0,
+   "source": "report",
+   "report_id": "hk_653417",
+   "tp_status": "유지",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": 520000.0,
+   "source": "report",
+   "report_id": "hk_653410",
+   "tp_status": null,
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -128,6 +185,135 @@
    "tp_status": "유지",
    "price": 286500.0,
    "upside_pct": 78.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hana_1289321",
+   "title": "삼성물산(028260.KS/매수): 하이테크로 3분기 서프, 27년 성장",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 420000.0,
+   "tp_status": null,
+   "price": 324500.0,
+   "upside_pct": 29.4,
+   "estimates": {
+    "2026": {
+     "revenue": 46586.8,
+     "op": 3980.1,
+     "net": 3354.8,
+     "eps": 20311.0
+    },
+    "2027": {
+     "revenue": 51844.9,
+     "op": 4808.2,
+     "net": 3758.1,
+     "eps": 22966.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 45892.7,
+     "op": 3793.6,
+     "net": 3913.7,
+     "eps": 16765.0
+    },
+    "2027": {
+     "revenue": 49724.5,
+     "op": 4406.1,
+     "net": 4772.5,
+     "eps": 21012.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 3980.1,
+    "consensus": 3793.6,
+    "gap_pct": 4.9
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "report_id": "hk_653458",
+   "title": "삼성물산(028260) 기다려지는 미래",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 500000.0,
+   "tp_status": "유지",
+   "price": 324500.0,
+   "upside_pct": 54.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-29",
+   "report_id": "hk_653434",
+   "title": "삼성물산(028260) 자체사업, 밸류에이션, 삼성전자 주가 반등 가능성을 보자",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 550000.0,
+   "tp_status": "유지",
+   "price": 324500.0,
+   "upside_pct": 69.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-29",
+   "report_id": "mirae_2343751",
+   "title": "삼성물산 (028260/매수): 하이테크가 그리는 성장 곡선",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-29",
+   "report_id": "hk_653417",
+   "title": "삼성물산(028260) 실적도 좋고! 가이던스 상향까지 자신감 뿜뿜!",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 510000.0,
+   "tp_status": "유지",
+   "price": 324500.0,
+   "upside_pct": 57.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-29",
+   "report_id": "hk_653410",
+   "title": "삼성물산(028260) [3Q26 Review] 전자가 좋으면, 나도 좋다",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 520000.0,
+   "tp_status": null,
+   "price": 324500.0,
+   "upside_pct": 60.2,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -249,6 +435,28 @@
     "SK증권": 550000.0,
     "유안타증권": 510000.0,
     "하나증권": 420000.0
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "mean": 493333,
+   "n": 3,
+   "brokers": {
+    "SK증권": 550000.0,
+    "유안타증권": 510000.0,
+    "하나증권": 420000.0
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "mean": 500000,
+   "n": 5,
+   "brokers": {
+    "LS증권": 500000.0,
+    "SK증권": 550000.0,
+    "유안타증권": 510000.0,
+    "하나증권": 420000.0,
+    "한화투자증권": 520000.0
    }
   }
  ],

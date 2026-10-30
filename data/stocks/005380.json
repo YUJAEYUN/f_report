@@ -4,7 +4,13 @@
  "name": "현대차",
  "industry": "자동차·부품",
  "brokers": [
+  "IBK투자증권",
   "LS증권",
+  "iM증권",
+  "대신증권",
+  "미래에셋증권",
+  "유안타증권",
+  "유진투자증권",
   "하나증권",
   "한화투자증권"
  ],
@@ -125,6 +131,87 @@
    "report_id": "hk_653013",
    "tp_status": "하향",
    "broker": "LS증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": 480000.0,
+   "source": "report",
+   "report_id": "hana_1289354",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 460000.0,
+   "source": "report",
+   "report_id": "hk_653518",
+   "tp_status": "하향",
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 600000.0,
+   "source": "report",
+   "report_id": "hk_653523",
+   "tp_status": "유지",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 500000.0,
+   "source": "report",
+   "report_id": "hk_653480",
+   "tp_status": "하향",
+   "broker": "대신증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 650000.0,
+   "source": "report",
+   "report_id": "mirae_2343788",
+   "tp_status": "하향",
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 440000.0,
+   "source": "report",
+   "report_id": "hk_653512",
+   "tp_status": "상향",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 600000.0,
+   "source": "report",
+   "report_id": "hk_653466",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 480000.0,
+   "source": "report",
+   "report_id": "hana_1289368",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 600000.0,
+   "source": "report",
+   "report_id": "hk_653498",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -157,6 +244,216 @@
    "tp_status": "하향",
    "price": 295500.0,
    "upside_pct": 76.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-29",
+   "report_id": "hana_1289354",
+   "title": "현대차(005380.KS/매수): 4분기 판매 반등, 로보틱스는 실행 국면 진입",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 480000.0,
+   "tp_status": "하향",
+   "price": 292500.0,
+   "upside_pct": 64.1,
+   "estimates": {
+    "2026": {
+     "revenue": 189750.1,
+     "op": 10537.3,
+     "net": 9050.7,
+     "eps": 34212.0
+    },
+    "2027": {
+     "revenue": 201202.3,
+     "op": 10366.0,
+     "net": 8989.3,
+     "eps": 34195.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 188703.7,
+     "op": 10457.9,
+     "net": 10288.9,
+     "eps": 35137.0
+    },
+    "2027": {
+     "revenue": 195884.4,
+     "op": 11579.8,
+     "net": 11216.0,
+     "eps": 38616.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 10537.3,
+    "consensus": 10457.9,
+    "gap_pct": 0.8
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653518",
+   "title": "현대차(005380) 어려운 업황 속 돋보이는 방어력",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 460000.0,
+   "tp_status": "하향",
+   "price": 292500.0,
+   "upside_pct": 57.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 670000.0
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653523",
+   "title": "현대차(005380) 26.3Q Review: 이제 올라가야 할 때",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 600000.0,
+   "tp_status": "유지",
+   "price": 292500.0,
+   "upside_pct": 105.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653480",
+   "title": "현대차(005380) 저점을 받쳐줄 실적",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 500000.0,
+   "tp_status": "하향",
+   "price": 292500.0,
+   "upside_pct": 70.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "mirae_2343788",
+   "title": "현대차 (005380/매수): 3Q26 리뷰: 실적 우려 있지만, BD 모멘텀 주목",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 650000.0,
+   "tp_status": "하향",
+   "price": 292500.0,
+   "upside_pct": 122.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653512",
+   "title": "현대차(005380) 3Q26 Re: 왜 서프를 내고 주가는 하락했는가",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 440000.0,
+   "tp_status": "상향",
+   "price": 292500.0,
+   "upside_pct": 50.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 410000.0
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653466",
+   "title": "현대차(005380) 3Q26 Review: 4분기 실적 반등 기대감 Up",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 600000.0,
+   "tp_status": "유지",
+   "price": 292500.0,
+   "upside_pct": 105.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hana_1289368",
+   "title": "하루에 하나 1030",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 480000.0,
+   "tp_status": "하향",
+   "price": 292500.0,
+   "upside_pct": 64.1,
+   "estimates": {
+    "2026": {
+     "revenue": 189750.1,
+     "op": 10537.3,
+     "net": 9050.7,
+     "eps": 34212.0
+    },
+    "2027": {
+     "revenue": 201202.3,
+     "op": 10366.0,
+     "net": 8989.3,
+     "eps": 34195.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 188703.7,
+     "op": 10457.9,
+     "net": 10288.9,
+     "eps": 35137.0
+    },
+    "2027": {
+     "revenue": 195884.4,
+     "op": 11579.8,
+     "net": 11216.0,
+     "eps": 38616.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 10537.3,
+    "consensus": 10457.9,
+    "gap_pct": 0.8
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653498",
+   "title": "현대차(005380) 생산 차질의 이연이 내년 성장으로",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 600000.0,
+   "tp_status": "유지",
+   "price": 292500.0,
+   "upside_pct": 105.1,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -292,6 +589,61 @@
    "tp_speed30": -8.6,
    "report_id": "hana_1288996",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-10-07",
+   "days": 22,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 510000.0,
+   "tp_to": 480000.0,
+   "tp_pct": -5.9,
+   "tp_speed30": -8.0,
+   "report_id": "hana_1289354",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-30",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 670000.0,
+   "tp_to": 460000.0,
+   "tp_pct": -31.3,
+   "tp_speed30": null,
+   "report_id": "hk_653518",
+   "implied_prev": true,
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-10-30",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 410000.0,
+   "tp_to": 440000.0,
+   "tp_pct": 7.3,
+   "tp_speed30": null,
+   "report_id": "hk_653512",
+   "implied_prev": true,
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-30",
+   "prev_date": "2026-10-08",
+   "days": 22,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 670000.0,
+   "tp_to": 600000.0,
+   "tp_pct": -10.4,
+   "tp_speed30": -14.2,
+   "report_id": "hk_653498",
+   "mismatch": true,
+   "broker": "한화투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -403,11 +755,64 @@
     "하나증권": 510000.0,
     "한화투자증권": 670000.0
    }
+  },
+  {
+   "date": "2026-10-29",
+   "mean": 556667,
+   "n": 3,
+   "brokers": {
+    "LS증권": 520000.0,
+    "하나증권": 480000.0,
+    "한화투자증권": 670000.0
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "mean": 538889,
+   "n": 9,
+   "brokers": {
+    "IBK투자증권": 460000.0,
+    "LS증권": 520000.0,
+    "iM증권": 600000.0,
+    "대신증권": 500000.0,
+    "미래에셋증권": 650000.0,
+    "유안타증권": 440000.0,
+    "유진투자증권": 600000.0,
+    "하나증권": 480000.0,
+    "한화투자증권": 600000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-10-29",
+   "from": 566667,
+   "to": 556667,
+   "pct": -1.8,
+   "n": 3,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289354",
+   "cum30": null
+  },
+  {
+   "date": "2026-10-30",
+   "from": 556667,
+   "to": 533333,
+   "pct": -4.2,
+   "n": 3,
+   "brokers": [
+    "한화투자증권"
+   ],
+   "report_id": "hk_653498",
+   "cum30": -6.0
+  }
+ ],
  "broker_waves": [],
  "events": [
-  "2026-10-07:005380:tp_down:하나증권"
+  "2026-10-07:005380:tp_down:하나증권",
+  "2026-10-29:005380:tp_streak:하나증권",
+  "2026-10-30:005380:tp_down:IBK투자증권"
  ]
 }

@@ -1,0 +1,114 @@
+{
+ "id": "170900",
+ "code": "170900",
+ "name": "동아에스티",
+ "industry": null,
+ "brokers": [
+  "상상인증권",
+  "유안타증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "report",
+   "report_id": "hk_653402",
+   "tp_status": null,
+   "broker": "상상인증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 51000.0,
+   "source": "report",
+   "report_id": "hk_653382",
+   "tp_status": "하향",
+   "broker": "유안타증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653402",
+   "title": "동아에스티(170900) 3분기 실적은 기대 이상, 센제품은 이제 시작",
+   "primary": true,
+   "broker": "상상인증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 50000.0,
+   "tp_status": null,
+   "price": 34900.0,
+   "upside_pct": 43.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 60000.0
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653382",
+   "title": "동아에스티(170900) 비용 효율화로 챙긴 수익성",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 51000.0,
+   "tp_status": "하향",
+   "price": 34900.0,
+   "upside_pct": 46.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 60000.0
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2026-10-28",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 60000.0,
+   "tp_to": 50000.0,
+   "tp_pct": -16.7,
+   "tp_speed30": null,
+   "report_id": "hk_653402",
+   "implied_prev": true,
+   "broker": "상상인증권"
+  },
+  {
+   "date": "2026-10-28",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 60000.0,
+   "tp_to": 51000.0,
+   "tp_pct": -15.0,
+   "tp_speed30": null,
+   "report_id": "hk_653382",
+   "implied_prev": true,
+   "broker": "유안타증권"
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-10-28",
+   "mean": 50500,
+   "n": 2,
+   "brokers": {
+    "상상인증권": 50000.0,
+    "유안타증권": 51000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": [
+  "2026-10-28:170900:tp_down:상상인증권",
+  "2026-10-28:170900:tp_down:유안타증권"
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "id": "042510",
+ "code": "042510",
+ "name": "라온시큐어",
+ "industry": null,
+ "brokers": [
+  "하나증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-29",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1289325",
+   "tp_status": null,
+   "broker": "하나증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-28",
+   "report_id": "hana_1289325",
+   "title": "라온시큐어(042510.KQ): 점검은 지금, 양자는 11월, AI 신원은 2027년",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 62.0,
+     "op": 3.0,
+     "net": 5.0,
+     "eps": 431.0
+    },
+    "2027": {
+     "revenue": 71.0,
+     "op": 7.0,
+     "net": 7.0,
+     "eps": 657.0
+    }
+   },
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

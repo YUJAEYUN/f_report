@@ -1,0 +1,258 @@
+{
+ "id": "095340",
+ "code": "095340",
+ "name": "ISC",
+ "industry": null,
+ "brokers": [
+  "IBK투자증권",
+  "메리츠증권",
+  "하나증권"
+ ],
+ "timeline": [
+  {
+   "date": "2025-05-21",
+   "rating": "매수",
+   "target_price": 76000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-11-25",
+   "rating": "매수",
+   "target_price": 130000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-02-04",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-06-23",
+   "rating": "매수",
+   "target_price": 250000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-27",
+   "rating": "매수",
+   "target_price": 250000.0,
+   "source": "report",
+   "report_id": "hana_1289310",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "report",
+   "report_id": "hk_653353",
+   "tp_status": "유지",
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-10-28",
+   "rating": "매수",
+   "target_price": 210000.0,
+   "source": "report",
+   "report_id": "hk_653377",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-10-27",
+   "report_id": "hana_1289310",
+   "title": "ISC(095340.KQ/매수): 병목 해소와 판가인상이 실적 견인 전망",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 250000.0,
+   "tp_status": null,
+   "price": 151300.0,
+   "upside_pct": 65.2,
+   "estimates": {
+    "2026": {
+     "revenue": 306.2,
+     "op": 100.0,
+     "net": 81.7,
+     "eps": 3852.0
+    },
+    "2027": {
+     "revenue": 441.6,
+     "op": 172.0,
+     "net": 137.5,
+     "eps": 6488.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 314.7,
+     "op": 103.1,
+     "net": 89.6,
+     "eps": 4224.0
+    },
+    "2027": {
+     "revenue": 403.4,
+     "op": 142.7,
+     "net": 121.6,
+     "eps": 5710.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 100.0,
+    "consensus": 103.1,
+    "gap_pct": -3.0
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653353",
+   "title": "ISC(095340) 잠시 늦춘 걸음, 성장 방향은 그대로",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 180000.0,
+   "tp_status": "유지",
+   "price": 151300.0,
+   "upside_pct": 19.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-28",
+   "report_id": "hk_653377",
+   "title": "ISC(095340) 아쉬운 실적에도 증대되는 기대감",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 210000.0,
+   "tp_status": null,
+   "price": 151300.0,
+   "upside_pct": 38.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2025-11-25",
+   "prev_date": "2025-05-21",
+   "days": 188,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 76000.0,
+   "tp_to": 130000.0,
+   "tp_pct": 71.1,
+   "tp_speed30": 11.3,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-02-04",
+   "prev_date": "2025-11-25",
+   "days": 71,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 130000.0,
+   "tp_to": 180000.0,
+   "tp_pct": 38.5,
+   "tp_speed30": 16.3,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-06-23",
+   "prev_date": "2026-02-04",
+   "days": 139,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 180000.0,
+   "tp_to": 250000.0,
+   "tp_pct": 38.9,
+   "tp_speed30": 8.4,
+   "report_id": null,
+   "broker": "하나증권"
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2025-05-21",
+   "mean": 76000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 76000.0
+   }
+  },
+  {
+   "date": "2025-11-25",
+   "mean": 130000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 130000.0
+   }
+  },
+  {
+   "date": "2026-02-04",
+   "mean": 180000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 180000.0
+   }
+  },
+  {
+   "date": "2026-06-23",
+   "mean": 250000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 250000.0
+   }
+  },
+  {
+   "date": "2026-10-27",
+   "mean": 250000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 250000.0
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "mean": 213333,
+   "n": 3,
+   "brokers": {
+    "IBK투자증권": 180000.0,
+    "메리츠증권": 210000.0,
+    "하나증권": 250000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

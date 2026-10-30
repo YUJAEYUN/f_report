@@ -6,9 +6,76 @@
  "brokers": [
   "IBK투자증권",
   "SK증권",
-  "상상인증권"
+  "iM증권",
+  "미래에셋증권",
+  "상상인증권",
+  "유안타증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2024-07-26",
+   "rating": "매수",
+   "target_price": 15000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2024-11-20",
+   "rating": "매수",
+   "target_price": 17000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-07-08",
+   "rating": "매수",
+   "target_price": 20000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-07-25",
+   "rating": "매수",
+   "target_price": 26000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-10-24",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-02-02",
+   "rating": "매수",
+   "target_price": 36000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-05-04",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-09-17",
    "rating": "매수",
@@ -44,6 +111,60 @@
    "report_id": "hk_652925",
    "tp_status": null,
    "broker": "상상인증권"
+  },
+  {
+   "date": "2026-10-29",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "report",
+   "report_id": "hana_1289363",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 27000.0,
+   "source": "report",
+   "report_id": "hk_653490",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 28000.0,
+   "source": "report",
+   "report_id": "hk_653528",
+   "tp_status": "하향",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343783",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 34000.0,
+   "source": "report",
+   "report_id": "hk_653511",
+   "tp_status": "하향",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-10-30",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "report",
+   "report_id": "hana_1289368",
+   "tp_status": "하향",
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -111,9 +232,249 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-10-29",
+   "report_id": "hana_1289363",
+   "title": "삼성중공업 (010140/KS): 너무나도 안정적인 실적",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 30000.0,
+   "tp_status": "하향",
+   "price": 15720.0,
+   "upside_pct": 90.8,
+   "estimates": {
+    "2026": {
+     "revenue": 12830.8,
+     "op": 1388.5,
+     "net": 1127.9,
+     "eps": 1282.0
+    },
+    "2027": {
+     "revenue": 14448.7,
+     "op": 1831.7,
+     "net": 1343.2,
+     "eps": 1526.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 12780.1,
+     "op": 1372.8,
+     "net": 918.7,
+     "eps": 1043.0
+    },
+    "2027": {
+     "revenue": 14804.5,
+     "op": 2007.3,
+     "net": 1493.2,
+     "eps": 1705.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1388.5,
+    "consensus": 1372.8,
+    "gap_pct": 1.1
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653490",
+   "title": "삼성중공업(010140) 편안한 실적과 기대되는 FDC",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 27000.0,
+   "tp_status": "하향",
+   "price": 15720.0,
+   "upside_pct": 71.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 35000.0
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653528",
+   "title": "삼성중공업(010140) 3Q26: 위험회피의 힘",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 28000.0,
+   "tp_status": "하향",
+   "price": 15720.0,
+   "upside_pct": 78.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "mirae_2343783",
+   "title": "삼성중공업 (010140/매수): 방어 성공 and beyond",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hk_653511",
+   "title": "삼성중공업(010140) 3Q26 Re: 무난해서 제목을 고민해야 하는...",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 34000.0,
+   "tp_status": "하향",
+   "price": 15720.0,
+   "upside_pct": 116.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 38000.0
+  },
+  {
+   "date": "2026-10-30",
+   "report_id": "hana_1289368",
+   "title": "하루에 하나 1030",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 30000.0,
+   "tp_status": "하향",
+   "price": 15720.0,
+   "upside_pct": 90.8,
+   "estimates": {
+    "2026": {
+     "revenue": 12830.8,
+     "op": 1388.5,
+     "net": 1127.9,
+     "eps": 1282.0
+    },
+    "2027": {
+     "revenue": 14448.7,
+     "op": 1831.7,
+     "net": 1343.2,
+     "eps": 1526.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 12780.1,
+     "op": 1372.8,
+     "net": 918.7,
+     "eps": 1043.0
+    },
+    "2027": {
+     "revenue": 14804.5,
+     "op": 2007.3,
+     "net": 1493.2,
+     "eps": 1705.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1388.5,
+    "consensus": 1372.8,
+    "gap_pct": 1.1
+   }
   }
  ],
  "rating_changes": [
+  {
+   "date": "2024-11-20",
+   "prev_date": "2024-07-26",
+   "days": 117,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 15000.0,
+   "tp_to": 17000.0,
+   "tp_pct": 13.3,
+   "tp_speed30": 3.4,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-07-08",
+   "prev_date": "2024-11-20",
+   "days": 230,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 17000.0,
+   "tp_to": 20000.0,
+   "tp_pct": 17.6,
+   "tp_speed30": 2.3,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-07-25",
+   "prev_date": "2025-07-08",
+   "days": 17,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 20000.0,
+   "tp_to": 26000.0,
+   "tp_pct": 30.0,
+   "tp_speed30": 52.9,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-10-24",
+   "prev_date": "2025-07-25",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 26000.0,
+   "tp_to": 30000.0,
+   "tp_pct": 15.4,
+   "tp_speed30": 5.1,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-02-02",
+   "prev_date": "2025-10-24",
+   "days": 101,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 30000.0,
+   "tp_to": 36000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": 5.9,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-05-04",
+   "prev_date": "2026-02-02",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 36000.0,
+   "tp_to": 40000.0,
+   "tp_pct": 11.1,
+   "tp_speed30": 3.7,
+   "report_id": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-10-14",
    "prev_date": "2026-09-17",
@@ -126,55 +487,219 @@
    "tp_speed30": -13.9,
    "report_id": "hk_652949",
    "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-29",
+   "prev_date": "2026-05-04",
+   "days": 178,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 40000.0,
+   "tp_to": 30000.0,
+   "tp_pct": -25.0,
+   "tp_speed30": -4.2,
+   "report_id": "hana_1289363",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-10-30",
+   "prev_date": "2026-10-14",
+   "days": 16,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 35000.0,
+   "tp_to": 27000.0,
+   "tp_pct": -22.9,
+   "tp_speed30": -42.9,
+   "report_id": "hk_653490",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-10-30",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 38000.0,
+   "tp_to": 34000.0,
+   "tp_pct": -10.5,
+   "tp_speed30": null,
+   "report_id": "hk_653511",
+   "implied_prev": true,
+   "broker": "유안타증권"
   }
  ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
   {
-   "date": "2026-09-17",
+   "date": "2024-07-26",
+   "mean": 15000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 15000.0
+   }
+  },
+  {
+   "date": "2024-11-20",
+   "mean": 17000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 17000.0
+   }
+  },
+  {
+   "date": "2025-07-08",
+   "mean": 20000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 20000.0
+   }
+  },
+  {
+   "date": "2025-07-25",
+   "mean": 26000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 26000.0
+   }
+  },
+  {
+   "date": "2025-10-24",
+   "mean": 30000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 30000.0
+   }
+  },
+  {
+   "date": "2026-02-02",
+   "mean": 36000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 36000.0
+   }
+  },
+  {
+   "date": "2026-05-04",
    "mean": 40000,
    "n": 1,
    "brokers": {
-    "SK증권": 40000.0
+    "하나증권": 40000.0
+   }
+  },
+  {
+   "date": "2026-09-17",
+   "mean": 40000,
+   "n": 2,
+   "brokers": {
+    "SK증권": 40000.0,
+    "하나증권": 40000.0
    }
   },
   {
    "date": "2026-10-07",
-   "mean": 38500,
-   "n": 2,
+   "mean": 39000,
+   "n": 3,
    "brokers": {
     "IBK투자증권": 37000.0,
-    "SK증권": 40000.0
+    "SK증권": 40000.0,
+    "하나증권": 40000.0
    }
   },
   {
    "date": "2026-10-14",
-   "mean": 34333,
-   "n": 3,
+   "mean": 35750,
+   "n": 4,
    "brokers": {
     "IBK투자증권": 37000.0,
     "SK증권": 35000.0,
-    "상상인증권": 31000.0
+    "상상인증권": 31000.0,
+    "하나증권": 40000.0
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "mean": 33250,
+   "n": 4,
+   "brokers": {
+    "IBK투자증권": 37000.0,
+    "SK증권": 35000.0,
+    "상상인증권": 31000.0,
+    "하나증권": 30000.0
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "mean": 31167,
+   "n": 6,
+   "brokers": {
+    "IBK투자증권": 37000.0,
+    "SK증권": 27000.0,
+    "iM증권": 28000.0,
+    "상상인증권": 31000.0,
+    "유안타증권": 34000.0,
+    "하나증권": 30000.0
    }
   }
  ],
  "tp_consensus_changes": [
   {
    "date": "2026-10-14",
-   "from": 38500,
-   "to": 36000,
-   "pct": -6.5,
-   "n": 2,
+   "from": 39000,
+   "to": 37333,
+   "pct": -4.3,
+   "n": 3,
    "brokers": [
     "SK증권"
    ],
    "report_id": "hk_652949",
    "cum30": null
+  },
+  {
+   "date": "2026-10-29",
+   "from": 35750,
+   "to": 33250,
+   "pct": -7.0,
+   "n": 4,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289363",
+   "cum30": -11.3
+  },
+  {
+   "date": "2026-10-30",
+   "from": 33250,
+   "to": 31250,
+   "pct": -6.0,
+   "n": 4,
+   "brokers": [
+    "SK증권"
+   ],
+   "report_id": "hk_653490",
+   "cum30": -17.3
   }
  ],
- "broker_waves": [],
+ "broker_waves": [
+  {
+   "date": "2026-10-30",
+   "direction": -1,
+   "count": 3,
+   "brokers": [
+    "SK증권",
+    "유안타증권",
+    "하나증권"
+   ],
+   "report_id": "hk_653490"
+  }
+ ],
  "events": [
-  "2026-10-14:010140:tp_cons_down:"
+  "2026-10-29:010140:tp_down:하나증권",
+  "2026-10-30:010140:tp_down:SK증권",
+  "2026-10-30:010140:tp_accel:SK증권",
+  "2026-10-29:010140:tp_cons_down:",
+  "2026-10-30:010140:tp_cons_down:",
+  "2026-10-30:010140:wave_down:"
  ]
 }
