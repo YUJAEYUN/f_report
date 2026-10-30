@@ -6,8 +6,9 @@ name: process-reports
 # 모델을 고정하려면 저장소 Variable `CLAUDE_MODEL`에 모델 이름을 넣는다 (비우면 계정 기본값).
 
 on:
-  # Paused automatic Claude processing (2026-10-27).
-  # Re-enable by restoring workflow_run for daily-pipeline completion.
+  workflow_run:
+    workflows: [daily-pipeline]
+    types: [completed]
   workflow_dispatch:
     inputs:
       limit:
