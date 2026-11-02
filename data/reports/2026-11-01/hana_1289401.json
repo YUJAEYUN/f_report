@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "4002",
+  "bbs_seq": "1289401",
+  "report_type": "individual",
+  "title": "[HANA US Weekly] 인텔의 실적 부진을 AI 반도체 업황 악화로 확대 해석할 필요는 없다",
+  "analyst": "강재구",
+  "published_date": "2026-11-01",
+  "published_time": "16:23:14",
+  "category": "글로벌 산업분석",
+  "breadcrumb": "해외주식 > 글로벌 산업분석",
+  "preview_text": "- PC 시장 위축은 이미 예상된 악재. 반도체 산업 전반의 문제로 해석할 필요 없음\n- 인텔의 실적 부진은 개별 기업의 문제. 서버 CPU 수요는 공급능력을 웃돌고 있으며, 인텔의 생산 차질은 AMD 등 경쟁사의 점유율 확대 기회로 작용할 여지 존재\n- AI 반도체의 성장성은 여전히 유효. 엔비디아AMD의 데이터센터 중심 매출 구조와 클라우드 투자 확대를 고려하면 인텔의 부진을 AI 반도체 업황 악화로 확대 해석할 필요 없음\n\n- 지난주(10월 26일~10월 30일) 리뷰: AI 투자비용 우려로 대형 기술주 하락\n- 이번 주(11월 2일~11월 6일) 프리뷰: 미국 중간선거와 이란 전쟁, 고용지표AI 실적이 증시 방향 결정",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289401&attachFileSeq=1&bbsId=&dbType=&bbsCd=4002",
+  "pdf_filename": "USweekly_1102_ff.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=4002&bbsSeq=1289401",
+  "collected_at": "2026-11-02T18:54:32+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289401",
+  "text_chars": 22709
+}

@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "1260",
+  "bbs_seq": "1289420",
+  "report_type": "individual",
+  "title": "[Global ETF] ETF 트렌드 & 포트폴리오: 선거 이후의 정책, 실적 이후의 선택",
+  "analyst": "박승진",
+  "published_date": "2026-11-02",
+  "published_time": "18:17:55",
+  "category": "글로벌 투자전략",
+  "breadcrumb": "해외주식 > 글로벌 투자전략",
+  "preview_text": "- 미국 중간선거와 고용보고서, AI 밸류체인 기업들의 실적을 통해 시장 회복 가능성을 판단하는 구간. 선거 종료에 따른 불확실성 완화와 단기 반등은 가능하겠으나, AI 투자비용과 자금조달 부담을 고려하면 추세 전환에는 추가 근거 필요. 대형주퀄리티 중심 전략을 유지하면서 실적과 가이던스가 개선되는 영역부터 단계적으로 비중 확대\n\n- 중간선거는 상하원 다수당 변화와 이후 정책 추진 여력이 핵심. 의회 권력 분산이 AI 기업들의 일률적인 중장기 호재로 연결되기는 어려우며, 연속성의 관점에서는 투자 집행 차별화에 따른 모멘텀 분산 가능성. 개표 지연과 결과 불복, 선거 이후 대외정책 변화도 변동성 요인\n\n- 고용보고서는 비농업고용 증가폭보다 임금경제활동참가율이전 수치 수정에 주목. 고용 급랭 없이 임금 압력이 안정되는 조합이 증시에 우호적. ISM은 가격신규주문고용, 미시간대 소비심리는 기대인플레이션 확인 필요. 재무부 국채발행계획에 따른 장기물 공급 부담이 금리 하락을 제한할 가능성도 고려\n\n- ApplePalantir, DatadogCloudflare 실적에서는 제품 수요와 기업용 AI 도입, 고객 사용량 및 가이던스 점검. AMDArista, ArmQualcommCoherent, Lumentum은 신제품 출하와 네트워크광통신 수요가 핵심. AI 활용 영역과 비AI 수요로 실적 개선이 확산되는지가 투자 범위 확대 기준\n\n- ETF 포트폴리오는 VOO/QQQ와 QUAL/SPHQ/JQUA 중심의 Core 유지. 성장성과 현금창출력을 함께 고려한다면 COWG도 선택지. 기술주는 IYW/XLK/VGT, 반도체는 SMH/SOXX/FTXL을 활용하며 실적 확인 이후 단계적 접근. DRAM은 메모리 가격과 제품 구성 개선에 주목하되 고객사의 투자 여건에 따른 변동성 고려\n\n- 기업용 AI와 소프트웨어 성장에는 IGVCHAT/BAI, 실적 개선이 중소형주까지 확산된다면 XSW, 기술주 전반으로 이어진다면 RSPT 검토. 대형주 중심 차별화가 유지된다면 시가총액가중 ETF 우선. 전력망장비 수주에는 GRID/POWR, 산업재 투자 사이클에는 VIS, 가스 운송 장기계약과 시설 확충에는 ENFR을 고려하되 정책인허가 변화 점검\n\n- 의료서비스 ETF인 IHF는 보험 손해율 안정과 이익 회복을 확인하며 이벤트 관점에서 접근. KBWB는 자본시장 활동과 트레이딩 수익 확대에 주목하되 신용위험 점검 병행. 성장 동력이 재확인되는 업종에 선택적으로 비중을 배분하고, DIVO/QDVO로 변동성 관리와 현금흐름 보완",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289420&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
+  "pdf_filename": "Global_ETF_261102.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=1260&bbsSeq=1289420",
+  "collected_at": "2026-11-02T18:52:50+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289420",
+  "text_chars": 24649
+}
