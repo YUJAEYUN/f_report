@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-03",
+  "window": [
+    "2026-10-30",
+    "2026-11-03"
+  ],
+  "trigger": [
+    {
+      "report_id": "hk_653598",
+      "published_date": "2026-11-02",
+      "broker": "상상인증권",
+      "title": "상상인 Macro Daily",
+      "match": "사이드카"
+    },
+    {
+      "report_id": "hk_653616",
+      "published_date": "2026-11-02",
+      "broker": "유안타증권",
+      "title": "YUANTA DAILY MARKET VIEW",
+      "match": "지수 급락"
+    },
+    {
+      "report_id": "hk_653654",
+      "published_date": "2026-11-02",
+      "broker": "IBK투자증권",
+      "title": "start with ibks",
+      "match": "증시가 급락"
+    }
+  ],
+  "report_ids": {
+    "market": [
+      "hana_1289420",
+      "hana_1289413",
+      "hana_1289412",
+      "hana_1289410",
+      "mirae_2343871",
+      "mirae_2343869",
+      "mirae_2343866",
+      "hk_653654",
+      "hk_653636",
+      "hk_653635",
+      "hk_653634",
+      "hk_653616",
+      "hk_653596",
+      "hana_1289375",
+      "hana_1289374",
+      "hana_1289373",
+      "mirae_2343818",
+      "hk_653533",
+      "hk_653532",
+      "hk_653522",
+      "hk_653509",
+      "hk_653508",
+      "hk_653500"
+    ],
+    "daily": [
+      "hana_1289436",
+      "hana_1289415",
+      "hana_1289411",
+      "mirae_2343880",
+      "mirae_2343865",
+      "mirae_2343842",
+      "hk_653653",
+      "hk_653620",
+      "hk_653598",
+      "hana_1289371",
+      "hana_1289370",
+      "hana_1289368",
+      "mirae_2343837",
+      "mirae_2343804",
+      "mirae_2343780"
+    ],
+    "industry": [
+      "hana_1289434",
+      "hana_1289433",
+      "hk_653652",
+      "hk_653643",
+      "hk_653641",
+      "hk_653640",
+      "hk_653637",
+      "hk_653628",
+      "hk_653619",
+      "hk_653618",
+      "hk_653607",
+      "hk_653592",
+      "hana_1289384",
+      "hk_653512",
+      "hk_653503"
+    ]
+  },
+  "memo_used": false,
+  "previous": "2026-10-22",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-03T04:27:59+09:00"
+}
