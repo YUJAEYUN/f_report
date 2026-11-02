@@ -80,6 +80,15 @@
    "report_id": "hk_653473",
    "tp_status": "하향",
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 7000.0,
+   "source": "report",
+   "report_id": "hana_1289424",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -115,6 +124,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 11000.0
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hana_1289424",
+   "title": "유틸리티/음식료·담배/항공·여행(Overweight): 원화 강세 수혜, Again 2015 !",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 7000.0,
+   "tp_status": null,
+   "price": 5570.0,
+   "upside_pct": 25.7,
+   "estimates": {
+    "2026": {
+     "revenue": 1605.1,
+     "op": -9.8,
+     "net": 3.6,
+     "eps": 69.0
+    },
+    "2027": {
+     "revenue": 1642.2,
+     "op": 45.8,
+     "net": 26.0,
+     "eps": 497.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1589.5,
+     "op": -28.2,
+     "net": -44.2,
+     "eps": -846.0
+    },
+    "2027": {
+     "revenue": 1672.0,
+     "op": 98.1,
+     "net": 56.9,
+     "eps": 618.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2027",
+    "metric": "op",
+    "estimate": 45.8,
+    "consensus": 98.1,
+    "gap_pct": -53.3
+   }
   }
  ],
  "rating_changes": [
@@ -260,6 +318,16 @@
   },
   {
    "date": "2026-10-30",
+   "mean": 7667,
+   "n": 3,
+   "brokers": {
+    "상상인증권": 8000.0,
+    "유진투자증권": 8000.0,
+    "하나증권": 7000.0
+   }
+  },
+  {
+   "date": "2026-11-02",
    "mean": 7667,
    "n": 3,
    "brokers": {

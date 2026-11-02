@@ -5,7 +5,8 @@
  "industry": "소프트웨어·AI",
  "brokers": [
   "LS증권",
-  "미래에셋증권"
+  "미래에셋증권",
+  "유진투자증권"
  ],
  "timeline": [
   {
@@ -34,6 +35,15 @@
    "report_id": "mirae_2343815",
    "tp_status": null,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 111000.0,
+   "source": "report",
+   "report_id": "hk_653557",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -85,6 +95,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653557",
+   "title": "LG씨엔에스(064400) 3Q26P Review: 수익성 개선 및 시장기대치 부합",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 111000.0,
+   "tp_status": "유지",
+   "price": 72200.0,
+   "upside_pct": 53.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -114,6 +140,15 @@
    "n": 1,
    "brokers": {
     "LS증권": 101000.0
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "mean": 106000,
+   "n": 2,
+   "brokers": {
+    "LS증권": 101000.0,
+    "유진투자증권": 111000.0
    }
   }
  ],

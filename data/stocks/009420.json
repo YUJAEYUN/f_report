@@ -4,7 +4,8 @@
  "name": "한올바이오파마",
  "industry": "제약·바이오",
  "brokers": [
-  "IBK투자증권"
+  "IBK투자증권",
+  "하나증권"
  ],
  "timeline": [
   {
@@ -15,6 +16,15 @@
    "report_id": "hk_652543",
    "tp_status": "하향",
    "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1289435",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -34,6 +44,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 73000.0
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hana_1289435",
+   "title": "제약/바이오(Overweight): 끝날 때까지는 끝나지 않은, 면역질환",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {
+    "2026": {
+     "revenue": 169.3,
+     "op": 12.0,
+     "net": -12.3,
+     "eps": -236.0
+    },
+    "2027": {
+     "revenue": 177.3,
+     "op": 10.6,
+     "net": 8.6,
+     "eps": 164.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 169.9,
+     "op": 5.7,
+     "net": -11.1,
+     "eps": -174.0
+    },
+    "2027": {
+     "revenue": 192.5,
+     "op": 12.1,
+     "net": 7.7,
+     "eps": 59.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2027",
+    "metric": "op",
+    "estimate": 10.6,
+    "consensus": 12.1,
+    "gap_pct": -12.4
+   }
   }
  ],
  "rating_changes": [
@@ -57,6 +116,14 @@
  "tp_consensus": [
   {
    "date": "2026-09-28",
+   "mean": 70000,
+   "n": 1,
+   "brokers": {
+    "IBK투자증권": 70000.0
+   }
+  },
+  {
+   "date": "2026-11-03",
    "mean": 70000,
    "n": 1,
    "brokers": {

@@ -4,9 +4,65 @@
  "name": "포스코퓨처엠",
  "industry": "2차전지",
  "brokers": [
-  "LS증권"
+  "LS증권",
+  "미래에셋증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2024-10-31",
+   "rating": "매수",
+   "target_price": 258807.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-02-04",
+   "rating": "중립",
+   "target_price": 142489.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-05-14",
+   "rating": "중립",
+   "target_price": 120195.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-10-28",
+   "rating": "중립",
+   "target_price": 198000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-05-04",
+   "rating": "매수",
+   "target_price": 294000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-08-03",
+   "rating": "매수",
+   "target_price": 171000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-10-21",
    "rating": "중립",
@@ -15,6 +71,33 @@
    "report_id": "hk_653171",
    "tp_status": null,
    "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343884",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 196000.0,
+   "source": "report",
+   "report_id": "hana_1289423",
+   "tp_status": "상향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 196000.0,
+   "source": "table",
+   "report_id": "hana_1289423",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -34,22 +117,249 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "mirae_2343884",
+   "title": "포스코퓨처엠 (003670/매수): 공격적인 사업 전환. 음극재에 주목",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hana_1289423",
+   "title": "포스코퓨처엠(003670.KS/매수) : LFP 생산 본격화",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 196000.0,
+   "tp_status": "상향",
+   "price": 168900.0,
+   "upside_pct": 16.0,
+   "estimates": {
+    "2026": {
+     "revenue": 3080.2,
+     "op": 143.6,
+     "net": 73.7,
+     "eps": 828.0
+    },
+    "2027": {
+     "revenue": 2972.1,
+     "op": 136.2,
+     "net": 57.5,
+     "eps": 647.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3088.8,
+     "op": 86.3,
+     "net": 37.5,
+     "eps": 371.0
+    },
+    "2027": {
+     "revenue": 4113.0,
+     "op": 174.4,
+     "net": 81.9,
+     "eps": 830.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 143.6,
+    "consensus": 86.3,
+    "gap_pct": 66.4
+   }
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-02-04",
+   "prev_date": "2024-10-31",
+   "days": 96,
+   "rating_from": "매수",
+   "rating_to": "중립",
+   "tp_from": 258807.0,
+   "tp_to": 142489.0,
+   "tp_pct": -44.9,
+   "tp_speed30": -14.0,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-05-14",
+   "prev_date": "2025-02-04",
+   "days": 99,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 142489.0,
+   "tp_to": 120195.0,
+   "tp_pct": -15.6,
+   "tp_speed30": -4.7,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-10-28",
+   "prev_date": "2025-05-14",
+   "days": 167,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 120195.0,
+   "tp_to": 198000.0,
+   "tp_pct": 64.7,
+   "tp_speed30": 11.6,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-05-04",
+   "prev_date": "2025-10-28",
+   "days": 188,
+   "rating_from": "중립",
+   "rating_to": "매수",
+   "tp_from": 198000.0,
+   "tp_to": 294000.0,
+   "tp_pct": 48.5,
+   "tp_speed30": 7.7,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-08-03",
+   "prev_date": "2026-05-04",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 294000.0,
+   "tp_to": 171000.0,
+   "tp_pct": -41.8,
+   "tp_speed30": -13.8,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-02",
+   "prev_date": "2026-08-03",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 171000.0,
+   "tp_to": 196000.0,
+   "tp_pct": 14.6,
+   "tp_speed30": 4.8,
+   "report_id": "hana_1289423",
+   "broker": "하나증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
   {
-   "date": "2026-10-21",
-   "mean": 153000,
+   "date": "2024-10-31",
+   "mean": 258807,
    "n": 1,
    "brokers": {
-    "LS증권": 153000.0
+    "하나증권": 258807.0
+   }
+  },
+  {
+   "date": "2025-02-04",
+   "mean": 142489,
+   "n": 1,
+   "brokers": {
+    "하나증권": 142489.0
+   }
+  },
+  {
+   "date": "2025-05-14",
+   "mean": 120195,
+   "n": 1,
+   "brokers": {
+    "하나증권": 120195.0
+   }
+  },
+  {
+   "date": "2025-10-28",
+   "mean": 198000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 198000.0
+   }
+  },
+  {
+   "date": "2026-05-04",
+   "mean": 294000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 294000.0
+   }
+  },
+  {
+   "date": "2026-08-03",
+   "mean": 171000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 171000.0
+   }
+  },
+  {
+   "date": "2026-10-21",
+   "mean": 162000,
+   "n": 2,
+   "brokers": {
+    "LS증권": 153000.0,
+    "하나증권": 171000.0
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "mean": 174500,
+   "n": 2,
+   "brokers": {
+    "LS증권": 153000.0,
+    "하나증권": 196000.0
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "mean": 174500,
+   "n": 2,
+   "brokers": {
+    "LS증권": 153000.0,
+    "하나증권": 196000.0
    }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-02",
+   "from": 162000,
+   "to": 174500,
+   "pct": 7.7,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289423",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-02:003670:gap_above:하나증권",
+  "2026-11-02:003670:tp_cons_up:"
+ ]
 }

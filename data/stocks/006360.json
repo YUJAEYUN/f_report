@@ -5,9 +5,12 @@
  "industry": "건설",
  "brokers": [
   "LS증권",
+  "iM증권",
+  "대신증권",
   "미래에셋증권",
   "유안타증권",
-  "하나증권"
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -153,6 +156,60 @@
    "report_id": "hana_1289388",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-01",
+   "rating": "매수",
+   "target_price": 46000.0,
+   "source": "report",
+   "report_id": "hana_1289409",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 38000.0,
+   "source": "report",
+   "report_id": "hk_653601",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 38000.0,
+   "source": "report",
+   "report_id": "hk_653646",
+   "tp_status": "상향",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 44000.0,
+   "source": "report",
+   "report_id": "hk_653575",
+   "tp_status": "유지",
+   "broker": "대신증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343857",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 45000.0,
+   "source": "report",
+   "report_id": "hk_653590",
+   "tp_status": "하향",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [
@@ -334,6 +391,135 @@
     "consensus": 411.1,
     "gap_pct": -4.2
    }
+  },
+  {
+   "date": "2026-11-01",
+   "report_id": "hana_1289409",
+   "title": "하루에 하나 1102",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 46000.0,
+   "tp_status": null,
+   "price": 26000.0,
+   "upside_pct": 76.9,
+   "estimates": {
+    "2026": {
+     "revenue": 10810.3,
+     "op": 393.8,
+     "net": 167.9,
+     "eps": 1962.0
+    },
+    "2027": {
+     "revenue": 11543.4,
+     "op": 656.4,
+     "net": 403.1,
+     "eps": 4710.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 10901.3,
+     "op": 411.1,
+     "net": 173.5,
+     "eps": 1661.0
+    },
+    "2027": {
+     "revenue": 11801.7,
+     "op": 592.2,
+     "net": 416.9,
+     "eps": 4382.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 393.8,
+    "consensus": 411.1,
+    "gap_pct": -4.2
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653601",
+   "title": "GS건설(006360) 인프라 원가 변동성",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 38000.0,
+   "tp_status": "하향",
+   "price": 26000.0,
+   "upside_pct": 46.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 50000.0
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653646",
+   "title": "GS건설(006360) 본업 정상화 진입, 동해 데이터센터 수주 기대",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 38000.0,
+   "tp_status": "상향",
+   "price": 26000.0,
+   "upside_pct": 46.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 35000.0
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653575",
+   "title": "GS건설(006360) 실적 정상화를 향해",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 44000.0,
+   "tp_status": "유지",
+   "price": 26000.0,
+   "upside_pct": 69.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "mirae_2343857",
+   "title": "GS건설 (006360/매수): 실적은 아쉽지만, 다음 카드는 AI 데이터센터",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653590",
+   "title": "GS건설(006360) 실적에 대한 실망은 크지 않다",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 45000.0,
+   "tp_status": "하향",
+   "price": 26000.0,
+   "upside_pct": 73.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -429,6 +615,33 @@
    "tp_speed30": 18.1,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-02",
+   "prev_date": "2026-10-15",
+   "days": 18,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 38000.0,
+   "tp_pct": -24.0,
+   "tp_speed30": -40.0,
+   "report_id": "hk_653601",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-02",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 35000.0,
+   "tp_to": 38000.0,
+   "tp_pct": 8.6,
+   "tp_speed30": null,
+   "report_id": "hk_653646",
+   "implied_prev": true,
+   "broker": "iM증권"
   }
  ],
  "estimate_revisions": [
@@ -797,11 +1010,49 @@
     "유안타증권": 45000.0,
     "하나증권": 46000.0
    }
+  },
+  {
+   "date": "2026-11-01",
+   "mean": 47000,
+   "n": 3,
+   "brokers": {
+    "LS증권": 50000.0,
+    "유안타증권": 45000.0,
+    "하나증권": 46000.0
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "mean": 42667,
+   "n": 6,
+   "brokers": {
+    "LS증권": 38000.0,
+    "iM증권": 38000.0,
+    "대신증권": 44000.0,
+    "유안타증권": 45000.0,
+    "하나증권": 46000.0,
+    "한화투자증권": 45000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-02",
+   "from": 47000,
+   "to": 43000,
+   "pct": -8.5,
+   "n": 3,
+   "brokers": [
+    "LS증권"
+   ],
+   "report_id": "hk_653601",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
  "events": [
-  "2026-10-30:006360:est_down:하나증권2026op"
+  "2026-11-02:006360:tp_down:LS증권",
+  "2026-10-30:006360:est_down:하나증권2026op",
+  "2026-11-02:006360:tp_cons_down:"
  ]
 }

@@ -1,9 +1,10 @@
 {
- "id": "S-Oil",
- "code": null,
+ "id": "010950",
+ "code": "010950",
  "name": "S-Oil",
  "industry": "정유·화학",
  "brokers": [
+  "미래에셋증권",
   "하나증권"
  ],
  "timeline": [
@@ -87,10 +88,103 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 156000.0,
+   "source": "report",
+   "report_id": "mirae_2343885",
+   "tp_status": "상향",
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "report",
+   "report_id": "hana_1289421",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "table",
+   "report_id": "hana_1289421",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-11-02",
+   "report_id": "mirae_2343885",
+   "title": "S-Oil (010950/매수): 호실적은 이어지지만, 이익 상방은 제한적",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 156000.0,
+   "tp_status": "상향",
+   "price": 130000.0,
+   "upside_pct": 20.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hana_1289421",
+   "title": "S-Oil(010950.KS/매수): 역사적 신고가 재경신을 위한 조건: 배당과 샤힌",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 180000.0,
+   "tp_status": "하향",
+   "price": 130000.0,
+   "upside_pct": 38.5,
+   "estimates": {
+    "2026": {
+     "revenue": 45360.0,
+     "op": 4889.8,
+     "net": 3649.9,
+     "eps": 31301.0
+    },
+    "2027": {
+     "revenue": 46153.4,
+     "op": 3500.0,
+     "net": 2524.4,
+     "eps": 21649.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 42828.1,
+     "op": 4538.5,
+     "net": 3098.5,
+     "eps": 26573.0
+    },
+    "2027": {
+     "revenue": 42339.6,
+     "op": 3595.6,
+     "net": 2606.9,
+     "eps": 22357.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 4889.8,
+    "consensus": 4538.5,
+    "gap_pct": 7.7
+   }
+  }
+ ],
  "rating_changes": [
   {
    "date": "2025-01-09",
@@ -195,6 +289,19 @@
    "tp_speed30": 10.7,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-02",
+   "prev_date": "2026-08-04",
+   "days": 90,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 220000.0,
+   "tp_to": 180000.0,
+   "tp_pct": -18.2,
+   "tp_speed30": -6.1,
+   "report_id": "hana_1289421",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
@@ -271,9 +378,29 @@
    "brokers": {
     "하나증권": 220000.0
    }
+  },
+  {
+   "date": "2026-11-02",
+   "mean": 168000,
+   "n": 2,
+   "brokers": {
+    "미래에셋증권": 156000.0,
+    "하나증권": 180000.0
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "mean": 168000,
+   "n": 2,
+   "brokers": {
+    "미래에셋증권": 156000.0,
+    "하나증권": 180000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-02:010950:tp_down:하나증권"
+ ]
 }

@@ -1,0 +1,59 @@
+{
+ "id": "397030",
+ "code": "397030",
+ "name": "에이프릴바이오",
+ "industry": "제약·바이오",
+ "brokers": [
+  "하나증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-03",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1289435",
+   "tp_status": null,
+   "broker": "하나증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-02",
+   "report_id": "hana_1289435",
+   "title": "제약/바이오(Overweight): 끝날 때까지는 끝나지 않은, 면역질환",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 8.0,
+     "op": -5.0,
+     "net": -6.0,
+     "eps": -219.0
+    },
+    "2027": {
+     "revenue": 31.0,
+     "op": 17.0,
+     "net": 17.0,
+     "eps": 525.0
+    }
+   },
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

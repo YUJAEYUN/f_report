@@ -556,15 +556,15 @@
   "name": "IT하드웨어·전자부품",
   "industry": "IT하드웨어·전자부품",
   "report_id": null,
-  "headline": "IT하드웨어·전자부품 리비전 방향 상향 → 하향 (상향 1 · 하향 3종목)",
+  "headline": "IT하드웨어·전자부품 리비전 방향 상향 → 하향 (상향 2 · 하향 3종목)",
   "data": {
    "week": "2026-W44",
    "prev_week": "2026-W41",
-   "up": 1,
+   "up": 2,
    "down": 3,
    "flat": 0,
-   "stocks": 4,
-   "ratio": -0.5
+   "stocks": 5,
+   "ratio": -0.2
   },
   "title": null
  },

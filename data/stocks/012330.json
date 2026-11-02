@@ -5,7 +5,11 @@
  "industry": "자동차·부품",
  "brokers": [
   "LS증권",
+  "iM증권",
   "메리츠증권",
+  "미래에셋증권",
+  "유안타증권",
+  "유진투자증권",
   "하나증권",
   "한화투자증권"
  ],
@@ -137,6 +141,51 @@
    "broker": "하나증권"
   },
   {
+   "date": "2026-11-01",
+   "rating": "매수",
+   "target_price": 550000.0,
+   "source": "report",
+   "report_id": "hana_1289409",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 580000.0,
+   "source": "report",
+   "report_id": "hk_653641",
+   "tp_status": "유지",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343844",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 660000.0,
+   "source": "report",
+   "report_id": "hk_653629",
+   "tp_status": "하향",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 630000.0,
+   "source": "report",
+   "report_id": "hk_653555",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
+  },
+  {
    "date": "2026-11-02",
    "rating": "매수",
    "target_price": 550000.0,
@@ -144,6 +193,15 @@
    "report_id": "hana_1289384",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 700000.0,
+   "source": "report",
+   "report_id": "hk_653592",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -293,6 +351,135 @@
     "consensus": 3704.7,
     "gap_pct": -0.3
    }
+  },
+  {
+   "date": "2026-11-01",
+   "report_id": "hana_1289409",
+   "title": "하루에 하나 1102",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 550000.0,
+   "tp_status": "하향",
+   "price": 334000.0,
+   "upside_pct": 64.7,
+   "estimates": {
+    "2026": {
+     "revenue": 63663.8,
+     "op": 3693.5,
+     "net": 3934.4,
+     "eps": 43542.0
+    },
+    "2027": {
+     "revenue": 67644.3,
+     "op": 3891.9,
+     "net": 4161.1,
+     "eps": 46324.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 64217.7,
+     "op": 3704.7,
+     "net": 4083.1,
+     "eps": 44263.0
+    },
+    "2027": {
+     "revenue": 68360.7,
+     "op": 4056.1,
+     "net": 4565.9,
+     "eps": 49656.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 3693.5,
+    "consensus": 3704.7,
+    "gap_pct": -0.3
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653641",
+   "title": "현대모비스(012330) 26.3Q Review: 4분기에는 더 좋은 그림",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 580000.0,
+   "tp_status": "유지",
+   "price": 334000.0,
+   "upside_pct": 73.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "mirae_2343844",
+   "title": "현대모비스 (012330/매수): 3Q26: 제조 흑자 지속, BD 모멘텀 수혜",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653629",
+   "title": "현대모비스(012330) 3Q26Re: 환율에 비틀려도, 상방은 로봇으로",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 660000.0,
+   "tp_status": "하향",
+   "price": 334000.0,
+   "upside_pct": 97.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 780000.0
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653555",
+   "title": "현대모비스(012330) 3Q26 Review: 분기 영업이익 1조가 코 앞",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 630000.0,
+   "tp_status": "유지",
+   "price": 334000.0,
+   "upside_pct": 88.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653592",
+   "title": "현대모비스(012330) 저평가 과도, 구조적 수익성 개선 재확인",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 700000.0,
+   "tp_status": "유지",
+   "price": 334000.0,
+   "upside_pct": 109.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -412,6 +599,34 @@
    "tp_speed30": -7.1,
    "report_id": "hana_1289384",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-02",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 780000.0,
+   "tp_to": 660000.0,
+   "tp_pct": -15.4,
+   "tp_speed30": null,
+   "report_id": "hk_653629",
+   "implied_prev": true,
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-02",
+   "prev_date": "2026-10-13",
+   "days": 20,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 800000.0,
+   "tp_to": 700000.0,
+   "tp_pct": -12.5,
+   "tp_speed30": -18.8,
+   "report_id": "hk_653592",
+   "mismatch": true,
+   "broker": "한화투자증권"
   }
  ],
  "estimate_revisions": [
@@ -774,7 +989,7 @@
    }
   },
   {
-   "date": "2026-11-02",
+   "date": "2026-11-01",
    "mean": 667500,
    "n": 4,
    "brokers": {
@@ -782,6 +997,20 @@
     "메리츠증권": 750000.0,
     "하나증권": 550000.0,
     "한화투자증권": 800000.0
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "mean": 634286,
+   "n": 7,
+   "brokers": {
+    "LS증권": 570000.0,
+    "iM증권": 580000.0,
+    "메리츠증권": 750000.0,
+    "유안타증권": 660000.0,
+    "유진투자증권": 630000.0,
+    "하나증권": 550000.0,
+    "한화투자증권": 700000.0
    }
   }
  ],
@@ -797,10 +1026,23 @@
    ],
    "report_id": "hana_1289384",
    "cum30": null
+  },
+  {
+   "date": "2026-11-02",
+   "from": 667500,
+   "to": 642500,
+   "pct": -3.7,
+   "n": 4,
+   "brokers": [
+    "한화투자증권"
+   ],
+   "report_id": "hk_653592",
+   "cum30": -4.8
   }
  ],
  "broker_waves": [],
  "events": [
-  "2026-10-30:012330:tp_streak:하나증권"
+  "2026-10-30:012330:tp_streak:하나증권",
+  "2026-11-02:012330:tp_down:유안타증권"
  ]
 }

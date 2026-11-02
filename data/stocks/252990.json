@@ -5,6 +5,7 @@
  "industry": "반도체",
  "brokers": [
   "LS증권",
+  "대신증권",
   "메리츠증권"
  ],
  "timeline": [
@@ -43,6 +44,15 @@
    "report_id": "hk_653373",
    "tp_status": null,
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 25000.0,
+   "source": "report",
+   "report_id": "hk_653571",
+   "tp_status": "상향",
+   "broker": "대신증권"
   }
  ],
  "notes": [],
@@ -110,6 +120,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653571",
+   "title": "샘씨엔에스(252990) 내년에도 계속되는 성장",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 25000.0,
+   "tp_status": "상향",
+   "price": 15790.0,
+   "upside_pct": 58.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -130,6 +156,15 @@
    "n": 1,
    "brokers": {
     "LS증권": 25000.0
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "mean": 25000,
+   "n": 2,
+   "brokers": {
+    "LS증권": 25000.0,
+    "대신증권": 25000.0
    }
   }
  ],

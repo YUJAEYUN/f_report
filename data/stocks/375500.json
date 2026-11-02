@@ -5,6 +5,9 @@
  "industry": "건설",
  "brokers": [
   "LS증권",
+  "iM증권",
+  "대신증권",
+  "메리츠증권",
   "미래에셋증권",
   "유안타증권",
   "하나증권",
@@ -172,6 +175,60 @@
    "report_id": "hana_1289387",
    "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-01",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "report",
+   "report_id": "hana_1289409",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 75000.0,
+   "source": "report",
+   "report_id": "hk_653604",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "report",
+   "report_id": "hk_653644",
+   "tp_status": "하향",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 82000.0,
+   "source": "report",
+   "report_id": "hk_653574",
+   "tp_status": "하향",
+   "broker": "대신증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 97000.0,
+   "source": "report",
+   "report_id": "hk_653577",
+   "tp_status": "유지",
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343856",
+   "tp_status": null,
+   "broker": "미래에셋증권"
   },
   {
    "date": "2026-11-02",
@@ -362,6 +419,135 @@
     "consensus": 555.1,
     "gap_pct": -2.0
    }
+  },
+  {
+   "date": "2026-11-01",
+   "report_id": "hana_1289409",
+   "title": "하루에 하나 1102",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 80000.0,
+   "tp_status": "하향",
+   "price": 54200.0,
+   "upside_pct": 47.6,
+   "estimates": {
+    "2026": {
+     "revenue": 6684.9,
+     "op": 544.2,
+     "net": 356.7,
+     "eps": 8311.0
+    },
+    "2027": {
+     "revenue": 6994.8,
+     "op": 575.8,
+     "net": 443.4,
+     "eps": 10331.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 6974.9,
+     "op": 555.1,
+     "net": 457.4,
+     "eps": 10641.0
+    },
+    "2027": {
+     "revenue": 7142.1,
+     "op": 575.6,
+     "net": 458.9,
+     "eps": 10674.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 544.2,
+    "consensus": 555.1,
+    "gap_pct": -2.0
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653604",
+   "title": "DL이앤씨(375500) 외형 성장에 대한 고민",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 75000.0,
+   "tp_status": "하향",
+   "price": 54200.0,
+   "upside_pct": 38.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653644",
+   "title": "DL이앤씨(375500) 외형 감소 본격화, 절실한 수주 확대",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 80000.0,
+   "tp_status": "하향",
+   "price": 54200.0,
+   "upside_pct": 47.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 90000.0
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653574",
+   "title": "DL이앤씨(375500) 외형 확대가 필요해",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 82000.0,
+   "tp_status": "하향",
+   "price": 54200.0,
+   "upside_pct": 51.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653577",
+   "title": "DL이앤씨(375500) 3Q26 Review: 줄어드는 탑라인 vs 진전이 보이는 신사업",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 97000.0,
+   "tp_status": "유지",
+   "price": 54200.0,
+   "upside_pct": 79.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "mirae_2343856",
+   "title": "DL이앤씨 (375500/매수): 수익성 방어는 긍정적, 매출 감소는 걱정",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -507,6 +693,33 @@
    "tp_speed30": -14.5,
    "report_id": "hana_1289387",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-02",
+   "prev_date": "2026-10-08",
+   "days": 25,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 87000.0,
+   "tp_to": 75000.0,
+   "tp_pct": -13.8,
+   "tp_speed30": -16.6,
+   "report_id": "hk_653604",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-02",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 90000.0,
+   "tp_to": 80000.0,
+   "tp_pct": -11.1,
+   "tp_speed30": null,
+   "report_id": "hk_653644",
+   "implied_prev": true,
+   "broker": "iM증권"
   }
  ],
  "estimate_revisions": [
@@ -895,11 +1108,25 @@
    }
   },
   {
-   "date": "2026-11-02",
+   "date": "2026-11-01",
    "mean": 96250,
    "n": 4,
    "brokers": {
     "LS증권": 87000.0,
+    "유안타증권": 108000.0,
+    "하나증권": 80000.0,
+    "한화투자증권": 110000.0
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "mean": 90286,
+   "n": 7,
+   "brokers": {
+    "LS증권": 75000.0,
+    "iM증권": 80000.0,
+    "대신증권": 82000.0,
+    "메리츠증권": 97000.0,
     "유안타증권": 108000.0,
     "하나증권": 80000.0,
     "한화투자증권": 110000.0
@@ -930,11 +1157,36 @@
    ],
    "report_id": "hana_1289387",
    "cum30": -7.3
+  },
+  {
+   "date": "2026-11-02",
+   "from": 96250,
+   "to": 93250,
+   "pct": -3.1,
+   "n": 4,
+   "brokers": [
+    "LS증권"
+   ],
+   "report_id": "hk_653604",
+   "cum30": -10.4
   }
  ],
- "broker_waves": [],
+ "broker_waves": [
+  {
+   "date": "2026-11-02",
+   "direction": -1,
+   "count": 3,
+   "brokers": [
+    "LS증권",
+    "iM증권",
+    "하나증권"
+   ],
+   "report_id": "hk_653604"
+  }
+ ],
  "events": [
   "2026-10-30:375500:est_down:하나증권2026eps",
-  "2026-10-30:375500:cons_down:하나증권2026eps"
+  "2026-10-30:375500:cons_down:하나증권2026eps",
+  "2026-11-02:375500:wave_down:"
  ]
 }

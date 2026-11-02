@@ -70,6 +70,15 @@
    "report_id": "hana_1289107",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "report",
+   "report_id": "hk_653627",
+   "tp_status": "유지",
+   "broker": "유안타증권"
   }
  ],
  "notes": [
@@ -198,6 +207,22 @@
     "consensus": 74.5,
     "gap_pct": 8.2
    }
+  },
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653627",
+   "title": "펌텍코리아(251970) 증설과 글로벌 고객 확대로 성장 가속",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 80000.0,
+   "tp_status": "유지",
+   "price": 64200.0,
+   "upside_pct": 24.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -389,6 +414,15 @@
   },
   {
    "date": "2026-10-13",
+   "mean": 85000,
+   "n": 2,
+   "brokers": {
+    "유안타증권": 80000.0,
+    "하나증권": 90000.0
+   }
+  },
+  {
+   "date": "2026-11-02",
    "mean": 85000,
    "n": 2,
    "brokers": {

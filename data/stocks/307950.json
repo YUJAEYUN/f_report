@@ -1,0 +1,55 @@
+{
+ "id": "307950",
+ "code": "307950",
+ "name": "현대오토에버",
+ "industry": null,
+ "brokers": [
+  "유진투자증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-02",
+   "rating": "매수",
+   "target_price": 600000.0,
+   "source": "report",
+   "report_id": "hk_653562",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-02",
+   "report_id": "hk_653562",
+   "title": "현대오토에버(307950) 3Q26 Review: GPUaaS 서비스 신사업 진출",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 600000.0,
+   "tp_status": "유지",
+   "price": 289000.0,
+   "upside_pct": 107.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-11-02",
+   "mean": 600000,
+   "n": 1,
+   "brokers": {
+    "유진투자증권": 600000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

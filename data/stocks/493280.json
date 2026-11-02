@@ -1,0 +1,29 @@
+{
+ "id": "493280",
+ "code": "493280",
+ "name": "아이엠바이오로직스",
+ "industry": "제약·바이오",
+ "brokers": [
+  "하나증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-03",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1289435",
+   "tp_status": null,
+   "broker": "하나증권"
+  }
+ ],
+ "notes": [],
+ "observations": [],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}
