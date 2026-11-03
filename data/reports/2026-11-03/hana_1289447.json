@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2206",
+  "bbs_seq": "1289447",
+  "report_type": "daily_series",
+  "title": "하나증권 글로벌 Weekly(26.11.04)",
+  "analyst": "글로벌투자분석실",
+  "published_date": "2026-11-03",
+  "published_time": "18:10:06",
+  "category": "Daily",
+  "breadcrumb": "Daily > Daily",
+  "preview_text": "[미국 증시 동향]\n- 미국 증시는 브로드컴앤트로픽 AI칩 계약에 AI주 주도로 출발, FOMC 금리 동결(인상 소수의견 2명) 속 상승세 유지\n- 알파벳의 EPS쇼크잉여현금흐름 적자 전환으로 상장 이후 최대 낙폭, AI 투자 수익성 의구심 재부각\n- 인텔 4분기 가이던스 쇼크로 -29% 폭락, 1974년 이후 최악의 하루 기록, 반도체주 투매로 SP500 6월 이후 최대 낙폭\n- 미이란 평화협상 기대로 유가가 7%대 급락하고 ISM이 예상을 웃돌았으나, 오라클 200억 달러 자금조달과 반도체 재급락에 나스닥 하락. 중간선거고용지표에 관심 집중\n\n[중국 증시 동향]\n- 11월 중국 증시는 유동성 회복 지연과 기업 마진율 정점 통과 우려로 단기적으로 보수적인 흐름이 예상. 개인 신용거래의 저점 반등 가능성과 홍콩 증시의 공매도 청산 수요, 밸류에이션 매력은 기술적 반등 요인으로 작용할 수 있으나, 추세적인 상승 전환을 위해서는 실질적인 자금 유입 회복 필요\n- 하반기 주가 조정에도 전기기계류 및 ICT 수출 경쟁력 등 중국의 핵심 펀더멘털은 견고하게 유지되고 있으며, CSI300과 홍콩 주요 지수의 밸류에이션 부담도 낮아진 상태. 다만 11월에는 기업 수익성 안정과 실질적인 부양책의 구체화 여부를 확인할 필요\n\n[글로벌 투자유망종목]\n- 엔비디아(NVDA.US), 알파벳(GOOGL.US), 마이크론 테크놀로지(MU.US), AMD(AMD.US), 캐터필러(CAT.US), 크라우드 스트라이크(CRWD.US), 발레로 에너지(VLO.US), 블룸 에너지(BE.US), 비원제약(6160.HK), 커룬바이오텍(6990.HK)",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289447&attachFileSeq=1&bbsId=&dbType=&bbsCd=2206",
+  "pdf_filename": "GlobalWeekly_1104.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2206&bbsSeq=1289447",
+  "collected_at": "2026-11-03T16:37:58+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289447",
+  "text_chars": 48489
+}

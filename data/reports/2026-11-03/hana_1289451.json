@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "1260",
+  "bbs_seq": "1289451",
+  "report_type": "individual",
+  "title": "[실전 퀀트] 집나간 외인과 주가는 언제 돌아옴?",
+  "analyst": "이경수",
+  "published_date": "2026-11-03",
+  "published_time": "21:35:07",
+  "category": "Quant",
+  "breadcrumb": "투자전략 > Quant",
+  "preview_text": "※ 과거 현 수준 상황에서 최소 3개월 후 저점 확인 ※\n▲ 코스피 지수와 연동성 높은 지표는 한국 1년 선행 OP 6개월 변화율 / 외인 수급은 미국 HY 회사채 스프레드와 연동성 가장 높아\n- 고금리, 반도체 피크 아웃, AI 버블 논란, 중간선거 집권당 패배 우려 등 시장 하락과 외인 매도세의 이유는 다양\n- 다만 현재 코스피의 외인 매도세(올해 210조원 순매도 돌파)는 상당히 고착화 및 추세적인 임팩트\n- 우리가 기대하는 것처럼 외인의 추세적 복귀 일정이 위에 언급한 프록시별 흐름에 따라 즉각적인 영향을 받기 어렵다는 것\n- 현재 코스피는 고점대비 -40% 수준이고 외인은 10개월 이상 순매도 지속, 순매도 규모는 210조원 돌파\n- 과거 현재 위의 비슷한 조건(현재보다는 완화 조건)에 해당하는 사례는 3번(2002, 2008, 2020년), 평균적으로 J 자 형태의 주가 흐름 관찰(최소 3개월 이후 반등)\n- 결국 고점대비 25% 이하 조정 + 외인 6개월 시총대비 1.5% 이상 매도 + 순매도 5개월 이상 지속 후, 3개월 저점 관찰 그 이후 반등(평균적 1년 후 +39%, 승률 94%)\n- 같은 기간 외인 수급 역시 6개월 이후에나 매수 전환, 다만 1년 후 기준으로는 평균 시총대비 3%의 순매수와 매수 확률은 94%\n- 중장기적으로 코스피 주가와 외인 수급(순매수)의 상관성 높은 지표는 각각 코스피 12개월 예상 OP의 6개월 변화율과 미국 High Yield 스프레드\n- 계량적 결론으로는 1) 코스피 반등 및 외인 순매수 복귀는 최소 3개월 이후 가능성, 2) 한국 HoH(6개월 성장률) 회복 시기에 코스피 반등, 3) 미국 HY 채권 스프레드 하향 조정 필요(외인이 바라보는 한국 주식은 HY 스프레드?!)",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289451&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
+  "pdf_filename": "EDIT_Quant_Weekly_261104.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=1260&bbsSeq=1289451",
+  "collected_at": "2026-11-03T16:37:58+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289451",
+  "text_chars": 34131
+}
