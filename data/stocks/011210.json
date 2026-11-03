@@ -4,6 +4,7 @@
  "name": "현대위아",
  "industry": "자동차·부품",
  "brokers": [
+  "LS증권",
   "메리츠증권",
   "유진투자증권",
   "하나증권"
@@ -125,6 +126,15 @@
    "report_id": "hk_653554",
    "tp_status": "유지",
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 67000.0,
+   "source": "report",
+   "report_id": "hk_653675",
+   "tp_status": "하향",
+   "broker": "LS증권"
   }
  ],
  "notes": [],
@@ -304,6 +314,22 @@
    "tp_status": "유지",
    "price": 49350.0,
    "upside_pct": 52.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653675",
+   "title": "현대위아(011210) 이제는 방산 매각 이후 수주에 주목",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 67000.0,
+   "tp_status": "하향",
+   "price": 50200.0,
+   "upside_pct": 33.5,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -740,6 +766,17 @@
    "mean": 76000,
    "n": 3,
    "brokers": {
+    "메리츠증권": 82000.0,
+    "유진투자증권": 75000.0,
+    "하나증권": 71000.0
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "mean": 73750,
+   "n": 4,
+   "brokers": {
+    "LS증권": 67000.0,
     "메리츠증권": 82000.0,
     "유진투자증권": 75000.0,
     "하나증권": 71000.0

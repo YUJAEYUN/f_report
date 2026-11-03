@@ -5,6 +5,7 @@
  "industry": "유통·소비재",
  "brokers": [
   "iM증권",
+  "대신증권",
   "한화투자증권"
  ],
  "timeline": [
@@ -25,6 +26,33 @@
    "report_id": "hk_652601",
    "tp_status": "상향",
    "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 28000.0,
+   "source": "report",
+   "report_id": "hk_653688",
+   "tp_status": null,
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "report",
+   "report_id": "hk_653664",
+   "tp_status": "유지",
+   "broker": "대신증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 36000.0,
+   "source": "report",
+   "report_id": "hk_653695",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -60,6 +88,54 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 25000.0
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653688",
+   "title": "한섬(020000) 실적 성장의 지속성을 확인하는 구간",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 28000.0,
+   "tp_status": null,
+   "price": 19380.0,
+   "upside_pct": 44.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653664",
+   "title": "한섬(020000) 4분기 성수기 효과 기대",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 30000.0,
+   "tp_status": "유지",
+   "price": 19340.0,
+   "upside_pct": 55.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653695",
+   "title": "한섬(020000) 3Q26 Review : 모멘텀 폭격기",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 36000.0,
+   "tp_status": "유지",
+   "price": 19380.0,
+   "upside_pct": 85.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -95,6 +171,16 @@
    "n": 2,
    "brokers": {
     "iM증권": 28000.0,
+    "한화투자증권": 36000.0
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "mean": 31333,
+   "n": 3,
+   "brokers": {
+    "iM증권": 28000.0,
+    "대신증권": 30000.0,
     "한화투자증권": 36000.0
    }
   }

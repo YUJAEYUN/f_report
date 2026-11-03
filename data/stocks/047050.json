@@ -4,9 +4,12 @@
  "name": "포스코인터내셔널",
  "industry": "에너지·가스",
  "brokers": [
+  "IBK투자증권",
   "iM증권",
   "메리츠증권",
   "미래에셋증권",
+  "유안타증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -126,6 +129,42 @@
    "report_id": "hana_1289429",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 100000.0,
+   "source": "report",
+   "report_id": "hk_653681",
+   "tp_status": "유지",
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343888",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 112000.0,
+   "source": "report",
+   "report_id": "hk_653702",
+   "tp_status": "유지",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "report",
+   "report_id": "hk_653662",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [
@@ -384,6 +423,70 @@
     "consensus": 1490.6,
     "gap_pct": -1.5
    }
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653681",
+   "title": "포스코인터내셔널(047050) 분산된 이익원, 넓어지는 LNG 기회",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 100000.0,
+   "tp_status": "유지",
+   "price": 51400.0,
+   "upside_pct": 94.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "mirae_2343888",
+   "title": "포스코인터내셔널 (047050/매수): 탄탄한 실적, 더해지는 성장 요인",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653702",
+   "title": "포스코인터내셔널(047050) 성장은 계속되는데, 가격은 더 싸졌다",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 112000.0,
+   "tp_status": "유지",
+   "price": 51400.0,
+   "upside_pct": 117.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653662",
+   "title": "포스코인터내셔널(047050) 3분기 연속 서프라이즈",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 80000.0,
+   "tp_status": "유지",
+   "price": 51400.0,
+   "upside_pct": 55.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -1037,6 +1140,19 @@
    "brokers": {
     "iM증권": 90000.0,
     "메리츠증권": 97000.0,
+    "하나증권": 105000.0
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "mean": 97333,
+   "n": 6,
+   "brokers": {
+    "IBK투자증권": 100000.0,
+    "iM증권": 90000.0,
+    "메리츠증권": 97000.0,
+    "유안타증권": 112000.0,
+    "유진투자증권": 80000.0,
     "하나증권": 105000.0
    }
   }

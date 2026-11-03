@@ -44,6 +44,15 @@
    "report_id": "hk_653557",
    "tp_status": "유지",
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 101000.0,
+   "source": "report",
+   "report_id": "hk_653673",
+   "tp_status": "유지",
+   "broker": "LS증권"
   }
  ],
  "notes": [],
@@ -111,6 +120,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653673",
+   "title": "LG씨엔에스(064400) 연간 매출 가이던스 상향",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 101000.0,
+   "tp_status": "유지",
+   "price": 78000.0,
+   "upside_pct": 29.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -144,6 +169,15 @@
   },
   {
    "date": "2026-11-02",
+   "mean": 106000,
+   "n": 2,
+   "brokers": {
+    "LS증권": 101000.0,
+    "유진투자증권": 111000.0
+   }
+  },
+  {
+   "date": "2026-11-03",
    "mean": 106000,
    "n": 2,
    "brokers": {

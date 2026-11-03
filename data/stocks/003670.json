@@ -5,7 +5,9 @@
  "industry": "2차전지",
  "brokers": [
   "LS증권",
+  "대신증권",
   "미래에셋증권",
+  "유안타증권",
   "하나증권"
  ],
  "timeline": [
@@ -89,6 +91,24 @@
    "report_id": "hana_1289423",
    "tp_status": "상향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 200000.0,
+   "source": "report",
+   "report_id": "hk_653667",
+   "tp_status": "하향",
+   "broker": "대신증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 226000.0,
+   "source": "report",
+   "report_id": "hk_653694",
+   "tp_status": "유지",
+   "broker": "유안타증권"
   },
   {
    "date": "2026-11-03",
@@ -182,6 +202,38 @@
     "consensus": 86.3,
     "gap_pct": 66.4
    }
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653667",
+   "title": "포스코퓨처엠(003670) 확실히 좋아지고 있다",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 200000.0,
+   "tp_status": "하향",
+   "price": 168900.0,
+   "upside_pct": 18.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653694",
+   "title": "포스코퓨처엠(003670) 3Q26 Review: 컨센 대비 상회하는 실적 기록",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 226000.0,
+   "tp_status": "유지",
+   "price": 168900.0,
+   "upside_pct": 33.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -335,10 +387,12 @@
   },
   {
    "date": "2026-11-03",
-   "mean": 174500,
-   "n": 2,
+   "mean": 193750,
+   "n": 4,
    "brokers": {
     "LS증권": 153000.0,
+    "대신증권": 200000.0,
+    "유안타증권": 226000.0,
     "하나증권": 196000.0
    }
   }

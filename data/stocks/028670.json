@@ -4,7 +4,9 @@
  "name": "팬오션",
  "industry": "운송",
  "brokers": [
+  "LS증권",
   "iM증권",
+  "미래에셋증권",
   "상상인증권",
   "유안타증권",
   "유진투자증권",
@@ -127,6 +129,42 @@
    "report_id": "hana_1289425",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 10000.0,
+   "source": "report",
+   "report_id": "hk_653669",
+   "tp_status": "유지",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 8500.0,
+   "source": "report",
+   "report_id": "hk_653693",
+   "tp_status": "유지",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343889",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 8500.0,
+   "source": "report",
+   "report_id": "hk_653703",
+   "tp_status": "유지",
+   "broker": "유안타증권"
   }
  ],
  "notes": [
@@ -347,6 +385,70 @@
     "consensus": 708.5,
     "gap_pct": 1.8
    }
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653669",
+   "title": "팬오션(028670) 3Q26 Review: 환골탈태",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 10000.0,
+   "tp_status": "유지",
+   "price": 5870.0,
+   "upside_pct": 70.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653693",
+   "title": "팬오션(028670) 전쟁 테마를 넘어, 펀더멘탈로 접근 가능",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 8500.0,
+   "tp_status": "유지",
+   "price": 5870.0,
+   "upside_pct": 44.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "mirae_2343889",
+   "title": "팬오션 (028670/매수): 다시 시작되는 탱커 모멘텀",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653703",
+   "title": "팬오션(028670) 벌크를 넘어 탱커로",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 8500.0,
+   "tp_status": "유지",
+   "price": 5870.0,
+   "upside_pct": 44.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -797,6 +899,18 @@
    "mean": 8750,
    "n": 4,
    "brokers": {
+    "iM증권": 8500.0,
+    "상상인증권": 9000.0,
+    "유안타증권": 8500.0,
+    "하나증권": 9000.0
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "mean": 9000,
+   "n": 5,
+   "brokers": {
+    "LS증권": 10000.0,
     "iM증권": 8500.0,
     "상상인증권": 9000.0,
     "유안타증권": 8500.0,

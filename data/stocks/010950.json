@@ -4,7 +4,10 @@
  "name": "S-Oil",
  "industry": "정유·화학",
  "brokers": [
+  "IBK투자증권",
+  "iM증권",
   "미래에셋증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -110,6 +113,33 @@
   {
    "date": "2026-11-03",
    "rating": "매수",
+   "target_price": 210000.0,
+   "source": "report",
+   "report_id": "hk_653682",
+   "tp_status": "유지",
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 170000.0,
+   "source": "report",
+   "report_id": "hk_653687",
+   "tp_status": null,
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "report",
+   "report_id": "hk_653661",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
    "target_price": 180000.0,
    "source": "table",
    "report_id": "hana_1289421",
@@ -183,6 +213,54 @@
     "consensus": 4538.5,
     "gap_pct": 7.7
    }
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653682",
+   "title": "S-Oil(010950) 같은 한 배럴, 윤활이 만드는 13배의 이익",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 210000.0,
+   "tp_status": "유지",
+   "price": 130000.0,
+   "upside_pct": 61.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653687",
+   "title": "S-Oil(010950) 피크아웃이 아니라 높아진 기본 체력을 보자",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 170000.0,
+   "tp_status": null,
+   "price": 129000.0,
+   "upside_pct": 31.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653661",
+   "title": "S-Oil(010950) 분기 최대 실적 달성",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 180000.0,
+   "tp_status": "유지",
+   "price": 130000.0,
+   "upside_pct": 38.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -390,10 +468,13 @@
   },
   {
    "date": "2026-11-03",
-   "mean": 168000,
-   "n": 2,
+   "mean": 179200,
+   "n": 5,
    "brokers": {
+    "IBK투자증권": 210000.0,
+    "iM증권": 170000.0,
     "미래에셋증권": 156000.0,
+    "유진투자증권": 180000.0,
     "하나증권": 180000.0
    }
   }

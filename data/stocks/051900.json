@@ -88,6 +88,24 @@
    "report_id": "hk_653305",
    "tp_status": null,
    "broker": "상상인증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "중립",
+   "target_price": 270000.0,
+   "source": "report",
+   "report_id": "hana_1289452",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "중립",
+   "target_price": 270000.0,
+   "source": "table",
+   "report_id": "hana_1289452",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
@@ -113,6 +131,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hana_1289452",
+   "title": "LG생활건강(051900.KS/Neutral): 3Q25 Re: 극복하기 어려운 중국 사업 부담",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "중립",
+   "rating_status": "하향",
+   "target_price": 270000.0,
+   "tp_status": "하향",
+   "price": 262000.0,
+   "upside_pct": 3.1,
+   "estimates": {
+    "2026": {
+     "revenue": 6309.0,
+     "op": 310.8,
+     "net": 196.0,
+     "eps": 11403.0
+    },
+    "2027": {
+     "revenue": 6551.5,
+     "op": 348.1,
+     "net": 237.6,
+     "eps": 13917.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 6410.6,
+     "op": 365.6,
+     "net": 216.8,
+     "eps": 11940.0
+    },
+    "2027": {
+     "revenue": 6679.7,
+     "op": 423.6,
+     "net": 288.2,
+     "eps": 16003.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 310.8,
+    "consensus": 365.6,
+    "gap_pct": -15.0
+   }
   }
  ],
  "rating_changes": [
@@ -207,6 +274,19 @@
    "tp_speed30": -4.7,
    "report_id": "hana_1289107",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-03",
+   "prev_date": "2026-10-14",
+   "days": 20,
+   "rating_from": "매수",
+   "rating_to": "중립",
+   "tp_from": 320000.0,
+   "tp_to": 270000.0,
+   "tp_pct": -15.6,
+   "tp_speed30": -23.4,
+   "report_id": "hana_1289452",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
@@ -276,9 +356,45 @@
     "상상인증권": 350000.0,
     "하나증권": 320000.0
    }
+  },
+  {
+   "date": "2026-11-03",
+   "mean": 310000,
+   "n": 2,
+   "brokers": {
+    "상상인증권": 350000.0,
+    "하나증권": 270000.0
+   }
+  },
+  {
+   "date": "2026-11-04",
+   "mean": 310000,
+   "n": 2,
+   "brokers": {
+    "상상인증권": 350000.0,
+    "하나증권": 270000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-03",
+   "from": 335000,
+   "to": 310000,
+   "pct": -7.5,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289452",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-03:051900:rating_down:하나증권",
+  "2026-11-03:051900:tp_down:하나증권",
+  "2026-11-03:051900:tp_accel:하나증권",
+  "2026-11-03:051900:tp_cons_down:"
+ ]
 }

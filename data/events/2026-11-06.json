@@ -1,0 +1,24 @@
+[
+ {
+  "id": "2026-11-06:운송:industry_flip",
+  "date": "2026-11-06",
+  "type": "industry_up",
+  "severity": 1.5,
+  "stock_id": null,
+  "code": null,
+  "name": "운송",
+  "industry": "운송",
+  "report_id": null,
+  "headline": "운송 리비전 방향 하향 → 상향 (상향 2 · 하향 1종목)",
+  "data": {
+   "week": "2026-W45",
+   "prev_week": "2026-W44",
+   "up": 2,
+   "down": 1,
+   "flat": 1,
+   "stocks": 4,
+   "ratio": 0.25
+  },
+  "title": null
+ }
+]

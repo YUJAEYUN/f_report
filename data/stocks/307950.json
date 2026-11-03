@@ -2,8 +2,9 @@
  "id": "307950",
  "code": "307950",
  "name": "현대오토에버",
- "industry": null,
+ "industry": "소프트웨어·AI",
  "brokers": [
+  "LS증권",
   "유진투자증권"
  ],
  "timeline": [
@@ -15,6 +16,15 @@
    "report_id": "hk_653562",
    "tp_status": "유지",
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-03",
+   "rating": "매수",
+   "target_price": 500000.0,
+   "source": "report",
+   "report_id": "hk_653676",
+   "tp_status": "하향",
+   "broker": "LS증권"
   }
  ],
  "notes": [],
@@ -34,6 +44,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-03",
+   "report_id": "hk_653676",
+   "title": "현대오토에버(307950) GPUaaS를 통한 성장 기대",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 500000.0,
+   "tp_status": "하향",
+   "price": 310500.0,
+   "upside_pct": 61.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -45,6 +71,15 @@
    "mean": 600000,
    "n": 1,
    "brokers": {
+    "유진투자증권": 600000.0
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "mean": 550000,
+   "n": 2,
+   "brokers": {
+    "LS증권": 500000.0,
     "유진투자증권": 600000.0
    }
   }
