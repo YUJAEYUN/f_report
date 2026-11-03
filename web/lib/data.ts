@@ -136,8 +136,45 @@ export function toCard(r: Report): ReportCard {
   };
 }
 
+let cardCache: ReportCard[] | null = null;
+
+/** 전체 리포트 카드, 최신순. 페이지마다 부르므로 한 번만 만든다 (호출하는 쪽에서 배열을 바꾸지 말 것) */
 export function allCards(): ReportCard[] {
-  return allReports().map(toCard);
+  if (!cardCache) cardCache = allReports().map(toCard);
+  return cardCache;
+}
+
+export type ReportFilter = { q: string; desk: string; broker: string; industry: string; theme: string; week: string };
+
+/** /reports 필터. 검색어는 제목·요약·애널리스트에서 찾는다 */
+export function filterCards(f: ReportFilter): ReportCard[] {
+  const needle = f.q.trim().toLowerCase();
+  return allCards().filter(
+    (c) =>
+      (!f.desk || c.desk === f.desk) &&
+      (!f.broker || c.broker === f.broker) &&
+      (!f.industry || c.industries.includes(f.industry)) &&
+      (!f.theme || c.themes.includes(f.theme)) &&
+      (!f.week || isoWeek(c.date) === f.week) &&
+      (!needle || `${c.title} ${c.oneLiner} ${c.analyst ?? ""}`.toLowerCase().includes(needle)),
+  );
+}
+
+let facetCache: { desks: string[]; brokers: string[]; industries: string[]; themes: string[] } | null = null;
+
+/** 필터 선택지 */
+export function reportFacets() {
+  if (!facetCache) {
+    const cards = allCards();
+    const uniq = (xs: string[]) => [...new Set(xs)].sort((a, b) => a.localeCompare(b, "ko"));
+    facetCache = {
+      desks: uniq(cards.map((c) => c.desk)),
+      brokers: uniq(cards.map((c) => c.broker).filter(Boolean)),
+      industries: uniq(cards.flatMap((c) => c.industries)),
+      themes: uniq(cards.flatMap((c) => c.themes)),
+    };
+  }
+  return facetCache;
 }
 
 // ---------- 대시보드 ----------
