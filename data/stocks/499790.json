@@ -51,6 +51,24 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
+   "target_price": 58000.0,
+   "source": "report",
+   "report_id": "hana_1289475",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 58000.0,
+   "source": "table",
+   "report_id": "hana_1289475",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
@@ -60,7 +78,57 @@
    "broker": "하나증권"
   }
  ],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-11-04",
+   "report_id": "hana_1289475",
+   "title": "GS피앤엘(499790.KS/매수): 살짝 아쉬운 실적",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 58000.0,
+   "tp_status": "하향",
+   "price": 33500.0,
+   "upside_pct": 73.1,
+   "estimates": {
+    "2026": {
+     "revenue": 617.4,
+     "op": 134.2,
+     "net": 60.6,
+     "eps": 3057.0
+    },
+    "2027": {
+     "revenue": 673.4,
+     "op": 155.3,
+     "net": 72.4,
+     "eps": 3652.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 631.3,
+     "op": 137.8,
+     "net": 92.5,
+     "eps": 3099.0
+    },
+    "2027": {
+     "revenue": 693.1,
+     "op": 158.8,
+     "net": 110.1,
+     "eps": 3709.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 134.2,
+    "consensus": 137.8,
+    "gap_pct": -2.6
+   }
+  }
+ ],
  "rating_changes": [
   {
    "date": "2026-01-15",
@@ -114,6 +182,19 @@
    "tp_speed30": -3.7,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-04",
+   "prev_date": "2026-07-02",
+   "days": 125,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 67000.0,
+   "tp_to": 58000.0,
+   "tp_pct": -13.4,
+   "tp_speed30": -3.2,
+   "report_id": "hana_1289475",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
@@ -157,6 +238,22 @@
    "n": 1,
    "brokers": {
     "하나증권": 67000.0
+   }
+  },
+  {
+   "date": "2026-11-04",
+   "mean": 58000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 58000.0
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "mean": 58000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 58000.0
    }
   }
  ],

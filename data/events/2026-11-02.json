@@ -56,7 +56,7 @@
   "stock_id": "067160",
   "code": "067160",
   "name": "SOOP",
-  "industry": null,
+  "industry": "미디어·콘텐츠",
   "report_id": "hk_653558",
   "headline": "유진투자증권 목표주가 77,000원 → 45,000원 (-41.6%)",
   "data": {
@@ -203,7 +203,7 @@
   "stock_id": "215000",
   "code": "215000",
   "name": "골프존",
-  "industry": null,
+  "industry": "호텔·레저",
   "report_id": "hk_653561",
   "headline": "유진투자증권 목표주가 70,000원 → 50,000원 (-28.6%)",
   "data": {

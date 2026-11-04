@@ -19,5 +19,42 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hk_653735",
-  "text_chars": 10627
+  "text_chars": 10627,
+  "summary": {
+    "one_liner": "미국 아마존 Facial Skin Care BSR 기준 K뷰티 유니버스 합산 점수가 이번 주 1,922pt로 전주 대비 19pt 둔화했으며, medicube·ANUA는 하락한 반면 COSRX가 +81pt로 반등을 주도했다.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "K뷰티 유니버스(33개 브랜드) 아마존 BSR 합산 점수는 1,922pt로 전주 대비 -19pt.",
+      "주간 평균 점수 1위 medicube는 756pt(-45pt), 3위 ANUA는 301pt(-19pt)로 하락했으나 30일 평균(776pt, 369pt) 및 medicube는 90일 평균(700pt) 대비로도 비교 가능한 수준이다.",
+      "COSRX는 55pt에서 137pt로 +81pt 상승해 상승폭 1위를 기록했고, 9위로 Top20에 진입했다. 제품 단위로는 6X Peptide Collagen Skin Booster Toner Serum(3→39), PDRN Exosome Overnight Face Mask(0→29)가 기여했다.",
+      "ARENCIA(21→54, +32pt), Daolyo(6→40, +34pt), THAYERS(40→68, +28pt) 등 중소 브랜드도 상승했다. 상위권의 CeraVe(622pt), The Ordinary(439pt) 등 비K뷰티 브랜드는 안정적이었다.",
+      "제품 순위에서는 medicube의 Zero Pore Pad 2.0(99pt), Jelly Gel Mask with Salmon DNA PDRN(93pt), Capsule Cream with Salmon DNA PDRN(76→90pt)이 상위에 위치했다."
+    ],
+    "risk_factors": [
+      "BSR은 프로모션·광고 여부에 따라 일일 변동폭이 커 단기 주간 변화의 해석에 노이즈가 있을 수 있다.",
+      "Facial Skin Care 카테고리의 아마존 BSR 1~100위 데이터에 기반해 미국 전체 시장 성과로의 확장에는 한계가 있다.",
+      "K뷰티 유니버스 구성 브랜드는 추후 변경될 수 있어 시계열 비교 시 기준 변동 가능성이 있다."
+    ]
+  },
+  "insight": {
+    "change": "K뷰티 합산 점수는 소폭 둔화(-19pt)했고, 상위 브랜드인 medicube(-45pt)와 ANUA(-19pt)가 약화된 반면 COSRX(+81pt)와 ARENCIA(+32pt) 등이 올라오며 주간 성과의 주도 브랜드가 분산되었다.",
+    "implication": "합산 점수 변화는 작지만 내부적으로는 상위 2개 브랜드 의존도가 일부 낮아지고 중하위 브랜드가 신제품·특정 SKU(펩타이드, PDRN 등)로 순위를 끌어올리는 모습이어서, 미국 채널의 K뷰티 성과가 개별 브랜드·제품 단위로 교체되며 이어지는지를 보여주는 자료로 해석할 수 있다.",
+    "watch_points": [
+      "COSRX 점수(137pt)가 30일 평균(89pt) 이상 수준에서 유지되는지 여부",
+      "medicube·ANUA 주간 점수가 30일·90일 평균 수준으로 회복되는지 여부",
+      "K뷰티 유니버스 합산 BSR 추이가 이후 주간에도 이어지는 둔화인지 반등인지"
+    ]
+  },
+  "summarized_at": "2026-11-05T01:49:56+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "화장품"
+  ],
+  "themes": [
+    "K뷰티 수출 확대"
+  ],
+  "tagged_at": "2026-11-05T01:49:56+09:00"
 }

@@ -70,6 +70,24 @@
    "report_id": "hana_1289313",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
+   "target_price": 7700.0,
+   "source": "report",
+   "report_id": "hana_1289477",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 7700.0,
+   "source": "table",
+   "report_id": "hana_1289477",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -89,6 +107,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 10000.0
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "hana_1289477",
+   "title": "넥센타이어(002350.KS/매수): 회복은 늦어졌지만, 가격은 이미 반영",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 7700.0,
+   "tp_status": "하향",
+   "price": 5760.0,
+   "upside_pct": 33.7,
+   "estimates": {
+    "2026": {
+     "revenue": 3350.7,
+     "op": 122.1,
+     "net": 24.3,
+     "eps": 233.0
+    },
+    "2027": {
+     "revenue": 3422.8,
+     "op": 131.2,
+     "net": 92.5,
+     "eps": 888.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3480.7,
+     "op": 163.4,
+     "net": 108.6,
+     "eps": 1041.0
+    },
+    "2027": {
+     "revenue": 3669.6,
+     "op": 177.4,
+     "net": 129.8,
+     "eps": 1242.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 122.1,
+    "consensus": 163.4,
+    "gap_pct": -25.3
+   }
   }
  ],
  "rating_changes": [
@@ -170,6 +237,19 @@
    "tp_speed30": -2.3,
    "report_id": "hana_1289313",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-04",
+   "prev_date": "2026-10-28",
+   "days": 7,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 8400.0,
+   "tp_to": 7700.0,
+   "tp_pct": -8.3,
+   "tp_speed30": -35.6,
+   "report_id": "hana_1289477",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
@@ -231,12 +311,45 @@
     "유진투자증권": 8500.0,
     "하나증권": 8400.0
    }
+  },
+  {
+   "date": "2026-11-04",
+   "mean": 8100,
+   "n": 2,
+   "brokers": {
+    "유진투자증권": 8500.0,
+    "하나증권": 7700.0
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "mean": 8100,
+   "n": 2,
+   "brokers": {
+    "유진투자증권": 8500.0,
+    "하나증권": 7700.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-04",
+   "from": 8450,
+   "to": 8100,
+   "pct": -4.1,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289477",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
  "events": [
   "2026-10-26:002350:tp_down:유진투자증권",
-  "2026-10-28:002350:tp_down:하나증권"
+  "2026-10-28:002350:tp_down:하나증권",
+  "2026-11-04:002350:tp_accel:하나증권",
+  "2026-11-04:002350:gap_below:하나증권"
  ]
 }

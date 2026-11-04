@@ -6,6 +6,7 @@
  "brokers": [
   "IBK투자증권",
   "SK증권",
+  "iM증권",
   "대신증권",
   "메리츠증권",
   "미래에셋증권",
@@ -192,6 +193,15 @@
    "report_id": "hk_653412",
    "tp_status": null,
    "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
+   "target_price": 2300000.0,
+   "source": "report",
+   "report_id": "hk_653750",
+   "tp_status": null,
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -418,6 +428,22 @@
    "tp_status": null,
    "price": 1487000.0,
    "upside_pct": 111.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "hk_653750",
+   "title": "SK하이닉스(000660) HBM 하나로 시가총액 설명",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 2300000.0,
+   "tp_status": null,
+   "price": 1398000.0,
+   "upside_pct": 64.5,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -937,6 +963,20 @@
    "brokers": {
     "IBK투자증권": 3200000.0,
     "SK증권": 4000000.0,
+    "대신증권": 3200000.0,
+    "메리츠증권": 3200000.0,
+    "하나증권": 3600000.0,
+    "한화투자증권": 3150000.0
+   }
+  },
+  {
+   "date": "2026-11-04",
+   "mean": 3235714,
+   "n": 7,
+   "brokers": {
+    "IBK투자증권": 3200000.0,
+    "SK증권": 4000000.0,
+    "iM증권": 2300000.0,
     "대신증권": 3200000.0,
     "메리츠증권": 3200000.0,
     "하나증권": 3600000.0,

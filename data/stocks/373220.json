@@ -4,6 +4,7 @@
  "name": "LG에너지솔루션",
  "industry": "2차전지",
  "brokers": [
+  "LS증권",
   "iM증권",
   "메리츠증권",
   "미래에셋증권",
@@ -161,6 +162,33 @@
    "target_price": 480000.0,
    "source": "report",
    "report_id": "hana_1289446",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "중립",
+   "target_price": 290000.0,
+   "source": "report",
+   "report_id": "hk_653725",
+   "tp_status": null,
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
+   "target_price": 550000.0,
+   "source": "report",
+   "report_id": "hk_653745",
+   "tp_status": "유지",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
+   "target_price": 480000.0,
+   "source": "report",
+   "report_id": "hana_1289457",
    "tp_status": null,
    "broker": "하나증권"
   }
@@ -334,6 +362,87 @@
    "report_id": "hana_1289446",
    "title": "LG에너지솔루션(373220.KS/매수) : 확실한 공급자 우위 시장 확인",
    "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 480000.0,
+   "tp_status": null,
+   "price": 338000.0,
+   "upside_pct": 42.0,
+   "estimates": {
+    "2026": {
+     "revenue": 33425.3,
+     "op": 1131.1,
+     "net": -1147.5,
+     "eps": -4904.0
+    },
+    "2027": {
+     "revenue": 42262.2,
+     "op": 3251.3,
+     "net": 1729.2,
+     "eps": 7390.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 32698.1,
+     "op": 1021.0,
+     "net": -381.7,
+     "eps": -1215.0
+    },
+    "2027": {
+     "revenue": 41639.0,
+     "op": 3679.4,
+     "net": 2188.1,
+     "eps": 7876.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1131.1,
+    "consensus": 1021.0,
+    "gap_pct": 10.8
+   }
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "hk_653725",
+   "title": "LG에너지솔루션(373220) 일회성 보상금 포함된 실적, ‘30년 ESS 수요 대비 배 이상 높은 셀 3사...",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 290000.0,
+   "tp_status": null,
+   "price": 338000.0,
+   "upside_pct": -14.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "hk_653745",
+   "title": "LG에너지솔루션(373220) ESS 수주 모멘텀 이어진다",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 550000.0,
+   "tp_status": "유지",
+   "price": 338000.0,
+   "upside_pct": 62.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "hana_1289457",
+   "title": "하루에 하나 1104",
+   "primary": false,
    "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",
@@ -856,6 +965,18 @@
    "mean": 517500,
    "n": 4,
    "brokers": {
+    "iM증권": 550000.0,
+    "메리츠증권": 510000.0,
+    "유진투자증권": 530000.0,
+    "하나증권": 480000.0
+   }
+  },
+  {
+   "date": "2026-11-04",
+   "mean": 472000,
+   "n": 5,
+   "brokers": {
+    "LS증권": 290000.0,
     "iM증권": 550000.0,
     "메리츠증권": 510000.0,
     "유진투자증권": 530000.0,

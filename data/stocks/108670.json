@@ -1,6 +1,6 @@
 {
- "id": "LX하우시스",
- "code": null,
+ "id": "108670",
+ "code": "108670",
  "name": "LX하우시스",
  "industry": "건설",
  "brokers": [
@@ -42,6 +42,24 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
+   "target_price": 36000.0,
+   "source": "report",
+   "report_id": "hana_1289471",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 36000.0,
+   "source": "table",
+   "report_id": "hana_1289471",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
@@ -56,7 +74,57 @@
    "broker": "하나증권"
   }
  ],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-11-04",
+   "report_id": "hana_1289471",
+   "title": "LX하우시스(108670.KS/매수): 거래량 감소, 원재료 가격 상승에 부진",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 36000.0,
+   "tp_status": "하향",
+   "price": 28650.0,
+   "upside_pct": 25.7,
+   "estimates": {
+    "2026": {
+     "revenue": 3332.5,
+     "op": 106.7,
+     "net": 59.9,
+     "eps": 5989.0
+    },
+    "2027": {
+     "revenue": 3336.0,
+     "op": 117.3,
+     "net": 80.0,
+     "eps": 7999.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3363.0,
+     "op": 136.4,
+     "net": 96.2,
+     "eps": 9623.0
+    },
+    "2027": {
+     "revenue": 3448.0,
+     "op": 110.6,
+     "net": 65.6,
+     "eps": 6560.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 106.7,
+    "consensus": 136.4,
+    "gap_pct": -21.8
+   }
+  }
+ ],
  "rating_changes": [
   {
    "date": "2025-02-14",
@@ -98,6 +166,19 @@
    "tp_speed30": -5.2,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-04",
+   "prev_date": "2026-08-03",
+   "days": 93,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 48000.0,
+   "tp_to": 36000.0,
+   "tp_pct": -25.0,
+   "tp_speed30": -8.1,
+   "report_id": "hana_1289471",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
@@ -134,9 +215,28 @@
    "brokers": {
     "하나증권": 48000.0
    }
+  },
+  {
+   "date": "2026-11-04",
+   "mean": 36000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 36000.0
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "mean": 36000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 36000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-04:108670:tp_down:하나증권",
+  "2026-11-04:108670:gap_below:하나증권"
+ ]
 }

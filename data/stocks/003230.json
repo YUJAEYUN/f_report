@@ -81,6 +81,15 @@
    "report_id": "hk_653302",
    "tp_status": null,
    "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
+   "target_price": 1800000.0,
+   "source": "report",
+   "report_id": "hana_1289464",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -132,6 +141,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "hana_1289464",
+   "title": "음식료(Overweight) : 음식료/담배(Overweight): 2027년 Outlook: IFRS18 도입과 환율, 그리고 증설",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 1800000.0,
+   "tp_status": null,
+   "price": 1173000.0,
+   "upside_pct": 53.5,
+   "estimates": {
+    "2026": {
+     "revenue": 3096.2,
+     "op": 724.3,
+     "net": 551.7,
+     "eps": 73241.0
+    },
+    "2027": {
+     "revenue": 3789.4,
+     "op": 876.8,
+     "net": 662.3,
+     "eps": 87917.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3126.2,
+     "op": 726.9,
+     "net": 558.3,
+     "eps": 74267.0
+    },
+    "2027": {
+     "revenue": 3800.8,
+     "op": 894.2,
+     "net": 677.3,
+     "eps": 89459.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 724.3,
+    "consensus": 726.9,
+    "gap_pct": -0.4
+   }
   }
  ],
  "rating_changes": [
@@ -255,6 +313,17 @@
    "brokers": {
     "LS증권": 1800000.0,
     "유안타증권": 2000000.0,
+    "한화투자증권": 1800000.0
+   }
+  },
+  {
+   "date": "2026-11-04",
+   "mean": 1850000,
+   "n": 4,
+   "brokers": {
+    "LS증권": 1800000.0,
+    "유안타증권": 2000000.0,
+    "하나증권": 1800000.0,
     "한화투자증권": 1800000.0
    }
   }

@@ -15,6 +15,15 @@
    "report_id": "mirae_2343560",
    "tp_status": "상향",
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343940",
+   "tp_status": null,
+   "broker": "미래에셋증권"
   }
  ],
  "notes": [],
@@ -34,6 +43,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 9000.0
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "mirae_2343940",
+   "title": "카카오게임즈 (293490/매수): 게임 업종 Top Pick 유지",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [

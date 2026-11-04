@@ -118,6 +118,15 @@
    "report_id": "hana_1289423",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "중립",
+   "target_price": 140000.0,
+   "source": "report",
+   "report_id": "hk_653726",
+   "tp_status": null,
+   "broker": "LS증권"
   }
  ],
  "notes": [],
@@ -234,6 +243,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "hk_653726",
+   "title": "포스코퓨처엠(003670) 일회성이 이끈 3분기 실적, 손익 불확실성 증가",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 140000.0,
+   "tp_status": null,
+   "price": 163700.0,
+   "upside_pct": -14.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -314,6 +339,19 @@
    "tp_speed30": 4.8,
    "report_id": "hana_1289423",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-04",
+   "prev_date": "2026-10-21",
+   "days": 14,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 153000.0,
+   "tp_to": 140000.0,
+   "tp_pct": -8.5,
+   "tp_speed30": -18.2,
+   "report_id": "hk_653726",
+   "broker": "LS증권"
   }
  ],
  "estimate_revisions": [],
@@ -395,6 +433,17 @@
     "유안타증권": 226000.0,
     "하나증권": 196000.0
    }
+  },
+  {
+   "date": "2026-11-04",
+   "mean": 190500,
+   "n": 4,
+   "brokers": {
+    "LS증권": 140000.0,
+    "대신증권": 200000.0,
+    "유안타증권": 226000.0,
+    "하나증권": 196000.0
+   }
   }
  ],
  "tp_consensus_changes": [
@@ -409,6 +458,18 @@
    ],
    "report_id": "hana_1289423",
    "cum30": null
+  },
+  {
+   "date": "2026-11-04",
+   "from": 193750,
+   "to": 190500,
+   "pct": -1.7,
+   "n": 4,
+   "brokers": [
+    "LS증권"
+   ],
+   "report_id": "hk_653726",
+   "cum30": 6.0
   }
  ],
  "broker_waves": [],

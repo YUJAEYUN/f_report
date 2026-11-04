@@ -1,10 +1,13 @@
 {
  "id": "047810",
  "code": "047810",
- "name": "[방산/첨단항공우주] 한국항공우주",
+ "name": "한국항공우주",
  "industry": "우주항공·방산",
  "brokers": [
+  "SK증권",
+  "iM증권",
   "미래에셋증권",
+  "상상인증권",
   "유안타증권"
  ],
  "timeline": [
@@ -24,6 +27,51 @@
    "source": "report",
    "report_id": "hk_652847",
    "tp_status": "하향",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
+   "target_price": 150000.0,
+   "source": "report",
+   "report_id": "hk_653732",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
+   "target_price": 135000.0,
+   "source": "report",
+   "report_id": "hk_653751",
+   "tp_status": "하향",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343917",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
+   "target_price": 160000.0,
+   "source": "report",
+   "report_id": "hk_653709",
+   "tp_status": null,
+   "broker": "상상인증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
+   "target_price": 182000.0,
+   "source": "report",
+   "report_id": "hk_653730",
+   "tp_status": "유지",
    "broker": "유안타증권"
   }
  ],
@@ -60,6 +108,86 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 236000.0
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "hk_653732",
+   "title": "한국항공우주(047810) ‘27~’28년 성장 유효, 연말 수주 모멘텀 기대",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 150000.0,
+   "tp_status": "하향",
+   "price": 97300.0,
+   "upside_pct": 54.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 190000.0
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "hk_653751",
+   "title": "한국항공우주(047810) 3Q26: 방산 수주 재개의 서막?",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 135000.0,
+   "tp_status": "하향",
+   "price": 97300.0,
+   "upside_pct": 38.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "mirae_2343917",
+   "title": "한국항공우주 (047810/매수): 실적과 수주에서 가능성 확인",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "hk_653709",
+   "title": "한국항공우주(047810) 3Q26 Review: 수주 본격화 기대",
+   "primary": true,
+   "broker": "상상인증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 160000.0,
+   "tp_status": null,
+   "price": 97300.0,
+   "upside_pct": 64.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "hk_653730",
+   "title": "한국항공우주(047810) 3Q26 Re: 실적도 수주도 서프라이즈~",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 182000.0,
+   "tp_status": "유지",
+   "price": 97300.0,
+   "upside_pct": 87.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -76,6 +204,20 @@
    "report_id": "hk_652847",
    "implied_prev": true,
    "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-04",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 190000.0,
+   "tp_to": 150000.0,
+   "tp_pct": -21.1,
+   "tp_speed30": null,
+   "report_id": "hk_653732",
+   "implied_prev": true,
+   "broker": "SK증권"
   }
  ],
  "estimate_revisions": [],
@@ -97,11 +239,23 @@
     "미래에셋증권": 186000.0,
     "유안타증권": 182000.0
    }
+  },
+  {
+   "date": "2026-11-04",
+   "mean": 156750,
+   "n": 4,
+   "brokers": {
+    "SK증권": 150000.0,
+    "iM증권": 135000.0,
+    "상상인증권": 160000.0,
+    "유안타증권": 182000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
  "events": [
-  "2026-10-08:047810:tp_down:유안타증권"
+  "2026-10-08:047810:tp_down:유안타증권",
+  "2026-11-04:047810:tp_down:SK증권"
  ]
 }

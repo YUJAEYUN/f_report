@@ -2,7 +2,7 @@
  "id": "222800",
  "code": "222800",
  "name": "심텍",
- "industry": "IT하드웨어·전자부품",
+ "industry": "반도체",
  "brokers": [
   "iM증권",
   "메리츠증권",
@@ -75,10 +75,19 @@
   {
    "date": "2026-11-04",
    "rating": "매수",
+   "target_price": 200000.0,
+   "source": "report",
+   "report_id": "hk_653715",
+   "tp_status": "유지",
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
    "target_price": 210000.0,
-   "source": "table",
-   "report_id": "hana_1289454",
-   "tp_status": null,
+   "source": "report",
+   "report_id": "hana_1289457",
+   "tp_status": "상향",
    "broker": "하나증권"
   }
  ],
@@ -181,6 +190,71 @@
    "report_id": "hana_1289454",
    "title": "심텍 (222800.KQ/매수): 업황을 입증하는 서프라이즈",
    "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 210000.0,
+   "tp_status": "상향",
+   "price": 112300.0,
+   "upside_pct": 87.0,
+   "estimates": {
+    "2026": {
+     "revenue": 2037.3,
+     "op": 299.9,
+     "net": 172.6,
+     "eps": 4552.0
+    },
+    "2027": {
+     "revenue": 2502.8,
+     "op": 586.4,
+     "net": 421.2,
+     "eps": 10795.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2086.2,
+     "op": 257.1,
+     "net": 197.4,
+     "eps": 5191.0
+    },
+    "2027": {
+     "revenue": 2536.5,
+     "op": 439.7,
+     "net": 344.5,
+     "eps": 8807.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 299.9,
+    "consensus": 257.1,
+    "gap_pct": 16.6
+   }
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "hk_653715",
+   "title": "심텍(222800) 모든 화살표가 위를 향한다",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 200000.0,
+   "tp_status": "유지",
+   "price": 112300.0,
+   "upside_pct": 78.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "hana_1289457",
+   "title": "하루에 하나 1104",
+   "primary": false,
    "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",

@@ -6,6 +6,7 @@
  "brokers": [
   "IBK투자증권",
   "SK증권",
+  "iM증권",
   "대신증권",
   "메리츠증권",
   "미래에셋증권",
@@ -238,6 +239,15 @@
    "report_id": "hana_1289368",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-04",
+   "rating": "매수",
+   "target_price": 370000.0,
+   "source": "report",
+   "report_id": "hk_653749",
+   "tp_status": null,
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -630,6 +640,22 @@
     "consensus": 371697.7,
     "gap_pct": 4.4
    }
+  },
+  {
+   "date": "2026-11-04",
+   "report_id": "hk_653749",
+   "title": "삼성전자(005930) STRESS TEST",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 370000.0,
+   "tp_status": null,
+   "price": 219500.0,
+   "upside_pct": 68.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -1355,6 +1381,21 @@
    "brokers": {
     "IBK투자증권": 350000.0,
     "SK증권": 610000.0,
+    "대신증권": 500000.0,
+    "메리츠증권": 500000.0,
+    "유안타증권": 630000.0,
+    "유진투자증권": 560000.0,
+    "하나증권": 480000.0
+   }
+  },
+  {
+   "date": "2026-11-04",
+   "mean": 500000,
+   "n": 8,
+   "brokers": {
+    "IBK투자증권": 350000.0,
+    "SK증권": 610000.0,
+    "iM증권": 370000.0,
     "대신증권": 500000.0,
     "메리츠증권": 500000.0,
     "유안타증권": 630000.0,

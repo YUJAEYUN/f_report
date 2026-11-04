@@ -195,7 +195,9 @@
    "prev_report_id": "hana_1289042",
    "broker": "하나증권"
   },
-  "title": "SK이노베이션(096770.KS/매수): 사상 최대 실적. 운임 상승은 OSP 인하로 상쇄된다"
+  "title": "SK이노베이션(096770.KS/매수): 사상 최대 실적. 운임 상승은 OSP 인하로 상쇄된다",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:001430:cons_down:하나증권2026eps",
@@ -251,7 +253,9 @@
    "report_id": "hana_1289331",
    "broker": "하나증권"
   },
-  "title": "조선(Overweight): HD현대 조선 그룹 3Q26 Review"
+  "title": "조선(Overweight): HD현대 조선 그룹 3Q26 Review",
+  "reason": "2028년 예상 BPS에 PBR 3.4배를 적용해 목표주가를 산정했다고 밝혔다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:336260:gap_below:하나증권",
@@ -298,7 +302,9 @@
    "implied_prev": true,
    "broker": "SK증권"
   },
-  "title": "HD현대마린엔진(071970) 시장의 예상 및 사측 가이던스 모두 상회"
+  "title": "HD현대마린엔진(071970) 시장의 예상 및 사측 가이던스 모두 상회",
+  "reason": "최근 조선주 주가 하락세에 따라 Target P/E 멀티플을 하향 조정해 '28년 추정 EPS 5,811원에 12배를 적용했다고 밝혔다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:009540:tp_down:SK증권",
@@ -325,7 +331,9 @@
    "implied_prev": true,
    "broker": "SK증권"
   },
-  "title": "HD한국조선해양(009540) 단기 실적 우려 해소, 4Q부터 성장 재개"
+  "title": "HD한국조선해양(009540) 단기 실적 우려 해소, 4Q부터 성장 재개",
+  "reason": "'28년 추정 BPS에 Target P/B 1.3배를 적용했으며, 조선주 최근 주가 급락에 따라 멀티플을 하향 조정했다고 밝혔다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:329180:tp_down:IBK투자증권",
@@ -352,7 +360,9 @@
    "implied_prev": true,
    "broker": "IBK투자증권"
   },
-  "title": "HD현대중공업(329180) 3Q26 Review: 악재 소멸"
+  "title": "HD현대중공업(329180) 3Q26 Review: 악재 소멸",
+  "reason": "환율 가정을 1,450원에서 1,400원으로 낮춰 2027~2028년 실적추정치를 하향하고, 미국 네오 클라우드 업체의 자금 조달 악화로 데이터센터 증설이 지연돼 발전용 엔진 프리미엄을 제거, P/E를 19.8배로 낮췄다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:066570:est_down:하나증권2027eps",
@@ -380,7 +390,9 @@
    "prev_report_id": "hana_1289023",
    "broker": "하나증권"
   },
-  "title": "LG전자 (066570.KS/매수): 주가의 촉매제는 신사업의 성장"
+  "title": "LG전자 (066570.KS/매수): 주가의 촉매제는 신사업의 성장",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:001440:tp_down:하나증권",
@@ -406,7 +418,9 @@
    "report_id": "hana_1289362",
    "broker": "하나증권"
   },
-  "title": "대한전선(001440/KS): 원화 강세 영향으로 기대치 하회"
+  "title": "대한전선(001440/KS): 원화 강세 영향으로 기대치 하회",
+  "reason": "2028년 예상 EPS에 목표 PER 38배를 적용했으며, 3분기 실적이 원/달러 환율 하락 등 외부 요인으로 컨센서스를 하회했다고 봤다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:009830:tp_down:하나증권",
@@ -432,7 +446,9 @@
    "report_id": "hana_1289366",
    "broker": "하나증권"
   },
-  "title": "한화솔루션(009830.KS/매수): 긍정적인 시장 환경 vs. 확인할 이슈 몇 가지"
+  "title": "한화솔루션(009830.KS/매수): 긍정적인 시장 환경 vs. 확인할 이슈 몇 가지",
+  "reason": "케미칼·태양광을 중심으로 2026~27년 영업이익 추정치를 기존 대비 30~40% 하향한 영향이라고 봤다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:071970:tp_down:하나증권",
@@ -458,7 +474,9 @@
    "report_id": "hana_1289331",
    "broker": "하나증권"
   },
-  "title": "조선(Overweight): HD현대 조선 그룹 3Q26 Review"
+  "title": "조선(Overweight): HD현대 조선 그룹 3Q26 Review",
+  "reason": "2028년 예상 BPS에 PBR 2.6배를 적용해 목표주가를 산정했다고 밝혔다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:005930:est_up:하나증권2027op",
@@ -486,7 +504,9 @@
    "prev_report_id": "hana_1289059",
    "broker": "하나증권"
   },
-  "title": "삼성전자(005930.KS/매수) : 2027년 영업이익 전망치 상향으로 방향 전환"
+  "title": "삼성전자(005930.KS/매수) : 2027년 영업이익 전망치 상향으로 방향 전환",
+  "reason": "3분기 DRAM 가격이 견조했고 4분기 B/G도 예상보다 양호할 것으로 전망돼 2027년 연간 실적을 상향했다고 밝혔다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:071970:tp_down:상상인증권",
@@ -513,7 +533,9 @@
    "implied_prev": true,
    "broker": "상상인증권"
   },
-  "title": "HD현대마린엔진(071970) 3Q26 Review: 우린 조금 달라"
+  "title": "HD현대마린엔진(071970) 3Q26 Review: 우린 조금 달라",
+  "reason": "시장 프리미엄 및 베타 조정에 따른 Target 멀티플 하향을 이유로 목표주가를 10만원에서 7만원으로 낮췄다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:034020:cons_up:하나증권2026eps",
@@ -571,7 +593,9 @@
    "prev_report_id": "hana_1289023",
    "broker": "하나증권"
   },
-  "title": "LG전자 (066570.KS/매수): 주가의 촉매제는 신사업의 성장"
+  "title": "LG전자 (066570.KS/매수): 주가의 촉매제는 신사업의 성장",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:009830:gap_below:하나증권",
@@ -619,7 +643,9 @@
    "prev_report_id": "hana_1289042",
    "broker": "하나증권"
   },
-  "title": "SK이노베이션(096770.KS/매수): 사상 최대 실적. 운임 상승은 OSP 인하로 상쇄된다"
+  "title": "SK이노베이션(096770.KS/매수): 사상 최대 실적. 운임 상승은 OSP 인하로 상쇄된다",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:073240:cons_down:하나증권2027eps",
@@ -1053,7 +1079,9 @@
    "report_id": "hana_1289331",
    "broker": "하나증권"
   },
-  "title": "조선(Overweight): HD현대 조선 그룹 3Q26 Review"
+  "title": "조선(Overweight): HD현대 조선 그룹 3Q26 Review",
+  "reason": "자회사의 지분가치 하락을 반영해 목표주가를 하향했다고 밝혔다.",
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:005380:tp_streak:하나증권",
@@ -1104,7 +1132,9 @@
    ],
    "report_id": "hk_653442"
   },
-  "title": "HD한국조선해양(009540) 단기 실적 우려 해소, 4Q부터 성장 재개"
+  "title": "HD한국조선해양(009540) 단기 실적 우려 해소, 4Q부터 성장 재개",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:035900:wave_down:",
@@ -1152,7 +1182,9 @@
    ],
    "report_id": "hk_653432"
   },
-  "title": "HD현대마린엔진(071970) 시장의 예상 및 사측 가이던스 모두 상회"
+  "title": "HD현대마린엔진(071970) 시장의 예상 및 사측 가이던스 모두 상회",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-10-29:329180:wave_down:",
@@ -1176,6 +1208,8 @@
    ],
    "report_id": "hk_653450"
   },
-  "title": "HD현대중공업(329180) 3Q26 Review: 악재 소멸"
+  "title": "HD현대중공업(329180) 3Q26 Review: 악재 소멸",
+  "reason": null,
+  "reason_checked": true
  }
 ]
