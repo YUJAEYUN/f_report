@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "4003",
+  "bbs_seq": "1289463",
+  "report_type": "individual",
+  "title": "AMD(AMD.US): FY 3Q26: 여전히 인텔보다 AMD를 좋아하는 이유",
+  "analyst": "강재구",
+  "published_date": "2026-11-04",
+  "published_time": "17:08:26",
+  "category": "글로벌 기업분석",
+  "breadcrumb": "해외주식 > 글로벌 기업분석",
+  "preview_text": "▶ 서버 CPU 공급 확대와 Helios 생태계 구축에 주목\n- AMD에 대한 긍정적인 관점을 유지한다. AI 가속기와 서버 CPU의 수요 확대에 힘입어 2027년 전사 매출이 80% 이상 증가할 것으로 전망했다. 서버 CPU 매출은 두 배로 늘어나고 데이터센터 매출 비중은 80%를 넘어설 것으로 예상한다. 서버 CPU 매출 성장에서 가격 인상보다 출하량과 코어 수 확대의 기여도가 크다는 점도 고무적이다. x86 서버 CPU 시장은 인텔과 AMD가 양분하고 있으며, AMD의 판매량 증가는 시장점유율 확대를 뒷받침한다.\n\n- 고객 수요가 확보한 공급능력을 웃돌고 있어 추가 생산능력 확보에 따른 성장 여력도 존재한다. GPUCPU네트워킹소프트웨어를 통합한 Helios의 공급 확대는 AMD의 AI 인프라 생태계를 강화할 전망이다. 고객사가 AMD 시스템에 맞춰 운영환경을 최적화하면서 후속 제품 도입과 장기적인 고객 관계 확대로 이어질 가능성도 기대한다.",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289463&attachFileSeq=1&bbsId=&dbType=&bbsCd=4003",
+  "pdf_filename": "20261104_AMD(3Q26).pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=4003&bbsSeq=1289463",
+  "collected_at": "2026-11-04T16:38:31+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289463",
+  "text_chars": 10390
+}
