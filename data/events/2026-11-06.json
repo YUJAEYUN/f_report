@@ -15,9 +15,9 @@
    "prev_week": "2026-W44",
    "up": 2,
    "down": 1,
-   "flat": 1,
-   "stocks": 4,
-   "ratio": 0.25
+   "flat": 2,
+   "stocks": 5,
+   "ratio": 0.2
   },
   "title": null
  },
@@ -31,15 +31,15 @@
   "name": "제약·바이오",
   "industry": "제약·바이오",
   "report_id": null,
-  "headline": "제약·바이오 리비전 방향 하향 → 상향 (상향 2 · 하향 1종목)",
+  "headline": "제약·바이오 리비전 방향 하향 → 상향 (상향 3 · 하향 2종목)",
   "data": {
    "week": "2026-W45",
    "prev_week": "2026-W42",
-   "up": 2,
-   "down": 1,
+   "up": 3,
+   "down": 2,
    "flat": 5,
-   "stocks": 8,
-   "ratio": 0.12
+   "stocks": 10,
+   "ratio": 0.1
   },
   "title": null
  }

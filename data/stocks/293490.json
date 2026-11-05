@@ -1,10 +1,12 @@
 {
  "id": "293490",
  "code": "293490",
- "name": "[게임] 카카오게임즈",
+ "name": "카카오게임즈",
  "industry": "게임",
  "brokers": [
-  "미래에셋증권"
+  "SK증권",
+  "미래에셋증권",
+  "유진투자증권"
  ],
  "timeline": [
   {
@@ -24,6 +26,24 @@
    "report_id": "mirae_2343940",
    "tp_status": null,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "중립",
+   "target_price": 13000.0,
+   "source": "report",
+   "report_id": "hk_653791",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "중립",
+   "target_price": 12000.0,
+   "source": "report",
+   "report_id": "hk_653755",
+   "tp_status": "상향",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -59,6 +79,38 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653791",
+   "title": "카카오게임즈(293490) 신작 온기와 밸류 부담의 사이",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 13000.0,
+   "tp_status": "하향",
+   "price": 11950.0,
+   "upside_pct": 8.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653755",
+   "title": "카카오게임즈(293490) 기대 이상의 도깨비, 남은 건 오딘Q",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 12000.0,
+   "tp_status": "상향",
+   "price": 11950.0,
+   "upside_pct": 0.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 7600.0
   }
  ],
  "rating_changes": [
@@ -75,6 +127,20 @@
    "report_id": "mirae_2343560",
    "implied_prev": true,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-05",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 7600.0,
+   "tp_to": 12000.0,
+   "tp_pct": 57.9,
+   "tp_speed30": null,
+   "report_id": "hk_653755",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -87,11 +153,21 @@
    "brokers": {
     "미래에셋증권": 15000.0
    }
+  },
+  {
+   "date": "2026-11-05",
+   "mean": 12500,
+   "n": 2,
+   "brokers": {
+    "SK증권": 13000.0,
+    "유진투자증권": 12000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
  "events": [
-  "2026-10-22:293490:tp_up:미래에셋증권"
+  "2026-10-22:293490:tp_up:미래에셋증권",
+  "2026-11-05:293490:tp_up:유진투자증권"
  ]
 }

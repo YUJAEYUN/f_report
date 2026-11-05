@@ -65,9 +65,9 @@
    "date": "2026-11-05",
    "rating": "매수",
    "target_price": 58000.0,
-   "source": "table",
-   "report_id": "hana_1289475",
-   "tp_status": null,
+   "source": "report",
+   "report_id": "hana_1289480",
+   "tp_status": "하향",
    "broker": "하나증권"
   }
  ],
@@ -84,6 +84,55 @@
    "report_id": "hana_1289475",
    "title": "GS피앤엘(499790.KS/매수): 살짝 아쉬운 실적",
    "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 58000.0,
+   "tp_status": "하향",
+   "price": 33500.0,
+   "upside_pct": 73.1,
+   "estimates": {
+    "2026": {
+     "revenue": 617.4,
+     "op": 134.2,
+     "net": 60.6,
+     "eps": 3057.0
+    },
+    "2027": {
+     "revenue": 673.4,
+     "op": 155.3,
+     "net": 72.4,
+     "eps": 3652.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 631.3,
+     "op": 137.8,
+     "net": 92.5,
+     "eps": 3099.0
+    },
+    "2027": {
+     "revenue": 693.1,
+     "op": 158.8,
+     "net": 110.1,
+     "eps": 3709.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 134.2,
+    "consensus": 137.8,
+    "gap_pct": -2.6
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hana_1289480",
+   "title": "하루에 하나 1105",
+   "primary": false,
    "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",

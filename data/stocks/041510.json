@@ -5,8 +5,12 @@
  "industry": "미디어·콘텐츠",
  "brokers": [
   "SK증권",
+  "iM증권",
+  "메리츠증권",
+  "상상인증권",
   "유진투자증권",
-  "하나증권"
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -147,11 +151,65 @@
   {
    "date": "2026-11-05",
    "rating": "매수",
+   "target_price": 120000.0,
+   "source": "report",
+   "report_id": "hk_653790",
+   "tp_status": "유지",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
    "target_price": 110000.0,
-   "source": "table",
-   "report_id": "hana_1289474",
-   "tp_status": null,
+   "source": "report",
+   "report_id": "hk_653812",
+   "tp_status": "하향",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "report",
+   "report_id": "hk_653767",
+   "tp_status": "하향",
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "report",
+   "report_id": "hk_653776",
+   "tp_status": "유지",
+   "broker": "상상인증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "report",
+   "report_id": "hk_653759",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "report",
+   "report_id": "hana_1289480",
+   "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 120000.0,
+   "source": "report",
+   "report_id": "hk_653772",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -301,6 +359,151 @@
     "consensus": 181.6,
     "gap_pct": -6.8
    }
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653790",
+   "title": "에스엠(041510) 따뜻한 봄날이 오길 기다리며",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 120000.0,
+   "tp_status": "유지",
+   "price": 70800.0,
+   "upside_pct": 69.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653812",
+   "title": "에스엠(041510) 하반기 실적 공백, 내년에 집중된 모멘텀",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 110000.0,
+   "tp_status": "하향",
+   "price": 72200.0,
+   "upside_pct": 52.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653767",
+   "title": "에스엠(041510) 저연차가 채울 2027년",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 110000.0,
+   "tp_status": "하향",
+   "price": 70800.0,
+   "upside_pct": 55.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653776",
+   "title": "에스엠(041510) 예상대로 쉬어간 3분기",
+   "primary": true,
+   "broker": "상상인증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 110000.0,
+   "tp_status": "유지",
+   "price": 70800.0,
+   "upside_pct": 55.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653759",
+   "title": "에스엠(041510) 그래도 내년은 뭐가 많다",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 110000.0,
+   "tp_status": "유지",
+   "price": 70800.0,
+   "upside_pct": 55.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hana_1289480",
+   "title": "하루에 하나 1105",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 110000.0,
+   "tp_status": "하향",
+   "price": 70800.0,
+   "upside_pct": 55.4,
+   "estimates": {
+    "2026": {
+     "revenue": 1201.4,
+     "op": 169.3,
+     "net": 94.7,
+     "eps": 4136.0
+    },
+    "2027": {
+     "revenue": 1308.5,
+     "op": 192.5,
+     "net": 132.3,
+     "eps": 5780.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1240.9,
+     "op": 181.6,
+     "net": 125.0,
+     "eps": 5124.0
+    },
+    "2027": {
+     "revenue": 1379.4,
+     "op": 216.1,
+     "net": 155.4,
+     "eps": 6416.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 169.3,
+    "consensus": 181.6,
+    "gap_pct": -6.8
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653772",
+   "title": "에스엠(041510) ‘27년에도 마진 개선 전망",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 120000.0,
+   "tp_status": "유지",
+   "price": 70800.0,
+   "upside_pct": 69.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -810,12 +1013,16 @@
   },
   {
    "date": "2026-11-05",
-   "mean": 113333,
-   "n": 3,
+   "mean": 112857,
+   "n": 7,
    "brokers": {
     "SK증권": 120000.0,
+    "iM증권": 110000.0,
+    "메리츠증권": 110000.0,
+    "상상인증권": 110000.0,
     "유진투자증권": 110000.0,
-    "하나증권": 110000.0
+    "하나증권": 110000.0,
+    "한화투자증권": 120000.0
    }
   }
  ],

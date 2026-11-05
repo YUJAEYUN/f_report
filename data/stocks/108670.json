@@ -4,6 +4,7 @@
  "name": "LX하우시스",
  "industry": "건설",
  "brokers": [
+  "미래에셋증권",
   "하나증권"
  ],
  "timeline": [
@@ -55,10 +56,19 @@
   {
    "date": "2026-11-05",
    "rating": "매수",
-   "target_price": 36000.0,
-   "source": "table",
-   "report_id": "hana_1289471",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343962",
    "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 36000.0,
+   "source": "report",
+   "report_id": "hana_1289480",
+   "tp_status": "하향",
    "broker": "하나증권"
   }
  ],
@@ -80,6 +90,71 @@
    "report_id": "hana_1289471",
    "title": "LX하우시스(108670.KS/매수): 거래량 감소, 원재료 가격 상승에 부진",
    "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 36000.0,
+   "tp_status": "하향",
+   "price": 28650.0,
+   "upside_pct": 25.7,
+   "estimates": {
+    "2026": {
+     "revenue": 3332.5,
+     "op": 106.7,
+     "net": 59.9,
+     "eps": 5989.0
+    },
+    "2027": {
+     "revenue": 3336.0,
+     "op": 117.3,
+     "net": 80.0,
+     "eps": 7999.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3363.0,
+     "op": 136.4,
+     "net": 96.2,
+     "eps": 9623.0
+    },
+    "2027": {
+     "revenue": 3448.0,
+     "op": 110.6,
+     "net": 65.6,
+     "eps": 6560.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 106.7,
+    "consensus": 136.4,
+    "gap_pct": -21.8
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "mirae_2343962",
+   "title": "LX하우시스 (108670/매수): 뚜렷한 상고하저의 실적 흐름",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hana_1289480",
+   "title": "하루에 하나 1105",
+   "primary": false,
    "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",

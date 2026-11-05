@@ -5,9 +5,73 @@
  "industry": "자동차·부품",
  "brokers": [
   "LS증권",
-  "유진투자증권"
+  "유진투자증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2024-08-08",
+   "rating": "중립",
+   "target_price": 4648.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2024-11-13",
+   "rating": "중립",
+   "target_price": 4276.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-05-08",
+   "rating": "중립",
+   "target_price": 3811.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-08-14",
+   "rating": "중립",
+   "target_price": 3346.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-10-30",
+   "rating": "중립",
+   "target_price": 4090.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-05-04",
+   "rating": "중립",
+   "target_price": 4700.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-08-03",
+   "rating": "중립",
+   "target_price": 3900.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-10-08",
    "rating": "매수",
@@ -25,6 +89,15 @@
    "report_id": "hk_653264",
    "tp_status": "유지",
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "중립",
+   "target_price": 3900.0,
+   "source": "report",
+   "report_id": "hana_1289496",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -60,27 +133,223 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hana_1289496",
+   "title": "한온시스템(018880.KS/중립): 원가는 해냈고, 이제 수주의 차례",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "중립",
+   "rating_status": "유지",
+   "target_price": 3900.0,
+   "tp_status": null,
+   "price": 3370.0,
+   "upside_pct": 15.7,
+   "estimates": {
+    "2026": {
+     "revenue": 11066.1,
+     "op": 448.8,
+     "net": 27.4,
+     "eps": 27.0
+    },
+    "2027": {
+     "revenue": 11562.3,
+     "op": 502.4,
+     "net": 311.3,
+     "eps": 303.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 11275.9,
+     "op": 432.4,
+     "net": 276.9,
+     "eps": 267.0
+    },
+    "2027": {
+     "revenue": 11758.1,
+     "op": 487.3,
+     "net": 317.3,
+     "eps": 307.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 448.8,
+    "consensus": 432.4,
+    "gap_pct": 3.8
+   }
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2024-11-13",
+   "prev_date": "2024-08-08",
+   "days": 97,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 4648.0,
+   "tp_to": 4276.0,
+   "tp_pct": -8.0,
+   "tp_speed30": -2.5,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-05-08",
+   "prev_date": "2024-11-13",
+   "days": 176,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 4276.0,
+   "tp_to": 3811.0,
+   "tp_pct": -10.9,
+   "tp_speed30": -1.9,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-08-14",
+   "prev_date": "2025-05-08",
+   "days": 98,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 3811.0,
+   "tp_to": 3346.0,
+   "tp_pct": -12.2,
+   "tp_speed30": -3.7,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-10-30",
+   "prev_date": "2025-08-14",
+   "days": 77,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 3346.0,
+   "tp_to": 4090.0,
+   "tp_pct": 22.2,
+   "tp_speed30": 8.6,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-05-04",
+   "prev_date": "2025-10-30",
+   "days": 186,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 4090.0,
+   "tp_to": 4700.0,
+   "tp_pct": 14.9,
+   "tp_speed30": 2.4,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-08-03",
+   "prev_date": "2026-05-04",
+   "days": 91,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 4700.0,
+   "tp_to": 3900.0,
+   "tp_pct": -17.0,
+   "tp_speed30": -5.6,
+   "report_id": null,
+   "broker": "하나증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
   {
-   "date": "2026-10-08",
-   "mean": 4800,
+   "date": "2024-08-08",
+   "mean": 4648,
    "n": 1,
    "brokers": {
-    "LS증권": 4800.0
+    "하나증권": 4648.0
+   }
+  },
+  {
+   "date": "2024-11-13",
+   "mean": 4276,
+   "n": 1,
+   "brokers": {
+    "하나증권": 4276.0
+   }
+  },
+  {
+   "date": "2025-05-08",
+   "mean": 3811,
+   "n": 1,
+   "brokers": {
+    "하나증권": 3811.0
+   }
+  },
+  {
+   "date": "2025-08-14",
+   "mean": 3346,
+   "n": 1,
+   "brokers": {
+    "하나증권": 3346.0
+   }
+  },
+  {
+   "date": "2025-10-30",
+   "mean": 4090,
+   "n": 1,
+   "brokers": {
+    "하나증권": 4090.0
+   }
+  },
+  {
+   "date": "2026-05-04",
+   "mean": 4700,
+   "n": 1,
+   "brokers": {
+    "하나증권": 4700.0
+   }
+  },
+  {
+   "date": "2026-08-03",
+   "mean": 3900,
+   "n": 1,
+   "brokers": {
+    "하나증권": 3900.0
+   }
+  },
+  {
+   "date": "2026-10-08",
+   "mean": 4350,
+   "n": 2,
+   "brokers": {
+    "LS증권": 4800.0,
+    "하나증권": 3900.0
    }
   },
   {
    "date": "2026-10-26",
-   "mean": 5025,
-   "n": 2,
+   "mean": 4650,
+   "n": 3,
    "brokers": {
     "LS증권": 4800.0,
-    "유진투자증권": 5250.0
+    "유진투자증권": 5250.0,
+    "하나증권": 3900.0
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "mean": 4650,
+   "n": 3,
+   "brokers": {
+    "LS증권": 4800.0,
+    "유진투자증권": 5250.0,
+    "하나증권": 3900.0
    }
   }
  ],

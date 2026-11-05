@@ -5,7 +5,8 @@
  "industry": "자동차·부품",
  "brokers": [
   "유진투자증권",
-  "하나증권"
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -84,10 +85,19 @@
    "date": "2026-11-05",
    "rating": "매수",
    "target_price": 7700.0,
-   "source": "table",
-   "report_id": "hana_1289477",
-   "tp_status": null,
+   "source": "report",
+   "report_id": "hana_1289480",
+   "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 7800.0,
+   "source": "report",
+   "report_id": "hk_653773",
+   "tp_status": "하향",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -156,6 +166,71 @@
     "consensus": 163.4,
     "gap_pct": -25.3
    }
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hana_1289480",
+   "title": "하루에 하나 1105",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 7700.0,
+   "tp_status": "하향",
+   "price": 5760.0,
+   "upside_pct": 33.7,
+   "estimates": {
+    "2026": {
+     "revenue": 3350.7,
+     "op": 122.1,
+     "net": 24.3,
+     "eps": 233.0
+    },
+    "2027": {
+     "revenue": 3422.8,
+     "op": 131.2,
+     "net": 92.5,
+     "eps": 888.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3480.7,
+     "op": 163.4,
+     "net": 108.6,
+     "eps": 1041.0
+    },
+    "2027": {
+     "revenue": 3669.6,
+     "op": 177.4,
+     "net": 129.8,
+     "eps": 1242.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 122.1,
+    "consensus": 163.4,
+    "gap_pct": -25.3
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653773",
+   "title": "넥센타이어(002350) 고원가 영향 지속 우려, EU 반덤핑 관세 비용 축소는 긍정적",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 7800.0,
+   "tp_status": "하향",
+   "price": 5760.0,
+   "upside_pct": 35.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -323,11 +398,12 @@
   },
   {
    "date": "2026-11-05",
-   "mean": 8100,
-   "n": 2,
+   "mean": 8000,
+   "n": 3,
    "brokers": {
     "유진투자증권": 8500.0,
-    "하나증권": 7700.0
+    "하나증권": 7700.0,
+    "한화투자증권": 7800.0
    }
   }
  ],

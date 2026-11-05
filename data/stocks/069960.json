@@ -6,7 +6,8 @@
  "brokers": [
   "미래에셋증권",
   "유안타증권",
-  "하나증권"
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -98,6 +99,33 @@
    "report_id": "mirae_2343830",
    "tp_status": null,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343960",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 120000.0,
+   "source": "report",
+   "report_id": "hana_1289479",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 130000.0,
+   "source": "report",
+   "report_id": "hk_653771",
+   "tp_status": "하향",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [
@@ -136,6 +164,87 @@
    "tp_status": null,
    "price": 75100.0,
    "upside_pct": 70.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "mirae_2343960",
+   "title": "현대백화점 (069960/매수): 지누스 적자 축소가 앞당겨졌다",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hana_1289479",
+   "title": "현대백화점(069960.KS/매수): 3Q26 Re: 사업 구조조정 마무리 국면",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 120000.0,
+   "tp_status": null,
+   "price": 80800.0,
+   "upside_pct": 48.5,
+   "estimates": {
+    "2026": {
+     "revenue": 4510.4,
+     "op": 425.5,
+     "net": 289.5,
+     "eps": 13215.0
+    },
+    "2027": {
+     "revenue": 4981.5,
+     "op": 534.1,
+     "net": 383.5,
+     "eps": 17786.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 4306.6,
+     "op": 400.5,
+     "net": 260.3,
+     "eps": 12110.0
+    },
+    "2027": {
+     "revenue": 4645.1,
+     "op": 497.4,
+     "net": 336.5,
+     "eps": 15661.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 425.5,
+    "consensus": 400.5,
+    "gap_pct": 6.2
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653771",
+   "title": "현대백화점(069960) 3Q26 Review : 실적은 관리매출이 아니라 총매출이 지배한다",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 130000.0,
+   "tp_status": "하향",
+   "price": 80800.0,
+   "upside_pct": 60.9,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -326,6 +435,16 @@
     "미래에셋증권": 128000.0,
     "유안타증권": 120000.0,
     "하나증권": 120000.0
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "mean": 123333,
+   "n": 3,
+   "brokers": {
+    "유안타증권": 120000.0,
+    "하나증권": 120000.0,
+    "한화투자증권": 130000.0
    }
   }
  ],

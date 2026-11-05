@@ -1,0 +1,55 @@
+{
+ "id": "037560",
+ "code": "037560",
+ "name": "LG헬로비전",
+ "industry": "통신서비스",
+ "brokers": [
+  "SK증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-05",
+   "rating": "중립",
+   "target_price": 1400.0,
+   "source": "report",
+   "report_id": "hk_653792",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653792",
+   "title": "LG헬로비전(037560) 수익성 개선 지연",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 1400.0,
+   "tp_status": "하향",
+   "price": 1368.0,
+   "upside_pct": 2.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-11-05",
+   "mean": 1400,
+   "n": 1,
+   "brokers": {
+    "SK증권": 1400.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

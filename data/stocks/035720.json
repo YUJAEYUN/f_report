@@ -5,7 +5,8 @@
  "industry": "인터넷·플랫폼",
  "brokers": [
   "LS증권",
-  "대신증권"
+  "대신증권",
+  "미래에셋증권"
  ],
  "timeline": [
   {
@@ -25,6 +26,15 @@
    "report_id": "hk_652984",
    "tp_status": "하향",
    "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2343989",
+   "tp_status": null,
+   "broker": "미래에셋증권"
   }
  ],
  "notes": [],
@@ -60,6 +70,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "mirae_2343989",
+   "title": "카카오 (035720/매수): 분할 이후 반전을 기대",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -76,6 +102,15 @@
   },
   {
    "date": "2026-10-15",
+   "mean": 44500,
+   "n": 2,
+   "brokers": {
+    "LS증권": 42000.0,
+    "대신증권": 47000.0
+   }
+  },
+  {
+   "date": "2026-11-05",
    "mean": 44500,
    "n": 2,
    "brokers": {

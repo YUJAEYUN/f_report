@@ -69,10 +69,69 @@
    "report_id": "hana_1289006",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 33000.0,
+   "source": "report",
+   "report_id": "hana_1289502",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-11-05",
+   "report_id": "hana_1289502",
+   "title": "스튜디오드래곤(253450.KQ/매수): 이제 숨 좀 쉰다",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 33000.0,
+   "tp_status": null,
+   "price": 24200.0,
+   "upside_pct": 36.4,
+   "estimates": {
+    "2026": {
+     "revenue": 583.2,
+     "op": 46.7,
+     "net": 38.4,
+     "eps": 1278.0
+    },
+    "2027": {
+     "revenue": 643.1,
+     "op": 55.0,
+     "net": 48.8,
+     "eps": 1622.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 579.3,
+     "op": 47.6,
+     "net": 34.9,
+     "eps": 1162.0
+    },
+    "2027": {
+     "revenue": 640.5,
+     "op": 58.8,
+     "net": 45.0,
+     "eps": 1495.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 46.7,
+    "consensus": 47.6,
+    "gap_pct": -1.9
+   }
+  }
+ ],
  "rating_changes": [
   {
    "date": "2025-05-09",
@@ -206,6 +265,14 @@
   },
   {
    "date": "2026-10-07",
+   "mean": 33000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 33000.0
+   }
+  },
+  {
+   "date": "2026-11-05",
    "mean": 33000,
    "n": 1,
    "brokers": {

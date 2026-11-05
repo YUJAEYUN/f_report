@@ -106,6 +106,24 @@
    "report_id": "hana_1289006",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 56000.0,
+   "source": "report",
+   "report_id": "hana_1289503",
+   "tp_status": "상향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 56000.0,
+   "source": "table",
+   "report_id": "hana_1289503",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -125,6 +143,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hana_1289503",
+   "title": "CJ ENM(035760.KQ/매수): 오래 기다려 온 TV광고의 턴어라운드 확인!",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 56000.0,
+   "tp_status": "상향",
+   "price": 44650.0,
+   "upside_pct": 25.4,
+   "estimates": {
+    "2026": {
+     "revenue": 5109.6,
+     "op": 120.3,
+     "net": 19.9,
+     "eps": 907.0
+    },
+    "2027": {
+     "revenue": 5623.7,
+     "op": 208.0,
+     "net": 73.7,
+     "eps": 3362.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 5123.0,
+     "op": 93.8,
+     "net": 17.4,
+     "eps": 1679.0
+    },
+    "2027": {
+     "revenue": 5475.3,
+     "op": 198.2,
+     "net": 93.0,
+     "eps": 3586.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 120.3,
+    "consensus": 93.8,
+    "gap_pct": 28.3
+   }
   }
  ],
  "rating_changes": [
@@ -244,6 +311,19 @@
    "tp_speed30": -3.1,
    "report_id": "hana_1289006",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-05",
+   "prev_date": "2026-10-07",
+   "days": 29,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 48000.0,
+   "tp_to": 56000.0,
+   "tp_pct": 16.7,
+   "tp_speed30": 17.3,
+   "report_id": "hana_1289503",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
@@ -329,11 +409,45 @@
     "대신증권": 50000.0,
     "하나증권": 48000.0
    }
+  },
+  {
+   "date": "2026-11-05",
+   "mean": 53000,
+   "n": 2,
+   "brokers": {
+    "대신증권": 50000.0,
+    "하나증권": 56000.0
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "mean": 53000,
+   "n": 2,
+   "brokers": {
+    "대신증권": 50000.0,
+    "하나증권": 56000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-05",
+   "from": 49000,
+   "to": 53000,
+   "pct": 8.2,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289503",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
  "events": [
-  "2026-10-07:035760:tp_streak:하나증권"
+  "2026-10-07:035760:tp_streak:하나증권",
+  "2026-11-05:035760:tp_up:하나증권",
+  "2026-11-05:035760:gap_above:하나증권",
+  "2026-11-05:035760:tp_cons_up:"
  ]
 }

@@ -4,7 +4,8 @@
  "name": "비에이치",
  "industry": "IT하드웨어·전자부품",
  "brokers": [
-  "대신증권"
+  "대신증권",
+  "메리츠증권"
  ],
  "timeline": [
   {
@@ -15,6 +16,15 @@
    "report_id": "hk_653717",
    "tp_status": "하향",
    "broker": "대신증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 21000.0,
+   "source": "report",
+   "report_id": "hk_653768",
+   "tp_status": null,
+   "broker": "메리츠증권"
   }
  ],
  "notes": [],
@@ -34,6 +44,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653768",
+   "title": "비에이치(090460) 반등의 실마리를 찾아서",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 21000.0,
+   "tp_status": null,
+   "price": 15480.0,
+   "upside_pct": 35.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -46,6 +72,15 @@
    "n": 1,
    "brokers": {
     "대신증권": 26000.0
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "mean": 23500,
+   "n": 2,
+   "brokers": {
+    "대신증권": 26000.0,
+    "메리츠증권": 21000.0
    }
   }
  ],

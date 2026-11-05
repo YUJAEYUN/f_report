@@ -4,8 +4,10 @@
  "name": "휴젤",
  "industry": "제약·바이오",
  "brokers": [
+  "IBK투자증권",
   "대신증권",
-  "미래에셋증권"
+  "미래에셋증권",
+  "유진투자증권"
  ],
  "timeline": [
   {
@@ -25,6 +27,24 @@
    "report_id": "mirae_2343355",
    "tp_status": "하향",
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 260000.0,
+   "source": "report",
+   "report_id": "hk_653797",
+   "tp_status": "하향",
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 270000.0,
+   "source": "report",
+   "report_id": "hk_653761",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -60,6 +80,38 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 350000.0
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653797",
+   "title": "휴젤(145020) 판매구조 전환의 성장통, 2027년을 바라볼 때",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 260000.0,
+   "tp_status": "하향",
+   "price": 183100.0,
+   "upside_pct": 42.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 380000.0
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653761",
+   "title": "휴젤(145020) 3Q26 Review: 바닥 확인",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 270000.0,
+   "tp_status": "하향",
+   "price": 184000.0,
+   "upside_pct": 46.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 370000.0
   }
  ],
  "rating_changes": [
@@ -76,6 +128,34 @@
    "report_id": "mirae_2343355",
    "implied_prev": true,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-05",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 380000.0,
+   "tp_to": 260000.0,
+   "tp_pct": -31.6,
+   "tp_speed30": null,
+   "report_id": "hk_653797",
+   "implied_prev": true,
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-05",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 370000.0,
+   "tp_to": 270000.0,
+   "tp_pct": -27.0,
+   "tp_speed30": null,
+   "report_id": "hk_653761",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -97,11 +177,37 @@
     "대신증권": 340000.0,
     "미래에셋증권": 280000.0
    }
+  },
+  {
+   "date": "2026-11-05",
+   "mean": 287500,
+   "n": 4,
+   "brokers": {
+    "IBK투자증권": 260000.0,
+    "대신증권": 340000.0,
+    "미래에셋증권": 280000.0,
+    "유진투자증권": 270000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
- "broker_waves": [],
+ "broker_waves": [
+  {
+   "date": "2026-11-05",
+   "direction": -1,
+   "count": 3,
+   "brokers": [
+    "IBK투자증권",
+    "미래에셋증권",
+    "유진투자증권"
+   ],
+   "report_id": "hk_653797"
+  }
+ ],
  "events": [
-  "2026-10-14:145020:tp_down:미래에셋증권"
+  "2026-10-14:145020:tp_down:미래에셋증권",
+  "2026-11-05:145020:tp_down:IBK투자증권",
+  "2026-11-05:145020:tp_down:유진투자증권",
+  "2026-11-05:145020:wave_down:"
  ]
 }

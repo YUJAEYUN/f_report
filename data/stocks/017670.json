@@ -4,10 +4,12 @@
  "name": "SK텔레콤",
  "industry": "통신서비스",
  "brokers": [
+  "SK증권",
   "iM증권",
   "메리츠증권",
   "미래에셋증권",
   "유안타증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -143,6 +145,51 @@
    "target_price": 140000.0,
    "source": "report",
    "report_id": "hana_1289468",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 120000.0,
+   "source": "report",
+   "report_id": "hk_653786",
+   "tp_status": "유지",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 112000.0,
+   "source": "report",
+   "report_id": "hk_653811",
+   "tp_status": "유지",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 118000.0,
+   "source": "report",
+   "report_id": "hk_653783",
+   "tp_status": "유지",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 135700.0,
+   "source": "report",
+   "report_id": "hk_653757",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-05",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "report",
+   "report_id": "hana_1289480",
    "tp_status": null,
    "broker": "하나증권"
   }
@@ -479,6 +526,119 @@
     "consensus": 1955.6,
     "gap_pct": 0.7
    }
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653786",
+   "title": "SK텔레콤(017670) 성장스토리에 실적 더하기",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 120000.0,
+   "tp_status": "유지",
+   "price": 77400.0,
+   "upside_pct": 55.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653811",
+   "title": "SK텔레콤(017670) 기저효과 속 전년동기대비 고성장",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 112000.0,
+   "tp_status": "유지",
+   "price": 78200.0,
+   "upside_pct": 43.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653783",
+   "title": "SK텔레콤(017670) 숫자로 증명",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 118000.0,
+   "tp_status": "유지",
+   "price": 77400.0,
+   "upside_pct": 52.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hk_653757",
+   "title": "SK텔레콤(017670) SK하이퍼 CAPEX가 보내는 신호",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 135700.0,
+   "tp_status": "유지",
+   "price": 77400.0,
+   "upside_pct": 75.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-05",
+   "report_id": "hana_1289480",
+   "title": "하루에 하나 1105",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 140000.0,
+   "tp_status": null,
+   "price": 77400.0,
+   "upside_pct": 80.9,
+   "estimates": {
+    "2026": {
+     "revenue": 17751.9,
+     "op": 1969.2,
+     "net": 1367.3,
+     "eps": 6366.0
+    },
+    "2027": {
+     "revenue": 18212.3,
+     "op": 2019.1,
+     "net": 1277.3,
+     "eps": 5947.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 17637.2,
+     "op": 1955.6,
+     "net": 1361.8,
+     "eps": 6340.0
+    },
+    "2027": {
+     "revenue": 17988.9,
+     "op": 2079.9,
+     "net": 1425.5,
+     "eps": 6640.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1969.2,
+    "consensus": 1955.6,
+    "gap_pct": 0.7
+   }
   }
  ],
  "rating_changes": [
@@ -534,6 +694,20 @@
    "tp_speed30": 16.4,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-05",
+   "prev_date": "2026-10-19",
+   "days": 17,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 19500.0,
+   "tp_to": 112000.0,
+   "tp_pct": 474.4,
+   "tp_speed30": 837.2,
+   "report_id": "hk_653811",
+   "mismatch": true,
+   "broker": "iM증권"
   }
  ],
  "estimate_revisions": [
@@ -1199,9 +1373,37 @@
     "유안타증권": 118000.0,
     "하나증권": 140000.0
    }
+  },
+  {
+   "date": "2026-11-05",
+   "mean": 123450,
+   "n": 6,
+   "brokers": {
+    "SK증권": 120000.0,
+    "iM증권": 112000.0,
+    "메리츠증권": 115000.0,
+    "유안타증권": 118000.0,
+    "유진투자증권": 135700.0,
+    "하나증권": 140000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-05",
+   "from": 98125,
+   "to": 121250,
+   "pct": 23.6,
+   "n": 4,
+   "brokers": [
+    "iM증권"
+   ],
+   "report_id": "hk_653811",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-05:017670:tp_cons_up:"
+ ]
 }
