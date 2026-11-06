@@ -4,6 +4,7 @@
  "name": "SK가스",
  "industry": "에너지·가스",
  "brokers": [
+  "iM증권",
   "유안타증권",
   "하나증권"
  ],
@@ -115,6 +116,15 @@
    "report_id": "hana_1289498",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 330000.0,
+   "source": "report",
+   "report_id": "hk_653872",
+   "tp_status": null,
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -330,6 +340,22 @@
     "consensus": 471.6,
     "gap_pct": -7.3
    }
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653872",
+   "title": "SK가스(018670) 일석이조 기회가 될 수 있는 LPG 하락+LNG 강세",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 330000.0,
+   "tp_status": null,
+   "price": 225000.0,
+   "upside_pct": 46.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -864,6 +890,16 @@
    "mean": 352500,
    "n": 2,
    "brokers": {
+    "유안타증권": 340000.0,
+    "하나증권": 365000.0
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "mean": 345000,
+   "n": 3,
+   "brokers": {
+    "iM증권": 330000.0,
     "유안타증권": 340000.0,
     "하나증권": 365000.0
    }

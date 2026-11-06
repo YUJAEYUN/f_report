@@ -5,8 +5,12 @@
  "industry": "인터넷·플랫폼",
  "brokers": [
   "LS증권",
+  "SK증권",
   "대신증권",
-  "미래에셋증권"
+  "메리츠증권",
+  "미래에셋증권",
+  "유진투자증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -35,6 +39,42 @@
    "report_id": "mirae_2343989",
    "tp_status": null,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "report",
+   "report_id": "hk_653858",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "중립",
+   "target_price": 36000.0,
+   "source": "report",
+   "report_id": "hk_653833",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 42000.0,
+   "source": "report",
+   "report_id": "hk_653822",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 43000.0,
+   "source": "report",
+   "report_id": "hk_653839",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -86,9 +126,88 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653858",
+   "title": "카카오(035720) 주가는 AI 성과를 기다린다",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 50000.0,
+   "tp_status": "하향",
+   "price": 32200.0,
+   "upside_pct": 55.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653833",
+   "title": "카카오(035720) 바뀐 것, 바뀌지 않은 것",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 36000.0,
+   "tp_status": null,
+   "price": 32200.0,
+   "upside_pct": 11.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653822",
+   "title": "카카오(035720) AI에이전트 연동 전략 전환",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 42000.0,
+   "tp_status": "하향",
+   "price": 32200.0,
+   "upside_pct": 30.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 58000.0
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653839",
+   "title": "카카오(035720) 분할 이후, 달라질 자본배분과 기업가치",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 43000.0,
+   "tp_status": "유지",
+   "price": 32200.0,
+   "upside_pct": 33.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-11-06",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 58000.0,
+   "tp_to": 42000.0,
+   "tp_pct": -27.6,
+   "tp_speed30": null,
+   "report_id": "hk_653822",
+   "implied_prev": true,
+   "broker": "유진투자증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
@@ -117,9 +236,24 @@
     "LS증권": 42000.0,
     "대신증권": 47000.0
    }
+  },
+  {
+   "date": "2026-11-06",
+   "mean": 43333,
+   "n": 6,
+   "brokers": {
+    "LS증권": 42000.0,
+    "SK증권": 50000.0,
+    "대신증권": 47000.0,
+    "메리츠증권": 36000.0,
+    "유진투자증권": 42000.0,
+    "한화투자증권": 43000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-06:035720:tp_down:유진투자증권"
+ ]
 }

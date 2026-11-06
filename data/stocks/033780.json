@@ -135,6 +135,33 @@
    "report_id": "hana_1289491",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 240000.0,
+   "source": "report",
+   "report_id": "hk_653855",
+   "tp_status": "상향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 280000.0,
+   "source": "report",
+   "report_id": "hk_653849",
+   "tp_status": "유지",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 250000.0,
+   "source": "report",
+   "report_id": "hk_653838",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -349,6 +376,54 @@
     "consensus": 1535.4,
     "gap_pct": -1.2
    }
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653855",
+   "title": "KT&G(033780) 새로운 중장기 로드맵 발표",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 240000.0,
+   "tp_status": "상향",
+   "price": 194200.0,
+   "upside_pct": 23.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653849",
+   "title": "KT&G(033780) 성장의 결실, 주주가치로 돌아오다",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 280000.0,
+   "tp_status": "유지",
+   "price": 194200.0,
+   "upside_pct": 44.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 250000.0
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653838",
+   "title": "KT&G(033780) 2027~2030년 누적 주주환원 5조원 계획",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 250000.0,
+   "tp_status": "유지",
+   "price": 194200.0,
+   "upside_pct": 28.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -442,6 +517,19 @@
    "tp_speed30": 12.0,
    "report_id": "hk_653156",
    "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-06",
+   "prev_date": "2026-10-19",
+   "days": 18,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 230000.0,
+   "tp_to": 240000.0,
+   "tp_pct": 4.3,
+   "tp_speed30": 7.2,
+   "report_id": "hk_653855",
+   "broker": "LS증권"
   }
  ],
  "estimate_revisions": [
@@ -818,6 +906,17 @@
     "하나증권": 240000.0,
     "한화투자증권": 250000.0
    }
+  },
+  {
+   "date": "2026-11-06",
+   "mean": 252500,
+   "n": 4,
+   "brokers": {
+    "LS증권": 240000.0,
+    "유안타증권": 280000.0,
+    "하나증권": 240000.0,
+    "한화투자증권": 250000.0
+   }
   }
  ],
  "tp_consensus_changes": [
@@ -844,6 +943,18 @@
    ],
    "report_id": "hk_653156",
    "cum30": 7.3
+  },
+  {
+   "date": "2026-11-06",
+   "from": 250000,
+   "to": 252500,
+   "pct": 1.0,
+   "n": 4,
+   "brokers": [
+    "LS증권"
+   ],
+   "report_id": "hk_653855",
+   "cum30": 4.1
   }
  ],
  "broker_waves": [],

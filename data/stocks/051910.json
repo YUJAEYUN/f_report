@@ -4,9 +4,12 @@
  "name": "LG화학",
  "industry": "정유·화학",
  "brokers": [
+  "IBK투자증권",
   "LS증권",
+  "iM증권",
   "메리츠증권",
   "미래에셋증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -126,6 +129,33 @@
    "report_id": "mirae_2344014",
    "tp_status": "하향",
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 360000.0,
+   "source": "report",
+   "report_id": "hk_653863",
+   "tp_status": "하향",
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 370000.0,
+   "source": "report",
+   "report_id": "hk_653873",
+   "tp_status": null,
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 310000.0,
+   "source": "report",
+   "report_id": "hk_653821",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -209,6 +239,54 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653863",
+   "title": "LG화학(051910) 석유화학 부담 속 배터리/소재의 회복",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 360000.0,
+   "tp_status": "하향",
+   "price": 246000.0,
+   "upside_pct": 46.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 500000.0
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653873",
+   "title": "LG화학(051910) 4분기까지는 눈높이 하향 조정 필요",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 370000.0,
+   "tp_status": null,
+   "price": 246000.0,
+   "upside_pct": 50.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653821",
+   "title": "LG화학(051910) Non-Petchem 개선 중",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 310000.0,
+   "tp_status": "하향",
+   "price": 246000.0,
+   "upside_pct": 26.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 380000.0
   }
  ],
  "rating_changes": [
@@ -328,6 +406,34 @@
    "tp_speed30": 24.6,
    "report_id": "hk_653077",
    "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-06",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 500000.0,
+   "tp_to": 360000.0,
+   "tp_pct": -28.0,
+   "tp_speed30": null,
+   "report_id": "hk_653863",
+   "implied_prev": true,
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-06",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 380000.0,
+   "tp_to": 310000.0,
+   "tp_pct": -18.4,
+   "tp_speed30": null,
+   "report_id": "hk_653821",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -446,6 +552,20 @@
     "미래에셋증권": 370000.0,
     "하나증권": 300000.0
    }
+  },
+  {
+   "date": "2026-11-06",
+   "mean": 329571,
+   "n": 7,
+   "brokers": {
+    "IBK투자증권": 360000.0,
+    "LS증권": 287000.0,
+    "iM증권": 370000.0,
+    "메리츠증권": 310000.0,
+    "미래에셋증권": 370000.0,
+    "유진투자증권": 310000.0,
+    "하나증권": 300000.0
+   }
   }
  ],
  "tp_consensus_changes": [
@@ -478,6 +598,8 @@
  "events": [
   "2026-10-15:051910:tp_down:메리츠증권",
   "2026-10-19:051910:tp_up:LS증권",
+  "2026-11-06:051910:tp_down:IBK투자증권",
+  "2026-11-06:051910:tp_down:유진투자증권",
   "2026-10-15:051910:tp_cons_down:",
   "2026-10-19:051910:tp_cons_up:"
  ]

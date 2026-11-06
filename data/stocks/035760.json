@@ -119,6 +119,15 @@
   {
    "date": "2026-11-06",
    "rating": "매수",
+   "target_price": 60000.0,
+   "source": "report",
+   "report_id": "hk_653831",
+   "tp_status": "상향",
+   "broker": "대신증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
    "target_price": 56000.0,
    "source": "table",
    "report_id": "hana_1289503",
@@ -192,6 +201,22 @@
     "consensus": 93.8,
     "gap_pct": 28.3
    }
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653831",
+   "title": "CJ ENM(035760) 본업의 회복 시그널",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 60000.0,
+   "tp_status": "상향",
+   "price": 44650.0,
+   "upside_pct": 34.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -324,6 +349,19 @@
    "tp_speed30": 17.3,
    "report_id": "hana_1289503",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-06",
+   "prev_date": "2026-10-07",
+   "days": 30,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 60000.0,
+   "tp_pct": 20.0,
+   "tp_speed30": 20.0,
+   "report_id": "hk_653831",
+   "broker": "대신증권"
   }
  ],
  "estimate_revisions": [],
@@ -421,10 +459,10 @@
   },
   {
    "date": "2026-11-06",
-   "mean": 53000,
+   "mean": 58000,
    "n": 2,
    "brokers": {
-    "대신증권": 50000.0,
+    "대신증권": 60000.0,
     "하나증권": 56000.0
    }
   }
@@ -441,13 +479,27 @@
    ],
    "report_id": "hana_1289503",
    "cum30": null
+  },
+  {
+   "date": "2026-11-06",
+   "from": 53000,
+   "to": 58000,
+   "pct": 9.4,
+   "n": 2,
+   "brokers": [
+    "대신증권"
+   ],
+   "report_id": "hk_653831",
+   "cum30": 17.6
   }
  ],
  "broker_waves": [],
  "events": [
   "2026-10-07:035760:tp_streak:하나증권",
   "2026-11-05:035760:tp_up:하나증권",
+  "2026-11-06:035760:tp_up:대신증권",
   "2026-11-05:035760:gap_above:하나증권",
-  "2026-11-05:035760:tp_cons_up:"
+  "2026-11-05:035760:tp_cons_up:",
+  "2026-11-06:035760:tp_cons_up:"
  ]
 }

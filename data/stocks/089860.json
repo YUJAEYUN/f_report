@@ -4,6 +4,7 @@
  "name": "롯데렌탈",
  "industry": "운송",
  "brokers": [
+  "LS증권",
   "유진투자증권",
   "하나증권"
  ],
@@ -88,6 +89,15 @@
    "report_id": "hana_1289493",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 63000.0,
+   "source": "report",
+   "report_id": "hk_653853",
+   "tp_status": "상향",
+   "broker": "LS증권"
   }
  ],
  "notes": [],
@@ -156,6 +166,22 @@
     "consensus": 348.1,
     "gap_pct": -0.8
    }
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653853",
+   "title": "롯데렌탈(089860) 견조한 본업에 배당 기대를 더하다",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 63000.0,
+   "tp_status": "상향",
+   "price": 52900.0,
+   "upside_pct": 19.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -325,6 +351,16 @@
    "mean": 58000,
    "n": 2,
    "brokers": {
+    "유진투자증권": 59000.0,
+    "하나증권": 57000.0
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "mean": 59667,
+   "n": 3,
+   "brokers": {
+    "LS증권": 63000.0,
     "유진투자증권": 59000.0,
     "하나증권": 57000.0
    }

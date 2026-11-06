@@ -4,6 +4,7 @@
  "name": "고려아연",
  "industry": "철강·금속",
  "brokers": [
+  "iM증권",
   "한화투자증권"
  ],
  "timeline": [
@@ -13,6 +14,24 @@
    "target_price": 1400000.0,
    "source": "report",
    "report_id": "hk_653064",
+   "tp_status": "하향",
+   "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 1250000.0,
+   "source": "report",
+   "report_id": "hk_653875",
+   "tp_status": null,
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 1270000.0,
+   "source": "report",
+   "report_id": "hk_653837",
    "tp_status": "하향",
    "broker": "한화투자증권"
   }
@@ -34,9 +53,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653875",
+   "title": "고려아연(010130) 도전적 환경에 직면하다",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1250000.0,
+   "tp_status": null,
+   "price": 989000.0,
+   "upside_pct": 26.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653837",
+   "title": "고려아연(010130) 3Q26 Review: 은 가격과 환율이 동시에 낮춘 이익",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1270000.0,
+   "tp_status": "하향",
+   "price": 989000.0,
+   "upside_pct": 28.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-11-06",
+   "prev_date": "2026-10-19",
+   "days": 18,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 1400000.0,
+   "tp_to": 1270000.0,
+   "tp_pct": -9.3,
+   "tp_speed30": -15.5,
+   "report_id": "hk_653837",
+   "broker": "한화투자증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
@@ -46,6 +111,15 @@
    "n": 1,
    "brokers": {
     "한화투자증권": 1400000.0
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "mean": 1260000,
+   "n": 2,
+   "brokers": {
+    "iM증권": 1250000.0,
+    "한화투자증권": 1270000.0
    }
   }
  ],

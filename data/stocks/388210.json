@@ -5,6 +5,7 @@
  "industry": "반도체",
  "brokers": [
   "IBK투자증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -25,6 +26,15 @@
    "report_id": "hk_653738",
    "tp_status": "하향",
    "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 53000.0,
+   "source": "report",
+   "report_id": "hk_653815",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -44,6 +54,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 115000.0
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653815",
+   "title": "씨엠티엑스(388210) 3Q26P Review: 아쉬운 수익성, 점차 회복 기대",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 53000.0,
+   "tp_status": "하향",
+   "price": 35450.0,
+   "upside_pct": 49.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 110000.0
   }
  ],
  "rating_changes": [
@@ -60,6 +86,20 @@
    "report_id": "hk_653738",
    "implied_prev": true,
    "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-06",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 110000.0,
+   "tp_to": 53000.0,
+   "tp_pct": -51.8,
+   "tp_speed30": null,
+   "report_id": "hk_653815",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -80,11 +120,21 @@
    "brokers": {
     "IBK투자증권": 80000.0
    }
+  },
+  {
+   "date": "2026-11-06",
+   "mean": 66500,
+   "n": 2,
+   "brokers": {
+    "IBK투자증권": 80000.0,
+    "유진투자증권": 53000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
  "events": [
-  "2026-11-04:388210:tp_down:IBK투자증권"
+  "2026-11-04:388210:tp_down:IBK투자증권",
+  "2026-11-06:388210:tp_down:유진투자증권"
  ]
 }

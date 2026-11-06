@@ -4,6 +4,9 @@
  "name": "한국금융지주",
  "industry": "증권",
  "brokers": [
+  "LS증권",
+  "SK증권",
+  "iM증권",
   "하나증권"
  ],
  "timeline": [
@@ -69,6 +72,33 @@
    "report_id": "hana_1289501",
    "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 230000.0,
+   "source": "report",
+   "report_id": "hk_653854",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 274000.0,
+   "source": "report",
+   "report_id": "hk_653857",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 198000.0,
+   "source": "report",
+   "report_id": "hk_653871",
+   "tp_status": "하향",
+   "broker": "iM증권"
   },
   {
    "date": "2026-11-06",
@@ -181,6 +211,54 @@
     "consensus": 3009.0,
     "gap_pct": 5.5
    }
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653854",
+   "title": "한국금융지주(071050) 반등 모멘텀 약하나 주가는 충분히 조정",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 230000.0,
+   "tp_status": "하향",
+   "price": 147100.0,
+   "upside_pct": 56.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 270000.0
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653857",
+   "title": "한국금융지주(071050) 3Q26 Review: 감익 예상은 했지만, 환율까지 억까해",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 274000.0,
+   "tp_status": "하향",
+   "price": 147100.0,
+   "upside_pct": 86.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653871",
+   "title": "한국금융지주(071050) 운용 중심으로 부진한 실적 시현",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 198000.0,
+   "tp_status": "하향",
+   "price": 147100.0,
+   "upside_pct": 34.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -249,6 +327,20 @@
    "tp_speed30": -28.3,
    "report_id": "hana_1289501",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-06",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 270000.0,
+   "tp_to": 230000.0,
+   "tp_pct": -14.8,
+   "tp_speed30": null,
+   "report_id": "hk_653854",
+   "implied_prev": true,
+   "broker": "LS증권"
   }
  ],
  "estimate_revisions": [
@@ -464,9 +556,12 @@
   },
   {
    "date": "2026-11-06",
-   "mean": 249000,
-   "n": 1,
+   "mean": 237750,
+   "n": 4,
    "brokers": {
+    "LS증권": 230000.0,
+    "SK증권": 274000.0,
+    "iM증권": 198000.0,
     "하나증권": 249000.0
    }
   }

@@ -1,0 +1,59 @@
+{
+ "id": "126340",
+ "code": "126340",
+ "name": "비나텍",
+ "industry": "IT하드웨어·전자부품",
+ "brokers": [
+  "하나증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-09",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": "hana_1289515",
+   "tp_status": null,
+   "broker": "하나증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-06",
+   "report_id": "hana_1289516",
+   "title": "비나텍(126340.KQ) : 흥옌 가동 개시, 3,485억원 수주가 매출로 전환된다",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 145.0,
+     "op": 4.0,
+     "net": -20.0,
+     "eps": -2560.0
+    },
+    "2027": {
+     "revenue": 276.0,
+     "op": 36.0,
+     "net": 25.0,
+     "eps": 3621.0
+    }
+   },
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

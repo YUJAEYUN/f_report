@@ -4,6 +4,7 @@
  "name": "스튜디오드래곤",
  "industry": "미디어·콘텐츠",
  "brokers": [
+  "대신증권",
   "하나증권"
  ],
  "timeline": [
@@ -78,6 +79,15 @@
    "report_id": "hana_1289502",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 35000.0,
+   "source": "report",
+   "report_id": "hk_653830",
+   "tp_status": "유지",
+   "broker": "대신증권"
   }
  ],
  "notes": [],
@@ -130,6 +140,22 @@
     "consensus": 47.6,
     "gap_pct": -1.9
    }
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653830",
+   "title": "스튜디오드래곤(253450) 거짓말처럼 개선된 실적",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 35000.0,
+   "tp_status": "유지",
+   "price": 24200.0,
+   "upside_pct": 44.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -276,6 +302,15 @@
    "mean": 33000,
    "n": 1,
    "brokers": {
+    "하나증권": 33000.0
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "mean": 34000,
+   "n": 2,
+   "brokers": {
+    "대신증권": 35000.0,
     "하나증권": 33000.0
    }
   }

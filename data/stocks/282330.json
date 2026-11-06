@@ -4,7 +4,10 @@
  "name": "BGF리테일",
  "industry": "유통·소비재",
  "brokers": [
+  "IBK투자증권",
+  "LS증권",
   "미래에셋증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -79,6 +82,51 @@
    "report_id": "mirae_2343831",
    "tp_status": null,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 185000.0,
+   "source": "report",
+   "report_id": "hk_653865",
+   "tp_status": null,
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 200000.0,
+   "source": "report",
+   "report_id": "hk_653851",
+   "tp_status": "유지",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344019",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "매수",
+   "target_price": 210000.0,
+   "source": "report",
+   "report_id": "hk_653816",
+   "tp_status": "상향",
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-06",
+   "rating": "중립",
+   "target_price": 170000.0,
+   "source": "report",
+   "report_id": "hana_1289506",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
@@ -109,6 +157,119 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653865",
+   "title": "BGF리테일(282330) 실적은 냉탕, 내용은 온탕",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 185000.0,
+   "tp_status": null,
+   "price": 150200.0,
+   "upside_pct": 23.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 190000.0
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653851",
+   "title": "BGF리테일(282330) 3Q26 Review: 무난한 실적",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 200000.0,
+   "tp_status": "유지",
+   "price": 150200.0,
+   "upside_pct": 33.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "mirae_2344019",
+   "title": "BGF리테일 (282330/매수): 물류비에 가려진 믹스 개선",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hk_653816",
+   "title": "BGF리테일(282330) 3Q26 Review: 분기 영업이익 1,000억원 돌파",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 210000.0,
+   "tp_status": "상향",
+   "price": 150200.0,
+   "upside_pct": 39.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 200000.0
+  },
+  {
+   "date": "2026-11-06",
+   "report_id": "hana_1289506",
+   "title": "BGF리테일(282330.KS/Neutral): 너무 낮은 성장률",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "중립",
+   "rating_status": "하향",
+   "target_price": 170000.0,
+   "tp_status": null,
+   "price": 150200.0,
+   "upside_pct": 13.2,
+   "estimates": {
+    "2026": {
+     "revenue": 9414.3,
+     "op": 292.0,
+     "net": 211.2,
+     "eps": 12218.0
+    },
+    "2027": {
+     "revenue": 9761.8,
+     "op": 332.3,
+     "net": 246.5,
+     "eps": 14263.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 9488.0,
+     "op": 304.7,
+     "net": 228.2,
+     "eps": 13223.0
+    },
+    "2027": {
+     "revenue": 9873.5,
+     "op": 338.1,
+     "net": 258.0,
+     "eps": 14936.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 292.0,
+    "consensus": 304.7,
+    "gap_pct": -4.2
+   }
   }
  ],
  "rating_changes": [
@@ -191,6 +352,47 @@
    "tp_speed30": -3.2,
    "report_id": "hana_1289154",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-06",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 190000.0,
+   "tp_to": 185000.0,
+   "tp_pct": -2.6,
+   "tp_speed30": null,
+   "report_id": "hk_653865",
+   "implied_prev": true,
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-06",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 200000.0,
+   "tp_to": 210000.0,
+   "tp_pct": 5.0,
+   "tp_speed30": null,
+   "report_id": "hk_653816",
+   "implied_prev": true,
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-06",
+   "prev_date": "2026-10-19",
+   "days": 18,
+   "rating_from": "매수",
+   "rating_to": "중립",
+   "tp_from": 170000.0,
+   "tp_to": 170000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": "hana_1289506",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
@@ -252,9 +454,22 @@
     "미래에셋증권": 185000.0,
     "하나증권": 170000.0
    }
+  },
+  {
+   "date": "2026-11-06",
+   "mean": 191250,
+   "n": 4,
+   "brokers": {
+    "IBK투자증권": 185000.0,
+    "LS증권": 200000.0,
+    "유진투자증권": 210000.0,
+    "하나증권": 170000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-06:282330:rating_down:하나증권"
+ ]
 }
