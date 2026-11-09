@@ -4,6 +4,9 @@
  "name": "롯데케미칼",
  "industry": "정유·화학",
  "brokers": [
+  "iM증권",
+  "미래에셋증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -60,10 +63,86 @@
    "report_id": "hana_1289171",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 70000.0,
+   "source": "report",
+   "report_id": "hk_653937",
+   "tp_status": "하향",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "중립",
+   "target_price": 50000.0,
+   "source": "report",
+   "report_id": "mirae_2344093",
+   "tp_status": "하향",
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 75000.0,
+   "source": "report",
+   "report_id": "hk_653877",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653937",
+   "title": "롯데케미칼(011170) 지금은 외형축소의 아쉬움보다 영속기업으로서의 체력 확보가 더 중요한 시점",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 70000.0,
+   "tp_status": "하향",
+   "price": 46600.0,
+   "upside_pct": 50.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "mirae_2344093",
+   "title": "롯데케미칼 (011170/중립): 4분기에도 약세 지속 전망",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 50000.0,
+   "tp_status": "하향",
+   "price": 46600.0,
+   "upside_pct": 7.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653877",
+   "title": "롯데케미칼(011170) 구조재편으로 손익 변동성 서서히 완화될 전망",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 75000.0,
+   "tp_status": "하향",
+   "price": 46600.0,
+   "upside_pct": 60.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 106000.0
+  }
+ ],
  "rating_changes": [
   {
    "date": "2025-01-16",
@@ -129,6 +208,20 @@
    "tp_speed30": -8.2,
    "report_id": "hana_1289171",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 106000.0,
+   "tp_to": 75000.0,
+   "tp_pct": -29.2,
+   "tp_speed30": null,
+   "report_id": "hk_653877",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -181,12 +274,24 @@
    "brokers": {
     "하나증권": 60000.0
    }
+  },
+  {
+   "date": "2026-11-09",
+   "mean": 63750,
+   "n": 4,
+   "brokers": {
+    "iM증권": 70000.0,
+    "미래에셋증권": 50000.0,
+    "유진투자증권": 75000.0,
+    "하나증권": 60000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
  "events": [
   "2026-10-19:011170:rating_down:하나증권",
-  "2026-10-19:011170:tp_down:하나증권"
+  "2026-10-19:011170:tp_down:하나증권",
+  "2026-11-09:011170:tp_down:유진투자증권"
  ]
 }

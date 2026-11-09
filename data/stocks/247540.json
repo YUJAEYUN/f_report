@@ -4,9 +4,83 @@
  "name": "에코프로비엠",
  "industry": "2차전지",
  "brokers": [
-  "유진투자증권"
+  "iM증권",
+  "유진투자증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2024-08-01",
+   "rating": "중립",
+   "target_price": 150592.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2024-11-18",
+   "rating": "중립",
+   "target_price": 118111.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-04-30",
+   "rating": "중립",
+   "target_price": 103347.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-08-06",
+   "rating": "매수",
+   "target_price": 148623.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-11-05",
+   "rating": "매수",
+   "target_price": 184057.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-02-06",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-04-30",
+   "rating": "매수",
+   "target_price": 252955.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-08-03",
+   "rating": "매수",
+   "target_price": 151576.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-11-06",
    "rating": "매수",
@@ -15,6 +89,33 @@
    "report_id": "hk_653819",
    "tp_status": "하향",
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "중립",
+   "target_price": 90000.0,
+   "source": "report",
+   "report_id": "hk_653932",
+   "tp_status": "하향",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 112000.0,
+   "source": "report",
+   "report_id": "hana_1289552",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 112000.0,
+   "source": "table",
+   "report_id": "hana_1289552",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -34,9 +135,165 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 200000.0
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653932",
+   "title": "에코프로비엠(247540) 양극재 출하 부진 지속",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 90000.0,
+   "tp_status": "하향",
+   "price": 83100.0,
+   "upside_pct": 8.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hana_1289552",
+   "title": "에코프로비엠(247540.KQ/매수) : 2028년 성장 가시성 확보 전까지 밴드 내 트레이딩",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 112000.0,
+   "tp_status": "하향",
+   "price": 75900.0,
+   "upside_pct": 47.6,
+   "estimates": {
+    "2026": {
+     "revenue": 2250.2,
+     "op": 40.7,
+     "net": -18.1,
+     "eps": -180.0
+    },
+    "2027": {
+     "revenue": 2238.1,
+     "op": 58.3,
+     "net": -12.0,
+     "eps": -112.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2296.2,
+     "op": 54.3,
+     "net": 4.1,
+     "eps": -72.0
+    },
+    "2027": {
+     "revenue": 2803.6,
+     "op": 104.3,
+     "net": 33.5,
+     "eps": 101.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 40.7,
+    "consensus": 54.3,
+    "gap_pct": -25.0
+   }
   }
  ],
  "rating_changes": [
+  {
+   "date": "2024-11-18",
+   "prev_date": "2024-08-01",
+   "days": 109,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 150592.0,
+   "tp_to": 118111.0,
+   "tp_pct": -21.6,
+   "tp_speed30": -5.9,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-04-30",
+   "prev_date": "2024-11-18",
+   "days": 163,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 118111.0,
+   "tp_to": 103347.0,
+   "tp_pct": -12.5,
+   "tp_speed30": -2.3,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-08-06",
+   "prev_date": "2025-04-30",
+   "days": 98,
+   "rating_from": "중립",
+   "rating_to": "매수",
+   "tp_from": 103347.0,
+   "tp_to": 148623.0,
+   "tp_pct": 43.8,
+   "tp_speed30": 13.4,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-11-05",
+   "prev_date": "2025-08-06",
+   "days": 91,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 148623.0,
+   "tp_to": 184057.0,
+   "tp_pct": 23.8,
+   "tp_speed30": 7.8,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-02-06",
+   "prev_date": "2025-11-05",
+   "days": 93,
+   "rating_from": "매수",
+   "rating_to": "NR",
+   "tp_from": 184057.0,
+   "tp_to": null,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-04-30",
+   "prev_date": "2026-02-06",
+   "days": 83,
+   "rating_from": "NR",
+   "rating_to": "매수",
+   "tp_from": null,
+   "tp_to": 252955.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-08-03",
+   "prev_date": "2026-04-30",
+   "days": 95,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 252955.0,
+   "tp_to": 151576.0,
+   "tp_pct": -40.1,
+   "tp_speed30": -12.7,
+   "report_id": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-11-06",
    "prev_date": null,
@@ -50,21 +307,128 @@
    "report_id": "hk_653819",
    "implied_prev": true,
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-08-03",
+   "days": 98,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 151576.0,
+   "tp_to": 112000.0,
+   "tp_pct": -26.1,
+   "tp_speed30": -8.0,
+   "report_id": "hana_1289552",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
   {
-   "date": "2026-11-06",
-   "mean": 180000,
+   "date": "2024-08-01",
+   "mean": 150592,
    "n": 1,
    "brokers": {
-    "유진투자증권": 180000.0
+    "하나증권": 150592.0
+   }
+  },
+  {
+   "date": "2024-11-18",
+   "mean": 118111,
+   "n": 1,
+   "brokers": {
+    "하나증권": 118111.0
+   }
+  },
+  {
+   "date": "2025-04-30",
+   "mean": 103347,
+   "n": 1,
+   "brokers": {
+    "하나증권": 103347.0
+   }
+  },
+  {
+   "date": "2025-08-06",
+   "mean": 148623,
+   "n": 1,
+   "brokers": {
+    "하나증권": 148623.0
+   }
+  },
+  {
+   "date": "2025-11-05",
+   "mean": 184057,
+   "n": 1,
+   "brokers": {
+    "하나증권": 184057.0
+   }
+  },
+  {
+   "date": "2026-04-30",
+   "mean": 252955,
+   "n": 1,
+   "brokers": {
+    "하나증권": 252955.0
+   }
+  },
+  {
+   "date": "2026-08-03",
+   "mean": 151576,
+   "n": 1,
+   "brokers": {
+    "하나증권": 151576.0
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "mean": 165788,
+   "n": 2,
+   "brokers": {
+    "유진투자증권": 180000.0,
+    "하나증권": 151576.0
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "mean": 127333,
+   "n": 3,
+   "brokers": {
+    "iM증권": 90000.0,
+    "유진투자증권": 180000.0,
+    "하나증권": 112000.0
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "mean": 127333,
+   "n": 3,
+   "brokers": {
+    "iM증권": 90000.0,
+    "유진투자증권": 180000.0,
+    "하나증권": 112000.0
    }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-09",
+   "from": 165788,
+   "to": 146000,
+   "pct": -11.9,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289552",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-09:247540:tp_down:하나증권",
+  "2026-11-09:247540:gap_below:하나증권",
+  "2026-11-09:247540:tp_cons_down:"
+ ]
 }

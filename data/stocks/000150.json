@@ -79,6 +79,24 @@
    "report_id": "hk_652638",
    "tp_status": "유지",
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 1270000.0,
+   "source": "report",
+   "report_id": "hana_1289558",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 1270000.0,
+   "source": "table",
+   "report_id": "hana_1289558",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -196,6 +214,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hana_1289558",
+   "title": "두산 (000150.KS/매수): 커지는 우려에도 견조한 업황",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 1270000.0,
+   "tp_status": "하향",
+   "price": 611000.0,
+   "upside_pct": 107.9,
+   "estimates": {
+    "2026": {
+     "revenue": 22069.4,
+     "op": 1802.7,
+     "net": 570.5,
+     "eps": 27902.0
+    },
+    "2027": {
+     "revenue": 26409.2,
+     "op": 2888.3,
+     "net": 1000.6,
+     "eps": 54045.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 21836.5,
+     "op": 1815.0,
+     "net": 1099.6,
+     "eps": 29006.0
+    },
+    "2027": {
+     "revenue": 24969.4,
+     "op": 2511.1,
+     "net": 1546.5,
+     "eps": 45060.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1802.7,
+    "consensus": 1815.0,
+    "gap_pct": -0.7
+   }
   }
  ],
  "rating_changes": [
@@ -250,10 +317,265 @@
    "tp_speed30": 29.9,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 2420000.0,
+   "tp_to": 1270000.0,
+   "tp_pct": -47.5,
+   "tp_speed30": -33.9,
+   "report_id": "hana_1289558",
+   "broker": "하나증권"
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
+ "estimate_revisions": [
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 21424.9,
+   "to": 22069.4,
+   "pct": 3.0,
+   "speed30": 2.1,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2026",
+   "metric": "op",
+   "from": 1717.3,
+   "to": 1802.7,
+   "pct": 5.0,
+   "speed30": 3.6,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2026",
+   "metric": "net",
+   "from": 697.2,
+   "to": 570.5,
+   "pct": -18.2,
+   "speed30": -13.0,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2026",
+   "metric": "eps",
+   "from": 33309.0,
+   "to": 27902.0,
+   "pct": -16.2,
+   "speed30": -11.6,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 23458.9,
+   "to": 26409.2,
+   "pct": 12.6,
+   "speed30": 9.0,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2027",
+   "metric": "op",
+   "from": 2226.1,
+   "to": 2888.3,
+   "pct": 29.7,
+   "speed30": 21.2,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2027",
+   "metric": "net",
+   "from": 950.0,
+   "to": 1000.6,
+   "pct": 5.3,
+   "speed30": 3.8,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2027",
+   "metric": "eps",
+   "from": 45060.0,
+   "to": 54045.0,
+   "pct": 19.9,
+   "speed30": 14.2,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  }
+ ],
+ "consensus_changes": [
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 21853.0,
+   "to": 21836.5,
+   "pct": -0.1,
+   "speed30": -0.1,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2026",
+   "metric": "op",
+   "from": 1794.7,
+   "to": 1815.0,
+   "pct": 1.1,
+   "speed30": 0.8,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2026",
+   "metric": "net",
+   "from": 919.6,
+   "to": 1099.6,
+   "pct": 19.6,
+   "speed30": 14.0,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2026",
+   "metric": "eps",
+   "from": 23291.0,
+   "to": 29006.0,
+   "pct": 24.5,
+   "speed30": 17.5,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 25245.2,
+   "to": 24969.4,
+   "pct": -1.1,
+   "speed30": -0.8,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2027",
+   "metric": "op",
+   "from": 2509.5,
+   "to": 2511.1,
+   "pct": 0.1,
+   "speed30": 0.1,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2027",
+   "metric": "net",
+   "from": 1312.7,
+   "to": 1546.5,
+   "pct": 17.8,
+   "speed30": 12.7,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-28",
+   "days": 42,
+   "year": "2027",
+   "metric": "eps",
+   "from": 36197.0,
+   "to": 45060.0,
+   "pct": 24.5,
+   "speed30": 17.5,
+   "turn": null,
+   "report_id": "hana_1289558",
+   "prev_report_id": "hana_1288899",
+   "broker": "하나증권"
+  }
+ ],
  "tp_consensus": [
   {
    "date": "2025-05-21",
@@ -319,9 +641,45 @@
     "메리츠증권": 2400000.0,
     "하나증권": 2420000.0
    }
+  },
+  {
+   "date": "2026-11-09",
+   "mean": 1835000,
+   "n": 2,
+   "brokers": {
+    "메리츠증권": 2400000.0,
+    "하나증권": 1270000.0
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "mean": 1835000,
+   "n": 2,
+   "brokers": {
+    "메리츠증권": 2400000.0,
+    "하나증권": 1270000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-09",
+   "from": 2410000,
+   "to": 1835000,
+   "pct": -23.9,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289558",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-09:000150:tp_down:하나증권",
+  "2026-11-09:000150:est_up:하나증권2027op",
+  "2026-11-09:000150:cons_up:하나증권2026eps",
+  "2026-11-09:000150:tp_cons_down:"
+ ]
 }

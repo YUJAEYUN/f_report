@@ -9,6 +9,7 @@
   "iM증권",
   "메리츠증권",
   "미래에셋증권",
+  "상상인증권",
   "유진투자증권",
   "하나증권"
  ],
@@ -156,6 +157,15 @@
    "report_id": "hk_653821",
    "tp_status": "하향",
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 380000.0,
+   "source": "report",
+   "report_id": "hk_653938",
+   "tp_status": null,
+   "broker": "상상인증권"
   }
  ],
  "notes": [],
@@ -287,6 +297,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 380000.0
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653938",
+   "title": "LG화학(051910) 3Q26 Review: 첨단소재 개선에 주목",
+   "primary": true,
+   "broker": "상상인증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 380000.0,
+   "tp_status": null,
+   "price": 232000.0,
+   "upside_pct": 63.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 500000.0
   }
  ],
  "rating_changes": [
@@ -434,6 +460,20 @@
    "report_id": "hk_653821",
    "implied_prev": true,
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 500000.0,
+   "tp_to": 380000.0,
+   "tp_pct": -24.0,
+   "tp_speed30": null,
+   "report_id": "hk_653938",
+   "implied_prev": true,
+   "broker": "상상인증권"
   }
  ],
  "estimate_revisions": [],
@@ -566,6 +606,21 @@
     "유진투자증권": 310000.0,
     "하나증권": 300000.0
    }
+  },
+  {
+   "date": "2026-11-09",
+   "mean": 335875,
+   "n": 8,
+   "brokers": {
+    "IBK투자증권": 360000.0,
+    "LS증권": 287000.0,
+    "iM증권": 370000.0,
+    "메리츠증권": 310000.0,
+    "미래에셋증권": 370000.0,
+    "상상인증권": 380000.0,
+    "유진투자증권": 310000.0,
+    "하나증권": 300000.0
+   }
   }
  ],
  "tp_consensus_changes": [
@@ -600,6 +655,7 @@
   "2026-10-19:051910:tp_up:LS증권",
   "2026-11-06:051910:tp_down:IBK투자증권",
   "2026-11-06:051910:tp_down:유진투자증권",
+  "2026-11-09:051910:tp_down:상상인증권",
   "2026-10-15:051910:tp_cons_down:",
   "2026-10-19:051910:tp_cons_up:"
  ]

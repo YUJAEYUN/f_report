@@ -5,6 +5,7 @@
  "industry": "화장품",
  "brokers": [
   "SK증권",
+  "메리츠증권",
   "상상인증권",
   "유안타증권",
   "하나증권"
@@ -99,6 +100,60 @@
    "report_id": "hk_653069",
    "tp_status": "유지",
    "broker": "상상인증권"
+  },
+  {
+   "date": "2026-11-08",
+   "rating": "매수",
+   "target_price": 160000.0,
+   "source": "report",
+   "report_id": "hana_1289537",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 150000.0,
+   "source": "report",
+   "report_id": "hk_653945",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 176000.0,
+   "source": "report",
+   "report_id": "hk_653896",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 170000.0,
+   "source": "report",
+   "report_id": "hk_653940",
+   "tp_status": "유지",
+   "broker": "상상인증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 157000.0,
+   "source": "report",
+   "report_id": "hk_653915",
+   "tp_status": "하향",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 160000.0,
+   "source": "report",
+   "report_id": "hana_1289538",
+   "tp_status": "하향",
+   "broker": "하나증권"
   }
  ],
  "notes": [
@@ -156,6 +211,168 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-08",
+   "report_id": "hana_1289537",
+   "title": "한국콜마(161890.KS/매수): 3Q26 Re: 수요를 못 따라가는 생산 캐파",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 160000.0,
+   "tp_status": "하향",
+   "price": 108900.0,
+   "upside_pct": 46.9,
+   "estimates": {
+    "2026": {
+     "revenue": 3248.8,
+     "op": 347.4,
+     "net": 184.4,
+     "eps": 7812.0
+    },
+    "2027": {
+     "revenue": 3756.6,
+     "op": 424.9,
+     "net": 246.7,
+     "eps": 10449.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3224.4,
+     "op": 351.1,
+     "net": 251.7,
+     "eps": 8367.0
+    },
+    "2027": {
+     "revenue": 3647.4,
+     "op": 419.6,
+     "net": 307.8,
+     "eps": 10252.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 347.4,
+    "consensus": 351.1,
+    "gap_pct": -1.1
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653945",
+   "title": "한국콜마(161890) 급증하는 수요를 소화 중",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 150000.0,
+   "tp_status": "하향",
+   "price": 108900.0,
+   "upside_pct": 37.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653896",
+   "title": "한국콜마(161890) 3Q26P Review: 높은 성장성 대비 과도한 저평가",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 176000.0,
+   "tp_status": null,
+   "price": 108900.0,
+   "upside_pct": 61.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653940",
+   "title": "한국콜마(161890) 견조한 본업, CAPA 확보가 관건",
+   "primary": true,
+   "broker": "상상인증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 170000.0,
+   "tp_status": "유지",
+   "price": 108900.0,
+   "upside_pct": 56.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653915",
+   "title": "한국콜마(161890) 사상 최대 매출, 이제는 CAPA 싸움",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 157000.0,
+   "tp_status": "하향",
+   "price": 108900.0,
+   "upside_pct": 44.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 185000.0
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hana_1289538",
+   "title": "하루에 하나 1109",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 160000.0,
+   "tp_status": "하향",
+   "price": 108900.0,
+   "upside_pct": 46.9,
+   "estimates": {
+    "2026": {
+     "revenue": 3248.8,
+     "op": 347.4,
+     "net": 184.4,
+     "eps": 7812.0
+    },
+    "2027": {
+     "revenue": 3756.6,
+     "op": 424.9,
+     "net": 246.7,
+     "eps": 10449.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 3224.4,
+     "op": 351.1,
+     "net": 251.7,
+     "eps": 8367.0
+    },
+    "2027": {
+     "revenue": 3647.4,
+     "op": 419.6,
+     "net": 307.8,
+     "eps": 10252.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 347.4,
+    "consensus": 351.1,
+    "gap_pct": -1.1
+   }
   }
  ],
  "rating_changes": [
@@ -251,6 +468,45 @@
    "report_id": "hk_652599",
    "implied_prev": true,
    "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-08-13",
+   "days": 87,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 180000.0,
+   "tp_to": 160000.0,
+   "tp_pct": -11.1,
+   "tp_speed30": -3.8,
+   "report_id": "hana_1289537",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-10-14",
+   "days": 26,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 180000.0,
+   "tp_to": 150000.0,
+   "tp_pct": -16.7,
+   "tp_speed30": -19.3,
+   "report_id": "hk_653945",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-09-29",
+   "days": 41,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 185000.0,
+   "tp_to": 157000.0,
+   "tp_pct": -15.1,
+   "tp_speed30": -11.0,
+   "report_id": "hk_653915",
+   "broker": "유안타증권"
   }
  ],
  "estimate_revisions": [],
@@ -341,11 +597,76 @@
     "유안타증권": 185000.0,
     "하나증권": 180000.0
    }
+  },
+  {
+   "date": "2026-11-08",
+   "mean": 173750,
+   "n": 4,
+   "brokers": {
+    "SK증권": 180000.0,
+    "상상인증권": 170000.0,
+    "유안타증권": 185000.0,
+    "하나증권": 160000.0
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "mean": 162600,
+   "n": 5,
+   "brokers": {
+    "SK증권": 150000.0,
+    "메리츠증권": 176000.0,
+    "상상인증권": 170000.0,
+    "유안타증권": 157000.0,
+    "하나증권": 160000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
- "broker_waves": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-08",
+   "from": 178750,
+   "to": 173750,
+   "pct": -2.8,
+   "n": 4,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289537",
+   "cum30": null
+  },
+  {
+   "date": "2026-11-09",
+   "from": 173750,
+   "to": 159250,
+   "pct": -8.3,
+   "n": 4,
+   "brokers": [
+    "SK증권",
+    "유안타증권"
+   ],
+   "report_id": "hk_653945",
+   "cum30": -11.1
+  }
+ ],
+ "broker_waves": [
+  {
+   "date": "2026-11-09",
+   "direction": -1,
+   "count": 3,
+   "brokers": [
+    "SK증권",
+    "유안타증권",
+    "하나증권"
+   ],
+   "report_id": "hk_653945"
+  }
+ ],
  "events": [
-  "2026-09-29:161890:tp_up:유안타증권"
+  "2026-09-29:161890:tp_up:유안타증권",
+  "2026-11-09:161890:tp_down:SK증권",
+  "2026-11-09:161890:tp_down:유안타증권",
+  "2026-11-09:161890:tp_cons_down:",
+  "2026-11-09:161890:wave_down:"
  ]
 }

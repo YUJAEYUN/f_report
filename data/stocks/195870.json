@@ -6,7 +6,8 @@
  "brokers": [
   "메리츠증권",
   "미래에셋증권",
-  "유안타증권"
+  "유안타증권",
+  "유진투자증권"
  ],
  "timeline": [
   {
@@ -44,6 +45,15 @@
    "report_id": "mirae_2343803",
    "tp_status": null,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "report",
+   "report_id": "hk_653882",
+   "tp_status": "재개",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -111,6 +121,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653882",
+   "title": "해성디에스(195870) 3Q26P Review: 분기 최고 매출액 달성. 커버리지 개시",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 50000.0,
+   "tp_status": "재개",
+   "price": 33700.0,
+   "upside_pct": 48.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -169,6 +195,16 @@
    "brokers": {
     "메리츠증권": 70000.0,
     "유안타증권": 80000.0
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "mean": 66667,
+   "n": 3,
+   "brokers": {
+    "메리츠증권": 70000.0,
+    "유안타증권": 80000.0,
+    "유진투자증권": 50000.0
    }
   }
  ],

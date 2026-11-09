@@ -4,9 +4,37 @@
  "name": "한전KPS",
  "industry": "기계·전력기기",
  "brokers": [
-  "대신증권"
+  "대신증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2024-09-27",
+   "rating": "매수",
+   "target_price": 52000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-08-08",
+   "rating": "매수",
+   "target_price": 62000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-02-11",
+   "rating": "매수",
+   "target_price": 68000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-10-21",
    "rating": "매수",
@@ -15,6 +43,24 @@
    "report_id": "hk_653146",
    "tp_status": "하향",
    "broker": "대신증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 55000.0,
+   "source": "report",
+   "report_id": "hana_1289554",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 55000.0,
+   "source": "table",
+   "report_id": "hana_1289554",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -34,12 +80,125 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hana_1289554",
+   "title": "한전KPS(051600/KS): 낮은 실적 가시성. 2027년 일부 개선 기대",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 55000.0,
+   "tp_status": "하향",
+   "price": 40200.0,
+   "upside_pct": 36.8,
+   "estimates": {
+    "2026": {
+     "revenue": 1548.6,
+     "op": 143.9,
+     "net": 124.5,
+     "eps": 2767.0
+    },
+    "2027": {
+     "revenue": 1699.9,
+     "op": 181.2,
+     "net": 146.9,
+     "eps": 3265.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1625.4,
+     "op": 173.4,
+     "net": 146.8,
+     "eps": 3270.0
+    },
+    "2027": {
+     "revenue": 1694.1,
+     "op": 196.1,
+     "net": 165.3,
+     "eps": 3689.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 143.9,
+    "consensus": 173.4,
+    "gap_pct": -17.0
+   }
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-08-08",
+   "prev_date": "2024-09-27",
+   "days": 315,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 52000.0,
+   "tp_to": 62000.0,
+   "tp_pct": 19.2,
+   "tp_speed30": 1.8,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-02-11",
+   "prev_date": "2025-08-08",
+   "days": 187,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 62000.0,
+   "tp_to": 68000.0,
+   "tp_pct": 9.7,
+   "tp_speed30": 1.6,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": "2026-02-11",
+   "days": 271,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 68000.0,
+   "tp_to": 55000.0,
+   "tp_pct": -19.1,
+   "tp_speed30": -2.1,
+   "report_id": "hana_1289554",
+   "broker": "하나증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
+  {
+   "date": "2024-09-27",
+   "mean": 52000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 52000.0
+   }
+  },
+  {
+   "date": "2025-08-08",
+   "mean": 62000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 62000.0
+   }
+  },
+  {
+   "date": "2026-02-11",
+   "mean": 68000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 68000.0
+   }
+  },
   {
    "date": "2026-10-21",
    "mean": 57000,
@@ -47,9 +206,29 @@
    "brokers": {
     "대신증권": 57000.0
    }
+  },
+  {
+   "date": "2026-11-09",
+   "mean": 56000,
+   "n": 2,
+   "brokers": {
+    "대신증권": 57000.0,
+    "하나증권": 55000.0
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "mean": 56000,
+   "n": 2,
+   "brokers": {
+    "대신증권": 57000.0,
+    "하나증권": 55000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-09:051600:tp_down:하나증권"
+ ]
 }

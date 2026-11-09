@@ -52,6 +52,24 @@
    "report_id": "hk_653259",
    "tp_status": "하향",
    "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-08",
+   "rating": "매수",
+   "target_price": 19000.0,
+   "source": "report",
+   "report_id": "hana_1289533",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 19000.0,
+   "source": "report",
+   "report_id": "hana_1289538",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -71,6 +89,104 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-08",
+   "report_id": "hana_1289533",
+   "title": "강원랜드(035250.KS/매수): 높은 주주 환원이 주가 하방을 지지",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 19000.0,
+   "tp_status": null,
+   "price": 14430.0,
+   "upside_pct": 31.7,
+   "estimates": {
+    "2026": {
+     "revenue": 1440.3,
+     "op": 198.3,
+     "net": 176.6,
+     "eps": 825.0
+    },
+    "2027": {
+     "revenue": 1432.2,
+     "op": 186.3,
+     "net": 228.4,
+     "eps": 1068.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1462.4,
+     "op": 210.2,
+     "net": 268.5,
+     "eps": 1255.0
+    },
+    "2027": {
+     "revenue": 1467.9,
+     "op": 201.6,
+     "net": 262.3,
+     "eps": 1226.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 198.3,
+    "consensus": 210.2,
+    "gap_pct": -5.7
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hana_1289538",
+   "title": "하루에 하나 1109",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 19000.0,
+   "tp_status": null,
+   "price": 14430.0,
+   "upside_pct": 31.7,
+   "estimates": {
+    "2026": {
+     "revenue": 1440.3,
+     "op": 198.3,
+     "net": 176.6,
+     "eps": 825.0
+    },
+    "2027": {
+     "revenue": 1432.2,
+     "op": 186.3,
+     "net": 228.4,
+     "eps": 1068.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1462.4,
+     "op": 210.2,
+     "net": 268.5,
+     "eps": 1255.0
+    },
+    "2027": {
+     "revenue": 1467.9,
+     "op": 201.6,
+     "net": 262.3,
+     "eps": 1226.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 198.3,
+    "consensus": 210.2,
+    "gap_pct": -5.7
+   }
   }
  ],
  "rating_changes": [
@@ -151,6 +267,24 @@
   },
   {
    "date": "2026-10-23",
+   "mean": 18500,
+   "n": 2,
+   "brokers": {
+    "iM증권": 18000.0,
+    "하나증권": 19000.0
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "mean": 18500,
+   "n": 2,
+   "brokers": {
+    "iM증권": 18000.0,
+    "하나증권": 19000.0
+   }
+  },
+  {
+   "date": "2026-11-09",
    "mean": 18500,
    "n": 2,
    "brokers": {

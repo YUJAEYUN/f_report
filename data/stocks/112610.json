@@ -2,9 +2,12 @@
  "id": "112610",
  "code": "112610",
  "name": "씨에스윈드",
- "industry": "기계·전력기기",
+ "industry": "태양광·신재생",
  "brokers": [
-  "하나증권"
+  "미래에셋증권",
+  "유진투자증권",
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -60,9 +63,60 @@
    "report_id": "hana_1289242",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "report",
+   "report_id": "hana_1289529",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 74000.0,
+   "source": "report",
+   "report_id": "mirae_2344068",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "report",
+   "report_id": "hk_653880",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "report",
+   "report_id": "hana_1289538",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 74000.0,
+   "source": "report",
+   "report_id": "hk_653926",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
- "notes": [],
+ "notes": [
+  {
+   "date": "2026-02-18",
+   "note": "년 경과",
+   "broker": "하나증권"
+  }
+ ],
  "observations": [
   {
    "date": "2026-10-22",
@@ -161,6 +215,152 @@
     "consensus": 303.5,
     "gap_pct": -2.0
    }
+  },
+  {
+   "date": "2026-11-08",
+   "report_id": "hana_1289529",
+   "title": "씨에스윈드(112610/KS): 미국 생산 증가와 마진 상승 확인",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 80000.0,
+   "tp_status": null,
+   "price": 43850.0,
+   "upside_pct": 82.4,
+   "estimates": {
+    "2026": {
+     "revenue": 2841.0,
+     "op": 313.5,
+     "net": 105.0,
+     "eps": 2490.0
+    },
+    "2027": {
+     "revenue": 3081.8,
+     "op": 297.4,
+     "net": 187.0,
+     "eps": 4434.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2818.5,
+     "op": 302.2,
+     "net": 180.2,
+     "eps": 4194.0
+    },
+    "2027": {
+     "revenue": 3173.2,
+     "op": 328.6,
+     "net": 218.9,
+     "eps": 5088.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 313.5,
+    "consensus": 302.2,
+    "gap_pct": 3.7
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "mirae_2344068",
+   "title": "씨에스윈드 (112610/매수): 2028년의 우려보다 2027년의 개선에 주목",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 74000.0,
+   "tp_status": null,
+   "price": 49100.0,
+   "upside_pct": 50.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653880",
+   "title": "씨에스윈드(112610) 미국 중간선거가 기업 가치 향방에 가장 중요",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 80000.0,
+   "tp_status": "유지",
+   "price": 49100.0,
+   "upside_pct": 62.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hana_1289538",
+   "title": "하루에 하나 1109",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 80000.0,
+   "tp_status": null,
+   "price": 43850.0,
+   "upside_pct": 82.4,
+   "estimates": {
+    "2026": {
+     "revenue": 2841.0,
+     "op": 313.5,
+     "net": 105.0,
+     "eps": 2490.0
+    },
+    "2027": {
+     "revenue": 3081.8,
+     "op": 297.4,
+     "net": 187.0,
+     "eps": 4434.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2818.5,
+     "op": 302.2,
+     "net": 180.2,
+     "eps": 4194.0
+    },
+    "2027": {
+     "revenue": 3173.2,
+     "op": 328.6,
+     "net": 218.9,
+     "eps": 5088.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 313.5,
+    "consensus": 302.2,
+    "gap_pct": 3.7
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653926",
+   "title": "씨에스윈드(112610) 3Q26 Review: 좋아진 마진, 나아지는 정책 환경",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 74000.0,
+   "tp_status": "유지",
+   "price": 49100.0,
+   "upside_pct": 50.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -201,11 +401,254 @@
    "tp_pct": 17.6,
    "tp_speed30": 1.2,
    "report_id": null,
+   "note": "1년 경과",
    "broker": "하나증권"
   }
  ],
- "estimate_revisions": [],
- "consensus_changes": [],
+ "estimate_revisions": [
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 2845.2,
+   "to": 2841.0,
+   "pct": -0.1,
+   "speed30": -0.2,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2026",
+   "metric": "op",
+   "from": 297.3,
+   "to": 313.5,
+   "pct": 5.4,
+   "speed30": 10.1,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2026",
+   "metric": "net",
+   "from": 96.8,
+   "to": 105.0,
+   "pct": 8.5,
+   "speed30": 15.9,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2026",
+   "metric": "eps",
+   "from": 2296.0,
+   "to": 2490.0,
+   "pct": 8.4,
+   "speed30": 15.8,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 3087.4,
+   "to": 3081.8,
+   "pct": -0.2,
+   "speed30": -0.4,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2027",
+   "metric": "op",
+   "from": 269.0,
+   "to": 297.4,
+   "pct": 10.6,
+   "speed30": 19.9,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2027",
+   "metric": "net",
+   "from": 162.2,
+   "to": 187.0,
+   "pct": 15.3,
+   "speed30": 28.7,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2027",
+   "metric": "eps",
+   "from": 3846.0,
+   "to": 4434.0,
+   "pct": 15.3,
+   "speed30": 28.7,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  }
+ ],
+ "consensus_changes": [
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 2836.8,
+   "to": 2818.5,
+   "pct": -0.6,
+   "speed30": -1.1,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2026",
+   "metric": "op",
+   "from": 303.5,
+   "to": 302.2,
+   "pct": -0.4,
+   "speed30": -0.8,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2026",
+   "metric": "net",
+   "from": 189.8,
+   "to": 180.2,
+   "pct": -5.1,
+   "speed30": -9.6,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2026",
+   "metric": "eps",
+   "from": 4407.0,
+   "to": 4194.0,
+   "pct": -4.8,
+   "speed30": -9.0,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 3240.5,
+   "to": 3173.2,
+   "pct": -2.1,
+   "speed30": -3.9,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2027",
+   "metric": "op",
+   "from": 336.5,
+   "to": 328.6,
+   "pct": -2.3,
+   "speed30": -4.3,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2027",
+   "metric": "net",
+   "from": 224.9,
+   "to": 218.9,
+   "pct": -2.7,
+   "speed30": -5.1,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-08",
+   "prev_date": "2026-10-23",
+   "days": 16,
+   "year": "2027",
+   "metric": "eps",
+   "from": 5217.0,
+   "to": 5088.0,
+   "pct": -2.5,
+   "speed30": -4.7,
+   "turn": null,
+   "report_id": "hana_1289529",
+   "prev_report_id": "hana_1289242",
+   "broker": "하나증권"
+  }
+ ],
  "tp_consensus": [
   {
    "date": "2023-11-09",
@@ -254,9 +697,30 @@
    "brokers": {
     "하나증권": 80000.0
    }
+  },
+  {
+   "date": "2026-11-08",
+   "mean": 80000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 80000.0
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "mean": 77000,
+   "n": 4,
+   "brokers": {
+    "미래에셋증권": 74000.0,
+    "유진투자증권": 80000.0,
+    "하나증권": 80000.0,
+    "한화투자증권": 74000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-08:112610:est_up:하나증권2027eps"
+ ]
 }

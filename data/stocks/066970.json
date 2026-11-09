@@ -5,6 +5,7 @@
  "industry": "2차전지",
  "brokers": [
   "LS증권",
+  "iM증권",
   "대신증권",
   "하나증권"
  ],
@@ -71,6 +72,15 @@
    "report_id": "hk_653829",
    "tp_status": "하향",
    "broker": "대신증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 105000.0,
+   "source": "report",
+   "report_id": "hk_653929",
+   "tp_status": "하향",
+   "broker": "iM증권"
   }
  ],
  "notes": [
@@ -210,6 +220,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653929",
+   "title": "엘앤에프(066970) 2027년으로 눈을 돌릴 시간",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 105000.0,
+   "tp_status": "하향",
+   "price": 74900.0,
+   "upside_pct": 40.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -306,6 +332,17 @@
    "n": 3,
    "brokers": {
     "LS증권": 100000.0,
+    "대신증권": 150000.0,
+    "하나증권": 140000.0
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "mean": 123750,
+   "n": 4,
+   "brokers": {
+    "LS증권": 100000.0,
+    "iM증권": 105000.0,
     "대신증권": 150000.0,
     "하나증권": 140000.0
    }

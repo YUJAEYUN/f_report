@@ -2,10 +2,14 @@
  "id": "214450",
  "code": "214450",
  "name": "파마리서치",
- "industry": null,
+ "industry": "화장품",
  "brokers": [
+  "IBK투자증권",
   "LS증권",
-  "대신증권"
+  "대신증권",
+  "미래에셋증권",
+  "유안타증권",
+  "유진투자증권"
  ],
  "timeline": [
   {
@@ -25,6 +29,42 @@
    "report_id": "hk_653426",
    "tp_status": "하향",
    "broker": "대신증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 340000.0,
+   "source": "report",
+   "report_id": "hk_653917",
+   "tp_status": "하향",
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344071",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 324000.0,
+   "source": "report",
+   "report_id": "hk_653913",
+   "tp_status": "하향",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-09",
+   "rating": "매수",
+   "target_price": 370000.0,
+   "source": "report",
+   "report_id": "hk_653883",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -60,6 +100,70 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653917",
+   "title": "파마리서치(214450) 수출 중심의 성장에 주목할 때",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 340000.0,
+   "tp_status": "하향",
+   "price": 234500.0,
+   "upside_pct": 45.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 530000.0
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "mirae_2344071",
+   "title": "파마리서치 (214450/매수): 이제 조정은 충분히 받았다",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653913",
+   "title": "파마리서치(214450) 수출이 이끄는 성장, 이익률은 숨 고르기",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 324000.0,
+   "tp_status": "하향",
+   "price": 234500.0,
+   "upside_pct": 38.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 450000.0
+  },
+  {
+   "date": "2026-11-09",
+   "report_id": "hk_653883",
+   "title": "파마리서치(214450) 3Q26 Review: 이익률보다 이익 성장에 주목할 시기",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 370000.0,
+   "tp_status": "하향",
+   "price": 236000.0,
+   "upside_pct": 56.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 420000.0
   }
  ],
  "rating_changes": [
@@ -76,6 +180,48 @@
    "report_id": "hk_653460",
    "implied_prev": true,
    "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 530000.0,
+   "tp_to": 340000.0,
+   "tp_pct": -35.8,
+   "tp_speed30": null,
+   "report_id": "hk_653917",
+   "implied_prev": true,
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 450000.0,
+   "tp_to": 324000.0,
+   "tp_pct": -28.0,
+   "tp_speed30": null,
+   "report_id": "hk_653913",
+   "implied_prev": true,
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-09",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 420000.0,
+   "tp_to": 370000.0,
+   "tp_pct": -11.9,
+   "tp_speed30": null,
+   "report_id": "hk_653883",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -89,11 +235,39 @@
     "LS증권": 420000.0,
     "대신증권": 460000.0
    }
+  },
+  {
+   "date": "2026-11-09",
+   "mean": 382800,
+   "n": 5,
+   "brokers": {
+    "IBK투자증권": 340000.0,
+    "LS증권": 420000.0,
+    "대신증권": 460000.0,
+    "유안타증권": 324000.0,
+    "유진투자증권": 370000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
- "broker_waves": [],
+ "broker_waves": [
+  {
+   "date": "2026-11-09",
+   "direction": -1,
+   "count": 4,
+   "brokers": [
+    "IBK투자증권",
+    "LS증권",
+    "유안타증권",
+    "유진투자증권"
+   ],
+   "report_id": "hk_653917"
+  }
+ ],
  "events": [
-  "2026-10-29:214450:tp_down:LS증권"
+  "2026-10-29:214450:tp_down:LS증권",
+  "2026-11-09:214450:tp_down:IBK투자증권",
+  "2026-11-09:214450:tp_down:유안타증권",
+  "2026-11-09:214450:wave_down:"
  ]
 }
