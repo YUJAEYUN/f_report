@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "1260",
+  "bbs_seq": "1289541",
+  "report_type": "individual",
+  "title": "[New K-ETF] 코스피200 커버드콜 액티브: 5% OTM, 15% 타겟",
+  "analyst": "박승진",
+  "published_date": "2026-11-09",
+  "published_time": "07:44:10",
+  "category": "글로벌 투자전략",
+  "breadcrumb": "해외주식 > 글로벌 투자전략",
+  "preview_text": "▣ 신규 상장 ETF(11/10): TIGER 200 커버드콜 액티브, SOL 200 커버드콜 액티브\n\n◎ TIGER 200 커버드콜 액티브 ETF\n\n- 코스피200 구성종목 중 시장 주도 기업에 투자하면서 콜옵션 매도를 병행하는 액티브 ETF. 기업 이익수급거시경제 데이터를 활용해 100개 종목을 선별하고, 매월 포트폴리오 점검\n\n- 코스피200 커버드콜 5% OTM 지수를 비교지수로 활용. 코스피200 종가보다 5% 높은 수준에 가장 가까운 행사가격의 콜옵션을 활용하는 형태. 실제 운용에서는 횡보하락 국면에 월간 옵션 활용과 매도 비중을 높이고, 상승 국면에는 주간 옵션 활용을 늘리면서 매도 비중을 낮춰 증시 참여도 확대\n\n- 비교지수 주식 포트폴리오는 매년 6월과 12월에, 옵션 포지션은 매월 두 번째 목요일에 리밸런싱 진행. 액티브 운용 방식이 적용되는 만큼 실제 ETF는 종목비중과 옵션 전략을 수시로 조절. 월중 분배금 지급 추구\n\n◎ SOL 200 커버드콜 액티브 ETF\n\n- 코스피200 구성종목 중 이익 전망 개선과 외국인기관 순매수, 주가 상대강도가 우수한 기업의 비중을 확대하는 액티브 ETF. 주식 포트폴리오와 콜옵션 매도를 조합하여 자본차익과 분배금을 합산한 총 수익 제고 목표\n\n- 코스피200 타겟 15% 위클리 커버드콜 지수를 비교지수로 활용. 연 15%는 비교지수의 옵션 프리미엄 수취 목표. 실제 ETF는 매도 비중을 0%~100% 범위에서 조절하고 옵션의 만기와 행사가격을 탄력적으로 선택\n\n- 비교지수는 주식 포트폴리오를 매년 6월과 12월에, 옵션 포지션을 매주 월요일목요일에 리밸런싱 진행. 실제 ETF는 시장 상황에 따라 포지션을 수시로 변경하며, 매월 15일을 분배기준일로 하여 월중 분배금 지급 추구\n\n(위 문자의 내용은 컴플라이언스의 승인을 득하였음)",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289541&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
+  "pdf_filename": "New_K_ETF_261109_TIGER,SOL.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=1260&bbsSeq=1289541",
+  "collected_at": "2026-11-09T19:13:29+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289541",
+  "text_chars": 3775
+}
