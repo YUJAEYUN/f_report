@@ -4,7 +4,9 @@
  "name": "한전KPS",
  "industry": "기계·전력기기",
  "brokers": [
+  "LS증권",
   "대신증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -52,6 +54,24 @@
    "report_id": "hana_1289554",
    "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 58000.0,
+   "source": "report",
+   "report_id": "hk_653990",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 48000.0,
+   "source": "report",
+   "report_id": "hk_653958",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
   },
   {
    "date": "2026-11-10",
@@ -129,6 +149,38 @@
     "consensus": 173.4,
     "gap_pct": -17.0
    }
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "hk_653990",
+   "title": "한전KPS(051600) 단기적으론 원전 모멘텀 공백기, 원전 OH 장기화 영향 시기",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 58000.0,
+   "tp_status": "하향",
+   "price": 40200.0,
+   "upside_pct": 44.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "hk_653958",
+   "title": "한전KPS(051600) 완료를 못해서 생기는 문제",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 48000.0,
+   "tp_status": "하향",
+   "price": 40200.0,
+   "upside_pct": 19.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 55000.0
   }
  ],
  "rating_changes": [
@@ -170,6 +222,20 @@
    "tp_speed30": -2.1,
    "report_id": "hana_1289554",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 55000.0,
+   "tp_to": 48000.0,
+   "tp_pct": -12.7,
+   "tp_speed30": null,
+   "report_id": "hk_653958",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -218,10 +284,12 @@
   },
   {
    "date": "2026-11-10",
-   "mean": 56000,
-   "n": 2,
+   "mean": 54500,
+   "n": 4,
    "brokers": {
+    "LS증권": 58000.0,
     "대신증권": 57000.0,
+    "유진투자증권": 48000.0,
     "하나증권": 55000.0
    }
   }

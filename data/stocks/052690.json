@@ -4,6 +4,9 @@
  "name": "한전기술",
  "industry": "기계·전력기기",
  "brokers": [
+  "LS증권",
+  "미래에셋증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -42,6 +45,33 @@
    "report_id": "hana_1289555",
    "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 105000.0,
+   "source": "report",
+   "report_id": "hk_653989",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344110",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "report",
+   "report_id": "hk_653959",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
   },
   {
    "date": "2026-11-10",
@@ -109,6 +139,54 @@
     "consensus": 60.5,
     "gap_pct": -21.5
    }
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "hk_653989",
+   "title": "한전기술(052690) 원전 기대감 반영된 높은 멀티플. 시장위험 시기엔 부담",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 105000.0,
+   "tp_status": "하향",
+   "price": 72800.0,
+   "upside_pct": 44.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "mirae_2344110",
+   "title": "한전기술 (052690/매수): 3Q26 Review: 파이프라인 재점검",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "hk_653959",
+   "title": "한전기술(052690) 펀더멘털 이상 없음, 센티만 악화",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 140000.0,
+   "tp_status": "하향",
+   "price": 72800.0,
+   "upside_pct": 92.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 200000.0
   }
  ],
  "rating_changes": [
@@ -151,6 +229,20 @@
    "tp_speed30": -4.0,
    "report_id": "hana_1289555",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 200000.0,
+   "tp_to": 140000.0,
+   "tp_pct": -30.0,
+   "tp_speed30": null,
+   "report_id": "hk_653959",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -190,9 +282,11 @@
   },
   {
    "date": "2026-11-10",
-   "mean": 140000,
-   "n": 1,
+   "mean": 128333,
+   "n": 3,
    "brokers": {
+    "LS증권": 105000.0,
+    "유진투자증권": 140000.0,
     "하나증권": 140000.0
    }
   }
@@ -201,6 +295,7 @@
  "broker_waves": [],
  "events": [
   "2026-11-09:052690:tp_down:하나증권",
+  "2026-11-10:052690:tp_down:유진투자증권",
   "2026-11-09:052690:gap_below:하나증권"
  ]
 }

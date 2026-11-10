@@ -4,6 +4,7 @@
  "name": "와이지엔터테인먼트",
  "industry": "미디어·콘텐츠",
  "brokers": [
+  "LS증권",
   "SK증권",
   "iM증권",
   "상상인증권",
@@ -173,6 +174,33 @@
    "report_id": "hana_1289553",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 58000.0,
+   "source": "report",
+   "report_id": "hk_653993",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 63000.0,
+   "source": "report",
+   "report_id": "hk_653984",
+   "tp_status": "유지",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 63000.0,
+   "source": "report",
+   "report_id": "hk_653961",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -370,6 +398,54 @@
     "consensus": 74.5,
     "gap_pct": -5.0
    }
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "hk_653993",
+   "title": "와이지엔터테인먼트(122870) 저연차 수익원 다변화",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 58000.0,
+   "tp_status": "하향",
+   "price": 40500.0,
+   "upside_pct": 43.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "hk_653984",
+   "title": "와이지엔터테인먼트(122870) 2027년에는 신인 아티스트 2팀 데뷔 예정",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 63000.0,
+   "tp_status": "유지",
+   "price": 40500.0,
+   "upside_pct": 55.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "hk_653961",
+   "title": "와이지엔터테인먼트(122870) 1H27: 빅뱅, 베몬, 트레저, 그리고 신인 2팀",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 63000.0,
+   "tp_status": "유지",
+   "price": 40500.0,
+   "upside_pct": 55.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -887,6 +963,20 @@
    "mean": 61333,
    "n": 6,
    "brokers": {
+    "SK증권": 63000.0,
+    "iM증권": 60000.0,
+    "상상인증권": 63000.0,
+    "유안타증권": 56000.0,
+    "유진투자증권": 63000.0,
+    "하나증권": 63000.0
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "mean": 60857,
+   "n": 7,
+   "brokers": {
+    "LS증권": 58000.0,
     "SK증권": 63000.0,
     "iM증권": 60000.0,
     "상상인증권": 63000.0,

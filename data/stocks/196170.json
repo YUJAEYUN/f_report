@@ -4,6 +4,8 @@
  "name": "알테오젠",
  "industry": "제약·바이오",
  "brokers": [
+  "IBK투자증권",
+  "대신증권",
   "하나증권"
  ],
  "timeline": [
@@ -87,6 +89,24 @@
    "report_id": "hana_1289456",
    "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 320000.0,
+   "source": "report",
+   "report_id": "hk_653998",
+   "tp_status": "하향",
+   "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 450000.0,
+   "source": "report",
+   "report_id": "hk_653965",
+   "tp_status": null,
+   "broker": "대신증권"
   }
  ],
  "notes": [],
@@ -237,6 +257,38 @@
     "consensus": 312.7,
     "gap_pct": -2.5
    }
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "hk_653998",
+   "title": "알테오젠(196170) 약가는 내려도 SC 전환은 계속된다",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 320000.0,
+   "tp_status": "하향",
+   "price": 168400.0,
+   "upside_pct": 90.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 400000.0
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "hk_653965",
+   "title": "알테오젠(196170) IRA 약가협상 규정 확정, SC 플랫폼 영향은 선별적",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 450000.0,
+   "tp_status": null,
+   "price": 168400.0,
+   "upside_pct": 167.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -317,6 +369,20 @@
    "tp_speed30": -11.1,
    "report_id": "hana_1289456",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 400000.0,
+   "tp_to": 320000.0,
+   "tp_pct": -20.0,
+   "tp_speed30": null,
+   "report_id": "hk_653998",
+   "implied_prev": true,
+   "broker": "IBK투자증권"
   }
  ],
  "estimate_revisions": [
@@ -514,11 +580,22 @@
    "brokers": {
     "하나증권": 410000.0
    }
+  },
+  {
+   "date": "2026-11-10",
+   "mean": 393333,
+   "n": 3,
+   "brokers": {
+    "IBK투자증권": 320000.0,
+    "대신증권": 450000.0,
+    "하나증권": 410000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
  "events": [
+  "2026-11-10:196170:tp_down:IBK투자증권",
   "2026-11-04:196170:est_down:하나증권2026eps"
  ]
 }

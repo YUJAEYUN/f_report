@@ -25,7 +25,9 @@
    "prev_report_id": "hana_1289104",
    "broker": "하나증권"
   },
-  "title": "한미약품 (128940.KS/BUY): 추가 기술이전에 MASH 임상 결과 서프 (3Q26 Re)"
+  "title": "한미약품 (128940.KS/BUY): 추가 기술이전에 MASH 임상 결과 서프 (3Q26 Re)",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-11-08:001740:est_up:하나증권2026op",
@@ -53,7 +55,9 @@
    "prev_report_id": "hana_1289101",
    "broker": "하나증권"
   },
-  "title": "SK네트웍스(001740/KS): 일회성 비용 제외하면 견조한 실적"
+  "title": "SK네트웍스(001740/KS): 일회성 비용 제외하면 견조한 실적",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-11-08:001740:cons_down:하나증권2026op",
@@ -81,7 +85,9 @@
    "prev_report_id": "hana_1289101",
    "broker": "하나증권"
   },
-  "title": "SK네트웍스(001740/KS): 일회성 비용 제외하면 견조한 실적"
+  "title": "SK네트웍스(001740/KS): 일회성 비용 제외하면 견조한 실적",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-11-08:112610:est_up:하나증권2027eps",
@@ -91,7 +97,7 @@
   "stock_id": "112610",
   "code": "112610",
   "name": "씨에스윈드",
-  "industry": "태양광·신재생",
+  "industry": "기계·전력기기",
   "report_id": "hana_1289529",
   "headline": "하나증권 추정 2027년 EPS +15.3% (3,846원 → 4,434원)",
   "data": {
@@ -109,6 +115,8 @@
    "prev_report_id": "hana_1289242",
    "broker": "하나증권"
   },
-  "title": "씨에스윈드(112610/KS): 미국 생산 증가와 마진 상승 확인"
+  "title": "씨에스윈드(112610/KS): 미국 생산 증가와 마진 상승 확인",
+  "reason": "2027년 북미 생산량 증가에 따른 마진 개선과 AMPC 수취 규모 증가가 기대된다고 보고 추정치를 반영했다.",
+  "reason_checked": true
  }
 ]

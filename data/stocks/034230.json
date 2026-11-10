@@ -106,6 +106,15 @@
    "report_id": "hk_653258",
    "tp_status": "하향",
    "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 16000.0,
+   "source": "report",
+   "report_id": "hana_1289577",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -125,6 +134,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "hana_1289577",
+   "title": "파라다이스(034230.KS/매수): 4연속 컨센서스 하회 이후 첫 호실적",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 16000.0,
+   "tp_status": null,
+   "price": 9920.0,
+   "upside_pct": 61.3,
+   "estimates": {
+    "2026": {
+     "revenue": 1273.9,
+     "op": 162.4,
+     "net": 68.6,
+     "eps": 741.0
+    },
+    "2027": {
+     "revenue": 1382.9,
+     "op": 202.1,
+     "net": 105.3,
+     "eps": 1136.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1279.8,
+     "op": 161.5,
+     "net": 100.6,
+     "eps": 821.0
+    },
+    "2027": {
+     "revenue": 1379.3,
+     "op": 196.9,
+     "net": 136.3,
+     "eps": 1108.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 162.4,
+    "consensus": 161.5,
+    "gap_pct": 0.6
+   }
   }
  ],
  "rating_changes": [
@@ -331,6 +389,15 @@
   },
   {
    "date": "2026-10-23",
+   "mean": 15500,
+   "n": 2,
+   "brokers": {
+    "iM증권": 15000.0,
+    "하나증권": 16000.0
+   }
+  },
+  {
+   "date": "2026-11-10",
    "mean": 15500,
    "n": 2,
    "brokers": {

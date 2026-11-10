@@ -1,0 +1,24 @@
+[
+ {
+  "id": "2026-11-13:제약·바이오:industry_flip",
+  "date": "2026-11-13",
+  "type": "industry_down",
+  "severity": 1.5,
+  "stock_id": null,
+  "code": null,
+  "name": "제약·바이오",
+  "industry": "제약·바이오",
+  "report_id": null,
+  "headline": "제약·바이오 리비전 방향 상향 → 하향 (상향 0 · 하향 3종목)",
+  "data": {
+   "week": "2026-W46",
+   "prev_week": "2026-W45",
+   "up": 0,
+   "down": 3,
+   "flat": 3,
+   "stocks": 6,
+   "ratio": -0.5
+  },
+  "title": null
+ }
+]

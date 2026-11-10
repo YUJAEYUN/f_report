@@ -5,6 +5,7 @@
  "industry": "제약·바이오",
  "brokers": [
   "IBK투자증권",
+  "미래에셋증권",
   "하나증권"
  ],
  "timeline": [
@@ -23,6 +24,33 @@
    "target_price": null,
    "source": "table",
    "report_id": "hana_1289435",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344120",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "report",
+   "report_id": "hana_1289576",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-11",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "table",
+   "report_id": "hana_1289576",
    "tp_status": null,
    "broker": "하나증권"
   }
@@ -93,6 +121,71 @@
     "consensus": 12.1,
     "gap_pct": -12.4
    }
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "mirae_2344120",
+   "title": "한올바이오파마 (009420/매수): 아이메로프루바트 임상 2상 결과 발표",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "hana_1289576",
+   "title": "한올바이오파마(009420.KS/BUY): 내년에도 기대할 것이 많아졌습니다",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "신규",
+   "target_price": 80000.0,
+   "tp_status": null,
+   "price": 46700.0,
+   "upside_pct": 71.3,
+   "estimates": {
+    "2026": {
+     "revenue": 169.3,
+     "op": 12.0,
+     "net": -12.3,
+     "eps": -236.0
+    },
+    "2027": {
+     "revenue": 177.3,
+     "op": 10.6,
+     "net": 8.6,
+     "eps": 164.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 169.8,
+     "op": 6.7,
+     "net": -11.3,
+     "eps": -186.0
+    },
+    "2027": {
+     "revenue": 190.0,
+     "op": 11.8,
+     "net": 7.8,
+     "eps": 80.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2027",
+    "metric": "op",
+    "estimate": 10.6,
+    "consensus": 11.8,
+    "gap_pct": -10.2
+   }
   }
  ],
  "rating_changes": [
@@ -109,10 +202,144 @@
    "report_id": "hk_652543",
    "implied_prev": true,
    "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-10",
+   "prev_date": "2026-11-03",
+   "days": 7,
+   "rating_from": "NR",
+   "rating_to": "매수",
+   "tp_from": null,
+   "tp_to": 80000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": "hana_1289576",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
- "consensus_changes": [],
+ "consensus_changes": [
+  {
+   "date": "2026-11-10",
+   "prev_date": "2026-11-02",
+   "days": 8,
+   "year": "2026",
+   "metric": "revenue",
+   "from": 169.9,
+   "to": 169.8,
+   "pct": -0.1,
+   "speed30": -0.4,
+   "turn": null,
+   "report_id": "hana_1289576",
+   "prev_report_id": "hana_1289435",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "prev_date": "2026-11-02",
+   "days": 8,
+   "year": "2026",
+   "metric": "op",
+   "from": 5.7,
+   "to": 6.7,
+   "pct": null,
+   "speed30": null,
+   "turn": null,
+   "report_id": "hana_1289576",
+   "prev_report_id": "hana_1289435",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "prev_date": "2026-11-02",
+   "days": 8,
+   "year": "2026",
+   "metric": "net",
+   "from": -11.1,
+   "to": -11.3,
+   "pct": -1.8,
+   "speed30": -6.8,
+   "turn": null,
+   "report_id": "hana_1289576",
+   "prev_report_id": "hana_1289435",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "prev_date": "2026-11-02",
+   "days": 8,
+   "year": "2026",
+   "metric": "eps",
+   "from": -174.0,
+   "to": -186.0,
+   "pct": -6.9,
+   "speed30": -25.9,
+   "turn": null,
+   "report_id": "hana_1289576",
+   "prev_report_id": "hana_1289435",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "prev_date": "2026-11-02",
+   "days": 8,
+   "year": "2027",
+   "metric": "revenue",
+   "from": 192.5,
+   "to": 190.0,
+   "pct": -1.3,
+   "speed30": -4.9,
+   "turn": null,
+   "report_id": "hana_1289576",
+   "prev_report_id": "hana_1289435",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "prev_date": "2026-11-02",
+   "days": 8,
+   "year": "2027",
+   "metric": "op",
+   "from": 12.1,
+   "to": 11.8,
+   "pct": -2.5,
+   "speed30": -9.4,
+   "turn": null,
+   "report_id": "hana_1289576",
+   "prev_report_id": "hana_1289435",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "prev_date": "2026-11-02",
+   "days": 8,
+   "year": "2027",
+   "metric": "net",
+   "from": 7.7,
+   "to": 7.8,
+   "pct": null,
+   "speed30": null,
+   "turn": null,
+   "report_id": "hana_1289576",
+   "prev_report_id": "hana_1289435",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "prev_date": "2026-11-02",
+   "days": 8,
+   "year": "2027",
+   "metric": "eps",
+   "from": 59.0,
+   "to": 80.0,
+   "pct": null,
+   "speed30": null,
+   "turn": null,
+   "report_id": "hana_1289576",
+   "prev_report_id": "hana_1289435",
+   "broker": "하나증권"
+  }
+ ],
  "tp_consensus": [
   {
    "date": "2026-09-28",
@@ -129,9 +356,30 @@
    "brokers": {
     "IBK투자증권": 70000.0
    }
+  },
+  {
+   "date": "2026-11-10",
+   "mean": 75000,
+   "n": 2,
+   "brokers": {
+    "IBK투자증권": 70000.0,
+    "하나증권": 80000.0
+   }
+  },
+  {
+   "date": "2026-11-11",
+   "mean": 75000,
+   "n": 2,
+   "brokers": {
+    "IBK투자증권": 70000.0,
+    "하나증권": 80000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-10:009420:coverage_start:하나증권",
+  "2026-11-10:009420:cons_down:하나증권2026eps"
+ ]
 }

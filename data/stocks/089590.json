@@ -5,7 +5,8 @@
  "industry": "운송",
  "brokers": [
   "iM증권",
-  "하나증권"
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -70,6 +71,15 @@
    "report_id": "hana_1289550",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 9000.0,
+   "source": "report",
+   "report_id": "hk_653975",
+   "tp_status": "상향",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [
@@ -291,6 +301,22 @@
     "consensus": 75.0,
     "gap_pct": 34.4
    }
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "hk_653975",
+   "title": "제주항공(089590) NDR 후기: 가장 탄력적인 모델",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 9000.0,
+   "tp_status": "상향",
+   "price": 6830.0,
+   "upside_pct": 31.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -634,6 +660,16 @@
    "brokers": {
     "iM증권": 8000.0,
     "하나증권": 7500.0
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "mean": 8167,
+   "n": 3,
+   "brokers": {
+    "iM증권": 8000.0,
+    "하나증권": 7500.0,
+    "한화투자증권": 9000.0
    }
   }
  ],

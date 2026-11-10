@@ -1,0 +1,72 @@
+{
+ "id": "234340",
+ "code": "234340",
+ "name": "헥토파이낸셜",
+ "industry": "인터넷·플랫폼",
+ "brokers": [
+  "유진투자증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 23000.0,
+   "source": "report",
+   "report_id": "hk_653962",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-10",
+   "report_id": "hk_653962",
+   "title": "헥토파이낸셜(234340) 3Q26P Review: 주력 결제사업 안정적 성장 지속",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 23000.0,
+   "tp_status": "하향",
+   "price": 15760.0,
+   "upside_pct": 45.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 30000.0
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2026-11-10",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 30000.0,
+   "tp_to": 23000.0,
+   "tp_pct": -23.3,
+   "tp_speed30": null,
+   "report_id": "hk_653962",
+   "implied_prev": true,
+   "broker": "유진투자증권"
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-11-10",
+   "mean": 23000,
+   "n": 1,
+   "brokers": {
+    "유진투자증권": 23000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": [
+  "2026-11-10:234340:tp_down:유진투자증권"
+ ]
+}

@@ -89,6 +89,15 @@
    "report_id": "hana_1289550",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-10",
+   "rating": "매수",
+   "target_price": 100000.0,
+   "source": "report",
+   "report_id": "hana_1289573",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -182,6 +191,55 @@
    "broker": "하나증권",
    "rating": "매수",
    "rating_status": null,
+   "target_price": 100000.0,
+   "tp_status": null,
+   "price": 67600.0,
+   "upside_pct": 47.9,
+   "estimates": {
+    "2026": {
+     "revenue": 12904.9,
+     "op": 444.9,
+     "net": 178.0,
+     "eps": 7805.0
+    },
+    "2027": {
+     "revenue": 13481.2,
+     "op": 514.8,
+     "net": 223.5,
+     "eps": 9797.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 13238.6,
+     "op": 447.8,
+     "net": 199.8,
+     "eps": 8207.0
+    },
+    "2027": {
+     "revenue": 13764.4,
+     "op": 521.5,
+     "net": 260.5,
+     "eps": 10723.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 444.9,
+    "consensus": 447.8,
+    "gap_pct": -0.6
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "report_id": "hana_1289573",
+   "title": "CJ대한통운 (000120.KS/BUY): 3Q26 Re: 저점 매수 관점에서 접근 가능",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
    "target_price": 100000.0,
    "tp_status": null,
    "price": 67600.0,
@@ -454,6 +512,15 @@
   },
   {
    "date": "2026-11-09",
+   "mean": 95000,
+   "n": 2,
+   "brokers": {
+    "LS증권": 90000.0,
+    "하나증권": 100000.0
+   }
+  },
+  {
+   "date": "2026-11-10",
    "mean": 95000,
    "n": 2,
    "brokers": {
