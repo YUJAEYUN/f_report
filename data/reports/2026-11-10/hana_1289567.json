@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2206",
+  "bbs_seq": "1289567",
+  "report_type": "daily_series",
+  "title": "하나증권 글로벌 Weekly(26.11.11)",
+  "analyst": "글로벌투자분석실",
+  "published_date": "2026-11-10",
+  "published_time": "17:48:16",
+  "category": "Daily",
+  "breadcrumb": "Daily > Daily",
+  "preview_text": "[미국 증시 동향]\n- 미국 증시는 중간선거 관망 속 혼조 출발, 민주당 양원 장악 확정 후 정치적 불확실성 완화에 3대 지수 상승\n- 이후 데이터센터 규제 강화와 AI 투자 둔화 우려가 부각되며 반도체 투매, 나스닥 5.5% 급락하며 조정 국면 진입\n- 급락했던 반도체주 반등으로 나스닥SP500 일부 낙폭 회복, 다만 예상보다 강한 고용에 국채금리 상승하며 다우 약세 지속\n- 중동 긴장 완화 기대에 유가 하락, 반도체 반등이 시장 전반으로 확산되며 3대 지수 급등. 엔비디아는 내부 조사 우려로 약세\n\n[중국 증시 동향]\n- 10월 이후 본토는 로컬 기관 기술주 청산, 홍콩은 자금 유출로 반등 계기를 찾지 못했으나 중간선거 이후 투심 개선\n- 향후 6개월 홍콩과 본토 대형지수의 상승 확률은 높아졌으나, 추세 상승을 위해서는 내부 과제 해결이 필요. 공통적으로 27년 민간 신용 및 내수 부양책 회복, AI 기술 병목 돌파와 고도화 성과, IPO 활성화 유지 여부가 중요. 홍콩은 민간 신용재정 부양책 회복과 본토 자금 복귀, 빅테크 수익성 및 AI 생태계 성과, CapEx와 현금흐름이 관건. 본토는 1분기 과창판 이벤트 소화, 하드테크 기업의 수출수익성 개선, 미국 규제 강도 등이 주요 변수\n\n[글로벌 투자유망종목]\n- 마이크로소프트(MSFT.US), 알파벳(GOOGL.US), 마이크론 테크놀로지(MU.US), AMD(AMD.US), 캐터필러(CAT.US), 크라우드 스트라이크(CRWD.US), 발레로 에너지(VLO.US), 블룸 에너지(BE.US), 비원제약(6160.HK), 커룬바이오텍(6990.HK)",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289567&attachFileSeq=1&bbsId=&dbType=&bbsCd=2206",
+  "pdf_filename": "GlobalWeekly_1111.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2206&bbsSeq=1289567",
+  "collected_at": "2026-11-10T16:38:26+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289567",
+  "text_chars": 31177
+}

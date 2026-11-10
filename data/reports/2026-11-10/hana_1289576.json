@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2224",
+  "bbs_seq": "1289576",
+  "report_type": "individual",
+  "title": "한올바이오파마(009420.KS/BUY): 내년에도 기대할 것이 많아졌습니다",
+  "analyst": "김선아",
+  "published_date": "2026-11-10",
+  "published_time": "20:48:40",
+  "category": "기업분석",
+  "breadcrumb": "산업/기업 > 기업분석",
+  "preview_text": "■D2T RA 2b상 Period 2 결과: 기대가 낮았던 만큼 서프라이즈\n기존 2가지 이상 기전의 치료제에 불응한 난치성 류마티스 관절염 환자(이하 D2T RA) 170명 대상으로, 지난 period 1에서 16주 오픈라벨로 600mg을 투여한 결과는 2026년5월에 공개했고, Immunovant가 11월9일에 발표한 것은 이어서 12주(period 2)를 투여한 결과이다. 앞서 period 1에서 600mg 투여한 환자 중 일부가 period 2에서는 위약으로 배정되기 때문에 p-value를 달성하지 못할 것이라는 의견이 지배적이었다. 그러나 이를 뒤집고 600mg 지속 투약군에서는 p-value도 달성했다. 지난 11월3일 발간한 리포트에서 단순히 p-value만 볼게 아니라, ACR20의 절대 값 수준(600mg 지속 투여군에서 16주차 ACR20인 72.7% 보다 높은 값)이 중요하다고 언급했는데, 600mg 지속 투여군의 ACR20 값은 92.5%여서 우리가 기대했던 수치도 보여주었다.\n\n■Batoclimab 대비 IMVT-1402가 갖는 전략적 이점을 임상으로 입증한 첫 사례\nBatoclimab의 가장 큰 문제점은 고콜레스테롤혈증 때문에 지속적인 고용량 투여가 불가능하여 수 주 투약 후 용량을 낮추어야 한다는 점이다. IMVT-1402는 Batoclimab과 달리 결합 위치(epitope)가 알부민과 경쟁하지 않게 설계되어 고콜레스테롤혈증을 우려하지 않아도 된다. 따라서 투약 계획 기간 동안 지속적으로 고용량 투여가 가능하다. 이번 IMVT-1402의 D2T RA 결과에서 300mg은 ACR20 값 75%로 위약 75.6%와 거의 유사하여 유의한 차이를 보이지 못했으나, 600mg을 지속 투여할 수 있게 설계된 IMVT-1402의 개발 전략상 용량이 낮아진 경우의 결과는 그리 중요치 않다는 판단이다. 한편, 이뮤노반트는 300mg 투약군에서 더 개선된 효과를 보지 못한 이유가 FcRn 적응증에서 IgG 억제의 깊이가 중요하기 때문이라 설명했고, 이 계열 후보물질들이 TED 실패로 반복되는 것처럼 병리 기전이 되는 신호를 직접 억제하지 않는다면 잔존하는 자가항체의 영향은 상당한 것 같다. IMVT-1402는 batoclimab 대비 개선된 성질을 갖는 후보물질이나 이를 임상적으로 입증할 첫 기회였던 CLE가 실패하여 아쉬웠다(FIC로 리스크가 컸지만). 이제 D2T RA에서 개발 전략이 임상적으로 입증되었으니 앞으로의 탑라인 발표도 기대할 수 있게 되었다.\n\n■커버리지 개시: 목표 주가 80,000원, 27년에 MG와 GD 임상 발표를 기대하며\nIMVT-1402의 가치는 약 3.7조원, 영업가치 및 순현금을 더하여 총 기업가치 3.8조원으로 판단하였다. Vyvgart의 쇼그렌 증후군 임상 실패를 인식해 Immunovant가 이 적응증 개발은 유보 했으므로, 11월3일자의 IMVT-1402 가치에서 쇼그렌 증후군 value를 제외하고, D2T RA 임상 성공에 따른 위험 할인을 50%에서 40%로 줄였으며, 예상 시장 침투율을 추가 조정했다. 올해 말부터 D2T RA에 대해 FDA와 허가 개발 방향을 협의할 예정이고, 이어 27년에 GD(2b상), MG(3상)의 허가 목적 임상 탑라인 데이터를 발표할 예정이다. 내년GD, MG 등에서 Vyvgart 대비 우수한 효과를 입증한다면 TP 추가 상승 여력은 충분하다.",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289576&attachFileSeq=1&bbsId=&dbType=&bbsCd=2224",
+  "pdf_filename": "hanall_init_261111.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2224&bbsSeq=1289576",
+  "collected_at": "2026-11-10T16:37:44+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289576",
+  "text_chars": 18988
+}
