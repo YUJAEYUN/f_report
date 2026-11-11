@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2220",
+  "bbs_seq": "1289593",
+  "report_type": "individual",
+  "title": "반도체 소재/부품/장비(Overweight): AI 수요대비 부족한 공급 능력",
+  "analyst": "김록호",
+  "published_date": "2026-11-11",
+  "published_time": "19:24:51",
+  "category": "산업분석",
+  "breadcrumb": "산업/기업 > 산업분석",
+  "preview_text": "[하나증권 반도체 김록호/박규연]\n\nIndustry Research\n\n반도체(Overweight): AI 수요대비 부족한 공급 능력\n\n\n■ 글로벌 반도체 업체들 신규 Fab 통한 CAPA 증대\n\n글로벌 주요 DRAM 업체들이 신규 Fab을 통한 CAPA 증대를 계획하고 있음. 2027년에는 삼성전자 P5, SK하이닉스 Y1, Micron Idaho 신규 Fab의 장비 반입이 시작될 전망. SK하이닉스와 Micron은 2027년 1분기, 삼성전자는 3분기부터 장비 반입이 시작될 것으로 추정. 다만 실제 공급 기여 시점은 2028년 이후로 예상되어 투자 시작과 공급 확대 시점 간의 시차에 주목할 필요가 있음\n\n파운드리 역시 TSMC의 Tainan, Arizona, Kaohsiung 증설과 삼성전자 Taylor 신규 Fab 가동으로 CAPA 확대가 예상됨. 2027년 DRAM CAPA는 전년 대비 15%, 선단 파운드리 CAPA는 17% 증가할 전망\n\n■ AI 데이터센터 수요 대응은 GPU만으로는 역부족\n\n2027년 주요 데이터센터 고객들의 수요 규모는 27GW 수준으로 전망. 하이퍼스케일러 20GW 이상, 네오클라우드 3GW 이상, 소버린 AI 3GW 이하로 추정됨. 반면 AI 가속기 업체들의 CAPA 기준 대응 가능한 데이터센터 규모는 Nvidia 22GW, AMD 3GW로 파악되어 GPU만으로는 수요 충족이 어려울 것으로 판단\n\nGoogle의 2027년 TPU 출하량은 880만대로 전망되며, 이를 기반으로 대응 가능한 데이터센터 규모는 산술적으로 10GW를 초과. 다만 TPU만으로 데이터센터를 구축하는 사례는 제한적이어서 Google TPU가 향후 AI 데이터센터 공급 확대의 주요 변수로 작용할 가능성이 높음\n\n■ 차세대 공정 관련 수혜도 유효\n\n반도체 미세화 한계에 대응하기 위한 차세대 공정 전환이 본격화되면서 장비 및 소재 업체들의 수혜가 확대될 전망. DRAM은 기존 6F에서 4F 및 3D DRAM으로 전환되고, NAND는 400단 이상 고단화와 웨이퍼 본딩 도입이 예상됨. 이에 고종횡비 식각, 증착, 에피택시 및 하이브리드 본딩 공정의 중요성이 확대될 것으로 판단\n\n선단 로직 역시 2nm 이하 공정을 중심으로 후면전력공급(BSPDN) 기술 도입이 추진되고 있어 신규 공정 수요가 증가할 전망. 이러한 기술 고도화는 관련 장비 및 소재 업체들의 중장기 성장 동력으로 작용할 것으로 기대\n\n■ 메모리 낙폭 과대. 소부장 업체 외형 성장 기회 유효\n\n반도체 및 소부장에 대한 비중확대 의견을 유지. 미국 중간선거 이후 데이터센터 규제 관련 불확실성이 확대되며 글로벌 반도체 서플라이체인의 주가가 크게 하락했음. 다만 현재 AI 데이터센터 수요에 대응하기에도 공급 능력이 부족한 상황인 만큼 단기 실적에 미치는 영향은 제한적이라고 판단\n\n특히 메모리 업체들의 신규 Fab 투자 및 가동 일정을 감안하면 2028년까지 타이트한 수급이 지속될 전망. 메모리와 파운드리 모두 신규 Fab 투자가 확대되는 만큼 관련 장비 업체들의 외형 성장 기회도 유효하다고 판단\n\nTop Picks\n\n삼성전자 BUY 목표주가 400,000원(하향)\nSK하이닉스 BUY 목표주가 2,800,000원(하향)\n피에스케이홀딩스 BUY 목표주가 255,000원(상향)\n피에스케이 BUY 목표주가 160,000원(유지)\n테스 BUY 목표주가 163,000원(하향)\n\n(컴플라이언스 승인을 득함)",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289593&attachFileSeq=1&bbsId=&dbType=&bbsCd=2220",
+  "pdf_filename": "Semi_Indepth_261112_F.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2220&bbsSeq=1289593",
+  "collected_at": "2026-11-11T16:39:14+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289593",
+  "text_chars": 126666
+}

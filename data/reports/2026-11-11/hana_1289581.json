@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2206",
+  "bbs_seq": "1289581",
+  "report_type": "daily_series",
+  "title": "Hana Guru Eye",
+  "analyst": "임승미",
+  "published_date": "2026-11-11",
+  "published_time": "08:00:37",
+  "category": "Daily",
+  "breadcrumb": "Daily > Daily",
+  "preview_text": "전일 테마 리뷰: 전력설비\n오늘의 테마 체크: 항공, 금융",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289581&attachFileSeq=1&bbsId=&dbType=&bbsCd=2206",
+  "pdf_filename": "HGE1111.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2206&bbsSeq=1289581",
+  "collected_at": "2026-11-11T16:40:00+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289581",
+  "text_chars": 12326
+}
