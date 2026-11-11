@@ -80,6 +80,15 @@
    "report_id": "hana_1289492",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-11",
+   "rating": "매수",
+   "target_price": 174000.0,
+   "source": "report",
+   "report_id": "hk_654025",
+   "tp_status": "하향",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [
@@ -224,6 +233,22 @@
     "consensus": 111.4,
     "gap_pct": -5.2
    }
+  },
+  {
+   "date": "2026-11-11",
+   "report_id": "hk_654025",
+   "title": "세아제강(306200) 3분기는 환율과 원가 시차로 컨센서스 하회, 4분기 회복 전망",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 174000.0,
+   "tp_status": "하향",
+   "price": 115700.0,
+   "upside_pct": 50.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -253,6 +278,19 @@
    "tp_speed30": -3.7,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-11",
+   "prev_date": "2026-10-23",
+   "days": 19,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 207000.0,
+   "tp_to": 174000.0,
+   "tp_pct": -15.9,
+   "tp_speed30": -25.1,
+   "report_id": "hk_654025",
+   "broker": "한화투자증권"
   }
  ],
  "estimate_revisions": [
@@ -543,11 +581,36 @@
     "하나증권": 200000.0,
     "한화투자증권": 207000.0
    }
+  },
+  {
+   "date": "2026-11-11",
+   "mean": 181333,
+   "n": 3,
+   "brokers": {
+    "유진투자증권": 170000.0,
+    "하나증권": 200000.0,
+    "한화투자증권": 174000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-11",
+   "from": 192333,
+   "to": 181333,
+   "pct": -5.7,
+   "n": 3,
+   "brokers": [
+    "한화투자증권"
+   ],
+   "report_id": "hk_654025",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
  "events": [
-  "2026-11-05:306200:est_down:하나증권2026eps"
+  "2026-11-11:306200:tp_down:한화투자증권",
+  "2026-11-05:306200:est_down:하나증권2026eps",
+  "2026-11-11:306200:tp_cons_down:"
  ]
 }

@@ -1,0 +1,175 @@
+{
+ "id": "425420",
+ "code": "425420",
+ "name": "티에프이",
+ "industry": "반도체",
+ "brokers": [
+  "하나증권"
+ ],
+ "timeline": [
+  {
+   "date": "2025-08-21",
+   "rating": "매수",
+   "target_price": 45000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-10-26",
+   "rating": "매수",
+   "target_price": 61000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-11",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "report",
+   "report_id": "hana_1289587",
+   "tp_status": "상향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "table",
+   "report_id": "hana_1289587",
+   "tp_status": null,
+   "broker": "하나증권"
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-10-26",
+   "note": "년 경과",
+   "broker": "하나증권"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-11-11",
+   "report_id": "hana_1289587",
+   "title": "티에프이 (425420.KQ/매수): SoCAMM and beyond",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 110000.0,
+   "tp_status": "상향",
+   "price": 78500.0,
+   "upside_pct": 40.1,
+   "estimates": {
+    "2026": {
+     "revenue": 178.6,
+     "op": 40.4,
+     "net": 33.0,
+     "eps": 2696.0
+    },
+    "2027": {
+     "revenue": 274.8,
+     "op": 78.1,
+     "net": 63.3,
+     "eps": 5126.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 174.4,
+     "op": 35.8,
+     "net": 32.2,
+     "eps": 2611.0
+    },
+    "2027": {
+     "revenue": 231.0,
+     "op": 58.6,
+     "net": 49.0,
+     "eps": 4038.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 40.4,
+    "consensus": 35.8,
+    "gap_pct": 12.8
+   }
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2025-10-26",
+   "prev_date": "2025-08-21",
+   "days": 66,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 45000.0,
+   "tp_to": 61000.0,
+   "tp_pct": 35.6,
+   "tp_speed30": 16.2,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-11",
+   "prev_date": "2025-10-26",
+   "days": 381,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 61000.0,
+   "tp_to": 110000.0,
+   "tp_pct": 80.3,
+   "tp_speed30": 6.3,
+   "report_id": "hana_1289587",
+   "note": "1년 경과",
+   "broker": "하나증권"
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2025-08-21",
+   "mean": 45000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 45000.0
+   }
+  },
+  {
+   "date": "2025-10-26",
+   "mean": 61000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 61000.0
+   }
+  },
+  {
+   "date": "2026-11-11",
+   "mean": 110000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 110000.0
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "mean": 110000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 110000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": [
+  "2026-11-11:425420:tp_up:하나증권"
+ ]
+}

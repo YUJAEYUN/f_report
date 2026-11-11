@@ -19,5 +19,42 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hk_654043",
-  "text_chars": 10695
+  "text_chars": 10695,
+  "summary": {
+    "one_liner": "아마존 미국 Facial Skin Care BSR 기준 K뷰티 유니버스 합산 점수가 이번 주 1,843pt로 전주 대비 -79pt 둔화했으며, medicube 하락을 ANUA·EQQUALBERRY 상승이 일부 상쇄했다.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "K뷰티 유니버스(33개 브랜드) 아마존 BSR 합산 점수는 1,843pt로 전주 대비 -79pt 둔화",
+      "주간 평균 점수 상위 K뷰티 브랜드는 medicube 679pt(-76pt), ANUA 348pt(+47pt), EQQUALBERRY 111pt(+34pt) 순",
+      "점수 상승폭 상위 K뷰티 브랜드는 ANUA(+47pt), EQQUALBERRY(+34pt), CENTELLIAN24(+11pt)",
+      "전체 브랜드 기준 Leaders는 medicube 679pt, CeraVe 597pt, The Ordinary 466pt이며 Gainers는 ANUA(+47), Cetaphil(+39), EQQUALBERRY(+34)",
+      "제품 단위로는 medicube Toner Pads(99pt)가 Top2, ANUA PDRN Hyaluronic Acid Cream이 +11pt(86pt)로 상승했고 medicube Jelly Gel Mask는 -9pt(84pt)"
+    ],
+    "risk_factors": [
+      "BSR 점수는 프로모션·광고 여부에 따라 일간 변동폭이 커 단기 수치만으로 추세를 판단하기 어려움",
+      "Facial Skin Care 카테고리 1~100위만 반영해 아마존 전체·미국 전체 시장 성과로 확장하는 데 한계가 있음",
+      "K뷰티 유니버스 구성 브랜드가 추후 변경될 수 있어 시계열 비교의 연속성이 달라질 수 있음"
+    ]
+  },
+  "insight": {
+    "change": "K뷰티 합산 BSR 점수가 전주 대비 -79pt 둔화했다. 1위 medicube가 -76pt로 하락을 주도했고, ANUA(+47pt)와 EQQUALBERRY(+34pt) 등이 일부 상쇄했다. 다만 ANUA(348pt)는 30일 평균(352pt)과 90일 평균(346pt)과 비슷한 수준이다.",
+    "implication": "이번 주 둔화는 K뷰티 전반의 약화라기보다 1위 브랜드 medicube의 점수 하락에 크게 기대고 있다는 점에서 상위 브랜드 쏠림 구조를 보여준다. medicube의 이번 주 679pt는 30일 평균(756pt)·90일 평균(700pt)을 모두 밑돌아, 브랜드별 점수가 K뷰티 유니버스 합산을 좌우한다는 점을 확인시켜 준다. 원문은 아마존 성과를 미국 시장 성과의 대용 지표로 본다.",
+    "watch_points": [
+      "medicube의 주간 평균 점수가 30일·90일 평균(756pt·700pt) 수준을 회복하는지",
+      "K뷰티 유니버스 합산 BSR이 다음 주에도 추가로 둔화하는지, 또는 반등하는지",
+      "ANUA·EQQUALBERRY 등 상승 브랜드의 점수가 평균 수준을 넘어 유지되는지"
+    ]
+  },
+  "summarized_at": "2026-11-12T01:51:49+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "화장품"
+  ],
+  "themes": [
+    "K뷰티 수출 확대"
+  ],
+  "tagged_at": "2026-11-12T01:51:49+09:00"
 }

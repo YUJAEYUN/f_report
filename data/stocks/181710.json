@@ -4,6 +4,7 @@
  "name": "NHN",
  "industry": "소프트웨어·AI",
  "brokers": [
+  "LS증권",
   "메리츠증권",
   "미래에셋증권",
   "한화투자증권"
@@ -44,6 +45,24 @@
    "report_id": "mirae_2344125",
    "tp_status": null,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-11",
+   "rating": "매수",
+   "target_price": 97000.0,
+   "source": "report",
+   "report_id": "hk_654058",
+   "tp_status": "상향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-11",
+   "rating": "매수",
+   "target_price": 95000.0,
+   "source": "report",
+   "report_id": "hk_654012",
+   "tp_status": null,
+   "broker": "메리츠증권"
   }
  ],
  "notes": [],
@@ -111,9 +130,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-11",
+   "report_id": "hk_654058",
+   "title": "NHN(181710) 놀라운 실행력",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 97000.0,
+   "tp_status": "상향",
+   "price": 77400.0,
+   "upside_pct": 25.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-11",
+   "report_id": "hk_654012",
+   "title": "NHN(181710) 똑똑한 전략",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 95000.0,
+   "tp_status": null,
+   "price": 77400.0,
+   "upside_pct": 22.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-11-11",
+   "prev_date": "2026-09-21",
+   "days": 51,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 80000.0,
+   "tp_to": 95000.0,
+   "tp_pct": 18.8,
+   "tp_speed30": 11.1,
+   "report_id": "hk_654012",
+   "broker": "메리츠증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
@@ -152,9 +217,35 @@
     "메리츠증권": 80000.0,
     "한화투자증권": 87000.0
    }
+  },
+  {
+   "date": "2026-11-11",
+   "mean": 93000,
+   "n": 3,
+   "brokers": {
+    "LS증권": 97000.0,
+    "메리츠증권": 95000.0,
+    "한화투자증권": 87000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-11",
+   "from": 83500,
+   "to": 91000,
+   "pct": 9.0,
+   "n": 2,
+   "brokers": [
+    "메리츠증권"
+   ],
+   "report_id": "hk_654012",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-11:181710:tp_up:메리츠증권",
+  "2026-11-11:181710:tp_cons_up:"
+ ]
 }

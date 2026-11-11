@@ -1,0 +1,46 @@
+{
+ "id": "092190",
+ "code": "092190",
+ "name": "서울바이오시스",
+ "industry": "디스플레이",
+ "brokers": [
+  "유진투자증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-11",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_654006",
+   "tp_status": null,
+   "broker": "유진투자증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-11",
+   "report_id": "hk_654006",
+   "title": "서울바이오시스(092190) 3Q26P Review: 4분기 연속 영업이익 흑자 달성",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 7080.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

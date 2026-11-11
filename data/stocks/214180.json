@@ -1,0 +1,70 @@
+{
+ "id": "214180",
+ "code": "214180",
+ "name": "헥토이노베이션",
+ "industry": "인터넷·플랫폼",
+ "brokers": [
+  "유진투자증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-11",
+   "rating": "매수",
+   "target_price": 19000.0,
+   "source": "report",
+   "report_id": "hk_654008",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-11",
+   "report_id": "hk_654008",
+   "title": "헥토이노베이션(214180) 3Q26P Review: 실적 성장 지속, 시장기대치 부합",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 19000.0,
+   "tp_status": "하향",
+   "price": 13350.0,
+   "upside_pct": 42.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 21000.0
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2026-11-11",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 21000.0,
+   "tp_to": 19000.0,
+   "tp_pct": -9.5,
+   "tp_speed30": null,
+   "report_id": "hk_654008",
+   "implied_prev": true,
+   "broker": "유진투자증권"
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-11-11",
+   "mean": 19000,
+   "n": 1,
+   "brokers": {
+    "유진투자증권": 19000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

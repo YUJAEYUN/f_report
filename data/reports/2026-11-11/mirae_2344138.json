@@ -19,5 +19,26 @@
   "list_rating": "매수",
   "list_target_price": null,
   "report_id": "mirae_2344138",
-  "text_chars": 262
+  "text_chars": 262,
+  "summary": {
+    "one_liner": "셀트리온(068270) 매수 의견 리포트이나, 제공된 본문에는 차트 눈금 잔여물만 있어 구체적 내용을 확인할 수 없음",
+    "ticker": "068270.KS",
+    "rating": "매수",
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "본문에서 확인 가능한 변화 정보가 없음. 제목은 'Golden Decade, 셀트리온의 시간'으로 중장기 성장 국면을 강조하는 것으로 보이나 근거 수치는 제공되지 않음",
+    "implication": "본문이 추출되지 않아 원문 논리를 해석할 수 없음. 재추출 후 재요약 필요",
+    "watch_points": []
+  },
+  "summarized_at": "2026-11-12T01:50:22+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "제약·바이오"
+  ],
+  "themes": [],
+  "tagged_at": "2026-11-12T01:50:22+09:00"
 }

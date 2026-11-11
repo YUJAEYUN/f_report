@@ -1,0 +1,46 @@
+{
+ "id": "098460",
+ "code": "098460",
+ "name": "고영",
+ "industry": null,
+ "brokers": [
+  "미래에셋증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-11",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344169",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-11",
+   "report_id": "mirae_2344169",
+   "title": "고영 (098460/매수): 실적의 눈높이를 더 올려야할 때",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

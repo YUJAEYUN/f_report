@@ -1,12 +1,49 @@
 {
  "id": "095660",
  "code": "095660",
- "name": "[게임] 네오위즈",
+ "name": "네오위즈",
  "industry": "게임",
  "brokers": [
-  "미래에셋증권"
+  "미래에셋증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2024-08-20",
+   "rating": "매수",
+   "target_price": 28000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-03-04",
+   "rating": "매수",
+   "target_price": 32000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-05-15",
+   "rating": "매수",
+   "target_price": 35000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-05-23",
+   "rating": "매수",
+   "target_price": 36000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-10-22",
    "rating": "매수",
@@ -15,9 +52,33 @@
    "report_id": "mirae_2343562",
    "tp_status": "하향",
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-11",
+   "rating": "매수",
+   "target_price": 26000.0,
+   "source": "report",
+   "report_id": "hana_1289596",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 26000.0,
+   "source": "table",
+   "report_id": "hana_1289596",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
- "notes": [],
+ "notes": [
+  {
+   "date": "2026-05-23",
+   "note": "년 경과",
+   "broker": "하나증권"
+  }
+ ],
  "observations": [
   {
    "date": "2026-10-22",
@@ -34,12 +95,147 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-11",
+   "report_id": "hana_1289596",
+   "title": "네오위즈 (095660.KQ/매수): 2027년 신작 정보 공개 예정",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 26000.0,
+   "tp_status": "하향",
+   "price": 17240.0,
+   "upside_pct": 50.8,
+   "estimates": {
+    "2026": {
+     "revenue": 426.2,
+     "op": 37.1,
+     "net": 34.6,
+     "eps": 1597.0
+    },
+    "2027": {
+     "revenue": 469.5,
+     "op": 43.5,
+     "net": 39.1,
+     "eps": 1806.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 413.3,
+     "op": 31.7,
+     "net": 46.6,
+     "eps": 2237.0
+    },
+    "2027": {
+     "revenue": 459.2,
+     "op": 46.3,
+     "net": 42.8,
+     "eps": 2069.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 37.1,
+    "consensus": 31.7,
+    "gap_pct": 17.0
+   }
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-03-04",
+   "prev_date": "2024-08-20",
+   "days": 196,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 28000.0,
+   "tp_to": 32000.0,
+   "tp_pct": 14.3,
+   "tp_speed30": 2.2,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-05-15",
+   "prev_date": "2025-03-04",
+   "days": 72,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 32000.0,
+   "tp_to": 35000.0,
+   "tp_pct": 9.4,
+   "tp_speed30": 3.9,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-05-23",
+   "prev_date": "2025-05-15",
+   "days": 8,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 35000.0,
+   "tp_to": 36000.0,
+   "tp_pct": 2.9,
+   "tp_speed30": 10.9,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-11",
+   "prev_date": "2025-05-23",
+   "days": 537,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 36000.0,
+   "tp_to": 26000.0,
+   "tp_pct": -27.8,
+   "tp_speed30": -1.6,
+   "report_id": "hana_1289596",
+   "note": "1년 경과",
+   "broker": "하나증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
+  {
+   "date": "2024-08-20",
+   "mean": 28000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 28000.0
+   }
+  },
+  {
+   "date": "2025-03-04",
+   "mean": 32000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 32000.0
+   }
+  },
+  {
+   "date": "2025-05-15",
+   "mean": 35000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 35000.0
+   }
+  },
+  {
+   "date": "2025-05-23",
+   "mean": 36000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 36000.0
+   }
+  },
   {
    "date": "2026-10-22",
    "mean": 24000,
@@ -47,9 +243,29 @@
    "brokers": {
     "미래에셋증권": 24000.0
    }
+  },
+  {
+   "date": "2026-11-11",
+   "mean": 25000,
+   "n": 2,
+   "brokers": {
+    "미래에셋증권": 24000.0,
+    "하나증권": 26000.0
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "mean": 25000,
+   "n": 2,
+   "brokers": {
+    "미래에셋증권": 24000.0,
+    "하나증권": 26000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-11:095660:tp_down:하나증권"
+ ]
 }

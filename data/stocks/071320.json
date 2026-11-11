@@ -4,6 +4,8 @@
  "name": "지역난방공사",
  "industry": "유틸리티",
  "brokers": [
+  "iM증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -60,6 +62,24 @@
    "report_id": "hana_1289568",
    "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-11",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "report",
+   "report_id": "hk_654064",
+   "tp_status": "하향",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-11",
+   "rating": "매수",
+   "target_price": 104000.0,
+   "source": "report",
+   "report_id": "hk_654004",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
   },
   {
    "date": "2026-11-11",
@@ -127,6 +147,38 @@
     "consensus": 510.6,
     "gap_pct": -21.0
    }
+  },
+  {
+   "date": "2026-11-11",
+   "report_id": "hk_654064",
+   "title": "지역난방공사(071320) 4분기 LNG/SMP 디커플링 완화로 이익체력 정상화 예상",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 110000.0,
+   "tp_status": "하향",
+   "price": 67700.0,
+   "upside_pct": 62.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 135000.0
+  },
+  {
+   "date": "2026-11-11",
+   "report_id": "hk_654004",
+   "title": "지역난방공사(071320) 시장 컬러에 맞는 배당주로 변화",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 104000.0,
+   "tp_status": "하향",
+   "price": 67700.0,
+   "upside_pct": 53.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 120000.0
   }
  ],
  "rating_changes": [
@@ -182,6 +234,34 @@
    "report_id": "hana_1289568",
    "note": "1년 경과",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-11",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 135000.0,
+   "tp_to": 110000.0,
+   "tp_pct": -18.5,
+   "tp_speed30": null,
+   "report_id": "hk_654064",
+   "implied_prev": true,
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-11",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 120000.0,
+   "tp_to": 104000.0,
+   "tp_pct": -13.3,
+   "tp_speed30": null,
+   "report_id": "hk_654004",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -229,17 +309,33 @@
   },
   {
    "date": "2026-11-11",
-   "mean": 110000,
-   "n": 1,
+   "mean": 108000,
+   "n": 3,
    "brokers": {
+    "iM증권": 110000.0,
+    "유진투자증권": 104000.0,
     "하나증권": 110000.0
    }
   }
  ],
  "tp_consensus_changes": [],
- "broker_waves": [],
+ "broker_waves": [
+  {
+   "date": "2026-11-11",
+   "direction": -1,
+   "count": 3,
+   "brokers": [
+    "iM증권",
+    "유진투자증권",
+    "하나증권"
+   ],
+   "report_id": "hk_654064"
+  }
+ ],
  "events": [
   "2026-11-10:071320:tp_down:하나증권",
-  "2026-11-10:071320:gap_below:하나증권"
+  "2026-11-11:071320:tp_down:iM증권",
+  "2026-11-10:071320:gap_below:하나증권",
+  "2026-11-11:071320:wave_down:"
  ]
 }

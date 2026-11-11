@@ -79,6 +79,24 @@
    "report_id": "hk_653287",
    "tp_status": null,
    "broker": "상상인증권"
+  },
+  {
+   "date": "2026-11-11",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "report",
+   "report_id": "hana_1289598",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "table",
+   "report_id": "hana_1289598",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
@@ -109,6 +127,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 58000.0
+  },
+  {
+   "date": "2026-11-11",
+   "report_id": "hana_1289598",
+   "title": "실리콘투(257720.KQ/매수): 3Q26 Re: 환율 불확실성 해소 필요",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 40000.0,
+   "tp_status": "하향",
+   "price": 26700.0,
+   "upside_pct": 49.8,
+   "estimates": {
+    "2026": {
+     "revenue": 1600.5,
+     "op": 272.1,
+     "net": 188.3,
+     "eps": 2871.0
+    },
+    "2027": {
+     "revenue": 2123.5,
+     "op": 382.2,
+     "net": 307.0,
+     "eps": 4682.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1598.7,
+     "op": 288.9,
+     "net": 239.6,
+     "eps": 3522.0
+    },
+    "2027": {
+     "revenue": 2038.0,
+     "op": 374.3,
+     "net": 302.7,
+     "eps": 4195.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 272.1,
+    "consensus": 288.9,
+    "gap_pct": -5.8
+   }
   }
  ],
  "rating_changes": [
@@ -204,6 +271,19 @@
    "report_id": "hk_653287",
    "implied_prev": true,
    "broker": "상상인증권"
+  },
+  {
+   "date": "2026-11-11",
+   "prev_date": "2026-10-14",
+   "days": 28,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 52000.0,
+   "tp_to": 40000.0,
+   "tp_pct": -23.1,
+   "tp_speed30": -24.8,
+   "report_id": "hana_1289598",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
@@ -273,9 +353,44 @@
     "상상인증권": 54000.0,
     "하나증권": 52000.0
    }
+  },
+  {
+   "date": "2026-11-11",
+   "mean": 47000,
+   "n": 2,
+   "brokers": {
+    "상상인증권": 54000.0,
+    "하나증권": 40000.0
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "mean": 47000,
+   "n": 2,
+   "brokers": {
+    "상상인증권": 54000.0,
+    "하나증권": 40000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-11",
+   "from": 53000,
+   "to": 47000,
+   "pct": -11.3,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289598",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-11:257720:tp_down:하나증권",
+  "2026-11-11:257720:tp_accel:하나증권",
+  "2026-11-11:257720:tp_cons_down:"
+ ]
 }
