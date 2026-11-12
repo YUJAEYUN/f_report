@@ -35,6 +35,15 @@
    "report_id": "hk_653832",
    "tp_status": null,
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 62000.0,
+   "source": "report",
+   "report_id": "hk_654126",
+   "tp_status": "상향",
+   "broker": "IBK투자증권"
   }
  ],
  "notes": [],
@@ -86,9 +95,39 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654126",
+   "title": "티엘비(356860) 예상보다 훨씬 더 좋다",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 62000.0,
+   "tp_status": "상향",
+   "price": 38250.0,
+   "upside_pct": 62.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 53000.0
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-11-12",
+   "prev_date": "2026-11-06",
+   "days": 6,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 53000.0,
+   "tp_to": 62000.0,
+   "tp_pct": 17.0,
+   "tp_speed30": 85.0,
+   "report_id": "hk_654126",
+   "broker": "IBK투자증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
@@ -109,9 +148,34 @@
     "메리츠증권": 47000.0,
     "유안타증권": 90000.0
    }
+  },
+  {
+   "date": "2026-11-12",
+   "mean": 66333,
+   "n": 3,
+   "brokers": {
+    "IBK투자증권": 62000.0,
+    "메리츠증권": 47000.0,
+    "유안타증권": 90000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-12",
+   "from": 63333,
+   "to": 66333,
+   "pct": 4.7,
+   "n": 3,
+   "brokers": [
+    "IBK투자증권"
+   ],
+   "report_id": "hk_654126",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-12:356860:tp_up:IBK투자증권"
+ ]
 }

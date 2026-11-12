@@ -5,7 +5,8 @@
  "industry": "조선",
  "brokers": [
   "SK증권",
-  "iM증권"
+  "iM증권",
+  "미래에셋증권"
  ],
  "timeline": [
   {
@@ -25,6 +26,15 @@
    "report_id": "hk_653941",
    "tp_status": "하향",
    "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344177",
+   "tp_status": null,
+   "broker": "미래에셋증권"
   }
  ],
  "notes": [],
@@ -60,6 +70,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "mirae_2344177",
+   "title": "한화엔진 (082740/매수): NDR 후기: 가려진 본업 Q·P 성장 재조명 필요",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -76,6 +102,15 @@
   },
   {
    "date": "2026-11-09",
+   "mean": 79500,
+   "n": 2,
+   "brokers": {
+    "SK증권": 90000.0,
+    "iM증권": 69000.0
+   }
+  },
+  {
+   "date": "2026-11-12",
    "mean": 79500,
    "n": 2,
    "brokers": {

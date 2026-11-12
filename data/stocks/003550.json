@@ -1,0 +1,256 @@
+{
+ "id": "003550",
+ "code": "003550",
+ "name": "LG",
+ "industry": null,
+ "brokers": [
+  "하나증권"
+ ],
+ "timeline": [
+  {
+   "date": "2024-08-12",
+   "rating": "매수",
+   "target_price": 105000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-01-31",
+   "rating": "매수",
+   "target_price": 95000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-11-17",
+   "rating": "매수",
+   "target_price": 105000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-05-08",
+   "rating": "매수",
+   "target_price": 125000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-08-14",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 125000.0,
+   "source": "report",
+   "report_id": "hana_1289611",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 125000.0,
+   "source": "table",
+   "report_id": "hana_1289611",
+   "tp_status": null,
+   "broker": "하나증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-12",
+   "report_id": "hana_1289611",
+   "title": "LG(003550.KS/매수) : 3분기는 컨센서스 대비 영업이익 다소 큰폭 하회",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 125000.0,
+   "tp_status": "하향",
+   "price": 88900.0,
+   "upside_pct": 40.6,
+   "estimates": {
+    "2026": {
+     "revenue": 8004.5,
+     "op": 1482.2,
+     "net": 1389.4,
+     "eps": 8939.0
+    },
+    "2027": {
+     "revenue": 8923.7,
+     "op": 1881.4,
+     "net": 1698.0,
+     "eps": 11011.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 8187.0,
+     "op": 1543.0,
+     "net": 1426.6,
+     "eps": 7400.0
+    },
+    "2027": {
+     "revenue": 9140.8,
+     "op": 1935.5,
+     "net": 1691.2,
+     "eps": 8812.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1482.2,
+    "consensus": 1543.0,
+    "gap_pct": -3.9
+   }
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2025-01-31",
+   "prev_date": "2024-08-12",
+   "days": 172,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 105000.0,
+   "tp_to": 95000.0,
+   "tp_pct": -9.5,
+   "tp_speed30": -1.7,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-11-17",
+   "prev_date": "2025-01-31",
+   "days": 290,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 95000.0,
+   "tp_to": 105000.0,
+   "tp_pct": 10.5,
+   "tp_speed30": 1.1,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-05-08",
+   "prev_date": "2025-11-17",
+   "days": 172,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 105000.0,
+   "tp_to": 125000.0,
+   "tp_pct": 19.0,
+   "tp_speed30": 3.3,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-08-14",
+   "prev_date": "2026-05-08",
+   "days": 98,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 125000.0,
+   "tp_to": 140000.0,
+   "tp_pct": 12.0,
+   "tp_speed30": 3.7,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-12",
+   "prev_date": "2026-08-14",
+   "days": 90,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 140000.0,
+   "tp_to": 125000.0,
+   "tp_pct": -10.7,
+   "tp_speed30": -3.6,
+   "report_id": "hana_1289611",
+   "broker": "하나증권"
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-08-12",
+   "mean": 105000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 105000.0
+   }
+  },
+  {
+   "date": "2025-01-31",
+   "mean": 95000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 95000.0
+   }
+  },
+  {
+   "date": "2025-11-17",
+   "mean": 105000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 105000.0
+   }
+  },
+  {
+   "date": "2026-05-08",
+   "mean": 125000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 125000.0
+   }
+  },
+  {
+   "date": "2026-08-14",
+   "mean": 140000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 140000.0
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "mean": 125000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 125000.0
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "mean": 125000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 125000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

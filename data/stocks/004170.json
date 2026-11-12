@@ -6,6 +6,7 @@
  "brokers": [
   "LS증권",
   "미래에셋증권",
+  "유진투자증권",
   "하나증권",
   "한화투자증권"
  ],
@@ -144,6 +145,15 @@
    "report_id": "hk_654017",
    "tp_status": "하향",
    "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 430000.0,
+   "source": "report",
+   "report_id": "hk_654067",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [
@@ -266,6 +276,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654067",
+   "title": "신세계(004170) 3Q26 Review: 튼튼한 실적과 주주환원",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 430000.0,
+   "tp_status": "하향",
+   "price": 245500.0,
+   "upside_pct": 75.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 490000.0
   }
  ],
  "rating_changes": [
@@ -386,6 +412,20 @@
    "tp_speed30": -20.6,
    "report_id": "hana_1289575",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-12",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 490000.0,
+   "tp_to": 430000.0,
+   "tp_pct": -12.2,
+   "tp_speed30": null,
+   "report_id": "hk_654067",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -490,6 +530,17 @@
    "n": 3,
    "brokers": {
     "LS증권": 450000.0,
+    "하나증권": 365000.0,
+    "한화투자증권": 410000.0
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "mean": 413750,
+   "n": 4,
+   "brokers": {
+    "LS증권": 450000.0,
+    "유진투자증권": 430000.0,
     "하나증권": 365000.0,
     "한화투자증권": 410000.0
    }

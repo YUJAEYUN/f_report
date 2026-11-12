@@ -8,7 +8,9 @@
   "SK증권",
   "메리츠증권",
   "유안타증권",
-  "하나증권"
+  "유진투자증권",
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -158,11 +160,56 @@
   {
    "date": "2026-11-12",
    "rating": "매수",
+   "target_price": 370000.0,
+   "source": "report",
+   "report_id": "hk_654101",
+   "tp_status": "유지",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 390000.0,
+   "source": "report",
+   "report_id": "hk_654079",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 363000.0,
+   "source": "report",
+   "report_id": "hk_654115",
+   "tp_status": "유지",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 420000.0,
+   "source": "report",
+   "report_id": "hk_654073",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
    "target_price": 420000.0,
    "source": "table",
    "report_id": "hana_1289597",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 370000.0,
+   "source": "report",
+   "report_id": "hk_654083",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [
@@ -399,6 +446,86 @@
     "consensus": 272.3,
     "gap_pct": 4.7
    }
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654101",
+   "title": "코스맥스(192820) 국내와 해외 실적 모두 고성장",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 370000.0,
+   "tp_status": "유지",
+   "price": 263000.0,
+   "upside_pct": 40.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654079",
+   "title": "코스맥스(192820) 3Q26P Review: 질주하는 국내, 성장 궤도 진입한 해외",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 390000.0,
+   "tp_status": null,
+   "price": 263000.0,
+   "upside_pct": 48.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654115",
+   "title": "코스맥스(192820) 비수기는 없다",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 363000.0,
+   "tp_status": "유지",
+   "price": 263000.0,
+   "upside_pct": 38.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654073",
+   "title": "코스맥스(192820) 3Q26 Review: 컨센서스 상회의 상회",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 420000.0,
+   "tp_status": "유지",
+   "price": 263000.0,
+   "upside_pct": 59.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654083",
+   "title": "코스맥스(192820) 의심할 필요 없지",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 370000.0,
+   "tp_status": "유지",
+   "price": 263000.0,
+   "upside_pct": 40.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -520,6 +647,19 @@
    "tp_speed30": 10.9,
    "report_id": "hana_1289597",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-12",
+   "prev_date": "2026-10-07",
+   "days": 36,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 360000.0,
+   "tp_to": 390000.0,
+   "tp_pct": 8.3,
+   "tp_speed30": 6.9,
+   "report_id": "hk_654079",
+   "broker": "메리츠증권"
   }
  ],
  "estimate_revisions": [
@@ -1012,14 +1152,16 @@
   },
   {
    "date": "2026-11-12",
-   "mean": 382600,
-   "n": 5,
+   "mean": 390429,
+   "n": 7,
    "brokers": {
     "LS증권": 400000.0,
     "SK증권": 370000.0,
-    "메리츠증권": 360000.0,
+    "메리츠증권": 390000.0,
     "유안타증권": 363000.0,
-    "하나증권": 420000.0
+    "유진투자증권": 420000.0,
+    "하나증권": 420000.0,
+    "한화투자증권": 370000.0
    }
   }
  ],
@@ -1035,6 +1177,18 @@
    ],
    "report_id": "hana_1289597",
    "cum30": null
+  },
+  {
+   "date": "2026-11-12",
+   "from": 382600,
+   "to": 388600,
+   "pct": 1.6,
+   "n": 5,
+   "brokers": [
+    "메리츠증권"
+   ],
+   "report_id": "hk_654079",
+   "cum30": 3.7
   }
  ],
  "broker_waves": [],

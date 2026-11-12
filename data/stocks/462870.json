@@ -4,6 +4,7 @@
  "name": "시프트업",
  "industry": "게임",
  "brokers": [
+  "SK증권",
   "메리츠증권",
   "미래에셋증권",
   "한화투자증권"
@@ -44,6 +45,15 @@
    "report_id": "hk_654019",
    "tp_status": "하향",
    "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 35000.0,
+   "source": "report",
+   "report_id": "hk_654097",
+   "tp_status": "하향",
+   "broker": "SK증권"
   }
  ],
  "notes": [],
@@ -111,6 +121,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654097",
+   "title": "시프트업(462870) 하방은 견고, 상승은 신작에 달렸다",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 35000.0,
+   "tp_status": "하향",
+   "price": 26800.0,
+   "upside_pct": 30.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -139,6 +165,16 @@
    "mean": 37500,
    "n": 2,
    "brokers": {
+    "메리츠증권": 35000.0,
+    "한화투자증권": 40000.0
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "mean": 36667,
+   "n": 3,
+   "brokers": {
+    "SK증권": 35000.0,
     "메리츠증권": 35000.0,
     "한화투자증권": 40000.0
    }

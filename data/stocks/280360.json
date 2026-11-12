@@ -25,6 +25,24 @@
    "report_id": "hk_653161",
    "tp_status": "유지",
    "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 165000.0,
+   "source": "report",
+   "report_id": "hk_654117",
+   "tp_status": "유지",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 200000.0,
+   "source": "report",
+   "report_id": "hk_654085",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -60,6 +78,38 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654117",
+   "title": "롯데웰푸드(280360) 이익 개선의 방향은 예상대로",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 165000.0,
+   "tp_status": "유지",
+   "price": 118100.0,
+   "upside_pct": 39.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654085",
+   "title": "롯데웰푸드(280360) 1년 내내 서프라이즈",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 200000.0,
+   "tp_status": "유지",
+   "price": 118100.0,
+   "upside_pct": 69.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -76,6 +126,15 @@
   },
   {
    "date": "2026-10-21",
+   "mean": 182500,
+   "n": 2,
+   "brokers": {
+    "유안타증권": 165000.0,
+    "한화투자증권": 200000.0
+   }
+  },
+  {
+   "date": "2026-11-12",
    "mean": 182500,
    "n": 2,
    "brokers": {

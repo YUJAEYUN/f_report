@@ -10,6 +10,7 @@
   "대신증권",
   "미래에셋증권",
   "상상인증권",
+  "유안타증권",
   "유진투자증권",
   "하나증권"
  ],
@@ -157,6 +158,15 @@
    "report_id": "hana_1289331",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 643000.0,
+   "source": "report",
+   "report_id": "hk_654111",
+   "tp_status": "하향",
+   "broker": "유안타증권"
   }
  ],
  "notes": [],
@@ -304,6 +314,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654111",
+   "title": "HD현대중공업(329180) 다재다능 드래프트 1순위, 높은 몸값이 증명",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 643000.0,
+   "tp_status": "하향",
+   "price": 262500.0,
+   "upside_pct": 145.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 842000.0
   }
  ],
  "rating_changes": [
@@ -424,6 +450,20 @@
    "tp_speed30": -6.5,
    "report_id": "hana_1289331",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-12",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 842000.0,
+   "tp_to": 643000.0,
+   "tp_pct": -23.6,
+   "tp_speed30": null,
+   "report_id": "hk_654111",
+   "implied_prev": true,
+   "broker": "유안타증권"
   }
  ],
  "estimate_revisions": [],
@@ -518,6 +558,21 @@
     "유진투자증권": 610000.0,
     "하나증권": 560000.0
    }
+  },
+  {
+   "date": "2026-11-12",
+   "mean": 596625,
+   "n": 8,
+   "brokers": {
+    "IBK투자증권": 550000.0,
+    "SK증권": 640000.0,
+    "iM증권": 530000.0,
+    "대신증권": 540000.0,
+    "상상인증권": 700000.0,
+    "유안타증권": 643000.0,
+    "유진투자증권": 610000.0,
+    "하나증권": 560000.0
+   }
   }
  ],
  "tp_consensus_changes": [
@@ -566,6 +621,7 @@
   "2026-10-29:329180:tp_down:SK증권",
   "2026-10-29:329180:tp_accel:SK증권",
   "2026-10-29:329180:tp_down:하나증권",
+  "2026-11-12:329180:tp_down:유안타증권",
   "2026-10-14:329180:tp_cons_down:",
   "2026-10-29:329180:tp_cons_down:",
   "2026-10-29:329180:wave_down:"

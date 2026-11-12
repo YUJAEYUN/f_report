@@ -117,6 +117,15 @@
    "report_id": "hk_653930",
    "tp_status": "유지",
    "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 1800000.0,
+   "source": "report",
+   "report_id": "hk_654084",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -265,6 +274,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654084",
+   "title": "삼양식품(003230) 역대 최대 수준의 CAPA",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1800000.0,
+   "tp_status": "유지",
+   "price": 1211000.0,
+   "upside_pct": 48.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -404,6 +429,17 @@
   },
   {
    "date": "2026-11-09",
+   "mean": 1850000,
+   "n": 4,
+   "brokers": {
+    "LS증권": 1800000.0,
+    "유안타증권": 2000000.0,
+    "하나증권": 1800000.0,
+    "한화투자증권": 1800000.0
+   }
+  },
+  {
+   "date": "2026-11-12",
    "mean": 1850000,
    "n": 4,
    "brokers": {

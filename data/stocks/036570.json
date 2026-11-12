@@ -4,8 +4,11 @@
  "name": "NC",
  "industry": "게임",
  "brokers": [
+  "LS증권",
+  "SK증권",
   "메리츠증권",
   "미래에셋증권",
+  "유안타증권",
   "유진투자증권",
   "하나증권"
  ],
@@ -108,6 +111,60 @@
    "report_id": "hana_1289595",
    "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 310000.0,
+   "source": "report",
+   "report_id": "hk_654122",
+   "tp_status": "유지",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 300000.0,
+   "source": "report",
+   "report_id": "hk_654098",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 330000.0,
+   "source": "report",
+   "report_id": "hk_654078",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344175",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 340000.0,
+   "source": "report",
+   "report_id": "hk_654114",
+   "tp_status": "하향",
+   "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-12",
+   "rating": "매수",
+   "target_price": 380000.0,
+   "source": "report",
+   "report_id": "hk_654070",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
   },
   {
    "date": "2026-11-12",
@@ -315,6 +372,102 @@
     "consensus": 555.3,
     "gap_pct": -0.1
    }
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654122",
+   "title": "NC(036570) 아이온2 글로벌, 신작 기대감 유효",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 310000.0,
+   "tp_status": "유지",
+   "price": 209000.0,
+   "upside_pct": 48.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654098",
+   "title": "NC(036570) 실적은 견조, 주가의 열쇠는 다음 대작",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 300000.0,
+   "tp_status": "하향",
+   "price": 209000.0,
+   "upside_pct": 43.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654078",
+   "title": "NC(036570) 2027년 NC의 산업 구분이 달라질 수도",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 330000.0,
+   "tp_status": null,
+   "price": 209000.0,
+   "upside_pct": 57.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "mirae_2344175",
+   "title": "NC (036570/매수): 기존작 안정화 속 신성장 동력 준비",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654114",
+   "title": "NC(036570) 다음은 신작 가시성",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 340000.0,
+   "tp_status": "하향",
+   "price": 209000.0,
+   "upside_pct": 62.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 370000.0
+  },
+  {
+   "date": "2026-11-12",
+   "report_id": "hk_654070",
+   "title": "NC(036570) 2027년 매출액 가이던스 3.2~3.4조원 제시",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 380000.0,
+   "tp_status": "유지",
+   "price": 209000.0,
+   "upside_pct": 81.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -382,6 +535,20 @@
    "tp_speed30": -23.0,
    "report_id": "hana_1289595",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-12",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 370000.0,
+   "tp_to": 340000.0,
+   "tp_pct": -8.1,
+   "tp_speed30": null,
+   "report_id": "hk_654114",
+   "implied_prev": true,
+   "broker": "유안타증권"
   }
  ],
  "estimate_revisions": [
@@ -970,11 +1137,13 @@
   },
   {
    "date": "2026-11-12",
-   "mean": 332500,
-   "n": 4,
+   "mean": 330000,
+   "n": 6,
    "brokers": {
+    "LS증권": 310000.0,
+    "SK증권": 300000.0,
     "메리츠증권": 330000.0,
-    "미래에셋증권": 300000.0,
+    "유안타증권": 340000.0,
     "유진투자증권": 380000.0,
     "하나증권": 320000.0
    }
