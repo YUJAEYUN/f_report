@@ -672,7 +672,7 @@
   "stock_id": "170900",
   "code": "170900",
   "name": "동아에스티",
-  "industry": null,
+  "industry": "제약·바이오",
   "report_id": "hk_653402",
   "headline": "상상인증권 목표주가 60,000원 → 50,000원 (-16.7%)",
   "data": {
@@ -788,7 +788,7 @@
   "stock_id": "170900",
   "code": "170900",
   "name": "동아에스티",
-  "industry": null,
+  "industry": "제약·바이오",
   "report_id": "hk_653382",
   "headline": "유안타증권 목표주가 60,000원 → 51,000원 (-15.0%)",
   "data": {

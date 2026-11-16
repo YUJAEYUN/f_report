@@ -2,7 +2,7 @@
  "id": "011790",
  "code": "011790",
  "name": "SKC",
- "industry": null,
+ "industry": "2차전지",
  "brokers": [
   "SK증권"
  ],
