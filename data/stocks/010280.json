@@ -1,0 +1,46 @@
+{
+ "id": "010280",
+ "code": "010280",
+ "name": "아이티센엔텍",
+ "industry": null,
+ "brokers": [
+  "유진투자증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-16",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_654202",
+   "tp_status": null,
+   "broker": "유진투자증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654202",
+   "title": "아이티센엔텍(010280) 3Q26 Review: 수익성 개선 지속. 절대적 저평가주",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 5540.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

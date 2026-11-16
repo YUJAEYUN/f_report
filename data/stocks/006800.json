@@ -4,6 +4,7 @@
  "name": "미래에셋증권",
  "industry": "증권",
  "brokers": [
+  "LS증권",
   "SK증권",
   "iM증권",
   "하나증권"
@@ -107,6 +108,15 @@
    "report_id": "hk_654176",
    "tp_status": "하향",
    "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 32000.0,
+   "source": "report",
+   "report_id": "hk_654249",
+   "tp_status": "하향",
+   "broker": "LS증권"
   }
  ],
  "notes": [
@@ -242,6 +252,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654249",
+   "title": "미래에셋증권(006800) 예상된 적자. 확장과 성장기조 유지",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 32000.0,
+   "tp_status": "하향",
+   "price": 21500.0,
+   "upside_pct": 48.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 35000.0
   }
  ],
  "rating_changes": [
@@ -323,6 +349,20 @@
    "tp_speed30": -6.1,
    "report_id": "hana_1288999",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-16",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 35000.0,
+   "tp_to": 32000.0,
+   "tp_pct": -8.6,
+   "tp_speed30": null,
+   "report_id": "hk_654249",
+   "implied_prev": true,
+   "broker": "LS증권"
   }
  ],
  "estimate_revisions": [],
@@ -526,6 +566,17 @@
    "mean": 39667,
    "n": 3,
    "brokers": {
+    "SK증권": 29000.0,
+    "iM증권": 23000.0,
+    "하나증권": 67000.0
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "mean": 37750,
+   "n": 4,
+   "brokers": {
+    "LS증권": 32000.0,
     "SK증권": 29000.0,
     "iM증권": 23000.0,
     "하나증권": 67000.0

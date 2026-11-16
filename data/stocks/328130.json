@@ -1,0 +1,46 @@
+{
+ "id": "328130",
+ "code": "328130",
+ "name": "루닛",
+ "industry": null,
+ "brokers": [
+  "미래에셋증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-16",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344280",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-16",
+   "report_id": "mirae_2344280",
+   "title": "루닛 (328130/Not Rated): 실적도, 밸류에이션도 핵심은 Lunit Scope",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

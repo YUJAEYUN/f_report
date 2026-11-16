@@ -1,0 +1,46 @@
+{
+ "id": "491000",
+ "code": "491000",
+ "name": "리브스메드",
+ "industry": null,
+ "brokers": [
+  "미래에셋증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-16",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344307",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-16",
+   "report_id": "mirae_2344307",
+   "title": "리브스메드 (491000/Not Rated): 차세대 제품 출시를 앞두고 숨 돌리기",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

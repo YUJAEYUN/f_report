@@ -4,8 +4,10 @@
  "name": "현대해상",
  "industry": "보험",
  "brokers": [
+  "LS증권",
   "iM증권",
-  "하나증권"
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -52,6 +54,33 @@
    "report_id": "hk_653023",
    "tp_status": null,
    "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 56000.0,
+   "source": "report",
+   "report_id": "hk_654247",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 58000.0,
+   "source": "report",
+   "report_id": "hk_654277",
+   "tp_status": "유지",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 53000.0,
+   "source": "report",
+   "report_id": "hk_654234",
+   "tp_status": "하향",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [
@@ -74,6 +103,54 @@
    "tp_status": null,
    "price": null,
    "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654247",
+   "title": "현대해상(001450) 투자손익 부진하나 보험손익 개선추세 지속",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 56000.0,
+   "tp_status": "하향",
+   "price": 36250.0,
+   "upside_pct": 54.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654277",
+   "title": "현대해상(001450) 연초에 나올 실손/자동차 요율에 주목",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 58000.0,
+   "tp_status": "유지",
+   "price": 36200.0,
+   "upside_pct": 60.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654234",
+   "title": "현대해상(001450) 손익 변동성을 축소할 필요",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 53000.0,
+   "tp_status": "하향",
+   "price": 36200.0,
+   "upside_pct": 46.4,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -150,6 +227,17 @@
    "brokers": {
     "iM증권": 58000.0,
     "하나증권": 57000.0
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "mean": 56000,
+   "n": 4,
+   "brokers": {
+    "LS증권": 56000.0,
+    "iM증권": 58000.0,
+    "하나증권": 57000.0,
+    "한화투자증권": 53000.0
    }
   }
  ],

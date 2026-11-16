@@ -19,5 +19,32 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "mirae_2344308",
-  "text_chars": 922
+  "text_chars": 922,
+  "summary": {
+    "one_liner": "미래에셋증권의 2027년 2차전지/ESS 전망 리포트로, 제목상 ESS를 중심으로 한 업황 변곡점을 제시하나 제공된 본문에는 구체 내용이 추출되지 않음",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "제목은 '지나고 보면 샀어야 할 큰 변곡점'으로 2027년 2차전지/ESS 업황이 전환점에 있다는 관점을 시사",
+      "커버 기업은 삼성SDI, LG에너지솔루션, 엘앤에프, 포스코퓨처엠, 더블유씨피, 롯데에너지머티리얼즈",
+      "본문은 목차 기호와 기업 목록만 추출되어 수치·논거·투자의견은 확인 불가"
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "본문에서 비교 기준이나 구체적 변화 내용을 확인할 수 없으며, 제목이 강조하는 것은 2027년을 2차전지/ESS의 큰 변곡점으로 보는 시각이라는 점뿐이다.",
+    "implication": "제목과 커버 기업 구성으로 볼 때 ESS를 매개로 셀·양극재·소재 밸류체인 전반을 아우르는 산업 전망으로 보이나, 근거가 되는 논리는 추출된 본문에 없어 추가 해석은 보류한다.",
+    "watch_points": [
+      "PDF 본문 재추출 후 ESS 수요 전망과 기업별 투자의견·목표주가 확인"
+    ]
+  },
+  "summarized_at": "2026-11-17T04:11:34+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [
+    "ESS 수요"
+  ],
+  "tagged_at": "2026-11-17T04:11:34+09:00"
 }

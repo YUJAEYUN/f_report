@@ -52,6 +52,24 @@
    "report_id": "hk_652959",
    "tp_status": "신규",
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 16500.0,
+   "source": "report",
+   "report_id": "hana_1289660",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-17",
+   "rating": "매수",
+   "target_price": 16500.0,
+   "source": "table",
+   "report_id": "hana_1289660",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
@@ -77,6 +95,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hana_1289660",
+   "title": "서부T&D(006730.KS/매수): 1회성 세금 이슈로 부진하지만 4분기 재차 사상 최대",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 16500.0,
+   "tp_status": "하향",
+   "price": 9850.0,
+   "upside_pct": 67.5,
+   "estimates": {
+    "2026": {
+     "revenue": 320.8,
+     "op": 79.2,
+     "net": 49.4,
+     "eps": 765.0
+    },
+    "2027": {
+     "revenue": 345.4,
+     "op": 102.4,
+     "net": 72.2,
+     "eps": 1123.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 331.4,
+     "op": 91.4,
+     "net": 66.4,
+     "eps": 790.0
+    },
+    "2027": {
+     "revenue": 383.7,
+     "op": 109.6,
+     "net": 81.4,
+     "eps": 1005.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 79.2,
+    "consensus": 91.4,
+    "gap_pct": -13.3
+   }
   }
  ],
  "rating_changes": [
@@ -119,6 +186,19 @@
    "tp_speed30": -3.3,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-16",
+   "prev_date": "2026-07-02",
+   "days": 137,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 18000.0,
+   "tp_to": 16500.0,
+   "tp_pct": -8.3,
+   "tp_speed30": -1.8,
+   "report_id": "hana_1289660",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
@@ -156,9 +236,40 @@
     "유진투자증권": 19000.0,
     "하나증권": 18000.0
    }
+  },
+  {
+   "date": "2026-11-16",
+   "mean": 17750,
+   "n": 2,
+   "brokers": {
+    "유진투자증권": 19000.0,
+    "하나증권": 16500.0
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "mean": 17750,
+   "n": 2,
+   "brokers": {
+    "유진투자증권": 19000.0,
+    "하나증권": 16500.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-16",
+   "from": 18500,
+   "to": 17750,
+   "pct": -4.1,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289660",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
  "events": []
 }

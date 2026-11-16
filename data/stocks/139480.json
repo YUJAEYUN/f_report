@@ -5,6 +5,7 @@
  "industry": "유통·소비재",
  "brokers": [
   "LS증권",
+  "대신증권",
   "하나증권"
  ],
  "timeline": [
@@ -88,6 +89,15 @@
    "report_id": "hana_1289602",
    "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 84000.0,
+   "source": "report",
+   "report_id": "hk_654216",
+   "tp_status": "하향",
+   "broker": "대신증권"
   }
  ],
  "notes": [
@@ -162,6 +172,22 @@
     "consensus": 388.6,
     "gap_pct": -41.0
    }
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654216",
+   "title": "이마트(139480) 자회사 부진 해결 방법 찾아야",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 84000.0,
+   "tp_status": "하향",
+   "price": 63600.0,
+   "upside_pct": 32.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -315,6 +341,16 @@
    "n": 2,
    "brokers": {
     "LS증권": 86000.0,
+    "하나증권": 70000.0
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "mean": 80000,
+   "n": 3,
+   "brokers": {
+    "LS증권": 86000.0,
+    "대신증권": 84000.0,
     "하나증권": 70000.0
    }
   }

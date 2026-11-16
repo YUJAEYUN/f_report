@@ -25,6 +25,24 @@
    "report_id": "hk_652668",
    "tp_status": null,
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 84000.0,
+   "source": "report",
+   "report_id": "hk_654279",
+   "tp_status": "유지",
+   "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 87000.0,
+   "source": "report",
+   "report_id": "hk_654221",
+   "tp_status": null,
+   "broker": "메리츠증권"
   }
  ],
  "notes": [],
@@ -60,9 +78,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654279",
+   "title": "인텍플러스(064290) 좋은 업황, 건실한 수주잔고",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 84000.0,
+   "tp_status": "유지",
+   "price": 54700.0,
+   "upside_pct": 53.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654221",
+   "title": "인텍플러스(064290) 실적도 수주도 순항 중",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 87000.0,
+   "tp_status": null,
+   "price": 54700.0,
+   "upside_pct": 59.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-11-16",
+   "prev_date": "2026-10-02",
+   "days": 45,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 95000.0,
+   "tp_to": 87000.0,
+   "tp_pct": -8.4,
+   "tp_speed30": -5.6,
+   "report_id": "hk_654221",
+   "broker": "메리츠증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
@@ -82,9 +146,31 @@
     "iM증권": 84000.0,
     "메리츠증권": 95000.0
    }
+  },
+  {
+   "date": "2026-11-16",
+   "mean": 85500,
+   "n": 2,
+   "brokers": {
+    "iM증권": 84000.0,
+    "메리츠증권": 87000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-16",
+   "from": 89500,
+   "to": 85500,
+   "pct": -4.5,
+   "n": 2,
+   "brokers": [
+    "메리츠증권"
+   ],
+   "report_id": "hk_654221",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
  "events": []
 }

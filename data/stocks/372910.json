@@ -1,0 +1,46 @@
+{
+ "id": "372910",
+ "code": "372910",
+ "name": "한컴라이프케어",
+ "industry": null,
+ "brokers": [
+  "유진투자증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-16",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_654209",
+   "tp_status": null,
+   "broker": "유진투자증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654209",
+   "title": "한컴라이프케어(372910) 3Q26 Review: 여전히 방산 사업이 성장을 견인",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 1615.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

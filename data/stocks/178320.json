@@ -4,7 +4,8 @@
  "name": "서진시스템",
  "industry": "기계·전력기기",
  "brokers": [
-  "SK증권"
+  "SK증권",
+  "iM증권"
  ],
  "timeline": [
   {
@@ -15,6 +16,15 @@
    "report_id": "hk_652556",
    "tp_status": "상향",
    "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 65000.0,
+   "source": "report",
+   "report_id": "hk_654280",
+   "tp_status": "유지",
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -34,6 +44,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 55000.0
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654280",
+   "title": "서진시스템(178320) 적자사업부 정리에 따른 빅배스 반영",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 65000.0,
+   "tp_status": "유지",
+   "price": 31700.0,
+   "upside_pct": 105.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -61,6 +87,15 @@
    "n": 1,
    "brokers": {
     "SK증권": 70000.0
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "mean": 67500,
+   "n": 2,
+   "brokers": {
+    "SK증권": 70000.0,
+    "iM증권": 65000.0
    }
   }
  ],

@@ -25,6 +25,15 @@
    "report_id": "hk_653918",
    "tp_status": "하향",
    "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344279",
+   "tp_status": null,
+   "broker": "미래에셋증권"
   }
  ],
  "notes": [],
@@ -60,6 +69,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 30000.0
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "mirae_2344279",
+   "title": "씨어스 (458870/Not Rated): 분골쇄신해서 밑바닥부터 다시 시작하자",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -83,6 +108,14 @@
  "tp_consensus": [
   {
    "date": "2026-11-09",
+   "mean": 19000,
+   "n": 1,
+   "brokers": {
+    "IBK투자증권": 19000.0
+   }
+  },
+  {
+   "date": "2026-11-16",
    "mean": 19000,
    "n": 1,
    "brokers": {

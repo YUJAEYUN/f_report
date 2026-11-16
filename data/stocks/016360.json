@@ -4,6 +4,7 @@
  "name": "삼성증권",
  "industry": "증권",
  "brokers": [
+  "LS증권",
   "SK증권",
   "iM증권",
   "메리츠증권",
@@ -108,6 +109,15 @@
    "report_id": "hk_654149",
    "tp_status": null,
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 115000.0,
+   "source": "report",
+   "report_id": "hk_654250",
+   "tp_status": "유지",
+   "broker": "LS증권"
   }
  ],
  "notes": [
@@ -209,6 +219,22 @@
    "tp_status": null,
    "price": 71400.0,
    "upside_pct": 54.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654250",
+   "title": "삼성증권(016360) 이익방어 역량 부각",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 115000.0,
+   "tp_status": "유지",
+   "price": 74500.0,
+   "upside_pct": 54.4,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -367,6 +393,18 @@
    "mean": 120500,
    "n": 4,
    "brokers": {
+    "SK증권": 105000.0,
+    "iM증권": 99000.0,
+    "메리츠증권": 110000.0,
+    "하나증권": 168000.0
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "mean": 119400,
+   "n": 5,
+   "brokers": {
+    "LS증권": 115000.0,
     "SK증권": 105000.0,
     "iM증권": 99000.0,
     "메리츠증권": 110000.0,

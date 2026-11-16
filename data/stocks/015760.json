@@ -5,11 +5,13 @@
  "industry": "유틸리티",
  "brokers": [
   "IBK투자증권",
+  "LS증권",
   "SK증권",
   "iM증권",
   "대신증권",
   "메리츠증권",
   "유안타증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -201,6 +203,24 @@
    "report_id": "hk_654169",
    "tp_status": "하향",
    "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 38000.0,
+   "source": "report",
+   "report_id": "hk_654246",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "report",
+   "report_id": "hk_654203",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -496,6 +516,38 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 47000.0
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654246",
+   "title": "한국전력(015760) 지독한 전쟁 영향. 그러나, 중장기 가치 상승 방향성은 유효",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 38000.0,
+   "tp_status": "하향",
+   "price": 27650.0,
+   "upside_pct": 37.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654203",
+   "title": "한국전력(015760) AI투자를 위한 요금 인상과 시장 개방 명분",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 40000.0,
+   "tp_status": "하향",
+   "price": 27650.0,
+   "upside_pct": 44.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 64000.0
   }
  ],
  "rating_changes": [
@@ -656,6 +708,20 @@
    "report_id": "hk_654169",
    "implied_prev": true,
    "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-16",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 64000.0,
+   "tp_to": 40000.0,
+   "tp_pct": -37.5,
+   "tp_speed30": null,
+   "report_id": "hk_654203",
+   "implied_prev": true,
+   "broker": "유진투자증권"
   }
  ],
  "estimate_revisions": [
@@ -1258,16 +1324,46 @@
     "유안타증권": 43000.0,
     "하나증권": 40000.0
    }
+  },
+  {
+   "date": "2026-11-16",
+   "mean": 39556,
+   "n": 9,
+   "brokers": {
+    "IBK투자증권": 39000.0,
+    "LS증권": 38000.0,
+    "SK증권": 30000.0,
+    "iM증권": 40000.0,
+    "대신증권": 40000.0,
+    "메리츠증권": 46000.0,
+    "유안타증권": 43000.0,
+    "유진투자증권": 40000.0,
+    "하나증권": 40000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
- "broker_waves": [],
+ "broker_waves": [
+  {
+   "date": "2026-11-16",
+   "direction": -1,
+   "count": 3,
+   "brokers": [
+    "IBK투자증권",
+    "유안타증권",
+    "유진투자증권"
+   ],
+   "report_id": "hk_654203"
+  }
+ ],
  "events": [
   "2026-10-11:015760:tp_streak:하나증권",
   "2026-11-13:015760:tp_down:IBK투자증권",
+  "2026-11-16:015760:tp_down:유진투자증권",
   "2026-11-12:015760:est_down:하나증권2027eps",
   "2026-11-02:015760:cons_down:하나증권2027eps",
   "2026-11-12:015760:cons_down:하나증권2027eps",
-  "2026-11-12:015760:gap_below:하나증권"
+  "2026-11-12:015760:gap_below:하나증권",
+  "2026-11-16:015760:wave_down:"
  ]
 }

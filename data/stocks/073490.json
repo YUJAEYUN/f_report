@@ -4,6 +4,7 @@
  "name": "LIG아큐버",
  "industry": "통신장비",
  "brokers": [
+  "미래에셋증권",
   "하나증권"
  ],
  "timeline": [
@@ -87,6 +88,24 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344270",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 80000.0,
+   "source": "report",
+   "report_id": "hana_1289659",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [
@@ -116,7 +135,73 @@
    "broker": "하나증권"
   }
  ],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-11-16",
+   "report_id": "mirae_2344270",
+   "title": "LIG아큐버 (073490/매수): SpaceX향 최적화 장비 공급 확대 기대",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hana_1289659",
+   "title": "LIG아큐버(073490.KQ/매수): 벌써 좋아지면 내년엔 얼마를 기대할 수 있을까",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 80000.0,
+   "tp_status": null,
+   "price": 31400.0,
+   "upside_pct": 154.8,
+   "estimates": {
+    "2026": {
+     "revenue": 262.6,
+     "op": 23.7,
+     "net": 19.2,
+     "eps": 2521.0
+    },
+    "2027": {
+     "revenue": 311.7,
+     "op": 35.7,
+     "net": 32.2,
+     "eps": 4237.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 241.8,
+     "op": 21.2,
+     "net": 13.2,
+     "eps": 2288.0
+    },
+    "2027": {
+     "revenue": 299.6,
+     "op": 36.2,
+     "net": 22.6,
+     "eps": 3937.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 23.7,
+    "consensus": 21.2,
+    "gap_pct": 11.8
+   }
+  }
+ ],
  "rating_changes": [
   {
    "date": "2024-10-15",
@@ -242,6 +327,14 @@
   },
   {
    "date": "2026-04-21",
+   "mean": 80000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 80000.0
+   }
+  },
+  {
+   "date": "2026-11-16",
    "mean": 80000,
    "n": 1,
    "brokers": {

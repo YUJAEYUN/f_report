@@ -1,0 +1,55 @@
+{
+ "id": "009900",
+ "code": "009900",
+ "name": "명신산업",
+ "industry": null,
+ "brokers": [
+  "대신증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 11700.0,
+   "source": "report",
+   "report_id": "hk_654214",
+   "tp_status": "하향",
+   "broker": "대신증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654214",
+   "title": "명신산업(009900) 그때그때 대응 필요",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 11700.0,
+   "tp_status": "하향",
+   "price": 7250.0,
+   "upside_pct": 61.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-11-16",
+   "mean": 11700,
+   "n": 1,
+   "brokers": {
+    "대신증권": 11700.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

@@ -6,7 +6,9 @@
  "brokers": [
   "iM증권",
   "메리츠증권",
-  "하나증권"
+  "유진투자증권",
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -116,6 +118,33 @@
    "report_id": "hk_653260",
    "tp_status": "하향",
    "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 17000.0,
+   "source": "report",
+   "report_id": "hk_654205",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 16000.0,
+   "source": "report",
+   "report_id": "hana_1289661",
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 16000.0,
+   "source": "report",
+   "report_id": "hk_654235",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -148,6 +177,87 @@
    "tp_status": "하향",
    "price": 10720.0,
    "upside_pct": 58.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654205",
+   "title": "롯데관광개발(032350) 좋았던 기억이 있으면 다시 오니까",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 17000.0,
+   "tp_status": "유지",
+   "price": 9990.0,
+   "upside_pct": 70.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hana_1289661",
+   "title": "롯데관광개발(032350.KS/매수): 아쉬운 실적이나 2027년을 보면 여전히 고성장 구간",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 16000.0,
+   "tp_status": null,
+   "price": 9810.0,
+   "upside_pct": 63.1,
+   "estimates": {
+    "2026": {
+     "revenue": 735.8,
+     "op": 159.4,
+     "net": 15.7,
+     "eps": 198.0
+    },
+    "2027": {
+     "revenue": 823.1,
+     "op": 203.0,
+     "net": 90.3,
+     "eps": 1133.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 748.5,
+     "op": 174.6,
+     "net": 38.2,
+     "eps": 479.0
+    },
+    "2027": {
+     "revenue": 829.6,
+     "op": 208.6,
+     "net": 97.9,
+     "eps": 1228.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 159.4,
+    "consensus": 174.6,
+    "gap_pct": -8.7
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654235",
+   "title": "롯데관광개발(032350) 3분기는 아쉬웠지만",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 16000.0,
+   "tp_status": "유지",
+   "price": 9990.0,
+   "upside_pct": 60.2,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -373,6 +483,18 @@
     "iM증권": 17000.0,
     "메리츠증권": 25000.0,
     "하나증권": 16000.0
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "mean": 18200,
+   "n": 5,
+   "brokers": {
+    "iM증권": 17000.0,
+    "메리츠증권": 25000.0,
+    "유진투자증권": 17000.0,
+    "하나증권": 16000.0,
+    "한화투자증권": 16000.0
    }
   }
  ],

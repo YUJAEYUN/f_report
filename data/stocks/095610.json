@@ -4,6 +4,7 @@
  "name": "테스",
  "industry": "반도체",
  "brokers": [
+  "IBK투자증권",
   "SK증권",
   "하나증권"
  ],
@@ -97,6 +98,15 @@
    "report_id": "hk_654155",
    "tp_status": "하향",
    "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 160000.0,
+   "source": "report",
+   "report_id": "hk_654283",
+   "tp_status": "하향",
+   "broker": "IBK투자증권"
   }
  ],
  "notes": [],
@@ -165,6 +175,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654283",
+   "title": "테스(095610) 3Q26 Review: 여전히 가파른 성장세",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 160000.0,
+   "tp_status": "하향",
+   "price": 88200.0,
+   "upside_pct": 81.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 210000.0
   }
  ],
  "rating_changes": [
@@ -258,6 +284,20 @@
    "tp_speed30": -6.5,
    "report_id": "hana_1289593",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-16",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 210000.0,
+   "tp_to": 160000.0,
+   "tp_pct": -23.8,
+   "tp_speed30": null,
+   "report_id": "hk_654283",
+   "implied_prev": true,
+   "broker": "IBK투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -343,11 +383,22 @@
     "SK증권": 160000.0,
     "하나증권": 163000.0
    }
+  },
+  {
+   "date": "2026-11-16",
+   "mean": 161000,
+   "n": 3,
+   "brokers": {
+    "IBK투자증권": 160000.0,
+    "SK증권": 160000.0,
+    "하나증권": 163000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
  "events": [
-  "2026-11-11:095610:tp_down:하나증권"
+  "2026-11-11:095610:tp_down:하나증권",
+  "2026-11-16:095610:tp_down:IBK투자증권"
  ]
 }

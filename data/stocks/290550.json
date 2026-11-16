@@ -1,0 +1,98 @@
+{
+ "id": "290550",
+ "code": "290550",
+ "name": "디케이티",
+ "industry": "IT하드웨어·전자부품",
+ "brokers": [
+  "하나증권"
+ ],
+ "timeline": [
+  {
+   "date": "2024-11-01",
+   "rating": "매수",
+   "target_price": 15000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-11-09",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  }
+ ],
+ "notes": [
+  {
+   "date": "2025-11-07",
+   "note": "담당자 변경",
+   "broker": "하나증권"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-11-16",
+   "report_id": "hana_1289663",
+   "title": "디케이티(290550.KQ) : 비수기에 확인된 이익 체력, 2027년엔 휴머노이드까지",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 543.0,
+     "op": 34.0,
+     "net": 37.0,
+     "eps": 1843.0
+    },
+    "2027": {
+     "revenue": 744.0,
+     "op": 58.0,
+     "net": 54.0,
+     "eps": 2718.0
+    }
+   },
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2025-11-09",
+   "prev_date": "2024-11-01",
+   "days": 373,
+   "rating_from": "매수",
+   "rating_to": "NR",
+   "tp_from": 15000.0,
+   "tp_to": null,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null,
+   "note": "담당자 변경",
+   "broker": "하나증권"
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2024-11-01",
+   "mean": 15000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 15000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

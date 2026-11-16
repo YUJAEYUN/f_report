@@ -1,0 +1,55 @@
+{
+ "id": "039570",
+ "code": "039570",
+ "name": "HDC랩스",
+ "industry": "건설",
+ "brokers": [
+  "IBK투자증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 10500.0,
+   "source": "report",
+   "report_id": "hk_654282",
+   "tp_status": "유지",
+   "broker": "IBK투자증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-16",
+   "report_id": "hk_654282",
+   "title": "HDC랩스(039570) 배당 매력 부각",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 10500.0,
+   "tp_status": "유지",
+   "price": 7020.0,
+   "upside_pct": 49.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-11-16",
+   "mean": 10500,
+   "n": 1,
+   "brokers": {
+    "IBK투자증권": 10500.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

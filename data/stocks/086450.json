@@ -52,6 +52,15 @@
    "report_id": "hana_1289107",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-16",
+   "rating": "매수",
+   "target_price": 29000.0,
+   "source": "report",
+   "report_id": "hana_1289665",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -87,6 +96,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-16",
+   "report_id": "hana_1289665",
+   "title": "동국제약(086450.KQ/매수): 3Q26 Re: 견조한 화장품, 아쉬운 계열사",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 29000.0,
+   "tp_status": null,
+   "price": 23050.0,
+   "upside_pct": 25.8,
+   "estimates": {
+    "2026": {
+     "revenue": 1044.3,
+     "op": 102.2,
+     "net": 78.6,
+     "eps": 1737.0
+    },
+    "2027": {
+     "revenue": 1190.7,
+     "op": 124.3,
+     "net": 99.9,
+     "eps": 2208.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1043.2,
+     "op": 108.8,
+     "net": 88.7,
+     "eps": 1885.0
+    },
+    "2027": {
+     "revenue": 1187.2,
+     "op": 127.7,
+     "net": 100.8,
+     "eps": 2196.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 102.2,
+    "consensus": 108.8,
+    "gap_pct": -6.1
+   }
   }
  ],
  "rating_changes": [
@@ -148,6 +206,15 @@
   },
   {
    "date": "2026-10-14",
+   "mean": 29500,
+   "n": 2,
+   "brokers": {
+    "LS증권": 30000.0,
+    "하나증권": 29000.0
+   }
+  },
+  {
+   "date": "2026-11-16",
    "mean": 29500,
    "n": 2,
    "brokers": {
