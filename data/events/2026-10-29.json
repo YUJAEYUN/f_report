@@ -285,7 +285,7 @@
   "stock_id": "071970",
   "code": "071970",
   "name": "HD현대마린엔진",
-  "industry": null,
+  "industry": "조선",
   "report_id": "hk_653432",
   "headline": "SK증권 목표주가 110,000원 → 70,000원 (-36.4%)",
   "data": {
@@ -314,7 +314,7 @@
   "stock_id": "009540",
   "code": "009540",
   "name": "HD한국조선해양",
-  "industry": null,
+  "industry": "조선",
   "report_id": "hk_653442",
   "headline": "SK증권 목표주가 640,000원 → 410,000원 (-35.9%)",
   "data": {
@@ -458,7 +458,7 @@
   "stock_id": "071970",
   "code": "071970",
   "name": "HD현대마린엔진",
-  "industry": null,
+  "industry": "조선",
   "report_id": "hana_1289331",
   "headline": "하나증권 목표주가 120,000원 → 80,000원 (-33.3%)",
   "data": {
@@ -516,7 +516,7 @@
   "stock_id": "071970",
   "code": "071970",
   "name": "HD현대마린엔진",
-  "industry": null,
+  "industry": "조선",
   "report_id": "hk_653408",
   "headline": "상상인증권 목표주가 100,000원 → 70,000원 (-30.0%)",
   "data": {
@@ -1081,7 +1081,7 @@
   "stock_id": "009540",
   "code": "009540",
   "name": "HD한국조선해양",
-  "industry": null,
+  "industry": "조선",
   "report_id": "hana_1289331",
   "headline": "하나증권 목표주가 570,000원 → 480,000원 (-15.8%)",
   "data": {
@@ -1138,7 +1138,7 @@
   "stock_id": "009540",
   "code": "009540",
   "name": "HD한국조선해양",
-  "industry": null,
+  "industry": "조선",
   "report_id": "hk_653442",
   "headline": "30일 사이 증권사 3곳이 목표주가 하향 (SK증권, 유안타증권, 하나증권)",
   "data": {
@@ -1190,7 +1190,7 @@
   "stock_id": "071970",
   "code": "071970",
   "name": "HD현대마린엔진",
-  "industry": null,
+  "industry": "조선",
   "report_id": "hk_653432",
   "headline": "30일 사이 증권사 3곳이 목표주가 하향 (SK증권, 상상인증권, 하나증권)",
   "data": {
