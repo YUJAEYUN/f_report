@@ -4,6 +4,7 @@
  "name": "롯데웰푸드",
  "industry": "음식료·담배",
  "brokers": [
+  "LS증권",
   "유안타증권",
   "한화투자증권"
  ],
@@ -43,6 +44,15 @@
    "report_id": "hk_654085",
    "tp_status": "유지",
    "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 170000.0,
+   "source": "report",
+   "report_id": "hk_654197",
+   "tp_status": "유지",
+   "broker": "LS증권"
   }
  ],
  "notes": [],
@@ -110,6 +120,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654197",
+   "title": "롯데웰푸드(280360) 구조적인 이익 개선 지속",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 170000.0,
+   "tp_status": "유지",
+   "price": 128700.0,
+   "upside_pct": 32.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -138,6 +164,16 @@
    "mean": 182500,
    "n": 2,
    "brokers": {
+    "유안타증권": 165000.0,
+    "한화투자증권": 200000.0
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "mean": 178333,
+   "n": 3,
+   "brokers": {
+    "LS증권": 170000.0,
     "유안타증권": 165000.0,
     "한화투자증권": 200000.0
    }

@@ -78,10 +78,69 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 18000.0,
+   "source": "report",
+   "report_id": "hana_1289630",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-11-13",
+   "report_id": "hana_1289630",
+   "title": "SBS(034120.KS/매수): 실적 서프라이즈에 더해 오랜만의 업황 턴어라운드 전망",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 18000.0,
+   "tp_status": null,
+   "price": 11780.0,
+   "upside_pct": 52.8,
+   "estimates": {
+    "2026": {
+     "revenue": 1000.9,
+     "op": 5.9,
+     "net": 5.2,
+     "eps": 278.0
+    },
+    "2027": {
+     "revenue": 1038.6,
+     "op": 37.0,
+     "net": 37.7,
+     "eps": 2033.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1014.6,
+     "op": 3.1,
+     "net": -0.7,
+     "eps": -43.0
+    },
+    "2027": {
+     "revenue": 1075.4,
+     "op": 33.8,
+     "net": 36.2,
+     "eps": 1935.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2027",
+    "metric": "op",
+    "estimate": 37.0,
+    "consensus": 33.8,
+    "gap_pct": 9.5
+   }
+  }
+ ],
  "rating_changes": [
   {
    "date": "2024-11-13",
@@ -236,6 +295,14 @@
   },
   {
    "date": "2026-07-08",
+   "mean": 18000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 18000.0
+   }
+  },
+  {
+   "date": "2026-11-13",
    "mean": 18000,
    "n": 1,
    "brokers": {

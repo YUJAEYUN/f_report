@@ -25,7 +25,9 @@
    "prev_report_id": "hana_1289368",
    "broker": "하나증권"
   },
-  "title": "철강(Overweight) : 철강금속(Overweight): 저평가의 끝자락에 선 철강: 수입 규제 확대와 원가 하락이 겹"
+  "title": "철강(Overweight) : 철강금속(Overweight): 저평가의 끝자락에 선 철강: 수입 규제 확대와 원가 하락이 겹",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:015760:est_down:하나증권2027eps",
@@ -53,7 +55,9 @@
    "prev_report_id": "hana_1289498",
    "broker": "하나증권"
   },
-  "title": "한국전력(015760/KS): 아빠 찬스"
+  "title": "한국전력(015760/KS): 아빠 찬스",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:028050:cons_up:하나증권2026op",
@@ -81,7 +85,9 @@
    "prev_report_id": "hana_1289242",
    "broker": "하나증권"
   },
-  "title": "건설(Overweight) : 건설(Overweight): 2027년의 무대는 국내다!"
+  "title": "건설(Overweight) : 건설(Overweight): 2027년의 무대는 국내다!",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:066970:cons_down:하나증권2026eps",
@@ -109,7 +115,9 @@
    "prev_report_id": "hana_1289242",
    "broker": "하나증권"
   },
-  "title": "엘앤에프(066970.KS/ 매수) : 재고평가손실로 적자전환, 출하는 견조"
+  "title": "엘앤에프(066970.KS/ 매수) : 재고평가손실로 적자전환, 출하는 견조",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:066970:est_down:하나증권2027eps",
@@ -137,7 +145,9 @@
    "prev_report_id": "hana_1289242",
    "broker": "하나증권"
   },
-  "title": "엘앤에프(066970.KS/ 매수) : 재고평가손실로 적자전환, 출하는 견조"
+  "title": "엘앤에프(066970.KS/ 매수) : 재고평가손실로 적자전환, 출하는 견조",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:042660:tp_down:유안타증권",
@@ -164,7 +174,9 @@
    "implied_prev": true,
    "broker": "유안타증권"
   },
-  "title": "한화오션(042660) (FY25) 높은 산, (FY26) 깊은 골, 적막한 산하"
+  "title": "한화오션(042660) (FY25) 높은 산, (FY26) 깊은 골, 적막한 산하",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:000270:cons_down:하나증권2026eps",
@@ -192,7 +204,9 @@
    "prev_report_id": "hana_1289409",
    "broker": "하나증권"
   },
-  "title": "자동차(Overweight) : [2027년 전망] 자동차: 환율이 가져간 이익, 로봇과 자율주행이 돌려줄 가치"
+  "title": "자동차(Overweight) : [2027년 전망] 자동차: 환율이 가져간 이익, 로봇과 자율주행이 돌려줄 가치",
+  "reason": "원/달러 환율이 상반기 1,480원대에서 최근 1,340원대로 하락해 환 기여가 4분기부터 역풍으로 바뀐다고 봤다.",
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:005490:cons_down:하나증권2026eps",
@@ -220,7 +234,9 @@
    "prev_report_id": "hana_1289432",
    "broker": "하나증권"
   },
-  "title": "철강(Overweight) : 철강금속(Overweight): 저평가의 끝자락에 선 철강: 수입 규제 확대와 원가 하락이 겹"
+  "title": "철강(Overweight) : 철강금속(Overweight): 저평가의 끝자락에 선 철강: 수입 규제 확대와 원가 하락이 겹",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:139480:gap_below:하나증권",
@@ -266,7 +282,9 @@
    "report_id": "hana_1289612",
    "broker": "하나증권"
   },
-  "title": "HMM (011200.KS/매수): 3Q26 Re: 험난한 시장에서도 잘 견뎌요"
+  "title": "HMM (011200.KS/매수): 3Q26 Re: 험난한 시장에서도 잘 견뎌요",
+  "reason": "주가 하락에 따라 투자의견을 BUY로 상향하고 목표주가 24,000원은 유지했으며, 벌크선 비중 확대로 감익이 완화될 것으로 봤다.",
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:460860:est_up:하나증권2027eps",
@@ -294,7 +312,9 @@
    "prev_report_id": "hana_1289409",
    "broker": "하나증권"
   },
-  "title": "철강(Overweight) : 철강금속(Overweight): 저평가의 끝자락에 선 철강: 수입 규제 확대와 원가 하락이 겹"
+  "title": "철강(Overweight) : 철강금속(Overweight): 저평가의 끝자락에 선 철강: 수입 규제 확대와 원가 하락이 겹",
+  "reason": "수입규제 강화와 원/달러 환율 하락, 전기요금 인하 가능성에 후판 수익성 개선과 H형강 중심 봉형강 수요 회복이 더해져 실적이 개선될 것으로 봤다.",
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:228850:tp_up:유진투자증권",
@@ -321,7 +341,9 @@
    "implied_prev": true,
    "broker": "유진투자증권"
   },
-  "title": "레이언스(228850) 3Q26P Review: 산업용 및 VET 부문 성장 견인"
+  "title": "레이언스(228850) 3Q26P Review: 산업용 및 VET 부문 성장 견인",
+  "reason": "12개월 Forward 예상EPS 881원에 유사업체 평균 PER 11.3배를 적용해 목표주가를 산정했다고 밝혔다.",
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:120110:tp_down:IBK투자증권",
@@ -348,7 +370,9 @@
    "implied_prev": true,
    "broker": "IBK투자증권"
   },
-  "title": "코오롱인더(120110) 래깅 효과에 기대치 하회, 화학부문 체력은 확인"
+  "title": "코오롱인더(120110) 래깅 효과에 기대치 하회, 화학부문 체력은 확인",
+  "reason": "전방 CCL/피어 그룹 배수 하락을 반영해 목표주가를 하향 조정했다고 밝혔다.",
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:011200:gap_above:하나증권",
@@ -396,7 +420,9 @@
    "prev_report_id": "hana_1289409",
    "broker": "하나증권"
   },
-  "title": "자동차(Overweight) : [2027년 전망] 자동차: 환율이 가져간 이익, 로봇과 자율주행이 돌려줄 가치"
+  "title": "자동차(Overweight) : [2027년 전망] 자동차: 환율이 가져간 이익, 로봇과 자율주행이 돌려줄 가치",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:460860:cons_down:하나증권2026eps",
@@ -424,7 +450,9 @@
    "prev_report_id": "hana_1289409",
    "broker": "하나증권"
   },
-  "title": "철강(Overweight) : 철강금속(Overweight): 저평가의 끝자락에 선 철강: 수입 규제 확대와 원가 하락이 겹"
+  "title": "철강(Overweight) : 철강금속(Overweight): 저평가의 끝자락에 선 철강: 수입 규제 확대와 원가 하락이 겹",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:329180:tp_down:유안타증권",
@@ -451,7 +479,9 @@
    "implied_prev": true,
    "broker": "유안타증권"
   },
-  "title": "HD현대중공업(329180) 다재다능 드래프트 1순위, 높은 몸값이 증명"
+  "title": "HD현대중공업(329180) 다재다능 드래프트 1순위, 높은 몸값이 증명",
+  "reason": "상선부문 Target P/O multiple을 업종 공통으로 0.7x로 하향하고 MASGA 적정가치를 낮춰, 발전엔진 증설 가치를 반영했음에도 목표주가가 하락했다고 봤다.",
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:043150:tp_down:유진투자증권",
@@ -506,7 +536,9 @@
    "prev_report_id": "hana_1289498",
    "broker": "하나증권"
   },
-  "title": "한국전력(015760/KS): 아빠 찬스"
+  "title": "한국전력(015760/KS): 아빠 찬스",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:066970:gap_below:하나증권",
@@ -554,7 +586,9 @@
    "prev_report_id": "hana_1289368",
    "broker": "하나증권"
   },
-  "title": "자동차(Overweight) : [2027년 전망] 자동차: 환율이 가져간 이익, 로봇과 자율주행이 돌려줄 가치"
+  "title": "자동차(Overweight) : [2027년 전망] 자동차: 환율이 가져간 이익, 로봇과 자율주행이 돌려줄 가치",
+  "reason": "2027년 연평균 환율을 1,350원으로 가정해 2026년 대비 85원 하락하면서 현대차 영업이익이 1.7~2.1조원 줄어든다고 봤다.",
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:356860:tp_up:IBK투자증권",
@@ -656,7 +690,9 @@
    "prev_report_id": "hana_1289550",
    "broker": "하나증권"
   },
-  "title": "HMM (011200.KS/매수): 3Q26 Re: 험난한 시장에서도 잘 견뎌요"
+  "title": "HMM (011200.KS/매수): 3Q26 Re: 험난한 시장에서도 잘 견뎌요",
+  "reason": null,
+  "reason_checked": true
  },
  {
   "id": "2026-11-12:035420:est_down:하나증권2027eps",

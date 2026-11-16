@@ -5,6 +5,7 @@
  "industry": "인터넷·플랫폼",
  "brokers": [
   "LS증권",
+  "SK증권",
   "메리츠증권",
   "미래에셋증권",
   "유진투자증권",
@@ -191,6 +192,42 @@
    "report_id": "hana_1289613",
    "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 293000.0,
+   "source": "report",
+   "report_id": "hk_654195",
+   "tp_status": "유지",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 260000.0,
+   "source": "report",
+   "report_id": "hk_654159",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 270000.0,
+   "source": "report",
+   "report_id": "hk_654143",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 320000.0,
+   "source": "report",
+   "report_id": "hk_654133",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
   },
   {
    "date": "2026-11-13",
@@ -569,6 +606,70 @@
     "consensus": 2090.2,
     "gap_pct": -5.6
    }
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654195",
+   "title": "NAVER(035420) 아쉬운 본업, AI팩토리 가시화",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 293000.0,
+   "tp_status": "유지",
+   "price": 181800.0,
+   "upside_pct": 61.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654159",
+   "title": "NAVER(035420) 성장 잠재력은 확인, 수익성은 숙제",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 260000.0,
+   "tp_status": "하향",
+   "price": 181800.0,
+   "upside_pct": 43.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654143",
+   "title": "NAVER(035420) 겨울",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 270000.0,
+   "tp_status": null,
+   "price": 181800.0,
+   "upside_pct": 48.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654133",
+   "title": "NAVER(035420) 무거워진 AI팩토리의 어깨",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 320000.0,
+   "tp_status": "유지",
+   "price": 181800.0,
+   "upside_pct": 76.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -662,6 +763,19 @@
    "tp_speed30": -75.0,
    "report_id": "hana_1289613",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-13",
+   "prev_date": "2026-10-08",
+   "days": 36,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 330000.0,
+   "tp_to": 270000.0,
+   "tp_pct": -18.2,
+   "tp_speed30": -15.2,
+   "report_id": "hk_654143",
+   "broker": "메리츠증권"
   }
  ],
  "estimate_revisions": [
@@ -1429,11 +1543,12 @@
   },
   {
    "date": "2026-11-13",
-   "mean": 316600,
-   "n": 5,
+   "mean": 297167,
+   "n": 6,
    "brokers": {
     "LS증권": 293000.0,
-    "메리츠증권": 330000.0,
+    "SK증권": 260000.0,
+    "메리츠증권": 270000.0,
     "유진투자증권": 320000.0,
     "하나증권": 340000.0,
     "한화투자증권": 300000.0
@@ -1452,11 +1567,24 @@
    ],
    "report_id": "hana_1289613",
    "cum30": null
+  },
+  {
+   "date": "2026-11-13",
+   "from": 316600,
+   "to": 304600,
+   "pct": -3.8,
+   "n": 5,
+   "brokers": [
+    "메리츠증권"
+   ],
+   "report_id": "hk_654143",
+   "cum30": -6.9
   }
  ],
  "broker_waves": [],
  "events": [
   "2026-11-12:035420:tp_down:하나증권",
+  "2026-11-13:035420:tp_down:메리츠증권",
   "2026-11-12:035420:est_down:하나증권2027eps",
   "2026-10-20:035420:cons_down:하나증권2026eps",
   "2026-10-27:035420:cons_up:하나증권2026eps"

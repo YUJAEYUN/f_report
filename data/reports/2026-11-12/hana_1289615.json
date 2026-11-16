@@ -19,5 +19,43 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hana_1289615",
-  "text_chars": 7019
+  "text_chars": 7019,
+  "summary": {
+    "one_liner": "Hubbell은 3Q26 매출 18.7억달러(YoY +24.6%), 조정 영업이익 4.8억달러(YoY +33.0%)를 기록했으며, 데이터센터향 수요가 Electrical Solutions 중심으로 성장을 견인하고 있다.",
+    "ticker": "HUBB.US",
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "3Q26 매출 18억 7,300만달러(YoY +24.6%), 유기적 성장률 11%, 조정 영업이익률 25.5%(YoY +1.6%p)",
+      "Electrical Solutions 매출 8.5억달러(YoY +51.2%), 유기적 성장률 22%, 데이터센터향 매출 유기적 기준 80% 이상 증가 (6월 인수한 NSI 실적도 기여)",
+      "Utility Solutions는 계량기 부품 수급 차질과 변전소 제어실 증설 지연으로 유기적 성장률 5%에 그침",
+      "전사 매출 성장 가이던스 18~19%로 상향: Electrical Solutions 유기적 성장률 17~18%로 상향, Utility Solutions 6~7%로 소폭 하향",
+      "올해 누적 수주잔고 연초 대비 30% 이상 증가, 증설 투자는 2026년 분기당 약 2,500만달러에서 2027년 약 5,000만달러로 확대 전망"
+    ],
+    "risk_factors": [
+      "인플레이션으로 하반기 Utility Solutions 마진 부담 지속 전망 (가격 인상·생산성 개선으로 대응 계획)",
+      "계량기 부품 수급 차질 및 변전소 제어실 증설 지연에 따른 Utility Solutions 성장 둔화",
+      "2027년 컨센서스 기준 PER 22.3배, PBR 4.7배로 밸류에이션 부담"
+    ]
+  },
+  "insight": {
+    "change": "기존에는 북미 전력회사의 노후 설비 교체와 전력망 증설이 주요 성장 기반이었으나, 이번 분기에는 데이터센터향 수요가 Electrical Solutions의 성장을 이끌며 전사 가이던스 상향의 중심이 되었다. 반면 Utility Solutions는 유기적 성장률 5%에 그치고 가이던스도 소폭 하향되어 두 사업부의 성장 격차가 뚜렷해졌다.",
+    "implication": "데이터센터 수요가 전력 인프라 기자재 업체의 실적 성장 동력으로 자리 잡고 있으며, 이는 데이터센터 내부 연결 제품과 외부 송변전 설비 양쪽으로 수혜가 확산된다는 원문의 논리를 보여준다. 다만 수혜가 사업부별로 균일하지 않고, 공급망 차질과 프로젝트 지연이 Utility 쪽 성장의 제약 요인이라는 점도 함께 확인된다.",
+    "watch_points": [
+      "Electrical Solutions의 데이터센터향 매출 유기적 성장률 및 수주잔고 증가율 추이",
+      "Utility Solutions의 계량기 부품 수급 정상화와 변전소 제어실 증설 지연 해소 여부",
+      "분기당 2,500만달러에서 5,000만달러로 확대되는 증설 투자의 집행 진척과 마진 영향"
+    ]
+  },
+  "summarized_at": "2026-11-16T13:46:40+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "기계·전력기기"
+  ],
+  "themes": [
+    "AI 데이터센터 전력",
+    "AI 인프라 투자 사이클"
+  ],
+  "tagged_at": "2026-11-16T13:46:40+09:00"
 }

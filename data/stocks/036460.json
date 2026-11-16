@@ -4,7 +4,10 @@
  "name": "한국가스공사",
  "industry": "에너지·가스",
  "brokers": [
+  "LS증권",
   "대신증권",
+  "메리츠증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -70,6 +73,33 @@
    "report_id": "hana_1289616",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 47000.0,
+   "source": "report",
+   "report_id": "hk_654194",
+   "tp_status": "상향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 54000.0,
+   "source": "report",
+   "report_id": "hk_654144",
+   "tp_status": "유지",
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 59000.0,
+   "source": "report",
+   "report_id": "hk_654134",
+   "tp_status": "유지",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -285,6 +315,54 @@
     "consensus": 2627.2,
     "gap_pct": 12.6
    }
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654194",
+   "title": "한국가스공사(036460) 국내본업 미수금 악화 vs 해외사업 영업이익 호조, 해석은?",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 47000.0,
+   "tp_status": "상향",
+   "price": 38300.0,
+   "upside_pct": 22.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654144",
+   "title": "한국가스공사(036460) 3Q26 Review: 손익과 현금흐름의 괴리",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 54000.0,
+   "tp_status": "유지",
+   "price": 38300.0,
+   "upside_pct": 41.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654134",
+   "title": "한국가스공사(036460) 캐나다 LNG가 하드캐리",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 59000.0,
+   "tp_status": "유지",
+   "price": 36650.0,
+   "upside_pct": 61.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -821,6 +899,18 @@
    "n": 2,
    "brokers": {
     "대신증권": 45000.0,
+    "하나증권": 55000.0
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "mean": 52000,
+   "n": 5,
+   "brokers": {
+    "LS증권": 47000.0,
+    "대신증권": 45000.0,
+    "메리츠증권": 54000.0,
+    "유진투자증권": 59000.0,
     "하나증권": 55000.0
    }
   }

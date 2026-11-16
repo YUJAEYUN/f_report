@@ -72,6 +72,24 @@
    "report_id": "hk_654026",
    "tp_status": null,
    "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 750000.0,
+   "source": "report",
+   "report_id": "hk_654190",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 700000.0,
+   "source": "report",
+   "report_id": "hk_654165",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [
@@ -176,6 +194,38 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654190",
+   "title": "삼성화재(000810) 실적둔화에도 견조한 보유 CSM 순증",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 750000.0,
+   "tp_status": "하향",
+   "price": 525000.0,
+   "upside_pct": 42.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654165",
+   "title": "삼성화재(000810) 예상 수준의 실적",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 700000.0,
+   "tp_status": "유지",
+   "price": 525000.0,
+   "upside_pct": 33.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -205,6 +255,32 @@
    "tp_speed30": 4.8,
    "report_id": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-13",
+   "prev_date": "2026-11-11",
+   "days": 2,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 800000.0,
+   "tp_to": 750000.0,
+   "tp_pct": -6.2,
+   "tp_speed30": -93.0,
+   "report_id": "hk_654190",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-13",
+   "prev_date": "2026-11-11",
+   "days": 2,
+   "rating_from": "중립",
+   "rating_to": "매수",
+   "tp_from": 700000.0,
+   "tp_to": 700000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": "hk_654165",
+   "broker": "한화투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -261,9 +337,35 @@
     "하나증권": 785000.0,
     "한화투자증권": 700000.0
    }
+  },
+  {
+   "date": "2026-11-13",
+   "mean": 743750,
+   "n": 4,
+   "brokers": {
+    "LS증권": 750000.0,
+    "iM증권": 740000.0,
+    "하나증권": 785000.0,
+    "한화투자증권": 700000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-13",
+   "from": 756250,
+   "to": 743750,
+   "pct": -1.7,
+   "n": 4,
+   "brokers": [
+    "LS증권"
+   ],
+   "report_id": "hk_654190",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-13:000810:rating_up:한화투자증권"
+ ]
 }

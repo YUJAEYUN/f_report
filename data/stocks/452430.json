@@ -2,9 +2,10 @@
  "id": "452430",
  "code": "452430",
  "name": "사피엔반도체",
- "industry": "디스플레이",
+ "industry": "반도체",
  "brokers": [
   "메리츠증권",
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -25,6 +26,15 @@
    "report_id": "hk_652449",
    "tp_status": null,
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_654138",
+   "tp_status": null,
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -40,6 +50,22 @@
    "target_price": null,
    "tp_status": null,
    "price": 38650.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654138",
+   "title": "사피엔반도체(452430) 3Q26 Review: AR Glass 출시 + 광통신 신사업",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 24350.0,
    "upside_pct": null,
    "estimates": {},
    "consensus": {},

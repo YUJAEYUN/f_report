@@ -2,8 +2,9 @@
  "id": "439260",
  "code": "439260",
  "name": "대한조선",
- "industry": null,
+ "industry": "조선",
  "brokers": [
+  "LS증권",
   "미래에셋증권"
  ],
  "timeline": [
@@ -15,6 +16,15 @@
    "report_id": "mirae_2344178",
    "tp_status": null,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 55000.0,
+   "source": "report",
+   "report_id": "hk_654199",
+   "tp_status": null,
+   "broker": "LS증권"
   }
  ],
  "notes": [],
@@ -34,12 +44,37 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654199",
+   "title": "대한조선(439260) 3Q26 Review: 순항",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 55000.0,
+   "tp_status": null,
+   "price": 36900.0,
+   "upside_pct": 49.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
  "estimate_revisions": [],
  "consensus_changes": [],
- "tp_consensus": [],
+ "tp_consensus": [
+  {
+   "date": "2026-11-13",
+   "mean": 55000,
+   "n": 1,
+   "brokers": {
+    "LS증권": 55000.0
+   }
+  }
+ ],
  "tp_consensus_changes": [],
  "broker_waves": [],
  "events": []

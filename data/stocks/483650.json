@@ -61,6 +61,15 @@
    "report_id": "hk_653306",
    "tp_status": null,
    "broker": "상상인증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 185000.0,
+   "source": "report",
+   "report_id": "hana_1289619",
+   "tp_status": "하향",
+   "broker": "하나증권"
   }
  ],
  "notes": [
@@ -86,6 +95,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 260000.0
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hana_1289619",
+   "title": "달바글로벌(483650.KS/매수): 3Q26 Re: 견조한 실적, 주가는 바닥",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 185000.0,
+   "tp_status": "하향",
+   "price": 125600.0,
+   "upside_pct": 47.3,
+   "estimates": {
+    "2026": {
+     "revenue": 724.3,
+     "op": 164.4,
+     "net": 120.4,
+     "eps": 9670.0
+    },
+    "2027": {
+     "revenue": 923.1,
+     "op": 203.1,
+     "net": 154.1,
+     "eps": 12356.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 749.7,
+     "op": 167.2,
+     "net": 132.6,
+     "eps": 10636.0
+    },
+    "2027": {
+     "revenue": 983.9,
+     "op": 221.6,
+     "net": 174.0,
+     "eps": 13849.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 164.4,
+    "consensus": 167.2,
+    "gap_pct": -1.7
+   }
   }
  ],
  "rating_changes": [
@@ -155,6 +213,19 @@
    "report_id": "hk_653306",
    "implied_prev": true,
    "broker": "상상인증권"
+  },
+  {
+   "date": "2026-11-13",
+   "prev_date": "2026-10-14",
+   "days": 30,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 220000.0,
+   "tp_to": 185000.0,
+   "tp_pct": -15.9,
+   "tp_speed30": -15.9,
+   "report_id": "hana_1289619",
+   "broker": "하나증권"
   }
  ],
  "estimate_revisions": [],
@@ -200,11 +271,35 @@
     "상상인증권": 240000.0,
     "하나증권": 220000.0
    }
+  },
+  {
+   "date": "2026-11-13",
+   "mean": 212500,
+   "n": 2,
+   "brokers": {
+    "상상인증권": 240000.0,
+    "하나증권": 185000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-13",
+   "from": 230000,
+   "to": 212500,
+   "pct": -7.6,
+   "n": 2,
+   "brokers": [
+    "하나증권"
+   ],
+   "report_id": "hana_1289619",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
  "events": [
-  "2026-10-14:483650:tp_down:하나증권"
+  "2026-10-14:483650:tp_down:하나증권",
+  "2026-11-13:483650:tp_down:하나증권",
+  "2026-11-13:483650:tp_cons_down:"
  ]
 }

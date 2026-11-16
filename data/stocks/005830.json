@@ -4,8 +4,11 @@
  "name": "DB손해보험",
  "industry": "보험",
  "brokers": [
+  "LS증권",
   "iM증권",
-  "하나증권"
+  "메리츠증권",
+  "하나증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -34,6 +37,33 @@
    "report_id": "hk_653021",
    "tp_status": null,
    "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 230000.0,
+   "source": "report",
+   "report_id": "hk_654192",
+   "tp_status": null,
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 240000.0,
+   "source": "report",
+   "report_id": "hk_654146",
+   "tp_status": "유지",
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 247000.0,
+   "source": "report",
+   "report_id": "hk_654167",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [
@@ -56,6 +86,54 @@
    "tp_status": null,
    "price": null,
    "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654192",
+   "title": "DB손해보험(005830) 경상수익성 개선과 주주환원 확대 병행",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 230000.0,
+   "tp_status": null,
+   "price": 162800.0,
+   "upside_pct": 41.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654146",
+   "title": "DB손해보험(005830) 높은 보험손익 개선폭",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 240000.0,
+   "tp_status": "유지",
+   "price": 162500.0,
+   "upside_pct": 47.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654167",
+   "title": "DB손해보험(005830) 주요 투자포인트인 보험 수익성 개선을 재확인",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 247000.0,
+   "tp_status": "유지",
+   "price": 162500.0,
+   "upside_pct": 52.0,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -103,6 +181,17 @@
    "brokers": {
     "iM증권": 220000.0,
     "하나증권": 243000.0
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "mean": 234250,
+   "n": 4,
+   "brokers": {
+    "LS증권": 230000.0,
+    "iM증권": 220000.0,
+    "메리츠증권": 240000.0,
+    "한화투자증권": 247000.0
    }
   }
  ],

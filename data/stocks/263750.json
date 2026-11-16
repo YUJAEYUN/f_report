@@ -4,7 +4,8 @@
  "name": "펄어비스",
  "industry": "게임",
  "brokers": [
-  "메리츠증권"
+  "메리츠증권",
+  "유진투자증권"
  ],
  "timeline": [
   {
@@ -15,6 +16,24 @@
    "report_id": "hk_652752",
    "tp_status": null,
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 65000.0,
+   "source": "report",
+   "report_id": "hk_654142",
+   "tp_status": null,
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-13",
+   "rating": "매수",
+   "target_price": 35000.0,
+   "source": "report",
+   "report_id": "hk_654132",
+   "tp_status": "하향",
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -34,9 +53,69 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654142",
+   "title": "펄어비스(263750) 2028년 를 기다리며",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 65000.0,
+   "tp_status": null,
+   "price": 30550.0,
+   "upside_pct": 112.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-13",
+   "report_id": "hk_654132",
+   "title": "펄어비스(263750) 양호한 붉은사막 DLC 반응, 다음은?",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 35000.0,
+   "tp_status": "하향",
+   "price": 30550.0,
+   "upside_pct": 14.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 50000.0
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-11-13",
+   "prev_date": "2026-10-07",
+   "days": 37,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 81000.0,
+   "tp_to": 65000.0,
+   "tp_pct": -19.8,
+   "tp_speed30": -16.1,
+   "report_id": "hk_654142",
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-13",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 35000.0,
+   "tp_pct": -30.0,
+   "tp_speed30": null,
+   "report_id": "hk_654132",
+   "implied_prev": true,
+   "broker": "유진투자증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
@@ -47,9 +126,21 @@
    "brokers": {
     "메리츠증권": 81000.0
    }
+  },
+  {
+   "date": "2026-11-13",
+   "mean": 50000,
+   "n": 2,
+   "brokers": {
+    "메리츠증권": 65000.0,
+    "유진투자증권": 35000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-13:263750:tp_down:메리츠증권",
+  "2026-11-13:263750:tp_down:유진투자증권"
+ ]
 }
