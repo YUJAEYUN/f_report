@@ -4,7 +4,8 @@
  "name": "LS",
  "industry": "기계·전력기기",
  "brokers": [
-  "메리츠증권"
+  "메리츠증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -15,6 +16,24 @@
    "report_id": "hk_653374",
    "tp_status": "하향",
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-17",
+   "rating": "매수",
+   "target_price": 330000.0,
+   "source": "report",
+   "report_id": "hk_654302",
+   "tp_status": "하향",
+   "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-17",
+   "rating": "매수",
+   "target_price": 342000.0,
+   "source": "report",
+   "report_id": "hk_654307",
+   "tp_status": "하향",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -34,9 +53,55 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-17",
+   "report_id": "hk_654302",
+   "title": "LS(006260) 예상대로 눈높이에 부합했던 실적",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 330000.0,
+   "tp_status": "하향",
+   "price": 179900.0,
+   "upside_pct": 83.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-17",
+   "report_id": "hk_654307",
+   "title": "LS(006260) 3Q26 Review: TC가 끌어내린 제련, 전력이 지킨 연결 이익",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 342000.0,
+   "tp_status": "하향",
+   "price": 179900.0,
+   "upside_pct": 90.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-11-17",
+   "prev_date": "2026-10-28",
+   "days": 20,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 390000.0,
+   "tp_to": 330000.0,
+   "tp_pct": -15.4,
+   "tp_speed30": -23.1,
+   "report_id": "hk_654302",
+   "broker": "메리츠증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
@@ -47,9 +112,20 @@
    "brokers": {
     "메리츠증권": 390000.0
    }
+  },
+  {
+   "date": "2026-11-17",
+   "mean": 336000,
+   "n": 2,
+   "brokers": {
+    "메리츠증권": 330000.0,
+    "한화투자증권": 342000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-17:006260:tp_down:메리츠증권"
+ ]
 }

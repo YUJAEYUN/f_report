@@ -1,0 +1,55 @@
+{
+ "id": "053210",
+ "code": "053210",
+ "name": "스카이라이프",
+ "industry": "미디어·콘텐츠",
+ "brokers": [
+  "대신증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-17",
+   "rating": "중립",
+   "target_price": 4600.0,
+   "source": "report",
+   "report_id": "hk_654300",
+   "tp_status": "하향",
+   "broker": "대신증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-17",
+   "report_id": "hk_654300",
+   "title": "스카이라이프(053210) 빠른 성장과 마케팅 부담",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 4600.0,
+   "tp_status": "하향",
+   "price": 3750.0,
+   "upside_pct": 22.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-11-17",
+   "mean": 4600,
+   "n": 1,
+   "brokers": {
+    "대신증권": 4600.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

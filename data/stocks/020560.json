@@ -2,7 +2,7 @@
  "id": "020560",
  "code": "020560",
  "name": "아시아나항공",
- "industry": null,
+ "industry": "운송",
  "brokers": [
   "하나증권"
  ],

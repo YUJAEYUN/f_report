@@ -2,8 +2,9 @@
  "id": "214150",
  "code": "214150",
  "name": "클래시스",
- "industry": null,
+ "industry": "제약·바이오",
  "brokers": [
+  "IBK투자증권",
   "미래에셋증권",
   "유진투자증권"
  ],
@@ -25,6 +26,15 @@
    "report_id": "hk_654207",
    "tp_status": "하향",
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-17",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "report",
+   "report_id": "hk_654325",
+   "tp_status": "하향",
+   "broker": "IBK투자증권"
   }
  ],
  "notes": [],
@@ -60,6 +70,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 67000.0
+  },
+  {
+   "date": "2026-11-17",
+   "report_id": "hk_654325",
+   "title": "클래시스(214150) 실적 눈높이 낮추고 직영 안정화를 확인할 때",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 30000.0,
+   "tp_status": "하향",
+   "price": 23500.0,
+   "upside_pct": 27.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 62000.0
   }
  ],
  "rating_changes": [
@@ -76,6 +102,20 @@
    "report_id": "hk_654207",
    "implied_prev": true,
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-17",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 62000.0,
+   "tp_to": 30000.0,
+   "tp_pct": -51.6,
+   "tp_speed30": null,
+   "report_id": "hk_654325",
+   "implied_prev": true,
+   "broker": "IBK투자증권"
   }
  ],
  "estimate_revisions": [],
@@ -88,11 +128,21 @@
    "brokers": {
     "유진투자증권": 34000.0
    }
+  },
+  {
+   "date": "2026-11-17",
+   "mean": 32000,
+   "n": 2,
+   "brokers": {
+    "IBK투자증권": 30000.0,
+    "유진투자증권": 34000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
  "events": [
-  "2026-11-16:214150:tp_down:유진투자증권"
+  "2026-11-16:214150:tp_down:유진투자증권",
+  "2026-11-17:214150:tp_down:IBK투자증권"
  ]
 }

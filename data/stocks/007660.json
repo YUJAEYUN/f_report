@@ -4,10 +4,66 @@
  "name": "이수페타시스",
  "industry": "IT하드웨어·전자부품",
  "brokers": [
+  "SK증권",
   "메리츠증권",
-  "유안타증권"
+  "유안타증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2025-05-21",
+   "rating": "매수",
+   "target_price": 57000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-08-16",
+   "rating": "매수",
+   "target_price": 75000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-09-07",
+   "rating": "매수",
+   "target_price": 81000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-11-16",
+   "rating": "매수",
+   "target_price": 140000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-02-03",
+   "rating": "매수",
+   "target_price": 160000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-05-17",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-09-22",
    "rating": "매수",
@@ -25,6 +81,24 @@
    "report_id": "hk_652845",
    "tp_status": "유지",
    "broker": "유안타증권"
+  },
+  {
+   "date": "2026-11-17",
+   "rating": "매수",
+   "target_price": 125000.0,
+   "source": "report",
+   "report_id": "hk_654333",
+   "tp_status": "하향",
+   "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-17",
+   "rating": "매수",
+   "target_price": 150000.0,
+   "source": "report",
+   "report_id": "hana_1289671",
+   "tp_status": "하향",
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -60,31 +134,238 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-17",
+   "report_id": "hk_654333",
+   "title": "이수페타시스(007660) 판가 인상 싸이클에 증설 경쟁 본격화",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 125000.0,
+   "tp_status": "하향",
+   "price": 81500.0,
+   "upside_pct": 53.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-17",
+   "report_id": "hana_1289671",
+   "title": "이수페타시스 (007660.KS/매수): 다시 좀 올라갈 때가 됐다",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 150000.0,
+   "tp_status": "하향",
+   "price": 81500.0,
+   "upside_pct": 84.0,
+   "estimates": {
+    "2026": {
+     "revenue": 1586.2,
+     "op": 359.9,
+     "net": 266.7,
+     "eps": 3634.0
+    },
+    "2027": {
+     "revenue": 2348.7,
+     "op": 634.0,
+     "net": 487.6,
+     "eps": 6642.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1624.7,
+     "op": 349.3,
+     "net": 274.5,
+     "eps": 3740.0
+    },
+    "2027": {
+     "revenue": 2286.1,
+     "op": 540.6,
+     "net": 427.8,
+     "eps": 5828.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 359.9,
+    "consensus": 349.3,
+    "gap_pct": 3.0
+   }
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2025-08-16",
+   "prev_date": "2025-05-21",
+   "days": 87,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 57000.0,
+   "tp_to": 75000.0,
+   "tp_pct": 31.6,
+   "tp_speed30": 10.9,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-09-07",
+   "prev_date": "2025-08-16",
+   "days": 22,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 75000.0,
+   "tp_to": 81000.0,
+   "tp_pct": 8.0,
+   "tp_speed30": 10.9,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-11-16",
+   "prev_date": "2025-09-07",
+   "days": 70,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 81000.0,
+   "tp_to": 140000.0,
+   "tp_pct": 72.8,
+   "tp_speed30": 31.2,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-02-03",
+   "prev_date": "2025-11-16",
+   "days": 79,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 140000.0,
+   "tp_to": 160000.0,
+   "tp_pct": 14.3,
+   "tp_speed30": 5.4,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-05-17",
+   "prev_date": "2026-02-03",
+   "days": 103,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 160000.0,
+   "tp_to": 180000.0,
+   "tp_pct": 12.5,
+   "tp_speed30": 3.6,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-17",
+   "prev_date": "2026-05-17",
+   "days": 184,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 180000.0,
+   "tp_to": 150000.0,
+   "tp_pct": -16.7,
+   "tp_speed30": -2.7,
+   "report_id": "hana_1289671",
+   "broker": "하나증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
   {
-   "date": "2026-09-22",
-   "mean": 160000,
+   "date": "2025-05-21",
+   "mean": 57000,
    "n": 1,
    "brokers": {
-    "메리츠증권": 160000.0
+    "하나증권": 57000.0
    }
   },
   {
-   "date": "2026-10-08",
+   "date": "2025-08-16",
+   "mean": 75000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 75000.0
+   }
+  },
+  {
+   "date": "2025-09-07",
+   "mean": 81000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 81000.0
+   }
+  },
+  {
+   "date": "2025-11-16",
+   "mean": 140000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 140000.0
+   }
+  },
+  {
+   "date": "2026-02-03",
+   "mean": 160000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 160000.0
+   }
+  },
+  {
+   "date": "2026-05-17",
+   "mean": 180000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 180000.0
+   }
+  },
+  {
+   "date": "2026-09-22",
    "mean": 170000,
    "n": 2,
    "brokers": {
     "메리츠증권": 160000.0,
-    "유안타증권": 180000.0
+    "하나증권": 180000.0
+   }
+  },
+  {
+   "date": "2026-10-08",
+   "mean": 173333,
+   "n": 3,
+   "brokers": {
+    "메리츠증권": 160000.0,
+    "유안타증권": 180000.0,
+    "하나증권": 180000.0
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "mean": 153750,
+   "n": 4,
+   "brokers": {
+    "SK증권": 125000.0,
+    "메리츠증권": 160000.0,
+    "유안타증권": 180000.0,
+    "하나증권": 150000.0
    }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-17:007660:tp_down:하나증권"
+ ]
 }

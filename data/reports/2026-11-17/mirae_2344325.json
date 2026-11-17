@@ -19,5 +19,31 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "mirae_2344325",
-  "text_chars": 425
+  "text_chars": 425,
+  "summary": {
+    "one_liner": "미래에셋증권의 2027년 선진국 투자전략 아웃룩 리포트이나, 제공된 본문에는 목차(CONTENTS)의 글머리 기호만 있고 실질 내용이 없어 구체적 전망을 확인할 수 없음.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "제목은 '정책 변화를 헤쳐가는 길'로, 정책 변화를 2027년 선진국 투자전략의 핵심 주제로 제시",
+      "본문은 표지(OUTLOOK 2027, 선진국 투자전략)와 I~IV 장 구분용 목차 기호만 추출됨",
+      "지수·섹터 전망, 수치, 투자의견 등 구체적 내용은 본문에서 확인되지 않음"
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "본문에서 확인 가능한 비교 기준이나 변화 내용이 없음. 제목상 '정책 변화'가 강조될 뿐 구체적 내용은 추출되지 않음.",
+    "implication": "제목만으로는 정책 환경 변화를 선진국 투자전략의 주된 변수로 다루는 리포트로 해석되나, 세부 논리는 원문에서 확인되지 않아 추가 해석은 하지 않음.",
+    "watch_points": [
+      "PDF 텍스트 재추출 후 장별(I~IV) 본문 확보 여부",
+      "재추출 시 정책 변화의 구체적 내용과 전망 수치 확인"
+    ]
+  },
+  "summarized_at": "2026-11-18T03:08:08+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [],
+  "tagged_at": "2026-11-18T03:08:08+09:00"
 }

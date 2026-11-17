@@ -1,0 +1,219 @@
+{
+ "id": "010780",
+ "code": "010780",
+ "name": "아이에스동서",
+ "industry": "건설",
+ "brokers": [
+  "LS증권",
+  "하나증권"
+ ],
+ "timeline": [
+  {
+   "date": "2025-06-05",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-03-11",
+   "rating": "매수",
+   "target_price": 50000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-08-14",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-17",
+   "rating": "매수",
+   "target_price": 20000.0,
+   "source": "report",
+   "report_id": "hk_654314",
+   "tp_status": "하향",
+   "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-17",
+   "rating": "매수",
+   "target_price": 19000.0,
+   "source": "report",
+   "report_id": "hana_1289679",
+   "tp_status": "하향",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-18",
+   "rating": "매수",
+   "target_price": 19000.0,
+   "source": "table",
+   "report_id": "hana_1289679",
+   "tp_status": null,
+   "broker": "하나증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-17",
+   "report_id": "hk_654314",
+   "title": "아이에스동서(010780) 시간이 필요",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 20000.0,
+   "tp_status": "하향",
+   "price": 14000.0,
+   "upside_pct": 42.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-17",
+   "report_id": "hana_1289679",
+   "title": "아이에스동서(010780.KS/매수): 일회성 비용이 나타난 3분기, 건설 반등 시점 모색",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 19000.0,
+   "tp_status": "하향",
+   "price": 13480.0,
+   "upside_pct": 40.9,
+   "estimates": {
+    "2026": {
+     "revenue": 1093.5,
+     "op": 139.5,
+     "net": 143.8,
+     "eps": 4791.0
+    },
+    "2027": {
+     "revenue": 1156.0,
+     "op": 120.8,
+     "net": 49.6,
+     "eps": 1669.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1152.9,
+     "op": 175.0,
+     "net": 175.9,
+     "eps": 5720.0
+    },
+    "2027": {
+     "revenue": 1386.5,
+     "op": 166.7,
+     "net": 89.5,
+     "eps": 2614.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 139.5,
+    "consensus": 175.0,
+    "gap_pct": -20.3
+   }
+  }
+ ],
+ "rating_changes": [
+  {
+   "date": "2026-03-11",
+   "prev_date": "2025-06-05",
+   "days": 279,
+   "rating_from": "NR",
+   "rating_to": "매수",
+   "tp_from": null,
+   "tp_to": 50000.0,
+   "tp_pct": null,
+   "tp_speed30": null,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-08-14",
+   "prev_date": "2026-03-11",
+   "days": 156,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 50000.0,
+   "tp_to": 30000.0,
+   "tp_pct": -40.0,
+   "tp_speed30": -7.7,
+   "report_id": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-17",
+   "prev_date": "2026-08-14",
+   "days": 95,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 30000.0,
+   "tp_to": 19000.0,
+   "tp_pct": -36.7,
+   "tp_speed30": -11.6,
+   "report_id": "hana_1289679",
+   "broker": "하나증권"
+  }
+ ],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [
+  {
+   "date": "2026-03-11",
+   "mean": 50000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 50000.0
+   }
+  },
+  {
+   "date": "2026-08-14",
+   "mean": 30000,
+   "n": 1,
+   "brokers": {
+    "하나증권": 30000.0
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "mean": 19500,
+   "n": 2,
+   "brokers": {
+    "LS증권": 20000.0,
+    "하나증권": 19000.0
+   }
+  },
+  {
+   "date": "2026-11-18",
+   "mean": 19500,
+   "n": 2,
+   "brokers": {
+    "LS증권": 20000.0,
+    "하나증권": 19000.0
+   }
+  }
+ ],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": [
+  "2026-11-17:010780:tp_down:하나증권",
+  "2026-11-17:010780:gap_below:하나증권"
+ ]
+}

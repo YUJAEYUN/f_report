@@ -24,10 +24,69 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-17",
+   "rating": "매수",
+   "target_price": 2500.0,
+   "source": "report",
+   "report_id": "hana_1289680",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-11-17",
+   "report_id": "hana_1289680",
+   "title": "대한해운 (005880.KS/BUY): 3Q26 Re: 장기 계약 수요가 증가하는 중",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 2500.0,
+   "tp_status": null,
+   "price": 1906.0,
+   "upside_pct": 31.2,
+   "estimates": {
+    "2026": {
+     "revenue": 1289.8,
+     "op": 255.8,
+     "net": 212.7,
+     "eps": 659.0
+    },
+    "2027": {
+     "revenue": 1324.3,
+     "op": 234.3,
+     "net": 200.7,
+     "eps": 622.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 1251.8,
+     "op": 258.6,
+     "net": 191.0,
+     "eps": 597.0
+    },
+    "2027": {
+     "revenue": 1263.4,
+     "op": 255.6,
+     "net": 173.4,
+     "eps": 541.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 255.8,
+    "consensus": 258.6,
+    "gap_pct": -1.1
+   }
+  }
+ ],
  "rating_changes": [
   {
    "date": "2026-08-20",
@@ -48,6 +107,14 @@
  "tp_consensus": [
   {
    "date": "2026-08-20",
+   "mean": 2500,
+   "n": 1,
+   "brokers": {
+    "하나증권": 2500.0
+   }
+  },
+  {
+   "date": "2026-11-17",
    "mean": 2500,
    "n": 1,
    "brokers": {

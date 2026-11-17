@@ -66,7 +66,7 @@
   "stock_id": "214150",
   "code": "214150",
   "name": "클래시스",
-  "industry": null,
+  "industry": "제약·바이오",
   "report_id": "hk_654207",
   "headline": "유진투자증권 목표주가 67,000원 → 34,000원 (-49.3%)",
   "data": {
@@ -154,7 +154,7 @@
   "stock_id": "030520",
   "code": "030520",
   "name": "한컴",
-  "industry": null,
+  "industry": "소프트웨어·AI",
   "report_id": "hk_654204",
   "headline": "유진투자증권 목표주가 35,000원 → 21,300원 (-39.1%)",
   "data": {
