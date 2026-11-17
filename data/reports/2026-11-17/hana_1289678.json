@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2206",
+  "bbs_seq": "1289678",
+  "report_type": "daily_series",
+  "title": "하나증권 글로벌 Weekly(26.11.18)",
+  "analyst": "글로벌투자분석실",
+  "published_date": "2026-11-17",
+  "published_time": "17:23:47",
+  "category": "Daily",
+  "breadcrumb": "Daily > Daily",
+  "preview_text": "[미국 증시 동향]\n- 미국 증시는 10월 CPI 예상 상회와 월러 이사의 50bp 인상 언급에 하락 출발했으나, 코어위브 호실적에 반도체 급반등\n- 젠슨 황 엔비디아 CEO 전격 사임과 10년물 금리 5.1% 돌파로 반락, 엔비디아 장 초반 -14% 급락\n- 10월 PPI 전년비 6.5%로 4년 만의 최고치를 기록하며 12월 금리 인상 사실상 확정\n- 미 상무부의 대중국 칩 원격 사용 차단 규정에 반도체 급락, 나스닥 -2.5%로 3거래일 연속 하락. 엔비디아 실적앤트로픽 상장에 관심 집중\n\n[중국 증시 동향]\n- 중국 증시는 10월 실물경제 지표 부진과 AI 하드웨어 조정, 미국 상무부의 첨단 AI 칩 원격 접속 통제 강화 발표 등 이슈를 소화하며 변동성 확대. 홍콩 증시도 변동성을 이어가고 있으나, 대형 코어 플랫폼주들의 3분기 실적 발표 기대감에 힘입어 상대적으로 방어력을 시현\n- 올해 중국의 장기 질적 성장 정책과 달리 증시 투자 시계열은 짧아지면서 정책산업과 시장 간 괴리 및 단기 변동성 확대\n- 2027년은 중국 정책-산업-증시의 시차를 좁힐 수 있는 돌파구 주목. 재정 확장 및 민간 신용 회복, 첨단 산업 지원과 AI 병목 완화, 중장기 자금 유입 재개 여부 주목\n\n[글로벌 투자유망종목]\n- 마이크로소프트(MSFT.US), 알파벳(GOOGL.US), 마이크론 테크놀로지(MU.US), AMD(AMD.US), 캐터필러(CAT.US), 크라우드 스트라이크(CRWD.US), 발레로 에너지(VLO.US), 블룸 에너지(BE.US), 비원제약(6160.HK), 커룬바이오텍(6990.HK)",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289678&attachFileSeq=1&bbsId=&dbType=&bbsCd=2206",
+  "pdf_filename": "GlobalWeekly_1118_.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2206&bbsSeq=1289678",
+  "collected_at": "2026-11-17T17:55:21+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289678",
+  "text_chars": 42530
+}

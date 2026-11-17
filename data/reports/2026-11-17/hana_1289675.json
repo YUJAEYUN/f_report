@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2220",
+  "bbs_seq": "1289675",
+  "report_type": "individual",
+  "title": "2차전지(Overweight) : 9월 ESS Battery : 북미 누적 +19% 성장",
+  "analyst": "김현수",
+  "published_date": "2026-11-17",
+  "published_time": "16:34:43",
+  "category": "산업분석",
+  "breadcrumb": "산업/기업 > 산업분석",
+  "preview_text": "▶ ESS 신규 설치 현황\n\n-9월 글로벌 ESS 신규 설치량(Grid+BTM) : 32.9GWh, 전년 대비 80% 증가\n\n▶ 누적 설치 현황(9월)\n\n-글로벌 : 279.3GWh(YoY +47%)\n-북미 : 50.6GWh(YoY +19%)\n-유럽 : 37.0GWh(YoY +152%)\n-중국 : 109.3GWh(YoY +11%)\n\n▶ 시사점 및 의견: 북미 ESS, 자본 유입과 수주 동시 확대\n\n-9월 글로벌 ESS 신규 설치량(Grid+BTM)은 32.9GWh로, 전년 대비 80% 증가했다. 2026년 누적(1~9월) 기준으로는 279.3GWh의 신규 ESS가 설치되며 전년 동기 대비 47% 증가했다. 월별 설치량 변동성이 큰 특성을 감안하면 누적 성장률 흐름이 중요한데, 40%를 상회하는 고성장률을 유지하고 있다.\n\n-신규 설치량의 75%를 차지하는 전력망(Grid) ESS의 경우, 9월 24.3GWh(YoY +90%)가 신규 설치됐다. 2026년 누적(1~9월) 글로벌 Grid ESS 설치량은 209.6GWh로 전년 동기 대비 45% 증가하며 견조한 성장세를 이어가고 있다. 지역별로 보면, 9월 북미 Grid ESS 설치량은 4.1GWh 기록하며 전년 동기 대비 2% 감소했으나, 누적 성장률 기준 17% 성장률을 기록했다. 월간 감소 폭이 작아 유의미한 흐름의 변화로 해석하기는 어렵다. 동기간 유럽은 3.1GWh, 누적 21.9GWh의 Grid ESS가 신규 설치되며 월간 및 누적 기준 전년 동기 대비 각각 95%, 181%의 성장률을 기록했다. 재생에너지 발전 비중 확대에 따른 전력망 안정성 확보 수요가 증가하면서 ESS 설치량이 지속적으로 증가하고 있는 것으로 해석된다.\n\n-전체 ESS 설치량 중 25%를 차지하는 BTM(Behind The Meter) 시장에서는 9월 글로벌 기준 8.6GWh(YoY +58%)의 ESS가 신규 설치돼 가동을 시작했다(9월 북미 BTM 설치량 YoY +30%, 누적 YoY +30%). 데이터센터 및 상업산업용(CI) 전력 수요 확대를 중심으로 BTM 시장 역시 안정적인 성장세를 이어가고 있는 것으로 판단한다.\n\n-전력망(Grid) 시장 내 연계유형별 설치량을 살펴보면, 송전망에 직접 연결돼 전력 상황에 따라 충방전을 수행하는 독립형 BESS(Stand-alone BESS)가 9월 18.8GWh 규모로 신규 설치되며 전년 대비 91% 증가했다. 독립형의 누적 기준 설치량은 152.3GWh 규모로 전년 동기 대비 60% 성장했다.\n\n-한편, 지난 11월 4일 노르웨이 국부펀드 운용기관(NBIM)은 북미 ESS 개발운영 기업 아이파파워(Aypa Power)의 지분 10%를 3억달러에 인수하며 처음으로 ESS에 직접 투자했다. 북미 전력 수요 증가와 전력망 안정성 확보를 위한 ESS 수요가 지속 확대되고 있어(미국 ESS 업계 목표 2032년 말 누적 설치 225GW, 출력 기준), 북미 ESS 프로젝트로의 자본 유입은 중장기적으로 확대될 것으로 전망한다.\n\n-배터리 공급 계약도 지속 늘어나고 있다. 삼성SDI는 지난 16일 미국 ESS 개발사 주피터파워(Jupiter Power)와 16GWh 규모의 ESS용 LFP 배터리 공급 계약(2029년부터 3년간 공급)을 체결했다. ESS 개발사가 2029년 이후 물량까지 선제적으로 확보하고 있다는 점은 북미 ESS 중장기 수요의 가시성이 높아지고 있음을 나타낸다는 점에서 의미가 있다.\n\n-자본 유입과 장기 공급 계약이 함께 늘고 있는 데다 북미 시장의 비중국산 배터리 수요도 높아, 현지 생산거점을 확보한 국내 셀 메이커의 ESS 수주 증가는 지속될 것으로 예상한다(관련 기업: LG에너지솔루션, 삼성SDI).\n\n(컴플라이언스 승인을 득함)",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289675&attachFileSeq=1&bbsId=&dbType=&bbsCd=2220",
+  "pdf_filename": "ESS_Monthly_261118_1.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2220&bbsSeq=1289675",
+  "collected_at": "2026-11-17T17:55:21+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289675",
+  "text_chars": 9258
+}
