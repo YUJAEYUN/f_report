@@ -1,0 +1,46 @@
+{
+ "id": "494120",
+ "code": "494120",
+ "name": "큐리오시스",
+ "industry": null,
+ "brokers": [
+  "미래에셋증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-18",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344362",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-18",
+   "report_id": "mirae_2344362",
+   "title": "큐리오시스 (494120/Not Rated): M사를 통한 ODM 장비 글로벌 런칭이 목전",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

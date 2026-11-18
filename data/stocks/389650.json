@@ -15,6 +15,15 @@
    "report_id": "mirae_2343637",
    "tp_status": null,
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-18",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344335",
+   "tp_status": null,
+   "broker": "미래에셋증권"
   }
  ],
  "notes": [],
@@ -23,6 +32,22 @@
    "date": "2026-10-26",
    "report_id": "mirae_2343637",
    "title": "넥스트바이오메디컬 (389650/Not Rated): 시장변동성이 커진 것일 뿐 펀더멘탈은 더 강해졌다",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-18",
+   "report_id": "mirae_2344335",
+   "title": "넥스트바이오메디컬 (389650/Not Rated): 펀더멘탈대비 낙폭과대 의료기기 기업 1순위",
    "primary": true,
    "broker": "미래에셋증권",
    "rating": "NR",

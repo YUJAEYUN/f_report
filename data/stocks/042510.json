@@ -4,6 +4,7 @@
  "name": "라온시큐어",
  "industry": "소프트웨어·AI",
  "brokers": [
+  "유진투자증권",
   "하나증권"
  ],
  "timeline": [
@@ -15,6 +16,15 @@
    "report_id": "hana_1289325",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-18",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_654339",
+   "tp_status": null,
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -46,6 +56,22 @@
      "eps": 657.0
     }
    },
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-18",
+   "report_id": "hk_654339",
+   "title": "라온시큐어(042510) 3Q26 Review: AI 시대, 진정한 보안 솔루션 강자",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 13030.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
    "prev_target_price": null
   }
  ],

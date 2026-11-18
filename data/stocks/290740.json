@@ -25,6 +25,15 @@
    "report_id": "hk_653098",
    "tp_status": null,
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-18",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hk_654340",
+   "tp_status": null,
+   "broker": "유진투자증권"
   }
  ],
  "notes": [],
@@ -40,6 +49,22 @@
    "target_price": null,
    "tp_status": null,
    "price": 9950.0,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-18",
+   "report_id": "hk_654340",
+   "title": "액트로(290740) 3Q26 Review: 신사업 전장부품 공급 본격화 기대",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": 7230.0,
    "upside_pct": null,
    "estimates": {},
    "consensus": {},

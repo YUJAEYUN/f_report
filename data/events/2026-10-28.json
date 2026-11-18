@@ -150,7 +150,7 @@
   "stock_id": "094360",
   "code": "094360",
   "name": "칩스앤미디어",
-  "industry": null,
+  "industry": "반도체",
   "report_id": "hk_653341",
   "headline": "유진투자증권 목표주가 26,000원 → 17,400원 (-33.1%)",
   "data": {
@@ -759,7 +759,7 @@
   "stock_id": "144960",
   "code": "144960",
   "name": "뉴파워프라즈마",
-  "industry": null,
+  "industry": "반도체",
   "report_id": "hana_1289303",
   "headline": "하나증권 투자의견 매수 → NR (1년 경과)",
   "data": {

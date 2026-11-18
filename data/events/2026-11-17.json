@@ -162,6 +162,35 @@
   "reason_checked": true
  },
  {
+  "id": "2026-11-17:068270:tp_up:하나증권",
+  "date": "2026-11-17",
+  "type": "tp_up",
+  "severity": 1.6,
+  "stock_id": "068270",
+  "code": "068270",
+  "name": "셀트리온",
+  "industry": "제약·바이오",
+  "report_id": "hana_1289682",
+  "headline": "하나증권 목표주가 250,000원 → 310,000원 (+24.0%)",
+  "data": {
+   "date": "2026-11-17",
+   "prev_date": "2024-05-31",
+   "days": 900,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 250000.0,
+   "tp_to": 310000.0,
+   "tp_pct": 24.0,
+   "tp_speed30": 0.8,
+   "report_id": "hana_1289682",
+   "note": "담당자 변경",
+   "broker": "하나증권"
+  },
+  "title": "셀트리온(068270.KS/BUY): 혼란한 시장 속에 듬직한 회사",
+  "reason": "커버리지 개시 리포트로, '27년 EBITDA에 WACC 10.4%를 적용해 현가화한 뒤 목표 EV/EBITDA 29배를 적용해 목표주가를 산출했다.",
+  "reason_checked": true
+ },
+ {
   "id": "2026-11-17:053690:tp_down:IBK투자증권",
   "date": "2026-11-17",
   "type": "tp_down",

@@ -16248,7 +16248,14 @@
    "target_price": 310000.0,
    "price": 213000.0,
    "upside_pct": 45.5,
-   "rating_change": null,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 250000.0,
+    "tp_to": 310000.0,
+    "tp_pct": 24.0,
+    "prev_date": "2024-05-31"
+   },
    "estimate_revisions": [],
    "gap": {
     "year": "2026",
@@ -16256,6 +16263,191 @@
     "estimate": 1893.9,
     "consensus": 1903.4,
     "gap_pct": -0.5
+   }
+  }
+ ],
+ "hana_1289690": [
+  {
+   "stock_id": "086280",
+   "name": "현대글로비스",
+   "code": "086280",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 280000.0,
+   "price": 204000.0,
+   "upside_pct": 37.3,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 2112.6,
+    "consensus": 2136.2,
+    "gap_pct": -1.1
+   }
+  }
+ ],
+ "hana_1289692": [
+  {
+   "stock_id": "089590",
+   "name": "제주항공",
+   "code": "089590",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 10000.0,
+   "price": 7500.0,
+   "upside_pct": 33.3,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 7500.0,
+    "tp_to": 10000.0,
+    "tp_pct": 33.3,
+    "prev_date": "2026-11-09"
+   },
+   "estimate_revisions": [
+    {
+     "date": "2026-11-18",
+     "prev_date": "2026-11-09",
+     "days": 9,
+     "year": "2026",
+     "metric": "eps",
+     "from": 2265.0,
+     "to": 2183.0,
+     "pct": -3.6,
+     "speed30": -12.0,
+     "turn": null,
+     "report_id": "hana_1289692",
+     "prev_report_id": "hana_1289550",
+     "broker": "하나증권"
+    },
+    {
+     "date": "2026-11-18",
+     "prev_date": "2026-11-09",
+     "days": 9,
+     "year": "2027",
+     "metric": "op",
+     "from": 122.3,
+     "to": 140.9,
+     "pct": 15.2,
+     "speed30": 50.7,
+     "turn": null,
+     "report_id": "hana_1289692",
+     "prev_report_id": "hana_1289550",
+     "broker": "하나증권"
+    },
+    {
+     "date": "2026-11-18",
+     "prev_date": "2026-11-09",
+     "days": 9,
+     "year": "2027",
+     "metric": "eps",
+     "from": 912.0,
+     "to": 1083.0,
+     "pct": 18.8,
+     "speed30": 62.7,
+     "turn": null,
+     "report_id": "hana_1289692",
+     "prev_report_id": "hana_1289550",
+     "broker": "하나증권"
+    }
+   ],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 100.8,
+    "consensus": 74.5,
+    "gap_pct": 35.3
+   }
+  }
+ ],
+ "hana_1289694": [
+  {
+   "stock_id": "068270",
+   "name": "셀트리온",
+   "code": "068270",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 310000.0,
+   "price": 207500.0,
+   "upside_pct": 49.4,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1893.9,
+    "consensus": 1904.7,
+    "gap_pct": -0.6
+   }
+  },
+  {
+   "stock_id": "128940",
+   "name": "한미약품",
+   "code": "128940",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 720000.0,
+   "price": 438500.0,
+   "upside_pct": 64.2,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 491.9,
+    "consensus": 473.5,
+    "gap_pct": 3.9
+   }
+  },
+  {
+   "stock_id": "196170",
+   "name": "알테오젠",
+   "code": "196170",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 410000.0,
+   "price": 170900.0,
+   "upside_pct": 139.9,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 305.0,
+    "consensus": 293.9,
+    "gap_pct": 3.8
+   }
+  },
+  {
+   "stock_id": "326030",
+   "name": "에스케이바이오팜",
+   "code": "326030",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 160000.0,
+   "price": 85900.0,
+   "upside_pct": 86.3,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 359.5,
+    "consensus": 363.8,
+    "gap_pct": -1.2
    }
   }
  ],
@@ -34377,6 +34569,146 @@
    "gap": null
   }
  ],
+ "hk_654339": [
+  {
+   "stock_id": "042510",
+   "name": "라온시큐어",
+   "code": "042510",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "price": 13030.0,
+   "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654340": [
+  {
+   "stock_id": "290740",
+   "name": "액트로",
+   "code": "290740",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "price": 7230.0,
+   "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654341": [
+  {
+   "stock_id": "419530",
+   "name": "SAMG엔터",
+   "code": "419530",
+   "primary": true,
+   "broker": "유진투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 20000.0,
+   "price": 13600.0,
+   "upside_pct": 47.1,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 35000.0,
+    "tp_to": 20000.0,
+    "tp_pct": -42.9,
+    "prev_date": null
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654342": [
+  {
+   "stock_id": "476060",
+   "name": "온코닉테라퓨틱스",
+   "code": "476060",
+   "primary": true,
+   "broker": "IBK투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 15000.0,
+   "price": 10500.0,
+   "upside_pct": 42.9,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 22500.0,
+    "tp_to": 15000.0,
+    "tp_pct": -33.3,
+    "prev_date": null
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654353": [
+  {
+   "stock_id": "007810",
+   "name": "코리아써키트",
+   "code": "007810",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 110000.0,
+   "price": 89900.0,
+   "upside_pct": 22.4,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 100000.0,
+    "tp_to": 110000.0,
+    "tp_pct": 10.0,
+    "prev_date": "2026-10-20"
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654356": [
+  {
+   "stock_id": "005850",
+   "name": "에스엘",
+   "code": "005850",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 69000.0,
+   "price": 40550.0,
+   "upside_pct": 70.2,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654357": [
+  {
+   "stock_id": "108490",
+   "name": "로보티즈",
+   "code": "108490",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 350000.0,
+   "price": 211500.0,
+   "upside_pct": 65.5,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
  "mirae_2342809": [
   {
    "stock_id": "035420",
@@ -36964,6 +37296,74 @@
    "primary": true,
    "broker": "미래에셋증권",
    "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "price": null,
+   "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2344335": [
+  {
+   "stock_id": "389650",
+   "name": "넥스트바이오메디컬",
+   "code": "389650",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "price": null,
+   "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2344336": [
+  {
+   "stock_id": "039840",
+   "name": "디오",
+   "code": "039840",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "price": null,
+   "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2344339": [
+  {
+   "stock_id": "096530",
+   "name": "씨젠",
+   "code": "096530",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "price": null,
+   "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2344362": [
+  {
+   "stock_id": "494120",
+   "name": "큐리오시스",
+   "code": "494120",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "NR",
    "rating_status": null,
    "target_price": null,
    "price": null,
