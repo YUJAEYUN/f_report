@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2206",
+  "bbs_seq": "1289684",
+  "report_type": "daily_series",
+  "title": "Hana Guru Eye",
+  "analyst": "임승미",
+  "published_date": "2026-11-18",
+  "published_time": "07:55:11",
+  "category": "Daily",
+  "breadcrumb": "Daily > Daily",
+  "preview_text": "전일 테마 리뷰: 남북경협\n오늘의 테마 체크: 반도체, 데이터센터",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289684&attachFileSeq=1&bbsId=&dbType=&bbsCd=2206",
+  "pdf_filename": "HGE1118.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2206&bbsSeq=1289684",
+  "collected_at": "2026-11-18T17:38:10+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289684",
+  "text_chars": 12178
+}
