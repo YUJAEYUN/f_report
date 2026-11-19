@@ -1,0 +1,60 @@
+[
+ {
+  "id": "2026-11-19:043370:cons_down:하나증권2026op",
+  "date": "2026-11-19",
+  "type": "cons_down",
+  "severity": 1.96,
+  "stock_id": "043370",
+  "code": "043370",
+  "name": "피에이치에이",
+  "industry": "자동차·부품",
+  "report_id": "hana_1289703",
+  "headline": "시장 컨센서스 2026년 영업이익 -9.8% (451억원 → 407억원)",
+  "data": {
+   "date": "2026-11-19",
+   "prev_date": "2026-10-18",
+   "days": 32,
+   "year": "2026",
+   "metric": "op",
+   "from": 45.1,
+   "to": 40.7,
+   "pct": -9.8,
+   "speed30": -9.2,
+   "turn": null,
+   "report_id": "hana_1289703",
+   "prev_report_id": "hana_1289175",
+   "broker": "하나증권"
+  },
+  "title": "피에이치에이(043370.KQ/매수): 환율이 가린 해외 성장, 강화되는 주주환원",
+  "reason": null,
+  "reason_checked": true
+ },
+ {
+  "id": "2026-11-19:009150:tp_down:iM증권",
+  "date": "2026-11-19",
+  "type": "tp_down",
+  "severity": 1.91,
+  "stock_id": "009150",
+  "code": "009150",
+  "name": "삼성전기",
+  "industry": "IT하드웨어·전자부품",
+  "report_id": "hk_654379",
+  "headline": "iM증권 목표주가 2,100,000원 → 1,500,000원 (-28.6%)",
+  "data": {
+   "date": "2026-11-19",
+   "prev_date": "2026-10-29",
+   "days": 21,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 2100000.0,
+   "tp_to": 1500000.0,
+   "tp_pct": -28.6,
+   "tp_speed30": -40.9,
+   "report_id": "hk_654379",
+   "broker": "iM증권"
+  },
+  "title": "삼성전기(009150) 마진 피크는 아직 멀었음",
+  "reason": "밸류에이션을 사업부별 Peer P/E 기반 SOTP에서 12MF P/E로 바꿨고, 데이터센터 건설 지연 등으로 MLCC·기판 업체 평균 P/E가 낮아져 멀티플 수렴과 변동성 확대를 반영했다고 밝혔다.",
+  "reason_checked": true
+ }
+]

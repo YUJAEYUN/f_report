@@ -16451,6 +16451,151 @@
    }
   }
  ],
+ "hana_1289697": [
+  {
+   "stock_id": "086280",
+   "name": "현대글로비스",
+   "code": "086280",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 280000.0,
+   "price": 204000.0,
+   "upside_pct": 37.3,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 2112.6,
+    "consensus": 2136.2,
+    "gap_pct": -1.1
+   }
+  },
+  {
+   "stock_id": "089590",
+   "name": "제주항공",
+   "code": "089590",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 10000.0,
+   "price": 7500.0,
+   "upside_pct": 33.3,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 100.8,
+    "consensus": 74.5,
+    "gap_pct": 35.3
+   }
+  }
+ ],
+ "hana_1289703": [
+  {
+   "stock_id": "043370",
+   "name": "피에이치에이",
+   "code": "043370",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 16000.0,
+   "price": 10630.0,
+   "upside_pct": 50.5,
+   "rating_change": null,
+   "estimate_revisions": [
+    {
+     "date": "2026-11-19",
+     "prev_date": "2026-10-18",
+     "days": 32,
+     "year": "2026",
+     "metric": "op",
+     "from": 40.7,
+     "to": 41.1,
+     "pct": 1.0,
+     "speed30": 0.9,
+     "turn": null,
+     "report_id": "hana_1289703",
+     "prev_report_id": "hana_1289175",
+     "broker": "하나증권"
+    },
+    {
+     "date": "2026-11-19",
+     "prev_date": "2026-10-18",
+     "days": 32,
+     "year": "2026",
+     "metric": "eps",
+     "from": 2029.0,
+     "to": 2061.0,
+     "pct": 1.6,
+     "speed30": 1.5,
+     "turn": null,
+     "report_id": "hana_1289703",
+     "prev_report_id": "hana_1289175",
+     "broker": "하나증권"
+    },
+    {
+     "date": "2026-11-19",
+     "prev_date": "2026-10-18",
+     "days": 32,
+     "year": "2027",
+     "metric": "op",
+     "from": 43.6,
+     "to": 41.7,
+     "pct": -4.4,
+     "speed30": -4.1,
+     "turn": null,
+     "report_id": "hana_1289703",
+     "prev_report_id": "hana_1289175",
+     "broker": "하나증권"
+    },
+    {
+     "date": "2026-11-19",
+     "prev_date": "2026-10-18",
+     "days": 32,
+     "year": "2027",
+     "metric": "eps",
+     "from": 2115.0,
+     "to": 1974.0,
+     "pct": -6.7,
+     "speed30": -6.3,
+     "turn": null,
+     "report_id": "hana_1289703",
+     "prev_report_id": "hana_1289175",
+     "broker": "하나증권"
+    }
+   ],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 41.1,
+    "consensus": 40.7,
+    "gap_pct": 1.0
+   }
+  }
+ ],
+ "hana_1289704": [
+  {
+   "stock_id": "253590",
+   "name": "네오셈",
+   "code": "253590",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "price": null,
+   "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
  "hk_652367": [
   {
    "stock_id": "028670",
@@ -34709,6 +34854,98 @@
    "gap": null
   }
  ],
+ "hk_654364": [
+  {
+   "stock_id": "403870",
+   "name": "HPSP",
+   "code": "403870",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 71000.0,
+   "price": 37850.0,
+   "upside_pct": 87.6,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654365": [
+  {
+   "stock_id": "140860",
+   "name": "파크시스템스",
+   "code": "140860",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 260000.0,
+   "price": 179300.0,
+   "upside_pct": 45.0,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654366": [
+  {
+   "stock_id": "007810",
+   "name": "코리아써키트",
+   "code": "007810",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 110000.0,
+   "price": 89900.0,
+   "upside_pct": 22.4,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654376": [
+  {
+   "stock_id": "060980",
+   "name": "HL홀딩스",
+   "code": "060980",
+   "primary": true,
+   "broker": "LS증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 58000.0,
+   "price": 33100.0,
+   "upside_pct": 75.2,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654379": [
+  {
+   "stock_id": "009150",
+   "name": "삼성전기",
+   "code": "009150",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1500000.0,
+   "price": 810000.0,
+   "upside_pct": 85.2,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 2100000.0,
+    "tp_to": 1500000.0,
+    "tp_pct": -28.6,
+    "prev_date": "2026-10-29"
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
  "mirae_2342809": [
   {
    "stock_id": "035420",
@@ -37364,6 +37601,57 @@
    "primary": true,
    "broker": "미래에셋증권",
    "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "price": null,
+   "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2344375": [
+  {
+   "stock_id": "461030",
+   "name": "아이엠비디엑스",
+   "code": "461030",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "price": null,
+   "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2344377": [
+  {
+   "stock_id": "380550",
+   "name": "뉴로핏",
+   "code": "380550",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "price": null,
+   "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2344383": [
+  {
+   "stock_id": "086280",
+   "name": "현대글로비스",
+   "code": "086280",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
    "rating_status": null,
    "target_price": null,
    "price": null,

@@ -19,5 +19,45 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hk_653241",
-  "text_chars": 6415
+  "text_chars": 6415,
+  "summary": {
+    "one_liner": "메타의 첫 소비자용 AI 에이전트 Muse가 출시 1.5개월 만에 1,000만 다운로드를 기록했고, 본업 광고 개선은 이어지지만 3분기 FCF가 처음 음수로 돌아서 1년 내 추가 조달이 유력하다는 리포트.",
+    "ticker": "META",
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "Muse는 일상 생활 중심의 첫 Consumer Agent로, 출시 1.5개월 만에 1,000만 다운로드, DAU 25%, 쇼핑 이용률 25%를 기록했고 SensorTower 기준 다운로드 속도와 재방문률이 ChatGPT·Claude보다 높다.",
+      "수익모델은 토큰 사용량 확대용 구독과 에이전트 판매 상품 수수료 두 가지이며, SK증권은 2028년 연말 Muse ARR을 Base $40B, Bull 최대 $193B로 추정한다(경쟁 배제, Agent Shopping TAM 성격).",
+      "3분기 광고 노출(Q)은 +10%, 광고 단가(ASP)는 +14% 상승했다. Instagram 1인당 이용시간은 사상 최고이며, Meta Generative Recommender가 Facebook에서 전환율을 2% 개선했다.",
+      "3분기 매출은 646억 달러로 추정치 대비 +2%였으나, 일회성 합의금 $9.9B로 영업이익은 129.9억 달러(-38%)였다. 이를 더하면 +9% 서프라이즈다.",
+      "3분기 처음으로 FCF가 음수였고 4분기에 적자 폭이 커질 전망이며, 내년 내 추가 조달이 필요하다. 무의결권 주식을 새로 발행했다."
+    ],
+    "risk_factors": [
+      "Muse의 사용자 반응·수수료율 등 핵심 수치가 미공개이고 출시 초기라 추정 한계가 크다",
+      "컴퓨팅 비용이 큰 서비스이며 유저당 비용이 공개되지 않았다(1년 내 비용 효율 10배 개선 제시)",
+      "Google, Apple, OpenAI 등과의 경쟁 및 소비자 binding 수준 불확실",
+      "가맹점의 수수료 수용 여부(OpenAI는 4% 결제 기능을 약 6개월 만에 중단)",
+      "Capex 확대에 따른 FCF 적자 심화와 추가 자금 조달 필요"
+    ]
+  },
+  "insight": {
+    "change": "메타가 업무 생산성 위주의 기존 AI 모델과 달리 일상·쇼핑에 초점을 맞춘 Consumer Agent Muse로 성과를 냈고, 동시에 3분기 처음 FCF가 음수로 전환되어 현금 조달 필요성이 부각됐다.",
+    "implication": "원문 논리상 Muse는 구독과 거래 수수료를 통해 AI 연산 비용을 광고·거래로 회수하는 구조로, 성공 시 Agent Shopping이 여는 이커머스 TAM이 메타의 새 성장 축이 될 수 있다. 다만 이는 경쟁을 배제한 시나리오이고 Capex 부담과 자금 조달이 병행되므로, AI 투자 확대의 수익화 속도와 재무 부담이 함께 평가되는 국면이다.",
+    "watch_points": [
+      "Muse의 MAU·DAU, 쇼핑 이용률, 수수료율 등 추가 공개 지표",
+      "Muse의 유저당 컴퓨팅 비용과 비용 효율 개선 속도",
+      "4분기 FCF 적자 폭 및 내년 추가 자금 조달 방식·규모"
+    ]
+  },
+  "summarized_at": "2026-11-20T02:50:36+09:00",
+  "desk": "시황·전략",
+  "industries": [
+    "소프트웨어·AI"
+  ],
+  "themes": [
+    "메타 뮤즈 AI 에이전트",
+    "AI 수익성 우려"
+  ],
+  "tagged_at": "2026-11-20T02:50:36+09:00"
 }

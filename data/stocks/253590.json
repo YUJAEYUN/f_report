@@ -1,0 +1,59 @@
+{
+ "id": "253590",
+ "code": "253590",
+ "name": "네오셈",
+ "industry": "반도체",
+ "brokers": [
+  "하나증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-09-02",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-19",
+   "report_id": "hana_1289704",
+   "title": "네오셈 (253590.KQ): 성장의 다음 페이지를 확인할 시간.",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": null,
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 1339.0,
+     "op": 366.0,
+     "net": 314.0,
+     "eps": 668.0
+    },
+    "2027": {
+     "revenue": 1714.0,
+     "op": 491.0,
+     "net": 491.0,
+     "eps": 952.0
+    }
+   },
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

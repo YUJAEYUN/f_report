@@ -94,9 +94,9 @@
    "date": "2026-11-19",
    "rating": "매수",
    "target_price": 10000.0,
-   "source": "table",
-   "report_id": "hana_1289692",
-   "tp_status": null,
+   "source": "report",
+   "report_id": "hana_1289697",
+   "tp_status": "상향",
    "broker": "하나증권"
   }
  ],
@@ -341,6 +341,55 @@
    "report_id": "hana_1289692",
    "title": "제주항공 (089590.KS/매수): 한-중 FTA 타결, 중국 관광객도 제주항공을 타고 온다",
    "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 10000.0,
+   "tp_status": "상향",
+   "price": 7500.0,
+   "upside_pct": 33.3,
+   "estimates": {
+    "2026": {
+     "revenue": 2005.6,
+     "op": 100.8,
+     "net": 176.0,
+     "eps": 2183.0
+    },
+    "2027": {
+     "revenue": 2016.6,
+     "op": 140.9,
+     "net": 87.4,
+     "eps": 1083.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 2004.9,
+     "op": 74.5,
+     "net": 130.0,
+     "eps": 1613.0
+    },
+    "2027": {
+     "revenue": 2001.5,
+     "op": 127.3,
+     "net": 66.9,
+     "eps": 829.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 100.8,
+    "consensus": 74.5,
+    "gap_pct": 35.3
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "report_id": "hana_1289697",
+   "title": "하루에 하나 1119",
+   "primary": false,
    "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",

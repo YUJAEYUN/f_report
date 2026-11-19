@@ -1,0 +1,46 @@
+{
+ "id": "380550",
+ "code": "380550",
+ "name": "뉴로핏",
+ "industry": null,
+ "brokers": [
+  "미래에셋증권"
+ ],
+ "timeline": [
+  {
+   "date": "2026-11-19",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344377",
+   "tp_status": null,
+   "broker": "미래에셋증권"
+  }
+ ],
+ "notes": [],
+ "observations": [
+  {
+   "date": "2026-11-19",
+   "report_id": "mirae_2344377",
+   "title": "뉴로핏 (380550/Not Rated): 넓어진 판매 채널, 빅파마 계약만 발표된다면!",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  }
+ ],
+ "rating_changes": [],
+ "estimate_revisions": [],
+ "consensus_changes": [],
+ "tp_consensus": [],
+ "tp_consensus_changes": [],
+ "broker_waves": [],
+ "events": []
+}

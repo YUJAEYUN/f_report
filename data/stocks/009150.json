@@ -273,6 +273,15 @@
    "report_id": "hk_654125",
    "tp_status": "유지",
    "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-19",
+   "rating": "매수",
+   "target_price": 1500000.0,
+   "source": "report",
+   "report_id": "hk_654379",
+   "tp_status": "하향",
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -663,6 +672,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-19",
+   "report_id": "hk_654379",
+   "title": "삼성전기(009150) 마진 피크는 아직 멀었음",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1500000.0,
+   "tp_status": "하향",
+   "price": 810000.0,
+   "upside_pct": 85.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -835,6 +860,19 @@
    "tp_speed30": 3.8,
    "report_id": "hk_653423",
    "broker": "메리츠증권"
+  },
+  {
+   "date": "2026-11-19",
+   "prev_date": "2026-10-29",
+   "days": 21,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 2100000.0,
+   "tp_to": 1500000.0,
+   "tp_pct": -28.6,
+   "tp_speed30": -40.9,
+   "report_id": "hk_654379",
+   "broker": "iM증권"
   }
  ],
  "estimate_revisions": [
@@ -1523,6 +1561,19 @@
     "유안타증권": 2300000.0,
     "하나증권": 2000000.0
    }
+  },
+  {
+   "date": "2026-11-19",
+   "mean": 2000000,
+   "n": 6,
+   "brokers": {
+    "IBK투자증권": 1900000.0,
+    "SK증권": 2000000.0,
+    "iM증권": 1500000.0,
+    "메리츠증권": 2300000.0,
+    "유안타증권": 2300000.0,
+    "하나증권": 2000000.0
+   }
   }
  ],
  "tp_consensus_changes": [
@@ -1550,11 +1601,24 @@
    ],
    "report_id": "hk_653448",
    "cum30": -6.4
+  },
+  {
+   "date": "2026-11-19",
+   "from": 2100000,
+   "to": 2000000,
+   "pct": -4.8,
+   "n": 6,
+   "brokers": [
+    "iM증권"
+   ],
+   "report_id": "hk_654379",
+   "cum30": -11.2
   }
  ],
  "broker_waves": [],
  "events": [
   "2026-10-28:009150:tp_down:하나증권",
+  "2026-11-19:009150:tp_down:iM증권",
   "2026-10-23:009150:est_up:하나증권2027op",
   "2026-10-28:009150:est_down:하나증권2027op",
   "2026-10-23:009150:cons_up:하나증권2027op",
