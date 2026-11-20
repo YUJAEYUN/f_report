@@ -19,5 +19,26 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "mirae_2344420",
-  "text_chars": 22087
+  "text_chars": 22087,
+  "summary": {
+    "one_liner": "2027년 중국/홍콩 증시 전망 리포트로, 제목은 '긴 겨울 끝, 봄은 오나?'. 본문 텍스트가 깨져 있어 세부 논지는 확인하지 못했다.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "제목이 '긴 겨울 끝, 봄은 오나?'라는 질문 형태이므로, 중국/홍콩 증시가 부진 국면에서 전환점을 맞는지를 핵심 쟁점으로 다루는 것으로 보인다. 본문이 깨져 구체적인 변화 내용은 확인하지 못했다.",
+    "implication": "본문 근거가 부족해 해석을 덧붙이지 않는다. 제목과 목차 구성(3개 장)으로 볼 때, 2027년 중국/홍콩 증시의 방향성을 판단하는 연간 전망 자료로 보인다.",
+    "watch_points": []
+  },
+  "summarized_at": "2026-11-21T02:32:35+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [
+    "중국·홍콩 증시 2027 전망"
+  ],
+  "tagged_at": "2026-11-21T02:32:35+09:00"
 }

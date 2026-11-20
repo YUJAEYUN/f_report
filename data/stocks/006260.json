@@ -5,6 +5,7 @@
  "industry": "기계·전력기기",
  "brokers": [
   "메리츠증권",
+  "미래에셋증권",
   "한화투자증권"
  ],
  "timeline": [
@@ -34,6 +35,15 @@
    "report_id": "hk_654307",
    "tp_status": "하향",
    "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-11-20",
+   "rating": "매수",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344449",
+   "tp_status": null,
+   "broker": "미래에셋증권"
   }
  ],
  "notes": [],
@@ -85,6 +95,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-20",
+   "report_id": "mirae_2344449",
+   "title": "LS (006260/매수): 고성장에도 지속되는 NAV 하락",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -115,6 +141,15 @@
   },
   {
    "date": "2026-11-17",
+   "mean": 336000,
+   "n": 2,
+   "brokers": {
+    "메리츠증권": 330000.0,
+    "한화투자증권": 342000.0
+   }
+  },
+  {
+   "date": "2026-11-20",
    "mean": 336000,
    "n": 2,
    "brokers": {

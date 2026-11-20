@@ -99,6 +99,15 @@
    "report_id": "hana_1289671",
    "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-20",
+   "rating": "매수",
+   "target_price": 130000.0,
+   "source": "report",
+   "report_id": "hk_654389",
+   "tp_status": null,
+   "broker": "메리츠증권"
   }
  ],
  "notes": [],
@@ -199,6 +208,22 @@
     "consensus": 349.3,
     "gap_pct": 3.0
    }
+  },
+  {
+   "date": "2026-11-20",
+   "report_id": "hk_654389",
+   "title": "이수페타시스(007660) ASIC의 중심에는 이유가 있다",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 130000.0,
+   "tp_status": null,
+   "price": 83000.0,
+   "upside_pct": 56.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -279,6 +304,19 @@
    "tp_speed30": -2.7,
    "report_id": "hana_1289671",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-20",
+   "prev_date": "2026-09-22",
+   "days": 59,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 160000.0,
+   "tp_to": 130000.0,
+   "tp_pct": -18.8,
+   "tp_speed30": -9.6,
+   "report_id": "hk_654389",
+   "broker": "메리츠증권"
   }
  ],
  "estimate_revisions": [],
@@ -361,11 +399,36 @@
     "유안타증권": 180000.0,
     "하나증권": 150000.0
    }
+  },
+  {
+   "date": "2026-11-20",
+   "mean": 146250,
+   "n": 4,
+   "brokers": {
+    "SK증권": 125000.0,
+    "메리츠증권": 130000.0,
+    "유안타증권": 180000.0,
+    "하나증권": 150000.0
+   }
   }
  ],
- "tp_consensus_changes": [],
+ "tp_consensus_changes": [
+  {
+   "date": "2026-11-20",
+   "from": 153750,
+   "to": 146250,
+   "pct": -4.9,
+   "n": 4,
+   "brokers": [
+    "메리츠증권"
+   ],
+   "report_id": "hk_654389",
+   "cum30": null
+  }
+ ],
  "broker_waves": [],
  "events": [
-  "2026-11-17:007660:tp_down:하나증권"
+  "2026-11-17:007660:tp_down:하나증권",
+  "2026-11-20:007660:tp_down:메리츠증권"
  ]
 }

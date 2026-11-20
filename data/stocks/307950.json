@@ -5,7 +5,8 @@
  "industry": "소프트웨어·AI",
  "brokers": [
   "LS증권",
-  "유진투자증권"
+  "유진투자증권",
+  "한화투자증권"
  ],
  "timeline": [
   {
@@ -25,6 +26,15 @@
    "report_id": "hk_653676",
    "tp_status": "하향",
    "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-20",
+   "rating": "매수",
+   "target_price": 440000.0,
+   "source": "report",
+   "report_id": "hk_654391",
+   "tp_status": "유지",
+   "broker": "한화투자증권"
   }
  ],
  "notes": [],
@@ -60,6 +70,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-20",
+   "report_id": "hk_654391",
+   "title": "현대오토에버(307950) ’27년은 DX에서 AX 중심 매출 전환의 원년",
+   "primary": true,
+   "broker": "한화투자증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 440000.0,
+   "tp_status": "유지",
+   "price": 308500.0,
+   "upside_pct": 42.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -81,6 +107,16 @@
    "brokers": {
     "LS증권": 500000.0,
     "유진투자증권": 600000.0
+   }
+  },
+  {
+   "date": "2026-11-20",
+   "mean": 513333,
+   "n": 3,
+   "brokers": {
+    "LS증권": 500000.0,
+    "유진투자증권": 600000.0,
+    "한화투자증권": 440000.0
    }
   }
  ],

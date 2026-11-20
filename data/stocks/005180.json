@@ -4,9 +4,19 @@
  "name": "빙그레",
  "industry": "음식료·담배",
  "brokers": [
-  "유안타증권"
+  "유안타증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2024-05-22",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-10-21",
    "rating": "매수",

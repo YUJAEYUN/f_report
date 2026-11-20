@@ -1,0 +1,113 @@
+[
+ {
+  "id": "2026-11-20:005850:tp_down:하나증권",
+  "date": "2026-11-20",
+  "type": "tp_down",
+  "severity": 1.96,
+  "stock_id": "005850",
+  "code": "005850",
+  "name": "에스엘",
+  "industry": "자동차·부품",
+  "report_id": "hana_1289738",
+  "headline": "하나증권 목표주가 85,000원 → 60,000원 (-29.4%)",
+  "data": {
+   "date": "2026-11-20",
+   "prev_date": "2026-05-18",
+   "days": 186,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 85000.0,
+   "tp_to": 60000.0,
+   "tp_pct": -29.4,
+   "tp_speed30": -4.7,
+   "report_id": "hana_1289738",
+   "broker": "하나증권"
+  },
+  "title": "에스엘(005850.KS/매수): 실적도 바닥, 밸류에이션도 바닥",
+  "reason": "3분기 실적부진을 반영해 2026·2027년 실적추정을 하향하고, 실적 변동성 확대를 반영해 목표 P/E를 10배에서 8배로 낮췄다고 밝혔다.",
+  "reason_checked": true
+ },
+ {
+  "id": "2026-11-20:066970:tp_down:대신증권",
+  "date": "2026-11-20",
+  "type": "tp_down",
+  "severity": 1.78,
+  "stock_id": "066970",
+  "code": "066970",
+  "name": "엘앤에프",
+  "industry": "2차전지",
+  "report_id": "hk_654387",
+  "headline": "대신증권 목표주가 150,000원 → 110,000원 (-26.7%)",
+  "data": {
+   "date": "2026-11-20",
+   "prev_date": "2026-11-06",
+   "days": 14,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 150000.0,
+   "tp_to": 110000.0,
+   "tp_pct": -26.7,
+   "tp_speed30": -57.2,
+   "report_id": "hk_654387",
+   "broker": "대신증권"
+  },
+  "title": "엘앤에프(066970) 성장 위한 자금조달 가시화",
+  "reason": "자금조달에 따른 지분희석(오버행) 물량을 반영하고, LFP 양극재 경쟁 심화 가능성으로 목표 EV/EBITDA 배수를 25.0배에서 21.5배로 낮췄다고 밝혔다.",
+  "reason_checked": true
+ },
+ {
+  "id": "2026-11-20:066970:tp_cons_down:",
+  "date": "2026-11-20",
+  "type": "tp_cons_down",
+  "severity": 1.62,
+  "stock_id": "066970",
+  "code": "066970",
+  "name": "엘앤에프",
+  "industry": "2차전지",
+  "report_id": "hk_654387",
+  "headline": "목표주가 컨센서스 123,750원 → 113,750원 (-8.1%, 4개사, 30일 누적 -43.8%)",
+  "data": {
+   "date": "2026-11-20",
+   "from": 123750,
+   "to": 113750,
+   "pct": -8.1,
+   "n": 4,
+   "brokers": [
+    "대신증권"
+   ],
+   "report_id": "hk_654387",
+   "cum30": -43.8
+  },
+  "title": "엘앤에프(066970) 성장 위한 자금조달 가시화",
+  "reason": null,
+  "reason_checked": true
+ },
+ {
+  "id": "2026-11-20:007660:tp_down:메리츠증권",
+  "date": "2026-11-20",
+  "type": "tp_down",
+  "severity": 1.25,
+  "stock_id": "007660",
+  "code": "007660",
+  "name": "이수페타시스",
+  "industry": "IT하드웨어·전자부품",
+  "report_id": "hk_654389",
+  "headline": "메리츠증권 목표주가 160,000원 → 130,000원 (-18.8%)",
+  "data": {
+   "date": "2026-11-20",
+   "prev_date": "2026-09-22",
+   "days": 59,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 160000.0,
+   "tp_to": 130000.0,
+   "tp_pct": -18.8,
+   "tp_speed30": -9.6,
+   "report_id": "hk_654389",
+   "broker": "메리츠증권"
+  },
+  "title": "이수페타시스(007660) ASIC의 중심에는 이유가 있다",
+  "reason": "Target Multiple 조정을 반영해 적정주가를 130,000원으로 제시했다고 밝혔다.",
+  "reason_checked": true
+ }
+]

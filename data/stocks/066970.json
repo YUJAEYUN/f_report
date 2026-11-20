@@ -90,6 +90,15 @@
    "report_id": "hana_1289606",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-20",
+   "rating": "매수",
+   "target_price": 110000.0,
+   "source": "report",
+   "report_id": "hk_654387",
+   "tp_status": "하향",
+   "broker": "대신증권"
   }
  ],
  "notes": [
@@ -294,6 +303,22 @@
     "consensus": 111.8,
     "gap_pct": -23.0
    }
+  },
+  {
+   "date": "2026-11-20",
+   "report_id": "hk_654387",
+   "title": "엘앤에프(066970) 성장 위한 자금조달 가시화",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 110000.0,
+   "tp_status": "하향",
+   "price": 72800.0,
+   "upside_pct": 51.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -336,6 +361,19 @@
    "tp_speed30": -8.6,
    "report_id": "hana_1289230",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-20",
+   "prev_date": "2026-11-06",
+   "days": 14,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 150000.0,
+   "tp_to": 110000.0,
+   "tp_pct": -26.7,
+   "tp_speed30": -57.2,
+   "report_id": "hk_654387",
+   "broker": "대신증권"
   }
  ],
  "estimate_revisions": [
@@ -657,6 +695,17 @@
     "대신증권": 150000.0,
     "하나증권": 140000.0
    }
+  },
+  {
+   "date": "2026-11-20",
+   "mean": 113750,
+   "n": 4,
+   "brokers": {
+    "LS증권": 100000.0,
+    "iM증권": 105000.0,
+    "대신증권": 110000.0,
+    "하나증권": 140000.0
+   }
   }
  ],
  "tp_consensus_changes": [
@@ -671,15 +720,29 @@
    ],
    "report_id": "hana_1289230",
    "cum30": null
+  },
+  {
+   "date": "2026-11-20",
+   "from": 123750,
+   "to": 113750,
+   "pct": -8.1,
+   "n": 4,
+   "brokers": [
+    "대신증권"
+   ],
+   "report_id": "hk_654387",
+   "cum30": -43.8
   }
  ],
  "broker_waves": [],
  "events": [
   "2026-10-22:066970:tp_down:하나증권",
+  "2026-11-20:066970:tp_down:대신증권",
   "2026-11-12:066970:est_down:하나증권2027eps",
   "2026-11-12:066970:cons_down:하나증권2026eps",
   "2026-10-22:066970:gap_below:하나증권",
   "2026-11-12:066970:gap_below:하나증권",
-  "2026-10-22:066970:tp_cons_down:"
+  "2026-10-22:066970:tp_cons_down:",
+  "2026-11-20:066970:tp_cons_down:"
  ]
 }

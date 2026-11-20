@@ -5,9 +5,19 @@
  "industry": "반도체",
  "brokers": [
   "iM증권",
-  "메리츠증권"
+  "메리츠증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2026-09-02",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-09-21",
    "rating": "매수",

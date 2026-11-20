@@ -64,6 +64,15 @@
    "report_id": "hk_654167",
    "tp_status": "유지",
    "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-11-20",
+   "rating": "매수",
+   "target_price": 220000.0,
+   "source": "report",
+   "report_id": "hk_654402",
+   "tp_status": null,
+   "broker": "iM증권"
   }
  ],
  "notes": [
@@ -137,6 +146,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-20",
+   "report_id": "hk_654402",
+   "title": "DB손해보험(005830) 업황 개선 사이클과 안정적인 주주환원 모두 기대 가능",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 220000.0,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -185,6 +210,17 @@
   },
   {
    "date": "2026-11-13",
+   "mean": 234250,
+   "n": 4,
+   "brokers": {
+    "LS증권": 230000.0,
+    "iM증권": 220000.0,
+    "메리츠증권": 240000.0,
+    "한화투자증권": 247000.0
+   }
+  },
+  {
+   "date": "2026-11-20",
    "mean": 234250,
    "n": 4,
    "brokers": {

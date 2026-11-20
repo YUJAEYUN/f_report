@@ -254,6 +254,15 @@
    "report_id": "hk_653810",
    "tp_status": null,
    "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-20",
+   "rating": "매수",
+   "target_price": 205000.0,
+   "source": "report",
+   "report_id": "hk_654397",
+   "tp_status": null,
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -448,6 +457,22 @@
    "date": "2026-11-05",
    "report_id": "hk_653810",
    "title": "KB금융(105560) 매매하면 일단 KB",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 205000.0,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-20",
+   "report_id": "hk_654397",
+   "title": "KB금융(105560) 높은 안정성이 부각되는 구간",
    "primary": true,
    "broker": "iM증권",
    "rating": "매수",
@@ -851,6 +876,19 @@
   },
   {
    "date": "2026-11-05",
+   "mean": 220500,
+   "n": 6,
+   "brokers": {
+    "LS증권": 215000.0,
+    "SK증권": 213000.0,
+    "iM증권": 205000.0,
+    "유안타증권": 235000.0,
+    "하나증권": 235000.0,
+    "한화투자증권": 220000.0
+   }
+  },
+  {
+   "date": "2026-11-20",
    "mean": 220500,
    "n": 6,
    "brokers": {

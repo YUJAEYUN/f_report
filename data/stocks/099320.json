@@ -4,9 +4,28 @@
  "name": "쎄트렉아이",
  "industry": "우주항공·방산",
  "brokers": [
-  "LS증권"
+  "LS증권",
+  "하나증권"
  ],
  "timeline": [
+  {
+   "date": "2025-09-09",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-11-12",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
   {
    "date": "2026-11-02",
    "rating": "매수",
@@ -17,7 +36,13 @@
    "broker": "LS증권"
   }
  ],
- "notes": [],
+ "notes": [
+  {
+   "date": "2025-09-10",
+   "note": "담당자 변경",
+   "broker": "하나증권"
+  }
+ ],
  "observations": [
   {
    "date": "2026-11-02",

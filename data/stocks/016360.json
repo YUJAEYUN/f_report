@@ -118,6 +118,15 @@
    "report_id": "hk_654250",
    "tp_status": "유지",
    "broker": "LS증권"
+  },
+  {
+   "date": "2026-11-20",
+   "rating": "매수",
+   "target_price": 99000.0,
+   "source": "report",
+   "report_id": "hk_654400",
+   "tp_status": null,
+   "broker": "iM증권"
   }
  ],
  "notes": [
@@ -235,6 +244,22 @@
    "tp_status": "유지",
    "price": 74500.0,
    "upside_pct": 54.4,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-20",
+   "report_id": "hk_654400",
+   "title": "삼성증권(016360) 주주환원 확대에 대한 기대감",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 99000.0,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -401,6 +426,18 @@
   },
   {
    "date": "2026-11-16",
+   "mean": 119400,
+   "n": 5,
+   "brokers": {
+    "LS증권": 115000.0,
+    "SK증권": 105000.0,
+    "iM증권": 99000.0,
+    "메리츠증권": 110000.0,
+    "하나증권": 168000.0
+   }
+  },
+  {
+   "date": "2026-11-20",
    "mean": 119400,
    "n": 5,
    "brokers": {

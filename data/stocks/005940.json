@@ -126,6 +126,15 @@
    "report_id": "hana_1289287",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-20",
+   "rating": "매수",
+   "target_price": 29000.0,
+   "source": "report",
+   "report_id": "hk_654399",
+   "tp_status": null,
+   "broker": "iM증권"
   }
  ],
  "notes": [
@@ -274,6 +283,22 @@
    "tp_status": "하향",
    "price": 22550.0,
    "upside_pct": 28.6,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-20",
+   "report_id": "hk_654399",
+   "title": "NH투자증권(005940) 업종 사이클 하락 구간에서 가장 높은 방어력",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 29000.0,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -662,6 +687,17 @@
   },
   {
    "date": "2026-10-27",
+   "mean": 32250,
+   "n": 4,
+   "brokers": {
+    "LS증권": 32000.0,
+    "SK증권": 32000.0,
+    "iM증권": 29000.0,
+    "하나증권": 36000.0
+   }
+  },
+  {
+   "date": "2026-11-20",
    "mean": 32250,
    "n": 4,
    "brokers": {
