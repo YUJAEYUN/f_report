@@ -174,6 +174,15 @@
    "report_id": "hana_1289550",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-23",
+   "rating": "매수",
+   "target_price": 8500.0,
+   "source": "report",
+   "report_id": "hk_654476",
+   "tp_status": "유지",
+   "broker": "iM증권"
   }
  ],
  "notes": [
@@ -507,6 +516,22 @@
     "consensus": 722.8,
     "gap_pct": -0.2
    }
+  },
+  {
+   "date": "2026-11-23",
+   "report_id": "hk_654476",
+   "title": "팬오션(028670) 벌크의 안정적인 이익과 탱커 선대 확대",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 8500.0,
+   "tp_status": "유지",
+   "price": 6030.0,
+   "upside_pct": 41.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -1097,6 +1122,18 @@
   },
   {
    "date": "2026-11-09",
+   "mean": 9000,
+   "n": 5,
+   "brokers": {
+    "LS증권": 10000.0,
+    "iM증권": 8500.0,
+    "상상인증권": 9000.0,
+    "유안타증권": 8500.0,
+    "하나증권": 9000.0
+   }
+  },
+  {
+   "date": "2026-11-23",
    "mean": 9000,
    "n": 5,
    "brokers": {

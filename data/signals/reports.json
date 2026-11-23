@@ -5337,7 +5337,7 @@
  "hana_1289260": [
   {
    "stock_id": "316140",
-   "name": "우리금융",
+   "name": "우리금융지주",
    "code": "316140",
    "primary": true,
    "broker": "하나증권",
@@ -16664,6 +16664,128 @@
    }
   }
  ],
+ "hana_1289763": [
+  {
+   "stock_id": "005850",
+   "name": "에스엘",
+   "code": "005850",
+   "primary": false,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 60000.0,
+   "price": 35600.0,
+   "upside_pct": 68.5,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 381.9,
+    "consensus": 424.9,
+    "gap_pct": -10.1
+   }
+  }
+ ],
+ "hana_1289779": [
+  {
+   "stock_id": "030200",
+   "name": "KT",
+   "code": "030200",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 76000.0,
+   "price": 43900.0,
+   "upside_pct": 73.1,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 2005.1,
+    "consensus": 2039.9,
+    "gap_pct": -1.7
+   }
+  }
+ ],
+ "hana_1289780": [
+  {
+   "stock_id": "017670",
+   "name": "SK텔레콤",
+   "code": "017670",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 140000.0,
+   "price": 64600.0,
+   "upside_pct": 116.7,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1969.2,
+    "consensus": 1974.4,
+    "gap_pct": -0.3
+   }
+  }
+ ],
+ "hana_1289781": [
+  {
+   "stock_id": "032640",
+   "name": "LG유플러스",
+   "code": "032640",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 20000.0,
+   "price": 14720.0,
+   "upside_pct": 35.9,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 1142.8,
+    "consensus": 1150.2,
+    "gap_pct": -0.6
+   }
+  }
+ ],
+ "hana_1289785": [
+  {
+   "stock_id": "060980",
+   "name": "HL홀딩스",
+   "code": "060980",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 40000.0,
+   "price": 31950.0,
+   "upside_pct": 25.2,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 55000.0,
+    "tp_to": 40000.0,
+    "tp_pct": -27.3,
+    "prev_date": "2026-05-29"
+   },
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 96.6,
+    "consensus": 98.0,
+    "gap_pct": -1.4
+   }
+  }
+ ],
  "hk_652367": [
   {
    "stock_id": "028670",
@@ -18853,7 +18975,7 @@
  "hk_652780": [
   {
    "stock_id": "316140",
-   "name": "우리금융",
+   "name": "우리금융지주",
    "code": "316140",
    "primary": true,
    "broker": "SK증권",
@@ -22894,7 +23016,7 @@
  "hk_653284": [
   {
    "stock_id": "316140",
-   "name": "우리금융",
+   "name": "우리금융지주",
    "code": "316140",
    "primary": true,
    "broker": "한화투자증권",
@@ -28926,7 +29048,7 @@
  "hk_653809": [
   {
    "stock_id": "316140",
-   "name": "우리금융",
+   "name": "우리금융지주",
    "code": "316140",
    "primary": true,
    "broker": "iM증권",
@@ -35133,7 +35255,7 @@
  "hk_654398": [
   {
    "stock_id": "316140",
-   "name": "우리금융",
+   "name": "우리금융지주",
    "code": "316140",
    "primary": true,
    "broker": "iM증권",
@@ -35261,6 +35383,279 @@
    "target_price": 97000.0,
    "price": 35250.0,
    "upside_pct": 175.2,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654427": [
+  {
+   "stock_id": "441270",
+   "name": "파인엠텍",
+   "code": "441270",
+   "primary": true,
+   "broker": "메리츠증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 13000.0,
+   "price": 5950.0,
+   "upside_pct": 118.5,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 15000.0,
+    "tp_to": 13000.0,
+    "tp_pct": -13.3,
+    "prev_date": "2026-10-12"
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654433": [
+  {
+   "stock_id": "316140",
+   "name": "우리금융지주",
+   "code": "316140",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 43000.0,
+   "price": 31650.0,
+   "upside_pct": 35.9,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654434": [
+  {
+   "stock_id": "105560",
+   "name": "KB금융",
+   "code": "105560",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 213000.0,
+   "price": 152400.0,
+   "upside_pct": 39.8,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654435": [
+  {
+   "stock_id": "034230",
+   "name": "파라다이스",
+   "code": "034230",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 25000.0,
+   "price": 11300.0,
+   "upside_pct": 121.2,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654436": [
+  {
+   "stock_id": "032350",
+   "name": "롯데관광개발",
+   "code": "032350",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 25000.0,
+   "price": 10360.0,
+   "upside_pct": 141.3,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 31000.0,
+    "tp_to": 25000.0,
+    "tp_pct": -19.4,
+    "prev_date": null
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654463": [
+  {
+   "stock_id": "185750",
+   "name": "종근당",
+   "code": "185750",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 97000.0,
+   "price": 62100.0,
+   "upside_pct": 56.2,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 120000.0,
+    "tp_to": 97000.0,
+    "tp_pct": -19.2,
+    "prev_date": null
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654464": [
+  {
+   "stock_id": "033270",
+   "name": "유나이티드제약",
+   "code": "033270",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 27000.0,
+   "price": 16310.0,
+   "upside_pct": 65.5,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654465": [
+  {
+   "stock_id": "189300",
+   "name": "인텔리안테크",
+   "code": "189300",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 100000.0,
+   "price": 41050.0,
+   "upside_pct": 143.6,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 180000.0,
+    "tp_to": 100000.0,
+    "tp_pct": -44.4,
+    "prev_date": null
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654471": [
+  {
+   "stock_id": "001430",
+   "name": "세아베스틸지주",
+   "code": "001430",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 45000.0,
+   "price": 31850.0,
+   "upside_pct": 41.3,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654472": [
+  {
+   "stock_id": "005490",
+   "name": "POSCO홀딩스",
+   "code": "005490",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 400000.0,
+   "price": 259500.0,
+   "upside_pct": 54.1,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654473": [
+  {
+   "stock_id": "010130",
+   "name": "고려아연",
+   "code": "010130",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1250000.0,
+   "price": 792000.0,
+   "upside_pct": 57.8,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654474": [
+  {
+   "stock_id": "003490",
+   "name": "대한항공",
+   "code": "003490",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 40000.0,
+   "price": 28950.0,
+   "upside_pct": 38.2,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654475": [
+  {
+   "stock_id": "000120",
+   "name": "CJ대한통운",
+   "code": "000120",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 100000.0,
+   "price": 72200.0,
+   "upside_pct": 38.5,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 110000.0,
+    "tp_to": 100000.0,
+    "tp_pct": -9.1,
+    "prev_date": null
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654476": [
+  {
+   "stock_id": "028670",
+   "name": "팬오션",
+   "code": "028670",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 8500.0,
+   "price": 6030.0,
+   "upside_pct": 41.0,
    "rating_change": null,
    "estimate_revisions": [],
    "gap": null
@@ -38006,6 +38401,23 @@
    "primary": true,
    "broker": "미래에셋증권",
    "rating": "매수",
+   "rating_status": null,
+   "target_price": null,
+   "price": null,
+   "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "mirae_2344488": [
+  {
+   "stock_id": "089590",
+   "name": "제주항공",
+   "code": "089590",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "중립",
    "rating_status": null,
    "target_price": null,
    "price": null,

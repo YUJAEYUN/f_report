@@ -19,5 +19,35 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "mirae_2344484",
-  "text_chars": 201
+  "text_chars": 201,
+  "summary": {
+    "one_liner": "국내 AI 데이터센터(DC) 관련 우려가 과도하다는 시각에서 인터넷/소프트웨어 업종 비중 확대를 제시한 리포트(본문 추출 불완전으로 세부 내용 확인 불가).",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "제목 기준: 국내 AI DC 관련 우려는 과도하다는 판단",
+      "제목 기준: 인터넷/소프트웨어 업종 비중 확대 기회로 제시",
+      "본문에는 NHN, 삼성에스디에스, LG씨엔에스 등 종목의 주가(원) 차트 라벨만 확인됨",
+      "수치·근거·투자의견 등 세부 내용은 추출된 본문에 없음"
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "제공된 본문에서는 구체적 변화 내용을 확인할 수 없고, 제목상 국내 AI DC 관련 우려가 과도하다는 점이 강조된 변화로 읽힌다.",
+    "implication": "제목의 논리대로라면 AI DC 우려로 위축된 국내 인터넷·소프트웨어(및 IT서비스) 업종에 대한 시각을 재평가할 필요가 있다는 의미이나, 근거가 본문에 없어 더 이상의 해석은 어렵다.",
+    "watch_points": [
+      "원문 전체 확인 후 AI DC 우려의 구체적 내용과 반박 근거 검토"
+    ]
+  },
+  "summarized_at": "2026-11-24T05:49:48+09:00",
+  "desk": "시황·전략",
+  "industries": [
+    "소프트웨어·AI"
+  ],
+  "themes": [
+    "AI 인프라 투자 사이클"
+  ],
+  "tagged_at": "2026-11-24T05:49:48+09:00"
 }

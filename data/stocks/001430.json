@@ -128,6 +128,15 @@
    "report_id": "hana_1289610",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-23",
+   "rating": "매수",
+   "target_price": 45000.0,
+   "source": "report",
+   "report_id": "hk_654471",
+   "tp_status": "유지",
+   "broker": "iM증권"
   }
  ],
  "notes": [
@@ -413,6 +422,22 @@
     "consensus": 129.5,
     "gap_pct": 2.9
    }
+  },
+  {
+   "date": "2026-11-23",
+   "report_id": "hk_654471",
+   "title": "세아베스틸지주(001430) 27년 업종 최선호주 유지",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 45000.0,
+   "tp_status": "유지",
+   "price": 31850.0,
+   "upside_pct": 41.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -923,6 +948,19 @@
   },
   {
    "date": "2026-11-12",
+   "mean": 54117,
+   "n": 6,
+   "brokers": {
+    "LS증권": 50000.0,
+    "iM증권": 45000.0,
+    "대신증권": 61700.0,
+    "상상인증권": 62000.0,
+    "유진투자증권": 56000.0,
+    "하나증권": 50000.0
+   }
+  },
+  {
+   "date": "2026-11-23",
    "mean": 54117,
    "n": 6,
    "brokers": {

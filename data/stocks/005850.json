@@ -66,9 +66,9 @@
    "date": "2026-11-23",
    "rating": "매수",
    "target_price": 60000.0,
-   "source": "table",
-   "report_id": "hana_1289738",
-   "tp_status": null,
+   "source": "report",
+   "report_id": "hana_1289763",
+   "tp_status": "하향",
    "broker": "하나증권"
   }
  ],
@@ -101,6 +101,55 @@
    "report_id": "hana_1289738",
    "title": "에스엘(005850.KS/매수): 실적도 바닥, 밸류에이션도 바닥",
    "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 60000.0,
+   "tp_status": "하향",
+   "price": 35600.0,
+   "upside_pct": 68.5,
+   "estimates": {
+    "2026": {
+     "revenue": 5590.4,
+     "op": 381.9,
+     "net": 294.9,
+     "eps": 6350.0
+    },
+    "2027": {
+     "revenue": 5899.6,
+     "op": 401.5,
+     "net": 345.7,
+     "eps": 7443.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 5554.8,
+     "op": 424.9,
+     "net": 356.8,
+     "eps": 7399.0
+    },
+    "2027": {
+     "revenue": 5911.5,
+     "op": 439.8,
+     "net": 374.3,
+     "eps": 7754.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 381.9,
+    "consensus": 424.9,
+    "gap_pct": -10.1
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "report_id": "hana_1289763",
+   "title": "하루에 하나 1123",
+   "primary": false,
    "broker": "하나증권",
    "rating": "매수",
    "rating_status": "유지",

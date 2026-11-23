@@ -183,6 +183,15 @@
    "report_id": "hana_1289550",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-23",
+   "rating": "매수",
+   "target_price": 40000.0,
+   "source": "report",
+   "report_id": "hk_654474",
+   "tp_status": "유지",
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -477,6 +486,22 @@
     "consensus": 673.4,
     "gap_pct": -20.2
    }
+  },
+  {
+   "date": "2026-11-23",
+   "report_id": "hk_654474",
+   "title": "대한항공(003490) 유가 부담 완화와 합병 시너지 본격화",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 40000.0,
+   "tp_status": "유지",
+   "price": 28950.0,
+   "upside_pct": 38.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -1185,6 +1210,19 @@
   },
   {
    "date": "2026-11-09",
+   "mean": 40667,
+   "n": 6,
+   "brokers": {
+    "LS증권": 40000.0,
+    "iM증권": 40000.0,
+    "상상인증권": 40000.0,
+    "유안타증권": 40000.0,
+    "하나증권": 41000.0,
+    "한화투자증권": 43000.0
+   }
+  },
+  {
+   "date": "2026-11-23",
    "mean": 40667,
    "n": 6,
    "brokers": {

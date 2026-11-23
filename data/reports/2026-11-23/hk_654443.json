@@ -19,5 +19,47 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hk_654443",
-  "text_chars": 26283
+  "text_chars": 26283,
+  "summary": {
+    "one_liner": "2027년 AI 서버 수급·Consumer Agent(Meta Muse)·Bio Agent 3대 키워드를 Good/Neutral/Bad 시나리오로 정리하며, 세계 AI DC 용량이 2025년 말 31GW에서 2027년 말 102GW로 늘 때 신규 서버가 요구하는 임대 매출을 채울 수요처가 관건이라고 진단한 해외주식 연간전망.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "세계 AI DC 용량은 2025년 말 약 31GW, 2026년 말 약 60GW, 2027년 말 약 102GW로 추정되며 2027년 신규 약 42GW는 2025년 말까지 쌓인 전체 용량보다 크다. 세대 교체로 GW당 토큰이 늘어 GW는 약 1.7배, 접근 가능한 토큰은 약 3.2배 증가한다.",
+      "공급 변수는 인허가(블루웨이브로 미착공 2028년분 5~10GW 이연 추정), 서버 사업자 자금(CoreWeave CDS 1,100bp 초과, 외부 조달 의존 증설분 약 12GW·29%), 부품·전력이다.",
+      "Anthropic S-1/A 기준 컴퓨트 비용 $1당 매출이 2Q26 $2.08에서 3Q26 $1.72로 처음 꺾였고, 2027년 컴퓨트 지출 $65B 가정 시 비율 유지에 필요한 매출은 약 $111~135B이다. Labs의 상장·조달 규모가 서버 수요의 첫 확인 지점이다.",
+      "2027년 신규 서버의 외부 판매분(약 23GW)이 요구하는 임대 매출은 연 약 $315B로 기존 임대 매출($180B)의 1.7배이며, 전방 매출은 2027년 말 $525B~$1,049B가 필요해 현재 확인된 Anthropic·OpenAI 약 $131B의 4~8배 수준이다.",
+      "Meta Muse의 2028년 말 ARR은 Bad $1.9B / Neutral $40B / Good $193B 시나리오이며, Neutral만으로는 Meta 신규 서버 내재 임대료(약 $123B)에 못 미친다. Muse 정착이 늦어지면 Meta 서버의 외부 임대 가능성이 서버 수급과 연결된다."
+    ],
+    "risk_factors": [
+      "신규 데이터센터 승인 유예 등 인허가 지연",
+      "네오클라우드 조달 금리 상승 및 Nvidia 주도 Financing Platform 약화(CEO 거취 불확실성 포함)",
+      "메모리·패키징·전력 기자재 병목으로 인한 가동 지연",
+      "Anthropic·OpenAI 상장 지연 또는 조달 규모 축소에 따른 서버 인도 속도 조절",
+      "Muse 쇼핑 정착 실패 및 Amazon의 접근 차단에 따른 수수료 모델 제약",
+      "Bio Agent 확산 시 일부 장비·시약 수요 감소 논쟁"
+    ]
+  },
+  "insight": {
+    "change": "시장의 질문이 '서버를 얼마나 빨리 지을 수 있느냐'(공급)에서 '계획한 서버가 실제 지어지는지, 쏟아지는 토큰을 누가 쓰는지'(수요 검증)로 옮겨 간다는 점을 이 리포트가 강조한다.",
+    "implication": "원문 논리상 서버 증설은 임대료에, 임대료는 전방 매출(Labs·Enterprise·Consumer Agent)이 임대 매출 1~2배를 채우는지에 달려 있다. 따라서 HW 물량 전망 자체보다 새 수요처의 개화 속도와 Labs·네오클라우드의 자금 조달이 2027년 AI 밸류체인 해석의 핵심 변수가 된다.",
+    "watch_points": [
+      "Anthropic·OpenAI 상장 성사 여부와 조달 규모, Labs Run-rate 및 컴퓨트 $1당 매출",
+      "단기 임대료 추이와 네오클라우드 조달 금리(CoreWeave CDS 등)",
+      "Meta Muse MAU·쇼핑 이용률과 Enterprise 토큰 지출 재가속 여부"
+    ]
+  },
+  "summarized_at": "2026-11-24T05:52:17+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "반도체"
+  ],
+  "themes": [
+    "AI 인프라 투자 사이클",
+    "메타 뮤즈 AI 에이전트",
+    "앤트로픽 IPO"
+  ],
+  "tagged_at": "2026-11-24T05:52:17+09:00"
 }

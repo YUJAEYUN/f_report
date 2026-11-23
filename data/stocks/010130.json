@@ -34,6 +34,15 @@
    "report_id": "hk_653837",
    "tp_status": "하향",
    "broker": "한화투자증권"
+  },
+  {
+   "date": "2026-11-23",
+   "rating": "매수",
+   "target_price": 1250000.0,
+   "source": "report",
+   "report_id": "hk_654473",
+   "tp_status": "유지",
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -85,6 +94,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-23",
+   "report_id": "hk_654473",
+   "title": "고려아연(010130) 본격 성장은 28년 이후, 중장기 최선호주",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 1250000.0,
+   "tp_status": "유지",
+   "price": 792000.0,
+   "upside_pct": 57.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -115,6 +140,15 @@
   },
   {
    "date": "2026-11-06",
+   "mean": 1260000,
+   "n": 2,
+   "brokers": {
+    "iM증권": 1250000.0,
+    "한화투자증권": 1270000.0
+   }
+  },
+  {
+   "date": "2026-11-23",
    "mean": 1260000,
    "n": 2,
    "brokers": {

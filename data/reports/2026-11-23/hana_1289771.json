@@ -19,5 +19,37 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hana_1289771",
-  "text_chars": 2630
+  "text_chars": 2630,
+  "summary": {
+    "one_liner": "자체 LLM을 상용화하는 글로벌 기업에 투자하는 TIGER 글로벌 LLM 액티브 ETF가 11/24 신규 상장하며, 비교지수는 Core/Enabled LLM 구분과 종목별 비중 상한을 적용한다.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "미국·중국·홍콩·한국 등 상장 기업 중 모델 사용권, API 이용료, 기업용 플랫폼, 소비자 구독으로 매출을 내는 자체 LLM 보유 기업이 투자 대상이다.",
+      "비교지수(Mirae Asset Global LLM Index)는 자체 LLM 상용화 매출 비중 50% 이상이면 Core LLM, 50% 미만이면 Enabled LLM으로 구분하며, 외부 모델 활용 매출은 상용화 매출에서 제외한다.",
+      "신규 편입은 시총 10억달러 및 일평균 거래대금 1,000만달러 이상이며, 기존 종목은 8억달러·800만달러 기준으로 자격을 유지한다. Core LLM 우선 최대 20개를 편입하고 부족하면 Enabled LLM으로 채우며, 현재 약 20개 종목으로 구성된다.",
+      "그룹별 비중을 먼저 정한 뒤 그룹 내 시총가중으로 배분하고, 종목당 상한은 Core LLM 15%, Enabled LLM 5%이다.",
+      "리밸런싱은 연 2회(2월·8월 마지막 영업일)이며, ETF는 비교지수와 상관계수 0.7 유지 조건의 액티브 운용으로 총보수는 연 0.79%이다."
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "AI 테마 ETF 중에서도 자체 LLM의 상용화 매출 비중을 기준으로 기업을 Core/Enabled로 나누고, 외부 모델 활용 매출은 제외하는 방식의 상품이 새로 상장된다.",
+    "implication": "AI 투자 대상을 단순한 AI 수혜 기업이 아니라 자체 모델로 실제 매출을 내는 기업으로 좁히려는 구조이며, 이는 LLM 상용화가 투자 상품의 분류 기준이 될 만큼 가시화되고 있음을 보여 준다.",
+    "watch_points": [
+      "비교지수 내 Core LLM 기업 수와 그룹별 비중 변화",
+      "2월·8월 정기 리밸런싱에서의 편입·편출 종목",
+      "상장 이후 ETF 자금 유입 추이"
+    ]
+  },
+  "summarized_at": "2026-11-24T05:49:15+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [
+    "신규 ETF 상장",
+    "AI 모델 수익화 경쟁"
+  ],
+  "tagged_at": "2026-11-24T05:49:15+09:00"
 }

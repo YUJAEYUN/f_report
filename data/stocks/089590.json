@@ -5,6 +5,7 @@
  "industry": "운송",
  "brokers": [
   "iM증권",
+  "미래에셋증권",
   "하나증권",
   "한화투자증권"
  ],
@@ -98,6 +99,15 @@
    "report_id": "hana_1289697",
    "tp_status": "상향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-23",
+   "rating": "중립",
+   "target_price": null,
+   "source": "report",
+   "report_id": "mirae_2344488",
+   "tp_status": null,
+   "broker": "미래에셋증권"
   }
  ],
  "notes": [
@@ -433,6 +443,22 @@
     "consensus": 74.5,
     "gap_pct": 35.3
    }
+  },
+  {
+   "date": "2026-11-23",
+   "report_id": "mirae_2344488",
+   "title": "제주항공 (089590/중립): 성수기 흑자 전환, 결손금도 털었다",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -1023,6 +1049,16 @@
   },
   {
    "date": "2026-11-19",
+   "mean": 9000,
+   "n": 3,
+   "brokers": {
+    "iM증권": 8000.0,
+    "하나증권": 10000.0,
+    "한화투자증권": 9000.0
+   }
+  },
+  {
+   "date": "2026-11-23",
    "mean": 9000,
    "n": 3,
    "brokers": {
