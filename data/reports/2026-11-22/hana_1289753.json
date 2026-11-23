@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2220",
+  "bbs_seq": "1289753",
+  "report_type": "individual",
+  "title": "전기전자(Overweight): 2027년 전망 - 의심하지 말지어다",
+  "analyst": "김민경",
+  "published_date": "2026-11-22",
+  "published_time": "15:56:10",
+  "category": "산업분석",
+  "breadcrumb": "산업/기업 > 산업분석",
+  "preview_text": "1. AI 수요 재차 확인\n\n현금흐름 악화에도 AI Capex 확대 지속\n전략적 중요도가 높아지고 있는 AI 부품\nAI 반도체 성능 고도화 및 플랫폼 전환 주기 단축이 핵심 부품망의 높은 점유율 확보에 유리한 환경 지속\n\n2. Set 수요는 양극화\n\nAI 데이터센터향 출하 기반 GPU, ASIC, 서버 CPU는 견조한 성장 전망\n반면 2026년 낮은 기저에도 불구하고 메모리 가격 상승에 따른 판가인상은 스마트폰 수요 회복은 제한적\n메모리 가격 상승 부담을 기타 부품 가격 인하를 통해 상쇄하며 모바일 부품사 판가 인하 압박 확대 우려\n\n3. IT 부품 시장 전망\n\n1) MLCC\n2027년 Murata, 삼성전기는 25%의 생산능력 확대 계획하고 있으나 생산수율 고려시 공급 증가는 제한적\n랙 내부에 실장되는 초소형 고용량 제품군은 여전히 Murata와 삼성전기만 공급 가능\n\n2)패키지기판\n글로벌 기판 업체들의 공격적 증설에도 불구하고 패키지 기판의 대면적화, 고다층화 및 부품 실장 난이도 상승은 실질 공급 증가량을 제한하는 요인으로 작용\n고부가 FCBGA 공급부족이 전 수요처로 확산되고 있어 PC, 전장 등 저수익성 제품군에 대한 판가인상으로 확산\n\n상위 기판 업체들의 FCBGA 집중으로 BT 기판에 대한 타이트한 수급 상황 전개\n비메모리 FCCSP 판가인상 상반기 시작되었으며 연내 메모리 패키지 기판 판가인상 전망\n2027년 메모리 3사 합산 일반 DRAM Capa는 전년대비 8% 수준인 100k 증가\n메모리 패키지 기판에 대한 수급을 더욱 타이트하게 만드는 요인으로 작용\n과거 심텍은 메모리 패키지 기판 공급 공시 이후 가파른 이익률 상승을 경험한 바 있음\n\n3)MLB\n2027년 네트워크 스위치와 AI 가속기의 다중적층 MLB 본격화\nCapa Loss 증가가 가파른 ASP 상승 요인으로 작용할 전망\n\n4. Top picks\n삼성전기(009150)\n이수페타시스(007660)\n심텍(222800)",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289753&attachFileSeq=1&bbsId=&dbType=&bbsCd=2220",
+  "pdf_filename": "MK_Forum_2027_Fn.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2220&bbsSeq=1289753",
+  "collected_at": "2026-11-23T20:39:07+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289753",
+  "text_chars": 14357
+}

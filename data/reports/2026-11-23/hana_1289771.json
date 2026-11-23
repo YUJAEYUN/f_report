@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "1260",
+  "bbs_seq": "1289771",
+  "report_type": "individual",
+  "title": "[New K-ETF] 글로벌 LLM 액티브",
+  "analyst": "박승진",
+  "published_date": "2026-11-23",
+  "published_time": "08:23:16",
+  "category": "글로벌 투자전략",
+  "breadcrumb": "해외주식 > 글로벌 투자전략",
+  "preview_text": "▣ 신규 상장 ETF(11/24): TIGER 글로벌 LLM 액티브\n\n◎ TIGER 글로벌 LLM 액티브 ETF\n\n- 자체 거대언어모델(LLM)을 상용화해 라이선스API 이용료구독료 등으로 매출을 창출하는 글로벌 기업에 투자하는 액티브 ETF. 자체 모델을 주력 사업으로 하는 AI 전문기업과 기존 제품서비스에 자체 모델을 적용하는 기술기업에 함께 투자\n\n- 비교지수는 Mirae Asset Global LLM Index. 자체 모델 상용화 매출 비중이 50% 이상인 Core LLM 기업을 시가총액 순으로 우선 편입하고, 20개에 미달하면 해당 매출 비중이 50% 미만인 Enabled LLM 기업을 시가총액 순으로 추가. 2026년 10월 말 기준 20개 종목으로 구성\n\n- Core LLM 종목 수가 많을수록 해당 그룹에 높은 비중을 배분하고, 나머지는 Enabled LLM 그룹에 배정. 각 그룹 내에서는 시가총액 가중방식을 적용하며, 개별 종목 비중 상한은 Core LLM 15%, Enabled LLM 5%가 원칙\n\n- 비교지수는 연 2회(2월/8월 마지막 영업일)에 걸쳐 정기 리밸런싱 진행. 실제 ETF는 비교지수와의 상관계수를 0.7 이상으로 유지하는 범위에서 편입 종목과 비중을 조정해 초과수익 추구",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289771&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
+  "pdf_filename": "New_K_ETF_261123 TIGER LLM.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=1260&bbsSeq=1289771",
+  "collected_at": "2026-11-23T20:37:34+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289771",
+  "text_chars": 2630
+}

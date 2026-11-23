@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "4002",
+  "bbs_seq": "1289758",
+  "report_type": "individual",
+  "title": "[HANA US Weekly] AMD 공매도 논란: 순환금융보다 중국 수출통제가 관건",
+  "analyst": "강재구",
+  "published_date": "2026-11-22",
+  "published_time": "17:47:40",
+  "category": "글로벌 산업분석",
+  "breadcrumb": "해외주식 > 글로벌 산업분석",
+  "preview_text": "- AI 투자심리 악화 속 구조적 수요 둔화 우려 확대, 실제 수요와 정책 위험은 구분할 필요\n- AI 투자심리 악화 속 AMD 공매도 보고서가 재무건전성과 중국 사업에 대한 우려 증폭\n- 순환금융 관련 재무 우려는 과도한 측면이 있지만 중국 수출통제는 성장의 핵심 변수\n- 현재까지 AMD의 중장기 성장 전망을 변경할 근거는 부족: 향후 중국향 GPU서버 CPU 수출허가와 잉여현금흐름 개선 여부를 지속 점검 필요\n\n- 지난주(11월 16일~11월 20일) 리뷰: 나스닥 급락, 위험회피 확산\n- 이번 주(11월 23일~11월 27일) 프리뷰: AI 서버 수요와 수출규제 영향, 물가 부담에 주목",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289758&attachFileSeq=1&bbsId=&dbType=&bbsCd=4002",
+  "pdf_filename": "USweekly_1123_ff.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=4002&bbsSeq=1289758",
+  "collected_at": "2026-11-23T20:39:07+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289758",
+  "text_chars": 21977
+}
