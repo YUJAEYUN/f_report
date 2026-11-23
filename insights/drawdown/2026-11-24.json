@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-24",
+  "window": [
+    "2026-11-20",
+    "2026-11-24"
+  ],
+  "trigger": [
+    {
+      "report_id": "hk_654419",
+      "published_date": "2026-11-23",
+      "broker": "대신증권",
+      "title": "morning meeting brief",
+      "match": "KOSPI 급락"
+    },
+    {
+      "report_id": "hk_654430",
+      "published_date": "2026-11-23",
+      "broker": "상상인증권",
+      "title": "상상인 Macro Daily",
+      "match": "사이드카"
+    },
+    {
+      "report_id": "hk_654459",
+      "published_date": "2026-11-23",
+      "broker": "SK증권",
+      "title": "wake up! 아침에 슼",
+      "match": "지수가 급락"
+    },
+    {
+      "report_id": "hk_654460",
+      "published_date": "2026-11-23",
+      "broker": "LS증권",
+      "title": "투매 이면의 금리 안정과 정책 안전판, 지금 가격이라면 공포는 지양",
+      "match": "투매"
+    },
+    {
+      "report_id": "hk_654479",
+      "published_date": "2026-11-23",
+      "broker": "IBK투자증권",
+      "title": "start with ibks",
+      "match": "사이드카"
+    },
+    {
+      "report_id": "mirae_2344461",
+      "published_date": "2026-11-23",
+      "broker": "미래에셋증권",
+      "title": "글로벌 마켓 브리핑(11월 23일): 반도체지수 10% 급락, 변동성지수 26% 급등",
+      "match": "지수 10% 급락"
+    },
+    {
+      "report_id": "mirae_2344489",
+      "published_date": "2026-11-23",
+      "broker": "미래에셋증권",
+      "title": "한국&중국 마켓 클로징(11월 23일): 코스피, 4700선 턱걸이",
+      "match": "사이드카"
+    },
+    {
+      "report_id": "hana_1289763",
+      "published_date": "2026-11-23",
+      "broker": "하나증권",
+      "title": "하루에 하나 1123",
+      "match": "코스피 -47% 급락"
+    },
+    {
+      "report_id": "hana_1289772",
+      "published_date": "2026-11-23",
+      "broker": "하나증권",
+      "title": "Hana Global Guru Eye",
+      "match": "투매"
+    },
+    {
+      "report_id": "hana_1289776",
+      "published_date": "2026-11-23",
+      "broker": "하나증권",
+      "title": "시장 대응 긴급 코멘트(26.11.23)",
+      "match": "사이드카"
+    }
+  ],
+  "report_ids": {
+    "market": [
+      "hana_1289783",
+      "hana_1289776",
+      "hana_1289769",
+      "hana_1289767",
+      "hana_1289766",
+      "hana_1289765",
+      "hana_1289764",
+      "mirae_2344464",
+      "hk_654479",
+      "hk_654461",
+      "hk_654460",
+      "hk_654459",
+      "hk_654458",
+      "hk_654424",
+      "hana_1289722",
+      "hana_1289721",
+      "hana_1289720",
+      "hana_1289719",
+      "hana_1289718",
+      "hana_1289717",
+      "hana_1289716",
+      "hana_1289714",
+      "hana_1289713",
+      "hana_1289712",
+      "hk_654414",
+      "hk_654411",
+      "hk_654410",
+      "hk_654393"
+    ],
+    "daily": [
+      "hana_1289788",
+      "hana_1289772",
+      "hana_1289768",
+      "hana_1289763",
+      "mirae_2344489",
+      "mirae_2344471",
+      "mirae_2344461",
+      "hk_654478",
+      "hk_654430",
+      "hk_654419",
+      "hana_1289715",
+      "hana_1289710",
+      "hana_1289709",
+      "hana_1289708",
+      "mirae_2344445"
+    ],
+    "industry": [
+      "hana_1289784",
+      "hana_1289780",
+      "hk_654477",
+      "hk_654474",
+      "hk_654469",
+      "hk_654468",
+      "hk_654446",
+      "hk_654445",
+      "hk_654440",
+      "hana_1289762",
+      "hana_1289760",
+      "hana_1289749",
+      "hana_1289748",
+      "hana_1289729",
+      "hk_654404"
+    ]
+  },
+  "memo_used": false,
+  "previous": "2026-11-03",
+  "model": "claude-opus-5-5",
+  "generated_at": "2026-11-24T06:04:54+09:00"
+}
