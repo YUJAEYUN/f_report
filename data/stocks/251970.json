@@ -30,6 +30,15 @@
    "broker": "하나증권"
   },
   {
+   "date": "2024-02-04",
+   "rating": "NR",
+   "target_price": null,
+   "source": "table",
+   "report_id": null,
+   "tp_status": null,
+   "broker": "하나증권"
+  },
+  {
    "date": "2026-07-03",
    "rating": "NR",
    "target_price": null,
@@ -155,6 +164,11 @@
   },
   {
    "date": "2024-11-10",
+   "note": "년 경과",
+   "broker": "하나증권"
+  },
+  {
+   "date": "2025-02-04",
    "note": "년 경과",
    "broker": "하나증권"
   },

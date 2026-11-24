@@ -98,6 +98,15 @@
    "report_id": "hk_653680",
    "tp_status": "하향",
    "broker": "IBK투자증권"
+  },
+  {
+   "date": "2026-11-24",
+   "rating": "매수",
+   "target_price": 200000.0,
+   "source": "report",
+   "report_id": "hk_654498",
+   "tp_status": null,
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -231,6 +240,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 300000.0
+  },
+  {
+   "date": "2026-11-24",
+   "report_id": "hk_654498",
+   "title": "HS효성첨단소재(298050) BTM 발전의 숨겨진 수혜, 탄소섬유",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 200000.0,
+   "tp_status": null,
+   "price": 149800.0,
+   "upside_pct": 33.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -392,6 +417,16 @@
   },
   {
    "date": "2026-11-03",
+   "mean": 220000,
+   "n": 3,
+   "brokers": {
+    "IBK투자증권": 240000.0,
+    "iM증권": 200000.0,
+    "하나증권": 220000.0
+   }
+  },
+  {
+   "date": "2026-11-24",
    "mean": 220000,
    "n": 3,
    "brokers": {

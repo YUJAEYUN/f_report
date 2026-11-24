@@ -19,5 +19,43 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hana_1289801",
-  "text_chars": 5985
+  "text_chars": 5985,
+  "summary": {
+    "one_liner": "AI RAN 도입 확산 시 기지국 DU엔 GPU, RU엔 Massive MIMO가 들어갈 전망이며, 5G/6G 진화에 따른 AI 기지국 설치 본격화로 KMW·RFHIC·LIG아큐버를 최대 수혜주로 제시",
+    "ticker": null,
+    "rating": "Overweight",
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "AI 기지국은 RU·DU에서 GPU 등 연산 자원을 활용해 지연을 줄이고 통신과 AI 기능을 함께 운영하는 구조로, 5G/6G의 투자 목적이 되며 도입·확산 가능성이 높아지고 있음",
+      "통신사는 초기 투자 부담이 크지만 AI 기지국 도입을 통해 규제 완화, 매출 성장, 요금 업셀링을 시도할 수 있어 도입 유인이 있음",
+      "DU에는 엔비디아 GPU 탑재 가능성이 높고(엔비디아의 노키아 지분 취득, Nokia AI-RAN 플랫폼 추진), NPU·CPU+NPU 등 대안도 거론되어 삼성전자 수혜도 예상됨",
+      "5G 초기 RU 투자가 크지 않았던 만큼 RU 쪽 변화 폭도 클 전망이며, 국내외 모두 Massive MIMO 채택 비율은 전체 기지국의 30% 수준으로 추정되어 2027년 이후 투자 본격화 전망",
+      "최대 수혜주로 안테나/필터의 KMW, 전력 증폭기의 RFHIC, 망 테스트 장비의 LIG아큐버를 제시하고 KMW를 국내 통신장비 Top pick으로 선정"
+    ],
+    "risk_factors": [
+      "AI RAN 도입 시 DU 연산 자원이 GPU 외에 NPU, CPU+NPU 이종 컴퓨팅, 전용 CPU 등으로 분산될 가능성",
+      "통신사의 초기 투자 비용 부담이 커 AI 기지국 도입·확산 속도가 늦어질 수 있음",
+      "Massive MIMO가 64TX64R로 진화하기까지 갈 길이 멀고 현재 채택 비율이 낮아 투자 본격화 시점이 지연될 수 있음"
+    ]
+  },
+  "insight": {
+    "change": "AI RAN 논의에서 투자자들이 주로 DU 변화에 주목해 온 것과 달리, 이 리포트는 5G 초기 RU 투자가 적었던 만큼 RU(Massive MIMO) 쪽 변화 폭도 클 것이라는 점을 강조한다.",
+    "implication": "AI 기지국이 5G/6G의 투자 목적으로 자리 잡으면 수혜 범위가 GPU 등 DU 연산 부문에 그치지 않고 안테나·필터·전력증폭기·테스트 장비 등 RU 및 망 구축 부품·장비로 넓어진다는 해석이며, Massive MIMO 채택 비율이 30% 수준으로 낮아 증설 여지가 크다는 논리다.",
+    "watch_points": [
+      "엔비디아·노키아 AI-RAN 플랫폼의 상용 도입 및 통신사 채택 사례",
+      "국내외 기지국 중 Massive MIMO 채택 비율 변화와 2027년 이후 통신사 투자 집행 여부",
+      "DU 연산 구조에서 GPU 대비 NPU·CPU+NPU 등 대안 방식의 채택 동향"
+    ]
+  },
+  "summarized_at": "2026-11-25T04:50:07+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "통신장비"
+  ],
+  "themes": [
+    "AI 기지국·데이터센터",
+    "5G 요금제·주파수 개편"
+  ],
+  "tagged_at": "2026-11-25T04:50:07+09:00"
 }

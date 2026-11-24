@@ -4,7 +4,8 @@
  "name": "코미코",
  "industry": "반도체",
  "brokers": [
-  "SK증권"
+  "SK증권",
+  "유안타증권"
  ],
  "timeline": [
   {
@@ -15,6 +16,15 @@
    "report_id": "hk_652476",
    "tp_status": "유지",
    "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-24",
+   "rating": "매수",
+   "target_price": 23000.0,
+   "source": "report",
+   "report_id": "hk_654513",
+   "tp_status": null,
+   "broker": "유안타증권"
   }
  ],
  "notes": [],
@@ -34,6 +44,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-24",
+   "report_id": "hk_654513",
+   "title": "코미코(183300) 투자 부담의 정점 통과, 증설 효과 가시화 국면",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 23000.0,
+   "tp_status": null,
+   "price": 16670.0,
+   "upside_pct": 38.0,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -46,6 +72,15 @@
    "n": 1,
    "brokers": {
     "SK증권": 40000.0
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "mean": 31500,
+   "n": 2,
+   "brokers": {
+    "SK증권": 40000.0,
+    "유안타증권": 23000.0
    }
   }
  ],

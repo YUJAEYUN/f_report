@@ -193,6 +193,15 @@
    "report_id": "hana_1289779",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-24",
+   "rating": "매수",
+   "target_price": 70000.0,
+   "source": "report",
+   "report_id": "hk_654503",
+   "tp_status": "유지",
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -618,6 +627,22 @@
     "consensus": 2039.9,
     "gap_pct": -1.7
    }
+  },
+  {
+   "date": "2026-11-24",
+   "report_id": "hk_654503",
+   "title": "KT(030200) 27년, 본업 회복 및 KT Cloud 성장 기대",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 70000.0,
+   "tp_status": "유지",
+   "price": 43900.0,
+   "upside_pct": 59.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -1382,6 +1407,20 @@
   },
   {
    "date": "2026-11-23",
+   "mean": 73286,
+   "n": 7,
+   "brokers": {
+    "IBK투자증권": 75000.0,
+    "SK증권": 72000.0,
+    "iM증권": 70000.0,
+    "메리츠증권": 74000.0,
+    "유안타증권": 73000.0,
+    "유진투자증권": 73000.0,
+    "하나증권": 76000.0
+   }
+  },
+  {
+   "date": "2026-11-24",
    "mean": 73286,
    "n": 7,
    "brokers": {

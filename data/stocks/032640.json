@@ -193,6 +193,15 @@
    "report_id": "hana_1289781",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-24",
+   "rating": "매수",
+   "target_price": 19500.0,
+   "source": "report",
+   "report_id": "hk_654502",
+   "tp_status": "유지",
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -667,6 +676,22 @@
     "consensus": 1150.2,
     "gap_pct": -0.6
    }
+  },
+  {
+   "date": "2026-11-24",
+   "report_id": "hk_654502",
+   "title": "LG유플러스(032640) 장기 테넌트가 확보된 파주 AIDC 중심 성장 기대",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 19500.0,
+   "tp_status": "유지",
+   "price": 14720.0,
+   "upside_pct": 32.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -1410,6 +1435,20 @@
   },
   {
    "date": "2026-11-23",
+   "mean": 19786,
+   "n": 7,
+   "brokers": {
+    "IBK투자증권": 22000.0,
+    "SK증권": 19000.0,
+    "iM증권": 19500.0,
+    "메리츠증권": 18000.0,
+    "유안타증권": 21000.0,
+    "유진투자증권": 19000.0,
+    "하나증권": 20000.0
+   }
+  },
+  {
+   "date": "2026-11-24",
    "mean": 19786,
    "n": 7,
    "brokers": {
