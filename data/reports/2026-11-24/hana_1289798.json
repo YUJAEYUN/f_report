@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2206",
+  "bbs_seq": "1289798",
+  "report_type": "daily_series",
+  "title": "하나증권 글로벌 Weekly(26.11.25)",
+  "analyst": "글로벌투자분석실",
+  "published_date": "2026-11-24",
+  "published_time": "17:41:38",
+  "category": "Daily",
+  "breadcrumb": "Daily > Daily",
+  "preview_text": "[미국 증시 동향]\n- 미국 증시는 AI 투자 불안에 하락 출발, 엔비디아 호실적에도 매파적 FOMC 의사록에 따른 금리 인상 우려로 반등 제한\n- 앤트로픽 상장도 투자심리 회복에 실패하며 AI 관련주 투매 확산. 나스닥 5.28% 급락, SP500은 7거래일 연속 하락하며 고점 대비 10% 이상 조정\n- 이후 젠슨 황의 엔비디아 CEO 복귀로 분위기 반전. 엔비디아 약 31.5% 급등에 반도체AI주 동반 강세, 나스닥 6.5% 반등하며 낙폭 일부 만회\n\n[중국 증시 동향]\n- 중국 본토 증시는 젠슨 황 CEO의 사임 11일 만의 엔비디아 전격 복귀 훈풍으로 장 초반 갭상승 출발했으나, 오후 들어 차익 매물이 쏟아지며 전강후약 장세로 마감\n- 홍콩 증시는 젠슨 황의 복귀 소식에 장 초반 1% 가까이 상승 출발했으나, 미중 반도체 공급망을 둘러싼 불확실성과 국산 GPU 테마의 차익 실현 매물이 겹치며 하락 전환함\n- 중국 테크주는 계속해서 AI 관련 글로벌 증시 흐름과 동시에, 미중 반도체 공급망 이슈를 살펴볼 필요\n\n[글로벌 투자유망종목]\n- 마이크로소프트(MSFT.US), 알파벳(GOOGL.US), 마이크론 테크놀로지(MU.US), AMD(AMD.US), 필립 모리스(PM.US), RTX(RTX.US), 크라우드 스트라이크(CRWD.US), 블룸 에너지(BE.US), 비원제약(6160.HK), 커룬바이오텍(6990.HK)",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289798&attachFileSeq=1&bbsId=&dbType=&bbsCd=2206",
+  "pdf_filename": "GlobalWeekly_1125.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2206&bbsSeq=1289798",
+  "collected_at": "2026-11-24T19:43:51+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289798",
+  "text_chars": 35145
+}

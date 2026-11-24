@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2220",
+  "bbs_seq": "1289801",
+  "report_type": "individual",
+  "title": "통신장비(Overweight): 기지국 DU엔 GPU, RU엔 Massive MIMO 들어갈 것",
+  "analyst": "김홍식",
+  "published_date": "2026-11-24",
+  "published_time": "18:39:54",
+  "category": "산업분석",
+  "breadcrumb": "산업/기업 > 산업분석",
+  "preview_text": "통신장비(Overweight): 기지국 DU엔 GPU, RU엔 Massive MIMO 들어갈 것\n\n□ 5G/6G로 진화하며 AI 기지국 설치 본격화 전망, KMW/RFHIC/LIG아큐버 추천\n최근 기존 통신 기능에 AI 성능을 갖춘 AI 기지국 도입 논의가 활발하다. 기지국 안테나(RU)와 신호처리 장비(DU)에서 GPU 등 연산 자원을 활용해 지연 현상을 줄이고 통신/AI 기능을 함께 운영한다는 것이 핵심이다. AI RAN에서는 데이터를 빠르게 주고 받는 성능이 중요하며, GPU/CPU/NPU 등을 활용해 통신 기능과 AI 서비스를 동시에 처리하는 장점을 가진다. 통신사 입장에서도 AI 기지국 도입은 이점이 많다. 초기 투자 비용이 많지만 AI 기지국 도입 본격화를 통해 규제 완화와 더불어 매출 성장과 요금 업셀링을 시도할 수 있기 때문이다. AI 기지국은 5G/6G의 투자 목적이 되고 있으며 서서히 AI 활성화를 위해 도입/확산될 가능성이 높아지고 있다. 결국 AI RAN 도입 확산 수혜주는 5G/6G 활성화 수혜주가 될 전망이다. 일부 투자가들은 AI RAN 구축 시 DU의 변화에 대해 주목하는데 사실상 RU쪽의 변화 폭도 클 것으로 보인다. 5G 도입 초기 RU에 대한 투자가 크지 않았기 때문이다. 안테나/필터 업체인 KMW, 안테나 간섭을 최소화하는 전력 증폭기 담당 업체인 RFHIC, 망 테스트 장비 업체인 LIG아큐버를 최대 수혜주로 제시한다.\n\n□ 세대 진화하면서 엔비디아의 염원 GPU의 기지국 DU 탑재 이루어질 가능성 높아\nAI RAN이 본격 구축된다면 기지국 분야에 공을 들이고 있는 엔비디아의 당연한 수혜가 예상된다. AI RAN의 경우 기지국 신호 처리와 AI 연산을 통합 처리해 엣지 AI 활용도를 높이는데 GPU가 적용되기 때문이다. 그런데 최근엔 GPU 대신 NPU, CPU+NPU 이종 컴퓨팅, AI RAN 전용 CPU 또는 GPU 병행 활용도 대안으로 제시되고 있어 삼성전자 수혜도 예상된다. 이미 엔비디아는 노키아 지분 취득을 통해 연합전선 구축에 나섰으며 노키아는 Nokia AI-RAN 플랫폼을 통해 엔비디아 GPU 기반 가속 구조와 기존 장비 연계 및 클라우드형 구축 방안을 추진 중이다. 기지국 DU에 엔비디아의 GPU가 본격 탑재될 날이 멀지 않았다.\n\n□ Massive MIMO 보급률 낮음, 2027년 이후 투자 본격화될 전망\nAI RAN 도입 시 DU만큼 RU도 큰 변화가 예상된다. 5G/6G에선 최대 64개의 송신과 수신 안테나를 결합한 Massive MIMO를 적용하기 때문이다. 공간 다중화/빔포밍을 구현해 동시 접속 사용자 용량과 셀 외곽 처리량을 끌어올릴 수 있어 5G/6G 핵심 기술로 꼽힌다. 물론 Massive MIMO 기술은 5G가 도입된 2019년부터 각각 송신 16개, 수신 16개 안테나 형태로 적용되어 왔다. 그런데 투자가 많지 않았으며 64TX64R로 진화하기엔 아직 갈 길이 먼 상황이다. 여전히 국내 뿐만 아니라 미국도 전체 기지국 중 Massive MIMO 채택 비율은 30% 수준에 불과할 것으로 추정된다. KMW를 국내 통신장비 업종 Top pick으로 제시하는 이유다.",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289801&attachFileSeq=1&bbsId=&dbType=&bbsCd=2220",
+  "pdf_filename": "Telco_DURU_1124.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2220&bbsSeq=1289801",
+  "collected_at": "2026-11-24T19:43:51+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289801",
+  "text_chars": 5985
+}

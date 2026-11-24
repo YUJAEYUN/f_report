@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "1260",
+  "bbs_seq": "1289805",
+  "report_type": "individual",
+  "title": "[실전 퀀트(Quant MP)] 변동성 끝자락 시그널, VIX 고점 대비 - 25%",
+  "analyst": "이경수",
+  "published_date": "2026-11-24",
+  "published_time": "22:34:27",
+  "category": "Quant",
+  "breadcrumb": "투자전략 > Quant",
+  "preview_text": "▲ 주식 단독 변동성 확대 후 진정은 저점 시그널(신용, 채권 변동성 크지 않아)\n- 변동성은 현재 주식시장에서 1순위 모니터링 대상\n- SP500 VIX 지수는 고점 대비 -25% 수준까지 하락(11월 20일 35.89  11월 23일 26.62로 -25.8%)\n- 이번 변동성은 주식 단독 충격이라는 특징. 미국 하이일드 스프레드는 0.47%p, 채권 변동성(MOVE)은 13.9pt만 상승\n- 과거 신용과 채권이 따라오지 않은 국면은 VIX가 모두 0.7개월 안에 20 하회. 신용채권이 함께 흔들린 국면은 6개월 소요\n- VIX 고점 대비 -25% 이후 코스피200 3개월 수익률은 13번 중 12번 플러스(중앙값 +3.1%, 평소 평균 +1.9%). 평소 대비 초과 수익은 4개월째까지 높은 수준\n- 정부의 증안펀드에 대한 관심이 높아지고 있다는 보도 역시 변동성 고점에 대한 신뢰도를 높여줌\n\n▲ 변동성 완화 시그널 직후 1) 실적개선 + 개인 순매수, 2) 저평가 + 고배당 유리\n- 변동성 완화 이후 3개월까지 영업이익 1개월 상향과 밸류(저PER, 저PBR, 고배당), 개인 1개월 순매수 상위 팩터 유리\n- 4~6개월은 이익 상향 팩터만 성과 지속. 가장 나빴던 팩터는 3개월 가격 모멘텀과 시가총액 상위\n- 단기적(3개월 이내)으로 실적 개선(개인 매수 동반한) 포트폴리오와 극심한 저평가 및 고배당 포트폴리오 병행\n- ① 두산, 삼성전기, 원익IPS, 대덕전자, 심텍, 이수페타시스, 코스맥스, LS ELECTRIC\n- ② 한국금융지주, GS, 롯데쇼핑, 키움증권, HD현대, 기아, 한화생명, BNK금융지주, 한국가스공사\n- 리스크는 기준금리 인상 시기의 역금융장세와 이후 역실적장세 가능성. 변동성 지표에 주목하면서 진바닥 시기를 가늠하는 전략 필요",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289805&attachFileSeq=1&bbsId=&dbType=&bbsCd=1260",
+  "pdf_filename": "Real_Quant_MP_261125.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=1260&bbsSeq=1289805",
+  "collected_at": "2026-11-24T19:44:30+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289805",
+  "text_chars": 25976
+}
