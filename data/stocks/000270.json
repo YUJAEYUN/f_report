@@ -5,6 +5,7 @@
  "industry": "자동차·부품",
  "brokers": [
   "LS증권",
+  "SK증권",
   "iM증권",
   "메리츠증권",
   "미래에셋증권",
@@ -211,6 +212,15 @@
    "report_id": "hana_1289607",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-25",
+   "rating": "매수",
+   "target_price": 120000.0,
+   "source": "report",
+   "report_id": "hk_654544",
+   "tp_status": null,
+   "broker": "SK증권"
   }
  ],
  "notes": [],
@@ -505,6 +515,22 @@
     "consensus": 8515.7,
     "gap_pct": -1.3
    }
+  },
+  {
+   "date": "2026-11-25",
+   "report_id": "hk_654544",
+   "title": "기아(000270) 라인업 확대의 성과와 주주환원에 주목",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 120000.0,
+   "tp_status": null,
+   "price": 95600.0,
+   "upside_pct": 25.5,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -936,6 +962,22 @@
    "n": 8,
    "brokers": {
     "LS증권": 155000.0,
+    "iM증권": 150000.0,
+    "메리츠증권": 150000.0,
+    "미래에셋증권": 180000.0,
+    "유안타증권": 29000.0,
+    "유진투자증권": 160000.0,
+    "하나증권": 160000.0,
+    "한화투자증권": 210000.0
+   }
+  },
+  {
+   "date": "2026-11-25",
+   "mean": 146000,
+   "n": 9,
+   "brokers": {
+    "LS증권": 155000.0,
+    "SK증권": 120000.0,
     "iM증권": 150000.0,
     "메리츠증권": 150000.0,
     "미래에셋증권": 180000.0,

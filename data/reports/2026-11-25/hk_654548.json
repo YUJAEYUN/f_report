@@ -19,5 +19,42 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hk_654548",
-  "text_chars": 10699
+  "text_chars": 10699,
+  "summary": {
+    "one_liner": "미국 아마존 Facial Skin Care BSR 기준 K뷰티 유니버스 총점이 주간 2,353pt로 전주 대비 +568pt 개선됐으며, medicube가 805pt(+182pt)로 1위를 기록했다.",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "K뷰티 유니버스의 아마존 BSR 총점은 이번 주 2,353pt로 전주 대비 +568pt 개선됐다.",
+      "주간 평균 점수 Top3 브랜드는 medicube 805pt(+182pt), ANUA 410pt(+52pt), EQQUALBERRY 140pt(+19pt)다. 전체 1위는 medicube, 2위는 CeraVe(453pt, -131pt), 3위는 ANUA다.",
+      "점수 상승 Top3는 medicube(+182pt), COSRX(70pt→137pt, +66pt), ANUA(+52pt)이며, Kiehl's·It Cosmetics·Torriden·Mediheal 등은 전주 0pt에서 신규 진입했다.",
+      "medicube의 30일 평균(724pt)과 90일 평균(718pt)보다 이번 주 점수(805pt)가 높고, ANUA는 410pt로 30일(352pt)·90일(356pt) 평균을 상회했다.",
+      "제품 단위로는 medicube Toner Pads Zero Pore Pad 2.0이 99점으로 1위이며, medicube Collagen Jelly Cream이 20점→72점(+51)으로 변화폭이 가장 컸다."
+    ],
+    "risk_factors": [
+      "BSR은 최근 판매량에 가중치를 두는 순위 기반 지표이며 프로모션·광고에 따라 일별 변동이 커서 단기 점수 변화가 노이즈일 수 있다고 원문이 설명한다.",
+      "분석은 Facial Skin Care 카테고리 한정이며 점수가 101에서 BSR을 뺀 값이라 실제 판매액·판매량을 직접 반영하지 않는다.",
+      "K뷰티 유니버스 구성 브랜드 수가 시점마다 달라지고 추후 변경될 수 있어 총점 비교에 구성 변화가 영향을 줄 수 있다."
+    ]
+  },
+  "insight": {
+    "change": "이번 주 K뷰티 유니버스 총점이 +568pt 개선됐고, 상승분의 상당 부분은 medicube(+182pt)·COSRX(+66pt)·ANUA(+52pt) 등 일부 브랜드와 전주 0점이던 신규 진입 브랜드에서 나왔다. 반면 CeraVe(-131pt), The Ordinary(-73pt), Vanicream(-55pt) 등 일부 현지 브랜드는 점수가 하락했다.",
+    "implication": "원문 논리상 아마존은 미국 뷰티 시장 점유율 1위 채널(약 14.5%)이므로 BSR 점수는 미국 내 K뷰티 브랜드 성과의 대리 지표로 해석된다. 이번 주 개선은 medicube 같은 선두 브랜드의 제품 라인 확장(젤리 크림, 콜라겐 라인 등)이 순위에 반영된 결과로 읽히며, 30·90일 평균을 웃돌아 단순 노이즈 이상의 모멘텀 여부를 가늠할 지점이다. 다만 원문은 단일 주 데이터이고 일별 변동이 크다고 명시하므로 추세로 확정하기엔 이르다.",
+    "watch_points": [
+      "medicube·ANUA의 주간 점수가 30일·90일 평균(각 약 720pt·350pt대) 위에서 유지되는지",
+      "전주 0점에서 진입한 신규 브랜드(Kiehl's, Torriden, Mediheal 등)의 점수가 다음 주에도 이어지는지",
+      "K뷰티 유니버스 합산 BSR 총점이 2,353pt 수준을 유지하는지와 K뷰티 외 유니버스 대비 상대 흐름"
+    ]
+  },
+  "summarized_at": "2026-11-26T03:58:53+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "화장품"
+  ],
+  "themes": [
+    "K뷰티 수출 확대"
+  ],
+  "tagged_at": "2026-11-26T03:58:53+09:00"
 }

@@ -326,6 +326,28 @@
   "reason_checked": true
  },
  {
+  "id": "2026-11-13:반도체:industry_flip",
+  "date": "2026-11-13",
+  "type": "industry_down",
+  "severity": 1.5,
+  "stock_id": null,
+  "code": null,
+  "name": "반도체",
+  "industry": "반도체",
+  "report_id": null,
+  "headline": "반도체 리비전 방향 상향 → 하향 (상향 3 · 하향 4종목)",
+  "data": {
+   "week": "2026-W46",
+   "prev_week": "2026-W44",
+   "up": 3,
+   "down": 4,
+   "flat": 5,
+   "stocks": 12,
+   "ratio": -0.08
+  },
+  "title": null
+ },
+ {
   "id": "2026-11-13:제약·바이오:industry_flip",
   "date": "2026-11-13",
   "type": "industry_down",

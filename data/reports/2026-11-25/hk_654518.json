@@ -19,5 +19,23 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hk_654518",
-  "text_chars": 6630
+  "text_chars": 6630,
+  "summary": {
+    "items": [
+      {
+        "topic": "Strategy: 젠슨 황의 귀환, 불안이 기대로 바뀌는 변곡점",
+        "note": "엔비디아 +31.5%·SOX +14.0%로 복귀가 신뢰를 되돌렸고, 하락의 본질은 실적이 아닌 신뢰(KOSPI 이익 +35%, PER -62%)이며 韓 반도체·AI 밸류체인 중심 분할 매수를 지속."
+      },
+      {
+        "topic": "퀀틴전시 플랜: Welcome Back, Jensen Huang!",
+        "note": "젠슨 황 복귀로 AI 불확실성이 완화되며 투자심리가 급반전했고, 외국인 수급 개선과 매크로 부담 완화 속에 추세 전환 여부를 주목, AI 랠리가 밸류체인 전반 강세로 확산."
+      },
+      {
+        "topic": "은행업(Issue Comment): 최근 6개월동안 가장 선전 중인 섹터",
+        "note": "3분기 예상 밖 NIM 하락으로 주가는 약세였으나 최근 6개월 코스피 섹터 중 수익률 최고였고, 투자의견 비중확대(Overweight) 유지, NIM은 내년 1분기 이후 진정되어 27년 2분기부터 점진적 상승 전망."
+      }
+    ]
+  },
+  "summarized_at": "2026-11-26T04:00:31+09:00",
+  "desk": "데일리"
 }

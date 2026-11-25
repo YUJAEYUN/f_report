@@ -19,5 +19,42 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "hana_1289807",
-  "text_chars": 8759
+  "text_chars": 8759,
+  "summary": {
+    "one_liner": "알테오젠 Enhertu SC 임상1상의 등록 환자 수 76명→17명 변경은 Dose Escalation(Part 1) 모집 완료에 따른 것으로 우려할 사안이 아니며, 문제는 시장의 신뢰와 수급 회복이다.",
+    "ticker": "196170.KQ",
+    "rating": "BUY",
+    "rating_change": "유지",
+    "target_price": 410000,
+    "key_points": [
+      "ClinicalTrials.gov(NCT07015697)가 11/19 업데이트되며 Status가 Recruiting에서 Active, not recruiting으로, 등록 환자 수가 예상 76명에서 실제 17명으로 변경됨.",
+      "Status 변경은 현재 모집된 환자로 우선 임상을 진행한다는 의미이며, 환자 수 감소는 두 Arm 중 Part 1(Dose Escalation) 모집이 완료되었기 때문으로 Part 2(Dose Expansion) 진행 시 실제 환자 수는 다시 증가할 것으로 봄.",
+      "같은 Daiichi Sankyo의 NCT06244485 임상에서도 Active, not recruiting 전환 시 환자 수가 210명에서 98명으로 줄었다가 2026년 9월 210명으로 복원된 사례가 있어, 임상 진행에 따라 세부 사항이 수시로 변동될 수 있고 Enhertu SC에서도 반복될 것으로 전망함.",
+      "임상 1상은 3+3 또는 개량 방식이 많아 17명도 Dose Escalation에 충분하며, 제형 변경이라 탐색 용량 범위도 넓지 않을 것으로 판단함. Daiichi Sankyo가 임상 종료 일정을 지연시키지 않아 빠른 결과 확인 의지도 확인됨.",
+      "시장은 악재에 민감하고 ADC의 SC 전환을 위험하게 인식하고 있어, Part 1이 큰 무리 없이 Part 2로 넘어가는 것이 주요 호재가 될 것으로 봄."
+    ],
+    "risk_factors": [
+      "Enhertu SC는 다른 항체 SC보다 리스크가 크다고 인식되며, 시장이 악재에 민감하게 반응함.",
+      "임상 1상 변동 사유가 정확히 확인되지 않아 ClinicalTrials.gov상 세부 사항이 향후에도 변동될 수 있음.",
+      "회사의 임상 현황 설명이 시장에 충분히 설득되지 않아 신뢰와 수급 회복이 지연될 수 있음."
+    ]
+  },
+  "insight": {
+    "change": "ClinicalTrials.gov 상 Enhertu SC 임상1상의 Status와 등록 환자 수(76명→17명)가 바뀌며 임상 차질 우려가 불거졌으나, 리포트는 이를 Part 1 모집 완료에 따른 정상적인 표기 변화로 해석하고 쟁점을 임상 자체보다 시장의 신뢰와 수급 회복으로 옮겼다.",
+    "implication": "임상 데이터베이스의 표기 변동이 실제 임상 중단이나 실패를 뜻하지 않을 수 있다는 점에서, 유사 사례(NCT06244485)에서 환자 수가 복원된 전례가 이번 우려를 해석하는 근거가 된다. 따라서 주가 부담의 성격은 임상 펀더멘털 훼손보다 ADC SC 제형에 대한 불확실성 인식과 회사 설명의 설득력 부족에 있다는 것이 원문의 논리다.",
+    "watch_points": [
+      "Enhertu SC 임상1상 Part 1에서 Part 2(Dose Expansion)로의 진행 여부",
+      "ClinicalTrials.gov상 등록 환자 수와 Status의 추가 업데이트 및 임상 종료 일정 유지 여부",
+      "회사의 임상 현황 추가 설명과 이에 대한 시장 반응(수급 회복 여부)"
+    ]
+  },
+  "summarized_at": "2026-11-26T03:57:55+09:00",
+  "desk": "산업·기업",
+  "industries": [
+    "제약·바이오"
+  ],
+  "themes": [
+    "Enhertu SC 임상 우려"
+  ],
+  "tagged_at": "2026-11-26T03:57:55+09:00"
 }

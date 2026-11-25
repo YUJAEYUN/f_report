@@ -116,6 +116,15 @@
    "report_id": "hana_1289694",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-25",
+   "rating": "매수",
+   "target_price": 410000.0,
+   "source": "report",
+   "report_id": "hana_1289807",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
@@ -337,6 +346,55 @@
      "op": 412.3,
      "net": 363.8,
      "eps": 4962.0
+    }
+   },
+   "prev_target_price": null,
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 305.0,
+    "consensus": 293.9,
+    "gap_pct": 3.8
+   }
+  },
+  {
+   "date": "2026-11-25",
+   "report_id": "hana_1289807",
+   "title": "알테오젠(196170.KQ/BUY): 신뢰와 수급의 회복이 필요하다",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 410000.0,
+   "tp_status": null,
+   "price": 159700.0,
+   "upside_pct": 156.7,
+   "estimates": {
+    "2026": {
+     "revenue": 457.1,
+     "op": 305.0,
+     "net": 270.1,
+     "eps": 3841.0
+    },
+    "2027": {
+     "revenue": 593.3,
+     "op": 406.3,
+     "net": 351.2,
+     "eps": 4911.0
+    }
+   },
+   "consensus": {
+    "2026": {
+     "revenue": 451.0,
+     "op": 293.9,
+     "net": 271.3,
+     "eps": 3772.0
+    },
+    "2027": {
+     "revenue": 619.4,
+     "op": 412.3,
+     "net": 363.8,
+     "eps": 4961.0
     }
    },
    "prev_target_price": null,
@@ -685,6 +743,21 @@
    "report_id": "hana_1289694",
    "prev_report_id": "hana_1289456",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-25",
+   "prev_date": "2026-11-18",
+   "days": 7,
+   "year": "2027",
+   "metric": "eps",
+   "from": 4962.0,
+   "to": 4961.0,
+   "pct": -0.0,
+   "speed30": -0.0,
+   "turn": null,
+   "report_id": "hana_1289807",
+   "prev_report_id": "hana_1289694",
+   "broker": "하나증권"
   }
  ],
  "tp_consensus": [
@@ -772,6 +845,16 @@
   },
   {
    "date": "2026-11-18",
+   "mean": 393333,
+   "n": 3,
+   "brokers": {
+    "IBK투자증권": 320000.0,
+    "대신증권": 450000.0,
+    "하나증권": 410000.0
+   }
+  },
+  {
+   "date": "2026-11-25",
    "mean": 393333,
    "n": 3,
    "brokers": {

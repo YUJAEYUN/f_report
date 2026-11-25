@@ -6,6 +6,7 @@
  "brokers": [
   "LS증권",
   "메리츠증권",
+  "미래에셋증권",
   "상상인증권",
   "하나증권"
  ],
@@ -135,6 +136,15 @@
    "report_id": "hana_1289457",
    "tp_status": "하향",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-25",
+   "rating": "중립",
+   "target_price": 280000.0,
+   "source": "report",
+   "report_id": "mirae_2344540",
+   "tp_status": null,
+   "broker": "미래에셋증권"
   }
  ],
  "notes": [
@@ -306,6 +316,22 @@
     "consensus": 365.6,
     "gap_pct": -15.0
    }
+  },
+  {
+   "date": "2026-11-25",
+   "report_id": "mirae_2344540",
+   "title": "[화장품] LG생활건강 (051900/중립/신규): 기대와 숫자 사이",
+   "primary": true,
+   "broker": "미래에셋증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 280000.0,
+   "tp_status": null,
+   "price": 245500.0,
+   "upside_pct": 14.1,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -512,6 +538,18 @@
    "brokers": {
     "LS증권": 260000.0,
     "메리츠증권": 320000.0,
+    "상상인증권": 310000.0,
+    "하나증권": 270000.0
+   }
+  },
+  {
+   "date": "2026-11-25",
+   "mean": 288000,
+   "n": 5,
+   "brokers": {
+    "LS증권": 260000.0,
+    "메리츠증권": 320000.0,
+    "미래에셋증권": 280000.0,
     "상상인증권": 310000.0,
     "하나증권": 270000.0
    }

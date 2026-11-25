@@ -4,6 +4,7 @@
  "name": "리가켐바이오",
  "industry": "제약·바이오",
  "brokers": [
+  "iM증권",
   "하나증권"
  ],
  "timeline": [
@@ -60,6 +61,15 @@
    "report_id": "hana_1289639",
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-25",
+   "rating": "매수",
+   "target_price": 180000.0,
+   "source": "report",
+   "report_id": "hk_654535",
+   "tp_status": "하향",
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -105,6 +115,22 @@
     }
    },
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-25",
+   "report_id": "hk_654535",
+   "title": "리가켐바이오(141080) 터프해지는 환경 속 돋보일 경쟁력",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 180000.0,
+   "tp_status": "하향",
+   "price": 52600.0,
+   "upside_pct": 242.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 220000.0
   }
  ],
  "rating_changes": [
@@ -146,6 +172,20 @@
    "tp_speed30": -3.0,
    "report_id": "hana_1289639",
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-25",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 220000.0,
+   "tp_to": 180000.0,
+   "tp_pct": -18.2,
+   "tp_speed30": null,
+   "report_id": "hk_654535",
+   "implied_prev": true,
+   "broker": "iM증권"
   }
  ],
  "estimate_revisions": [],
@@ -182,11 +222,21 @@
    "brokers": {
     "하나증권": 140000.0
    }
+  },
+  {
+   "date": "2026-11-25",
+   "mean": 160000,
+   "n": 2,
+   "brokers": {
+    "iM증권": 180000.0,
+    "하나증권": 140000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
  "events": [
-  "2026-11-15:141080:tp_down:하나증권"
+  "2026-11-15:141080:tp_down:하나증권",
+  "2026-11-25:141080:tp_down:iM증권"
  ]
 }
