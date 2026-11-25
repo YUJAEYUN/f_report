@@ -1,0 +1,23 @@
+{
+  "source": "hana",
+  "bbs_cd": "2224",
+  "bbs_seq": "1289807",
+  "report_type": "individual",
+  "title": "알테오젠(196170.KQ/BUY): 신뢰와 수급의 회복이 필요하다",
+  "analyst": "김선아",
+  "published_date": "2026-11-25",
+  "published_time": "06:55:43",
+  "category": "기업분석",
+  "breadcrumb": "산업/기업 > 기업분석",
+  "preview_text": "■Enhertu SC 임상1상의 환자 수 감소, 유사한 사례도 있다\n알테오젠의 ALT-B4가 적용된 Enhertu SC 제형의 임상1상 NCT07015697의 현재 임상 현황이 11/19일자로 업데이트 되었다. 여기서 Status가 Recruiting에서 Active, not recruiting으로 변경된 것과 등록 환자수가 기존 76명(예상)에서 17명(실제)으로 변경되는 것이 문제되었다. 이 중 Status 변경은 현재 모집된 환자로만 우선 임상을 진행하겠다는 의미로 정상적으로 임상 중이니 우려하지 않아도 된다. 그리고 환자 수 감소는 두 개의 계획된 Arm 중 Part 1인 Dose Escalation 환자가 모집 완료되었기 때문으로 안전성 등의 이슈를 확인 후 두 번째 Arm인 Part 2 Dose Expansion을 진행할 때 Actual 환자 수는 다시 증가할 것으로 보인다. 듀피젠트+ALT-B4 임상1상(NCT07646548)의 경우 2026년6월 기존 40명(예상)에서 종료하는 시점인 2026년10월까지 40명이 유지되었는데, 이 임상은 건강한 지원자를 대상으로 했기 때문에 환자를 대상으로 하는 Enhertu SC와는 차이가 있다.\n유사한 사례로 같은 Daiichi Sankyo가 Sponsor인, Valemetostat와 Dxd 계열 ADC와의 병용 1상 NCT06244485를 보면, 2026년7월 Active, not recruiting으로 Status가 변경되면서 환자 수가 기존 210명(예상)에서 98명(실제)으로 변경되었다. 이후 해당 임상은 2026년9월 환자 수가 다시 기존 210명(예상)으로 증가했는데 status는 Active, not recruiting 그대로를 유지하고 있다. 1상이다 보니 이렇게 변경된 이유는 정확히 확인되지 않는데, 중요한 것은 이러한 사례로부터 알 수 있는 바와 같이 임상 진행 현황에 따라 Clinical Trials 홈페이지 상에서 확인되는 세부 사항이 수시로 변동될 수 있고 수 개월 후 Enhertu SC 임상에도 반복될 것 같다는 것이다. 이번 업데이트에서 Daiichi Sankyo가 임상 종료 일정을 지연시키지 않았기 때문에, 속히 결과를 확인하고 싶어 하는 의지는 확인하였다.\n\n■17명으로도 Dose Escalation은 가능하다, 문제는 신뢰와 수급의 회복\n이번 사건에서 시장이 궁금해 한 다른 의문은 Dose Escalation을 하기에 17명이 너무 적지 않냐는 것이다. 많은 임상1상 디자인이 3+3이나 여기서 개량된 방식을 따르기 때문에 17명도 충분하다고 판단이 되고(도표 3 참고), 완전 신약이 아니라 제형 변경이기 때문에 예측된 수준의 독성이나 효능에 있어서 탐색하는 용량 범위도 그리 넓을 것 같지 않다. 듀피젠트+ALT-B4 임상도 면역질환 치료제임에도 1상은 40명으로 완료했고, 3상은 150명을 모집 중이다. 따라서 환자 수는 너무 우려하지 않아도 될 것 같다.\n그보다 여전히 시장은 악재에 민감하고 ADC를 SC로 변경하는 시도를 위험하게 인식하고 있는데, Enhertu SC 임상 현황에 대한 회사의 설명이 시장에 충분히 설득되지 않는 상황이 문제였던 것으로 보인다. Enhertu SC는 다른 항체 SC 보다 리스크가 크다고 인식되고 있는 만큼, 향후 Part 1이 큰 무리 없이 Part 2로 넘어가는 것이 주요 호재가 될 것이다.",
+  "pdf_url": "https://www.hanaw.com/main/research/research/download.cmd?bbsSeq=1289807&attachFileSeq=1&bbsId=&dbType=&bbsCd=2224",
+  "pdf_filename": "alteogen_issue_261125.pdf",
+  "source_url": "https://www.hanaw.com/main/research/research/list.cmd?pid=0&cid=0&bbsCd=2224&bbsSeq=1289807",
+  "collected_at": "2026-11-25T18:51:29+00:00",
+  "broker": "하나증권",
+  "stock_code": null,
+  "list_rating": null,
+  "list_target_price": null,
+  "report_id": "hana_1289807",
+  "text_chars": 8759
+}
