@@ -4,7 +4,8 @@
  "name": "디어유",
  "industry": "미디어·콘텐츠",
  "brokers": [
-  "iM증권"
+  "iM증권",
+  "유안타증권"
  ],
  "timeline": [
   {
@@ -15,6 +16,15 @@
    "report_id": "hk_653874",
    "tp_status": "유지",
    "broker": "iM증권"
+  },
+  {
+   "date": "2026-11-26",
+   "rating": "매수",
+   "target_price": 30000.0,
+   "source": "report",
+   "report_id": "hk_654580",
+   "tp_status": null,
+   "broker": "유안타증권"
   }
  ],
  "notes": [],
@@ -34,6 +44,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-26",
+   "report_id": "hk_654580",
+   "title": "디어유(376300) 하방은 닫히고, 옵션은 열렸다",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 30000.0,
+   "tp_status": null,
+   "price": 21700.0,
+   "upside_pct": 38.2,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [],
@@ -46,6 +72,15 @@
    "n": 1,
    "brokers": {
     "iM증권": 32000.0
+   }
+  },
+  {
+   "date": "2026-11-26",
+   "mean": 31000,
+   "n": 2,
+   "brokers": {
+    "iM증권": 32000.0,
+    "유안타증권": 30000.0
    }
   }
  ],

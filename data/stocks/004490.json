@@ -2,7 +2,7 @@
  "id": "004490",
  "code": "004490",
  "name": "세방전지",
- "industry": "자동차·부품",
+ "industry": "2차전지",
  "brokers": [
   "하나증권"
  ],
@@ -15,10 +15,43 @@
    "report_id": null,
    "tp_status": null,
    "broker": "하나증권"
+  },
+  {
+   "date": "2026-11-26",
+   "rating": "NR",
+   "target_price": null,
+   "source": "report",
+   "report_id": "hana_1289823",
+   "tp_status": null,
+   "broker": "하나증권"
   }
  ],
  "notes": [],
- "observations": [],
+ "observations": [
+  {
+   "date": "2026-11-26",
+   "report_id": "hana_1289823",
+   "title": "세방전지(004490.KS/NR): 외생 변수에 꺾인 3분기, 이제 회복과 ESS 기여 앞둬",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "tp_status": null,
+   "price": null,
+   "upside_pct": null,
+   "estimates": {},
+   "consensus": {
+    "2026": {
+     "revenue": 2520.0,
+     "op": 200.0,
+     "net": 182.0,
+     "eps": 12934.0
+    }
+   },
+   "prev_target_price": null
+  }
+ ],
  "rating_changes": [],
  "estimate_revisions": [],
  "consensus_changes": [],

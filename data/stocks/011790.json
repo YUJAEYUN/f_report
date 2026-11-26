@@ -4,7 +4,8 @@
  "name": "SKC",
  "industry": "2차전지",
  "brokers": [
-  "SK증권"
+  "SK증권",
+  "유안타증권"
  ],
  "timeline": [
   {
@@ -15,6 +16,15 @@
    "report_id": "hk_653435",
    "tp_status": "하향",
    "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-26",
+   "rating": "중립",
+   "target_price": 71000.0,
+   "source": "report",
+   "report_id": "hk_654578",
+   "tp_status": "하향",
+   "broker": "유안타증권"
   }
  ],
  "notes": [],
@@ -34,9 +44,40 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-26",
+   "report_id": "hk_654578",
+   "title": "SKC(011790) 2027년 영업 흑전 vs 2가지 숙제!",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 71000.0,
+   "tp_status": "하향",
+   "price": 63200.0,
+   "upside_pct": 12.3,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 110000.0
   }
  ],
- "rating_changes": [],
+ "rating_changes": [
+  {
+   "date": "2026-11-26",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 110000.0,
+   "tp_to": 71000.0,
+   "tp_pct": -35.5,
+   "tp_speed30": null,
+   "report_id": "hk_654578",
+   "implied_prev": true,
+   "broker": "유안타증권"
+  }
+ ],
  "estimate_revisions": [],
  "consensus_changes": [],
  "tp_consensus": [
@@ -47,9 +88,20 @@
    "brokers": {
     "SK증권": 100000.0
    }
+  },
+  {
+   "date": "2026-11-26",
+   "mean": 85500,
+   "n": 2,
+   "brokers": {
+    "SK증권": 100000.0,
+    "유안타증권": 71000.0
+   }
   }
  ],
  "tp_consensus_changes": [],
  "broker_waves": [],
- "events": []
+ "events": [
+  "2026-11-26:011790:tp_down:유안타증권"
+ ]
 }

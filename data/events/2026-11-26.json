@@ -1,0 +1,107 @@
+[
+ {
+  "id": "2026-11-26:253450:tp_cons_up:",
+  "date": "2026-11-26",
+  "type": "tp_cons_up",
+  "severity": 2.94,
+  "stock_id": "253450",
+  "code": "253450",
+  "name": "스튜디오드래곤",
+  "industry": "미디어·콘텐츠",
+  "report_id": "hk_654565",
+  "headline": "목표주가 컨센서스 34,000원 → 39,000원 (+14.7%, 2개사)",
+  "data": {
+   "date": "2026-11-26",
+   "from": 34000,
+   "to": 39000,
+   "pct": 14.7,
+   "n": 2,
+   "brokers": [
+    "대신증권"
+   ],
+   "report_id": "hk_654565",
+   "cum30": null
+  },
+  "title": "스튜디오드래곤(253450) 이제부터 진검승부"
+ },
+ {
+  "id": "2026-11-26:009830:tp_down:유안타증권",
+  "date": "2026-11-26",
+  "type": "tp_down",
+  "severity": 2.53,
+  "stock_id": "009830",
+  "code": "009830",
+  "name": "한화솔루션",
+  "industry": "태양광·신재생",
+  "report_id": "hk_654579",
+  "headline": "유안타증권 목표주가 33,862원 → 21,000원 (-38.0%)",
+  "data": {
+   "date": "2026-11-26",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 33862.0,
+   "tp_to": 21000.0,
+   "tp_pct": -38.0,
+   "tp_speed30": null,
+   "report_id": "hk_654579",
+   "implied_prev": true,
+   "broker": "유안타증권"
+  },
+  "title": "한화솔루션(009830) 2027년 실적 소폭 개선 vs 현금흐름 부족"
+ },
+ {
+  "id": "2026-11-26:011790:tp_down:유안타증권",
+  "date": "2026-11-26",
+  "type": "tp_down",
+  "severity": 2.37,
+  "stock_id": "011790",
+  "code": "011790",
+  "name": "SKC",
+  "industry": "2차전지",
+  "report_id": "hk_654578",
+  "headline": "유안타증권 목표주가 110,000원 → 71,000원 (-35.5%)",
+  "data": {
+   "date": "2026-11-26",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 110000.0,
+   "tp_to": 71000.0,
+   "tp_pct": -35.5,
+   "tp_speed30": null,
+   "report_id": "hk_654578",
+   "implied_prev": true,
+   "broker": "유안타증권"
+  },
+  "title": "SKC(011790) 2027년 영업 흑전 vs 2가지 숙제!"
+ },
+ {
+  "id": "2026-11-26:253450:tp_up:대신증권",
+  "date": "2026-11-26",
+  "type": "tp_up",
+  "severity": 1.91,
+  "stock_id": "253450",
+  "code": "253450",
+  "name": "스튜디오드래곤",
+  "industry": "미디어·콘텐츠",
+  "report_id": "hk_654565",
+  "headline": "대신증권 목표주가 35,000원 → 45,000원 (+28.6%)",
+  "data": {
+   "date": "2026-11-26",
+   "prev_date": "2026-11-06",
+   "days": 20,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 35000.0,
+   "tp_to": 45000.0,
+   "tp_pct": 28.6,
+   "tp_speed30": 42.9,
+   "report_id": "hk_654565",
+   "broker": "대신증권"
+  },
+  "title": "스튜디오드래곤(253450) 이제부터 진검승부"
+ }
+]

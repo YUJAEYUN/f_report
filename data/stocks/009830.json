@@ -6,6 +6,7 @@
  "brokers": [
   "iM증권",
   "미래에셋증권",
+  "유안타증권",
   "유진투자증권",
   "하나증권"
  ],
@@ -153,6 +154,15 @@
    "report_id": "mirae_2344301",
    "tp_status": "상향",
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-26",
+   "rating": "중립",
+   "target_price": 21000.0,
+   "source": "report",
+   "report_id": "hk_654579",
+   "tp_status": "하향",
+   "broker": "유안타증권"
   }
  ],
  "notes": [],
@@ -318,6 +328,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
+  },
+  {
+   "date": "2026-11-26",
+   "report_id": "hk_654579",
+   "title": "한화솔루션(009830) 2027년 실적 소폭 개선 vs 현금흐름 부족",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 21000.0,
+   "tp_status": "하향",
+   "price": 19460.0,
+   "upside_pct": 7.9,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": 33862.0
   }
  ],
  "rating_changes": [
@@ -477,6 +503,20 @@
    "tp_speed30": 10.8,
    "report_id": "mirae_2344301",
    "broker": "미래에셋증권"
+  },
+  {
+   "date": "2026-11-26",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "중립",
+   "rating_to": "중립",
+   "tp_from": 33862.0,
+   "tp_to": 21000.0,
+   "tp_pct": -38.0,
+   "tp_speed30": null,
+   "report_id": "hk_654579",
+   "implied_prev": true,
+   "broker": "유안타증권"
   }
  ],
  "estimate_revisions": [],
@@ -601,6 +641,18 @@
     "유진투자증권": 50000.0,
     "하나증권": 40000.0
    }
+  },
+  {
+   "date": "2026-11-26",
+   "mean": 37200,
+   "n": 5,
+   "brokers": {
+    "iM증권": 40000.0,
+    "미래에셋증권": 35000.0,
+    "유안타증권": 21000.0,
+    "유진투자증권": 50000.0,
+    "하나증권": 40000.0
+   }
   }
  ],
  "tp_consensus_changes": [
@@ -621,6 +673,7 @@
  "events": [
   "2026-10-29:009830:tp_down:하나증권",
   "2026-10-30:009830:tp_down:유진투자증권",
+  "2026-11-26:009830:tp_down:유안타증권",
   "2026-10-29:009830:gap_below:하나증권"
  ]
 }

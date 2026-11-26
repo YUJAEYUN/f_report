@@ -17123,6 +17123,46 @@
    }
   }
  ],
+ "hana_1289823": [
+  {
+   "stock_id": "004490",
+   "name": "세방전지",
+   "code": "004490",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "NR",
+   "rating_status": null,
+   "target_price": null,
+   "price": null,
+   "upside_pct": null,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hana_1289827": [
+  {
+   "stock_id": "004690",
+   "name": "삼천리",
+   "code": "004690",
+   "primary": true,
+   "broker": "하나증권",
+   "rating": "매수",
+   "rating_status": "유지",
+   "target_price": 160000.0,
+   "price": 128700.0,
+   "upside_pct": 24.3,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": {
+    "year": "2026",
+    "metric": "op",
+    "estimate": 202.8,
+    "consensus": 183.5,
+    "gap_pct": 10.5
+   }
+  }
+ ],
  "hk_652367": [
   {
    "stock_id": "028670",
@@ -36454,6 +36494,146 @@
    "target_price": 430000.0,
    "price": 359000.0,
    "upside_pct": 19.8,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654563": [
+  {
+   "stock_id": "001040",
+   "name": "CJ",
+   "code": "001040",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 132000.0,
+   "price": 120400.0,
+   "upside_pct": 9.6,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654564": [
+  {
+   "stock_id": "035760",
+   "name": "CJ ENM",
+   "code": "035760",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 60000.0,
+   "price": 53400.0,
+   "upside_pct": 12.4,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654565": [
+  {
+   "stock_id": "253450",
+   "name": "스튜디오드래곤",
+   "code": "253450",
+   "primary": true,
+   "broker": "대신증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 45000.0,
+   "price": 34000.0,
+   "upside_pct": 32.4,
+   "rating_change": {
+    "rating_from": "매수",
+    "rating_to": "매수",
+    "tp_from": 35000.0,
+    "tp_to": 45000.0,
+    "tp_pct": 28.6,
+    "prev_date": "2026-11-06"
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654578": [
+  {
+   "stock_id": "011790",
+   "name": "SKC",
+   "code": "011790",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 71000.0,
+   "price": 63200.0,
+   "upside_pct": 12.3,
+   "rating_change": {
+    "rating_from": "중립",
+    "rating_to": "중립",
+    "tp_from": 110000.0,
+    "tp_to": 71000.0,
+    "tp_pct": -35.5,
+    "prev_date": null
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654579": [
+  {
+   "stock_id": "009830",
+   "name": "한화솔루션",
+   "code": "009830",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "중립",
+   "rating_status": null,
+   "target_price": 21000.0,
+   "price": 19460.0,
+   "upside_pct": 7.9,
+   "rating_change": {
+    "rating_from": "중립",
+    "rating_to": "중립",
+    "tp_from": 33862.0,
+    "tp_to": 21000.0,
+    "tp_pct": -38.0,
+    "prev_date": null
+   },
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654580": [
+  {
+   "stock_id": "376300",
+   "name": "디어유",
+   "code": "376300",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 30000.0,
+   "price": 21700.0,
+   "upside_pct": 38.2,
+   "rating_change": null,
+   "estimate_revisions": [],
+   "gap": null
+  }
+ ],
+ "hk_654581": [
+  {
+   "stock_id": "074600",
+   "name": "원익QnC",
+   "code": "074600",
+   "primary": true,
+   "broker": "유안타증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 40000.0,
+   "price": 23400.0,
+   "upside_pct": 70.9,
    "rating_change": null,
    "estimate_revisions": [],
    "gap": null
