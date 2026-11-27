@@ -1,0 +1,31 @@
+[
+ {
+  "id": "2026-11-27:003220:tp_down:SK증권",
+  "date": "2026-11-27",
+  "type": "tp_down",
+  "severity": 1.78,
+  "stock_id": "003220",
+  "code": "003220",
+  "name": "대원제약",
+  "industry": "제약·바이오",
+  "report_id": "hk_654600",
+  "headline": "SK증권 목표주가 15,000원 → 11,000원 (-26.7%)",
+  "data": {
+   "date": "2026-11-27",
+   "prev_date": null,
+   "days": null,
+   "rating_from": "매수",
+   "rating_to": "매수",
+   "tp_from": 15000.0,
+   "tp_to": 11000.0,
+   "tp_pct": -26.7,
+   "tp_speed30": null,
+   "report_id": "hk_654600",
+   "implied_prev": true,
+   "broker": "SK증권"
+  },
+  "title": "대원제약(003220) 4분기 회복, R&D 모멘텀 주목",
+  "reason": "업종 멀티플 하락에 따라 타겟 멀티플을 기존 16.2배에서 8배로 변경하고 27년 EBITDA 추정치를 적용해 목표주가를 산출했다고 밝혔다.",
+  "reason_checked": true
+ }
+]

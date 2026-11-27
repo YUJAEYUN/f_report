@@ -4,6 +4,7 @@
  "name": "영원무역",
  "industry": "유통·소비재",
  "brokers": [
+  "SK증권",
   "유진투자증권",
   "하나증권",
   "한화투자증권"
@@ -35,6 +36,15 @@
    "report_id": "hk_654517",
    "tp_status": "하향",
    "broker": "유진투자증권"
+  },
+  {
+   "date": "2026-11-27",
+   "rating": "매수",
+   "target_price": 90000.0,
+   "source": "report",
+   "report_id": "hk_654599",
+   "tp_status": "하향",
+   "broker": "SK증권"
   }
  ],
  "notes": [],
@@ -128,6 +138,22 @@
    "estimates": {},
    "consensus": {},
    "prev_target_price": 120000.0
+  },
+  {
+   "date": "2026-11-27",
+   "report_id": "hk_654599",
+   "title": "영원무역(111770) 좋지 않은 여건, 그럼에도 실적 방어력은 우수",
+   "primary": true,
+   "broker": "SK증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 90000.0,
+   "tp_status": "하향",
+   "price": 71600.0,
+   "upside_pct": 25.7,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
   }
  ],
  "rating_changes": [
@@ -162,6 +188,16 @@
    "mean": 100000,
    "n": 2,
    "brokers": {
+    "유진투자증권": 100000.0,
+    "한화투자증권": 100000.0
+   }
+  },
+  {
+   "date": "2026-11-27",
+   "mean": 96667,
+   "n": 3,
+   "brokers": {
+    "SK증권": 90000.0,
     "유진투자증권": 100000.0,
     "한화투자증권": 100000.0
    }

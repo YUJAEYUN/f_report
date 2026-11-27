@@ -221,6 +221,15 @@
    "report_id": "hk_654545",
    "tp_status": null,
    "broker": "SK증권"
+  },
+  {
+   "date": "2026-11-27",
+   "rating": "매수",
+   "target_price": 580000.0,
+   "source": "report",
+   "report_id": "hk_654619",
+   "tp_status": "유지",
+   "broker": "iM증권"
   }
  ],
  "notes": [],
@@ -561,6 +570,22 @@
    "tp_status": null,
    "price": 359000.0,
    "upside_pct": 19.8,
+   "estimates": {},
+   "consensus": {},
+   "prev_target_price": null
+  },
+  {
+   "date": "2026-11-27",
+   "report_id": "hk_654619",
+   "title": "현대모비스(012330) 업종 내에서 가장 좋은 이익 모멘텀",
+   "primary": true,
+   "broker": "iM증권",
+   "rating": "매수",
+   "rating_status": null,
+   "target_price": 580000.0,
+   "tp_status": "유지",
+   "price": 329500.0,
+   "upside_pct": 76.0,
    "estimates": {},
    "consensus": {},
    "prev_target_price": null
@@ -1233,6 +1258,21 @@
   },
   {
    "date": "2026-11-25",
+   "mean": 608750,
+   "n": 8,
+   "brokers": {
+    "LS증권": 570000.0,
+    "SK증권": 430000.0,
+    "iM증권": 580000.0,
+    "메리츠증권": 750000.0,
+    "유안타증권": 660000.0,
+    "유진투자증권": 630000.0,
+    "하나증권": 550000.0,
+    "한화투자증권": 700000.0
+   }
+  },
+  {
+   "date": "2026-11-27",
    "mean": 608750,
    "n": 8,
    "brokers": {

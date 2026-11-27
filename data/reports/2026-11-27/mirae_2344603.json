@@ -19,5 +19,34 @@
   "list_rating": null,
   "list_target_price": null,
   "report_id": "mirae_2344603",
-  "text_chars": 430
+  "text_chars": 430,
+  "summary": {
+    "one_liner": "NAV Dashboard Weekly: 지주회사 제도 논의가 윤곽을 드러내고 지주회사 주가가 반등했다는 주간 점검 리포트(본문은 불릿 기호와 차트 축 라벨만 추출되어 세부 내용 확인 불가).",
+    "ticker": null,
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "key_points": [
+      "제목상 핵심 메시지는 '윤곽을 드러낸 제도'와 '반등한 지주회사'",
+      "LG, HD현대, 한화, LS, CJ 등 주요 지주회사의 주가 차트(원 단위)가 포함된 것으로 보임",
+      "NAV(순자산가치) 대시보드 형식의 주간 정기 점검물",
+      "제공된 본문에 수치·논거 문장이 없어 구체적 내용은 확인 불가"
+    ],
+    "risk_factors": []
+  },
+  "insight": {
+    "change": "제목상 지주회사 관련 제도의 윤곽이 구체화되었고 지주회사 주가가 반등했다는 점이 강조된 변화이나, 구체적 제도 내용과 비교 기준은 본문에서 확인되지 않는다.",
+    "implication": "제도 방향성이 가시화되면서 지주회사 주가 흐름에 영향을 준 것으로 제목은 시사하지만, 구체적 논리는 본문 부재로 해석할 수 없다.",
+    "watch_points": [
+      "원문 전체 확인 후 제도 세부 내용 검증",
+      "LG·HD현대·한화·LS·CJ 등 지주회사의 NAV 할인율 추이"
+    ]
+  },
+  "summarized_at": "2026-11-28T03:36:05+09:00",
+  "desk": "시황·전략",
+  "industries": [],
+  "themes": [
+    "밸류업·저PBR"
+  ],
+  "tagged_at": "2026-11-28T03:36:05+09:00"
 }
